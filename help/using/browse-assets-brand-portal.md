@@ -9,16 +9,16 @@ content-type: 引用
 topic-tags: introduction
 discoiquuid: a70ce694-81d 1-4829-e61-b6412 e013 e5 c
 translation-type: tm+mt
-source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # 在Brand Portal上浏览资产 {#browsing-assets-on-brand-portal}
 
-[!DNL AEM] Assets[！DNL Brand Portal提供各种功能和用户界面元素，可帮助浏览资源、遍历资源层次结构和在使用不同视图选项的同时搜索资源。
+AEM Assets Brand Portal提供各种功能和用户界面元素，可帮助浏览资源、遍历资源层次结构和在使用不同视图选项的同时搜索资源。
 
-[!DNL AEM][!DNL AEM] 工具栏中的徽标可方便管理员用户访问管理工具面板。
+顶部AEM工具栏中的AEM徽标可方便管理员用户访问管理工具面板。
 
 ![](assets/aemlogo.png)
 
@@ -26,17 +26,17 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 
 ![](assets/bp_subheader.png)
 
-左上角的边栏选择器 [!DNL Brand Portal] 可显示用于导航到资产层次结构、简化搜索和显示资源的选项。
+Brand Portal中左上角的边栏选择器可显示用于导航到资产层次结构、简化搜索和显示资源的选项。
 
 ![](assets/siderail-1.png)
 
-您可以在右上角的视图选择器中使用任何可用视图(卡片、列和列表)查看、导航和选择资产 [!DNL Brand Portal]。
+您可以在Brand Portal右上角的视图选择器中使用任何可用视图(卡片、列和列表)查看、导航和选择资产。
 
 ![](assets/viewselector.png)
 
 ## 查看和选择资源 {#viewing-and-selecting-resources}
 
-从概念上讲，所有视图中的查看、导航和选择操作都相同，只是操作方法根据所使用的视图而略有差异。
+从概念上讲，在所有视图中查看、导航和选择每个视图都相同，但处理方式较小，具体取决于所使用的视图。
 
 您可以使用任何可用视图查看、浏览和选择资源(以进一步操作)：
 
@@ -54,7 +54,7 @@ source-git-commit: 770c353b1143d879280df310012ce9d4d30b40c9
 * 类型
 * 标题
 * 名称
-* 资产发布到 [!DNL Brand Portal] 的日期和时间 [!DNL AEM]
+* 资产从AEM发布到Brand Portal时的日期和时间
 * 大小
 * 尺寸
 
@@ -67,7 +67,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 文件夹的卡片，在卡片视图中，将文件夹层次结构信息显示给非管理员用户(编辑器、查看器和客人用户)。此功能可让用户了解文件夹相对于父级层次结构的位置。
 文件夹层次结构信息在区分文件夹的名称与从其他文件夹层次结构共享的其他文件夹时特别有用。如果非管理员用户不知道与其共享的资产的文件夹结构，则具有类似名称的资产/folders似乎难以理解。
 
-* 将截断各个卡上显示的路径以适合卡大小。但是，用户可以将整个路径视为一个将指针悬停在截断路径上方的工具。
+* 将截断各个卡上显示的路径以适合卡大小。但是，用户可以将整个路径视为悬停在截断路径上方的工具提示。
 
 ![](assets/folder-hierarchy1.png)
 
@@ -75,10 +75,10 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 非管理员用户(编辑器、查看器、客人用户)可使用概述选项查看选定资产/文件夹的资产属性。概述选项可见：
 
-1. 选择资产/文件夹时顶部的工具栏中。
-2. 在选择边栏选择器时，请进入下拉菜单。
+* 工具栏中的工具栏中。
+* 下拉菜单中。
 
-在选择资产/文件夹时选择“概述”选项，用户可以查看资产创建的标题、路径和时间。但是，在资产详细信息页面上选择概述选项后，用户可以看到资产的元数据。
+在选择资产/文件夹时选择 [!UICONTROL “概述] ”选项，用户可以查看资产创建的标题、路径和时间。但是，在资产详细信息页面上选择概述选项后，用户可以看到资产的元数据。
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 #### 在卡片视图中查看设置
 
-在从视图选择器中选择查看设置时，将打开查看设置对话框。它允许您在卡片视图中调整资产缩略图的大小。这样，您就可以个性化视图并控制显示的缩略图数量。
+[!UICONTROL 在从视图] 选择器中选择 **[!UICONTROL 查看设置]** 时，将打开查看设置对话框。它允许您在卡片视图中调整资产缩略图的大小。这样，您就可以个性化视图并控制显示的缩略图数量。
 
 ![](assets/cardviewsettings.png)
 
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 在列表视图中查看设置
 
-默认情况下，列表视图将资产 **名称** 显示为第一列。还会显示资产标题、区域设置、类型、维度、大小、评级、发布状态等其他信息。但是，您可以使用查看设置选择要显示的列。
+默认情况下，列表视图将资产 [!UICONTROL 名称] 显示为第一列。还会显示其他信息，如资产 [!UICONTROL 标题]、 [!UICONTROL 区域设置]、 [!UICONTROL 类型]、 [!UICONTROL 维度]、 [!UICONTROL 大小]、 [!UICONTROL 评级]、发布状态。However, you can select the columns to be shown using [!UICONTROL View Settings].
 
 ![](assets/list-view-setting.png)
 
@@ -139,7 +139,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * 标题
 * 名称
 * 尺寸
-* 资产发布到 [!DNL Brand Portal] 的日期和时间 [!DNL AEM]
+* 资产从AEM发布到Brand Portal时的日期和时间
 * 大小
 * 类型
 * 更多详细信息选项，转到资产的详细信息页面
@@ -232,7 +232,7 @@ Comment Type: draft
 
 除了这些视图之外，还可使用树视图在您查看和选择所需资产或文件夹时向下展开资产层次结构。
 
-要打开树视图，请点按/单击左上角的边栏选择器，然后从菜单中选择 **内容树** 。
+要打开树视图，请点按/单击左上角的边栏选择器，然后从菜单中选择 **[!UICONTROL 内容树]** 。
 
 ![](assets/contenttree.png)
 
@@ -246,7 +246,7 @@ Comment Type: draft
 
 ![](assets/asset-detail.png)
 
-要概述资产的元数据或查看其各种演绎版，请使用资产详细信息页面上的边栏选择器。
+要查看资产的元数据或查看其各种演绎版，请使用资产详细信息页面上的边栏选择器。
 
 ![](assets/asset-overview.png)
 
@@ -254,8 +254,8 @@ Comment Type: draft
 
 ![](assets/renditions.png)
 
-要打开资产属性页面，请在顶部栏中使用 *属性(p)* 选项。
+要打开资产属性页面，请使用 **[!UICONTROL 顶部栏中的属性(p)]** 选项。
 
 ![](assets/asset-properties.png)
 
-您还可以在资产的属性页面上查看其所有相关资产(源资产或派生资产)的列表，因为资产关系也会从中发布 [!DNL AEM][!DNL Brand Portal]。
+您还可以在资产的属性页面上查看其所有相关资产(源资产或派生资产)的列表，因为资产关系也会从AEM发布到Brand Portal。
