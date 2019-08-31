@@ -10,7 +10,7 @@ content-type: 引用
 topic-tags: 下载安装
 discoiquuid: e18d992a-a3 b5-45f2-9696-81693213ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -112,13 +112,10 @@ Egles IPS如下所示：
 
 1. 从Brand Portal顶部的工具栏中选择AEM徽标以访问管理工具。
 
-2. 从管理工具面板中，选择 **[!UICONTROL 视频]** 拼贴。
-
-![Brand Portal上的动态媒体混合配置](assets/DMHybrid-Video.png)
-
-**[!UICONTROL 此时将打开“编辑Dynamic Media配置]** ”页面。
-
-![Brand Portal上的动态媒体混合配置](assets/edit-dynamic-media-config.png)
+2. 从管理工具面板中，选择 **[!UICONTROL 视频]** 拼贴。<br />
+   ![Brand Portal上的动态媒体混合配置](assets/DMHybrid-Video.png)
+   **[!UICONTROL 此时将打开“编辑Dynamic Media配置]** ”页面。<br />
+   ![Brand Portal上的动态媒体混合配置](assets/edit-dynamic-media-config.png)
 
 3. 指定 **[!UICONTROL 注册ID]** 和 **[!UICONTROL 视频服务URL]** (DM-Gateway URL)。确保这些详细信息与AEM创作实例中 **[!UICONTROL 工具&gt;云服务]** 中的详细信息相同。
 
@@ -132,12 +129,10 @@ Egles IPS如下所示：
 
 1. 从Brand Portal顶部的工具栏中选择AEM徽标以访问管理工具。
 
-2. 从管理工具面板中，选择 **[!UICONTROL Dynamic Media配置]** 拼贴。
+2. 从管理工具面板中，选择 **[!UICONTROL Dynamic Media配置]** 拼贴。<br />
    ![Brand Portal上的DM [!UICONTROL Scene] 配置](assets/DMS7-Tile.png)
-
-[!UICONTROL 此时将打开“编辑Dynamic Media配置] ”页面。
-
-![Scene在Brand Portal上的配置](assets/S7Config.png)
+   [!UICONTROL 此时将打开“编辑Dynamic Media配置] ”页面。<br />
+   ![Scene在Brand Portal上的配置](assets/S7Config.png)
 
 3. 提供：
    * [!UICONTROL 标题]
