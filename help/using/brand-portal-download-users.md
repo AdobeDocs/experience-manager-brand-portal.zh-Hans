@@ -9,14 +9,14 @@ products: SG_ EXPERIENCE MANAGER/Brand_ Portal
 topic-tags: 下载安装
 discoiquuid: f90c2214-beea-4695-9102-8b952 bc9 fd17
 translation-type: tm+mt
-source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
 # 下载资源 {#download-assets}
 
-所有用户可以同时下载可供他们访问的多个资产和文件夹 [!DNL Brand Portal]。这样，经过批准的品牌资产可以安全地分发以供脱机使用。阅读了解如何从中下载获准的资产 [!DNL Brand Portal]以及从 [下载性能中预期什么](../using/brand-portal-download-users.md#main-pars-header)。
+所有用户可以同时从Brand Portal下载多个资产和文件夹。这样，经过批准的品牌资产可以安全地分发以供脱机使用。阅读了解如何从Brand Portal下载获准的资源，以及如何从 [下载性能中受益](../using/brand-portal-download-users.md#main-pars-header)。
 
 >[!NOTE]
 >
@@ -24,55 +24,55 @@ source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
 
 ## 下载资产的步骤 {#steps-to-download-assets}
 
-要下载包含资产的 [!DNL Brand Portal]资产或文件夹，请按照以下步骤操作：
+要下载包含品牌门户资源的资产或文件夹，请执行以下步骤：
 
-1. 在 [!DNL Brand Portal] 界面中，执行下列操作之一：
+1. 在Brand Portal界面中，执行下列操作之一：
 
-   * 选择要下载的文件夹或资产。从顶部的工具栏中，单击 **下载** 图标。
+   * 选择要下载的文件夹或资产。从顶部的工具栏中，单击 **[!UICONTROL 下载]** 图标。
    ![](assets/downloadassets-1.png)
 
-   * 要下载单个文件夹或资产，请将指针悬停在该文件夹或资产上。从可用的快速操作缩略图中，单击 **下载** 图标。
+   * 要下载单个文件夹或资产，请将指针悬停在该文件夹或资产上。从可用的快速操作缩略图中，单击 **[!UICONTROL 下载]** 图标。
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >如果您下载的资产还包含许可的资产，则您将被重定向到 **“版权管理** ”页面。在此页面中，选择资产，单击 **“同意”**，然后单击 **“下载**”。如果您选择不同意，则不会下载许可的资产。\
-   >受许可保护的资产已 [附加](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 许可协议，通过在资产中设置资产 [的元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 来完成此 [!DNL AEM] 操作。
+   >如果您下载的资产还包含许可的资产，则您将被重定向到 **[!UICONTROL “版权管理]** ”页面。在此页面中，选择资产，单击 **[!UICONTROL “同意”]**，然后单击 **[!UICONTROL “下载]**”。如果您选择不同意，则不会下载许可的资产。\
+   >受许可保护的资产已 [附加](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 许可协议，通过在AEM资产中设置资产 [的元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 来完成此操作。
 
    ![](assets/licensed-asset-download-1.png)
 
-   此时将显示 **“下载** ”对话框，默认情况下选择 **“资产”** 选项。
+   此时将显示 **[!UICONTROL “下载]** ”对话框，默认情况下选择 **[!UICONTROL “资产”]** 选项。
 
    ![](assets/donload-assets-dialog-1.png)
 
    >[!NOTE]
    >
-   >如果您正在下载的资产是图像文件，且您只选择“下载”对话框中的 **“资产”** 选项，但管理员 [未授权管理员访问图像文件](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) 的原始演绎版，则管理员将无法下载图像文件并提示您进行提示，表明您已受到管理员的限制访问原始演绎版。
+   >如果您正在下载的资产是图像文件，且您只选择“下载”对话框中的 **[!UICONTROL “资产”]** 选项，但管理员 [未授权管理员访问图像文件](../using/brand-portal-adding-users.md#main-pars-procedure-202029708) 的原始演绎版，则管理员将无法下载图像文件并提示您进行提示，表明您已受到管理员的限制访问原始演绎版。
 
    ![](assets/restrictaccess-note.png)
 
-2. 要在资产之外下载资产演绎版，请选择 **演绎版**。但是，要允许自动生成的演绎版与自定义演绎版一起下载，请取消选择 **“排除自动生成的演绎版**”(默认情况下处于选中状态)。
+2. 要在资产之外下载资产演绎版，请选择 **[!UICONTROL 演绎版]**。但是，要允许自动生成的演绎版与自定义演绎版一起下载，请取消选择 **[!UICONTROL “排除自动生成的演绎版]**”(默认情况下处于选中状态)。
 
    ![](assets/exclude-auto-renditions.png)
 
-   要仅下载演绎版，请取消选择 **资产**。
+   要仅下载演绎版，请取消选择 **[!UICONTROL 资产]**。
 
    >[!NOTE]
    >
    >默认情况下，仅下载资产。但是，如果管理员 [未授权您访问图像文件的原始演绎版，则不下载图像文件的原始演绎版](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)。
 
-   * 要加速从 [!DNL Brand Portal]中下载资源文件的过程，请选择 **“启用下载加速** 选项”， [然后按照向导](../using/accelerated-download.md#main-pars-header-405749062)进行操作。要了解有关更快下载资源的更多信息，请 [参考指南以加快下载[！DNL Brand Portal]](../using/accelerated-download.md)。
+   * 要加速从Brand Portal下载资源文件，请选择 **[!UICONTROL “启用下载加速]** 选项”， [然后按照向导](../using/accelerated-download.md#main-pars-header-405749062)进行操作。要进一步了解资源下载的更快速度，请 [参考引导您从Brand Portal下载的指南](../using/accelerated-download.md)。
 
-   * 要将 [自定义图像预设应用于资产及其演绎版](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，请选择 **“动态演绎版**”。指定自定义图像预设属性(大小、格式、颜色空间、分辨率和图像修饰符)，以在下载资产及其再现时应用自定义图像预设。要仅下载动态演绎版，请删除 **资产**。
+   * 要将 [自定义图像预设应用于资产及其演绎版](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，请选择 **[!UICONTROL “动态演绎版]**”。指定自定义图像预设属性(大小、格式、颜色空间、分辨率和图像修饰符)，以在下载资产及其再现时应用自定义图像预设。要仅下载动态演绎版，请删除 **[!UICONTROL 资产]**。
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >要预览(或下载)任何资产的动态演绎版，请确保已启用动态媒体，并且该资产的 [!UICONTROL 金字塔tiff] 演绎版存在 [!DNL AEM] 于作者实例(从已发布资产的位置)中。将资产发布到 [!DNL Brand Portal]后，其 [!UICONTROL 金字塔tiff] 再现也会发布。无法从中生成 [!UICONTROL 金字塔tiff] 演绎版 [!DNL Brand Portal]。
+   >要预览(或下载)任何资产的动态演绎版，请确保已启用动态媒体，并且该资产的金字塔tiff演绎版存在于AEM作者实例(从已发布资产的位置)。将资产发布到Brand Portal时，其金字塔tiff再现也会发布。无法从Brand Portal生成金字塔tiff再现。
 
-   * 要在下载资产时保留 [!DNL Brand Portal] 文件夹层次结构，请选择 **为每个资产创建单独的文件夹**。默认情况下 [!DNL Brand Portal] ，文件夹层次结构会被忽略，所有资源将下载到本地系统中的一个文件夹中。
+   * 要在下载资产时保留Brand Portal文件夹层次结构，请为每个资产选择 **[!UICONTROL 创建单独的文件夹]**。默认情况下，Brand Portal文件夹层次结构会被忽略，所有资源将下载到本地系统中的一个文件夹中。
 
-   * 要向用户发送电子邮件通知以下载资产，请选择 **“电子邮件”**。
+   * 要向用户发送电子邮件通知以下载资产，请选择 **[!UICONTROL “电子邮件”]**。
    ![](assets/download-link.png)
 
    >[!NOTE]
@@ -81,7 +81,7 @@ source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
    >
    >管理员可以使用 [品牌](../using/brand-portal-branding.md) 功能自定义电子邮件，即徽标、说明和页脚。
 
-3. 单击 **“下载**”。
+3. 单击 **[!UICONTROL “下载]**”。
 
    资产(如果选择)作为ZIP文件下载到本地文件夹。但是，如果下载单个资源而不使用任何再现，则不会创建zip文件，从而确保了快速下载。
 
@@ -95,7 +95,7 @@ source-git-commit: 32c3cdb8e3fafd74cfb36e6bcfe0811e7152b2d0
 
 ## 预期下载性能 {#expected-download-performance}
 
-文件下载体验可能因不同客户端的用户而异，具体取决于本地Internet连接和服务器滞后时间等因素。在不同客户端位置观察到的GB文件的预期下载性能如下所示，位于美国的Oregon [!DNL Brand Portal] 服务器：
+文件下载体验可能因不同客户端的用户而异，具体取决于本地Internet连接和服务器滞后时间等因素。在不同客户端位置观察到的2GB文件的预期下载性能如下：位于美国Oregon的Brand Portal服务器：
 
 | 客户端位置 | 客户端与服务器之间的延迟 | 预期下载速度 | 下载GB文件所花费的时间 |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
