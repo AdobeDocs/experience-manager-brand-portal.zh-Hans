@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_ EXPERIENCE MANAGER/Brand_ Portal
 discoiquuid: a512dfa0-fef3-4c3 f-a389-a0 a3 a7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 必须在AEM(作者)上启用Dynamic Media混合模式才能创建资产的中间tiff(ptiff)。将此类资产发布到Brand Portal时，将应用图像预设并显示动态演绎版。
 
 1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
-
-   ![](assets/AEMlogo.png)
 
 2. 从管理工具面板中，单击 **[!UICONTROL 图像预设]**。
 
