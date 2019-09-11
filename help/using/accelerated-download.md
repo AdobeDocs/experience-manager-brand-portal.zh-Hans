@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_ EXPERIENCE MANAGER/Brand_ Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145 fc145 dc
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
@@ -31,7 +31,7 @@ Brand Portal通过与IBM Assera Connect集成(这是一个按需安装应用程�
 
 要更快地下载文件，请确保：
 
-* **[!UICONTROL 从管理工具面板]** 中 [!UICONTROL 的常规设置] 中启用下载加速(默认禁用)。
+* **[!UICONTROL 从管理工具面板]** 中的 [!UICONTROL 常规设置] 中启用下载加速(默认为禁用)。
 * 端口33001(TCP和UDP)在防火墙上打开。有关prerequi站点的详细信息，请参阅 [AsPera Connect客户端文档](https://downloads.asperasoft.com/en/documentation/8)。
 * 使用管理员权限安装AsPera Connect。
 * 有关AsPera传输客户端的平台支持，请参阅 [AssPera Connect平台支持矩阵](https://www.asperasoft.com/company/support/transfer-clients/)。
