@@ -49,7 +49,7 @@ Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，�
 
 ![Brand](assets/file-type-search.png "Portal中的“过滤器”面板Brand Portal中的“过滤器”面板")
 
-“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 但是，您可以通 [过在基础搜索表单中添加或删除谓词](../using/brand-portal-search-facets.md) ，在“筛选器”面板中添加自定义搜索彩块化或删除特定搜索彩块化。 请参阅Brand Portal上可用和可用 [的搜索谓词列表](../using/brand-portal-search-facets.md#list-of-search-predicates)。
+“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 但是，您可以通 [过在基础搜索表单中添加或删除谓词](../using/brand-portal-search-facets.md) ，在“筛选器”面板中添加自定义搜索彩块化或删除特定搜索彩块化。 See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
 要将筛选器应用于搜索，请使用可用的搜索彩 [块化](../using/brand-portal-search-facets.md):
 
