@@ -6,38 +6,38 @@ seo-description: AEM Assets Brand Portal管理员可以与授权的内部用户�
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: 引用
-topic-tags: sharing
+topic-tags: 共享
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# Share assets as a link {#share-assets-as-a-link}
+# 将资产共享为链接 {#share-assets-as-a-link}
 
-AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
+AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑人员只能查看和共享与他们共享的资源。
 
-Sharing assets through a link is a convenient way of making them available to external parties as the receivers do not have to log in to Brand Portal to access the assets.
+通过链接共享资产是一种方便的方式，使外部方可以使用它们，因为接收方不必登录Brand Portal即可访问资产。
 
-Link sharing access is restricted to editors and administrators. For more information, see Managing users, groups, and user roles.[](../using/brand-portal-adding-users.md#manage-user-roles)
+链接共享访问权限仅限编辑员和管理员。 有关详细信息，请 [参阅管理用户、组和用户角色](../using/brand-portal-adding-users.md#manage-user-roles)。
 
 >[!NOTE]
 >
->Upto 5GB of zip download is allowed using link share feature on Brand Portal.
+>使用Brand Portal上的链接共享功能，最多可下载5GB的zip文件。
 
-To share assets as a link, follow these steps:
+要将资产共享为链接，请执行以下步骤：
 
-1. Click the overlay icon on the left, and choose Navigation.****
+1. 单击左侧的叠加图标，然后选择“导 **[!UICONTROL 航”]**。
 
    ![](assets/siderail.png)
 
-2. From the siderail on the left, click Files to share folders or images. ****&#x200B;要共享收藏集，请单击“ **[!UICONTROL 收藏集]**”。
+2. 在左侧的脱轨处，单击“文 **[!UICONTROL 件]** ”以共享文件夹或图像。 要共享收藏集，请单击“ **[!UICONTROL 收藏集]**”。
 
    ![](assets/navigationrail.png)
 
-3. Select the folders or collections you want to share as a link.
+3. 选择要作为链接共享的文件夹或收藏集。
 
    ![](assets/asset-link-share.png)
 
@@ -75,9 +75,9 @@ To share assets as a link, follow these steps:
 
 单击电子邮件中的链接，以查看共享的资产。 此时将打开AEM链接共享页面。
 
-To download the shared assets:
+要下载共享资产，请执行以下操作：
 
-1. Click the assets and then click Download icon from the toolbar.****
+1. 单击资产，然后单击工 **[!UICONTROL 具栏中]** 的下载图标。
 
    ![](assets/assets-shared-link.png)
 
@@ -92,7 +92,7 @@ To download the shared assets:
 
    ![](assets/licensed-asset-download.png)
 
-   将显 [!UICONTROL 示“下载] ”对话框。
+   将显 [!UICONTROL 示“下载] ”对话框。<br />
    ![](assets/download-linkshare.png)
 
    * 要加快下载共享为链接的资产文件，请选择“启用下 **[!UICONTROL 载加速]** ”选项， [然后按向导操作](../using/accelerated-download.md#download-workflow-using-file-accelerator)。 要详细了解Brand Portal上资产的快速下载，请参阅 [指南以加速从Brand Portal下载](../using/accelerated-download.md)。
@@ -107,7 +107,7 @@ To download the shared assets:
 
    ![](assets/download-linkshare-autoren.png)
 
-3. 点按／单击 **[!UICONTROL 下载]**。 资产（如果已选择，则会将演绎版）作为ZIP文件下载到您的本地文件夹。 However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
+3. 点按／单击 **[!UICONTROL 下载]**。 资产（如果已选择，则会将演绎版）作为ZIP文件下载到您的本地文件夹。 但是，如果下载单个资产而不下载任何演绎版，则不会创建zip文件，从而确保快速下载。
 
 >[!NOTE]
 >
