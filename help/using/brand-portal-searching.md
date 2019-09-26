@@ -1,7 +1,7 @@
 ---
 title: 在Brand Portal上搜索资产
 seo-title: 在AEM Brand Portal上搜索资产并保存搜索
-description: Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，搜索筛选器可帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集，以供将来使用。
+description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. 将搜索另存为智能收藏集，以供将来使用。
 seo-description: Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，搜索筛选器可帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集，以供将来使用。
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -47,31 +47,31 @@ Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，�
 
 “筛选器”面板中的搜索彩块化为您的搜索体验增加了粒度，并使搜索功能更加高效。 搜索彩块化使用多个维度（谓词），这些维度（谓词）使您能够执行细微的搜索。 您可以轻松向下展开到所需的详细信息级别，以便进行更具针对性的搜索。
 
-例如，如果要查找图像，则可以选择是要位图还是要矢量图像。 您可以通过在文件类型搜索facet中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS Word格式。
+例如，如果要查找图像，则可以选择是要位图还是要矢量图像。 您可以通过在文件类型搜索facet中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS Word格式。<br />
 
 ![Brand](assets/file-type-search.png "Portal中的“过滤器”面板Brand Portal中的“过滤器”面板")
 
-“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 但是，您可以通 [过在基础搜索表单中添加或删除谓词](../using/brand-portal-search-facets.md) ，在“筛选器”面板中添加自定义搜索彩块化或删除特定搜索彩块化。 请参阅Brand Portal上可用和可用 [的搜索谓词列表](../using/brand-portal-search-facets.md#list-of-search-predicates)。
+“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md)See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-要将筛选器应用于搜索，请使用可用的搜索彩 [块化](../using/brand-portal-search-facets.md):
+To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
 
-1. 单击叠加图标，然后选择“ **[!UICONTROL 筛选器]**”。
+1. Click the overlay icon and select Filter.****
 
    ![](assets/selectorrail.png)
 
-2. 从左侧的 **[!UICONTROL “滤镜]** ”面板中，选择相应的选项以应用相关的滤镜。
-例如，使用以下标准过滤器：
+2. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
+**** For example, use the following standard filters:
 
-   * **[!UICONTROL 路径浏览器]** ，用于在特定目录中搜索资产。 路径浏览器的谓词的默认搜索路径是 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**，可通过编辑默认搜索表单来配置该路径。
+   * **[!UICONTROL Path Browser]** to search assets in a specific directory. The default search path of the predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.****
    >[!NOTE]
    >
-   >对于非管理员用户，“筛  选器”面板中的路径浏览器仅显示与其共享的文件夹（及其上级文件夹）的内容结构。\
-   >对于管理员用户，路径浏览器允许导航到Brand Portal中的任意文件夹。
+   >To non-admin users, Path Browser in Filter panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
+   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
-   * **[!UICONTROL 文件类型]** ，以指定您要查找的资源文件的类型（图像、文档、多媒体、存档）。 此外，您还可以缩小搜索范围，例如，为文档指定图像的MIME类型（Tiff、位图、GIMP图像）或格式（PDF或MS Word）。
-   * **[!UICONTROL 文件大小]** ：根据资产的大小搜索资产。 您可以指定大小范围的下限和上限以缩小搜索范围并指定要搜索的度量单位。
+   * **[!UICONTROL File Type to specify the type (image, document, multimedia, archive) of asset file you are looking for.]** Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
+   * **[!UICONTROL File Size]** to search for assets based on their size. You can specify the lower and upper limits for the size range to narrow down your search and specify the unit of measure to search.
    * **[!UICONTROL 状态]** ，用于根据资产状态(如批准（已批准）、已请求更改、已拒绝、待定)和到期等资产状态搜索资产。
-   * **[!UICONTROL 平均评级]** ：根据资产的评级搜索资产。
+   * **[!UICONTROL Average Rating to search for assets based on the rating of the assets.]**
    * **[!UICONTROL 方向]** ：根据资产的方向（水平、垂直、正方形）搜索资产。
    * **[!UICONTROL 样式]** ，以根据资产的样式（彩色、单色）搜索资产。
    * **[!UICONTROL 视频格式]** ，根据视频资源的格式(DVI、Flash、MPEG4、MPEG、OGG Theora、QuickTime、Windows Media、WebM)搜索视频资源。
