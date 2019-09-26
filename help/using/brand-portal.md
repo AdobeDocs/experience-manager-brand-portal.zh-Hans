@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 简介
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: f9397850937a5adb01ec41bc3b60afa712a4ddc3
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
 
 Brand Portal支持以下用户角色：
 
-* 客人用户
+* Guest user
 * 查看者
 * 编辑者
 * 管理员
@@ -37,7 +37,7 @@ Brand Portal支持以下用户角色：
 
 |  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享集合** | **将资产共享为链接** | **访问管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **客人用户** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Guest user** | ✓* | ✓* | ✓* | x | x | x | x |
 | **查看者** | ✓ | ✓ | ✓ | x | x | x | x |
 | **编辑者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理员** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -48,37 +48,37 @@ Brand Portal支持以下用户角色：
 
 在未经身份验证的情况下对品牌门户上的资源具有有限访问权限的任何用户都是客人用户。 客人会话允许用户访问公共文件夹和集合。 作为客人用户，您可以浏览资产详细信息，并拥有公共文件夹和集合成员的完整资产视图。 您可以搜索、下载公共资产并将其添加到 [!UICONTROL Lightbox收藏集] 。
 
-但是，客人会话限制您创建集合和保存的搜索，并进一步共享它们。 客人会话中的用户无法访问文件夹和集合设置，并且无法将资产共享为链接。 以下是客人用户可以执行的任务列表：
+但是，客人会话限制您创建集合和保存的搜索，并进一步共享它们。 客人会话中的用户无法访问文件夹和集合设置，并且无法将资产共享为链接。 Here is a list of tasks that a guest user can perform:
 
 [浏览和访问公共资产](browse-assets-brand-portal.md)
 
-[搜索公共资产](brand-portal-searching.md)
+[Search public assets](brand-portal-searching.md)
 
-[下载公共资源](brand-portal-download-users.md)
+[Download public assets](brand-portal-download-users.md)
 
 [将资产添加到[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 查看者 {#viewer}
 
-Brand Portal中的标准用户通常是具有查看器角色的用户。 具有此角色的用户可以访问允许的文件夹、集合和资产。 用户还可以浏览、预览、下载和导出资产（原始或特定的演绎版）、配置帐户设置以及搜索资产。 以下是查看器可以执行的任务列表：
+A standard user in Brand Portal is typically a user with the role of Viewer. A user with this role can access permitted folders, collections, and assets. The user can also browse, preview, download, and export assets (original or specific renditions), configure account settings, and search for assets. Here is a list of tasks that a Viewer can perform:
 
-[浏览资源](browse-assets-brand-portal.md)
+[Browse assets](browse-assets-brand-portal.md)
 
-[搜索资产](brand-portal-searching.md)
+[Search for assets](brand-portal-searching.md)
 
-[下载资源](brand-portal-download-users.md)
+[Download assets](brand-portal-download-users.md)
 
 ### 编辑者 {#editor}
 
-具有“编辑者”角色的用户可以执行查看器可以执行的所有任务。 此外，编辑者还可以查看管理员共享的文件和文件夹。 具有编辑者角色的用户还可以与他人共享内容（文件、文件夹、集合）。
+A user with the role of Editor can perform all tasks that a Viewer can perform. In addition, and Editor can view the files and folders that an administrator shares. The user with the role of an Editor can also share content (files, folders, collections) with others.
 
-除了查看器可以执行的任务之外，编辑器还可以执行以下其他任务：
+Apart from the tasks that a Viewer can perform, an Editor can perform the following additional tasks:
 
 [共享文件夹](brand-portal-sharing-folders.md)
 
-[共享集合](brand-portal-share-collection.md)
+[Share a collection](brand-portal-share-collection.md)
 
-[将资产共享为链接](brand-portal-link-share.md)
+[Share assets as a link](brand-portal-link-share.md)
 
 ### 管理员 {#administrator}
 
@@ -102,9 +102,9 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 [配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
 
-[将文件夹发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Publish folders to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[将集合发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Publish collections to Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## 品牌门户URL的替代别名 {#tenant-alias-for-portal-url}
 
@@ -127,28 +127,28 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]** ，与需 **[!UICONTROL 要访问？]**. 但是，要进入客人会话，请选择与“客人访 **[!UICONTROL 问]** ”对应的 **[!UICONTROL “单击此处”]**。
 
-   ![Brand Portal登录屏幕](assets/bp-login-requestaccess.png)
+   ![Brand Portal login screen](assets/bp-login-requestaccess.png)
 
-   此时将 [!UICONTROL 打开“请求访问] ”页面。
+   The Request Access page opens.
 
-2. 要请求访问组织的Brand Portal，您必须具有有效的 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]。
+2. To request access to an organization’s Brand Portal, you must have a valid Adobe ID, Enterprise ID, or Federated ID.
 
-   在“请 [!UICONTROL 求访问] ”页面中，使用您的ID登录（方案1）或创建 [!UICONTROL Adobe ID] （方案2）:
-   ![[!UICONTROL 请求访问]](assets/bplogin_request_access_2.png)
+   In the Request Access page, sign in using your ID (scenario 1) or create an Adobe ID (scenario 2):
+   ![[!UICONTROL Request access]](assets/bplogin_request_access_2.png)
 
-   **场景1**
-   1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]，请单击“ ****登录Regin In”。
-此时 [!UICONTROL 将打开登录] 页面。
-   2. 提供您 [!UICONTROL 的Adobe ID凭据] ，然后单击 **[!UICONTROL 登录]**。<br />
-   ![Adobe登录](assets/bplogin_request_access_3.png)
+   **Scenario 1**
+   1. If you have an Adobe ID, Enterprise ID, or Federated ID, click Sign In.
+**** The Sign in page opens.
+   2. Provide your Adobe ID credentials and click Sign in.****<br />
+   ![Adobe sign in](assets/bplogin_request_access_3.png)
 
-   您将被重定向到“请 [!UICONTROL 求访问] ”页面。
-   **场景2**
-   1. 如果您没有 [!UICONTROL Adobe ID]，请单击“请求访问”页 **[!UICONTROL 面中的“获取Adobe ID]** ” [!UICONTROL (获取Adobe ID] )。
-此时 [!UICONTROL 将打开登录] 页面。
+   You are redirected to the Request Access page.
+   **Scenario 2**
+   1. If you do not have an Adobe ID, to create one, click Get an Adobe ID from the Request Access page.
+****The Sign in page opens.
    2. Click **[!UICONTROL Get an Adobe ID]**.
-此时 [!UICONTROL 将打开“注册] ”页面。
-   3. 输入您的名字和姓氏、电子邮件ID和密码。
+The Sign up page opens.
+   3. Enter your first and last name, email ID, and password.
    4. 选择 **[!UICONTROL 注册]**。<br />
    ![](assets/bplogin_request_access_5.png)
 
@@ -169,6 +169,19 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 ![](assets/bplogin_request_access_8.png)
 
 您将被重定向到 [Adobe [!UICONTROL Admin Console]主页](https://adminconsole.adobe.com/enterprise/overview) 。 使用Adobe [!UICONTROL Admin Console] ，创建用户并将其分配到产品配置（以前称为产品配置），这些配置在Brand Portal中显示为组。 有关在 [!UICONTROL Admin Console中添加用户的详细信息]，请参阅 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
+
+## 品牌门户语言 {#brand-portal-language}
+
+您可以从Adobe [!UICONTROL Experience Cloud设置更改Brand Portal语言]。
+
+![访问请求的通知](assets/BPLang.png)
+
+要更改语言：
+
+1. 从顶 [!UICONTROL 部菜单中选] 择“用户 [!UICONTROL ”&gt;“编辑配置文件] ”。
+   ![编辑个人资料](assets/EditBPProfile.png)
+
+2. 在 [!UICONTROL Experience cloud设置页] ，从语言下拉菜单中 [!UICONTROL 选择一种语] 言。
 
 ## Brand Portal维护通知 {#brand-portal-maintenance-notification}
 
