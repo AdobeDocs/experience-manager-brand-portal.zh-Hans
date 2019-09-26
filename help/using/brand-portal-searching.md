@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
@@ -41,6 +41,8 @@ Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，�
 
    *使用内部搜索进行资产搜索*
 
+要了解带有智能标记资产的搜索行为，请参 [阅了解搜索结果和行为](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
+
 ## 在“筛选器”面板中使用facet进行搜索 {#search-using-facets-in-filters-panel}
 
 “筛选器”面板中的搜索彩块化为您的搜索体验增加了粒度，并使搜索功能更加高效。 搜索彩块化使用多个维度（谓词），这些维度（谓词）使您能够执行细微的搜索。 您可以轻松向下展开到所需的详细信息级别，以便进行更具针对性的搜索。
@@ -49,7 +51,7 @@ Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，�
 
 ![Brand](assets/file-type-search.png "Portal中的“过滤器”面板Brand Portal中的“过滤器”面板")
 
-“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 但是，您可以通 [过在基础搜索表单中添加或删除谓词](../using/brand-portal-search-facets.md) ，在“筛选器”面板中添加自定义搜索彩块化或删除特定搜索彩块化。 See the list of the available and usable [search predicates on Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates).
+“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 但是，您可以通 [过在基础搜索表单中添加或删除谓词](../using/brand-portal-search-facets.md) ，在“筛选器”面板中添加自定义搜索彩块化或删除特定搜索彩块化。 请参阅Brand Portal上可用和可用 [的搜索谓词列表](../using/brand-portal-search-facets.md#list-of-search-predicates)。
 
 要将筛选器应用于搜索，请使用可用的搜索彩 [块化](../using/brand-portal-search-facets.md):
 
