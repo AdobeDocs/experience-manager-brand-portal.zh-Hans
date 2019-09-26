@@ -1,8 +1,8 @@
 ---
-title: What's new in AEM Assets Brand Portal
-seo-title: What's new in AEM Assets Brand Portal
-description: Take a look at the new features and enhancements for 6.4.4.
-seo-description: Take a look at the new features and enhancements for 6.4.4.
+title: AEM Assets Brand Portal的新增功能
+seo-title: AEM Assets Brand Portal的新增功能
+description: 了解6.4.4的新增功能和增强功能。
+seo-description: 了解6.4.4的新增功能和增强功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,20 +10,20 @@ content-type: 引用
 topic-tags: 简介
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: cbb64eb8a79480a1ccedbe5131a38ddf6eaec88d
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# What's new in AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# AEM Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Adobe is working to improve the overall Brand Portal experience. Here is a sneak peek into the new features and enhancements.
+Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Adobe正致力于改善整体品牌门户体验。 抢先领略新增功能和增强功能。
 
 ## 6.4.4中的更改 {#what-is-changing-in}
 
 Brand Portal 6.4.4版本侧重于文本搜索和热门客户请求的增强。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
 
-### Search enhancements {#search-enhancements}
+### 搜索增强功能 {#search-enhancements}
 
 从Brand Portal 6.4.4开始，支持对筛选窗格中的属性谓词进行部分文本搜索。 要允许部分文本搜索，您需要在搜索表单中 **的属性谓词中启用** “部分搜索”。
 
@@ -59,7 +59,7 @@ Brand Portal允许在搜索查询中使用星号(*)，并在搜索短语中使�
 >
 >在选中“部 **分搜索** ”复选框时， **默认情况下会选中“忽略大小写** ”。
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## 6.4.3中的更改 {#what-changed-in}
 
@@ -73,18 +73,18 @@ Brand Portal 6.4.3版本侧重于— 除了在Brand Portal访问URL中的租户I
 * **禁用**，登录页面上仅显示共享文件夹。
 
 ![](assets/enable-folder-hierarchy.png)
-The use case****
+用**例**
 
 启用 [文件夹层次结构功能](../using/brand-portal-general-configuration.md) （启用后）可帮助您区分名称与从不同层次结构共享的文件夹。 登录后，非管理员用户现在可以看到共享文件夹的虚拟父（和上级）文件夹。
 ![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
 
-The shared folders are organized within the respective directories in virtual folders. 您可以通过锁定图标识别这些虚拟文件夹。
+共享文件夹在虚拟文件夹的各个目录中进行组织。 您可以通过锁定图标识别这些虚拟文件夹。
 
 请注意，虚拟文件夹的默认缩略图是第一个共享文件夹的缩略图。
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### 在特定文件夹层次结构或路径中搜索
 
@@ -104,7 +104,7 @@ The shared folders are organized within the respective directories in virtual fo
 
 ![](assets/filter-panel.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
 ### Dynamic media视频再现支持
 
@@ -125,7 +125,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 计划发布到Brand Portal
 
@@ -136,7 +136,7 @@ Dynamic Media视频编码可从以下位置下载：
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### URL中可配置的租户别名
 
@@ -149,7 +149,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 **用例组**&#x200B;织可以通过自定义门户URL而不是坚持Adobe提供的URL来满足其品牌需求。
 
-[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### 下载体验增强功能
 
