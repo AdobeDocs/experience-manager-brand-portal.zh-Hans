@@ -5,11 +5,11 @@ description: AEM Assets Brand Portal管理员可以查看有关Brand Portal使�
 seo-description: AEM Assets Brand Portal管理员可以查看有关Brand Portal使用情况的报告，以及创建、管理和查看有关通过Brand Portal共享的已下载、过期、发布和链接的资产的报告。
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: 引用
-topic-tags: administration
+topic-tags: 管理
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    要查看报表，请点按／单击报表链接。 或者，选择报表，然后点按／单击工具栏中的视图图标。
 
-   [!UICONTROL 使用情况报告] 显示有关当前Brand Portal用户数、所有资产占用的存储空间以及Brand Portal中资产总数的信息。 The report also displays the permitted capacity for each of these information metrics.
+   [!UICONTROL 使用情况报告] 显示有关当前Brand Portal用户数、所有资产占用的存储空间以及Brand Portal中资产总数的信息。 报告还显示这些信息量度中每个指标的允许容量。
 
    ![](assets/usage-report.png)
 
@@ -95,7 +95,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，点按／单 **[!UICONTROL 击创建／管理报表]** ，打开**资产报表**页面。
+2. 在管理工具面板中，点按／单击创 **[!UICONTROL 建／管理报表]** ，以打开资 **[!UICONTROL 产报表页面]** 。
 
    ![](assets/asset-reports.png)
 
