@@ -1,5 +1,5 @@
 ---
-title: AEM Assets Brand Portal的新增功能
+title: What's new in AEM Assets Brand Portal
 seo-title: AEM Assets Brand Portal的新增功能
 description: 了解6.4.5的新增功能和增强功能。
 seo-description: 了解6.4.5的新增功能和增强功能。
@@ -7,29 +7,31 @@ uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: 引用
-topic-tags: 简介
+topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
+source-git-commit: f5318420b4598ece27d8dfac4f4e7e0c5a02753d
 
 ---
 
 
 # AEM Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Adobe正致力于改善整体品牌门户体验。 抢先领略新增功能和增强功能。
+Adobe Experience Manager (AEM) Assets Brand Portal helps you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices. It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access. Adobe is working to improve the overall Brand Portal experience. 抢先领略新增功能和增强功能。
 
 ## 6.4.5中的更改 {#what-changed-in-645}
 
-Brand Portal 6.4.5是一个功能版本，它侧重于为活动的Brand Portal用户（外部代理／团队）提供一个协作平台，以便在Brand Portal中上传资产并将其发布到AEM资产，而无需访问AEM创作环境。 该功能在品牌门户中 **被命名为“资产来源补充”**。 此功能通过提供一种双向机制，与全球分发的其他Brand Portal用户提供资产并共享资产，从而改善客户体验。
+Brand Portal 6.4.5是一个功能版本，它侧重于为Brand Portal用户（外部代理／团队）提供将内容上传到Brand Portal并发布到AEM资产的能力，而无需访问创作环境。 This feature is called **Asset Sourcing in Brand Portal**, and will improve customer experiences by providing a two-way mechanism for users to both contribute and share assets with other globally distributed Brand Portal users.
 
 ### Brand Portal中的资产来源补充 {#asset-sourcing-in-bp}
 
-通过资产来源补充功能，AEM管理员可以使用另一个名为“资产贡献”的属性创建&#x200B;**新文件夹**。 创建的新文件夹称 *为资产贡献* ，例如贡献 *文件夹* 。 在AEM中创建贡献文件夹后，将触发一个内部工作流，进一步在贡献文件夹-NEW和SHARED下创建两个子文件夹。
+资产来源补充允许AEM管理员使用其他“资产贡献 **** ”属性创建新文件夹，从而确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流会在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，称为NEW和SHARED。
 
-AEM管理员通过以下方式定义了要求：上传关于贡献文件夹的简介，上传 **SHARED** 文件夹中的基准资产以供参考，分配活动的Brand Portal用户以访问贡献文件夹，以及将贡献文件夹发布到Brand Portal。 发布贡献文件夹后，有权访问贡献文件夹的Brand Portal用户可以登录到其Brand Portal实例，并通过在 **NEW** 文件夹下上传内容／资产（文件或文件夹）开始贡献。 上传所有内容后，Brand Portal用户会将贡献文件夹手动发布到AEM。 在AEM资产中导入和反映已发布的内容／资产可能需要几分钟时间。
+然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产的简介上传到 **SHARED** 文件夹，以确保BP用户拥有他们需要的参考信息，从而定义了要求。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件 **夹的访问权** 。
 
-现有功能将保持不变，Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
+用户完成在 **NEW** 文件夹中添加内容后，他们可以将贡献文件夹发布回AEM创作环境。 请注意，完成导入并反映AEM资产中新发布的内容可能需要几分钟时间。
+
+此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
 
 >[!NOTE]
 >
@@ -45,9 +47,9 @@ AEM管理员通过以下方式定义了要求：上传关于贡献文件夹的�
 
 ### 在Brand Portal中上传资产 {#upload-assets-in-bp}
 
-The active Brand Portal users receive pulse and email notification whenever a contribution folder is shared with them. They can download the brief document attached to the contribution folder and download the baseline content/assets from the SHARED folder to understand the requirement.****
+Brand Portal用户在共享贡献文件夹时会自动收到脉冲／电子邮件通知，允许他们从 **SHARED** 文件夹下载简要文档和下载基准内容，以确保他们了解项目要求。
 
-The Brand Portal users having permission to access the contribution folder can upload assets only to the NEW folder. **** However, they can upload multiple assets or folders containing multiple assets.
+具有相应权限的Brand Portal用户可以将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到 **NEW** 子文件夹。 The **SHARED** folder is meant for the distribution of project details and baseline assets.
 
 ![](assets/upload-asset6.png)
 
@@ -59,7 +61,9 @@ The Brand Portal users having permission to access the contribution folder can u
 
 ### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
 
-After uploading the assets in the NEW folder, Brand Portal user manually publishes the contribution folder to AEM. **** It may take few minutes to import and reflect the published content/assets in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+Once upload is complete to the NEW folder, Brand Portal users can then publish the contribution folder back to AEM. **** It may take few minutes to import and reflect the published content/assets in AEM Assets.
+
+The Brand Portal user and the AEM Administrator will receive pulse/email notifications both at the beginning and at the completion of the publish action, along with the job progress status (Queued/In-Progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
 
 ![](assets/upload-asset5.png)
 
@@ -67,18 +71,17 @@ After uploading the assets in the NEW folder, Brand Portal user manually publish
 
 Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest Brand Portal Release Notes.[](brand-portal-release-notes.md)
 
-### 搜索增强功能 {#search-enhancements}
+### Search enhancements {#search-enhancements}
 
-从Brand Portal 6.4.4开始，支持对筛选窗格中的属性谓词进行部分文本搜索。 To allow partial text search you need to enable Partial Search in Property Predicate in the search form.****
+从Brand Portal 6.4.4开始，支持对筛选窗格中的属性谓词进行部分文本搜索。 要允许部分文本搜索，您需要在搜索表单中 **的属性谓词中启用** “部分搜索”。
 
-继续阅读以了解有关部分文本搜索和通配符搜索的更多信息。
+Read on to know more about partial text search and wildcard search.
 
 #### 部分短语搜索 {#partial-phrase-search}
 
 您现在可以通过在筛选窗格中仅指定搜索短语的一个或两个部分来搜索资产。
 
-**Use case
-Partial phrase search is helpful when you are unsure of the exact combination of words occurring in the searched phrase.**
+**用例部**&#x200B;分短语搜索在您不确定搜索的短语中出现的词语的确切组合时很有帮助。
 
 例如，如果您在Brand Portal中的搜索表单使用属性谓词对资产标题进行部分搜索，则指定术语 **camp** 将返回标题短语中带有单词camp的所有资产。
 
@@ -90,11 +93,11 @@ Brand Portal允许在搜索查询中使用星号(*)，并在搜索短语中使�
 
 **用例**&#x200B;如果您不确定搜索短语中出现的确切单词，可以使用通配符搜索来填补搜索查询中的空白。
 
-例如，指定 **climb******* ，如果Brand Portal中的搜索表单使用属性谓词对资产标题进行部分搜索，则返回所有资产，其标题短语中的单词以字符climp开头。
+For example, specifying climb* returns all the assets having words beginning with the characters climb in their title phrase if search form in Brand Portal uses Property Predicate for partial search on assets title.********
 
 ![](assets/wildcard-prop.png)
 
-同样，指定：
+Similarly, specifying:
 
 * ***climp** 返回所有单词以字符 **clamp** 结尾的资产。
 
@@ -108,7 +111,7 @@ Brand Portal允许在搜索查询中使用星号(*)，并在搜索短语中使�
 
 ## 6.4.3中的更改 {#what-changed-in}
 
-Brand Portal 6.4.3版本侧重于— 除了在Brand Portal访问URL中的租户ID之外，还为组织提供了替代别名、新文件夹层次结构配置、视频支持增强、从AEM作者实例到Brand Portal的计划发布、操作增强— 和客户请求的类别。
+Brand Portal 6.4.3 release focuses on — providing organizations with an alternate alias in addition to their tenant ID in Brand Portal access URL, new folder hierarchy configuration, video support enhancements, scheduled publishing from AEM Author instance to Brand Portal, operational enhancements — and cateres to customer requests.
 
 ### 非管理员的文件夹层次结构导航
 
@@ -133,9 +136,9 @@ Brand Portal 6.4.3版本侧重于— 除了在Brand Portal访问URL中的租户I
 
 ### 在特定文件夹层次结构或路径中搜索
 
-**Path Browser predicate is introduced in Search Form to allow searching of assets in a specific directory.** The default search path of search predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.**
+**路径浏览器谓词** (Path Browser predicate is in the Search Form)在搜索表单中引入，以允许搜索特定目录中的资产。 路径浏览器的搜索谓词的默认搜索路径为 */content/dam/mac/&lt;tenant-id&gt;/*，可通过编辑默认搜索表单来配置该路径。
 
-* Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
+* 管理员用户可以使用路径浏览器导航到Brand Portal上的任意文件夹目录。
 * Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.
 For example, /content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC is shared with a non-admin user. ** The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
 
@@ -153,7 +156,7 @@ Note that searching under these folders returns results only from the assets tha
 
 ### Dynamic Media video renditions support
 
-Users whose AEM Author instance is on Dynamic Media hybrid mode can preview and download the dynamic media renditions, in addition to the original video files.
+AEM作者实例处于Dynamic media混合模式的用户除了可以预览和下载原始视频文件外，还可以预览和下载Dynamic media再现。
 
 To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify Dynamic Media Configuration (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in Video configuration from admin tools panel.********
 
@@ -161,13 +164,13 @@ To allow preview and download of dynamic media renditions on specific tenant acc
 Dynamic Media videos can be previewed on:**
 
 * 资产详细信息页面
-* Asset's card view
-* 链接共享预览页
+* 资产的卡片视图
+* Link share preview page
 
 Dynamic Media视频编码可从以下位置下载：
 
 * 品牌门户
-* 共享链接
+* Shared link
 
 ![](assets/edit-dynamic-media-config.png)
 
@@ -186,7 +189,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 ### URL中可配置的租户别名
 
-组织可以通过在URL中具有替代前缀来自定义其门户URL。 要在其现有门户URL中获取租户名称的别名，组织需要联系Adobe支持部门。
+Organizations can get their portal URL customized, by having an alternate prefix in the URL. 要在其现有门户URL中获取租户名称的别名，组织需要联系Adobe支持部门。
 
 请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。\
 例如，具有现有域 **geometrix.brand-portal.adobe.com的组织可以获取** geometrixinc.brand-portal.adobe.com **** （根据请求创建）。
@@ -220,31 +223,31 @@ AEM Brand门户允许客人访问门户。 客人用户不需要凭据即可进�
 
 ### 加速下载
 
-Brand Portal用户可以利用基于IBM Aspera connect的快速下载，将下载速度提高25倍，并享受无缝下载体验，无论他们位于全球哪个位置。 要从Brand Portal或共享链接更快地下载资产，用户需要在下载对话框中选择“启用下载加速 **** ”选项，前提是组织中启用了下载加速。
+Brand Portal用户可以利用基于IBM Aspera connect的快速下载，将下载速度提高25倍，并享受无缝下载体验，无论他们位于全球哪个位置。 To download the assets faster from Brand Portal or the shared link, users need to select Enable Download Acceleration option in download dialog, provided download acceleration is enabled on their organization.****
 
 ![](assets/donload-assets-dialog-2.png)
 
-要为组织启用基于IBM Aspera的加速下载，管理员可从管理工具面板的“常规设置”中启用“启用下载加速 **”选项(默** 认情况下为禁用状态) [](brand-portal-general-configuration.md#allow-download-acceleration) 。 要进一步了解从Brand Portal和共享链接更快下载资产文件的先决条件和疑难解答步骤，请参阅 [指南以加速从Brand Portal下载](../using/accelerated-download.md#main-pars-header)。
+要为组织启用基于IBM Aspera的加速下载，管理员可从管理工具面板的“常规设置”中启用“启用下载加速 **”选项(默** 认情况下为禁用状态) [](brand-portal-general-configuration.md#allow-download-acceleration) 。 To know more about prerequisites and troubleshooting steps for downloading asset files faster from Brand Portal and shared links, refer Guide to accelerate downloads from Brand Portal.[](../using/accelerated-download.md#main-pars-header)
 
-### 用户登录报告
+### User Logins Report
 
-新的报告已引入，用于跟踪用户登录情况。 “用 **户登录** ”报告有助于组织审核和检查已委派的管理员以及品牌门户的其他用户。
+A new report, to track user logins, has been introduced. The User Logins report can be instrumental in enabling organizations to audit and keep a check on the delegated administrators and other users of Brand Portal.****
 
-报告从Brand Portal 6.4.2部署到生成报告之前，会记录每个用户的显示姓名、电子邮件ID、角色（管理员、查看器、编辑器、客人）、用户组、上次登录、活动状态和登录计数。 管理员可以将报告导出为。csv。 除了其他报告，“用户登录”报告还使组织能够更密切地监控用户与已批准品牌资源的交互情况，从而确保符合公司合规办公室的要求。
+The report logs display names, email IDs, personas (admin, viewer, editor, guest), groups, last login, activity status, and login count of each user from Brand Portal 6.4.2 deployment until the time of report generation. Administrators can export the report as .csv. Along with other reports, User Logins report enables organizations to more closely monitor user interactions with the approved brand resources, thereby ensuring conformance to corporate compliance offices.
 
 ![](assets/user-logins-1.png)
 
-### 访问原始演绎版
+### Access to original renditions
 
-管理员可以限制用户访问原始图像文件(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-probatle-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-icon、image/photoshop、.psoshop)，并授予低分辨率访问权限再现，它们从Brand Portal或共享链接下载。 此访问权限可以在用户组级别控制，该权限位于管理工具面板中“用户角色”页面的“组”选项卡中。
+Administrators can restrict user access to original image files (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portable-anymap, x-portable-bitmap, x-portable-graymap, x-portable-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image/x-photoshop, .psd, image/vnd.adobe.photoshop) and give access to low-resolution renditions which they download from Brand Portal or shared link. 此访问权限可以在用户组级别控制，该权限位于管理工具面板中“用户角色”页面的“组”选项卡中。
 
 ![](assets/access-original-rend-1.png)
 
-* 默认情况下，所有用户都可以下载原始演绎版，因为“访问原始”已为所有用户启用。
+* By default, all the users are able to download original renditions as the Access to Original is enabled for all.
 * 管理员需要取消选中相应的复选框，以阻止一组用户访问原始演绎版。
 * 如果用户是多个用户组的成员，但只有其中一个用户组具有限制，则这些限制适用于该用户。
 * 这些限制不适用于管理员，即使管理员是受限用户组的成员。
-* 将资产共享为链接的用户的权限适用于使用共享链接下载资产的用户。
+* Permissions of the user sharing assets as link apply to the users who download assets using shared links.
 
 ### 卡片视图和列表视图上的文件夹层次结构路径
 
@@ -292,12 +295,12 @@ Brand Portal为非管理员用户（编辑者、查看者、客人用户）提�
 
 ### 用于配置身份验证集成的Adobe.io主机UI
 
-从Brand Portal 6.4.2开始，使用Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) 界面创建JWT应用程序，该应用程序支持配置Auth集成，以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在https://marketing.adobe.com/developer/ [中](https://marketing.adobe.com/developer/)。 要了解有关将AEM资产与Brand Portal集成以将资产和集合发布到Brand Portal的更多信息，请参 [阅配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html)。
+Brand Portal 6.4.2 onwards uses Adobe.io https://legacy-oauth.cloud.adobe.io/ interface to create JWT application, which enables configuring oAuth integrations to allow AEM Assets integration with Brand Portal. [](https://legacy-oauth.cloud.adobe.io/)以前，用于配置OAuth集成的UI托管在https://marketing.adobe.com/developer/ [中](https://marketing.adobe.com/developer/)。 要了解有关将AEM资产与Brand Portal集成以将资产和集合发布到Brand Portal的更多信息，请参 [阅配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/in/experience-manager/6-4/assets/using/brand-portal-configuring-integration.html)。
 
-## 搜索增强功能
+## Search Enhancements
 
-管理员可以使用更新的属性谓词使属性谓词不区分大小写，该谓词已选中“忽略大小写”。 此选项适用于属性谓词和多值属性谓词。\
-但是，非区分大小写的搜索比属性谓词的默认搜索速度要慢。 如果搜索筛选器中存在太多非区分大小写的谓词，则搜索可能会减慢。 因此，建议谨慎使用非区分大小写的搜索。
+Administrators can make the property predicates non-case sensitive by using the updated property predicate, which has a check for Ignore Case. This option is available for property predicate and multi-value property predicate.\
+However, the non-case sensitive search is comparatively slower than default search for property predicate. If there are too many non-case sensitive predicates in the search filter, the search can slow down. It is, therefore, advised to use the non-case sensitive search judiciously.
 
 ## 6.4.1中的更改 {#what-changed-in-2}
 
@@ -310,7 +313,7 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新功能和�
 ![](assets/contenttree-2.png)
 
 * 引入了新的键盘快捷键， _例如_ (p)用于导航到属性页面， _(e)用于编辑，_ 和(ctrl+c) __ 用于复制操作。
-* 改进了卡片和列表视图中的滚动和延迟加载体验，以浏览大量资源。
+* Improved scrolling, lazy loading experience in card and list view for browsing large number of assets.
 * 增强的卡片视图，支持基于视图设置的不同大小的卡片。
 
 ![](assets/cardviewsettings-1.png)
