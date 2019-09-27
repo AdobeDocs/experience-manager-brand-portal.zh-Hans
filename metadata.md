@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Experience Manager
+solution-title: 学习和支持
 solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
 solution-image: null
 getting-started-title: 入门
@@ -10,21 +10,21 @@ tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manage
 git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
 translation-type: tm+mt
-source-git-commit: ceccf2b6b7052c79d993bcba793a25973d819d9b
+source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
 
 ---
 
 
-# 内部使用的元数据
+# 元数据供内部使用
 
-metadata. md文件包含从存储库中传递给用户指南TOC. md文件的回购级别元数据。如果要更改任何用户指南的metadata. md内容，请在任何目录. md文件中执行此操作。
+metadata.md文件包括传递给回购协议中的用户指南TOC.md文件的回购协议级元数据。 If you want to change metadata.md content for any user guide, do so in any TOC.md file.
 
-| 元数据 | 它的用途 |
+| 元数据 | what it does |
 |--- |--- |
-| 解决方案标题 | 在文章标题中使用作为链接 |
-| solution-ub-url | 打开Helpx hub页面 |
-| 解决方案图标 | 在解决方案标题旁显示解决方案图标。尚未实现 |
-| getting-started-url | 链接到帮助快速入门页面 |
-| tutorials-url | 链接到视频教程—帮助教程或KT教程 |
-| mini-toc-levels | 确定右侧边栏中显示的标题级别数。默认值为2 |
-| git-repo | 指定主存储库的位置以供内部使用 |
+| solution-title | Used in article header as link |
+| solution-hub-url | Opens helpx hub page |
+| solution-icon | Displays solution icon next to solution title. Not yet implemented |
+| getting-started-url | 帮助快速入门页的链接 |
+| tutorials-url | 链接到视频教程——帮助教程或KT教程 |
+| 微目录级别 | 确定显示在右边栏中的标题级别数。 默认为2 |
+| git-repo | 指定主存储库的内部使用位置 |
