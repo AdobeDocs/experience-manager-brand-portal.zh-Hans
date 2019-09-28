@@ -1,6 +1,6 @@
 ---
 title: 将预设、架构和彩块化发布到Brand Portal
-seo-title: Publish presets, schema, and facets to Brand Portal
+seo-title: 将预设、架构和彩块化发布到Brand Portal
 description: 了解如何将预设、架构和彩块化发布到Brand Portal。
 seo-description: 了解如何将预设、架构和彩块化发布到Brand Portal。
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: 引用
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -20,21 +20,21 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 >[!NOTE]
 >
->The capability to publish image presets, metadata schema, and search facets from AEM Author instance to Brand Portal is available AEM 6.2 SP1-CFP7 and AEM 6.3 SP 1-CFP 1 (6.3.1.1) onwards.
+>从AEM作者实例到Brand Portal发布图像预设、元数据架构和搜索彩块化的功能可从AEM 6.2 SP1-CFP7和AEM 6.3 SP 1-CFP 1(6.3.1.1)开始使用。
 
 ## 将图像预设发布到Brand Portal {#publish-image-presets-to-brand-portal}
 
-图像预设是一组调整大小和设置格式的命令，这些命令在图像传送时应用于图像。 可以在Brand Portal中创建和修改图像预设。 或者，如果AEM作者实例在Dynamic media模式下运行，则用户可以在AEM作者处创建预设并将其发布到AEM Assets Brand Portal，并避免在Brand Portal中重新创建相同的预设。\
-创建预设后，该预设将作为动态演绎版列在资产详细信息演绎版边栏和下载对话框中。
+Image presets are a set of sizing and formatting commands that are applied to the image at the time of image delivery. Image presets can be created and modified at Brand Portal. Alternatively, if AEM Author instance is running in dynamic media mode then users can create presets at the AEM Author and publish them to AEM Assets Brand Portal, and avoid re-creating the same presets at Brand Portal.\
+Once the preset is created, it is listed as dynamic rendition on asset detail renditions rail and download dialogue.
 
 >[!NOTE]
 >
->如果AEM作者实例未在 [!UICONTROL Dynamic Media模式下运行] （客户尚未购买Dynamic Media），则上传时不会创建资产的 [!UICONTROL Pyramid TIFF] 再现。 图像预设或动态演绎版适用于资产的 [!UICONTROL Pyramid TIFF] ，因此，如果 [!UICONTROL Pyramid TIFF] 在AEM作者实例中不可用，则Brand Portal中也不可用。 因此，资产详细信息页面和下载对话框的演绎版边栏中不显示动态演绎版。
+>如果AEM作者实例未在 [!UICONTROL Dynamic Media模式下运行] （客户尚未购买Dynamic Media），则上传时不会创建资产的 [!UICONTROL Pyramid TIFF] 再现。 图像预设或动态演绎版适用于资产的 [!UICONTROL Pyramid TIFF] ，因此，如果 [!UICONTROL Pyramid TIFF] 在AEM作者实例中不可用，则Brand Portal中也不可用。 As a result of this, no dynamic renditions are present in renditions rail of asset details page and download dialogue.
 
 要将图像预设发布到Brand Portal，请执行以下操作：
 
 1. 在AEM作者实例中，点按／单击AEM徽标以访问全局导航控制台，然后点按／单击工具图标，然后导航到资产 **[!UICONTROL &gt;图]** 像预设 ****。
-2. 从图像预设列表中选择一个或多个图像预设，然后单击／点按发布 **[!UICONTROL 到品牌门户]**。
+1. 从图像预设列表中选择一个或多个图像预设，然后单击／点按发布 **[!UICONTROL 到品牌门户]**。
 
 ![](assets/publishpreset.png)
 
@@ -45,7 +45,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 要从Brand Portal取消发布图像预设，请执行以下操作：
 
 1. 在AEM作者实例中，点按／单击AEM徽标以访问全局导航控制台，然后点按／单击工具图标，然后导航到 **[!UICONTROL Assets]** &gt; **[!UICONTROL Image Presets]**。
-2. 选择图像预设，然后从 **[!UICONTROL 顶部的可用选项中选择]** “从Brand Portal删除”。
+1. 选择图像预设，然后从 **[!UICONTROL 顶部的可用选项中选择]** “从Brand Portal删除”。
 
 ## 将元数据架构发布到Brand Portal {#publish-metadata-schema-to-brand-portal}
 
@@ -59,7 +59,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 >[!NOTE]
 >
->如果默认架构在AEM实例处被锁定（即它们未编辑），则无法将其发布到Brand Portal。
+>Default schemas cannot be published to the Brand Portal if they are locked at the AEM instance (that is they are unedited).
 
 ![](assets/default-schema-form.png)
 
@@ -70,20 +70,20 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 要将元数据架构从AEM作者实例发布到Brand Portal，请执行以下操作：
 
 1. 在AEM作者实例中，点按／单击AEM徽标以访问全局导航控制台，然后点按／单击工具图标，然后导航到资产&gt;元 **[!UICONTROL 数据架构]**。
-2. 选择元数据架构，然后从 **[!UICONTROL 顶部的可用选项中选择]** “发布到品牌门户”。
+1. Select a metadata schema, and select Publish to Brand Portal from the options available at the top.****
 
 >[!NOTE]
 >
->当用户单击 **[!UICONTROL 发布到Brand Portal时]**，元数据架构将排队等待发布。 建议用户监视复制代理的日志以确认发布是否成功。
+>When users click Publish to Brand Portal, the metadata schemas are queued for publishing. **** Users are advised to monitor the log of the replication agents to confirm if the publish was successful.
 
 要从Brand Portal取消发布元数据架构，请执行以下操作：
 
 1. 在AEM作者实例中，点按／单击AEM徽标以访问全局导航控制台，然后点按／单击工具图标，然后导航到资产&gt;元 **[!UICONTROL 数据架构]**。
-2. 选择元数据架构，然后从 **[!UICONTROL 顶部的可用选项中选择]** “从品牌门户中删除”。
+1. Select a metadata schema, and select Remove from Brand Portal from the options available at the top.****
 
-## 将搜索彩块化发布到Brand Portal {#publish-search-facets-to-brand-portal}
+## Publish search facets to Brand Portal {#publish-search-facets-to-brand-portal}
 
-搜索表单为Brand Portal上的用户 [提供了](../using/brand-portal-search-facets.md) “分面搜索”功能。 搜索彩块化可为品牌门户上的搜索提供更高的粒度。 在搜索 [筛选器中](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate) ，用户可以在搜索表单中添加所有谓词作为搜索彩块化。
+Search forms provide the capability of faceted search to users on Brand Portal. [](../using/brand-portal-search-facets.md)Search facets impart greater granularity to searches on Brand Portal. All the predicates added in the search form are available to users as search facets in search filters.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)
@@ -97,7 +97,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 要将编辑后的搜索facet从AEM作者实例发布到Brand Portal，请执行以下操作：
 
 1. 点按／单击AEM徽标，然后转到工具 **** &gt;常规 **[!UICONTROL &gt;搜]** 索表单 ****。
-2. 选择已编辑的搜索表单，然后选择 **[!UICONTROL 发布到Brand Portal]**。
+1. Select the edited search form, and select Publish to Brand Portal.****
 
    >[!NOTE]
    >
@@ -105,8 +105,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 要从Brand Portal取消发布搜索表单，请执行以下操作：
 
-1. 在AEM作者实例中，点按／单击AEM徽标以访问全局导航控制台，然后点按／单击工具图标，然后导航到常规&gt;搜 **[!UICONTROL 索表单]**。
-2. 选择搜索表单，然后从顶 **[!UICONTROL 部的可用选项中选择]** “从Brand Portal中删除”。
+1. In AEM Author instance, tap/ click the AEM logo to access the global navigation console and tap/click the Tools icon and navigate to General &gt; Search Forms.****
+1. Select the search form, and select Remove from Brand Portal from the options available at the top.****
 
 >[!NOTE]
 >
@@ -114,8 +114,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ### 限制 {#limitations}
 
-1. 少数搜索谓词不适用于品牌门户上的搜索筛选器。 当这些搜索谓词作为搜索表单的一部分从AEM作者实例发布到Brand Portal时，它们会被过滤掉。 因此，用户在品牌门户的已发布表单中可看到的谓词数量较少。 请参 [阅适用于Brand Portal上的筛选器的搜索谓词](../using/brand-portal-search-facets.md#list-of-search-predicates)。
+1. Few search predicates are not applicable to search filters on the Brand Portal. When these search predicates are published as part of the search form from AEM Author instance to Brand Portal, they are filtered out. 因此，用户在品牌门户的已发布表单中可看到的谓词数量较少。 See search predicates applicable to filters on Brand Portal.[](../using/brand-portal-search-facets.md#list-of-search-predicates)
 
-2. 对于 [!UICONTROL 选项谓词]，如果用户在AEM作者实例中使用任何自定义路径读取选项，则它在Brand Portal中将无法使用。 这些附加路径和选项不会随搜索表单一起发布到Brand Portal。 在这种情况下，用户可以在“选项 **[!UICONTROL 谓词”中]** 的“添加选项 **[!UICONTROL ”中选择“手]****** 动”选项，以在Brand Portal手动添加这些选项。
+1. 对于 [!UICONTROL 选项谓词]，如果用户在AEM作者实例中使用任何自定义路径读取选项，则它在Brand Portal中将无法使用。 这些附加路径和选项不会随搜索表单一起发布到Brand Portal。 在这种情况下，用户可以在“选项 **[!UICONTROL 谓词”中]** 的“添加选项 **[!UICONTROL ”中选择“手]****** 动”选项，以在Brand Portal手动添加这些选项。
 
 ![](assets/options-predicate-manual.png)
