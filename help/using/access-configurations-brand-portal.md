@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,10 +30,10 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 要允许客人在Brand Portal上访问，以便用户无需登录即可访问公共资产，管理员需要：
 
 1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
-2. 从管理工具面板中，选择 **[!UICONTROL 访问]** ，打开访 **[!UICONTROL 问设置页面]** 。
-3. 启用“允 **[!UICONTROL 许客人访问]** ”配置。
-4. **[!UICONTROL 保存更改。]**
-5. 注销以使更改生效。
+1. 从管理工具面板中，选择 **[!UICONTROL 访问]** ，打开访 **[!UICONTROL 问设置页面]** 。
+1. 启用“允 **[!UICONTROL 许客人访问]** ”配置。
+1. **[!UICONTROL 保存更改。]**
+1. 注销以使更改生效。
 
 ![](assets/bp-welcome-screen.png)
 
@@ -44,7 +44,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 要允许组织用户请求在Brand Portal上的访问权限，管理员需要：
 
 1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
-2. 从管理工具面板中，选择 **[!UICONTROL 访问]** ，打开访 **[!UICONTROL 问设置页面]** 。
-3. 启用“允 **[!UICONTROL 许用户请求访问权限]** ”配置。
-4. **[!UICONTROL 保存更改。]**
-5. 注销以使更改生效。
+1. 从管理工具面板中，选择 **[!UICONTROL 访问]** ，打开访 **[!UICONTROL 问设置页面]** 。
+1. 启用“允 **[!UICONTROL 许用户请求访问权限]** ”配置。
+1. **[!UICONTROL 保存更改。]**
+1. 注销以使更改生效。
