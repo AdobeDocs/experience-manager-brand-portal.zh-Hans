@@ -10,7 +10,7 @@ content-type: 引用
 topic-tags: 下载安装
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -77,7 +77,7 @@ Brand Portal用户可以：
 
 ### Dynamic Media Hybrid和Dynamic Media Scene 7模式的单独租户 {#separate-tenants}
 
-如果您同时使用Dynamic Media和Dynamic [!DNL Scene 7] Media Hybrid功能，则建议您为使用Dynamic Media Hybrid和Dynamic Media模式配置的AEM作者实例使用不同的Brand Portal租户 [!DNL Scene 7] 。
+如果您同时使用Dynamic Media和Dynamic [!DNL Scene 7] Media Hybrid功能，则建议您为使用Dynamic Media Hybrid和Dynamic Media模式配置的AEM作者实例使用不同的Brand Portal租户 [!DNL Scene 7] 。<br />
 
 ![作者与BP一对一映射](assets/BPDynamicMedia.png)
 
