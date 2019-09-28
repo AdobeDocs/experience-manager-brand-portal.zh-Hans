@@ -1,23 +1,23 @@
 ---
-title: Administer general tenant configurations
-seo-title: Administer general tenant configurations
-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
-seo-description: Configure download acceleration, public smart [!UICONTROL collection] creation, public [!UICONTROL collection] creation, and enable admin users to delete assets on tenants.
+title: 管理常规租户配置
+seo-title: 管理常规租户配置
+description: 配置下载加速、公共智能[!UICONTROL集合]创建、公共[!UICONTROL集合]创建，并使管理员用户能够删除租户上的资产。
+seo-description: 配置下载加速、公共智能[!UICONTROL集合]创建、公共[!UICONTROL集合]创建，并使管理员用户能够删除租户上的资产。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
-topic-tags: administration
+topic-tags: 管理
 content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# Administer general tenant configurations {#administer-general-tenant-configurations}
+# 管理常规租户配置 {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal allows organizations to configure the following capabilities for specific tenants:
+AEM Assets Brand Portal允许组织为特定租户配置以下功能：
 
 * 管理员删除资产
 * 非管理员用户创建公共集合
@@ -44,11 +44,11 @@ AEM Assets Brand Portal allows organizations to configure the following capabili
 要启用／禁用以下各种配置：
 
 1. 以管理员权限登录。
-2. 从顶部的工具栏中选择AEM徽标以访问管理工具。
-3. 从管理工具面板中，选择“ **[!UICONTROL 常规]** ”以打开“ **[!UICONTROL 常规设置]** ”页。
-4. 使用相应的切换开关启用／禁用任何常规配置。
-5. **[!UICONTROL 保存更改。]**
-6. 注销以使更改生效。
+1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
+1. 从管理工具面板中，选择“ **[!UICONTROL 常规]** ”以打开“ **[!UICONTROL 常规设置]** ”页。
+1. 使用相应的切换开关启用／禁用任何常规配置。
+1. **[!UICONTROL 保存更改。]**
+1. 注销以使更改生效。
 
 ## 允许管理员用户从Brand Portal中删除资产 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
@@ -60,9 +60,9 @@ AEM Assets Brand Portal allows organizations to configure the following capabili
 
 ## 允许非管理员创建公共智能收藏集 {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Allow public smart collections creation] configuration controls whether non-administrators can save their searches as smart collections and make them public for that tenant. ](../using/brand-portal-searching.md#main-pars-header-500620467)默认情况下，该配置处于启用状态。 By disabling the configuration organizations can prevent having a huge number of public smart collections created by non-admin users on organization's Brand Portal.
+[[!UICONTROL允许创建公共智能集合]](../using/brand-portal-searching.md#main-pars-header-500620467) 配置控制非管理员是否可以将其搜索另存为智能集合并将其公开给该租户。 默认情况下，该配置处于启用状态。 通过禁用配置，组织可以防止组织的品牌门户上有大量非管理员用户创建的公共智能集合。
 
-## Allow download acceleration {#allow-download-acceleration}
+## 允许下载加速 {#allow-download-acceleration}
 
 [[!UICONTROL允许下载加速]](../using/accelerated-download.md) 配置允许组织通过与IBM Aspera connect（按需安装的应用程序）集成，从Brand Portal和共享链接加速资源下载。 该应用程序使用专有技术来消除TCP开销。
 
