@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -78,7 +78,6 @@ Brand Portal为客人用 [!UICONTROL 户提供] “概述”选项，以查 [!UI
 
 * 在顶部的工具栏中，选择资产／文件夹。
 * 在下拉菜单中，选择边栏选择器。
-
 在选择资 [!UICONTROL 产] /文件夹时选择“概述”选项后，用户可以查看资产创建的标题、路径和时间。 但是，在资产详细信息页面上，选 [!UICONTROL 择“概述] ”选项可让用户查看资产的元数据。
 
 ![](assets/overview-option-1.png)
