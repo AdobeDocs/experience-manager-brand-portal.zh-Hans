@@ -1,26 +1,26 @@
 ---
-title: 应用图像预设或动态演绎版
-seo-title: 应用图像预设或动态演绎版
-description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令以名称保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。 '
-seo-description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令以名称保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。 '
+title: Apply image presets or dynamic renditions
+seo-title: Apply image presets or dynamic renditions
+description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令以名称保存。 Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. '
+seo-description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令以名称保存。 Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: 引用
-topic-tags: 管理
+topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# 应用图像预设或动态演绎版 {#apply-image-presets-or-dynamic-renditions}
+# Apply image presets or dynamic renditions {#apply-image-presets-or-dynamic-renditions}
 
-与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令以名称保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。
+Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 
-图像预设用于生成可预览和下载的图像的动态演绎版。 在预览图像及其再现时，您可以选择预设来根据管理员设置的规范重新设置图像格式。
+An image preset is used to generate dynamic renditions of images that can be previewed and downloaded. 在预览图像及其再现时，您可以选择预设来根据管理员设置的规范重新设置图像格式。
 
-要在Brand Portal中查看资产的动态演绎版，请确保其金字塔式tiff演绎版存在于从中发布到Brand Portal的AEM作者实例中。 发布资产时，其PTIFF再现也会发布到Brand Portal。 无法从Brand Portal生成PTIFF再现。
+To view dynamic renditions of an asset in Brand Portal, ensure that its Pyramid tiff rendition exists at the AEM author instance from where you publish to Brand Portal. 发布资产时，其PTIFF再现也会发布到Brand Portal。 There is no way of generating the PTIFF rendition from Brand Portal.
 
 >[!NOTE]
 >
@@ -37,20 +37,21 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 >[!NOTE]
 >
->为PTIFF可用的资产创建动态演绎版。 因此，如果资产在AEM上未创建金字塔TIFF再现并发布到Brand Portal，则只能导出其系统再现，但动态再现会作为一个选项显示。
-必须在AEM（作者）上启用Dynamic Media Hybrid模式，才能创建资产的金字塔tiff(ptiff)。 当此类资产发布到Brand Portal时，会应用图像预设并显示动态演绎版。
+>图像的动态演绎版是使用其金字塔TIFF创建的。 如果金字塔TIFF不适用于任何资产，则无法在Brand门户中获取该资产的动态演绎版。
+如果AEM（作者）实例在 **Dynamic Media Hybrid模式上运行**，则会创建图像资产的金字塔TIFF演绎版并将其保存在AEM存储库中。 但是，如果AEM（作者）实例在 **Dynamic Media Scene 7模式上运行**，则图像资产的金字塔TIFF再现在Scene 7服务器上。
+当此类资产发布到品牌门户时，会应用图像预设并显示动态演绎版。
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
-2. 在管理工具面板中，单击“图 **[!UICONTROL 像预设”]**。
+1. 在管理工具面板中，单击“图 **[!UICONTROL 像预设”]**。
 
    ![](assets/admin-tools-panel-4.png)
 
-3. 在图像预设页面中，单击“创 **[!UICONTROL 建”]**。
+1. 在图像预设页面中，单击“创 **[!UICONTROL 建”]**。
 
    ![](assets/image_preset_homepage.png)
 
-4. 在“编 **[!UICONTROL 辑图像预设]********** ”页面中，根据需要在“基本”和“高级”选项卡中输入值，包括名称。 有关各个选项的概述，请参阅[图像预设选项](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)。各项预设将出现在左侧窗格中，并且可以快速用于其他资产。
+1. 在“编 **[!UICONTROL 辑图像预设]********** ”页面中，根据需要在“基本”和“高级”选项卡中输入值，包括名称。 有关各个选项的概述，请参阅[图像预设选项](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)。各项预设将出现在左侧窗格中，并且可以快速用于其他资产。
 
    ![](assets/image_preset_create.png)
 
@@ -58,19 +59,19 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
    >
    >您还可以使用“编 **[!UICONTROL 辑图像预设]** ”页面编辑现有图像预设的属性。 要编辑图像预设，请从图像预设页面中选择该图像预设，然后单击“编 **[!UICONTROL 辑”]**。
 
-5. Click **[!UICONTROL Save]**. 图像预设将创建并显示在图像预设页面上。
-6. 要删除图像预设，请从图像预设页面中选择该图像预设，然后单击“删 **[!UICONTROL 除”]**。 在确认页面中，单击 **[!UICONTROL 删除]** ，以确认删除。 图像预设将从图像预设页面中删除。
+1. Click **[!UICONTROL Save]**. 图像预设将创建并显示在图像预设页面上。
+1. 要删除图像预设，请从图像预设页面中选择该图像预设，然后单击“删 **[!UICONTROL 除”]**。 在确认页面中，单击 **[!UICONTROL 删除]** ，以确认删除。 图像预设将从图像预设页面中删除。
 
 ## 预览图像时应用图像预设 {#apply-image-presets-when-previewing-images}
 
 预览图像及其再现时，从现有预设中进行选择，以根据管理员设置的规范重新设置图像格式。
 
-1. 从Brand Portal界面中，单击图像以将其打开。
-2. 单击左侧的叠加图标，然后选择“演 **[!UICONTROL 绎版”]**。
+1. From the Brand Portal interface, click an image to open it.
+1. 单击左侧的叠加图标，然后选择“演 **[!UICONTROL 绎版”]**。
 
    ![](assets/image-preset-previewrenditions.png)
 
-3. 从演绎 **[!UICONTROL 版列表]** ，选择相应的动态演绎版，例如缩 **[!UICONTROL 略图]**。 预览图像将根据您选择的再现进行渲染。
+1. From the Renditions list, select the appropriate dynamic rendition, for example, Thumbnail. ******** The preview image is rendered based on your choice of the rendition.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -86,13 +87,13 @@ source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
    * 选择要下载的图像。 在顶部的工具栏中，单击“下载 **[!UICONTROL ”图]** 标。
    ![](assets/downloadassets.png)
 
-2. 从“下 **[!UICONTROL 载]** ”对话框中，根据是否要下载包含或不包含其演绎版的资产，选择所需的选项。
+1. 从“下 **[!UICONTROL 载]** ”对话框中，根据是否要下载包含或不包含其演绎版的资产，选择所需的选项。
 
    ![](assets/donload-assets-dialog.png)
 
-3. 要下载资产的动态演绎版，请选择“ **[!UICONTROL 动态演绎版”选项]** 。
-4. 自定义图像预设属性，根据这些属性，您可以在下载过程中动态地重新设置图像及其演绎版的格式。 指定大小、格式、色彩空间、分辨率和图像修饰符。
+1. 要下载资产的动态演绎版，请选择“ **[!UICONTROL 动态演绎版”选项]** 。
+1. 自定义图像预设属性，根据这些属性，您可以在下载过程中动态地重新设置图像及其演绎版的格式。 指定大小、格式、色彩空间、分辨率和图像修饰符。
 
    ![](assets/dynamicrenditions.png)
 
-5. 单击“ **[!UICONTROL 下载]**”。 自定义动态演绎版将以ZIP文件的形式下载，并包含您选择下载的图像和演绎版。 但是，如果下载了单个资产，则不会创建zip文件，这可确保快速下载。
+1. 单击“ **[!UICONTROL 下载]**”。 自定义动态演绎版将以ZIP文件的形式下载，并包含您选择下载的图像和演绎版。 但是，如果下载了单个资产，则不会创建zip文件，这可确保快速下载。
