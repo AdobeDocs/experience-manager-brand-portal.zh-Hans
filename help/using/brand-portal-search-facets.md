@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,19 +34,19 @@ Brand Portal支持多 [面搜索](../using/brand-portal-searching.md#search-usin
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，单击“ **[!UICONTROL 搜索表单”]**。
+1. 在管理工具面板中，单击“ **[!UICONTROL 搜索表单”]**。
 
    ![](assets/navigation-panel-1.png)
 
-3. 在“搜索 **[!UICONTROL 表单]** ”页面中，选择“资 **[!UICONTROL 产管理员搜索边栏”]**。
+1. 在“搜索 **[!UICONTROL 表单]** ”页面中，选择“资 **[!UICONTROL 产管理员搜索边栏”]**。
 
    ![](assets/search-forms-page.png)
 
-4. 在顶部显示的工具栏上，单击“编 **[!UICONTROL 辑]** ”以打开编辑搜索表单。
+1. 在顶部显示的工具栏上，单击“编 **[!UICONTROL 辑]** ”以打开编辑搜索表单。
 
    ![](assets/edit-search-form-1.png)
 
-5. In the [!UICONTROL Edit Search Form] page, drag a predicate from the [!UICONTROL Select Predicate] tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
+1. In the [!UICONTROL Edit Search Form] page, drag a predicate from the [!UICONTROL Select Predicate] tab to the main pane. For example, drag **[!UICONTROL Property Predicate]**.
 
    主窗 **[!UICONTROL 格中显示]** “属性”字段，右侧的“设 **[!UICONTROL 置]** ”选项卡显示属性谓词。
 
@@ -56,7 +56,7 @@ Brand Portal支持多 [面搜索](../using/brand-portal-searching.md#search-usin
    >
    >**[!UICONTROL 设置]选项卡中的标题标签标识您选择的谓词类型。**
 
-6. 在&#x200B;**[!UICONTROL 设置]选项卡中，输入属性谓词的标签、占位符文本和描述。**
+1. 在&#x200B;**[!UICONTROL 设置]选项卡中，输入属性谓词的标签、占位符文本和描述。**
 
    * 如果 ****&#x200B;要允许基于指定属性值对资产进行部分短语搜索（和通配符搜索），请选择部分搜索。 默认情况下，此谓词支持全文搜索。
    * 如果 ****&#x200B;希望基于属性值的资产搜索不区分大小写，请选择忽略大小写。 默认情况下，搜索筛选器中的属性值搜索区分大小写。
@@ -64,16 +64,16 @@ Brand Portal支持多 [面搜索](../using/brand-portal-searching.md#search-usin
    >
    >在选中“部 **[!UICONTROL 分搜索]** ”复选框时， [!UICONTROL 默认情况下会选中“忽略大小写] ”。
 
-7. 在“属 [!UICONTROL 性名称] ”字段中，打开属性选取器并选择执行搜索时所依据的属性。 或者，输入属性的名称。 例如，输入 [!UICONTROL `  jcr :content/metadata/dc:title`] 或 [!UICONTROL `./jcr:content/metadata/dc:title`]。
+1. 在“属 [!UICONTROL 性名称] ”字段中，打开属性选取器并选择执行搜索时所依据的属性。 或者，输入属性的名称。 例如，输入 [!UICONTROL `  jcr :content/metadata/dc:title`] 或 [!UICONTROL `./jcr:content/metadata/dc:title`]。
 
    ![](assets/title-prop.png)
 
-8. 单击&#x200B;**[!UICONTROL 完成]以保存设置。**
-9. From the [!UICONTROL Assets] user interface, click the overlay icon and choose **[!UICONTROL Filter]** to navigate to the **[!UICONTROL Filters]** panel. The **[!UICONTROL Property]** predicate is added to the panel.
+1. 单击&#x200B;**[!UICONTROL 完成]以保存设置。**
+1. 在“资 [!UICONTROL 产] ”用户界面中，单击叠加图标并选择“筛选器” **** ，以导航到“ **[!UICONTROL 筛选器]** ”面板。 The **[!UICONTROL Property]** predicate is added to the panel.
 
    ![](assets/property-filter-panel.png)
 
-10. Enter a title for the asset to be searched in the **[!UICONTROL Property]** text box. 例如，“Adobe”。 执行搜索时，标题与“Adobe”匹配的资产会显示在搜索结果中。
+1. Enter a title for the asset to be searched in the **[!UICONTROL Property]** text box. 例如，“Adobe”。 执行搜索时，标题与“Adobe”匹配的资产会显示在搜索结果中。
 
 ## 搜索谓词列表 {#list-of-search-predicates}
 
@@ -111,29 +111,29 @@ Brand Portal支持多 [面搜索](../using/brand-portal-searching.md#search-usin
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，单击“ **[!UICONTROL 搜索表单”]**。
+1. 在管理工具面板中，单击“ **[!UICONTROL 搜索表单”]**。
 
    ![](assets/navigation-panel-2.png)
 
-3. 在“搜索 **[!UICONTROL 表单]** ”页面中，选择“资 **[!UICONTROL 产管理员搜索边栏”]**。
+1. 在“搜索 **[!UICONTROL 表单]** ”页面中，选择“资 **[!UICONTROL 产管理员搜索边栏”]**。
 
    ![](assets/search-forms-page.png)
 
-4. 在顶部显示的工具栏上，单击“编 **[!UICONTROL 辑]** ”以打开编辑搜索表单。
+1. 在顶部显示的工具栏上，单击“编 **[!UICONTROL 辑]** ”以打开编辑搜索表单。
 
    ![](assets/edit-search-form-2.png)
 
-5. 在“编 [!UICONTROL 辑搜索表单] ”页面的主窗格中，选择要删除的谓词。 For example, select **[!UICONTROL Property Predicate]**.
+1. 在“编 [!UICONTROL 辑搜索表单] ”页面的主窗格中，选择要删除的谓词。 For example, select **[!UICONTROL Property Predicate]**.
 
    右侧 **[!UICONTROL 的“设置]** ”选项卡显示属性谓词字段。
 
-6. 要删除属性谓词，请单击素材箱图标。 在“删 **[!UICONTROL 除字段]** ”对话框中，单击“ **[!UICONTROL 删除]** ”以确认删除操作。
+1. 要删除属性谓词，请单击素材箱图标。 在“删 **[!UICONTROL 除字段]** ”对话框中，单击“ **[!UICONTROL 删除]** ”以确认删除操作。
 
    属性 **[!UICONTROL 谓词字段将从主窗格中删除]** ，并且设置选 **[!UICONTROL 项卡变]** 为空。
 
    ![](assets/search-form-delete-predicate.png)
 
-7. 要保存更改，请单击工 **[!UICONTROL 具栏中]** 的完成。
-8. 在“资 **[!UICONTROL 产]** ”用户界面中，单击叠加图标并选择“筛选器” **** ，以导航到“ **[!UICONTROL 筛选器]** ”面板。 属性 **** 谓词已从面板中删除。
+1. 要保存更改，请单击工 **[!UICONTROL 具栏中]** 的完成。
+1. 在“资 **[!UICONTROL 产]** ”用户界面中，单击叠加图标并选择“筛选器” **** ，以导航到“ **[!UICONTROL 筛选器]** ”面板。 属性 **** 谓词已从面板中删除。
 
    ![](assets/property-predicate-removed.png)
