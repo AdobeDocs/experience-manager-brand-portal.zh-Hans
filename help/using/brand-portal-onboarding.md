@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 管理
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 1. 打开欢迎电子邮件，然后单击“ **[!UICONTROL 开始”]**。
 
-2. 在注册页面中，指定您的详细信息（包括名、姓、密码和国家／地区）。
+1. 在注册页面中，指定您的详细信息（包括名、姓、密码和国家／地区）。
    >[!NOTE]
    >
    >如果您是现有Adobe Marketing cloud用户，则会显示登录页面而非注册页面。 要登录Adobe Marketing Cloud，请输入您的Adobe ID和密码。
@@ -33,8 +33,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >如果您的单位使用企业ID，而不是查看此注册页面，您将被重定向到企业登录页面。 有关详细信息，请参 [阅Enterprise ID、登录和帐户帮助](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)。
 
-3. 单 **[!UICONTROL 击继续]** ，以继续进入贵组织的Brand Portal页面。
-4. 从Brand Portal登录页面，单击“登 **[!UICONTROL 录]** ”以登录Brand Portal。
+1. 单 **[!UICONTROL 击继续]** ，以继续进入贵组织的Brand Portal页面。
+1. 从Brand Portal登录页面，单击“登 **[!UICONTROL 录]** ”以登录Brand Portal。
 
    ![Brand Portal登录页](assets/signin-onboarding.png)
 
