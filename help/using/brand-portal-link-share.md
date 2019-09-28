@@ -10,7 +10,7 @@ topic-tags: 共享
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,15 +33,15 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
 
    ![](assets/siderail.png)
 
-2. 在左侧的脱轨处，单击“文 **[!UICONTROL 件]** ”以共享文件夹或图像。 要共享收藏集，请单击“ **[!UICONTROL 收藏集]**”。
+1. 在左侧的脱轨处，单击“文 **[!UICONTROL 件]** ”以共享文件夹或图像。 要共享收藏集，请单击“ **[!UICONTROL 收藏集]**”。
 
    ![](assets/navigationrail.png)
 
-3. 选择要作为链接共享的文件夹或收藏集。
+1. 选择要作为链接共享的文件夹或收藏集。
 
    ![](assets/asset-link-share.png)
 
-4. 在顶部的工具栏中，单击共享 **[!UICONTROL 链接图标]** 。
+1. 在顶部的工具栏中，单击共享 **[!UICONTROL 链接图标]** 。
 
    将出 **[!UICONTROL 现“链接共享]** ”对话框。
 
@@ -51,19 +51,19 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
    >
    >共享 **[!UICONTROL 链接字段]** ，会显示自动创建的资产链接。 此链接的默认到期时间为7天。 您可以复制链接并与用户单独共享，或从“链接共享”对话 **[!UICONTROL 框共享]** 。
 
-5. 在电子邮件地址框中，键入要与其共享链接的用户的电子邮件ID。 您可以与多个用户共享该链接。
+1. 在电子邮件地址框中，键入要与其共享链接的用户的电子邮件ID。 您可以与多个用户共享该链接。
 
    如果用户是您组织的成员，请从下拉列表中显示的建议中选择其电子邮件ID。 如果用户是外部用户，请键入完整的电子邮件ID并按 **[!UICONTROL Enter]**;电子邮件ID将添加到用户列表。
 
    ![](assets/link-sharing-text.png)
 
-6. In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
-7. In the **[!UICONTROL Message]** box, type a message if necessary.
-8. 在“过 **[!UICONTROL 期]** ”字段中，使用日期选取器指定链接的过期日期和时间。 默认情况下，到期日期设置为您共享链接之日起的7天。
+1. In the **[!UICONTROL Subject]** box, type a subject for the asset you want to share.
+1. In the **[!UICONTROL Message]** box, type a message if necessary.
+1. 在“过 **[!UICONTROL 期]** ”字段中，使用日期选取器指定链接的过期日期和时间。 默认情况下，到期日期设置为您共享链接之日起的7天。
 
    通过链接共享的资产在超过“到期”字段中指定的日期和时间后 **[!UICONTROL 过期]** 。 有关过期资产的行为以及基于用户角色在Brand Portal中对允许活动进行更改的信息，请参阅管 [理资产的数字权限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
 
-9. Click **[!UICONTROL Share]**. 系统会显示一条消息，确认已与用户共享该链接。 用户会收到一封包含该链接的电子邮件。
+1. Click **[!UICONTROL Share]**. 系统会显示一条消息，确认已与用户共享该链接。 用户会收到一封包含该链接的电子邮件。
 
    ![](assets/link-sharing-email.png)
 
@@ -97,7 +97,7 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
 
    * 要加快下载共享为链接的资产文件，请选择“启用下 **[!UICONTROL 载加速]** ”选项， [然后按向导操作](../using/accelerated-download.md#download-workflow-using-file-accelerator)。 要详细了解Brand Portal上资产的快速下载，请参阅 [指南以加速从Brand Portal下载](../using/accelerated-download.md)。
 [!UICONTROL
-2. 要从共享链接下载资产的演绎版以及资产的演绎版，请选择“ **[!UICONTROL 演绎版”选项]** 。 执行此操作时，将显 **示“排除系统演绎版”** （默认情况下为选中状态）选项。 这会阻止下载现成的演绎版以及已批准的资产或其自定义演绎版。
+1. 要从共享链接下载资产的演绎版以及资产的演绎版，请选择“ **[!UICONTROL 演绎版”选项]** 。 执行此操作时，将显 **示“排除系统演绎版”** （默认情况下为选中状态）选项。 这会阻止下载现成的演绎版以及已批准的资产或其自定义演绎版。
 
    但是，要允许自动生成的演绎版与自定义演绎版一起下载，请取消选择“排除 **[!UICONTROL 系统演绎版]** ”选项。
 
@@ -107,7 +107,7 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
 
    ![](assets/download-linkshare-autoren.png)
 
-3. 点按／单击 **[!UICONTROL 下载]**。 资产（如果已选择，则会将演绎版）作为ZIP文件下载到您的本地文件夹。 但是，如果下载单个资产而不下载任何演绎版，则不会创建zip文件，从而确保快速下载。
+1. 点按／单击 **[!UICONTROL 下载]**。 资产（如果已选择，则会将演绎版）作为ZIP文件下载到您的本地文件夹。 但是，如果下载单个资产而不下载任何演绎版，则不会创建zip文件，从而确保快速下载。
 
 >[!NOTE]
 >
@@ -193,12 +193,12 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
 
    ![](assets/siderail.png)
 
-2. 在脱轨中，单击“共 **[!UICONTROL 享链接”]**。
+1. 在脱轨中，单击“共 **[!UICONTROL 享链接”]**。
 
    ![](assets/navigationrail.png)
 
-3. 查看您从显示的列表中共享的链接。
-4. 要从列表中取消共享链接，请选择该链接，然后单击链接条目旁边的素材箱图标，或从顶部的工具栏中取消共 **[!UICONTROL 享]** 。
+1. 查看您从显示的列表中共享的链接。
+1. 要从列表中取消共享链接，请选择该链接，然后单击链接条目旁边的素材箱图标，或从顶部的工具栏中取消共 **[!UICONTROL 享]** 。
 
    ![](assets/unshare-links.jpg)
 
@@ -206,4 +206,4 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
    >
    >共享链接的显示特定于用户。 此功能不显示租户的所有用户共享的所有链接。
 
-5. 在警告消息框中，单击“继 **[!UICONTROL 续]** ”以确认取消共享。 链接的条目将从共享链接列表中删除。
+1. 在警告消息框中，单击“继 **[!UICONTROL 续]** ”以确认取消共享。 链接的条目将从共享链接列表中删除。
