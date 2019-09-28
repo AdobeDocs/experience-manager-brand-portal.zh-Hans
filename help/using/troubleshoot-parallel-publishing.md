@@ -9,7 +9,7 @@ content-type: 引用
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,8 +33,8 @@ Brand Portal支持与AEM Assets集成，以便从AEM Assets作者实例无缝地
 要验证发布配置，请执行以下操作：
 
 1. 检查错误日志
-2. 检查是否已创建复制代理
-3. 测试连接
+1. 检查是否已创建复制代理
+1. 测试连接
 
 **创建云服务时的尾日志**
 
@@ -48,7 +48,7 @@ Brand Portal支持与AEM Assets集成，以便从AEM Assets作者实例无缝地
 
 1. 联系Adobe支持。
 
-2. 重试 [清理](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) ，然后再次创建发布配置。
+1. 重试 [清理](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) ，然后再次创建发布配置。
 
 <!--
 Comment Type: remark
@@ -66,7 +66,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
    i.删除/etc/replication/agents.author/mp_replication*\
    ii. 删除/etc/cloudservices/mediaportal/&lt;config_name&gt;
 
-2. 转到 [!UICONTROL localhost:4502/useradmin]:\
+1. 转到 [!UICONTROL localhost:4502/useradmin]:\
    我搜索用户[!UICONCONTROL mac-&lt;tenantid&gt;-replicationii删除此用户
 
 现在系统都清理好了。 现在，您可以尝试创建新的cloudservice配置，并仍使用https://legacy-oauth.cloud.adobe.io/中已有的JWT应用 [程序](https://legacy-oauth.cloud.adobe.io/)。 无需创建新应用程序，只需从新创建的云配置中更新公钥。
