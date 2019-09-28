@@ -10,7 +10,7 @@ topic-tags: 共享
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,11 +31,11 @@ AEM Assets Brand Portal管理员可以与授权用户共享和取消共享集合
 
    ![](assets/contenttree-1.png)
 
-2. 在左侧的脱轨处，单击“集 **[!UICONTROL 合”]**。
+1. 在左侧的脱轨处，单击“集 **[!UICONTROL 合”]**。
 
    ![](assets/access_collections.png)
 
-3. 从“收 **[!UICONTROL 藏集]** ”控制台中，执行下列操作之一：
+1. 从“收 **[!UICONTROL 藏集]** ”控制台中，执行下列操作之一：
 
    * 将指针悬停在要共享的集合上。 在集合的可用快速操作缩略图中，单击“设 **[!UICONTROL 置]** ”图标。
    ![](assets/settings_thumbnail.png)
@@ -43,7 +43,7 @@ AEM Assets Brand Portal管理员可以与授权用户共享和取消共享集合
    * 选择要共享的集合。 在顶部的工具栏中，单击“设 **[!UICONTROL 置”]**。
    ![](assets/collection-sharing.png)
 
-4. 在“收 [!UICONTROL 藏集设置] ”对话框中，选择要与其共享收藏集的一个或多个用户组，然后为用户或用户组选择与其全局角色匹配的角色。 例如，将“编辑者”角色分配给全局编辑者，将“查看者”角色分配给全局查看者。
+1. 在“收 [!UICONTROL 藏集设置] ”对话框中，选择要与其共享收藏集的一个或多个用户组，然后为用户或用户组选择与其全局角色匹配的角色。 例如，将“编辑者”角色分配给全局编辑者，将“查看者”角色分配给全局查看者。
 
    或者，要使集合对所有用户可用（不论其用户组成员关系和角色如何），请通过选中“公共集合 **** ”复选框将其公开。
 
@@ -57,28 +57,28 @@ AEM Assets Brand Portal管理员可以与授权用户共享和取消共享集合
 
    ![](assets/collection-setting-editor.png)
 
-5. Select Add, and then Save. ******** The collection is shared with the chosen users.
+1. 选择 **[!UICONTROL 添加]**，然后选择 **[!UICONTROL 保存]**。 集合将与所选用户共享。
 
    >[!NOTE]
    >
-   >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
+   >用户的角色控制对集合中的资产和文件夹的访问。 如果用户无权访问资产，则会与该用户共享空集合。 此外，用户的角色将控制集合的可用操作。
 
-## Unshare a collection {#unshare-a-collection}
+## 取消共享集合 {#unshare-a-collection}
 
-To unshare a previously shared collection, do the following:
+要取消共享以前共享的集合，请执行以下操作：
 
-1. From the Collections console, select the collection you want to unshare.
+1. 从“收 [!UICONTROL 藏集] ”控制台中，选择要取消共享的收藏集。
 
-   In the toolbar, click Settings.****
+   在工具栏中，单击“设 **[!UICONTROL 置”]**。
 
    ![](assets/collection_settings.png)
 
-2. On the Collection Settings dialog box, under Members, click the x symbol next to users or groups to remove them from the list of users you shared the collection with.****
+1. 在“集 [!UICONTROL 合设置] ”对话框的“成员”下，单击用户或用户组旁边的 **** x符号，以从您与其共享集合的用户列表中删除它们。
 
    ![](assets/unshare_collection.png)
 
-3. In the warning message box, click Confirm to confirm unshare.****
+1. 在警告消息框中，单击“确 **[!UICONTROL 认]** ”以确认取消共享。
 
    Click **[!UICONTROL Save]**.
 
-4. Log in to Brand Portal with the credentials of the user you removed from the shared list. 集合将从“集合”控制 **[!UICONTROL 台中删]** 除。
+1. 使用您从共享列表中删除的用户的凭据登录到Brand Portal。 集合将从“集合”控制 **[!UICONTROL 台中删]** 除。
