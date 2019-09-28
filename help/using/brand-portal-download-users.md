@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 下载安装
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -51,37 +51,37 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/restrictaccess-note.png)
 
-2. 要下载资产的演绎版以及资产，请选择“ **[!UICONTROL 演绎版”]**。 但是，要允许自动生成的演绎版与自定义演绎版一起下载，请取消选择“排除自动生成的演绎版 ****”（默认情况下处于选中状态）。
+1. 要下载资产的演绎版以及资产，请选择“ **[!UICONTROL 演绎版”]**。 However, to allow auto-generated renditions to download along with custom renditions, deselect Exclude Auto Generated Renditions, which is selected by default.****
 
    ![](assets/exclude-auto-renditions.png)
 
-   要仅下载演绎版，请取消选 **[!UICONTROL 择资产]**。
+   To download only the renditions, deselect **[!UICONTROL Asset(s)]**.
 
    >[!NOTE]
    >
-   >默认情况下，仅下载资产。 但是，如果管理员未授权您访问图像文件的 [原始演绎版，则不会下载图像文件的原始演绎版](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)。
+   >By default, only the assets are downloaded. However, original renditions of image files are not downloaded if you are not authorized by the administrator to have access to the original renditions of image files.[](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)
 
-   * 要加快从Brand Portal下载资产文件的速度，请选择“启 **[!UICONTROL 用下载加速]** ”选项， [然后按向导操作](../using/accelerated-download.md#main-pars-header-405749062)。 要了解有关加快资产下载的更多信息，请参 [阅指南以加速从Brand Portal下载](../using/accelerated-download.md)。
+   * To speed up the download of asset files from Brand Portal, select Enable download acceleration option and follow the wizard. ****[](../using/accelerated-download.md#main-pars-header-405749062)To know more about faster download of assets refer guide to accelerate downloads from Brand Portal.[](../using/accelerated-download.md)
 
-   * 要将自定义 [图像预设应用到资产及其演绎版](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，请选 **[!UICONTROL 择“动态演绎版”]**。 指定自定义图像预设属性（大小、格式、色彩空间、分辨率和图像修饰符），以便在下载资产及其演绎版时应用自定义图像预设。 要仅下载动态演绎版，请 **[!UICONTROL 删除资产]**。
+   * To apply a custom image preset to the asset and its renditions, select Dynamic Rendition(s). [](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)**** Specify custom image preset properties (size, format, color space, resolution, and image modifier) to apply the custom image preset while downloading the asset and its renditions. To download only the dynamic renditions, delesect Asset(s).****
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
    >
-   >要预览（或下载）任何资产的动态演绎版，请确保已启用Dynamic Media，且资产的金字塔型Tiff演绎版存在于资产发布位置的AEM作者实例中。 将资产发布到Brand Portal后，其金字塔tiff再现也会发布。 无法从Brand Portal生成金字塔tiff再现。
+   >To preview (or download) dynamic renditions of any asset, ensure that the dynamic media is enabled and the asset's Pyramid tiff rendition exists at the AEM author instance, from where the assets have been published. When an asset is published to Brand Portal, its Pyramid tiff rendition is also published. 无法从Brand Portal生成金字塔tiff再现。
 
-   * 要在下载资产时保留Brand Portal文件夹层次结构，请为每 **[!UICONTROL 个资产选择创建单独的文件夹]**。 默认情况下，将忽略Brand Portal文件夹层次结构，所有资产都下载在本地系统的一个文件夹中。
+   * To preserve the Brand Portal folder hierarchy while downloading assets, select Create separate folder for each asset. **** By default, Brand Portal folder hierarchy is ignored and all assets are downloaded in one folder in your local system.
 
-   * 要向用户发送包含下载资产链接的电子邮件通知，请选择“电子 **[!UICONTROL 邮件]**”。
+   * To send an email notification to users with a link for downloading the assets, select Email.****
    ![](assets/download-link.png)
 
    >[!NOTE]
    >
-   >电子邮件通知的下载链接在45天后过期。
+   >Download link on email notification expires after 45 days.
    >
    >管理员可以使用品牌功能自定义电子邮件，即徽标、说明和页 [脚](../using/brand-portal-branding.md) 。
 
-3. 单击“ **[!UICONTROL 下载]**”。
+1. 单击“ **[!UICONTROL 下载]**”。
 
    资产（如果已选择，则会将演绎版）作为ZIP文件下载到您的本地文件夹。 但是，如果下载单个资产而不下载任何演绎版，则不会创建zip文件，从而确保快速下载。
 
@@ -105,7 +105,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 | APAC（东京） | 124毫秒 | 1.13 MB/秒 | 30 分钟 |
 | 诺伊达 | 275毫秒 | 0.5 MB/s | 68分钟 |
 | 悉尼 | 175毫秒 | 0.49 MB/秒 | 69分钟 |
-| 伦敦 | 179毫秒 | 0.32 MB/秒 | 106分钟 |
-| 新加坡 | 196毫秒 | 0.5 MB/s | 68分钟 |
+| 伦敦 | 179毫秒 | 0.32 MB/秒 | 106 minutes |
+| 新加坡 | 196 milliseconds | 0.5 MB/s | 68分钟 |
 
-**注意**:根据测试条件观察引用的数据，这些测试条件可能因不同位置的用户观看不同的延迟和带宽而异。
+**Note: Cited data are observed under test conditions, which may vary for users at different locations witnessing varied latency and bandwidth.**
