@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: 引用
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 标记可用于组织资产并增强与其关联的资产的可搜索性。 可以将标记视为与资产一起附加的关键字或标签（元数据），并允许在搜索后快速找到资产。 要了解如何在AEM资产中为资产分配标记，请参 [阅使用标记来组织资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)。
 
-当具有关联标记的资产（和集合）发布到Brand Portal时，标记（与AEM中的资产和集合关联）会自动发布到Brand Portal。 已发布的标记有助于使搜索能够查找关联的资产。
+当具有关联标记的资产（和集合）发布到Brand Portal时，标记（与AEM中的资产和集合关联）会自动发布到Brand Portal。 发布的标记有助于搜索找到相关的资产。
 
 >[!NOTE]
 >
@@ -36,12 +36,12 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    1. 选择工 **[!UICONTROL 具]**
 
-   2. 选择一 **[!UICONTROL 般]**
+   1. 选择一 **[!UICONTROL 般]**
 
-   3. 选择标 **[!UICONTROL 记]**
+   1. 选择标 **[!UICONTROL 记]**
 
-2. 选择 **[!UICONTROL 创建]** ，然后选择 **[!UICONTROL 创建标记]** 。
-3. 指定：
+1. 选择 **[!UICONTROL 创建]** ，然后选择 **[!UICONTROL 创建标记]** 。
+1. 指定：
 
    * **[!UICONTROL 标题]**
       *（必需）* 标记的显示标题。
@@ -51,19 +51,19 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
       *（可选）* ，标记的说明。
    * **标记路径** JCR标记路径。
 
-4. 选择 **[!UICONTROL 提交]** ，以创建标记。
+1. 选择 **[!UICONTROL 提交]** ，以创建标记。
 
    在AEM实例上创建标记后，该标记便可以附加到资产（使用该资产的“属性”部分或“管理标记”部分）。
 
-5. **将标记发布到Brand Portal**。
+1. **将标记发布到Brand Portal**。
 
    转到 **[!UICONTROL AEM标记控制台]** (工[!UICONTROL 具|标记| AEM标记])，选择所需的标记并发布到Brand Portal。
 
-6. **将标记附加到资产（或集合）**。
+1. **将标记附加到资产（或集合）**。
 
    选择一个资产（或收藏集），然后使用该资产的“属性”部分或“管理标记”部分附加所需的标记。 要详细了解如何在AEM资产中为资产分配标记，请参阅 [使用标记来组织资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)。
 
-7. **将资产（或集合）发布到Brand Portal**。\
+1. **将资产（或集合）发布到Brand Portal**。\
    将资产（或集合）发布到Brand Portal时，Brand Portal上也提供附加的标记。
 
    要在Brand Portal中查看相应资产（或集合）上的附加标记，请登录到Brand Portal并选择资产，在“属性”部分下，您将看到附加的标记。
@@ -75,12 +75,12 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 要提升搜索关键字的资产，请执行以下步骤：
 
 1. 在AEM作 **[!UICONTROL 者实例上]** ，打开资产的“属性”页面。
-2. 转到“高 **[!UICONTROL 级]** ”选项卡。
-3. 在“提 **[!UICONTROL 升搜索关键字]** ”部分 **[!UICONTROL 的“搜索提升”中]** ，选择 **[!UICONTROL “添加]** ”以添加搜索关键字或标记。
+1. 转到“高 **[!UICONTROL 级]** ”选项卡。
+1. 在“提 **[!UICONTROL 升搜索关键字]** ”部分 **[!UICONTROL 的“搜索提升”中]** ，选择 **[!UICONTROL “添加]** ”以添加搜索关键字或标记。
 
    ![](assets/search-promote.png)
 
-4. 保存更改。
-5. 将资产发布到 Brand Portal.
-6. 登录到Brand Portal。 查 **[!UICONTROL 看资产]** “属 **[!UICONTROL 性”部分的]** “高级”选项卡。
+1. 保存更改。
+1. 将资产发布到 Brand Portal.
+1. 登录到Brand Portal。 查 **[!UICONTROL 看资产]** “属 **[!UICONTROL 性”部分的]** “高级”选项卡。
 请注意，搜 **[!UICONTROL 索提升]** 关键字也显示在该资产的属性中。
