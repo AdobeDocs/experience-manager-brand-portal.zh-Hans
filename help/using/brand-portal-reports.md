@@ -9,7 +9,7 @@ topic-tags: 管理
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，单击创 **[!UICONTROL 建／管理报表]** ，以打开“ **[!UICONTROL 资产报表]** ”页面。
+1. 在管理工具面板中，单击创 **[!UICONTROL 建／管理报表]** ，以打开“ **[!UICONTROL 资产报表]** ”页面。
 
    ![](assets/access-asset-reports.png)
 
-3. 从“资 **[!UICONTROL 产报告]** ”页面访问使用情况报告和其他生成的报告。
+1. 从“资 **[!UICONTROL 产报告]** ”页面访问使用情况报告和其他生成的报告。
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    要查看报表，请点按／单击报表链接。 或者，选择报表，然后点按／单击工具栏中的视图图标。
 
-   [!UICONTROL 使用情况报告] 显示有关当前Brand Portal用户数、所有资产占用的存储空间以及Brand Portal中资产总数的信息。 报告还显示这些信息量度中每个指标的允许容量。
+   [!UICONTROL 使用情况报告] 显示有关当前Brand Portal用户数、所有资产占用的存储空间以及Brand Portal中资产总数的信息。 报告还显示了这些信息指标中每个指标的允许容量。
 
    ![](assets/usage-report.png)
 
@@ -95,16 +95,16 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，点按／单击创 **[!UICONTROL 建／管理报表]** ，以打开资 **[!UICONTROL 产报表页面]** 。
+1. 在管理工具面板中，点按／单击创 **[!UICONTROL 建／管理报表]** ，以打开资 **[!UICONTROL 产报表页面]** 。
 
    ![](assets/asset-reports.png)
 
-3. 在资产报表页面中，点按／单击 **[!UICONTROL 创建]**。
-4. 从创建 **[!UICONTROL 报表页面]** ，选择要创建的报表，然后点按／单击下 **[!UICONTROL 一步]**。
+1. 在资产报表页面中，点按／单击 **[!UICONTROL 创建]**。
+1. 从创建 **[!UICONTROL 报表页面]** ，选择要创建的报表，然后点按／单击下 **[!UICONTROL 一步]**。
 
    ![](assets/crete-report.png)
 
-5. 配置报告详细信息。 指定“下载”、“到期”和“发布”报告的标题、描述、文件夹结构(其中报告需要运行和生成 [!UICONTROL 统计])和日期范 [!UICONTROL 围] 。
+1. 配置报告详细信息。 指定“下载”、“到期”和“发布”报告的标题、描述、文件夹结构(其中报告需要运行和生成 [!UICONTROL 统计])和日期范 [!UICONTROL 围] 。
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    >
    >报表标题中的特殊字符编号和%在生成报表时替换为连字符(-)。
 
-6. 点按／单击 **[!UICONTROL 下一步]**，以配置“下载”、“过期”和“发布”报告的列。
-7. 根据需要选择或取消选择相应的复选框。 例如，要在“下载”报告中查看用户（已下载资产）的名 [!UICONTROL 称] ，请选择“ **[!UICONTROL 下载者”]**。 下图说明了如何在下载报告中选择默认列。
+1. 点按／单击 **[!UICONTROL 下一步]**，以配置“下载”、“过期”和“发布”报告的列。
+1. 根据需要选择或取消选择相应的复选框。 例如，要在“下载”报告中查看用户（已下载资产）的名 [!UICONTROL 称] ，请选择“ **[!UICONTROL 下载者”]**。 下图说明了如何在下载报告中选择默认列。
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
    要向“下载”、“发布”或“过期”报告添加自定义列，请执行以下步骤：
 
    1. 要显示自定义列，请点按／单击自 **[!UICONTROL 定义列]** 中 [!UICONTROL 的添加]。
-   2. 在列名字段中指定 **[!UICONTROL 列名]** 。
-   3. 使用属性选取器选择列需要映射到的属性。
+   1. 在列名字段中指定 **[!UICONTROL 列名]** 。
+   1. 使用属性选取器选择列需要映射到的属性。
 
       ![](assets/property-picker.png)或者，在属性路径字段中键入路径。
 
@@ -135,7 +135,7 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
       要添加更多自定义列，请点按／单 **击添加** ，然后重复步骤2和3。
 
-8. Tap/click **[!UICONTROL Create]**. 系统会显示一条消息，通知已开始生成报告。
+1. Tap/click **[!UICONTROL Create]**. 系统会显示一条消息，通知已开始生成报告。
 
 ## 下载报告 {#download-reports}
 
