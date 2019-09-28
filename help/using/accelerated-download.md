@@ -10,7 +10,7 @@ content-type: 引用
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -69,7 +69,7 @@ Brand Portal通过与IBM Aspera connect集成来增强大型资产文件的下�
 要从Brand Portal更快地下载资源，请执行以下操作：
 
 1. 使用支持的浏览器登录到Brand Portal。
-2. 浏览并选择要下载的所需资产文件、文件夹或集合。 点按／单击下载选项。
+1. 浏览并选择要下载的所需资产文件、文件夹或集合。 点按／单击下载选项。
 将显示“下载”对话框， [并选中“启用下载加速] ”选项。
    ![](assets/download-assetsbp.png)
 
@@ -79,25 +79,25 @@ Brand Portal通过与IBM Aspera connect集成来增强大型资产文件的下�
 
    ![](assets/fast-download-emailchk.png)
 
-3. 点按／单击“下 **[!UICONTROL 载]** ”选项。
+1. 点按／单击“下 **[!UICONTROL 载]** ”选项。
 要加快Brand Portal租户帐户的下载体验，您需要在系统上安装Aspera connect客户端应用程序。
 
-4. **下载Aspera connect客户端**&#x200B;如果系统中未安装Aspera connect客户端，或现有安装的Aspera connect客户端已过时，则浏览器页面上会显示提示，您可以通过选择“下载最新版本”从中下载系统特定的Aspera connect客户端 ****。
+1. **下载Aspera connect客户端**&#x200B;如果系统中未安装Aspera connect客户端，或现有安装的Aspera connect客户端已过时，则浏览器页面上会显示提示，您可以通过选择“下载最新版本”从中下载系统特定的Aspera connect客户端 ****。
 
    ![](assets/aspera-not-launched.png)
 
    要从https://downloads.asperasoft.com/connect2/下载最新版Aspera Connect [，请选择“](https://downloads.asperasoft.com/connect2/)立即下载 **** ”并按照说明操作。
 
-5. **安装Aspera connect客户端**&#x200B;要安装IBM Aspera connect客户端设置，请从IBM Aspera connect客户端应用程序的。msi文件运行安装程序，然后按照安装向导进行操作。
+1. **安装Aspera connect客户端**&#x200B;要安装IBM Aspera connect客户端设置，请从IBM Aspera connect客户端应用程序的。msi文件运行安装程序，然后按照安装向导进行操作。
 
-6. 成功安装客户端后，刷新浏览器页面并再次启动下载步骤，或选择“在资产下载中重 **[!UICONTROL 新启动]** ”( **[!UICONTROL Restart in asset Download]** )对话框（步骤#2）。
+1. 成功安装客户端后，刷新浏览器页面并再次启动下载步骤，或选择“在资产下载中重 **[!UICONTROL 新启动]** ”( **[!UICONTROL Restart in asset Download]** )对话框（步骤#2）。
 首次使用Aspera connect时，浏览器会提示使用 **[!UICONTROL IBM Aspera connect打开链接]**。 要在将来跳过此对话框，请启 **[!UICONTROL 用记住我对FASP链接的选择]**。
 
    >[!NOTE]
    >
    >此消息在不同的浏览器上不同。
 
-7. 对话框会确认是否继续传输。 选择 **[!UICONTROL 允许]** ，开始。
+1. 对话框会确认是否继续传输。 选择 **[!UICONTROL 允许]** ，开始。
 要在将来跳过此对话框，请启 **[!UICONTROL 用“对与此主机的所有连接使用我的选择”]**。
 下载开始。 将显示一个对话框，显示下载进度。 使用对话框可 **[!UICONTROL 暂停]**、继 **[!UICONTROL 续]**&#x200B;或取 **[!UICONTROL 消下载]** 。
 Aspera connect应用程序在系统上提供一个活动窗口，用户可在该窗口中查看和管理所有传输会话。 有关详细信息，请参 [阅Aspera connect客户端文档](https://downloads.asperasoft.com/en/documentation/8)。
@@ -119,9 +119,9 @@ Microsoft edge在同一专用网络或受信任站点上以增强保护模式(EP
 要在Microsoft edge上使用加速下载功能，请从受信任的站点列表中删除Brand Portal站点。
 
 1. 打开控制面板(按 **[!UICONTROL Window键+ X]**，然后选择 **[!UICONTROL 控制面板]**)。
-2. 转到“网 **[!UICONTROL 络和Internet”&gt;“Internet选项”]**。 单击“安 **[!UICONTROL 全性]** ”选项卡。
-3. 单击“受 **[!UICONTROL 信任的站点”区域]**，然后单击“ **[!UICONTROL 站点”]**。
-4. 从列表中删除Brand Portal站点。
+1. 转到“网 **[!UICONTROL 络和Internet”&gt;“Internet选项”]**。 单击“安 **[!UICONTROL 全性]** ”选项卡。
+1. 单击“受 **[!UICONTROL 信任的站点”区域]**，然后单击“ **[!UICONTROL 站点”]**。
+1. 从列表中删除Brand Portal站点。
 
 ## Aspera connect客户端首选项 {#aspera-connect-client-preferences}
 
@@ -145,11 +145,11 @@ Microsoft edge在同一专用网络或受信任站点上以增强保护模式(EP
 
    如果端口不正常，请联系网络团队，确保防火墙中不阻止端口33001（TCP和UDP）。
 
-2. 如果端口正常，则使用https://www.speedtest.net/测量可用带宽，检查网络是否不 [慢](https://www.speedtest.net/)。
+1. 如果端口正常，则使用https://www.speedtest.net/测量可用带宽，检查网络是否不 [慢](https://www.speedtest.net/)。
 
    如果带宽只有几(1-10 Mbps)或Kbps，则使用Aspera首选项并尝试限制与可用带宽相等的带宽。
 
-3. 要确认来自Aspera演示服务器的下载是否正常，请使用 [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user)。\
+1. 要确认来自Aspera演示服务器的下载是否正常，请使用 [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user)。\
    (登录： asperaweb，密码： demoaspera
 
-4. 如果上述疑难解答步骤都不起作用，请取消选择“启用下载加速”选项，然后使用正常下载。
+1. 如果上述疑难解答步骤都不起作用，请取消选择“启用下载加速”选项，然后使用正常下载。
