@@ -9,7 +9,7 @@ topic-tags: 共享
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -48,32 +48,32 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ## 访问共享文件夹 {#access-to-shared-folders}
 
-The following matrix discusses the access rights and rights to share/ unshare assets for various user roles:
+下面的矩阵讨论了对不同用户角色共享／取消共享资产的访问权限和权限：
 
-|  | Access to all folders published from AEM Assets to Brand Portal | Access to shared folders | Share/unshare folder rights |
+|  | 访问从AEM资产发布到Brand Portal的所有文件夹 | 访问共享文件夹 | 共享／取消共享文件夹权限 |
 |---------------|-----------|-----------|------------|
-| Administrator | 是 | 是 | 是 |
-| 编辑者 | 否* | Yes, only if shared with them or with the group to which they belong | Yes, only for the folders shared with them or with the group to which they belong |
-| 查看者 | 否* | Yes, only if shared with them or with the group to which they belong | 否 |
-| 来宾用户 | 否* | Yes, only if shared with them or with the group to which they belong | 否 |
+| 管理员 | 是 | 是 | 是 |
+| 编辑者 | 否* | 是，仅当与他们共享或与他们所属的组共享时 | 是，仅适用于与他们或他们所属的组共享的文件夹 |
+| 查看者 | 否* | 是，仅当与他们共享或与他们所属的组共享时 | 否 |
+| 来宾用户 | 否* | 是，仅当与他们共享或与他们所属的组共享时 | 否 |
 
-**By default, the Public Folder Publish option is disabled while configuring replication of Brand Portal with AEM Author.If the option is enabled, then the folders published to Brand Portal will be accessible to all the users (non-admin users also) by default.*
+**默认情况下，在配[!UICONTROL 置与AEM作者复制Brand Portal时，将禁用“公共文件夹发布]”选项。 如果启用此选项，则默认情况下，所有用户（非管理员用户）都可以访问发布到Brand Portal的文件夹。*
 
 ### 非管理员用户访问共享文件夹 {#non-admin-user-access-to-shared-folders}
 
-非管理员用户只能访问品牌门户上与他们共享的文件夹。 However, how these folders are displayed on the portal when they log in depends on the settings of Enable Folder Hierarchy configuration.
+非管理员用户只能访问品牌门户上与他们共享的文件夹。 但是，这些文件夹登录时在门户上的显示方式取决于“启用文件夹层次 [!UICONTROL 结构] ”配置的设置。
 
 **如果禁用了配置**
 
-Non-admin users see all the folders shared with them on landing page, on logging in to the Brand Portal.
+非管理员用户登录到Brand Portal时，会在登录页面上看到与他们共享的所有文件夹。
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
-**If the configuration is enabled**
+**如果已启用配置**
 
 非管理员用户登录到Brand Portal时，会看到文件夹树（从根文件夹开始）和排列在其各自父文件夹内的共享文件夹。
 
-These parent folders are the virtual folders and no actions can be performed on them. 您可以通过锁定图标识别这些虚拟文件夹。
+这些父文件夹是虚拟文件夹，不能对其执行任何操作。 您可以通过锁定图标识别这些虚拟文件夹。
 
 与共享文件夹不同，在卡片视图中悬停或选择 [!UICONTROL 操作任务时]，不会显示任何操作任务。 [!UICONTROL 在“列视图] ”和“列表视图”中选择虚拟文件夹时， [!UICONTROL 会显示“概述] ” [!UICONTROL 按钮]。
 
@@ -91,15 +91,15 @@ These parent folders are the virtual folders and no actions can be performed on 
 
    ![](assets/selectorrail.png)
 
-2. 从左侧的脱轨中，选择“文 **[!UICONTROL 件”]**。
+1. 从左侧的脱轨中，选择“文 **[!UICONTROL 件”]**。
 
    ![](assets/access_files.png)
 
-3. 从Brand Portal界面中，选择要共享的文件夹。
+1. 从Brand Portal界面中，选择要共享的文件夹。
 
    ![](assets/share-folders.png)
 
-4. 从顶部的工具栏中，选择共 **[!UICONTROL 享]**。
+1. 从顶部的工具栏中，选择共 **[!UICONTROL 享]**。
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ These parent folders are the virtual folders and no actions can be performed on 
 
    ![](assets/folder_properties.png)
 
-5. 在“文 [!UICONTROL 件夹属性] ”控制台中，如果不希望向用户显示默认名称，请在“文件夹标题  ”字段中指定文件夹标题。
-6. 从“添 [!UICONTROL 加用户] ”列表中，选择要与其共享文件夹的一个或多个用户组，然后单击“添 **[!UICONTROL 加”]**。
+1. 在“文 [!UICONTROL 件夹属性] ”控制台中，如果不希望向用户显示默认名称，请在“文件夹标题  ”字段中指定文件夹标题。
+1. 从“添 [!UICONTROL 加用户] ”列表中，选择要与其共享文件夹的一个或多个用户组，然后单击“添 **[!UICONTROL 加”]**。
 要仅与客人用户共享文件夹，而不与其他用户共享文件夹，请从“成 **[!UICONTROL 员]** ”下拉列 [!UICONTROL 表中选择] “匿名用户”。
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ These parent folders are the virtual folders and no actions can be performed on 
    >
    >要使文件夹对所有用户可用（不论其用户组成员关系和角色如何），请通过选中“公共文件夹 **** ”复选框将其公开。
 
-7. 如果需要，请单 **[!UICONTROL 击“更改缩略图]** ”以修改文件夹的缩略图。
-8. Click **[!UICONTROL Save]**.
-9. 要访问共享的文件夹，请使用您与之共享文件夹的用户的凭据登录到Brand Portal。 查看界面中的共享文件夹。
+1. 如果需要，请单 **[!UICONTROL 击“更改缩略图]** ”以修改文件夹的缩略图。
+1. Click **[!UICONTROL Save]**.
+1. 要访问共享的文件夹，请使用您与之共享文件夹的用户的凭据登录到Brand Portal。 查看界面中的共享文件夹。
 
 ## 取消共享文件夹 {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ These parent folders are the virtual folders and no actions can be performed on 
 
    ![](assets/share-folders-1.png)
 
-2. 在顶部的工具栏中，单击共 **[!UICONTROL 享]**。
-3. 在“文 [!UICONTROL 件夹属性] ”控制台的“成员”下 [!UICONTROL ，单击用户旁边的]**** x符号，以从您与之共享文件夹的用户列表中删除这些符号。
+1. 在顶部的工具栏中，单击共 **[!UICONTROL 享]**。
+1. 在“文 [!UICONTROL 件夹属性] ”控制台的“成员”下 [!UICONTROL ，单击用户旁边的]**** x符号，以从您与之共享文件夹的用户列表中删除这些符号。
 
    ![](assets/folder_propertiesunshare.png)
 
-4. 在警告消息框中，单击“确 **[!UICONTROL 认]** ”以确认取消共享。
+1. 在警告消息框中，单击“确 **[!UICONTROL 认]** ”以确认取消共享。
 Click **[!UICONTROL Save]**.
 
-5. 使用您从共享列表中删除的用户的凭据登录到Brand Portal。 该文件夹不再在用户的Brand Portal界面中可用。
+1. 使用您从共享列表中删除的用户的凭据登录到Brand Portal。 该文件夹不再在用户的Brand Portal界面中可用。
