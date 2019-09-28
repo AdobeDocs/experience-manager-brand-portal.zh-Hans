@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 管理
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，单击元数 **[!UICONTROL 据架构]**。
+1. 在管理工具面板中，单击元数 **[!UICONTROL 据架构]**。
 
    ![](assets/navigation-panel.png)
 
-3. 在“元数 **[!UICONTROL 据架构表单]** ”页面上，单 **[!UICONTROL 击创建]**。
+1. 在“元数 **[!UICONTROL 据架构表单]** ”页面上，单 **[!UICONTROL 击创建]**。
 
    ![](assets/create-metadata-schema-form.png)
 
-4. 在“创 **[!UICONTROL 建架构表单]** ”对话框中，指定架构表单的标题，然后单击“创 **[!UICONTROL 建]** ”以完成表单创建过程。
+1. 在“创 **[!UICONTROL 建架构表单]** ”对话框中，指定架构表单的标题，然后单击“创 **[!UICONTROL 建]** ”以完成表单创建过程。
 
    ![](assets/create-schema-form.png)
 
@@ -52,8 +52,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
    ![](assets/aemlogo.png)
 
-2. 在管理工具面板中，单击元数 **[!UICONTROL 据架构]**。
-3. 从“元数 **[!UICONTROL 据架构表单]** ”页中，选择一个架构表单以编辑其属性，例如集合 ****。
+1. 在管理工具面板中，单击元数 **[!UICONTROL 据架构]**。
+1. 从“元数 **[!UICONTROL 据架构表单]** ”页中，选择一个架构表单以编辑其属性，例如集合 ****。
 
    ![](assets/metadata-schema-forms.png)
 
@@ -61,15 +61,15 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
    >
    >未编辑的模板前面会显示一个锁符号。 如果自定义任何模板，则模板前的锁符号将消失。
 
-4. 在顶部的工具栏中，单击“编 **[!UICONTROL 辑”]**。
+1. 在顶部的工具栏中，单击“编 **[!UICONTROL 辑”]**。
 
-   The **[!UICONTROL Metadata Schema Editor]** page opens with the **[!UICONTROL Basic]** tab open on the left and the **[!UICONTROL Build Form]** tab open on the right.
+   此时将 **[!UICONTROL 打开元数据架构编辑器]** ，其中左侧的“基本 **[!UICONTROL ”选项卡打开，右侧的“构]** 建表单 **** ”选项卡打开。
 
-5. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
+1. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
+1. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
 
 ### Components in the Build Form tab {#components-in-the-build-form-tab}
 
@@ -80,22 +80,22 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 | [!UICONTROL 章节标题] | 为公用组件列表添加章节标题。 |
 | [!UICONTROL 单行文本] | 添加单行文本属性。它存储为字符串。 |
 | [!UICONTROL 多值文本] | 添加多值文本属性。 它将作为字符串数组存储。 |
-| [!UICONTROL 数字] | Add a number component. |
+| [!UICONTROL 数字] | 添加数字组件。 |
 | [!UICONTROL 日期] | 添加日期组件。 |
 | [!UICONTROL 下拉列表] | 添加下拉列表。 |
-| [!UICONTROL 标准标记] | 添加标记. **** 注意： Administrators might need to change the path value, for example, , if they publish the metadata schema form from AEM, where the path does not include tenant information, for example, .`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>``/etc/tags/<custom_tag_namespace>` |
-| [!UICONTROL 智能标记] | Auto-detected tags if you have purchased and configured the AEM smart tags add-on. |
+| [!UICONTROL 标准标记] | 添加标记. **** 注意：例如，如果管理员从AEM发布元数据架构表单（其中路径不包含租户信息），则可能需要更改路径值，例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>``/etc/tags/<custom_tag_namespace>`。 |
+| [!UICONTROL 智能标记] | 自动检测到标记（如果您已购买并配置AEM智能标记加载项）。 |
 | [!UICONTROL 隐藏字段] | 添加隐藏字段。在保存资产时，它将作为POST参数发送。 |
 | [!UICONTROL 资产引用对象] | 添加此组件可查看资产引用的资产列表。 |
 | [!UICONTROL 资产引用] | 添加可显示引用资产的资产列表。 |
-| [!UICONTROL 资产评级] | Average rating of an asset added from AEM Assets before it is published to Brand Portal. |
-| [!UICONTROL 上下文元数据] | Add to control the display of other metadata tabs in the Properties page of assets. |
+| [!UICONTROL 资产评级] | 从AEM资产添加的资产在发布到Brand Portal之前的平均评级。 |
+| [!UICONTROL 上下文元数据] | 添加以控制资产的“属性”页面中其他元数据选项卡的显示。 |
 
 >[!NOTE]
 >
->Do not use **[!UICONTROL Product References]**, as it is not functional.
+>请勿使用 **[!UICONTROL 产品引用]**，因为它不起作用。
 
-#### Edit the metadata component {#edit-the-metadata-component}
+#### 编辑元数据组件 {#edit-the-metadata-component}
 
 要在表单上编辑元数据组件的属性，请单击相应的组件，然后在&#x200B;**[!UICONTROL 设置]选项卡中编辑其属性。**
 
@@ -120,9 +120,9 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 
 >[!NOTE]
 >
->All the metadata fields are read-only in the metadata editor form of an asset. Since metadata of the asset must be edited in AEM Assets before an asset is published to Brand Portal.
+>所有元数据字段在资产的元数据编辑器表单中都是只读的。 由于资产的元数据必须在AEM资产中进行编辑，才能将资产发布到Brand Portal。
 
-#### Add or delete a tab in the schema form {#add-or-delete-a-tab-in-the-schema-form}
+#### 在架构表单中添加或删除选项卡 {#add-or-delete-a-tab-in-the-schema-form}
 
 The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs. 通过架构编辑器，可以添加或删除选项卡。
 
@@ -132,31 +132,31 @@ The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Ad
 
 ![](assets/add-tab-metadata-form.png)
 
-* To delete a tab, click x. **** Click **[!UICONTROL Save]** to save the changes.
+* 要删除选项卡，请单击 **[!UICONTROL x]**。 Click **[!UICONTROL Save]** to save the changes.
 
-## Apply a metadata schema to a folder {#apply-a-metadata-schema-to-a-folder}
+## 将元数据架构应用到文件夹 {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal allows you to customize and control the metadata schema so that the Properties page of an asset displays only the specific information you choose to reveal. 要控制在“属性”页中显示的元 [!UICONTROL 数据] ，请从元数据架构表单中删除所需的元数据，并将其应用到特定文件夹。
+Brand Portal允许您自定义和控制元数据架构，以便资产的“ [!UICONTROL Properties] ”页面仅显示您选择显示的特定信息。 要控制在“属性”页中显示的元 [!UICONTROL 数据] ，请从元数据架构表单中删除所需的元数据，并将其应用到特定文件夹。
 
-To apply a metadata schema form to a folder, do the following:
+要将元数据架构表单应用到文件夹，请执行以下操作：
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
-2. From the administrative tools panel, click Metadata Schemas.****
+1. 在管理工具面板中，单击元数 **[!UICONTROL 据架构]**。
 
-3. 从元数 **[!UICONTROL 据架构表单页]** ，选择要应用于资产的架构表单，例如， [!UICONTROL Clothing]。
+1. 从元数 **[!UICONTROL 据架构表单页]** ，选择要应用于资产的架构表单，例如， [!UICONTROL Clothing]。
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. 在顶部的工具栏中，单 **[!UICONTROL 击“应用到文件夹”]**。
+1. 在顶部的工具栏中，单 **[!UICONTROL 击“应用到文件夹”]**。
 
-5. 从“选 **[!UICONTROL 择文件夹]** ”页面中，导航到要将Clothing **[!UICONTROL 元数据架构应用到的文件夹，例如Gloves]******。
+1. 从“选 **[!UICONTROL 择文件夹]** ”页面中，导航到要将Clothing **[!UICONTROL 元数据架构应用到的文件夹，例如Gloves]******。
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. 单击 **[!UICONTROL 应用]** ，以将元数据架构表单应用到文件夹。
+1. 单击 **[!UICONTROL 应用]** ，以将元数据架构表单应用到文件夹。
 
    Clothing **** metadata schema form中可用的元数据将应用于 **[!UICONTROL Gloves]** 文件夹，并在文件夹的“ **[!UICONTROL Properties]** ”（属性）页面中可见。
 
