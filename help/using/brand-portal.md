@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 简介
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 但是，开发解决方案是一个挑战，它们支持与扩展的内部团队、合作伙伴和经销商高效、安全地共享已批准的品牌徽标、准则、活动资产或产品照片。
 
-**Adobe Experience Manager(AEM)Assets Brand Portal** ，可帮助您轻松获取、控制获准的创意资产并跨设备安全地分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。
+**Adobe Experience Manager(AEM)Assets Brand Portal** ，旨在帮助营销人员通过提供资产分发和资产贡献功能，与全球分布的Brand Portal用户进行有效协作。
+
+通过资产分发，您可以跨设备轻松地获得、控制和安全地将获准的创意资产分发给外部方和内部业务用户。 然而，资产贡献使Brand Portal用户能够将资产上传到Brand Portal并发布到AEM资产，而无需访问创作环境。 贡献功能在品牌门户中 **称为资产来源补充**。 同时，它还改善了Brand Portal用户（外部机构／团队）在资产分发和贡献方面的整体Brand Portal体验，加快了资产的上市时间，并降低了不合规和未经授权的访问风险。
+请参阅， [品牌门户中的资产来源补充](brand-portal-asset-sourcing.md)。
 
 基于浏览器的门户环境使您能够轻松上传、浏览、搜索、预览和导出批准格式的资产。
 
@@ -54,7 +57,7 @@ Brand Portal支持以下用户角色：
 
 [下载公共资源](brand-portal-download-users.md)
 
-[将资产添加到[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[将资产添加到 [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 查看者 {#viewer}
 
@@ -165,7 +168,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击“授 **[!UICONTROL 予访问权限”]**。
 或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console] ，并将用户添加到相关的产品配置。
 
-您将被重定向到 [Adobe [!UICONTROL Admin Console]主页](https://adminconsole.adobe.com/enterprise/overview) 。 使用Adobe [!UICONTROL Admin Console] ，创建用户并将其分配到产品配置（以前称为产品配置），这些配置在Brand Portal中显示为组。 有关在 [!UICONTROL Admin Console中添加用户的详细信息]，请参阅 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
+您将被重定向到 [Adobe [!UICONTROL Admin Console主页]](https://adminconsole.adobe.com/enterprise/overview) 。 使用Adobe [!UICONTROL Admin Console] ，创建用户并将其分配到产品配置（以前称为产品配置），这些配置在Brand Portal中显示为组。 有关在 [!UICONTROL Admin Console中添加用户的详细信息]，请参阅 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
 
 ## 品牌门户语言 {#brand-portal-language}
 
