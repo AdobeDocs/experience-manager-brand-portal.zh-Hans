@@ -4,7 +4,7 @@ seo-title: AEM Brand Portal用户指南
 description: AEM Brand Portal用户指南
 seo-description: 介绍如何使用Brand Portal
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
@@ -42,7 +42,8 @@ Brand Portal解决方案工作流程如下图所示。
 | [配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | 如何将Brand Portal与AEM资产复制到发布资产。 |
 | [并行发布中的问题疑难解答](troubleshoot-parallel-publishing.md) | 对Brand Portal和AEM资产之间的复制进行疑难解答。 |
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal中支持的文件格式，用于预览和下载。 |
-| [将资产发布到Brand Portal](../TOC.md#publish) | 如何将文件夹、集合、链接、预设、架构、彩块化和标记发布到Brand Portal。 |
+| [将资产发布到Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、集合、链接、预设、架构、彩块化和标记发布到Brand Portal。 |
+| [Brand Portal中的资产来源补充](brand-portal-asset-sourcing.md) | 如何在AEM资产中配置资产来源补充，在Brand Portal中上传资产，然后将贡献文件夹发布回AEM资产。 |
 
 ### 实用资源
 
