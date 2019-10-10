@@ -1,49 +1,49 @@
 ---
 title: 发行说明
 seo-title: 发行说明
-description: 了解Adobe Experience Manager Assets Brand Portal 6.4.4.6和Brand Portal 6.4.4.7版本中的增强功能、已修复的关键问题和已知问题。
-seo-description: 了解Adobe Experience Manager Assets Brand Portal 6.4.4.6和Brand Portal 6.4.4.7版本中的增强功能、已修复的关键问题和已知问题。
+description: 深入了解Adobe Experience Manager Assets Brand Portal 6.4.5版中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 6.4.5版本中的增强功能、已修复的关键问题和已知问题。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: 引用
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: aa710fa7c482be517e9df0b0ddaac0fbeca90265
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
 
 # 发行说明 {#release-notes}
 
-了解Adobe Experience Manager Assets Brand Portal 6.4.4.6和Brand Portal 6.4.4.7版本中的增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 6.4.5版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 发行信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 6.4.4.6和6.4.4.7 |
-| 日期 | 2019年8月 |
+| 版本 | 6.4.5 |
+| 日期 | 2019年9月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 6.4.4.7 的新增功能 {#what-s-new-in-6447}
+## 6.4.5 的新增功能 {#what-s-new-in-645}
 
-### 已修复的关键问题 {#critical-issues-fixed-6447}
+### 新增功能 {#new-features-645}
 
-此版本包括对以下关键问题的修复：
+Brand Portal 6.4.5是一个功能版本，它侧重于为Brand Portal用户（外部代理／团队）提供将内容上传到Brand Portal并发布到AEM资产的能力，而无需访问创作环境。 此功能在Brand Portal中称为 **[Asset Sourcing](brand-portal-overiew-using-asset-sourcing.md)**，它通过为用户提供双向机制来与全球分布的其他Brand Portal用户共同贡献和共享资产，从而改善客户体验。
 
-* 优化用户同步进程以防止并发执行。
+**Brand Portal中的资产来源补充**
 
-## 6.4.4.6 的新增功能 {#what-s-new-in-6446}
+资产来源补充允许AEM用户（管理员／非管理员用户）使用其他“资产贡献 **** ”属性创建新文件夹，从而确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流会在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，称为NEW和SHARED。
 
-### 已修复的关键问题 {#critical-issues-fixed-6446}
+然后，AEM用户通过将应添加到贡献文件夹的资产类型以及一组基准资产的简介上传到 **SHARED** 文件夹来定义资产要求，以确保BP用户拥有他们需要的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件 **夹的访问权** 。
 
-此版本包括对以下关键问题的修复：
+用户完成在 **NEW** 文件夹中添加内容后，他们可以将贡献文件夹发布回AEM创作环境。
 
-* 为下载报告生成进行性能优化。
+有关详细信息，请参 [阅品牌门户中的资产来源补充](brand-portal-asset-sourcing.md)。
 
 ## 语言 {#languages}
 
