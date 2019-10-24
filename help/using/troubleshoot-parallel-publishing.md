@@ -1,20 +1,20 @@
 ---
-title: 对并行发布到Brand Portal时的问题进行疑难解答
-seo-title: 对并行发布到Brand Portal时的问题进行疑难解答
+title: 对并行发布到 Brand Portal 时出现的问题进行故障诊断
+seo-title: 对并行发布到 Brand Portal 时出现的问题进行故障诊断
 description: 并行发布疑难解答。
 seo-description: 并行发布疑难解答。
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: 参考文件
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 对并行发布到Brand Portal时的问题进行疑难解答 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal支持与AEM Assets集成，以便从AEM Assets作者实例无缝地摄取（或发布）已批准的品牌资产。 集 [成后](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html),AEM作者使用复制代理将选定的资产复制到Brand Portal云服务中，以便Brand Portal用户进行批准的使用。 使用多个复制代理AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2以及更高版本，以实现高速并行发布。
 
@@ -22,9 +22,9 @@ Brand Portal支持与AEM Assets集成，以便从AEM Assets作者实例无缝地
 >
 >Adobe建议升级到AEM 6.4.1.0，以确保AEM Assets Brand Portal已成功与AEM Assets集成。 AEM 6.4中的限制会在配置与Brand Portal的集成时导致错误，并且复制会失败。
 
-在为品牌门户配置云服务时， [!UICONTROL /etc/cloudservice]，将自动生成所有必需的用户和令牌并将其保存到存储库中。 创建云服务配置，创建复制和复制代理复制内容所需的服务用户。 这将创建四个复制代理。 因此，当您将大量资产从AEM发布到Brand Portal时，这些资产将通过Round Robin排队并分发到这些复制代理中。
+在为品牌门户配置云服务时， **[!UICONTROL /etc/cloudservice]**，将自动生成所有必需的用户和令牌并将其保存到存储库中。 创建云服务配置，创建复制和复制代理复制内容所需的服务用户。 这将创建四个复制代理。 因此，当您将大量资产从AEM发布到Brand Portal时，这些资产将通过Round Robin排队并分发到这些复制代理中。
 
-但是，发布可能会因为AEM作者实例上的大sling作业、增加的网络和磁盘 [!UICONTROL I/O] ，或AEM作者实例的性能降低而间歇性地失败。 因此，建议在开始发布之前测试与复制代理的连接。
+但是，发布可能会因为AEM作者实例上的大sling作业、增加的网络和磁盘 **[!UICONTROL I/O]** ，或AEM作者实例的性能降低而间歇性地失败。 因此，建议在开始发布之前测试与复制代理的连接。
 
 ![](assets/test-connection.png)
 
@@ -60,14 +60,13 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### 清理现有Brand Portal发布配置 {#clean-up-existing-config}
 
-在大多数情况下，发布不起作用时，原因可能是发布用户(例如： [!UICONTROL mac-&lt;tenantid]&gt;-replication)没有最新的私钥，因此发布会失败，出现“401 unauthorized”错误，复制代理日志中不报告其他错误。 您可能希望避免疑难解答，而是创建新配置。 要使新配置正常工作，请从AEM作者设置中清除以下内容：
+在大多数情况下，发布不起作用时，原因可能是发布用户(例如：没 `mac-<tenantid>-replication` 有最新的私钥，因此发布失败，出现“401 unauthorized”错误，复制代理日志中不报告其他错误。 您可能希望避免疑难解答，而是创建新配置。 要使新配置正常工作，请从AEM作者设置中清除以下内容：
 
-1. 转到 [!UICONTROL localhost:4502/crx/de] (考虑到您正在localhost:4502上运行 [!UICONTROL 作者实例]):\
-   i.删除/etc/replication/agents.author/mp_replication*\
-   ii. 删除/etc/cloudservices/mediaportal/&lt;config_name&gt;
+1. 转到( `localhost:4502/crx/de/` 考虑到您正在localhost:4502上运行作者实例：\
+   i.删除 `/etc/replication/agents.author/mp_replication`ii。 删除 `/etc/cloudservices/mediaportal/<config_name>`
 
-1. 转到 [!UICONTROL localhost:4502/useradmin]:\
-   我搜索用户[!UICONCONTROL mac-&lt;tenantid&gt;-replicationii删除此用户
+1. 转到localhost:4502/useradmin:\
+   i.搜索用户 `mac-<tenantid>replication`ii。 删除此用户
 
 现在系统都清理好了。 现在，您可以尝试创建新的cloudservice配置，并仍使用https://legacy-oauth.cloud.adobe.io/中已有的JWT应用 [程序](https://legacy-oauth.cloud.adobe.io/)。 无需创建新应用程序，只需从新创建的云配置中更新公钥。
 
