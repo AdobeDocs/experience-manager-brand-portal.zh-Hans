@@ -1,57 +1,57 @@
 ---
-title: 在Brand Portal上搜索资产
+title: 在 Brand Portal 上搜索资产
 seo-title: 在AEM Brand Portal上搜索资产并保存搜索
 description: Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，搜索筛选器可帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集，以供将来使用。
 seo-description: Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，搜索筛选器可帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集，以供将来使用。
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
-content-type: 引用
+content-type: 参考文件
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 在Brand Portal上搜索资产 {#search-assets-on-brand-portal}
+# 在 Brand Portal 上搜索资产 {#search-assets-on-brand-portal}
 
 Brand Portal搜索功能允许您使用搜索功能快速搜索相关资产，并使用多面搜索功能帮助您进一步缩小搜索范围。 您还可以将搜索保存为智能收藏集，以供将来使用。
 
 ## 使用Omnisearch搜索资产 {#search-assets-using-omnisearch}
 
-To search for assets on Brand Portal:
+要在Brand Portal上搜索资产，请执行以下操作：
 
-1. From the toolbar, click the Search icon, or press the "/" key to launch Omnisearch.********
+1. 在工具栏中，单击 **[!UICONTROL 搜索]** 图标，或按“**[!UICONTROL /]**”键启动Omnisearch。
 
    ![](assets/omnisearchicon-1.png)
 
-1. In the search box, type a keyword for the assets you want to search.
+1. 在搜索框中，为要搜索的资产键入关键字。
 
    ![](assets/omnisearch.png)
 
    >[!NOTE]
    >
-   >At least 3 characters are required in omnisearch for search suggestions to appear.
+   >搜索过程中至少需要3个字符，以便显示搜索建议。
 
-1. Select from the related suggestions that appear in the drop-down list to quickly access relevant assets.
+1. 从下拉列表中显示的相关建议中进行选择，以快速访问相关资产。
 
    ![](assets/assets-search-result.png)
 
-   *Asset search using omnisearch*
+   *使用内部搜索进行资产搜索*
 
-To know about search behaviour with smart tagged assets, see understand search results and behavior.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)
+要了解带有智能标记资产的搜索行为，请参 [阅了解搜索结果和行为](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
 
 ## 在“筛选器”面板中使用facet进行搜索 {#search-using-facets-in-filters-panel}
 
-Search facets in the Filters panel add granularity to your search experience and make the search functionality efficient. Search facets use multiple dimensions (predicates) that enable you to perform intricate searches. 您可以轻松向下展开到所需的详细信息级别，以便进行更具针对性的搜索。
+“筛选器”面板中的搜索彩块化为您的搜索体验增加了粒度，并使搜索功能更加高效。 搜索彩块化使用多个维度（谓词），这些维度（谓词）使您能够执行细微的搜索。 您可以轻松向下展开到所需的详细信息级别，以便进行更具针对性的搜索。
 
 例如，如果要查找图像，则可以选择是要位图还是要矢量图像。 您可以通过在文件类型搜索facet中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS Word格式。<br />
 
 ![Brand](assets/file-type-search.png "Portal中的“过滤器”面板Brand Portal中的“过滤器”面板")
 
-“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md)请参阅Brand Portal上可用和可用 [的搜索谓词列表](../using/brand-portal-search-facets.md#list-of-search-predicates)。
+“滤 [!UICONTROL 镜] ”面板包括几个标准彩块化，如- [!UICONTROL Path Facets、]Path Facets、 [!UICONTROL File Type]、 File Size、FileAcromediaStatus和OrientationFacets等。 但是，您可以通 [过在基础搜索表单中添加或删除谓词](../using/brand-portal-search-facets.md) ，在“筛选器”面板中添加自定义搜索彩块化或删除特定搜索彩块化。 请参阅Brand Portal上可用和可用 [的搜索谓词列表](../using/brand-portal-search-facets.md#list-of-search-predicates)。
 
 要将筛选器应用于搜索，请使用可用的搜索彩 [块化](../using/brand-portal-search-facets.md):
 
@@ -59,10 +59,10 @@ Search facets in the Filters panel add granularity to your search experience and
 
    ![](assets/selectorrail.png)
 
-1. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
-****&#x200B;例如，使用以下标准过滤器：
+1. 从左侧的 **[!UICONTROL “滤镜]** ”面板中，选择相应的选项以应用相关的滤镜。
+例如，使用以下标准过滤器：
 
-   * **[!UICONTROL 路径浏览器]** ，用于在特定目录中搜索资产。 路径浏览器的谓词的默认搜索路径是 **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**，可通过编辑默认搜索表单来配置该路径。
+   * **[!UICONTROL 路径浏览器]** ，用于在特定目录中搜索资产。 路径浏览器的谓词的默认搜索路径是 `/content/dam/mac/<tenant-id>/`，可通过编辑默认搜索表单来配置。
    >[!NOTE]
    >
    >对于非管理员用户，“筛  选器”面板中的路径浏览器仅显示与其共享的文件夹（及其上级文件夹）的内容结构。\
@@ -86,14 +86,13 @@ Search facets in the Filters panel add granularity to your search experience and
       您可以：*在“过滤器”面板的facet中指定搜索短语中出现的单词。 For example, if you search for the term **climb** (and Property Predicate is mapped to [!UICONTROL `dc:title`] property), then all the assets with the word **climb** in their title phrase are returned.
 *指定搜索短语中出现的单词的一部分，以及通配符(*)以填补间隙。
 例如，搜索：
-      **climb* returns all the assets having words beginning with the characters "climb" in their title phrase.**
+      **climb*** 返回所有资源，其标题短语中的单词以字符“clamp”开头。
       ***climp** 返回标题短语中带有“climp”字符的所有资产。
-      ***climb* returns all the assets having words comprising the characters "climb" in their title phrase.**\
-      **Non-case sensitive text
-To allow non-case sensitive search in property predicate,enable the Ignore Case checkbox in Search Form.******&#x200B;默认情况下，对属性谓词的文本搜索区分大小写。
+      ***climb*** 返回标题短语中包含“climb”字符的所有资源。\
+      **非区分大小写文本**&#x200B;要允许在属性谓词中进行非区分大小写的搜索，请在搜索表单中启 **[!UICONTROL 用“忽略大小写]** ”复选框。 默认情况下，对属性谓词的文本搜索区分大小写。
    >[!NOTE]
    >
-   >On selecting Partial Search checkbox, Ignore Case is selected by default.****
+   >在选中“部 **[!UICONTROL 分搜索]** ”复选框时， [!UICONTROL 默认情况下会选中“忽略大小写] ”。
 
    ![](assets/wildcard-prop-1.png)
 
@@ -111,9 +110,9 @@ To allow non-case sensitive search in property predicate,enable the Ignore Case 
 
 将搜索设置另存为智能收藏集：
 
-1. Tap/ click Save Smart Collection and provide a name for the smart collection.****
+1. 点按／单击 **[!UICONTROL 保存智能收藏集]** ，并为智能收藏集提供名称。
 
-   要使智能收藏集可供所有用户访问，请选择“公 **[!UICONTROL 共”]**。 A message confirms that the smart collection was created and added to the list of your saved searches.
+   要使智能收藏集可供所有用户访问，请选择“公 **[!UICONTROL 共”]**。 系统会显示一条消息，确认已创建智能收藏集并将其添加到保存的搜索列表中。
 
    >[!NOTE]
    >
@@ -121,7 +120,7 @@ To allow non-case sensitive search in property predicate,enable the Ignore Case 
 
    ![](assets/save_smartcollectionui.png)
 
-1. 要以其他名称保存智能收藏集，并选中或清除“公共”复选 **[!UICONTROL 框]** ，请单击“ **[!UICONTROL 编辑智能收藏集”]**。
+1. 要以其他名称保存智能收藏集，并选中或清除“公共”复选 **[!UICONTROL 框]** ，请单击 **[!UICONTROL 编辑智能收藏集]**。
 
    ![](assets/edit_smartcollection.png)
 
