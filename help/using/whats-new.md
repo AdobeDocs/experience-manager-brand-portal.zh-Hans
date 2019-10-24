@@ -1,21 +1,21 @@
 ---
-title: AEM Assets Brand Portal的新增功能
-seo-title: AEM Assets Brand Portal的新增功能
+title: AEM Assets Brand Portal 的新增功能
+seo-title: AEM Assets Brand Portal 的新增功能
 description: 了解6.4.5的新增功能和增强功能。
 seo-description: 了解6.4.5的新增功能和增强功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: 参考
 topic-tags: 简介
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# AEM Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
+# AEM Assets Brand Portal 的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Adobe正致力于改善整体品牌门户体验。 抢先领略新增功能和增强功能。
 
@@ -127,11 +127,11 @@ Brand Portal 6.4.3版本侧重于— 除了在Brand Portal访问URL中的租户I
 
 ### 在特定文件夹层次结构或路径中搜索
 
-**路径浏览器谓词** (Path Browser predicate is in the Search Form)在搜索表单中引入，以允许搜索特定目录中的资产。 路径浏览器的搜索谓词的默认搜索路径为 */content/dam/mac/&lt;tenant-id&gt;/*，可通过编辑默认搜索表单来配置该路径。
+**路径浏览器谓词** (Path Browser predicate is in the Search Form)在搜索表单中引入，以允许搜索特定目录中的资产。 路径浏览器的搜索谓词的默认搜索路径 `/content/dam/mac/<tenant-id>/`是，可通过编辑默认搜索表单来配置。
 
 * 管理员用户可以使用路径浏览器导航到Brand Portal上的任意文件夹目录。
 * 非管理员用户可以使用路径浏览器仅导航到与他们共享的文件夹（并导航回父文件夹）。
-例如， */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* ，与非管理员用户共享。 用户可以使用路径浏览器在folderC内搜索资产。 此用户还可以导航到folderB和folderA（因为它们是与用户共享的folderC的祖先）。
+例如， `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 与非管理员用户共享。 用户可以使用路径浏览器在folderC内搜索资产。 此用户还可以导航到folderB和folderA（因为它们是与用户共享的folderC的祖先）。
 
 ![](assets/edit-search-form.png)
 
@@ -381,9 +381,9 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新功能和�
 
 Brand Portal 6.3.2包含面向热门客户请求的新增和增强功能以及一般性能增强。
 
-### 请求对Brand Portal的访问权 {#request-access-to-brand-portal}
+### Request access to Brand Portal {#request-access-to-brand-portal}
 
-用户现在可以使用Brand Portal登录屏幕上新增的****需要访问功能请求对Brand Portal的访问权。
+用户现在可以使用Brand Portal登录屏幕上提供的 **新的需要访问** ，请求访问Brand Portal。
 
 ![](assets/bplogin_request_access.png)
 
