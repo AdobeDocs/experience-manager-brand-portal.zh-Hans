@@ -4,17 +4,17 @@ seo-title: 将新资产上传到贡献文件夹
 description: 了解如何将新资产上传到Brand Portal中的贡献文件夹。
 seo-description: 了解如何将新资产上传到Brand Portal中的贡献文件夹。
 uuid: null
-content-type: 引用
+content-type: 参考文件
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# 将新资产上传到贡献文件夹 {#uplad-new-assets-to-contribution-folder}
+# 将资产上传到贡献文件夹 {#uplad-new-assets-to-contribution-folder}
 
 Brand Portal用户下 [载资产要求](brand-portal-download-asset-requirements.md) -附加到贡献文件夹的简要文档，并从 **SHARED** 文件夹下载基准资产，以了解贡献的需求。
 然后，Brand Portal用户可以创建新资产以进行贡献，并将其上传到贡 **献文件夹** 中的NEW文件夹。
