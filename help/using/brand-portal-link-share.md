@@ -1,21 +1,21 @@
 ---
-title: 将资产共享为链接
-seo-title: 将资产共享为链接
+title: 以链接方式共享资产
+seo-title: 以链接方式共享资产
 description: AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑人员只能查看和共享与他们共享的资源。
 seo-description: AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑人员只能查看和共享与他们共享的资源。
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
-content-type: 引用
+content-type: 参考文件
 topic-tags: 共享
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 将资产共享为链接 {#share-assets-as-a-link}
+# 以链接方式共享资产 {#share-assets-as-a-link}
 
 AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑人员只能查看和共享与他们共享的资源。
 
@@ -92,12 +92,13 @@ AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（
 
    ![](assets/licensed-asset-download.png)
 
-   将显 [!UICONTROL 示“下载] ”对话框。<br />
+   将显 **[!UICONTROL 示“下载]** ”对话框。
+
    ![](assets/download-linkshare.png)
 
    * 要加快下载共享为链接的资产文件，请选择“启用下 **[!UICONTROL 载加速]** ”选项， [然后按向导操作](../using/accelerated-download.md#download-workflow-using-file-accelerator)。 要详细了解Brand Portal上资产的快速下载，请参阅 [指南以加速从Brand Portal下载](../using/accelerated-download.md)。
-[!UICONTROL
-1. 要从共享链接下载资产的演绎版以及资产的演绎版，请选择“ **[!UICONTROL 演绎版”选项]** 。 执行此操作时，将显 **示“排除系统演绎版”** （默认情况下为选中状态）选项。 这会阻止下载现成的演绎版以及已批准的资产或其自定义演绎版。
+
+1. 要从共享链接下载资产的演绎版以及资产的演绎版，请选择“ **[!UICONTROL 演绎版”选项]** 。 执行此操作时，将显 **[!UICONTROL 示“排除系统演绎版]** ”选项，该选项默认处于选中状态。 这会阻止下载现成的演绎版以及已批准的资产或其自定义演绎版。
 
    但是，要允许自动生成的演绎版与自定义演绎版一起下载，请取消选择“排除 **[!UICONTROL 系统演绎版]** ”选项。
 
