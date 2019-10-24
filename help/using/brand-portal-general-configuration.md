@@ -1,16 +1,16 @@
 ---
 title: 管理常规租户配置
 seo-title: 管理常规租户配置
-description: 配置下载加速、公共智能[!UICONTROL集合]创建、公共[!UICONTROL集合]创建，并使管理员用户能够删除租户上的资产。
-seo-description: 配置下载加速、公共智能[!UICONTROL集合]创建、公共[!UICONTROL集合]创建，并使管理员用户能够删除租户上的资产。
+description: 配置下载加速、公共智 [!UICONTROL 能集合创建] 、公共集 [!UICONTROL 合创建] ，并允许管理员用户删除租户上的资产。
+seo-description: 配置下载加速、公共智 [!UICONTROL 能集合创建] 、公共集 [!UICONTROL 合创建] ，并允许管理员用户删除租户上的资产。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: 管理
-content-type: 引用
+content-type: 参考文件
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
 
@@ -56,16 +56,16 @@ AEM Assets Brand Portal允许组织为特定租户配置以下功能：
 
 ## 允许非管理员创建公共集合 {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL允许创建公共集合]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 配置控制非管理员是否可以在Brand Portal上创建公共集合。 默认情况下，该配置处于启用状态。 通过禁用配置，组织可以防止在其门户上拥有大量公共集合，以便保存系统空间。
+[[!UICONTROL 允许公共集合创建]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 、配置控制非管理员是否可以在Brand Portal上创建公共集合。 默认情况下，该配置处于启用状态。 通过禁用配置，组织可以防止在其门户上拥有大量公共集合，以便保存系统空间。
 
 ## 允许非管理员创建公共智能收藏集 {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL允许创建公共智能集合]](../using/brand-portal-searching.md#main-pars-header-500620467) 配置控制非管理员是否可以将其搜索另存为智能集合并将其公开给该租户。 默认情况下，该配置处于启用状态。 通过禁用配置，组织可以防止组织的品牌门户上有大量非管理员用户创建的公共智能集合。
+[[!UICONTROL 允许公共智能收藏集创建]](../using/brand-portal-searching.md#main-pars-header-500620467) ，配置控制非管理员是否可以将其搜索另存为智能收藏集，并将其公开给该租户。 默认情况下，该配置处于启用状态。 通过禁用配置，组织可以防止组织的品牌门户上有大量非管理员用户创建的公共智能集合。
 
 ## 允许下载加速 {#allow-download-acceleration}
 
-[[!UICONTROL允许下载加速]](../using/accelerated-download.md) 配置允许组织通过与IBM Aspera connect（按需安装的应用程序）集成，从Brand Portal和共享链接加速资源下载。 该应用程序使用专有技术来消除TCP开销。
+[[!UICONTROL 允许下载加速配置]](../using/accelerated-download.md) ，使组织能够通过与IBM Aspera connect（按需安装的应用程序）集成，加快从Brand Portal和共享链接下载资产的速度。 该应用程序使用专有技术来消除TCP开销。
 
 ## 启用文件夹层次结构 {#enable-folder-hierarchy}
 
-[[!UICONTROL启用文件夹层次结构]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 配置允许管理员控制非管理员用户（编辑器、查看器和来宾用户）在登录后查看共享文件夹的方式。
+[[!UICONTROL 启用文件夹层次结构]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) ，管理员可以控制非管理员用户（编辑器、查看器和来宾用户）在登录后如何查看共享文件夹。
