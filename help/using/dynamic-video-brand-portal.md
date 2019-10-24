@@ -1,21 +1,21 @@
 ---
-title: Brand Portal上的动态视频支持
-seo-title: Brand Portal上的动态视频支持
-description: Brand Portal上的动态视频支持
-seo-description: Brand Portal上的动态视频支持
+title: Brand Portal 上的动态视频支持
+seo-title: Brand Portal 上的动态视频支持
+description: Brand Portal 上的动态视频支持
+seo-description: Brand Portal 上的动态视频支持
 uuid: a3502a4d-3971-4ea4-953c-44ba0446269
 contentOwner: mgulati
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: 参考文件
 topic-tags: 下载安装
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Brand Portal上的动态视频支持 {#dynamic-video-support-on-brand-portal}
+# Brand Portal 上的动态视频支持 {#dynamic-video-support-on-brand-portal}
 
 借助Dynamic media支持，在Brand Portal上自适应地预览和播放视频。 还可以从门户和共享链接下载动态演绎版。
 Brand Portal用户可以：
@@ -103,7 +103,7 @@ Brand Portal用户可以：
 如果AEM作者实例在Dynamic Media混合模式上运行，则使用管理工具面板中的 [!UICONTROL Video] tile来配置Dynamic Media网关设置。
 >[!NOTE]
 >
->视 [频编码配置文件不会发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ，而是从 [!UICONTROL Scene 7服务器获取] 。 因此，要在Brand Portal中成功播放视频编码，请确保配置详细信息与AEM作者实例中的 [[!UICONTROL Scene7云配置]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 相同。
+>视 [频编码配置文件不会发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ，而是从 [!UICONTROL Scene 7服务器获取] 。 因此，要在Brand Portal中成功播放视频编码，请确保配置详细信息与AEM作者实例中的 [[!UICONTROL Scene7云配置相同]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 。
 要在Brand Portal租户上设置Dynamic media配置，请执行以下操作：
 
 1. 选择AEM徽标，以从顶部的工具栏访问Brand Portal中的管理工具。
