@@ -1,20 +1,20 @@
 ---
-title: 自定义墙纸、标题和电子邮件
-seo-title: 自定义墙纸、标题和电子邮件
+title: 自定义墙纸、标题和电子邮件消息
+seo-title: 自定义墙纸、标题和电子邮件消息
 description: Brand Portal管理员可以对显示给用户的界面进行有限的自定义。 您可以为品牌门户登录页面选择特定的背景图像（墙纸）。 您还可以添加标题图像和自定义资产共享电子邮件以匹配客户的品牌。
 seo-description: Brand Portal管理员可以对显示给用户的界面进行有限的自定义。 您可以为品牌门户登录页面选择特定的背景图像（墙纸）。 您还可以添加标题图像和自定义资产共享电子邮件以匹配客户的品牌。
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
-content-type: 引用
+content-type: 参考文件
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: 管理
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# 自定义墙纸、标题和电子邮件 {#customize-wallpaper-header-and-email-message}
+# 自定义墙纸、标题和电子邮件消息 {#customize-wallpaper-header-and-email-message}
 
 Brand Portal管理员可以对显示给用户的界面进行有限的自定义。 您可以为品牌门户登录页面选择特定的背景图像（墙纸）。 您还可以添加标题图像和自定义资产共享电子邮件以匹配客户的品牌。
 
