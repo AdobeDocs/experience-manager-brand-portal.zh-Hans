@@ -6,11 +6,11 @@ seo-description: 了解6.4.5的新增功能和增强功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 参考
-topic-tags: 简介
+content-type: reference
+topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 ---
 
@@ -33,14 +33,18 @@ Brand Portal 6.4.5是一个功能版本，它侧重于为Brand Portal用户（�
 
 用户完成在 **NEW** 文件夹中添加内容后，他们可以将贡献文件夹发布回AEM创作环境。 请注意，完成导入并反映AEM资产中新发布的内容可能需要几分钟时间。
 
-此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
+此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。
+
+请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
+
+查看 [Brand Portal常见问题解答](brand-portal-faqs.md)
 
 >[!NOTE]
-
-
+>
 >AEM 6.5.2.0及更高版本支持品牌门户中的资产来源补充。
 >
 >早期版本（AEM 6.3和AEM 6.4）不支持此功能。
+
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
@@ -525,24 +529,3 @@ Brand Portal 6.3.1引入了其他元数据，与AEM Assets 6.3相同。您可以
 ![](assets/publish_tags_aemassets.png)
 
 * 从AEM资产中，您可以发布具有标记（包括智能标记）的资产和收藏集。 然后，您可以在Brand Portal中使用这些标记作为搜索关键字搜索这些资产或集合。
-
-## Frequently asked questions {#frequently-asked-questions}
-
-**Ques. 我是否将失去对我创建的任何现有资产、功能或配置的访问权？**
-安**斯。** 您的所有现有功能和配置均保持不变。 您的最终用户不会受到影响，您的内容将保持不变。
-
-**Ques. 我何时将转向新版本的Brand Portal?**
-安**斯。** Brand Portal 6.4.4已于2019年2月发布至生产。 下一个Brand Portal版本预计将在2019年第3季度发布。
-
->[!NOTE]
->
->发布时间表是暂定的，并且可能会更改。 请联系您的Adobe客户经理或客户支持以获取更新的发行计划。
-
-**Ques. 我的用户是否会受到影响？**
-安**斯。** 此更改仅在Brand Portal中进行，因此不会对最终用户产生影响。
-
-**Ques. 我是否需要执行任何操作？**
-安**斯。** 管理员不需要执行任何操作。 访问新的Brand Portal后，请参阅文档以查看所有的技巧和口哨。
-
-**Ques. 如有疑问，应与谁联系？**
-安**斯。** 联系您的Adobe客户经理或客户支持。
