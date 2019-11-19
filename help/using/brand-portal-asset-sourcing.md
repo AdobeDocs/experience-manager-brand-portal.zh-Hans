@@ -4,12 +4,21 @@ seo-title: Brand Portal中的资产来源补充
 description: 深入了解Adobe Experience Manager资产品牌门户中发布的资产来源补充功能。
 seo-description: 深入了解Adobe Experience Manager资产品牌门户中发布的资产来源补充功能。
 uuid: null
-content-type: 引用
+content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+product: experience-manager
+sub-product: assets
+feature: brand-portal
+topics: collaboration, content-velocity, sharing
+doc-type: feature-video
+activity: use
+audience: author, marketer
+version: 6.5
+kt: 3838
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -20,6 +29,8 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。
 
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=chi_hans)
+
 >[!NOTE]
 >
 >AEM 6.5.2.0及更高版本支持品牌门户中的资产来源补充。
@@ -28,18 +39,25 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 >
 >联系Adobe支持部门，将您的AEM实例升级到最新支持的AEM版本。
 
-![](assets/asset-sourcing.png)
+![Brand Portal资产来源补充](assets/asset-sourcing.png)
 
-## See also {#reference-articles}
+## 前提条件 {#prerequisites}
+
+* AEM 6.5.0.2或更高版本。
+* 确保您的AEM资产实例已与Brand Portal集成。 请参阅配 [置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)。
+
+## 另请参阅 {#reference-articles}
 
 **适用于管理员**
-* [在AEM中配置资产来源补充](brand-portal-enable-asset-sourcing.md)
-* [上传Brand Portal用户列表](brand-portal-upload-user-list.md)
+
+* [在AEM中配置资产来源补充](brand-portal-configure-asset-sourcing.md)
+* [上传Brand Portal用户列表](brand-portal-configure-asset-sourcing.md)
 * [配置贡献文件夹](brand-portal-contribution-folder.md)
 * [将基准资产上传到贡献文件夹](brand-portal-upload-baseline-assets.md)
 * [将贡献文件夹发布到Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 **对于Brand Portal用户**
+
 * [下载资产要求](brand-portal-download-asset-requirements.md)
 * [将新资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 * [将贡献文件夹发布到AEM资产](brand-portal-publish-contribution-folder-to-aem-assets.md)
