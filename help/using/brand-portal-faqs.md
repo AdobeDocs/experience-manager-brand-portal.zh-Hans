@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -54,8 +54,8 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 **Ques. 谁可以创建贡献文件夹？**
 
-**安。** 任何AEM用户都可以在AEM资产中创建新文件夹并分配属性资产 **贡献**。 新创建的文件夹称为贡 **献文件** 。
-然后，该文件夹会与活动的Brand Portal用户共享以供贡献。
+**安。** 任何具有在AEM资产中创建新文件夹权限的AEM用户都可以创建“贡 **献** ”文件夹。 要创建贡献文 **件夹** ，请新建一个“资产贡献”类型 **的文件夹**。
+此文件夹将与活动的Brand Portal用户共享以供贡献。
 
 
 
@@ -63,6 +63,12 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 **安。** Contribution **** 文件夹包含两个子文 **件夹** NEW ****和SHARED。 最初，NEW文件夹为空，而SHARED文件夹包含Brand Portal用户的参考内容（可重用资产）。
 Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件夹中的内容。
+
+
+
+**Ques.  我是否可以修改现有贡献文件夹的名称？**
+
+**安。** 否 ****，您无法修改现有贡献文件夹 **的名称** 。
 
 
 
@@ -102,7 +108,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件�
 
 **Ques. 在哪里可以看到导入和发布作业的状态？**
 
-**安。** 在AEM中，您可以在异步作业页面中查看导入 **的状** 态。 在Brand Portal中，您可以在“工具”&gt;“资产贡献”状态中 **[!UICONTROL 查看发布作业的状态]**。
+**安。** 在AEM中，您可以在异步作业页面中查看导入 **的状** 态。 在Brand Portal中，您可以在“工具”>“资产贡献”状态中 **[!UICONTROL 查看发布作业的状态]**。
 
 
 
