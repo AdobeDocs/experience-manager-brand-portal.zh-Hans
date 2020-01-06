@@ -4,12 +4,12 @@ seo-title: AEM Assets Brand Portal概述
 description: AEM Assets Brand Portal可以帮助您跨设备轻松获取、控制获准的创意资产并将其安全地分发给外部方和内部业务用户。
 seo-description: AEM Assets Brand Portal可以帮助您跨设备轻松获取、控制获准的创意资产并将其安全地分发给外部方和内部业务用户。
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: 简介
+topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 
 ---
 
@@ -34,9 +34,11 @@ Brand Portal支持以下用户角色：
 * 客人用户
 * 查看者
 * 编辑者
-* 管理员下表列出了这些角色中的用户可以执行的任务：
+* 管理员
 
-|  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享集合** | **将资产共享为链接** | **访问管理工具** |
+下表列出了这些角色中的用户可以执行的任务：
+
+|  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享收藏集** | **以链接方式共享资产** | **访问管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **客人用户** | ✓* | ✓* | ✓* | x | x | x | x |
 | **查看者** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -67,7 +69,7 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 [搜索资产](brand-portal-searching.md)
 
-[下载资源](brand-portal-download-users.md)
+[下载资产](brand-portal-download-users.md)
 
 ### 编辑者 {#editor}
 
@@ -77,9 +79,9 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 [共享文件夹](brand-portal-sharing-folders.md)
 
-[共享集合](brand-portal-share-collection.md)
+[共享收藏集](brand-portal-share-collection.md)
 
-[将资产共享为链接](brand-portal-link-share.md)
+[以链接方式共享资产](brand-portal-link-share.md)
 
 ### 管理员 {#administrator}
 
@@ -87,11 +89,11 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 管理员可以执行编辑者可以执行的所有任务，这些任务还包括以下其他任务：
 
-[管理用户、用户组和用户角色](brand-portal-adding-users.md)
+[管理用户、组和用户角色](brand-portal-adding-users.md)
 
 [自定义墙纸、页眉和电子邮件](brand-portal-branding.md)
 
-[使用自定义搜索彩块化](brand-portal-search-facets.md)
+[使用自定义搜索 Facet](brand-portal-search-facets.md)
 
 [使用元数据架构表单](brand-portal-metadata-schemas.md)
 
@@ -110,7 +112,7 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 ## 品牌门户URL的替代别名 {#tenant-alias-for-portal-url}
 
 从Brand Portal 6.4.3开始，组织可以拥有一个替代（别名）URL作为其Brand Portal租户的现有URL。 别名URL可以通过在URL中具有替代前缀来创建。\
-请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。 例如，具有现有域 **[!UICONTROL geometrix.brand-portal.adobe.com的组织可以获取]** geometrixinc.brand-portal.adobe.com **** （根据请求创建）。
+请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。 例如，具有现有域 **[!UICONTROL geometrix.brand-portal.adobe.com的组织可以获取]**geometrixinc.brand-portal.adobe.com**** （根据请求创建）。
 
 但是，AEM作者实例只能 [使用租户](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) ID URL配置，而不能使用租户别名（备用）URL配置。
 
@@ -120,13 +122,13 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 >
 >要替换旧别名或删除旧别名，需要执行相同的过程。
 
-## 请求对Brand Portal的访问权 {#request-access-to-brand-portal}
+## Request access to Brand Portal {#request-access-to-brand-portal}
 
 用户可以从登录屏幕请求访问Brand Portal。 这些请求将发送给Brand Portal管理员，这些管理员通过Adobe [!UICONTROL Admin Console向用户授予访问权限]。 授予访问权限后，用户会收到通知电子邮件。
 
 要请求访问权限，请执行以下操作：
 
-1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]** ，与需 **[!UICONTROL 要访问？]**. 但是，要进入客人会话，请选择与“客人访 **[!UICONTROL 问]** ”对应的 **[!UICONTROL “单击此处”]**。
+1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]**，与需**[!UICONTROL &#x200B;要访问？]**. 但是，要进入客人会话，请选择与“客人访 **[!UICONTROL 问]**”对应的**[!UICONTROL “单击此处”]**。
 
    ![Brand Portal登录屏幕](assets/bp-login-requestaccess.png)
 
@@ -139,16 +141,16 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
    **场景1**
    1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]，请单击“ ****登录Regin In”。
-此时 [!UICONTROL 将打开登录] 页面。
+此时[!UICONTROL 将打开登录]页面。
    1. 提供您 [!UICONTROL 的Adobe ID凭据] ，然后单击 **[!UICONTROL 登录]**。<br />
    ![Adobe登录](assets/bplogin_request_access_3.png)
 
    您将被重定向到“请 [!UICONTROL 求访问] ”页面。<br />
    **场景2**
-   1. 如果您没有 [!UICONTROL Adobe ID]，请单击“请求访问”页 **[!UICONTROL 面中的“获取Adobe ID]** ” [!UICONTROL (获取Adobe ID] )。
-此时 [!UICONTROL 将打开登录] 页面。
+   1. 如果您没有 [!UICONTROL Adobe ID]，请单击“请求访问”页 **[!UICONTROL 面中的“获取Adobe ID]**”[!UICONTROL (获取Adobe ID])。
+此时[!UICONTROL 将打开登录]页面。
    1. Click **[!UICONTROL Get an Adobe ID]**.
-此时 [!UICONTROL 将打开“注册] ”页面。
+此时[!UICONTROL 将打开“注册]”页面。
    1. 输入您的名字和姓氏、电子邮件ID和密码。
    1. 选择 **[!UICONTROL 注册]**。<br />
    ![](assets/bplogin_request_access_5.png)
@@ -166,7 +168,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 ![访问请求的通知](assets/bplogin_request_access_7.png)
 
 要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击“授 **[!UICONTROL 予访问权限”]**。
-或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console] ，并将用户添加到相关的产品配置。
+或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe[!UICONTROL Admin Console]，并将用户添加到相关的产品配置。
 
 您将被重定向到 [Adobe [!UICONTROL Admin Console主页]](https://adminconsole.adobe.com/enterprise/overview) 。 使用Adobe [!UICONTROL Admin Console] ，创建用户并将其分配到产品配置（以前称为产品配置），这些配置在Brand Portal中显示为组。 有关在 [!UICONTROL Admin Console中添加用户的详细信息]，请参阅 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
 
@@ -178,7 +180,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 
 要更改语言：
 
-1. 从顶 [!UICONTROL 部菜单中选] 择“用户 [!UICONTROL ”&gt;“编辑配置文件] ”。<br />
+1. 从顶 [!UICONTROL 部菜单中选] 择“用户 [!UICONTROL ”>“编辑配置文件] ”。<br />
    ![编辑个人资料](assets/EditBPProfile.png)
 
 1. 在 [!UICONTROL Experience cloud设置页] ，从语言下拉菜单中 [!UICONTROL 选择一种语] 言。
