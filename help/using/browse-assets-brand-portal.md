@@ -1,24 +1,24 @@
 ---
-title: Browse assets on Brand Portal
-seo-title: Browse assets on Brand Portal
-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
-seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
+title: 在Brand Portal上浏览资产
+seo-title: 在Brand Portal上浏览资产
+description: 使用Brand Portal上的不同视图选项和UI元素浏览资产、遍历资产层次结构和搜索资产。
+seo-description: 使用Brand Portal上的不同视图选项和UI元素浏览资产、遍历资产层次结构和搜索资产。
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
-topic-tags: 简介
+content-type: reference
+topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-AEM Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
+AEM Assets Brand Portal提供了各种功能和用户界面元素，便于在使用不同视图选项时浏览资源、遍历资产层次结构和搜索资产。
 
-AEM logo in the AEM toolbar at the top facilitates admin users to access administrative tools panel.
+顶部AEM工具栏中的AEM徽标方便了管理员用户访问管理工具面板。
 
 ![](assets/aemlogo.png)
 
@@ -26,11 +26,11 @@ AEM logo in the AEM toolbar at the top facilitates admin users to access adminis
 
 ![](assets/bp_subheader.png)<br />
 
-Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
+Brand Portal左上角的边栏选择器下拉，以显示可导航到资产层次结构、简化搜索和显示资源的选项。
 
 ![](assets/siderail-1.png)
 
-You can view, navigate through, and select assets using any of the available views (Card, Column, and List) in the view selector at the upper right in Brand Portal.
+您可以使用品牌门户右上角的视图选择器中的任意可用视图（卡片、列和列表）查看、导航和选择资产。
 
 ![](assets/viewselector.png)
 
@@ -48,9 +48,9 @@ You can view, navigate through, and select assets using any of the available vie
 
 ![](assets/card-view.png)
 
-卡片视图显示各个项目在当前级别的信息卡片。These cards provide the following details:
+卡片视图显示各个项目在当前级别的信息卡片。这些卡提供以下详细信息：
 
-* A visual representation of the asset/folder.
+* 资产／文件夹的可视表示形式。
 * 类型
 * 标题
 * 名称
@@ -78,7 +78,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * 在顶部的工具栏中选择资产／文件夹。
 * 在下拉框中，选择边栏选择器。
 
-在选择资 [!UICONTROL 产] /文件夹时选择“概述”选项后，用户可以查看资产创建的标题、路径和时间。 但是，在资产详细信息页面上，选择“概述”选项可让用户查看资产的元数据。
+在选择资 **[!UICONTROL 产]**/文件夹时选择“概述”选项后，用户可以查看资产创建的标题、路径和时间。 但是，在资产详细信息页面上，选择“概述”选项可让用户查看资产的元数据。
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 
 #### 在卡片视图中查看设置
 
-[!UICONTROL 在从视图选择器中选择] “查看设置”时， **[!UICONTROL 将打开“查看设置]** ”对话框。 它允许您在卡片视图中调整资产缩略图的大小。 这样，您就可以个性化您的视图并控制显示的缩略图数量。
+**[!UICONTROL 在从视图选择器中选择]**“查看设置”时，**[!UICONTROL &#x200B;将打开“查看设置]** ”对话框。 它允许您在卡片视图中调整资产缩略图的大小。 这样，您就可以个性化您的视图并控制显示的缩略图数量。
 
 ![](assets/cardviewsettings.png)
 
@@ -107,7 +107,7 @@ You can navigate down the hierarchy by tapping/clicking cards (taking care to av
 * 显示资产层次结构的文件夹路径<sup>*</sup>
 * 在Brand Portal上发布资产的日期
 
-*路径列可让您轻松识别文件夹层次结构中的资产位置。 You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+通过“路径”列，您可以轻松地在文件夹层次结构中识别资产位置。 You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 在列表视图中查看设置
 
-“列表”视图默 [!UICONTROL 认将资产] “名称”显示为第一列。 此外，还会显示资产 [!UICONTROL Asset]、 [!UICONTROL Locale]、 [!UICONTROL DimensionsTitle]、 DimensionsSize、Type Status、Publish状态等其他信息。 However, you can select the columns to be shown using [!UICONTROL View Settings].
+“列表”视图默 **[!UICONTROL 认将资产]**“名称”显示为第一列。 此外，还会显示资产**[!UICONTROL  Asset]**、 **[!UICONTROL Locale]**、**[!UICONTROL  DimensionsTitle]**、 ************DimensionsSize、Type Status、Publish状态等其他信息。 However, you can select the columns to be shown using**[!UICONTROL  View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -125,24 +125,24 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 使用列视图可在内容树中浏览一系列级联列。 此视图可帮助您可视化和遍历资产层次结构。
 
-在第一列（最左侧）中选择资源后，将在右侧第二列中显示子资源。 Selecting a resource in the second column displays child resources in the third column to the right, and so on.
+在第一列（最左侧）中选择资源后，将在右侧第二列中显示子资源。 选择第二列中的资源后，右侧第三列中将显示子资源，依此类推。
 
 通过点按或单击资源名称或资源名称右侧的V形标记，可以在树中上下导航。
 
 * 点按或单击资源名称和V形标记时将高亮显示。
 * 点按或单击缩略图可选择资源。
-* When selected, a check mark is overlaid on the thumbnail and the resource name is highlighted.
+* 选中后，缩略图上会叠加一个复选标记，并高亮显示资源名称。
 * 所选资源的详细信息显示在最后一列中。
 
-When an asset is selected in column view, visual representation of the asset is displayed in the final column along with the following details:
+在列视图中选择资产后，资产的可视表示形式将显示在最后一列，并显示以下详细信息：
 
 * 标题
 * 名称
 * 尺寸
-* Date and time when asset was published to Brand Portal from AEM
+* 从AEM将资产发布到Brand Portal的日期和时间
 * 大小
 * 类型
-* More Details option, to go on the details page of the asset
+* “更多详细信息”选项，转到资产的详细信息页面
 
 <!--
 Comment Type: draft
@@ -230,32 +230,32 @@ Comment Type: draft
 
 ## 内容树 {#content-tree}
 
-In addition to these views, use the tree view to drill down the asset hierarchy while you view and select desired assets or folders.
+除了这些视图之外，在查看和选择所需的资产或文件夹时，还可以使用树视图向下展开资产层次结构。
 
-To open the tree view, tap/click the rail selector at upper left and select the Content tree from the menu.****
+要打开树视图，请点按／单击左上角的边栏选择器，然后从菜单中选 **[!UICONTROL 择内容树]**。
 
 ![](assets/contenttree.png)
 
-From the content hierarchy, navigate to the desired asset.
+从内容层次结构中，导航到所需的资产。
 
 ![](assets/content-tree.png)
 
 ## 资源详细信息 {#asset-details}
 
-Asset detail page lets you view an asset, download, share asset's link, move it to a collection, or view its properties page. It also allows you to navigate through the details page of other assets of the same folder in succession.
+通过资产详细信息页面，您可以查看资产、下载、共享资产的链接、将资产移至集合或查看其属性页面。 它还允许您连续浏览同一文件夹中其他资产的详细信息页面。
 
 ![](assets/asset-detail.png)
 
-To view the asset's metadata, or view its various renditions, use the rail selector on asset detail page.
+要查看资产的元数据或查看其各种演绎版，请使用资产详细信息页面上的边栏选择器。
 
 ![](assets/asset-overview.png)
 
-You can view all the available renditions of the asset on asset details page, and select a rendition to preview it.
+您可以在资产详细信息页面上查看该资产的所有可用演绎版，然后选择一个演绎版进行预览。
 
 ![](assets/renditions.png)
 
-To open the asset properties page, use Properties (p) option from the top bar.****
+要打开资产属性页面，请使 **[!UICONTROL 用顶栏中的属性(p)]**选项。
 
 ![](assets/asset-properties.png)
 
-You can also view a list of all its related assets (source or derived assets on AEM) on an asset's properties page, as asset relationship is also published from AEM to Brand Portal.
+您还可以在资产的属性页面上查看其所有相关资产（AEM上的源资产或派生资产）的列表，因为资产关系也会从AEM发布到Brand Portal。
