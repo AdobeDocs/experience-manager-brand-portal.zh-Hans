@@ -5,12 +5,12 @@ description: 为资产和共享链接授权和设置过期时间可确保对这�
 seo-description: 为资产和共享链接授权和设置过期时间可确保对这些资产进行有控制的使用并予以保护。
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
-topic-tags: 下载安装
+topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 引用
+content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 在Brand Portal中，管理员可以查看、下载过期的资产并将其添加到收藏集。 但是，编辑人员和查看器只能查看过期的资产并将其添加到收藏集。
 
-管理员可以将过期的资产从AEM资产发布到Brand Portal。 但是，无法通过Brand Portal中的链接共享过期的资产。 如果您从同时包含已过期和未过期资产的文件夹中选择任何已过期的资产，则共享链 **[!UICONTROL 接操作将不可用]** 。 但是，如果您选择的文件夹包含已过期和未过期的资产，则可以执 [!UICONTROL 行“共享] ”和“ **[!UICONTROL 共享链接]** ”操作。
+管理员可以将过期的资产从AEM资产发布到Brand Portal。 但是，无法通过Brand Portal中的链接共享过期的资产。 如果您从同时包含已过期和未过期资产的文件夹中选择任何已过期的资产，则共享链 **[!UICONTROL 接操作将不可用]**。 但是，如果您选择的文件夹包含已过期和未过期的资产，则可以执[!UICONTROL 行“共享]”和“**[!UICONTROL &#x200B;共享链接]** ”操作。
 
 >[!NOTE]
 >
@@ -40,8 +40,8 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 |  | **[!UICONTROL 链接共享]** | **[!UICONTROL 下载]** | **[!UICONTROL 属性]** | **[!UICONTROL 添加到集合]** | **[!UICONTROL 删除]** |
 |---|---|---|---|---|---|
 | **[!UICONTROL 管理员]** | 不可用 | 可用 | 可用 | 可用 | 可用 |
-| **[!UICONTROL 编辑器]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
-| **[!UICONTROL 查看器]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
+| **[!UICONTROL 编辑者]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
+| **[!UICONTROL 查看者]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
 | **[!UICONTROL 客人用户]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
 
 >[!NOTE]
@@ -50,7 +50,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ### 资产的到期状态 {#expiration-status-of-assets}
 
-您可以在资产的卡片视图中查看资产的 [!UICONTROL 到期状态]。 卡上的红色标记表示资产已过期。
+您可以在资产的卡片视图中查看资产的 **[!UICONTROL 到期状态]**。 卡上的红色标记表示资产已过期。
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ## 资产链接到期 {#asset-link-expiration}
 
-通过链接共享资产时，管理员和编辑人员可以使用“链接共享”对话框的“ **[!UICONTROL 到期]** ”字段设置 **[!UICONTROL 到期日期和时间]** 。 链接的默认过期时间为共享链接之日起七天。
+通过链接共享资产时，管理员和编辑人员可以使用“链接共享”对话框的“ **[!UICONTROL 到期]**”字段设置**[!UICONTROL &#x200B;到期日期和时间]** 。 链接的默认过期时间为共享链接之日起七天。
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +74,11 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 受许可证保护的资 [产附加了许可协议](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) ，可通过在AEM资产中设置资产的元数据属 [性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 来完成此操作。
 
-如果您选择下载受许可证保护的资产，则会将您重定向到“版权 [!UICONTROL 管理] ”页面。
+如果您选择下载受许可证保护的资产，则会将您重定向到“版权 **[!UICONTROL 管理]**”页面。
 
 ![](assets/asset-copyright-mgmt.png)
 
-您需要在此选择要下载的资产并接受关联的许可协议。 如果您不接受许可协议，则“下 [!UICONTROL 载] ”按钮不启用。
+您需要在此选择要下载的资产并接受关联的许可协议。 如果您不接受许可协议，则“下 **[!UICONTROL 载]**”按钮不启用。
 
 ![](assets/licensed-asset-download-2.png)
 
