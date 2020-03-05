@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=chi_hans)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 ## 前提条件 {#prerequisites}
 
 * AEM 6.5.0.2或更高版本。
-* 确保您的AEM资产实例已与Brand Portal集成。 请参阅配 [置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)。
+* 确保您的AEM资产实例已配置Brand Portal。 请参阅， [配置AEM资产与Brand Portal](../using/configure-aem-assets-with-brand-portal.md)。
 
 ## 另请参阅 {#reference-articles}
 
