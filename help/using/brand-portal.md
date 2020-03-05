@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -26,6 +26,24 @@ source-git-commit: 4b711ae6d94621e4bc4ca0b4c67191d79da883e0
 请参阅， [品牌门户中的资产来源补充](brand-portal-asset-sourcing.md)。
 
 基于浏览器的门户环境使您能够轻松上传、浏览、搜索、预览和导出批准格式的资产。
+
+## 使用Brand Portal配置AEM资产 {#configure-brand-portal}
+
+Adobe Experience Manager(AEM)资产通过Adobe I/O配置了Brand Portal,Adobe I/O可获取IMS令牌以授权您的Brand Portal租户。
+
+>[!NOTE]
+>
+>AEM 6.3及更高版本支持通过Adobe I/O在Brand Portal中配置AEM资产。
+
+### 配置AEM资产与Brand Portal的先决条件 {#prerequisites}
+
+您需要以下各项才能在Brand Portal中配置AEM资产：
+
+* 具有最新Service Pack的AEM Assets作者实例正在运行。
+* Brand Portal租户URL。
+* 对Brand Portal租户的IMS组织具有系统管理员权限的用户。
+
+有关详细信息，请参 [阅使用品牌门户配置AEM资产](../using/configure-aem-assets-with-brand-portal.md)。
 
 ## Brand Portal中的用户角色 {#Personas}
 
@@ -103,7 +121,7 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 除了上述任务之外，AEM资产中的作者还可以执行以下任务：
 
-[配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+[使用Brand Portal配置AEM资产](../using/configure-aem-assets-with-brand-portal.md)
 
 [将文件夹发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
@@ -112,9 +130,9 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 ## 品牌门户URL的替代别名 {#tenant-alias-for-portal-url}
 
 从Brand Portal 6.4.3开始，组织可以拥有一个替代（别名）URL作为其Brand Portal租户的现有URL。 别名URL可以通过在URL中具有替代前缀来创建。\
-请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。 例如，具有现有域 **[!UICONTROL geometrix.brand-portal.adobe.com的组织可以获取]**geometrixinc.brand-portal.adobe.com**** （根据请求创建）。
+请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。 例如，具有现有域 **[!UICONTROL geometrix.brand-portal.adobe.com的组织可以获取]** geometrixinc.brand-portal.adobe.com **** （根据请求创建）。
 
-但是，AEM作者实例只能 [使用租户](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) ID URL配置，而不能使用租户别名（备用）URL配置。
+但是，AEM作者实例只能 [使用租户](../using/configure-aem-assets-with-brand-portal.md) ID URL配置，而不能使用租户别名（备用）URL配置。
 
 >[!NOTE]
 >
@@ -128,7 +146,7 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 要请求访问权限，请执行以下操作：
 
-1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]**，与需**[!UICONTROL &#x200B;要访问？]**. 但是，要进入客人会话，请选择与“客人访 **[!UICONTROL 问]**”对应的**[!UICONTROL “单击此处”]**。
+1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]** ，与需 **[!UICONTROL 要访问？]**. 但是，要进入客人会话，请选择与“客人访 **[!UICONTROL 问]** ”对应的 **[!UICONTROL “单击此处”]**。
 
    ![Brand Portal登录屏幕](assets/bp-login-requestaccess.png)
 
@@ -141,16 +159,16 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
    **场景1**
    1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]，请单击“ ****登录Regin In”。
-此时[!UICONTROL 将打开登录]页面。
+此时 [!UICONTROL 将打开登录] 页面。
    1. 提供您 [!UICONTROL 的Adobe ID凭据] ，然后单击 **[!UICONTROL 登录]**。<br />
    ![Adobe登录](assets/bplogin_request_access_3.png)
 
    您将被重定向到“请 [!UICONTROL 求访问] ”页面。<br />
    **场景2**
-   1. 如果您没有 [!UICONTROL Adobe ID]，请单击“请求访问”页 **[!UICONTROL 面中的“获取Adobe ID]**”[!UICONTROL (获取Adobe ID])。
-此时[!UICONTROL 将打开登录]页面。
+   1. 如果您没有 [!UICONTROL Adobe ID]，请单击“请求访问”页 **[!UICONTROL 面中的“获取Adobe ID]** ” [!UICONTROL (获取Adobe ID] )。
+此时 [!UICONTROL 将打开登录] 页面。
    1. Click **[!UICONTROL Get an Adobe ID]**.
-此时[!UICONTROL 将打开“注册]”页面。
+此时 [!UICONTROL 将打开“注册] ”页面。
    1. 输入您的名字和姓氏、电子邮件ID和密码。
    1. 选择 **[!UICONTROL 注册]**。<br />
    ![](assets/bplogin_request_access_5.png)
@@ -168,7 +186,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 ![访问请求的通知](assets/bplogin_request_access_7.png)
 
 要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击“授 **[!UICONTROL 予访问权限”]**。
-或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe[!UICONTROL Admin Console]，并将用户添加到相关的产品配置。
+或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console] ，并将用户添加到相关的产品配置。
 
 您将被重定向到 [Adobe [!UICONTROL Admin Console主页]](https://adminconsole.adobe.com/enterprise/overview) 。 使用Adobe [!UICONTROL Admin Console] ，创建用户并将其分配到产品配置（以前称为产品配置），这些配置在Brand Portal中显示为组。 有关在 [!UICONTROL Admin Console中添加用户的详细信息]，请参阅 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
 
@@ -183,7 +201,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 1. 从顶 [!UICONTROL 部菜单中选] 择“用户 [!UICONTROL ”>“编辑配置文件] ”。<br />
    ![编辑个人资料](assets/EditBPProfile.png)
 
-1. 在 [!UICONTROL Experience cloud设置页] ，从语言下拉菜单中 [!UICONTROL 选择一种语] 言。
+1. 在 [!UICONTROL Experience Cloud设置页] ，从语言下拉菜单中 [!UICONTROL 选择一种语] 言。
 
 ## Brand Portal维护通知 {#brand-portal-maintenance-notification}
 
