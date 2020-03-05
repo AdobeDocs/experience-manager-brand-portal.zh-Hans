@@ -5,22 +5,22 @@ description: 并行发布疑难解答。
 seo-description: 并行发布疑难解答。
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: 参考文件
+content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
 
 # 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal支持与AEM Assets集成，以便从AEM Assets作者实例无缝地摄取（或发布）已批准的品牌资产。 集 [成后](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html),AEM作者使用复制代理将选定的资产复制到Brand Portal云服务中，以便Brand Portal用户进行批准的使用。 使用多个复制代理AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2以及更高版本，以实现高速并行发布。
+Brand Portal已与AEM Assets配置为从AEM Assets作者实例无缝地摄取（或发布）已批准的品牌资产。 配 [置完成后](../using/configure-aem-assets-with-brand-portal.md),AEM作者将使用复制代理将选定的资产复制到Brand Portal云服务中，以便Brand Portal用户进行批准的使用。 使用多个复制代理AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2以及更高版本，以实现高速并行发布。
 
 >[!NOTE]
 >
->Adobe建议升级到AEM 6.4.1.0，以确保AEM Assets Brand Portal已成功与AEM Assets集成。 AEM 6.4中的限制会在配置与Brand Portal的集成时导致错误，并且复制会失败。
+>Adobe建议升级到AEM 6.4.1.0，以确保AEM Assets Brand Portal已成功配置AEM Assets。 AEM 6.4中的限制会在将AEM资产配置为Brand Portal时显示错误，并且复制失败。
 
 在为品牌门户配置云服务时， **[!UICONTROL /etc/cloudservice]**，将自动生成所有必需的用户和令牌并将其保存到存储库中。 创建云服务配置，创建复制和复制代理复制内容所需的服务用户。 这将创建四个复制代理。 因此，当您将大量资产从AEM发布到Brand Portal时，这些资产将通过Round Robin排队并分发到这些复制代理中。
 
