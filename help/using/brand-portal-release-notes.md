@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 此版本包含以下新增功能：
 
-* 客人登录Brand Portal的Captcha。
+* 客人登录Brand Portal的Captcha。 有关详细 [信息，请参阅Brand Portal客人访问](../using/guest-access.md) 。
 
 ### 增强功能 {#enhancements-646}
 
@@ -45,11 +45,11 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
    >[!NOTE]
    >
-   >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并将其转移到Adobe I/O。
+   >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并已更改为通过Adobe I/O进行配置。
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+有关详细信息，请参 [阅配置AEM资产与Brand Portal](configure-aem-assets-with-brand-portal.md)
+
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
