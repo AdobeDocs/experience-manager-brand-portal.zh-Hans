@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: e20a75fd982d375d73461d177380349cb32b5303
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -21,9 +21,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 6.4.6中的更改 {#what-changed-in-646}
 
-Brand Portal 6.4.6是一个增强版本，其中AEM资产和Brand Portal之间的授权渠道已更改。 AEM资产现在通过Adobe I/O配置了Brand Portal，后者为Brand Portal租户购买IMS令牌以授权。
-
-以前，Brand Portal是通过旧版OAuth网关在经典UI中配置的，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。
+Brand Portal 6.4.6是一个增强版本，其中AEM资产和Brand Portal之间的授权渠道已更改。 以前，Brand Portal是通过旧版OAuth网关在经典UI中配置的，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。 AEM资产现在通过Adobe I/O配置了Brand Portal，后者为Brand Portal租户购买IMS令牌以授权。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -39,17 +37,28 @@ Brand Portal 6.4.6是一个增强版本，其中AEM资产和Brand Portal之间�
 
    -->
 
-Adobe I/O上的Brand Portal上的AEM Assets配置受以下支持：
-* AEM 6.5.4.0及更高版本
-* AEM 6.4.8.0及更高版本
-* AEM 6.3.3.8及更高版本
+根据您的AEM版本以及您是首次配置还是升级现有配置，配置带有Brand Portal的AEM资产的步骤有所不同：
+
+<!--| **AEM Version** |**New Configuration** |**Upgrade Configuration** |
+|---|---|---|
+| **AEM 6.5 (6.5.4.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-65.md) |[Upgrade configuration](../using/brand-portal-configure-integration-65.md#upgrade-integration-65) | 
+| **AEM 6.4 (6.4.8.0 and above)** |[Create configuration](../using/brand-portal-configure-integration-64.md) |[Upgrade configuration](../using/brand-portal-configure-integration-64.md#upgrade-integration-64) | 
+| **AEM 6.3 (6.3.3.8 and above)** |[Create configuration](../using/brand-portal-configure-integration-63.md) |[Upgrade configuration](../using/brand-portal-configure-integration-63.md#upgrade-integration-63) | 
+| **AEM 6.2** |Contact Support |Contact Support | 
+-->
 
 
->[!NOTE]
->
->从2020年4月6日起，不再支持通过旧版OAuth进行配置，并将其转移到Adobe I/O。
->
->如果不删除或修改配置设置，则现有配置将继续工作。
+<!-- AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
+* AEM 6.5.4.0 and above
+* AEM 6.4.8.0 and above
+* AEM 6.3.3.8 and above -->
+
+| **AEM 版本** | **新配置** | **升级配置** |
+|---|---|---|
+| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#Upgradeconfiguration) |
+| **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/in/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM 6.2** | 联系支持 | 联系支持 |
 
 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
 
@@ -181,13 +190,13 @@ Brand Portal 6.4.3版本侧重于— 除了在Brand Portal访问URL中的租户I
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Dynamic media视频再现支持
+### Dynamic Media视频再现支持
 
-AEM作者实例处于Dynamic media混合模式的用户除了可以预览和下载原始视频文件外，还可以预览和下载Dynamic media再现。
+AEM作者实例处于Dynamic Media混合模式的用户除了可以预览和下载原始视频文件外，还可以预览和下载Dynamic Media再现。
 
 要允许预览和下载特定租户帐户上的动态媒体演绎版，管理员需要从管理工具面板中在视频配置中指定 **Dynamic Media Configuration****** (视频服务URL(DM-Gateway URL)和注册ID来获取动态视频)。
 
-**可以在**&#x200B;以下位置预览Dynamic media视频的用例：
+**可以在**&#x200B;以下位置预览Dynamic Media视频的用例：
 
 * 资产详细信息页面
 * 资产的卡片视图
@@ -249,15 +258,15 @@ AEM Brand门户允许客人访问门户。 客人用户不需要凭据即可进�
 
 ### 加速下载
 
-Brand Portal用户可以利用基于IBM Aspera connect的快速下载，将下载速度提高25倍，并享受无缝下载体验，无论他们位于全球哪个位置。 要从Brand Portal或共享链接更快地下载资产，用户需要在下载对话框中选择“启用下载加速 **** ”选项，前提是组织中启用了下载加速。
+Brand Portal用户可以利用基于IBM Aspera Connect的快速下载，将下载速度提高25倍，并享受无缝下载体验，无论他们位于全球哪个位置。 要从Brand Portal或共享链接更快地下载资产，用户需要在下载对话框中选择“启用下载加速 **** ”选项，前提是组织中启用了下载加速。
 
 ![](assets/donload-assets-dialog-2.png)
 
-要为组织启用基于IBM Aspera的加速下载，管理员可从管理工具面板的“常规设置”中启用“启用下载加速 **”选项(默** 认情况下为禁用状态) [](brand-portal-general-configuration.md#allow-download-acceleration) 。 要进一步了解从Brand Portal和共享链接更快下载资产文件的先决条件和疑难解答步骤，请参阅 [指南以加速从Brand Portal下载](../using/accelerated-download.md#main-pars-header)。
+要为组织启用基于IBM Aspera的加速下载，管理员可从管理工具面板的“常规设置”中启用“启用下载加速 **”选项(默** 认情况下为禁用 [](brand-portal-general-configuration.md#allow-download-acceleration) )。 要进一步了解从Brand Portal和共享链接更快下载资产文件的先决条件和疑难解答步骤，请参阅 [指南以加速从Brand Portal下载](../using/accelerated-download.md#main-pars-header)。
 
 ### 用户登录报告
 
-新的报告已引入，用于跟踪用户登录情况。 “用 **户登录** ”报告有助于组织审核和检查已委派的管理员以及品牌门户的其他用户。
+新的报告已引入，用于跟踪用户登录情况。 “用 **户登录** ”报告有助于组织审核和检查已委派管理员和品牌门户的其他用户。
 
 报告从Brand Portal 6.4.2部署到生成报告之前，会记录每个用户的显示姓名、电子邮件ID、角色（管理员、查看器、编辑器、客人）、用户组、上次登录、活动状态和登录计数。 管理员可以将报告导出为。csv。 除了其他报告，“用户登录”报告还使组织能够更密切地监控用户与已批准品牌资源的交互情况，从而确保符合公司合规办公室的要求。
 
@@ -265,7 +274,7 @@ Brand Portal用户可以利用基于IBM Aspera connect的快速下载，将下�
 
 ### 访问原始演绎版
 
-管理员可以限制用户访问原始图像文件(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-probatle-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-icon、image/photoshop、.psoshop)，并授予低分辨率访问权限再现，它们从Brand Portal或共享链接下载。 此访问权限可以在用户组级别控制，该权限位于管理工具面板中“用户角色”页面的“组”选项卡中。
+管理员可以限制用户访问原始图像文件(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-probatle-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-icon、image/photoshop、.psoshop、image/vnd.adobe.photoshop)，并授予低分辨率访问权限再现，它们从Brand Portal或共享链接下载。 此访问权限可以在用户组级别控制，该权限位于管理工具面板中“用户角色”页面的“组”选项卡中。
 
 ![](assets/access-original-rend-1.png)
 
@@ -419,7 +428,7 @@ Brand Portal 6.3.2包含面向热门客户请求的新增和增强功能以及�
 
 ### Request access to Brand Portal {#request-access-to-brand-portal}
 
-用户现在可以使用Brand Portal登录屏幕上提供的 **新的需要访问** ，请求访问Brand Portal。
+用户现在可以使用Brand Portal登录屏幕上提供的 **新需求访问** ，请求访问Brand Portal。
 
 ![](assets/bplogin_request_access.png)
 
