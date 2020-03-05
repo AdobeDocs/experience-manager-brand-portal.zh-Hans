@@ -1,50 +1,49 @@
 ---
-title: AEM Brand Portal用户指南
-seo-title: AEM Brand Portal用户指南
-description: AEM Brand Portal用户指南
-seo-description: 介绍如何使用Brand Portal
+title: AEM Brand Portal 用户指南
+seo-title: AEM Brand Portal 用户指南
+description: AEM Brand Portal 用户指南
+seo-description: 介绍如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
 
 ---
 
 
 # 简介
 
-Brand Portal通过将获准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，帮助组织满足其营销需求。
+Brand Portal 可以将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而帮助组织满足其营销需求。
 
-缺乏安全的资产共享解决方案可能导致：
+缺乏安全保障的资产共享解决方案可能导致：
 
 * 通过电子邮件或云手动共享资产
 * 品牌合规性问题
 * 缺乏对资产使用情况的控制
 * 营销活动和产品发布的延迟
-* 跨地理位置和组织复制内容
-* 在发行前对资产进行无保护存储
+* 在不同地理位置和组织之间照搬内容
+* 在发行前对资产的存储没有安全保障
 
-借助Brand Portal，组织机构可以确保品牌合规性，方法是使营销人员能够与渠道合作伙伴和内部业务用户协作，快速创建、管理最新的设计准则、徽标、营销活动和产品资产并将其交付给利益相关方。
-Brand Portal是基于云的SAAS产品。 它可作为Adobe Experience Manager资产产品（内部部署或托管服务）的附加组件提供。
+借助 Brand Portal，营销人员能够与渠道合作伙伴和内部业务用户协作，快速创建、管理最新的设计准则、徽标、营销活动和产品资产并将其交付给利益相关方，从而使公司和机构可以确保品牌的合规性。Brand Portal 是基于云的 SAAS 产品。它可作为 Adobe Experience Manager Assets 产品的一种扩展工具使用（可以内部部署，也可以作为受控的服务）。
 
-Brand Portal解决方案工作流程如下图所示。
+下图阐述了 Brand Portal 解决方案的工作流。
 
 ![](assets/BPWorkflow1.png)
 
-## Adobe Experience Manager Brand Portal用户指南
+## Adobe Experience Manager Brand Portal 用户指南
 
-此用户指南记录了Brand Portal产品和关键工作流程的洞察。 使用左边栏浏览各种功能并向下展开以了解不同角色如何与门户交互。
+本用户指南文档提供了对 Brand Portal 产品和关键工作流的解释与说明。使用左边栏可浏览各种功能，并深入了解不同的角色如何来使用 Brand Portal。
 
 ### 另请参阅
 
 | 用户指南 | 描述 |
 |--- |---|
-| [新增功能](whats-new.md) | Brand Portal中在先前版本中更改了哪些产品和最新产品。 |
-| [发行说明](brand-portal-release-notes.md) | 当前版本中的增强功能、已修复的关键问题和已知问题。 |
-| [配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | 如何将Brand Portal与AEM资产复制到发布资产。 |
-| [并行发布中的问题疑难解答](troubleshoot-parallel-publishing.md) | 对Brand Portal和AEM资产之间的复制进行疑难解答。 |
-| [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal中支持的文件格式，用于预览和下载。 |
-| [将资产发布到Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、集合、链接、预设、架构、彩块化和标记发布到Brand Portal。 |
+| [新增功能](whats-new.md) | Brand Portal 相较于之前发布的版本有哪些变化？最新的功能是什么？ |
+| [发行说明](brand-portal-release-notes.md) | 做出的改进、已修复的关键问题以及当前版本中的已知问题。 |
+| [使用Brand Portal配置AEM资产](../using/configure-aem-assets-with-brand-portal.md) | 如何复制 Brand Portal 与 AEM Assets 以发布资产。 |
+| [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 对 Brand Portal 和 AEM Assets 之间的复制问题进行故障诊断。 |
+| [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
+| [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
 | [Brand Portal中的资产来源补充](brand-portal-asset-sourcing.md) | 如何在AEM资产中配置资产来源补充，在Brand Portal中上传资产，然后将贡献文件夹发布回AEM资产。 |
 
-### 实用资源
+### 有用资源
 
 * [了解Brand Portal与AEM资产](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
