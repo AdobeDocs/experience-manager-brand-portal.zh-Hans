@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -20,7 +20,7 @@ AEM管理员可以从 **AEM作者实例中配置资产来源补充** 。 管理�
 
 >[!NOTE]
 >
->在开始配置之前，请确保您的AEM资产实例已与Brand Portal集成。 请参阅配 [置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)。
+>在开始配置之前，请确保AEM资产实例已配置Brand Portal。 请参阅， [配置AEM资产与Brand Portal](../using/configure-aem-assets-with-brand-portal.md)。
 
 
 以下视频演示了如何在AEM作者实例上配置资产来源补充：
@@ -29,12 +29,12 @@ AEM管理员可以从 **AEM作者实例中配置资产来源补充** 。 管理�
 
 ## 启用资产来源补充 {#enable-asset-sourcing}
 
-AEM管理员可以从AEM web控制台配置（即配置管理器）中启用资产来源补充。
+AEM管理员可以从AEM Web控制台配置（即配置管理器）中启用资产来源补充。
 
 **要启用资产来源补充，请执行以下操作：**
 1. 登录AEM作者实例并打开配置管理器默认URL:http://本地主机：4502/system/console/configMgr
 1. 使用关键字“资 **产来源补充** ”搜索以查 **[!UICONTROL 找“资产来源补充”功能标志配置]**
-1. 单击 **[!UICONTROL 资产来源补充功能标记配置]**，以打开配置窗口
+1. 单击 **[!UICONTROL 资产来源补充功能标记配置]** ，以打开配置窗口
 1. 启用复 **[!UICONTROL 选框feature.flag.active.status]**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -52,10 +52,12 @@ AEM管理员可以上传Brand Portal用户配置(.csv)文件，其中包含AEM�
 
 **要上传Brand Portal用户列表，请执行以下操作：**
 1. 登录AEM作者实例默认URL:http://本地主机：4502/aem/start.html
-1. 从“工 **具** ”面板 ![](assets/tools.png) ，导航到“资产”>“Brand Portal用 **[!UICONTROL 户”]**   ![](assets/upload-user-list1.png)
+1. 从“工 **具** ”面板 ![](assets/tools.png) ，导航到“资产”>“Brand Portal用 **[!UICONTROL 户”]**
+   ![](assets/upload-user-list1.png)
 1. Brand Portal上传参与者窗口将打开。
 从您的本地计算机浏览并上 **传包含活动Brand Portal用户列表的配置(** .csv)文件。
-1. 单击&#x200B;**[!UICONTROL 保存]**。   ![](assets/upload-user-list2.png)
+1. 单击&#x200B;**[!UICONTROL 保存]**。
+   ![](assets/upload-user-list2.png)
 
 
 管理员可以在配置贡献文件夹时从此用户列表提供对特定用户／组的访问。
