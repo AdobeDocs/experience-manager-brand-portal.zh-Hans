@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
+source-git-commit: eba4ee138d4f594c4c446a3cc8941f04fd46902c
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
    + [了解Brand Portal与AEM资产](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [在 Brand Portal 上浏览资产](using/browse-assets-brand-portal.md)
 + 从 AEM Assets 发布到 Brand Portal {#publish}
-   + [配置AEM资产与Brand Portal的集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [使用Brand Portal配置AEM资产](using/configure-aem-assets-with-brand-portal.md)
    + [将集合发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
    + [将文件夹发布到Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [对并行发布到 Brand Portal 时出现的问题进行故障诊断](using/troubleshoot-parallel-publishing.md)
