@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 58110f1635a9e74340d4a8901e86c0c6a99cf4e2
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -20,13 +20,17 @@ Adobe Experience Manager(AEM)资产通过Adobe I/O配置了Brand Portal,Adobe I/
 
 >[!NOTE]
 >
->以前，Brand Portal是通过旧版OAuth网关在经典UI中配置的，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。
+>以前，Brand Portal是通过旧版OAuth网关在经典UI中配置的，该网关使用JWT令牌交换获得IMS访问令牌进行授权。
 >
 >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并已更改为通过Adobe I/O进行配置。
+
+
+>[!TIP]
 >
->如果您是现有Brand Portal用户，并且在旧版OAuth网关上配置，建议删除现有配置并在Adobe I/O上创建新配置。
+>***仅适用于现有客户***
 >
->但是，如果您不修改配置，则现有配置将继续工作。
+>建议继续使用现有的传统OAuth网关配置。 如果您遇到旧版OAuth网关配置问题，请删除现有配置并通过Adobe I/O创建新配置。
+
 
 根据您的AEM版本以及您是首次配置还是升级现有配置，配置带有Brand Portal的AEM资产的步骤有所不同：
 
