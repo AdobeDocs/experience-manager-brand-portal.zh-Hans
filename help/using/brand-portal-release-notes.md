@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
+source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
 
 ---
 
@@ -48,6 +48,13 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
    >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并已更改为通过Adobe I/O进行配置。
 
 
+   >[!TIP]
+   >
+   >***仅限现有客户***
+   >
+   >建议继续使用现有的传统OAuth网关配置。 如果您遇到旧版OAuth网关配置问题，请删除现有配置并通过Adobe I/O创建新配置。
+
+
 有关详细信息，请参 [阅配置AEM资产与Brand Portal](configure-aem-assets-with-brand-portal.md)
 
 
@@ -55,11 +62,11 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 此版本包括对以下关键问题的修复：
 
-* 元数据架构下拉值在资产属性中不可见。
+* 元数据模式下拉值在资产属性中不可见。
 
 * 元数据子架构不显示基于资产属性中的mime类型的选项卡。
 
-* 取消发布元数据架构会填充错误消息，尽管该架构已在后端删除。
+* 取消发布元数据模式会填充错误消息，但模式会在后端删除。
 
 * 预览图像不显示已发布的资产。
 
@@ -72,6 +79,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 ### 已知问题 {#known-issues}
 
 此版本包含以下已知问题：
+
+* 在升级到Adobe I/O后，Brand Portal用户无法将贡献文件夹资产发布到AEM资产。
 
 * 下载资产时，“排除系统演绎版”选项无法正常工作。
 
