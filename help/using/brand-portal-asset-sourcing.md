@@ -18,16 +18,16 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
 
 # 资产来源补充概述 {#overview-asset-sourcing-in-bp}
 
-**资产来源补充****** (Asset Sourcing)允许AEM用户（管理员／非管理员用户）使用其他“资产贡献”属性创建新文件夹，从而确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流在新创建的 **Contribution** （贡献）文件夹内创建另外两个子文件夹，名 **为** SHARED **（共享）和NEW（新建）** 。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产的简介上传到 **SHARED** 文件夹，以确保BP用户拥有他们需要的参考信息，从而定义了要求。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件 **夹的访问权** 。 用户完成在 **NEW** 文件夹中添加内容后，他们可以将贡献文件夹发布回AEM创作环境。 请注意，完成导入并反映AEM资产中新发布的内容可能需要几分钟时间。
+**资产来源补充****** (Asset Sourcing)允许AEM用户（管理员／非管理员用户）使用其他“资产贡献”属性创建新文件夹，从而确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，名为 **SHARED**&#x200B;和NEW **** 。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产的简介上传到 **SHARED** 文件夹，以确保BP用户拥有他们需要的参考信息，从而定义了要求。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件 **夹的访问权** 。 用户完成在 **NEW** 文件夹中添加内容后，他们可以将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM资产中新发布的内容可能需要几分钟时间。
 
-此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹查看、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。
+此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹视图、搜索和下载资产。 管理员还可以进一步共享贡献文件夹、修改属性以及向集合添加资产。
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -40,6 +40,18 @@ source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
 >联系Adobe支持部门，将您的AEM实例升级到最新支持的AEM版本。
 
 ![Brand Portal资产来源补充](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>如果您是AEM 6.5.4用户，“资产来源补充”功能将继续处理“旧版OAuth集成”。
+>
+>但是，在AEM 6.5.4上升级到Adobe I/O后，Brand Portal用户无法将贡献文件夹资产发布到AEM资产。
+>
+>此问题将在下一个Service Pack AEM 6.5.5中得到修复。
+>
+>对于AEM 6.5.4上的即时修复，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在创作实例上安装。
+
 
 ## 前提条件 {#prerequisites}
 
