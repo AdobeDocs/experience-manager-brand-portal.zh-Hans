@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
    >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并已更改为通过Adobe I/O进行配置。
 
 
-   >[!TIP]
-   >
-   >***仅限现有客户***
-   >
-   >建议继续使用现有的传统OAuth网关配置。 如果您遇到旧版OAuth网关配置问题，请删除现有配置并通过Adobe I/O创建新配置。
+>[!TIP]
+>
+>***仅适用于现有客户***
+>
+>建议继续使用现有的传统OAuth网关配置。 如果您在旧版OAuth网关配置中遇到问题，请删除现有配置并通过Adobe I/O创建新配置。
 
 
 有关详细信息，请参 [阅配置AEM资产与Brand Portal](configure-aem-assets-with-brand-portal.md)
-
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 此版本包含以下已知问题：
 
-* 在升级到Adobe I/O后，Brand Portal用户无法将贡献文件夹资产发布到AEM资产。
+* 在AEM 6.5.4上升级到Adobe I/O后，Brand Portal用户无法将贡献文件夹资产发布到AEM资产。
+
+   此问题将在下一个Service Pack 6.5.5中修复。
+
+   对于AEM 6.5.4上的即时修复，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在创作实例上安装。
 
 * 下载资产时，“排除系统演绎版”选项无法正常工作。
+
 
 ## 语言 {#languages}
 
