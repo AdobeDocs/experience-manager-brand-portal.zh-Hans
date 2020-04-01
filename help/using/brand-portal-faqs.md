@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets Brand Portal 6.4.5版本或更早版本时可能遇到的查询和问题。
 
 
+## Brand Portal 6.4.6常见问题解答 {#faqs-bp646}
+
+**Ques. 现有的旧版OAuth端点(`https://legacy-oauth.cloud.adobe.io/login`)无效。 可能的原因是什么？**
+
+**安。** 旧版OAuth配置已弃用。 您必须将AEM Assets作者实例升级到最新的Service Pack，然后使用Adobe IO对其进行配置。 有关详 [细信息，请参阅配置AEM资产与Brand Portal](configure-aem-assets-with-brand-portal.md) 。 但是，要使旧版OAuth配置在升级之前正常工作，请将旧版OAuth端点更新为 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+
+**Ques. 升级到Adobe I/O后，我无法将贡献文件夹的资产从Brand Portal发布到AEM资产。我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
+
+**安。** 是，使用Adobe I/O将分发文件夹的资产发布到AEM 6.5.4上的AEM资产时存在已知问题。此问题将在下一个Service Pack AEM 6.5.5中得到修复。
+
+要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并安装在AEM作者实例上。
+
+
+## Brand Portal 6.4.5常见问题解答 {#faqs-bp645}
 
 **Ques. Brand Portal 6.4.5版本中的主要更改是什么？**
 
@@ -35,7 +49,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 **Ques. 我何时将转向新版本的Brand Portal?**
 
-**安。** Brand Portal 6.4.5已于2019年10月发布到生产中。 下一个Brand Portal版本预计将在2020年第3季度发布。
+**安。** Brand Portal 6.4.5已于2019年10月发布至生产。 下一个Brand Portal版本预计将在2020年第3季度发布。
 对于更新和版本更改，建议跟踪 [Brand Portal的发行说明](brand-portal-release-notes.md)[和新增功能](whats-new.md)。
 
 
@@ -74,7 +88,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件�
 
 **Ques. 资产要求w.r.t的贡献是什么？**
 
-**安。** 附加到 **** Contribution **文件夹的简要文档和上传到** SHARED **** 文件夹中的参考内容（可重用资产）可帮助Brand Portal用户了解作为参与者的贡献和期望的需求，并统称为资产要求。
+**安。** 附加到 **** Contribution **文件夹的简短文档以及上传到** SHARED **** 文件夹中的参考内容（可重用资产）可帮助Brand Portal用户了解作为参与者的贡献和期望的需求，并统称为资产要求。
 
 
 
@@ -90,7 +104,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件�
 
 >[!NOTE]
 >
->如果您不是现有Brand Portal用户，请请求AEM管理员在AEM管理控制台中创建您的用户，并将您的配置文件添加到Brand Portal用户列表中的用户配置文件。 请参阅添 [加Brand Portal用户](brand-portal-configure-asset-sourcing.md)。
+>如果您不是现有Brand Portal用户，请请求AEM管理员在AEM管理控制台中创建您的用户，并将您的用户档案添加到Brand Portal用户列表中的用户配置文件。 请参阅添 [加Brand Portal用户](brand-portal-configure-asset-sourcing.md)。
 
 
 
@@ -100,7 +114,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件�
 
 
 
-**Ques. “资产贡献”用户下拉列表中填充的用户（Brand Portal参与者）列表是什么？**
+**Ques. 什么内容会在“资产贡献”用户下拉列表中填充用户（Brand Portal参与者）的列表?**
 
 **安。** 下拉列表中的用户将从AEM中上传的Brand Portal用户配置(.csv)文件中填充。
 
@@ -130,7 +144,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件�
 
 
 
-**Ques. 我看不到品牌门户用户上传到NEW文件夹的资产的缩略图／预览？**
+**Ques. 我看不到由Brand Portal用户上传到NEW文件夹的资产的缩略图/预览?**
 
 **安。** 它是按照设计的，coz没有在Brand Portal端运行的工作流。
 
@@ -150,7 +164,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传 **NEW** 文件�
 
 >[!NOTE]
 >
->发布时间表是暂定的，并且可能会更改。 请联系您的Adobe客户经理或客户支持以获取更新的发行计划。
+>释放计划是试探性的，可能会发生变化。 请联系您的Adobe客户经理或客户支持以获取更新的发行计划。
 
 
 
