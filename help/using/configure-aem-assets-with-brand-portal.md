@@ -5,20 +5,25 @@ description: 了解如何通过Brand Portal配置AEM资产。
 seo-description: 了解如何通过Brand Portal配置AEM资产。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: 75d69f85a4178b78eba15a13f865a602e73d3a88
 
 ---
 
 
 # 使用Brand Portal配置AEM资产 {#configure-integration}
 
-Adobe Experience Manager(AEM)资产通过Adobe I/O配置了Brand Portal,Adobe I/O可获取IMS令牌以授权您的Brand Portal租户。 该配置为Brand Portal用户启用了资产发布、资产分发和资产贡献功能。
+Adobe Experience Manager(AEM)资产通过Adobe I/O配置了Brand Portal,Adobe I/O可获取IMS令牌以授权您的Brand Portal租户。 AEM Assets云服务、AEM Assets 6.3及更高版本现在支持Brand Portal。
+
+通过配置AEM资产可以与Brand Portal一起提供服务，您可以与Brand Portal用户一起发布和分发资产。 然而，在AEM 6.3（及更高版本）上配置Brand Portal可为Brand Portal用户启用资产发布、资产分发和资产贡献功能。
 
 >[!NOTE]
+>
+>***对于AEM Assets 6.3及更高版本***
 >
 >以前，Brand Portal是通过旧版OAuth网关在经典UI中配置的，该网关使用JWT令牌交换获得IMS访问令牌进行授权。
 >
@@ -36,6 +41,7 @@ Adobe Experience Manager(AEM)资产通过Adobe I/O配置了Brand Portal,Adobe I/
 
 | **AEM 版本** | **新配置** | **升级配置** |
 |---|---|---|
+| **AEM Assets 云服务** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
