@@ -5,11 +5,12 @@ description: 深入了解Adobe Experience Manager Assets Brand Portal 6.4.6版�
 seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 6.4.6版本中的增强功能、已修复的关键问题和已知问题。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -37,11 +38,14 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 * 客人登录Brand Portal的Captcha。 有关详细 [信息，请参阅Brand Portal客人访问](../using/guest-access.md) 。
 
+* AEM Assets云服务现在支持Brand Portal。 您可以配置AEM资产可以与Brand Portal一起提供服务，以便与Brand Portal用户共享和分发资产。
+有关详细信息，请参 [阅使用Brand Portal配置AEM Assets云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
+
 ### 增强功能 {#enhancements-646}
 
 此版本的Brand Portal包括以下增强功能：
 
-* AEM资产现在通过Adobe I/O配置了Brand Portal，后者为Brand Portal租户购买IMS令牌以授权。
+* 在AEM 6.3及更高版本中，AEM资产与Brand Portal之间的授权渠道已更改。 AEM资产现在通过Adobe I/O配置了Brand Portal，后者为Brand Portal租户购买IMS令牌以授权。
 
    >[!NOTE]
    >
@@ -109,7 +113,7 @@ Brand Portal用户界面提供以下语言版本：
 ## 链接 {#links}
 
 * [adobe.com 上的 Adobe Experience Manager 产品页面](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal文档](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Assets Brand Portal文档](https://helpx.adobe.com/cn/experience-manager/brand-portal/user-guide.html)
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
