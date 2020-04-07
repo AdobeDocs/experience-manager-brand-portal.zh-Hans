@@ -5,18 +5,19 @@ description: 深入了解在AEM资产中配置资产来源补充功能。
 seo-description: 深入了解在AEM资产中配置资产来源补充功能。
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
 
 # 配置资产来源补充 {#configure-asset-sourcing}
 
-AEM管理员可以从 **AEM作者实例中配置资产来源补充** 。 管理员从 **AEM Web Console配置中启用资产来源补充功能标志配置** ，并在 **AEM资产中上传活动的Brand Portal用户列表**。
+AEM管理员可以从 **AEM作者实例中配置资产来源补充** 。 管理员从 **AEM Web Console配置中启用资产来源补充功能标志配置** ，并在 **AEM Assets中上传活动的Brand Portal用户列表**。
 
 >[!NOTE]
 >
@@ -42,7 +43,7 @@ AEM管理员可以从AEM Web控制台配置（即配置管理器）中启用资�
 
 ## 上传Brand Portal用户列表 {#upload-bp-user-list}
 
-AEM管理员可以上传Brand Portal用户配置(.csv)文件，其中包含AEM资产中的活动Brand Portal用户列表。 贡献文件夹只能与用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
+AEM管理员可以上传Brand Portal用户配置(.csv)文件，其中包含AEM资产中处于活动状态的Brand Portal用户列表。 贡献文件夹只能与用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
 
 >[!NOTE]
 >
@@ -60,6 +61,6 @@ AEM管理员可以上传Brand Portal用户配置(.csv)文件，其中包含AEM�
    ![](assets/upload-user-list2.png)
 
 
-管理员可以在配置贡献文件夹时从此用户列表提供对特定用户／组的访问。
+管理员可以在配置贡献文件夹时，通过此用户列表提供对特定用户／组的访问。
 
 有关详细信息，请参阅 [配置贡献文件夹](brand-portal-contribution-folder.md)。
