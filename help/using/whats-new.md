@@ -4,13 +4,13 @@ seo-title: AEM Assets Brand Portal 的新增功能
 description: 了解6.4.6的新增功能和增强功能。
 seo-description: 了解6.4.6的新增功能和增强功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
-contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1e06815c5c26d07834ebd62f3b2bc43489ce79d3
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 6.4.6中的更改 {#what-changed-in-646}
 
-Brand Portal 6.4.6是一个增强版本，其中AEM资产与Brand Portal之间的授权渠道已更改。 以前，Brand Portal是通过旧版OAuth网关在经典UI中配置的，该网关使用JWT令牌交换获得IMS访问令牌进行授权。 AEM资产现在通过Adobe I/O配置了Brand Portal，后者为Brand Portal租户购买IMS令牌以授权。
+在Brand Portal 6.4.6中，AEM资产与Brand Portal之间的授权渠道已更改。 AEM Assets云服务、AEM Assets 6.3及更高版本现在支持Brand Portal。 在AEM Assets 6.3及更高版本中，Brand Portal先前已通过旧版OAuth网关在经典UI中配置，该网关使用JWT令牌交换获取IMS访问令牌进行授权。 AEM资产现在通过Adobe I/O配置了Brand Portal，后者为Brand Portal租户购买IMS令牌以授权。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -55,6 +55,7 @@ Brand Portal 6.4.6是一个增强版本，其中AEM资产与Brand Portal之间�
 
 | **AEM 版本** | **新配置** | **升级配置** |
 |---|---|---|
+| **AEM Assets 云服务** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -77,7 +78,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 ### Brand Portal中的资产来源补充 {#asset-sourcing-in-bp}
 
-资产来源补充允许AEM用户（管理员／非管理员用户）使用其他“资产贡献 **** ”属性创建新文件夹，从而确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流会在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，称为NEW和SHARED。
+资产来源补充允许AEM用户（管理员／非管理员用户）使用其他“资产贡献 **** ”属性创建新文件夹，确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流会在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，称为NEW和SHARED。
 
 然后，AEM用户定义了此要求，方法是将应添加到贡献文件夹的资产类型的简介以及将基准资产 [上传到](brand-portal-configure-contribution-folder-properties.md) SHARED [文件夹](brand-portal-upload-baseline-assets.md)**** ，以确保BP用户获得他们需要的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件 **夹的访问权** 。
 
@@ -272,7 +273,7 @@ Brand Portal用户可以利用基于IBM Aspera Connect的快速下载，将下�
 
 ### 用户登录报告
 
-新的报告已引入，用于跟踪用户登录情况。 “用 **户登录** ”报告有助于组织审核和检查已委派的管理员以及品牌门户的其他用户。
+新的报告已引入，用于跟踪用户登录情况。 “用 **户登录** ”报告有助于组织审核和检查已委派管理员和品牌门户的其他用户。
 
 报告从Brand Portal 6.4.2部署到生成报告时，将记录每个用户的显示姓名、电子邮件ID、角色（管理员、查看器、编辑器、客人）、用户组、上次登录、活动状态和登录计数。 管理员可以将报告导出为。csv。 除了其他报告，“用户登录”报告还使组织能够更密切地监控用户与已批准品牌资源的交互情况，从而确保符合公司合规办公室的要求。
 
@@ -353,7 +354,7 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新功能和�
 
 ![](assets/contenttree-2.png)
 
-* 引入了新的键盘快捷键， _例如_ (p)用于导航到属性页面， _(e)用于编辑，_ 和(ctrl+c) __ 用于复制操作。
+* 引入了新的键盘快捷键， _例如_ (p)用于导航到属性页面， _(e)用于编辑，_ (ctrl+c) __ 用于复制操作。
 * 改进了卡和列表视图中用于浏览大量资源的滚动、延迟加载体验。
 * 增强的卡视图，支持基于视图设置的不同大小的卡。
 
@@ -531,7 +532,7 @@ Brand Portal 6.3.1包含面向将Brand Portal与AEM协调的新增和增强功�
 
 ### 增强的下载体验 {#enhanced-downloading-experience}
 
-下载嵌套文件夹后，您可以保留原始文件夹层次结构。 嵌套文件夹内的资源可以下载到单个文件夹中，而不是可以下载到单独的文件夹中。
+下载嵌套文件夹后，您可以保留原始文件夹层次结构。 嵌套文件夹内的资源可下载到单个文件夹中，而不是可下载到单独的文件夹中。
 
 ### 改进的性能 {#improved-performance}
 
