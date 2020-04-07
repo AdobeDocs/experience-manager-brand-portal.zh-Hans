@@ -5,11 +5,12 @@ description: 深入了解Adobe Experience Manager Assets Brand Portal中的常�
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 **Ques. 升级到Adobe I/O后，我无法将贡献文件夹的资产从Brand Portal发布到AEM资产。我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
 
-**安。** 是，使用Adobe I/O将分发文件夹的资产发布到AEM 6.5.4上的AEM资产时存在已知问题。此问题将在下一个Service Pack AEM 6.5.5中得到修复。
+**安。** 是，使用Adobe I/O将分发文件夹的资产发布到AEM 6.5.4上的AEM资产时存在已知问题。此问题将在下一个服务包中修复。
 
 要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并安装在AEM作者实例上。
 
