@@ -4,12 +4,13 @@ seo-title: 将贡献文件夹发布到Brand Portal
 description: 了解如何在Brand Portal 6.4.5中将贡献文件夹从AEM资产发布到Brand Portal。
 seo-description: 了解如何在Brand Portal 6.4.5中将贡献文件夹从AEM资产发布到Brand Portal。
 uuid: null
-content-type: 引用
+content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,8 +23,8 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 1. 登录AEM作者实例。
 默认URL:http://本地主机：4502/aem/start.html
-1. 导航到 **[!UICONTROL 资产&gt;文件]** ，然后找到要发布到Brand Portal的贡献文件夹。
-1. 选择贡献文件夹，然后单 **[!UICONTROL 击“快速发布”&gt;“发布到品牌门户”]**。
+1. 导航到 **[!UICONTROL 资产>文件]** ，然后找到要发布到Brand Portal的贡献文件夹。
+1. 选择贡献文件夹，然后单 **[!UICONTROL 击“快速发布”>“发布到品牌门户”]**。
    ![](assets/publish-contribution-folder-to-bp.png)
 贡献文件夹发布到Brand Portal后，您会收到成功消息。
 
