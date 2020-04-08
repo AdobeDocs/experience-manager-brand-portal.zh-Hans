@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 * 客人登录Brand Portal的Captcha。 有关详细 [信息，请参阅Brand Portal客人访问](../using/guest-access.md) 。
 
 * AEM Assets云服务现在支持Brand Portal。 您可以配置AEM资产可以与Brand Portal一起提供服务，以便与Brand Portal用户共享和分发资产。
-有关详细信息，请参 [阅使用Brand Portal配置AEM Assets云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
+有关详细信息，请参 [阅使用Brand Portal配置AEM Assets云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)。
 
 ### 增强功能 {#enhancements-646}
 
