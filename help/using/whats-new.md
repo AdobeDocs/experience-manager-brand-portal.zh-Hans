@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: dc10879caf91b81deda08682548143c60500fd1b
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 | **AEM 版本** | **新配置** | **升级配置** |
 |---|---|---|
-| **AEM Assets 云服务** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM Assets 云服务** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 | **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
@@ -78,7 +78,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 ### Brand Portal中的资产来源补充 {#asset-sourcing-in-bp}
 
-资产来源补充允许AEM用户（管理员／非管理员用户）使用其他“资产贡献 **** ”属性创建新文件夹，确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流会在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，称为NEW和SHARED。
+资产来源补充允许AEM用户（管理员／非管理员用户）使用其他“资产贡献 **** ”属性创建新文件夹，从而确保创建的新文件夹可由Brand Portal用户打开以提交资产。 这会自动触发一个工作流，该工作流会在新创建的 **Contribution** 文件夹内创建另外两个子文件夹，称为NEW和SHARED。
 
 然后，AEM用户定义了此要求，方法是将应添加到贡献文件夹的资产类型的简介以及将基准资产 [上传到](brand-portal-configure-contribution-folder-properties.md) SHARED [文件夹](brand-portal-upload-baseline-assets.md)**** ，以确保BP用户获得他们需要的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件 **夹的访问权** 。
 
@@ -532,7 +532,7 @@ Brand Portal 6.3.1包含面向将Brand Portal与AEM协调的新增和增强功�
 
 ### 增强的下载体验 {#enhanced-downloading-experience}
 
-下载嵌套文件夹后，您可以保留原始文件夹层次结构。 嵌套文件夹内的资源可下载到单个文件夹中，而不是可下载到单独的文件夹中。
+下载嵌套文件夹后，您可以保留原始文件夹层次结构。 嵌套文件夹内的资源可以下载到单个文件夹中，而不是可以下载到单独的文件夹中。
 
 ### 改进的性能 {#improved-performance}
 
