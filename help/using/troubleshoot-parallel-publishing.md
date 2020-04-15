@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal已与AEM Assets配置为从AEM Assets作者实例无缝地摄取（或发布）已批准的品牌资产。 配 [置完成后](../using/configure-aem-assets-with-brand-portal.md),AEM作者将使用复制代理将选定的资产复制到Brand Portal云服务中，以便Brand Portal用户进行批准的使用。 使用多个复制代理AEM 6.2 SP1-CFP5]、AEM CFP 6.3.0.2以及更高版本，以实现高速并行发布。
+Brand Portal已与AEM Assets配置为从AEM Assets作者实例无缝地摄取（或发布）已批准的品牌资产。 配 [置完成后](../using/configure-aem-assets-with-brand-portal.md),AEM作者将使用复制代理将选定的资产复制到Brand Portal云服务中，以便Brand Portal用户进行批准的使用。 使用多个复制代理AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2以及更高版本，以实现高速并行发布。
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Brand Portal已与AEM Assets配置为从AEM Assets作者实例无缝地摄取（
 
 **测试与复制代理的连接**
 
-查看日志，如果在复制日志中发现错误：
+视图日志，如果在复制日志中发现错误：
 
 1. 联系Adobe支持。
 
