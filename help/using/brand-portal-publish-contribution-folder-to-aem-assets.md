@@ -1,8 +1,8 @@
 ---
 title: 发布到AEM资产的贡献文件夹
 seo-title: 发布到AEM资产的贡献文件夹
-description: 了解如何在Brand Portal中将贡献文件夹发布到AEM资产。
-seo-description: 了解如何在Brand Portal中将贡献文件夹发布到AEM资产。
+description: 在Brand Portal中将贡献文件夹发布到AEM资产中，获得相关见解。
+seo-description: 在Brand Portal中将贡献文件夹发布到AEM资产中，获得相关见解。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 Brand Portal用户无需访问AEM作者实例即可将贡献文件夹发布到AEM资产。
 
-确保您已完成资产要求 [并上传](brand-portal-download-asset-requirements.md) NEW文件夹中贡献文件夹内 **新创建的资** 产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)。
+确保您已完成资产要 [求](brand-portal-download-asset-requirements.md) ，并上传贡献文件夹内NEW **文件夹** 中新创建的资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)。
 
 **要发布贡献文件夹，请执行以下操作：**
 
@@ -28,9 +31,9 @@ Brand Portal用户无需访问AEM作者实例即可将贡献文件夹发布到AE
 1. 单击 **[!UICONTROL 发布到AEM]**![](assets/export.png)。
    ![](assets/publish-contribution-folder-to-aem.png)
 
-在发布工作流程的不同阶段，将向Brand Portal和AEM（管理员和用户）发送电子邮件／脉冲通知：
-1. **已排队** -在Brand Portal中发布工作流触发器时，贡献文件夹将从Brand Portal发布到AEM。
-1. **进行中** -当AEM资产开始导入贡献文件夹时。
-1. **完成** -发布操作完成后，贡献文件夹将成功导入AEM资产。
+将在发布工作流程的各个阶段向Brand Portal用户和AEM管理员发送电子邮件／脉冲通知：
+1. **已排队** -当Brand Portal中触发发布工作流时，会从Brand Portal将贡献文件夹发布到AEM资产。
+
+1. **完成** -发布工作流完成后，贡献文件夹会成功导入到AEM资产。
 
 
