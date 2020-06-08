@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 # 资产来源补充概述 {#overview-asset-sourcing-in-bp}
 
-**资产来源** -允许AEM用户（管理员／非管理员用户）使用其他“资产贡献”属性创建新文 **件夹** ，从而确保创建的新文件夹可由Brand Portal用户通过资产提交方式打开。 这会自动触发一个工作流，该工作流会在新创建的Contribution **文件夹内** ，创建另外两个名 **为** SHARED和NEW **** 的子文件夹。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产上传到SHARED文件夹，以确保BP用户获得所需的参考信息，从而定 **义** 此要求。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授 **予对** 贡献文件夹的访问权限。 用户在NEW文件夹中添加完内 **容后** ，即可将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM资产中新发布的内容可能需要几分钟时间。
+**资产来源** -允许AEM用户（管理员／非管理员用户）使用其他“资产贡献”属性创建新文 **件夹** ，从而确保创建的新文件夹可由Brand Portal用户通过资产提交方式打开。 这会自动触发一个工作流，该工作流会在新创建的Contribution **文件夹内** ，创建另外两个名 **为** SHARED和NEW **** 的子文件夹。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产上传到SHARED文件夹，以确保BP用户获得所需的参考信息，从而定 **义** 此要求。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动Brand Portal用户授予对贡 **献文** 件夹的访问权限。 用户在NEW文件夹中添加完内 **容后** ，即可将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM资产中新发布的内容可能需要几分钟时间。
 
 此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹中视图、搜索和下载资产。 此外，管理员还可以进一步共享贡献文件夹、修改属性以及向收藏集添加资产。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >AEM 6.5.2.0及更高版本支持品牌门户中的资产来源补充。
 >
->早期版本（AEM 6.3和AEM 6.4）不支持此功能。
+>AEM Assets云服务及更早版本- AEM 6.3和AEM 6.4不支持此功能。
 >
 >联系Adobe支持，将您的AEM实例升级到最新支持的AEM版本。
 
