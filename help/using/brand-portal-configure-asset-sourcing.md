@@ -10,18 +10,21 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
 
 # 配置资产来源补充 {#configure-asset-sourcing}
 
-AEM管理员可以从 **AEM作者实例中配置资产来源补充** 。 管理员从 **AEM Web Console配置中启用资产来源补充功能标志配置** ，并在 **AEM Assets中上传活动的Brand Portal用户列表**。
+AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理员从AEM Web Console配置中启用资产来源 **补充功能标志配置** ，并在AEM资产中上传活动的Brand Portal **用户列表**。
 
 >[!NOTE]
 >
->在开始配置之前，请确保AEM资产实例已配置Brand Portal。 请参阅， [配置AEM资产与Brand Portal](../using/configure-aem-assets-with-brand-portal.md)。
+>在开始配置之前，请确保AEM资产实例已配置Brand Portal。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 以下视频演示了如何在AEM作者实例上配置资产来源补充：
@@ -30,12 +33,12 @@ AEM管理员可以从 **AEM作者实例中配置资产来源补充** 。 管理�
 
 ## 启用资产来源补充 {#enable-asset-sourcing}
 
-AEM管理员可以从AEM Web控制台配置（即配置管理器）中启用资产来源补充。
+AEM管理员可以从AEM Web控制台配置（又称配置管理器）中启用资产来源补充。
 
 **要启用资产来源补充，请执行以下操作：**
-1. 登录AEM作者实例并打开配置管理器默认URL:http://本地主机：4502/system/console/configMgr
-1. 使用关键字“资 **产来源补充** ”搜索以查 **[!UICONTROL 找“资产来源补充”功能标志配置]**
-1. 单击 **[!UICONTROL 资产来源补充功能标记配置]** ，以打开配置窗口
+1. 登录到AEM作者实例并打开Configuration Manager默认URL: http:// localhost:4502/system/console/configMgr
+1. 使用关键字“资 **产来源补充** ”进行搜 **[!UICONTROL 索以查找资产来源补充功能标志配置]**
+1. 单击 **[!UICONTROL 资产来源补充功能标志]** 配置以打开配置窗口
 1. 启用复 **[!UICONTROL 选框feature.flag.active.status]**
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
@@ -43,24 +46,24 @@ AEM管理员可以从AEM Web控制台配置（即配置管理器）中启用资�
 
 ## 上传Brand Portal用户列表 {#upload-bp-user-list}
 
-AEM管理员可以上传Brand Portal用户配置(.csv)文件，其中包含AEM资产中处于活动状态的Brand Portal用户列表。 贡献文件夹只能与用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
+AEM管理员可以上传包含AEM资产中活动Brand Portal用户列表的Brand Portal用户配置(.csv)文件。 贡献文件夹只能与用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
 
 >[!NOTE]
 >
 >CSV文件的格式与Admin Console支持的批量用户导入格式相同。 电子邮件、名字和姓氏是必填项。
 
-管理员可以在AEM Admin Console中添加新用户，有关详细信 [息，请参阅](brand-portal-adding-users.md) “管理用户”。 在Admin Console中添加用户后，这些用户可以添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
+管理员可以在AEM Admin Console中添加新用户，有关详细信 [息，请参](brand-portal-adding-users.md) 阅管理用户。 在Admin Console中添加用户后，可以将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
 **要上传Brand Portal用户列表，请执行以下操作：**
-1. 登录AEM作者实例默认URL:http://本地主机：4502/aem/start.html
-1. 从“工 **具** ”面板 ![](assets/tools.png) ，导航到“资产”>“Brand Portal用 **[!UICONTROL 户”]**
+1. 登录AEM作者实例默认URL: http://本地主机：4502/aem/start.html
+1. 从“工 **具** ”面板 ![](assets/tools.png) 中，导航到“资产”>“ **[!UICONTROL Brand Portal用户”]**
    ![](assets/upload-user-list1.png)
-1. Brand Portal上传参与者窗口将打开。
-从您的本地计算机浏览并上 **传包含活动Brand Portal用户列表的配置(** .csv)文件。
+1. 将打开“品牌门户上传参与者”窗口。
+从您的本地机器浏览并上 **传包含活动Brand Portal用户列表** 的配置(.csv)文件。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
    ![](assets/upload-user-list2.png)
 
 
-管理员可以在配置贡献文件夹时，通过此用户列表提供对特定用户／组的访问。
+管理员可以在配置贡献文件夹时，从此用户列表提供对特定用户／组的访问。
 
-有关详细信息，请参阅 [配置贡献文件夹](brand-portal-contribution-folder.md)。
+有关详细信息，请参 [阅配置贡献文件夹](brand-portal-contribution-folder.md)。
