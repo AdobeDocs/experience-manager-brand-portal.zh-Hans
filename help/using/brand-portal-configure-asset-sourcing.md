@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c3672d2f8b22a6b430d94b8c300551451231b2bf
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,6 @@ AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理�
 >[!NOTE]
 >
 >在开始配置之前，请确保AEM资产实例已配置Brand Portal。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
->
->Brand Portal租户只应配置一个AEM Assets作者实例。
->
->请勿配置具有多个AEM资产作者实例的Brand Portal租户。
-
 
 
 以下视频演示了如何在AEM作者实例上配置资产来源补充：
