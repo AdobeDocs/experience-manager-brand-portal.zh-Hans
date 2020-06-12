@@ -4,16 +4,16 @@ solution-title: 学习和支持
 solution-hub-url: https://helpx.adobe.com/cn/support/experience-manager.html
 solution-image: null
 getting-started-title: 入门
-getting-started-url: https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html
+getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
 tutorials-title: 教程
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.zh-Hans
+git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 12%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
