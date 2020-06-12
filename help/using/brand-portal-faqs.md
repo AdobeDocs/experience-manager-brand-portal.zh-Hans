@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,6 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在AEM作者实例上安装。
 
-
 **Ques。 在AEM资产中，我看不到从Brand Portal发布的贡献文件夹的内容。 可能的原因是什么？**
 
 **安。** 请与AEM资产管理员联系，以验证配置并确保您的Brand Portal租户仅配置了一个AEM资产作者实例。
@@ -58,7 +57,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 1. 在“代理设置”中，单击“扩 **[!UICONTROL 展”]** 选项卡。
 1. 启用“关 **[!UICONTROL 闭连接]** ”复选框。
 1. 重复第4步到第7步，配置所有四个复制代理。
-1. 重新启动服务器。
+1. 重新启动服务器并验证连接。
 
 
 ## Brand Portal 6.4.5常见问题解答  {#faqs-bp645}
