@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: aefffb21b277d93fab2754dae407de7602f614c7
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,9 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 ## Brand Portal 6.4.6常见问题解答  {#faqs-bp646}
 
-
-
 **Ques。 现有旧版OAuth端点(`https://legacy-oauth.cloud.adobe.io/login`)无效。 可能的原因是什么？**
 
 **安。** 旧版OAuth配置已弃用。 您必须将AEM Assets作者实例升级到最新的Service Pack，并通过Adobe Developer Console进行配置。 有关详 [细信息，请参阅配置AEM资产与Brand](configure-aem-assets-with-brand-portal.md) Portal。 但是，要使旧版OAuth配置在升级之前正常工作，请将旧版OAuth端点更新为 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
-
 
 **Ques。 升级到Adobe开发人员控制台后，我无法将贡献文件夹的资产从Brand Portal发布到AEM资产。 我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
 
@@ -40,13 +37,11 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在AEM作者实例上安装。
 
-
 **Ques。 我要在AEM Assets云实例上启用资产来源补充功能。 如何配置它？**
 
 **安。** 否，AEM Assets云服务当前不支持资产来源补充功能。
 
 保持联系并查看发行说明，了解有关即将发布的版本中功能可用性的通知。
-
 
 **Ques。 我无法将资产从AEM资产发布到Brand Portal，且复制代理日志引发异常`java.net.SocketException: Connection timed out`。 有速效药吗？**
 
@@ -61,12 +56,6 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 对所有四个复制代理启用设置，以避免任何复制代理出现问题。
 
-
-**Ques。 在AEM资产中，我看不到从Brand Portal发布的贡献文件夹的内容。 可能的原因是什么？**
-
-**安。** 请与AEM资产管理员联系，以验证配置并确保您的Brand Portal租户仅配置了一个AEM资产作者实例。
-
-在多个AEM资产作者实例上配置Brand Portal租户时，可能会出现此问题。 例如，管理员在AEM资产作者实例上配置登台和生产环境的同一Brand Portal租户。 在这种情况下，资产发布会在Brand Portal中触发，但AEM资产作者实例无法导入资产coz，复制代理未收到请求令牌。
 
 ## Brand Portal 6.4.5常见问题解答  {#faqs-bp645}
 
