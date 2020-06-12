@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,28 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在AEM作者实例上安装。
 
-**Ques。 我要在AEM Assets云实例上启用资产来源补充功能。 如何配置它？**
 
-**安。** 否，AEM Assets云服务当前不支持资产来源补充功能。
+**Ques。 在AEM资产中，我看不到从Brand Portal发布的贡献文件夹的内容。 可能的原因是什么？**
 
-保持联系并查看发行说明，了解有关即将发布的版本中功能可用性的通知。
+**安。** 请与AEM资产管理员联系，以验证配置并确保您的Brand Portal租户仅配置了一个AEM资产作者实例。
 
-**Ques。 我无法将资产从AEM资产发布到Brand Portal，且复制代理日志引发异常`java.net.SocketException: Connection timed out`。 有速效药吗？**
+在多个AEM资产作者实例上配置Brand Portal租户时，可能会出现此问题。 例如，管理员在AEM资产作者实例上配置登台和生产环境的同一Brand Portal租户。 在这种情况下，资产发布会在Brand Portal中触发，但AEM资产作者实例无法导入资产coz，复制代理未收到请求令牌。
 
-**安。** 如果复制队列中有待处理的请求数，则复制代理可能不处理发布资产的请求并引发异常： `java.net.SocketException: Connection timed out`.
 
-请执行以下步骤来修复问题：
+**Ques。 我无法将资产从AEM资产发布到Brand Portal。 复制日志表示连接超时。 有速效药吗？**
 
-1. 打开复制代理，然后单 **[!UICONTROL 击]** “编辑”以修改复制代理设置。
-1. 在“代理设置”中，单击“扩展”选 **[!UICONTROL 项卡]**。
-1. 启用复选框“ **[!UICONTROL 关闭连接]**”。
-1. 重新启动复制捆绑包（服务器）。
+**安。** 通常，如果复制队列中有多个挂起请求，则发布会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
 
-对所有四个复制代理启用设置，以避免任何复制代理出现问题。
+请执行以下步骤来配置复制代理：
+1. 登录到AEM Assets作者实例。
+1. 从“工 **具** ”面板，导航到 **[!UICONTROL “部署]** ” **[!UICONTROL >“]**&#x200B;复制”。
+1. 在复制页面中，单击作 **[!UICONTROL 者上的代理]**。 您可以看到Brand Portal租户的四个复制代理。
+1. 单击复制代理URL以打开代理详细信息。
+1. 单击 **[!UICONTROL 编辑]** ，以修改复制代理设置。
+1. 在“代理设置”中，单击“扩 **[!UICONTROL 展”]** 选项卡。
+1. 启用“关 **[!UICONTROL 闭连接]** ”复选框。
+1. 重复第4步到第7步，配置所有四个复制代理。
+1. 重新启动服务器。
 
 
 ## Brand Portal 6.4.5常见问题解答  {#faqs-bp645}
