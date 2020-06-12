@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -51,6 +51,7 @@ AEM管理员可以上传包含AEM资产中活动Brand Portal用户列表的Brand
 >[!NOTE]
 >
 >CSV文件的格式与Admin Console支持的批量用户导入格式相同。 电子邮件、名字和姓氏是必填项。
+
 
 管理员可以在AEM Admin Console中添加新用户，有关详细信 [息，请参](brand-portal-adding-users.md) 阅管理用户。 在Admin Console中添加用户后，可以将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
