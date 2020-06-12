@@ -5,7 +5,10 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 70%
 
 ---
 
@@ -20,17 +23,17 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
    + [常见问题](using/brand-portal-faqs.md)
    + [支持的文件格式](using/brand-portal-supported-formats.md)
    + [来宾访问 Brand Portal](using/guest-access.md)
-   + [了解Brand Portal与AEM资产](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [了解Brand Portal与AEM资产](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上浏览资产](using/browse-assets-brand-portal.md)
 + 从 AEM Assets 发布到 Brand Portal {#publish}
-   + [使用Brand Portal配置AEM资产](using/configure-aem-assets-with-brand-portal.md)
-   + [将资产发布到Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [将文件夹发布到Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [将集合发布到Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [使用 Brand Portal 配置 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
+   + [将资产发布到 Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
+   + [将文件夹发布到 Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
+   + [将收藏集发布到 Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
    + [对并行发布到 Brand Portal 时出现的问题进行故障诊断](using/troubleshoot-parallel-publishing.md)
    + [将标记发布到 Brand Portal](using/brand-portal-publish-tags.md)
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Brand Portal中的资产来源补充 {#asset-sourcing-in-brand-portal}
++ 品牌门户中的资产来源补充 {#asset-sourcing-in-brand-portal}
    + [概述](using/brand-portal-asset-sourcing.md)
    + [在AEM中配置资产来源补充](using/brand-portal-configure-asset-sourcing.md)
    + 在AEM资产中配置贡献文件夹 {#configure-contribution-folder}
@@ -39,7 +42,7 @@ source-git-commit: c9c47422067bb287e98fa32b17f4f4a711ef9491
       + [配置贡献文件夹属性](using/brand-portal-configure-contribution-folder-properties.md)
       + [上传基准资产](using/brand-portal-upload-baseline-assets.md)
       + [将贡献文件夹发布到Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + 在Brand Portal中使用资产来源补充 {#using-asset-sourcing}
+   + 在品牌门户中使用资产来源补充 {#using-asset-sourcing}
       + [概述](using/brand-portal-overiew-using-asset-sourcing.md)
       + [下载资产要求](using/brand-portal-download-asset-requirements.md)
       + [将资产上传到贡献文件夹](using/brand-portal-upload-assets-to-contribution-folder.md)
