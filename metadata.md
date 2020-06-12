@@ -1,30 +1,33 @@
 ---
 cloud: experience-cloud
 solution-title: 学习和支持
-solution-hub-url: https://helpx.adobe.com/support/experience-manager.html
+solution-hub-url: https://helpx.adobe.com/cn/support/experience-manager.html
 solution-image: null
 getting-started-title: 入门
-getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
+getting-started-url: https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html
 tutorials-title: 教程
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.zh-Hans
 index: y
 translation-type: tm+mt
-source-git-commit: df9d75d0af7ee60f1a71609b8ba295379d278653
+source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 12%
 
 ---
 
 
 # 元数据供内部使用
 
-metadata.md文件包括传递给回购协议中的用户指南TOC.md文件的回购协议级元数据。 If you want to change metadata.md content for any user guide, do so in any TOC.md file.
+metadata.md文件包括传递给回购协议中的用户指南TOC.md文件的回购级别元数据。 如果要更改任何用户指南的metadata.md内容，请在任何TOC.md文件中进行更改。
 
-| 元数据 | what it does |
+| 元数据 | 它做什么 |
 |--- |--- |
-| solution-title | Used in article header as link |
-| solution-hub-url | Opens helpx hub page |
-| solution-icon | Displays solution icon next to solution title. Not yet implemented |
+| 解决方案标题 | 在文章标题中用作链接 |
+| solution-hub-url | 打开helpx中心页 |
+| 解决方案图标 | 在解决方案标题旁边显示解决方案图标。 尚未实施 |
 | getting-started-url | 帮助快速入门页的链接 |
-| tutorials-url | 链接到视频教程——帮助教程或KT教程 |
-| 微目录级别 | 确定显示在右边栏中的标题级别数。 默认为2 |
-| git-repo | 指定主存储库的内部使用位置 |
+| 教程-url | 链接到视频教程——帮助教程或KT教程 |
+| 迷你目录级别 | 确定显示在右边栏中的标题级别数。 默认值为2 |
+| git-repo | 指定主回购库的内部使用位置 |
