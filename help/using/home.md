@@ -4,10 +4,10 @@ seo-title: AEM Brand Portal 用户指南
 description: AEM Brand Portal 用户指南
 seo-description: 介绍如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: 5a5abee164459085746aa2084eb3884fab6d35ee
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 90%
+source-wordcount: '343'
+ht-degree: 88%
 
 ---
 
@@ -49,4 +49,4 @@ Brand Portal 可以将获得批准的品牌和产品资产安全地分发给外�
 
 ### 有用资源
 
-* [了解Brand Portal与AEM资产](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
+* [了解Brand Portal与AEM资产](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
