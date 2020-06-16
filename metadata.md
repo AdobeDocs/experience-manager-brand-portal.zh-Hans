@@ -7,10 +7,10 @@ getting-started-title: 入门
 getting-started-url: https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html
 tutorials-title: 教程
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.zh-Hans
 index: y
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 12%
