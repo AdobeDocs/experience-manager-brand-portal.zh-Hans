@@ -1,7 +1,7 @@
 ---
 title: 常见问题
 seo-title: null
-description: 深入了解Adobe Experience Manager Assets品牌门户中的常见问题。
+description: 深入了解Adobe Experience Manager资产品牌门户中的常见问题。
 seo-description: null
 uuid: null
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c15ad97fd0e1151c868f9d0fd21f281a09581277
+source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -20,36 +20,36 @@ ht-degree: 0%
 
 # 常见问题 {#frequently-asked-questions}
 
-Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets Brand Portal 6.4.6版本或更早版本时可能遇到的查询和问题。
+Brand Portal常见问题解答侧重于最终用户在使用最新AEM AssetsBrand Portal 6.4.6版本或更早版本时可能遇到的查询和问题。
 
 
 ## Brand Portal 6.4.6常见问题解答  {#faqs-bp646}
 
 **Ques。 现有旧版OAuth端点(`https://legacy-oauth.cloud.adobe.io/login`)无效。 可能的原因是什么？**
 
-**安。** 旧版OAuth配置已弃用。 您必须将AEM Assets作者实例升级到最新的Service Pack，并通过Adobe Developer Console进行配置。 有关详 [细信息，请参阅配置AEM资产与Brand](configure-aem-assets-with-brand-portal.md) Portal。 但是，要使旧版OAuth配置在升级之前正常工作，请将旧版OAuth端点更新为 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**安。** 旧版OAuth配置已弃用。 您必须将AEM Assets作者实例升级到最新的Service Pack，并通过Adobe开发人员控制台进行配置。 有关 [详细信息，请参阅使用Brand Portal](configure-aem-assets-with-brand-portal.md) 配置AEM Assets。 但是，要使旧版OAuth配置在升级之前正常工作，请将旧版OAuth端点更新为 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
-**Ques。 升级到Adobe开发人员控制台后，我无法将贡献文件夹的资产从Brand Portal发布到AEM资产。 我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
+**Ques。 升级到Adobe Developer Console后，我无法将贡献文件夹的资产从Brand Portal发布到AEM Assets。 我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
 
-**安。** 是的，通过Adobe开发人员控制台将贡献文件夹的资产发布到AEM 6.5.4上的AEM资产时存在已知问题。
+**安。** 是的，通过Adobe开发人员控制台将贡献文件夹的资产发布到AEM 6.5.4上的AEM Assets时存在已知问题。
 
-此问题在AEM 6.5.5中已解决。您可以将AEM资产实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人 [员控制台上](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 升级您的配置。
+此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并 [在Adobe开发人员控制台](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 上升级配置。
 
 要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在AEM作者实例上安装。
 
-**Ques。 在AEM资产中，我看不到从Brand Portal发布的贡献文件夹的内容。 可能的原因是什么？**
+**Ques。 我在AEM Assets中看不到从Brand Portal发布的贡献文件夹的内容。 可能的原因是什么？**
 
-**安。** 请与AEM资产管理员联系，以验证配置并确保您的Brand Portal租户仅配置了一个AEM资产作者实例。
+**安。** 与AEM Assets管理员联系以验证配置并确保您的Brand Portal租户仅配置了一个AEM Assets作者实例。
 
-在多个AEM资产作者实例上配置Brand Portal租户时，可能会出现此问题。 例如，管理员在AEM资产作者实例上配置登台和生产环境的同一Brand Portal租户。 在这种情况下，资产发布会在Brand Portal中触发，但AEM资产作者实例无法导入资产coz，复制代理未收到请求令牌。
+在多个AEM Assets作者实例上配置Brand Portal租户时，可能会出现此问题。 例如，管理员在AEM Assets的登台和生产环境的作者实例上配置同一Brand Portal租户。 在这种情况下，资产发布会在Brand Portal中触发，但AEM Assets作者实例无法导入资产代码，复制代理未收到请求令牌。
 
 
-**Ques。 我无法将资产从AEM资产发布到Brand Portal。 复制日志表示连接超时。 有速效药吗？**
+**Ques。 我无法将资产从AEM Assets发布到Brand Portal。 复制日志表示连接超时。 有速效药吗？**
 
 **安。** 通常，如果复制队列中有多个挂起请求，则发布会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
 
 请执行以下步骤来配置复制代理：
-1. 登录到AEM Assets作者实例。
+1. 登录到您的AEM Assets作者实例。
 1. 从“工 **具** ”面板，导航到 **[!UICONTROL “部署]** ” **[!UICONTROL >“]**&#x200B;复制”。
 1. 在复制页面中，单击作 **[!UICONTROL 者上的代理]**。 您可以看到Brand Portal租户的四个复制代理。
 1. 单击复制代理URL以打开代理详细信息。
@@ -64,7 +64,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 **Ques。 Brand Portal 6.4.5版本中有哪些主要更改？**
 
-**安。** AEM Assets Brand Portal 6.4.5是一项功能发行，通过该功能，Brand Portal用户无需管理员权限即可从Brand Portal实例内上传内容并将贡献文件夹发布回AEM资产。
+**安。** AEM AssetsBrand Portal 6.4.5是一个功能版本，它允许Brand Portal用户从Brand Portal实例内上传内容并将贡献文件夹发布回AEM Assets，而无需管理员权限。
 有关详细信息，请参 [阅品牌门户中的资产来源补充](brand-portal-asset-sourcing.md)。
 
 
@@ -90,13 +90,13 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM Assets 
 
 **Ques。 作为Brand Portal用户，我是否需要执行任何操作？**
 
-**安。** Brand Portal 6.4.5版本提供了名为“资产来源补充”的新增功能。 AEM管理员必须在AEM资产中配置资产来源补充功能，以为品牌门户用户启用该功能。 有关详细信息，请参阅启 [用资产来源补充](brand-portal-configure-asset-sourcing.md)。
+**安。** Brand Portal 6.4.5版本提供了名为“资产来源补充”的新增功能。 AEM管理员必须在AEM Assets中配置资产来源补充功能，才能为品牌门户用户启用该功能。 有关详细信息，请参阅启 [用资产来源补充](brand-portal-configure-asset-sourcing.md)。
 
 
 
 **Ques。 谁可以创建贡献文件夹？**
 
-**安。** 任何具有在AEM资产中创建新文件夹权限的AEM用户都可以创建贡 **献文** 件夹。 要创建贡 **献文件** ，请新建一个“资产贡献”类 **型的文件夹**。
+**安。** 任何具有在AEM Assets中创建新文件夹权限的AEM用户都可以创建贡 **献文** 件夹。 要创建贡 **献文件** ，请新建一个“资产贡献”类 **型的文件夹**。
 此文件夹将与活动的Brand Portal用户共享，以供参与。
 
 
@@ -139,7 +139,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 
 **Ques。 用户导入的CSV文件的格式是什么？**
 
-**安。** 格式与Admin Console支持的批量用户导入格式相同。 电子邮件、名字和姓氏是必填项。
+**安。** 格式与批量用户导入Admin Console支持的格式相同。 电子邮件、名字和姓氏是必填项。
 
 
 
@@ -161,9 +161,9 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 
 
 
-**Ques。 文件夹从Brand Portal发布到AEM资产的次数是否存在问题？**
+**Ques。 文件夹从Brand Portal发布到AEM Assets的次数是否存在任何原因？**
 
-**安。** 否，NEW文件夹中的所 **有资产** 都将发布到AEM资产，而不管之前发布了这些资产。 每次将 **Contribution** 文件夹从Brand Portal发布到AEM资产时，它都会覆盖NEW文件 **夹的内** 容。
+**安。** 否，NEW文件夹中的所 **有资产** 都将发布到AEM Assets，而不管之前发布了这些资产。 每次从 **Brand** Portal发布到AEM Assets的Contribution文件夹时，都会覆盖NEW文件 **夹的内** 容。
 
 
 
@@ -179,10 +179,10 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 
 
 
-**Ques。 如果文件夹从AEM资产发布到处于动态状态的Brand Portal，会发生什么情况？**
+**Ques。 如果文件夹从AEM Assets发布到正在变化的Brand Portal，会发生什么情况？**
 
 **安。** 在AEM中，每次将文件夹发布到Brand Portal时，都会保留日志。 在发布时，所有未发布到Brand Portal的资产都将放在复制队列中。 触发发布作业后添加到文件夹的任何资产均不会发布到Brand Portal。 当AEM用户再次发布文件夹时，只有之前未发布的资产（在复制队列中存在）才会发布到Brand Portal。
-对于从AEM资产发布到Brand Portal的任何文件夹以及贡献文件夹中的SHARED文件夹，此情况均适用。
+对于从AEM Assets发布到Brand Portal和贡献文件夹内的SHARED文件夹的任何文件夹，此情况均适用。
 
 
 
