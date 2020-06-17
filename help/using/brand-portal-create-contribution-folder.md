@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,5 @@ AEM管理员和具有创建新文件夹权限的非管理员用户可以在AEM A
 >
 >请确保为贡献文件夹提供适当的名称，因为您在创建后无法修改文件夹名称。
 >
->不支持嵌套贡献文件夹。 请勿在其他贡献文件夹中创建贡献文件夹。
+>不支持嵌套贡献文件夹。 您可以在一个文件夹中创建多个贡献文件夹，但不要在另一个贡献文件夹中创建贡献文件夹。
 
