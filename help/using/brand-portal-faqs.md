@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f763917659b5c1b9b37662d963484f4e84caa109
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -194,6 +194,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 >[!NOTE]
 >
 >释放计划是暂时性的，可能会发生变化。 联系您的Adobe客户经理或客户支持以获取更新的发行计划。
+
 
 
 
