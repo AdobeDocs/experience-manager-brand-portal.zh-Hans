@@ -1,8 +1,8 @@
 ---
 title: 配置贡献文件夹属性
 seo-title: 配置贡献文件夹属性
-description: '获取有关如何在AEM资产中配置贡献文件夹属性的分析。 '
-seo-description: '获取有关如何在AEM资产中配置贡献文件夹属性的分析。 '
+description: '了解如何在AEM Assets中配置贡献文件夹的属性。 '
+seo-description: '了解如何在AEM Assets中配置贡献文件夹的属性。 '
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,5 @@ AEM管理员在配置贡献文件夹的属性时执行以下活动。
 
 >[!NOTE]
 >
->搜索结果基于在AEM资产中配置的Brand Portal用户列表。 确保已更新Brand Portal用户列表。 请参阅， [上传品牌门户用户列表](brand-portal-configure-asset-sourcing.md)。
+>搜索结果基于在AEM Assets中配置的Brand Portal用户列表。 确保已更新Brand Portal用户列表。 请参阅， [上传品牌门户用户列表](brand-portal-configure-asset-sourcing.md)。
+
