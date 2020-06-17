@@ -1,8 +1,8 @@
 ---
 title: 配置资产来源补充
 seo-title: 配置资产来源补充
-description: 深入了解在AEM资产中配置资产来源补充功能。
-seo-description: 深入了解在AEM资产中配置资产来源补充功能。
+description: 深入了解在AEM Assets中配置资产来源补充功能。
+seo-description: 深入了解在AEM Assets中配置资产来源补充功能。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -20,11 +20,12 @@ ht-degree: 1%
 
 # 配置资产来源补充 {#configure-asset-sourcing}
 
-AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理员从AEM Web Console配置中启用资产来源 **补充功能标志配置** ，并在AEM资产中上传活动的Brand Portal **用户列表**。
+AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理员从AEM Web Console配置中启用资产来源补充功 **能标志配置** ，并以列表形式上传活动的Brand **Portal用**&#x200B;户AEM Assets。
 
 >[!NOTE]
 >
->在开始配置之前，请确保AEM资产实例已配置Brand Portal。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>在开始配置之前，请确保AEM Assets实例已配置Brand Portal。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+
 
 
 以下视频演示了如何在AEM作者实例上配置资产来源补充：
@@ -33,7 +34,7 @@ AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理�
 
 ## 启用资产来源补充 {#enable-asset-sourcing}
 
-AEM管理员可以从AEM Web控制台配置（又称配置管理器）中启用资产来源补充。
+AEM管理员可以从AEM Web控制台配置（也称为配置管理器）中启用资产来源补充。
 
 **要启用资产来源补充，请执行以下操作：**
 1. 登录到AEM作者实例并打开Configuration Manager默认URL: http:// localhost:4502/system/console/configMgr
@@ -46,14 +47,14 @@ AEM管理员可以从AEM Web控制台配置（又称配置管理器）中启用�
 
 ## 上传Brand Portal用户列表 {#upload-bp-user-list}
 
-AEM管理员可以上传包含AEM资产中活动Brand Portal用户列表的Brand Portal用户配置(.csv)文件。 贡献文件夹只能与用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
+AEM管理员可以上传包含AEM Assets中活动Brand Portal用户列表的Brand Portal用户配置(.csv)文件。 贡献文件夹只能与用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
 
 >[!NOTE]
 >
->CSV文件的格式与Admin Console支持的批量用户导入格式相同。 电子邮件、名字和姓氏是必填项。
+>CSV文件的格式与批量用户导入Admin Console支持的格式相同。 电子邮件、名字和姓氏是必填项。
 
 
-管理员可以在AEM Admin Console中添加新用户，有关详细信 [息，请参](brand-portal-adding-users.md) 阅管理用户。 在Admin Console中添加用户后，可以将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
+管理员可以在AEMAdmin Console中添加新用户，有关详细 [信息，请](brand-portal-adding-users.md) 参阅管理用户。 在Admin Console中添加用户后，可将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
 **要上传Brand Portal用户列表，请执行以下操作：**
 1. 登录AEM作者实例默认URL: http://本地主机：4502/aem/start.html
