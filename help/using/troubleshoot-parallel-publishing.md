@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 2b5d2fabc666a1d98af29c859f22a6d02bce3784
+source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -19,15 +19,16 @@ ht-degree: 2%
 
 # 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal已通过AEM Assets配置，以便从AEM Assets作者实例无缝摄取（或发布）已批准的品牌资产。 配置 [后](../using/configure-aem-assets-with-brand-portal.md),AEM作者使用复制代理将选定的资产复制到Brand Portal云服务中，以供Brand Portal用户批准使用。 AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2及以后使用多个复制代理，以实现高速并行发布。
+Brand Portal已配置为让AEM Assets从AEM Assets作者实例无缝摄取（或发布）已批准的品牌资产。 配 [置后](../using/configure-aem-assets-with-brand-portal.md),AEM Author使用复制代理将选定的资产复制到Brand Portal云服务，以便Brand Portal用户获得批准使用。 AEM 6.2 SP1-CFP5、AEM CFP 6.3.0.2及以后使用多个复制代理，以实现高速并行发布。
 
 >[!NOTE]
 >
->Adobe建议升级到AEM 6.4.1.0，以确保AEM Assets品牌门户已成功配置AEM Assets。 AEM 6.4中的限制会在使用Brand Portal配置AEM资产时出错，复制会失败。
+>Adobe建议升级到AEM 6.4.1.0，以确保AEM Assets品牌门户已成功配置AEM Assets。 AEM 6.4中的限制会在使用Brand Portal配置AEM Assets时出错，复制会失败。
+
 
 在/etc/cloudservice下为品牌门户配 **[!UICONTROL 置云服务时]**，将自动生成所有必需的用户和令牌并将其保存到存储库中。 创建云服务配置，同时创建复制和复制代理复制内容所需的服务用户。 这将创建四个复制代理。 因此，当您将大量资产从AEM发布到Brand Portal时，这些资产会通过Round Robin排队并在这些复制代理之间分发。
 
-但是，发布可能会因为大型sling作业、AEM作者实例上的 **[!UICONTROL 网络和磁盘I/O增加]** ，或AEM作者实例的性能降低而间歇性失败。 因此，建议在开始发布之前测试与复制代理的连接。
+但是，发布可能会因为AEM Author实例上的大型sling作业、增 **[!UICONTROL 加网络和磁盘I/O]** ，或降低AEM Author实例的性能而间歇性失败。 因此，建议在开始发布之前测试与复制代理的连接。
 
 ![](assets/test-connection.png)
 
@@ -35,11 +36,11 @@ Brand Portal已通过AEM Assets配置，以便从AEM Assets作者实例无缝摄
 
 要验证发布配置，请执行以下操作：
 
-1. 检查错误日志
+1. Check the error logs
 1. 检查是否已创建复制代理
 1. 测试连接
 
-**创建云服务时的尾日志**
+**创建Cloud Service时尾日志**
 
 检查尾部日志。 检查是否已创建复制代理。 如果复制代理创建失败，请通过在云服务中进行细微更改来编辑云服务。 验证并再次检查复制代理是否已创建。 否则，请重新编辑服务。
 
@@ -118,12 +119,12 @@ permission
 
 ## 配置复制代理以避免连接超时错误 {#connection-timeout}
 
-**问题**: 我无法将资产从AEM资产发布到Brand Portal。 复制日志表示连接超时。
+**问题**: 我无法将资产从AEM Assets发布到Brand Portal。 复制日志表示连接超时。
 
 **解决方案**: 通常，如果复制队列中有多个挂起请求，则发布会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
 
 请执行以下步骤来配置复制代理：
-1. 登录到AEM Assets作者实例。
+1. 登录到您的AEM Assets作者实例。
 1. 从“工 **具** ”面板，导航到 **[!UICONTROL “部署]** ” **[!UICONTROL >“]**&#x200B;复制”。
 1. 在复制页面中，单击作 **[!UICONTROL 者上的代理]**。 您可以看到Brand Portal租户的四个复制代理。
 1. 单击复制代理URL以打开代理详细信息。
