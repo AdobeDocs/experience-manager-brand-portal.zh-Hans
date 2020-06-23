@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,9 @@ AEM管理员在配置贡献文件夹的属性时执行以下活动。
 1. 导航到资 **[!UICONTROL 产贡献]** 选项卡。
 1. 输入贡献文 **[!UICONTROL 件夹]** 的高级描述。
 1. 单击 **[!UICONTROL 上传]** 摘要 ![](assets/upload.png) ，从本地计算机浏览并上传 **资产需求文档**。
-1. 在 **[!UICONTROL 添加用户或组]**，搜索并 **[!UICONTROL 添加]** Brand Portal用户或要与其共享贡献文件夹的组。
-这些Brand Portal用户／组将具有访问贡献文件夹和从其Brand Portal界面上上传内容的权限，无需访问AEM作者实例。
+1. 在 **[!UICONTROL 添加用户或组]**，搜索并 **[!UICONTROL 添加要与其共享贡]** 献文件夹的品牌门户用户。 不能将分发文件夹分配给组。
+这些Brand Portal用户将有权访问贡献文件夹并从其Brand Portal界面上上传内容，而无需访问AEM作者实例。
+
 1. 单击&#x200B;**[!UICONTROL 保存]**。
    ![](assets/contribution-folder-property2.png)
 
