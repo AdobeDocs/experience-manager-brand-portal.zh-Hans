@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
 workflow-type: tm+mt
-source-wordcount: '4468'
+source-wordcount: '4462'
 ht-degree: 2%
 
 ---
@@ -274,7 +274,7 @@ Brand Portal用户可以利用基于IBM Aspera Connect的快速下载，将下�
 
 ![](assets/donload-assets-dialog-2.png)
 
-要为组织启用基于IBM Aspera的加速下载，管理员可 **从管理工具面板的“常规设置”中** “启用下载加速 [”选项(默认](brand-portal-general-configuration.md#allow-download-acceleration) 为禁用)。 要进一步了解从Brand Portal和共享链接更快地下载资源文件的先决条件和疑难解答步骤，请参 [阅指南以加速从Brand Portal下载](../using/accelerated-download.md#main-pars-header)。
+要为组织启用基于IBM Aspera的加速下载，管理员可 **从管理工具面板的“常规设置”中** “启用下载加速 [”选项(默认](brand-portal-general-configuration.md#allow-download-acceleration) 为禁用)。 要进一步了解从Brand Portal和共享链接更快地下载资产文件的先决条件和疑难解答步骤，请参 [阅指南以加速从Brand Portal下载](../using/accelerated-download.md#main-pars-header)。
 
 ### 用户登录报告
 
@@ -342,7 +342,7 @@ Brand Portal为非管理员用户（编辑者、查看者、客人用户）提�
 
 ### Adobe I/O UI配置Outh集成
 
-从Brand Portal 6.4.2开始，使用Adobe.io https://legacy-oauth.cloud.adobe.io/ [界面](https://legacy-oauth.cloud.adobe.io/) 创建JWT应用程序，该应用程序支持配置Auth集成，以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在https://marketing.adobe.com/developer/ [中](https://marketing.adobe.com/developer/)。 要了解有关将AEM Assets与Brand Portal集成以将资产和集合发布到Brand Portal的更多信息，请 [配置AEM Assets与Brand Portal集成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
+从Brand Portal 6.4.2开始，使用Adobe.io https://legacy-oauth.cloud.adobe.io/ [界面](https://legacy-oauth.cloud.adobe.io/) 创建JWT应用程序，该应用程序支持配置Auth集成，以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在 `https://marketing.adobe.com/developer/`。 要了解有关将AEM Assets与Brand Portal集成以将资产和集合发布到Brand Portal的更多信息，请 [配置AEM Assets与Brand Portal集成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
 
 ## 搜索增强功能
 
@@ -379,7 +379,7 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新功能和�
 
 * 预览从AEM上传的音频文件（在资产的详细信息页面中）的新功能。
 * 资产属性中提供的新的相关资产功能。 与AEM上的其他源／派生资产相关并在Brand Portal上发布的资产现在可在Brand Portal中保持其关系，并在属性页面上提供相关资产的链接。
-* 已引入限制非管理员用户创建公共集合的新配置。 组织可以与Adobe支持团队协作，在特定帐户上配置此功能。
+* 已引入新配置，以限制非管理员用户创建公共集合。 组织可以与Adobe支持团队协作，在特定帐户上配置此功能。
 
 ### 搜索增强功能
 
@@ -553,13 +553,13 @@ Brand Portal 6.3.1包含面向将Brand Portal与AEM协调的新增和增强功�
 
 ### 增强的报告 {#reporting-capabilities}
 
-Administrators can create and manage three types of reports—assets downloaded, expired, and published. The ability to configure the columns in a report, and export the reports to CSV format is also available.
+管理员可以创建和管理三种类型的报告——已下载、过期和已发布的资产。 还可以配置报告中的列，并将报告导出为CSV格式。
 
 ![](assets/newreport.png)
 
 ### 其他元数据 {#additional-metadata}
 
-Brand Portal 6.3.1引入了其他元数据，这与AEM Assets6.3相同。您可以使用模式编辑器表单控制应在“资产属性”页面上可见的元数据。 Asset metadata is not visible to external link share users, who can only preview and download assets using the link share URL.
+Brand Portal 6.3.1引入了其他元数据，这与AEM Assets6.3相同。您可以使用模式编辑器表单控制应在“资产属性”页面上可见的元数据。 外部链接共享用户看不到资产元数据，他们只能使用链接共享URL预览和下载资产。
 
 ![](assets/additionsinmetadata.png)
 
@@ -577,7 +577,7 @@ Brand Portal 6.3.1引入了其他元数据，这与AEM Assets6.3相同。您可�
 
 ![](assets/publish_metadataschemaaemassets.png)
 
-* AEM administrators can publish all the tags from AEM Assets to Brand Portal using AEM 6.2 SP1-CFP7 and AEM 6.3 SP 1-CFP 1 (6.3.1.1).
+* AEM管理员可以使用AEM 6.2 SP1-CFP7和AEM 6.3 SP 1-CFP 1(6.3.1.1)将所有标记从AEM Assets发布到Brand Portal。
 
 ![](assets/publish_tags_aemassets.png)
 
