@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -25,8 +25,6 @@ AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理�
 >[!NOTE]
 >
 >在开始配置之前，请确保AEM Assets实例已配置Brand Portal。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-
-
 
 以下视频演示了如何在AEM作者实例上配置资产来源补充：
 
@@ -52,7 +50,6 @@ AEM管理员可以上传包含AEM Assets中活动Brand Portal用户列表的Bran
 >[!NOTE]
 >
 >CSV文件的格式与批量用户导入Admin Console支持的格式相同。 电子邮件、名字和姓氏是必填项。
-
 
 管理员可以在AEMAdmin Console中添加新用户，有关详细 [信息，请](brand-portal-adding-users.md) 参阅管理用户。 在Admin Console中添加用户后，可将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
