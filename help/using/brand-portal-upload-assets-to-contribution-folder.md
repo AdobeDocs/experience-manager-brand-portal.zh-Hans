@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -28,8 +28,6 @@ Brand Portal用户 [下载资产要求](brand-portal-download-asset-requirements
 >Brand Portal用户只能将内容／资产上传到 **NEW** 文件夹。 他们无权删除已上传的资产。
 >
 >任何Brand Portal帐户／租户的最大上载限 **制为** 10 GB。
-
-
 
 **要上传新资产，请执行以下操作：**
 
