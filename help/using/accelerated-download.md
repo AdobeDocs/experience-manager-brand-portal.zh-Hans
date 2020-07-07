@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 2%
@@ -25,7 +25,6 @@ Brand Portal通过与IBM Aspera Connect集成，可增强大资产文件的下�
 >[!NOTE]
 >
 >下载速度因网络带宽、服务器延迟和客户端地理位置等因素而异。
-
 
 如果启用，Brand Portal用户可以通过安装Aspera Connect客户端，显着缩短从Brand Portal或通过共享链接下载所需资产文件所花费的时间。
 
