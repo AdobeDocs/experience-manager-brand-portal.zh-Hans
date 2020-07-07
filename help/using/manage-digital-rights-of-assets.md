@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -38,7 +38,6 @@ ht-degree: 2%
 >
 >即使文件夹包含过期的资产，仍可以将其共享为链接。 在这种情况下，链接不会列表过期的资产，只共享未过期的资产。
 
-
 下表显示过期资产的使用权限：
 
 |  | **[!UICONTROL 链接共享]** | **[!UICONTROL 下载]** | **[!UICONTROL 属性]** | **[!UICONTROL 添加到集合]** | **[!UICONTROL 删除]** |
@@ -52,7 +51,6 @@ ht-degree: 2%
 >
 >如果查看器和编辑人员下载的文件夹中包含已过期和未过期的资产，则仅下载未过期的资产。 如果文件夹仅包含过期的资产，则会下载一个空文件夹。
 
-
 ### 资产的过期状态 {#expiration-status-of-assets}
 
 您可以视图资产在卡片视图中的 **[!UICONTROL 过期状态]**。 卡上会显示一个红色标记，指示资产已过期。
@@ -62,7 +60,6 @@ ht-degree: 2%
 >[!NOTE]
 >
 >列表和列视图不显示资产的过期状态。
-
 
 ## 资产链接到期 {#asset-link-expiration}
 
@@ -78,7 +75,7 @@ ht-degree: 2%
 
 从Brand Portal下载许可资产前，须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资产时，即会达成此许可资产协议。 无论是否过期，受许可证保护的资产都可供所有用户查看。 但是，过期的许可资产的下载和使用受到限制。 要了解过期的许可资产行为以及根据用户角色允许的活动，请参阅 [过期资产的使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
 
-受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可证协议 [，可通过在AEM Assets中设置资产的元](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 数据属性来完成。
+受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可证协议 [，可通过在AEM Assets中设置资产的元](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 数据属性。
 
 如果您选择下载受许可证保护的资产，则会将您重定向到“版权 **[!UICONTROL 管理]** ”页面。
 
