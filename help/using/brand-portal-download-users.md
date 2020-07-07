@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -25,7 +25,6 @@ ht-degree: 1%
 >
 >只有管理员才能下载过期的资产。 有关过期资产的更多信息，请参 [阅管理资产的数字权限](../using/manage-digital-rights-of-assets.md)。
 
-
 ## 下载资源的步骤 {#steps-to-download-assets}
 
 要下载包含Brand Portal资产的资产或文件夹，请执行以下步骤：
@@ -33,17 +32,15 @@ ht-degree: 1%
 1. 从Brand Portal界面，执行下列操作之一：
 
    * 选择要下载的文件夹或资产。 在顶部的工具栏中，单击“下 **[!UICONTROL 载]** ”图标。
-
    ![](assets/downloadassets-1.png)
 
    * 要下载单个文件夹或资产，请将指针悬停在该文件夹或资产上方。 在可用的快速操作缩略图中，单击“下 **[!UICONTROL 载]** ”图标。
-
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
    >如果您正在下载的资产也包含许可的资产，则会将您重定向到版权 **[!UICONTROL 管理页]** 面。 在此页中，选择资产，单击“ **[!UICONTROL 同意]**”，然后单击“ **[!UICONTROL 下载]**”。 如果您选择不同意，则不会下载许可的资产。\
-   >受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可证协议 [，可通过在AEM Assets中设置资产的元](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 数据属性来完成。
+   >受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可证协议 [，可通过在AEM Assets中设置资产的元](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 数据属性。
 
    ![](assets/licensed-asset-download-1.png)
 
@@ -70,7 +67,6 @@ ht-degree: 1%
    * 要加快从Brand Portal下载资产文件的速度，请选择“启 **[!UICONTROL 用下载加速]** ”选项 [，然后按向导操作](../using/accelerated-download.md#main-pars-header-405749062)。 要进一步了解如何更快地下载资产，请参 [阅指南以加速从Brand Portal下载](../using/accelerated-download.md)。
 
    * 要将自定 [义图像预设应用到资产及其演绎版](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，请 **[!UICONTROL 选择动态演绎版]**。 指定自定义图像预设属性（大小、格式、色彩空间、分辨率和图像修饰符），以便在下载资产及其演绎版时应用自定义图像预设。 要仅下载动态演绎版，请 **[!UICONTROL 删除资产]**。
-
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -80,7 +76,6 @@ ht-degree: 1%
    * 要在下载资产时保留Brand Portal文件夹层次结构，请选 **[!UICONTROL 择为每个资产创建单独的文件夹]**。 默认情况下，将忽略Brand Portal文件夹层次结构，所有资产都下载到本地系统的一个文件夹中。
 
    * 要向用户发送包含下载资产链接的电子邮件通知，请选择“电 **[!UICONTROL 子邮件]**”。
-
    ![](assets/download-link.png)
 
    >[!NOTE]
