@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 2%
@@ -25,7 +25,6 @@ Brand Portal已配置为让AEM Assets从AEM Assets作者实例无缝摄取（或
 >
 >Adobe建议升级到AEM 6.4.1.0，以确保AEM Assets品牌门户已成功配置AEM Assets。 AEM 6.4中的限制会在使用Brand Portal配置AEM Assets时出错，复制会失败。
 
-
 在/etc/cloudservice下为品牌门户配 **[!UICONTROL 置云服务时]**，将自动生成所有必需的用户和令牌并将其保存到存储库中。 创建云服务配置，同时创建复制和复制代理复制内容所需的服务用户。 这将创建四个复制代理。 因此，当您将大量资产从AEM发布到Brand Portal时，这些资产会通过Round Robin排队并在这些复制代理之间分发。
 
 但是，发布可能会因为AEM Author实例上的大型sling作业、增 **[!UICONTROL 加网络和磁盘I/O]** ，或降低AEM Author实例的性能而间歇性失败。 因此，建议在开始发布之前测试与复制代理的连接。
@@ -36,7 +35,7 @@ Brand Portal已配置为让AEM Assets从AEM Assets作者实例无缝摄取（或
 
 要验证发布配置，请执行以下操作：
 
-1. Check the error logs
+1. 检查错误日志
 1. 检查是否已创建复制代理
 1. 测试连接
 
