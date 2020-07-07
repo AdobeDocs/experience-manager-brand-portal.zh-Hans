@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 10%
@@ -32,7 +32,6 @@ Adobe Experience Manager(AEM)资产通过Adobe开发人员控制台配置为品�
 >
 >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并且已更改为通过Adobe开发人员控制台进行配置。
 
-
 >[!TIP]
 >
 >***仅限现有客户***
@@ -40,7 +39,6 @@ Adobe Experience Manager(AEM)资产通过Adobe开发人员控制台配置为品�
 >旧版OAuth网关配置将继续为现有客户工作。
 >
 >如果您在旧版OAuth网关配置中遇到问题，请删除现有配置并通过Adobe开发人员控制台创建新配置。
-
 
 使用Brand Portal配置AEM Assets的步骤因AEM版本、您是首次配置还是升级现有配置而异：
 
