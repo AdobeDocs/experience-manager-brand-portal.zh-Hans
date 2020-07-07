@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 3%
@@ -60,10 +60,10 @@ Brand Portal用户可以：
 
 * **开始在DM(AEM Author)模式上的Dynamic Media**&#x200B;在Dynamic Media混合模式或动态媒体代码 [上开始AEM Author实例](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) (已配置品 [牌门户) [!DNL Scene 7] ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
 * **在AEM Author上配置Dynamic Media云服**&#x200B;务根据Dynamic Media模式 [AEM Author正在运行，在工具的上](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) 设置Dynamic Media云服 [[!DNL Scene 7] 务或](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 在AEM Author上设 **置云服务** | **Cloud Service** | **Dynamic Media**。
-* **在Brand Portal上配置Dynamic Media**&#x200B;根据AEM Author上的Dynamic Media云配置，从Brand Portal管 [理工具中配](#configure-dm-hybrid-settings) 置 [[!DNL Scene 7] Dynamic Media设](#configure-dm-scene7-settings) 置或设置。
+* **在Brand Portal上配置Dynamic Media**&#x200B;根据AEM Author上的Dynamic Media云配置，从 [Brand Portal管理工具](#configure-dm-hybrid-settings) 中配 [[!DNL Scene 7] 置](#configure-dm-scene7-settings) Dynamic Media设置或设置。
 如果您使 [用的是AEM Author混合](#separate-tenants) 、Dynamic MediaScene7模式，请确保为配置了Dynamic Media混合和Dynamic MediaS7模式的Dynamic Media实例使 **[!UICONTROL 用单独的Brand Portal租户]******。
 * **使用应用于Brand Portal的视频编码发布文件夹**&#x200B;应 [用视频编码](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ，并将包含富媒体资产的文件夹从AEM Author实例发布到Brand Portal。
-* **启用安全预览时SPS中的允许列表** IP如果使用Dynamic Media **[!DNL Scene 7]** (对公司启用安全预览)，则建议公司管理员为使用SPS（场景7）发布系统(Publishing System)闪存 [SPS的各自区域](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 列出公共出口IP **[!DNL Scene 7]**[](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**** 。
+* **允许列表启用安全预览时，在SPS中出口IP如果使用Dynamic Media-**(对公司启用安全&#x200B;**[!DNL Scene 7]** 预览)，则建议 [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)**[!DNL Scene 7]**[](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**** 公司管理员允许列表使用SPS发布系统闪存(SPS Publishing Scene 7 Scene Publishing System)为各自的区域公共出口IP。
 出口IP如下所示：
 
 | **区域** | **出口IP** |
@@ -88,7 +88,7 @@ Brand Portal用户可以：
 
 确保配置(如 **[!UICONTROL Title]**、Video Service ID **[!UICONTROL 、Video Service]** URL **[!UICONTROL (在]************************[!DNL Scene 7]****** Dynamic Media中)、、、密码、混合公司、中的、、等)在同一Portal和Portal中都是同一品牌Dynamic Media和AEM云配置
 
-### 允许列出Dynamic MediaScene 7模式的公共出口IP
+### 为允许列表Dynamic MediaScene 7模式公共出口IP
 
 如果使 **[!UICONTROL 用Dynamic Media]** Scene [7启用安全预览](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)来将视频资产提供给Brand Portal，则 **[!UICONTROL Scene 7]** 会为临时环境或内部应用程序建立专用图像服务器。 对此服务器的任何请求都检查来源IP地址。 如果传入请求不在IP地址的批准列表内，则返回失败响应。
 因 **[!UICONTROL 此，Scene-7]** 公司管理员通过SPS **[!UICONTROL (Scene-7 Publishing System)flash UI为公司的安全测试]** 环境配置一个经 **[!UICONTROL 批准的]** IP地址列表。 确保将您各自区域的出口IP（来自以下区域）添加到该批准的列表。
@@ -104,22 +104,24 @@ Brand Portal用户可以：
 ## 配置Dynamic Media（混合）设置 {#configure-dm-hybrid-settings}
 
 如果AEM Author实例在动态媒体混合模式下运行，则使 **[!UICONTROL 用管理工具]** 面板中的视频拼贴来配置Dynamic Media网关设置。
+
 >[!NOTE]
 >
 >视 [频编码用户档案](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 不会发布到Brand Portal，而是从Scene 7服 **[!UICONTROL 务器获取]** 。 因此，为了在Brand Portal中成功播放视频编码，请确保配置详细信息与AEM Author实例 [[!UICONTROL 中的Scene7云配置]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 相同。
+
 要在Brand Portal租户上设置Dynamic Media配置，请执行以下操作：
 
 1. 选择AEM徽标，从顶部的工具栏访问品牌门户中的管理工具。
-
-2. 从管理工具面板中，选择视 **[!UICONTROL 频拼]** 贴。<br />
+1. 从管理工具面板中，选择视 **[!UICONTROL 频拼]** 贴。
 
    ![Dynamic Media品牌门户上的混合配置](assets/DMHybrid-Video.png)
-   **[!UICONTROL “编辑Dynamic Media配置]** ”页将打开。<br />
+
+   **[!UICONTROL “编辑Dynamic Media配置]** ”页将打开。
+
    ![Dynamic Media在Brand Portal上的混合配置](assets/edit-dynamic-media-config.png)
 
-3. 指 **[!UICONTROL 定注册]** ID **[!UICONTROL 和视频服务URL]** （DM-网关URL）。 确保这些详细信息与AEM Author实例中 **[!UICONTROL 的“工具”]** >“Cloud Service”中的信息相同。
-
-4. 选择 **保存** ，以保存配置。
+1. 指 **[!UICONTROL 定注册]** ID **[!UICONTROL 和视频服务URL]** （DM-网关URL）。 确保这些详细信息与AEM Author实例中 **[!UICONTROL 的“工具”]** >“Cloud Service”中的信息相同。
+1. 选择 **保存** ，以保存配置。
 
 ## 配置Dynamic MediaScene7设置 {#configure-dm-scene7-settings}
 
