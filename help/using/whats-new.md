@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 2%
@@ -68,8 +68,6 @@ Adobe Experience Manager(AEM)资产品牌门户可帮助您轻松获取、控制
 >
 >建议将AEM实例更新为最新的Service Pack。
 
-
-
 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
 
 请参 [阅Brand Portal常见问题解答](brand-portal-faqs.md)。
@@ -95,8 +93,6 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 >AEM 6.5.2.0及更高版本支持品牌门户中的资产来源补充。
 >
 >早期版本（AEM 6.3和AEM 6.4）不支持此功能。
-
-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
@@ -153,7 +149,6 @@ Brand Portal 6.4.4 版主要增强了文本搜索和常见客户请求。请参�
 >[!NOTE]
 >
 >选中“部 **分搜索** ”复选 **框时，默认** 情况下会选择“忽略大小写”。
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -379,7 +374,7 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新功能和�
 
 * 预览从AEM上传的音频文件（在资产的详细信息页面中）的新功能。
 * 资产属性中提供的新的相关资产功能。 与AEM上的其他源／派生资产相关并在Brand Portal上发布的资产现在可在Brand Portal中保持其关系，并在属性页面上提供相关资产的链接。
-* 已引入新配置，以限制非管理员用户创建公共集合。 组织可以与Adobe支持团队协作，在特定帐户上配置此功能。
+* 已引入限制非管理员用户创建公共集合的新配置。 组织可以与Adobe支持团队协作，在特定帐户上配置此功能。
 
 ### 搜索增强功能
 
