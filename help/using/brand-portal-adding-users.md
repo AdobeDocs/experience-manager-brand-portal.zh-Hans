@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
@@ -39,7 +39,6 @@ Comment Type: draft
 >
 >要在Brand Portal中创建组，请从Adobe [!UICONTROL Admin Console]，使 **[!UICONTROL 用“产品”>“产品用户档案]**”，而不 **[!UICONTROL 是“用户页面”>“用户组]**”。 Adobe用户档案中的产 [!UICONTROL 品Admin Console] ，用于在Brand Portal中创建组。
 
-
 ## 添加用户 {#add-a-user}
 
 如果您是产品管理员，请使用Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) ，创建用户并将其分配给产品用户档案(*以前称为产品配置*)，这些在Brand Portal中显示为组。 您可以使用组执行批量操作，如角色管理和资产共享。
@@ -48,11 +47,9 @@ Comment Type: draft
 >
 >无权访问Brand Portal的新用户可以从Brand Portal的登录屏幕请求访问权限。 有关详细信息，请参 [阅请求访问Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知区域中收到访问请求通知后，单击相关通知，然后单击“授予访 **[!UICONTROL 问权限”]**。 或者，也可以按照收到的访问请求电子邮件中的链接操作。 接下来，要通过AdobeAdmin Console [添加 [!UICONTROL 用户]](http://adminconsole.adobe.com/enterprise/overview)，请按照以下步骤4-7进行操作。
 
-
 >[!NOTE]
 >
 >您可以直接 [或 [!UICONTROL 从]](http://adminconsole.adobe.com/enterprise/overview) Brand Portal登录AdobeAdmin Console。 如果您直接登录，请按照以下步骤中的步骤4-7添加用户。
-
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -69,9 +66,11 @@ Comment Type: draft
 1. 在Admin Console中，执行以下操作之一以创建新用户：
 
    * 在顶部的工具栏中，单击“ **[!UICONTROL 概述]**”。 在“概 [!UICONTROL 述] ”页面中，单 **[!UICONTROL 击Brand Portal产]** 品卡中的“分配用户”。
+
    ![Admin Console概述](assets/admin_console_overviewadduser.png)
 
    * 在顶部的工具栏中，单击“ **[!UICONTROL 用户]**”。 在“用 [!UICONTROL 户] ”页面 [!UICONTROL 中] ，默认情况下会选择左边栏中的“用户”。 单击“ **[!UICONTROL 添加用户]**”。
+
    ![Admin Console添加用户](assets/admin_console_adduseruserpage.png)
 
 1. 在“添加用户”对话框中，键入要添加的用户的电子邮件ID，或从键入时显示的建议列表中选择该用户。
@@ -94,7 +93,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >您可以直接或 [[!UICONTROL 从Brand]](http://adminconsole.adobe.com/enterprise/overview) Portal登录Admin Console。 如果您直接登 [!UICONTROL 录Admin Console] ，请按照以下步骤4-7添加产品用户档案。
-
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -129,7 +127,6 @@ Comment Type: draft
 >
 >您可以直接或 [[!UICONTROL 从Brand]](http://adminconsole.adobe.com/enterprise/overview) Portal登录Admin Console。 如果您直接登录Admin Console，请按照以下步骤中的步骤4-7将用户添加到产品用户档案。
 
-
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
    ![AEM徽标](assets/aemlogo.png)
@@ -150,9 +147,11 @@ Comment Type: draft
 1. 要向产品用户档案添加个人用户，请执行以下操作：
 
    * 单击“ **[!UICONTROL 添加用户]**”。
+
    ![要在Brand Portal中映射产品用户档案的组](assets/admin_console_productprofilesalesgroup.png)
 
    * 在“将 [!UICONTROL 用户添加到销售组] ”页中，键入要添加的用户的电子邮件ID，或从键入时显示的建议列表中选择该用户。
+
    ![将用户添加到组](assets/admin_console_addusertosalesgroup.png)
 
    * 单击&#x200B;**[!UICONTROL 保存]**。
@@ -162,9 +161,11 @@ Comment Type: draft
 1. 要将批量用户添加到产品用户档案，请执行以下操作：
 
    * 选 **[!UICONTROL 择省略号(...)>通过CSV添加用户]**。
+
    ![批量添加用户](assets/admin_console_addbulkusers.png)
 
    * 在“ **[!UICONTROL 通过CSV添加用户]** ”页面中，下载CSV模板或拖放CSV文件。
+
    ![通过csv添加用户](assets/admin_console_addbulkuserscsv.png)
 
    * Click **[!UICONTROL Upload]**.
@@ -179,7 +180,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >您可以直接或 [[!UICONTROL 从Brand]](https://adminconsole.adobe.com/enterprise/overview) Portal登录Admin Console。 如果您直接登 [!UICONTROL 录Admin Console] ，请按照以下步骤中的步骤4-8将用户添加到产品用户档案。
-
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -271,7 +271,6 @@ Comment Type: draft
 >[!NOTE]
 >
 >对于作为链接共享的资产，将根据共享资产的用户的权限，应用访问图像文件原始演绎版的权限。
-
 
 要修改角色并有权访问特定用户组成员的原始演绎版，请执行以下步骤：
 
