@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -32,6 +32,7 @@ AEM管理员在配置贡献文件夹的属性时执行以下活动。
 然后，管理员可以在将新创建的“贡献”文件夹发布到Brand Portal之前，向Brand Portal用户／组授予对贡献文件夹的访问权限。
 
 **要配置贡献文件夹属性，请执行以下操作：**
+
 1. 登录AEM作者实例默认URL: http://本地主机：4502/aem/start.html
 1. 导航到 **[!UICONTROL 资产>文件]** ，然后找到贡献文件夹。
 1. 选择贡献文件夹，然后单 **[!UICONTROL 击属性]**![](assets/properties.png)。 “文件夹属性”(Folder properties)窗口打开。
@@ -40,11 +41,10 @@ AEM管理员在配置贡献文件夹的属性时执行以下活动。
 1. 输入贡献文 **[!UICONTROL 件夹]** 的高级描述。
 1. 单击 **[!UICONTROL 上传]** 摘要 ![](assets/upload.png) ，从本地计算机浏览并上传 **资产需求文档**。
 1. 在“添 **[!UICONTROL 加用户或组]** ”字段中，添加要与其共享贡献文件夹的Brand Portal用户。 添加的用户可以使用品牌门户界面访问内容并将内容上传到贡献文件夹。 当前，无法将组添加到贡献文件夹。
-
 1. 单击&#x200B;**[!UICONTROL 保存]**。
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >搜索结果基于在AEM Assets中配置的Brand Portal用户列表。 确保已更新Brand Portal用户列表。 请参阅， [上传品牌门户用户列表](brand-portal-configure-asset-sourcing.md)。
-
