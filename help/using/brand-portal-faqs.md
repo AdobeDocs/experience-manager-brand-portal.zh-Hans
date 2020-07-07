@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -133,9 +133,6 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 >[!NOTE]
 >
 >如果您不是现有Brand Portal用户，请请求AEM管理员在AEM管理控制台中创建您的用户，并将您的用户档案添加到Brand Portal用户列表中的用户配置文件。 请参阅 [添加Brand Portal用户](brand-portal-configure-asset-sourcing.md)。
-
-
-
 
 **Ques。 用户导入的CSV文件的格式是什么？**
 
