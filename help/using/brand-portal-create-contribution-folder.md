@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9c3002429d003c67b8e3f2770d5b9e39d053b20b
+source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ AEM管理员和具有创建新文件夹权限的非管理员用户可以在AEM A
 
 >[!NOTE]
 >
->非管理员用户只能创建和共享贡献文件夹。 请确保为贡献文件夹提供相应的名称，因为非管理员用户在创建后无法修改或删除贡献文件夹。
+>非管理员用户只能创建和共享资产贡献文件夹。 创建贡献文件夹后，非管理员用户便无法修改或删除它。
 >
->不支持嵌套贡献文件夹。 您可以在一个文件夹中创建多个贡献文件夹，但不要在另一个贡献文件夹中创建贡献文件夹。
+>不支持嵌套资产贡献文件夹。 您可以在一个文件夹中创建多个贡献文件夹，但不得在另一个贡献文件夹内创建贡献文件夹。
 
