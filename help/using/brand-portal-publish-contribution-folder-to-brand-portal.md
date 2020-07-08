@@ -1,8 +1,8 @@
 ---
 title: '将贡献文件夹发布到Brand Portal '
 seo-title: 将贡献文件夹发布到Brand Portal
-description: 在Brand Portal 6.4.5中，深入了解如何将贡献文件夹从AEM资产发布到Brand Portal。
-seo-description: 在Brand Portal 6.4.5中，深入了解如何将贡献文件夹从AEM资产发布到Brand Portal。
+description: 深入了解在Brand Portal 6.4.5中将贡献文件夹从AEM Assets发布到Brand Portal。
+seo-description: 深入了解在Brand Portal 6.4.5中将贡献文件夹从AEM Assets发布到Brand Portal。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 将贡献文件夹发布到Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-配置贡 [献文件夹后](brand-portal-configure-contribution-folder-properties.md),AEM用户（管理员／非管理员用户）可以将贡献文件夹从AEM资产发布到Brand Portal。 拥有访问贡献文件夹权限的Brand Portal用户／组在发布操作完成后将收到电子邮件／脉冲通知。
+配置贡 [献文件夹后](brand-portal-configure-contribution-folder-properties.md),AEM用户（管理员／非管理员用户）可以将贡献文件夹从AEM Assets发布到Brand Portal。 拥有访问贡献文件夹权限的Brand Portal用户／组在发布操作完成后将收到电子邮件／脉冲通知。
 
 **要发布贡献文件夹，请执行以下操作：**
 
@@ -31,4 +31,4 @@ ht-degree: 0%
    ![](assets/publish-contribution-folder-to-bp.png)
 贡献文件夹发布到Brand Portal后，您会收到一条成功消息。
 
-电子邮件／脉冲通知将发送到分配给贡献文件夹的Brand Portal用户／组。 Brand Portal用户可以访问贡献文件夹并开始贡献。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)。
+会向分配到贡献文件夹的Brand Portal用户发送电子邮件／脉冲通知。 Brand Portal用户可以访问贡献文件夹并开始贡献。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)。
