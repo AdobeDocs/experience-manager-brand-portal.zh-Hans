@@ -4,17 +4,17 @@ seo-title: AEM Brand Portal 用户指南
 description: AEM Brand Portal 用户指南
 seo-description: 介绍如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 90%
+source-wordcount: '349'
+ht-degree: 81%
 
 ---
 
 
 # 简介
 
-Brand Portal 可以将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而帮助组织满足其营销需求。
+**Adobe Experience Manager(AEM)资产品牌门户** ，通过将已批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，帮助组织满足其营销需求。
 
 缺乏安全保障的资产共享解决方案可能导致：
 
@@ -45,8 +45,8 @@ Brand Portal 可以将获得批准的品牌和产品资产安全地分发给外�
 | [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 对 Brand Portal 和 AEM Assets 之间的复制问题进行故障诊断。 |
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
-| [品牌门户中的资产来源补充](brand-portal-asset-sourcing.md) | 如何在AEM资产中配置资产来源补充、在Brand Portal中上传资产并将贡献文件夹发布回AEM资产。 |
+| [品牌门户中的资产来源补充](brand-portal-asset-sourcing.md) | 如何在AEM Assets中配置资产来源补充、在Brand Portal中上传资产并将贡献文件夹发布回AEM Assets。 |
 
 ### 有用资源
 
-* [了解Brand Portal与AEM资产](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
+* [了解品牌门户与AEM Assets](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
