@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 643514893d72dd34022a3b804daeca083eb67ad4
+source-git-commit: 7ec61993e627f07c20a2e5a2b43f2daa629622d6
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ AEM管理员和非管理员用户有权创建新文件夹，可以在AEM Assets�
 1. 输入 **[!UICONTROL 文]** 件夹的 **[!UICONTROL 标题]** 和名称 **[!UICONTROL ，然后启用“资]** 产贡献”复选框。
 建议使用小写字母来命名文件夹，但不要有任何空格。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。您可以看到新创建的贡献文件夹列在AEM Assets存储库中。
+1. 单击&#x200B;**[!UICONTROL 创建]**。您可以看到AEM Assets存储库中列出的贡献文件夹。
 
    >[!NOTE]
    >
