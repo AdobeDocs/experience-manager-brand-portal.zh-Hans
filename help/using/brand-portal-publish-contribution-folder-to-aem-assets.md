@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3fa975c598adda96f2358621bc06038186aeeb2f
+source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,16 @@ Brand Portal用户可以将贡献文件夹发布到AEM Assets，无需访问AEM�
 **要发布贡献文件夹，请执行以下操作：**
 
 1. 登录您的Brand Portal实例。
-1. 从Brand Portal仪表板中选择贡献文件夹。
-1. 单击 **[!UICONTROL 发布到AEM]**![](assets/export.png)。
+1. 从仪表板中选择贡献文件夹。
+1. 单击 **[!UICONTROL 发布到AEM]**
+
+   ![](assets/export.png)。
+
    ![](assets/publish-contribution-folder-to-aem.png)
 
 将向位于发布工作流程不同阶段的Brand Portal用户和管理员发送电子邮件／脉冲通知：
 1. **排队** -在Brand Portal中触发发布工作流时，将向Brand Portal用户和Brand Portal管理员发送通知。
 
-1. **完成** -发布工作流程完成时，将向Brand Portal用户和Brand Portal管理员发送通知，即贡献文件夹已成功发布到AEM Assets。
+1. **完成** -当贡献文件夹成功发布到AEM Assets时，将向Brand Portal用户和Brand Portal管理员发送通知。
 
 
