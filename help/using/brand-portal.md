@@ -132,7 +132,7 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 ## 品牌门户URL的替代别名 {#tenant-alias-for-portal-url}
 
-从Brand Portal 6.4.3开始，组织可以拥有其Brand Portal租户的现有URL的一个替代（别名）URL。 别名URL可以通过在URL中具有替代前缀来创建。\
+从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的现有URL提供一个替代（别名）URL。 别名URL可以通过在URL中具有替代前缀来创建。\
 请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。 例如，具有现有域 **[!UICONTROL geometrix.brand-portal.adobe.com的组织]** ，可 **[!UICONTROL 以获取根据请求创建的geometrixinc.brand-portal]** .adobe.com。
 
 但是，AEM Author实例只能 [使用租](../using/configure-aem-assets-with-brand-portal.md) 户ID URL进行配置，而不能使用租户别名（备用）URL进行配置。
