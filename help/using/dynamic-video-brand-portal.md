@@ -60,7 +60,7 @@ Brand Portal用户可以：
 
 * **开始在DM(AEM Author)模式上的Dynamic Media**&#x200B;在Dynamic Media混合模式或动态媒体代码 [上开始AEM Author实例](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) (已配置品 [牌门户) [!DNL Scene 7] ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
 * **在AEM Author上配置Dynamic Media云服**&#x200B;务根据Dynamic Media模式 [AEM Author正在运行，在工具的上](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) 设置Dynamic Media云服 [[!DNL Scene 7] 务或](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 在AEM Author上设 **置云服务** | **Cloud Service** | **Dynamic Media**。
-* **在Brand Portal上配置Dynamic Media**&#x200B;根据AEM Author上的Dynamic Media云配置，从 [Brand Portal管理工具](#configure-dm-hybrid-settings) 中配 [[!DNL Scene 7] 置](#configure-dm-scene7-settings) Dynamic Media设置或设置。
+* **在Brand Portal上配置Dynamic Media**&#x200B;根据AEM Author上的Dynamic Media云配置，从Brand Portal管 [理工具中配](#configure-dm-hybrid-settings) 置 [[!DNL Scene 7] Dynamic Media设](#configure-dm-scene7-settings) 置或设置。
 如果您使 [用的是AEM Author混合](#separate-tenants) 、Dynamic MediaScene7模式，请确保为配置了Dynamic Media混合和Dynamic MediaS7模式的Dynamic Media实例使 **[!UICONTROL 用单独的Brand Portal租户]******。
 * **使用应用于Brand Portal的视频编码发布文件夹**&#x200B;应 [用视频编码](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) ，并将包含富媒体资产的文件夹从AEM Author实例发布到Brand Portal。
 * **允许列表启用安全预览时，在SPS中出口IP如果使用Dynamic Media-**(对公司启用安全&#x200B;**[!DNL Scene 7]** 预览)，则建议 [](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html)**[!DNL Scene 7]**[](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)**** 公司管理员允许列表使用SPS发布系统闪存(SPS Publishing Scene 7 Scene Publishing System)为各自的区域公共出口IP。
@@ -103,7 +103,7 @@ Brand Portal用户可以：
 
 ## 配置Dynamic Media（混合）设置 {#configure-dm-hybrid-settings}
 
-如果AEM Author实例在动态媒体混合模式下运行，则使 **[!UICONTROL 用管理工具]** 面板中的视频拼贴来配置Dynamic Media网关设置。
+如果AEM Author实例在动态媒体混合模式下运行，则使用 **[!UICONTROL 管理工具]** 面板中的视频拼贴来配置Dynamic Media网关设置。
 
 >[!NOTE]
 >
