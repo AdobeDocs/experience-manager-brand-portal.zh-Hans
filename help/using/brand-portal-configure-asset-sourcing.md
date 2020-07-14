@@ -32,7 +32,7 @@ AEM管理员可以从 **AEM作者实例** 中配置资产来源补充。 管理�
 
 ## 启用资产来源补充 {#enable-asset-sourcing}
 
-AEM管理员可以从AEM Web控制台配置（也称为配置管理器）中启用资产来源补充。
+AEM管理员可以从AEM Web控制台配置（又称配置管理器）中启用资产来源补充。
 
 **要启用资产来源补充，请执行以下操作：**
 1. 登录到AEM作者实例并打开Configuration Manager默认URL: http:// localhost:4502/system/console/configMgr
