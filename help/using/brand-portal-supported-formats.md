@@ -1,22 +1,25 @@
 ---
 title: 支持的文件格式
 seo-title: 支持的文件格式
-description: '每个AEM Assets Brand Portal都支持特定的文件格式，如矩阵中所示。 '
-seo-description: '每个AEM Assets Brand Portal都支持特定的文件格式，如矩阵中所示。 '
+description: '每个AEM Assets品牌门户支持特定文件格式，如矩阵中所示。 '
+seo-description: '每个AEM Assets品牌门户支持特定文件格式，如矩阵中所示。 '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
-content-type: 引用
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: 简介
+topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 53%
 
 ---
 
 
 # 支持的文件格式 {#supported-file-formats}
 
-每个AEM Assets Brand Portal都支持特定的文件格式，如矩阵中所示。
+每个AEM Assets品牌门户支持特定文件格式，如矩阵中所示。
 
 | 文件格式 | 已发布到Brand Portal的资产 | 已发布到Brand Portal的演绎版 | 已发布到Brand Portal的元数据 | 已发布到Brand Portal的缩略图 | 已发布到Brand Portal的资产详细信息页面 | 链接共享 | 链接共享缩略图 | 链接共享预览 |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
@@ -78,11 +81,11 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 | TAR | ✓ | NA | ✓ | NA | NA | ✓ | NA | ✕ |
 | Zip | ✓ | ✓ | ✓ | ✓ | NA | ✓ | ✓ | ✕ |
 
-以下图例解释了矩阵中使用的符号：
+下图说明矩阵中使用的符号：
 
 | 符号 | 意义 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | ✓ | 此文件格式支持此功能。 |
-| ✕ | This file format does not support this feature. |
+| ✕ | 此文件格式不支持此功能。 |
 | NA | 此功能不适用于此文件格式。 |
-| * | This feature requires add-on support for this file format on AEM author instance but not on Brand Portal after assets are published to Brand Portal. |
+| * | 此功能要求在将资产发布到Brand Portal后，在AEM作者实例上支持此文件格式，但在Brand Portal上不支持。 |
