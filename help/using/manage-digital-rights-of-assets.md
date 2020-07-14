@@ -75,7 +75,7 @@ ht-degree: 2%
 
 从Brand Portal下载许可资产前，须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资产时，即会达成此许可资产协议。 无论是否过期，受许可证保护的资产都可供所有用户查看。 但是，过期的许可资产的下载和使用受到限制。 要了解过期的许可资产行为以及根据用户角色允许的活动，请参阅 [过期资产的使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
 
-受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可证协议 [，可通过在AEM Assets中设置资产的元](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 数据属性。
+受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可证协议 [，可通过在AEM Assets中设置资产的元](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 数据属性来完成。
 
 如果您选择下载受许可证保护的资产，则会将您重定向到“版权 **[!UICONTROL 管理]** ”页面。
 
