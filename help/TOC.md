@@ -23,7 +23,7 @@ ht-degree: 70%
    + [常见问题](using/brand-portal-faqs.md)
    + [支持的文件格式](using/brand-portal-supported-formats.md)
    + [来宾访问 Brand Portal](using/guest-access.md)
-   + [了解Brand Portal与AEM资产](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
+   + [了解品牌门户与AEM Assets](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上浏览资产](using/browse-assets-brand-portal.md)
 + 从 AEM Assets 发布到 Brand Portal {#publish}
    + [使用 Brand Portal 配置 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
@@ -36,7 +36,7 @@ ht-degree: 70%
 + 品牌门户中的资产来源补充 {#asset-sourcing-in-brand-portal}
    + [概述](using/brand-portal-asset-sourcing.md)
    + [在AEM中配置资产来源补充](using/brand-portal-configure-asset-sourcing.md)
-   + 在AEM资产中配置贡献文件夹 {#configure-contribution-folder}
+   + 在AEM Assets中配置贡献文件夹 {#configure-contribution-folder}
       + [概述](using/brand-portal-contribution-folder.md)
       + [创建贡献文件夹](using/brand-portal-create-contribution-folder.md)
       + [配置贡献文件夹属性](using/brand-portal-configure-contribution-folder-properties.md)
@@ -46,7 +46,7 @@ ht-degree: 70%
       + [概述](using/brand-portal-overiew-using-asset-sourcing.md)
       + [下载资产要求](using/brand-portal-download-asset-requirements.md)
       + [将资产上传到贡献文件夹](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [将贡献文件夹发布到AEM资产](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [将贡献文件夹发布到AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 与用户共享资产 {#share}
    + [共享收藏集](using/brand-portal-share-collection.md)
    + [共享文件夹](using/brand-portal-sharing-folders.md)
