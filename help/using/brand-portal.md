@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 8%
@@ -68,7 +68,7 @@ Brand Portal支持以下用户角色：
 
 *客人用户只能浏览、访问和搜索公共文件夹和集合中的资产。
 
-*查看器用户可以视图和下载与他们共享的公共资产，还可以添加这些资产以创建自己的集合。
+*查看器用户可以访问和下载与其共享的公共资产，并可以添加这些资产以创建自己的集合。
 
 >[!NOTE]
 >
@@ -214,7 +214,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 
    ![编辑个人资料](assets/EditBPProfile.png)
 
-1. 在 [!UICONTROL Experience Cloud] “设置”页面上，从“语言  ”下拉菜单中选择一种语言。
+1. 在 [!UICONTROL Experience Cloud] “设置”页面上，从“语 [!UICONTROL 言] ”下拉菜单中选择语言。
 
 ## 品牌门户维护通知 {#brand-portal-maintenance-notification}
 
