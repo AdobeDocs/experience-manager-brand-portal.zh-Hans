@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,12 @@ Brand Portal常见问题解答侧重于最终用户在使用最新AEM AssetsBran
 **Ques。 现有旧版OAuth端点(`https://legacy-oauth.cloud.adobe.io/login`)无效。 可能的原因是什么？**
 
 **安。** 旧版OAuth配置已弃用。 您必须将AEM Assets作者实例升级到最新的Service Pack，并通过Adobe开发人员控制台进行配置。 有关 [详细信息，请参阅使用Brand Portal](configure-aem-assets-with-brand-portal.md) 配置AEM Assets。 但是，要使旧版OAuth配置在升级之前正常工作，请将旧版OAuth端点更新为 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+
+
+**Ques。 我已使用管理员共享的资产链接创建了一个集合。 但我无法为我的集合创建共享链接。 我是否需要特殊权限才能执行此操作？**
+
+**安。** 该功能是设计的，查看器用户不允许共享集合的链接，因为他们具有有限的权限，因此他们无法添加用户来创建共享链接。 查看器用户当前可以看到集合的共享链接，这是一个已知问题。 此问题将在即将发布的版本中修复，查看器用户将无法使用共享集合链接的选项。
+
 
 **Ques。 升级到Adobe Developer Console后，我无法将贡献文件夹的资产从Brand Portal发布到AEM Assets。 我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
 
