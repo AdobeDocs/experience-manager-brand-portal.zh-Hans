@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1603'
 ht-degree: 8%
 
 ---
@@ -62,11 +62,18 @@ Brand Portal支持以下用户角色：
 |  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享收藏集** | **以链接方式共享资产** | **访问管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **客人用户** | ✓* | ✓* | ✓* | x | x | x | x |
-| **查看者** | ✓ | ✓ | ✓ | x | x | x | x |
+| **查看者** | ✓* | ✓* | ✓* | x | x | x | x |
 | **编辑者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理员** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 *客人用户只能浏览、访问和搜索公共文件夹和集合中的资产。
+
+*查看器用户可以视图和下载与他们共享的公共资产，还可以添加这些资产以创建自己的集合。
+
+>[!NOTE]
+>
+>已知问题是查看器用户当前可以看到集合的共享链接。 查看器用户无权添加用户以创建共享链接。 此问题将在即将发布的版本中修复，查看器用户将无法使用共享集合链接的选项。
+
 
 ### Guest user {#guest-user}
 
