@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,11 @@ Brand Portal常见问题解答侧重于最终用户在使用最新AEM AssetsBran
 
 **安。** 旧版OAuth配置已弃用。 您必须将AEM Assets作者实例升级到最新的Service Pack，并通过Adobe开发人员控制台进行配置。 有关 [详细信息，请参阅使用Brand Portal](configure-aem-assets-with-brand-portal.md) 配置AEM Assets。 但是，要使旧版OAuth配置在升级之前正常工作，请将旧版OAuth端点更新为 `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
+<!--
+**Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
 
-**Ques。 我已使用管理员共享的资产链接创建了一个集合。 但我无法为我的集合创建共享链接。 我是否需要特殊权限才能执行此操作？**
-
-**安。** 该功能是设计的，查看器用户不允许共享集合的链接，因为他们具有有限的权限，因此他们无法添加用户来创建共享链接。 查看器用户当前可以看到集合的共享链接，这是一个已知问题。 此问题将在即将发布的版本中修复，查看器用户将无法使用共享集合链接的选项。
-
+**Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
+-->
 
 **Ques。 升级到Adobe Developer Console后，我无法将贡献文件夹的资产从Brand Portal发布到AEM Assets。 我的作者实例位于AEM 6.5.4上。可能的原因是什么？**
 
@@ -138,7 +138,7 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 
 >[!NOTE]
 >
->如果您不是现有的Brand Portal用户，请请求AEM管理员在AEM管理控制台中创建您的用户，并将您的用户档案添加到Brand Portal用户列表中的用户配置文件。 请参阅 [添加Brand Portal用户](brand-portal-configure-asset-sourcing.md)。
+>如果您不是现有Brand Portal用户，请请求AEM管理员在AEM管理控制台中创建您的用户，并将您的用户档案添加到Brand Portal用户列表中的用户配置文件。 请参阅 [添加Brand Portal用户](brand-portal-configure-asset-sourcing.md)。
 
 **Ques。 用户导入的CSV文件的格式是什么？**
 
