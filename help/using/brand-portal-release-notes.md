@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '813'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 ## 概述 {#overview}
 
-Adobe Experience Manager(AEM)资产品牌门户可帮助您轻松获取、控制获准的创意资产，并跨设备将获准的创意资产安全地分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
+Adobe Experience Manager(AEM)资产品牌门户可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
 ## 6.4.6.2 的新增功能 {#what-s-new-in-6462}
 
@@ -56,7 +56,7 @@ Adobe Experience Manager(AEM)资产品牌门户可帮助您轻松获取、控制
 
 此版本包含以下已知问题：
 
-* 查看器用户当前可看到集合的共享链接。
+* 查看器用户不得共享集合的链接，但产品界面中会显示共享选项。
 
 * 如果层次结构中的文件夹是从AEM Assets重命名的，并且包含资产的嵌套文件夹已发布到Brand Portal，则只有在根文件夹再次发布后，该文件夹的标题才会在Brand Portal中更新。
 
