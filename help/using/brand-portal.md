@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1522'
 ht-degree: 8%
 
 ---
@@ -62,18 +62,21 @@ Brand Portal支持以下用户角色：
 |  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享收藏集** | **以链接方式共享资产** | **访问管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **客人用户** | ✓* | ✓* | ✓* | x | x | x | x |
-| **查看者** | ✓* | ✓* | ✓* | x | x | x | x |
+| **查看者** | ✓ | ✓ | ✓ | x | x | x | x |
 | **编辑者** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理员** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 *客人用户只能浏览、访问和搜索公共文件夹和集合中的资产。
 
-*查看器用户可以访问和下载与其共享的公共资产，并可以添加这些资产以创建自己的集合。
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->已知问题是查看器用户当前可以看到集合的共享链接。 查看器用户无权添加用户以创建共享链接。 此问题将在即将发布的版本中修复，查看器用户将无法使用共享集合链接的选项。
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Guest user {#guest-user}
 
