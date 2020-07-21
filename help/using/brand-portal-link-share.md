@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1118'
 ht-degree: 6%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 6%
 
 # 以链接方式共享资产 {#share-assets-as-a-link}
 
-AEM Assets品牌门户管理员和编辑人员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑人员只能视图和共享与他们共享的资源。
+AEM Assets品牌门户管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑人员只能视图和共享与他们共享的资源。
 
-通过链接共享资产是一种方便的方式，使外部方可以使用这些资产，因为接收方不必登录Brand Portal即可访问资产。 接收者（查看器用户）可以访问和下载与其共享的公共资源，并可以添加这些资源以创建自己的集合。
+通过链接共享资产是一种方便的方式，使外部方可以使用这些资产，因为接收方不必登录Brand Portal即可访问资产。
+
+链接共享访问权限仅限编辑人员和管理员。
 
 有关详细信息，请 [参阅管理用户、组和用户角色](../using/brand-portal-adding-users.md#manage-user-roles)。
 
