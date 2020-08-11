@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 2%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 6.4.7中的更改 {#what-changed-in-647}
 
-Brand Portal 6.4.7版本侧重于改进文档查看器体验、配置从Brand Portal下载资产以及客户的热门请求。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
+Brand Portal 6.4.7版本引入了文档查看器，增强了下载资产的体验，并包含关键修复。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### 文档查看器 {#doc-viewer}
 
-文档 *查看器* 可增强PDF查看器体验。 在Brand Portal中查看PDF文件时，它提供的体验与Adobe Document Cloud类似。
+文档查看器增强了PDF查看体验。 在Brand Portal中查看PDF文件时，它提供的体验与Adobe Document Cloud类似。
 
-以前，再现仅可用于PDF文件的第一页，默认PDF查看器中的可用选项也受到限制。
+以前，视图PDF文件时有限的选项可用。
 
-通过 *文档* Viewer实施，Brand Portal用户可以视图PDF元数据并体验新选项来播放PDF文件，如页面视图、索引视图、联机搜索、放大、缩小、上一页、下一页、切换到页面、适合窗口、适合屏幕、隐藏或取消隐藏工具栏。
+借助文档查看器，Brand Portal用户现在可以选择视图页面、视图书签、搜索页面文本、放大、缩小、导航到上一页和下一页、切换到页面、适合窗口、适合屏幕以及隐藏或取消隐藏工具栏。
 
-现在为Brand Portal用户提供改进的PDF查看器体验时，其他格式的体验保持不变。
+>[!NOTE]
+>
+>其他文档格式的查看体验保持不变。
+
+
 
 ![](assets/doc-viewer.png)
 
-### 下载设置 {#download-configurations}
+### 下载体验 {#download-configurations}
 
-下载设置是一种新配置，使Brand Portal管理员能够从Brand Portal配置资产下载。
+改进了资产下载过程，在从Brand Portal下载资产时提供简化的用户体验。
 
-从Brand Portal下载资产的现有工作流不可避免地会出现一个弹出窗口，其中包含多个可供选择的下载选项。
+从Brand Portal下载资产的现有工作流不可避免地会出现“下载 **** ”对话框，其中包含多个可供选择的下载选项。
 
-在Brand Portal 6.4.7中，可以从Brand Portal用户界面配置下载资产。 快速下载、自定义演绎版和系统演绎版是三种可用配置。 Brand Portal管理员可以选择任意组合来配置资产下载。 管理员还可以启用或禁用这些配置。
+在Brand Portal 6.4.7中，Brand Portal管理员可以配置资产下载 **[!UICONTROL 设]** 置。 可用的配置有：
+* **[!UICONTROL 快速下载]**
+* **[!UICONTROL 自定义呈现版本]**
+* **[!UICONTROL 系统呈现版本]**
 
-快速下载配置在资源下载过程中会跳过弹出窗口的外观。 对于自定义演绎版、系统演绎版或多个配置，将显示弹出窗口，并下载原始资产以及资产演绎版。
+Brand Portal管理员可以启用任何组合来配置资产下载。
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* 如果关闭了所有这三种配置，则下载资产时无需任何其他对话框，从而简化了Brand Portal用户的下载体验。 根据配置，下载工作流对于独立资产、多个资产、包含资产的文件夹、授权或未授权的资产，以及当使用共享链接下载资产时，都保持不变。
+
+* 如果启用了任 **[!UICONTROL 何“自定]** 义演绎版 **[!UICONTROL ”或“系统演绎版]** ”，则会显示“ **[!UICONTROL 下载]** ”对话框，并下载原始资产以及资产演绎版。 启用 **[!UICONTROL “快速下载]** ”配置可加快下载过程。
 
 ![](assets/download-configuration.png)
 
@@ -125,7 +142,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
-拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
