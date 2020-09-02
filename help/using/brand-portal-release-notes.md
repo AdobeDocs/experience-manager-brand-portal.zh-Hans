@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 72a04e29d48ea5187d6624fdea5ec425e29e4a7a
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '506'
 ht-degree: 10%
 
 ---
@@ -59,7 +59,7 @@ For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
 * 搜索显示某些关键字的结果需要更长的时间。
 
-* 下载 **[!UICONTROL 过程中]** ，批量 **[!UICONTROL 选择许可和未授权的资]** 源时，不会显示“同意”和“反对”复选框。
+* 下载 **[!UICONTROL 过程中]** ，批量 **[!UICONTROL 选择许可和未授权的资源时]** ，不会显示“同意”和“反对”复选框。
 
 * 基于筛选器的搜索显示在产品界面上的处理，没有搜索结果。
 
