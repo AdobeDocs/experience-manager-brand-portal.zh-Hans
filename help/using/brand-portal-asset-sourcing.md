@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 # 资产来源补充概述 {#overview-asset-sourcing-in-bp}
 
-**资产来源** -允许AEM用户（管理员／非管理员用户）使用其他“资产贡献”属性创建新文 **件夹** ，从而确保创建的新文件夹可由Brand Portal用户通过资产提交方式打开。 这会自动触发一个工作流，该工作流会在新创建的Contribution **文件夹内** ，创建另外两个名 **为** SHARED和NEW **** 的子文件夹。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产上传到SHARED文件夹，以确保BP用户获得所需的参考信息，从而定 **义** 此要求。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动Brand Portal用户授予对贡 **献文** 件夹的访问权限。 用户在NEW文件夹中添加完内 **容后** ，即可将贡献文件夹发布回AEM作者环境。 请注意，完成导入并在AEM Assets内反映新发布的内容可能需要几分钟时间。
+**资产来源** -AEM用户（管理员／非管理员用户）可以使用其他“资产贡献”属性创建新文 **件夹** ，从而确保创建的新文件夹可以由Brand Portal用户通过资产提交方式打开。 这会自动触发一个工作流，该工作流会在新创建的Contribution **文件夹内** ，创建另外两个名 **为** SHARED和NEW **** 的子文件夹。 AEM管理员随后会定义此要求，方法是将应添加到贡献文件夹的资产类型以及一组基准资产的简报上传到 **SHARED** 文件夹，以确保BP用户获得所需的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授 **予对** 贡献文件夹的访问权限。 用户在NEW文件夹中添加完内 **容后** ，即可将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM Assets内新发布的内容可能需要几分钟时间。
 
 此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹中视图、搜索和下载资产。 此外，管理员还可以进一步共享贡献文件夹、修改属性以及向收藏集添加资产。
 
@@ -41,7 +41,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM Assets云服务不支持资产来源补充。
+>AEM Assets作为Cloud Service不支持资产来源补充。
+
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -50,11 +51,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->AEM 6.5.4中存在一个已知问题。在升级到Adobe开发人员控制台时，Brand Portal用户无法将贡献文件夹的资产发布给AEM Assets。
+>AEM 6.5.4中存在已知问题。在升级到Adobe开发人员控制台时，Brand Portal用户无法将贡献文件夹的资产发布到AEM Assets。
 >
->此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并 [在Adobe开发人员控制台](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 上升级配置。
+>此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的服务包AEM 6.5.5，并在Adobe开发 [人员控制台上](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 升级您的配置。
 >
 >要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在创作实例上安装。
+
 
 ## 另请参阅 {#reference-articles}
 
