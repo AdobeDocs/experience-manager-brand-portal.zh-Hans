@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 3%
+source-wordcount: '402'
+ht-degree: 4%
 
 ---
 
@@ -25,12 +25,11 @@ AEM Assets品牌门户允许组织为特定租户配置以下功能：
 * 管理员删除资产
 * 非管理员用户创建公共集合
 * 非管理员用户创建公共智能集合
-* 下载加速
 * 对非管理员用户可见的共享文件夹的父层次结构
 
 这些配置已作为“一般 **[!UICONTROL 设置]** ”配置提供在管理工具面板上。
 
-![](assets/general-configs.png)
+![](assets/general-config.png)
 
 **允许管** 理员从Brand Portal中删除资产的配置。 （默认为启用）
 
@@ -38,9 +37,7 @@ AEM Assets品牌门户允许组织为特定租户配置以下功能：
 
 **配置** ，允许非管理员用户创建公共智能集合。 （默认为启用）
 
-**D** Configuration（配置），允许下载从门户和共享链接下载的资源的加速。 （默认为禁用）
-
-**E** Configuration（配置），用于向非管理员用户（编辑者、查看者、来宾用户）显示共享文件夹的文件夹层次结构（从根文件夹）。 （默认为禁用）
+**配置** ：将共享文件夹的文件夹层次结构（从根目录）显示给非管理员用户（编辑者、查看者、来宾用户）。 （默认为禁用）
 
 ## 启用／禁用常规配置 {#enable-disable-general-configurations}
 
@@ -65,9 +62,11 @@ AEM Assets品牌门户允许组织为特定租户配置以下功能：
 
 [[!UICONTROL 允许公共智能集合创建]](../using/brand-portal-searching.md#main-pars-header-500620467) 配置控制非管理员是否可以将其搜索另存为智能集合并将其公开给该租户。 默认情况下，该配置处于启用状态。 通过禁用配置，组织可以防止组织的品牌门户上有大量由非管理员用户创建的公共智能集合。
 
-## 允许下载加速 {#allow-download-acceleration}
+<!-- 
+## Allow download acceleration {#allow-download-acceleration}
 
-[[!UICONTROL 允许下载加速]](../using/accelerated-download.md) 配置允许组织通过与IBM Aspera Connect（按需安装的应用程序）集成，加快从Brand Portal和共享链接下载资源的速度。 该应用程序使用专有技术来消除TCP开销。
+[[!UICONTROL Allow download acceleration]](../using/accelerated-download.md) configuration lets the organizations to allow accelerated downloads of assets from Brand Portal and shared links, by integrating with IBM Aspera Connect that is an install-on-demand application. The application uses proprietary technology to remove TCP overheads.
+-->
 
 ## 启用文件夹层次结构 {#enable-folder-hierarchy}
 
