@@ -1,17 +1,17 @@
 ---
 title: AEM Assets品牌门户概述
 seo-title: AEM Assets品牌门户概述
-description: AEM Assets品牌门户可以帮助您轻松地跨设备获得、控制和安全地将获准的创意资产分发给外部方和内部业务用户。
-seo-description: AEM Assets品牌门户可以帮助您轻松地跨设备获得、控制和安全地将获准的创意资产分发给外部方和内部业务用户。
+description: AEM Assets品牌门户可帮助您轻松获取、控制获准的创意资产并将它们安全地分发给外部方和跨设备的内部业务用户。
+seo-description: AEM Assets品牌门户可帮助您轻松获取、控制获准的创意资产并将它们安全地分发给外部方和跨设备的内部业务用户。
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1524'
 ht-degree: 8%
 
 ---
@@ -23,30 +23,30 @@ ht-degree: 8%
 
 但是，开发解决方案是一个挑战，它们支持与扩展的内部团队、合作伙伴和经销商高效、安全地共享经批准的品牌徽标、准则、活动资产或产品照片。
 
-**Adobe Experience Manager(AEM)资产品牌门户** ，注重营销人员通过提供资产分发和资产贡献功能与全球分布的品牌门户用户进行有效协作的需求。
+**Adobe Experience Manager(AEM** )Assets Brand Portal注重营销人员通过提供资产分发和资产贡献功能与全球分布的Brand Portal用户进行有效协作的需要。
 
-通过资产分发，您可以轻松地跨设备向外部方和内部业务用户分发获准的创意资产，并对其进行控制和安全分发。 但是，资产贡献使Brand Portal用户能够将资产上传到Brand Portal并发布到AEM Assets，而无需访问作者环境。 贡献功能在品牌门户 **中称为资产来源补充**。 此外，它还改善了Brand Portal用户（外部机构／团队）在资产分发和贡献方面的整体Brand Portal体验，加快了资产上市时间，并降低了不合规和未经授权的访问风险。
+通过资产分发，您可以轻松地跨设备向外部方和内部业务用户分发获准的创意资产，并对其进行控制和安全分发。 但是，资产贡献使Brand Portal用户能够将资产上传到Brand Portal并发布到AEM Assets，而无需访问作者环境。 贡献功能在品牌门户 **中称为资产来源补充**。 此外，它还改善了Brand Portal用户（外部机构／团队）在资产分发和贡献方面的整体Brand Portal体验，加快了资产上市时间，并降低了不合规和未授权访问的风险。
 请参阅， [品牌门户中的资产来源补充](brand-portal-asset-sourcing.md)。
 
 基于浏览器的门户环境使您能够轻松上传、浏览、搜索、预览和导出已批准格式的资产。
 
 ## 使用 Brand Portal 配置 AEM Assets {#configure-brand-portal}
 
-Adobe Experience Manager(AEM)资产通过Adobe开发人员控制台配置为品牌门户，该控制台为您的品牌门户租户购买IMS令牌以进行授权。
+Adobe Experience Manager(AEM)资产通过Adobe开发者控制台配置了品牌门户，该控制台为您的品牌门户租户购买IMS令牌以进行授权。
 
 >[!NOTE]
 >
->AEM Assets云服务、AEM Assets6.3及更高版本支持通过Adobe开发人员控制台使用品牌门户配置AEM Assets。
+>通过Adobe开发人员控制台将AEM Assets与品牌门户配置在AEM Assets作为AEM Assets6.3及更高版本的Cloud Service受支持。
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
 您需要以下各项才能使用 Brand Portal 配置 AEM Assets：
 
-* 一个正在运行的AEM Assets实例。
+* 正在运行的AEM Assets实例。
 * Brand Portal 租户 URL。
 * 对 Brand Portal 租户的 IMS 组织具有系统管理员权限的用户。
 
-有关详细信息，请参 [阅使用品牌门户配置AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
+有关详细信息，请参 [阅使用Brand Poral配置AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
 ## Brand Portal中的用户角色 {#Personas}
 
@@ -132,7 +132,7 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
 [使用报告](brand-portal-reports.md)
 
-除了上述任务之外，AEM Assets中的作者还可以执行以下任务:
+除上述任务外，AEM Assets的作者还可以执行以下任务:
 
 [使用 Brand Portal 配置 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
 
@@ -145,17 +145,17 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的现有URL提供一个替代（别名）URL。 别名URL可以通过在URL中具有替代前缀来创建。\
 请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。 例如，具有现有域 **[!UICONTROL geometrix.brand-portal.adobe.com的组织]** ，可 **[!UICONTROL 以获取根据请求创建的geometrixinc.brand-portal]** .adobe.com。
 
-但是，AEM Author实例只能 [使用租](../using/configure-aem-assets-with-brand-portal.md) 户ID URL进行配置，而不能使用租户别名（备用）URL进行配置。
+但是，AEM作者实例只能 [使用](../using/configure-aem-assets-with-brand-portal.md) 租户ID URL进行配置，而不能使用租户别名（备用）URL进行配置。
 
 >[!NOTE]
 >
->要获取现有门户URL中租户名称的别名，组织需要通过新的租户别名创建请求与Adobe支持部门联系。 处理此请求的方法是先检查别名是否可用，然后创建别名。
+>要获取现有门户URL中租户名称的别名，组织需要使用新的租户别名创建请求与Adobe支持联系。 处理此请求的方法是先检查别名是否可用，然后创建别名。
 >
 >要替换旧别名或删除旧别名，需要执行相同的过程。
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
-用户可以从登录屏幕请求对Brand Portal的访问权。 这些请求将发送给Brand Portal管理员，管理员通过AdobeAdmin Console授予用户访 [!UICONTROL 问权]。 授予访问权限后，用户将收到通知电子邮件。
+用户可以从登录屏幕请求对Brand Portal的访问权。 这些请求将发送给品牌门户管理员，这些管理员通过AdobeAdmin Console授予用户 [!UICONTROL 访问权限]。 授予访问权限后，用户将收到通知电子邮件。
 
 要请求访问权限，请执行以下操作：
 
@@ -165,21 +165,21 @@ Brand Portal中的标准用户通常是具有查看器角色的用户。 具有�
 
    此时将 [!UICONTROL 打开“请求访] 问”页面。
 
-1. 要请求访问组织的Brand Portal，您必须具有有效 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]。
+1. 要请求访问组织的品牌门户，您必须具有有效的 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]。
 
    在“请 [!UICONTROL 求访问] ”页中，使用您的ID登录（方案1）或创建 [!UICONTROL Adobe ID] （方案2）:<br />
    ![[!UICONTROL 请求访问]](assets/bplogin_request_access_2.png)
 
    **方案1**
-   1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]，请单击 **[!UICONTROL “登录]**”。
+   1. 如果您有 [!UICONTROL Adobe ID]、 [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]，请单 **[!UICONTROL 击“]**登录”。
 将打开 [!UICONTROL “登录] ”页面。
-   1. 提供您的 [!UICONTROL Adobe ID] 凭据，然后单 **[!UICONTROL 击“登录”]**。<br />
+   1. 提供您的 [!UICONTROL Adobe ID] 凭据，然后 **[!UICONTROL 单击“登录”]**。<br />
 
    ![Adobe登录](assets/bplogin_request_access_3.png)
 
    您将被重定向到“请 [!UICONTROL 求访问] ”页面。<br />
    **方案2**
-   1. 如果您没有Adobe ID [!UICONTROL ，请单击“请求访]问 **[!UICONTROL ”页面中的“获取]** Adobe ID [!UICONTROL ”,] 以创建。
+   1. 如果您没有Adobe ID [!UICONTROL 语]，请单击“请求访 **[!UICONTROL 问”页]** 面中的“获 [!UICONTROL 取Adobe ID”] 。
 将打开 [!UICONTROL “登录] ”页面。
    1. Click **[!UICONTROL Get an Adobe ID]**.
 将打开 [!UICONTROL “注册] ”页面。
@@ -201,13 +201,13 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 ![访问请求的通知](assets/bplogin_request_access_7.png)
 
 要授予访问权限，产品管理员需要单击品牌门户通知区域中的相关通知，然后单击授 **[!UICONTROL 予访问权限]**。
-或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console] ，并将用户添加到相关的产品配置中。
+或者，产品管理员可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console] ，并将用户添加到相关的产品配置中。
 
-您将被重定向到 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 主页。 使用Adobe [!UICONTROL Admin Console] ，创建用户并将其分配给产品用户档案（以前称为产品配置），这些在品牌门户中显示为组。 有关在Admin Console中添加用 [!UICONTROL 户的详]细信息， [请参阅添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
+您将被重定向到 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 主页。 使用Adobe  Admin Console创建用户并将其分配给产品用户档案（以前称为产品配置），这些在品牌门户中显示为组。 有关在Admin Console中添加用 [!UICONTROL 户的详]细信息， [请参阅添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
 
 ## 品牌门户语言 {#brand-portal-language}
 
-您可以从AdobeExperience Cloud设置中更改Brand [!UICONTROL Portal语言]。
+您可以从“AdobeExperience Cloud设置”中更改 [!UICONTROL Brand Portal语言]。
 
 ![访问请求的通知](assets/BPLang.png)
 
