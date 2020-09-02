@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -26,15 +26,16 @@ Brand Portal通过与IBM Aspera Connect集成，可增强大资产文件的下�
 >
 >下载速度因网络带宽、服务器延迟和客户端地理位置等因素而异。
 
-如果启用，Brand Portal用户可以通过安装Aspera Connect客户端，显着缩短从Brand Portal或通过共享链接下载所需资产文件所花费的时间。
 
-![](assets/enable-fast-file-download.png)
+默 **[!UICONTROL 认情况下]** ，快速下载配置处于启用状态，这可显着缩短从Brand Portal下载所需资产文件所花费的时间。
+
+![](assets/download-configuration.png)
 
 ## 加快文件下载的先决条件 {#prerequisites-to-accelerate-file-download}
 
 要更快地下载文件，请确保：
 
-* **[!UICONTROL 从管理工具]** 面板的“常规设置”中启 [!UICONTROL 用“下载] Acceleration”（默认情况下为禁用）。
+* 导航到 **[!UICONTROL 工具]** >下 **[!UICONTROL 载]** ，并验证在下载设置中 **[!UICONTROL 是否启用了快]** 速下载 ****&#x200B;配置。
 * 端口33001（TCP和UDP）在防火墙上处于打开状态。 有关先决条件的详细信息，请参 [阅Aspera Connect客户端文档](https://downloads.asperasoft.com/en/documentation/8)。
 * 使用管理员权限安装Aspera Connect。
 * 有关Aspera传输客户端的平台支持，请参 [阅Aspera Connect平台支持列表](https://www.asperasoft.com/company/support/transfer-clients/)。
@@ -72,8 +73,8 @@ Brand Portal通过与IBM Aspera Connect集成，可增强大资产文件的下�
 要更快地从Brand Portal下载资源，请执行以下操作：
 
 1. 使用支持的浏览器登录到Brand Portal。
-1. 浏览并选择要下载的所需资产文件、文件夹或集合。 点按／单击下载选项。
-出现“Download”（下载）对话框， [并选中“Enable download acceleration] ”（启用下载加速）选项。
+1. 浏览并选择要下载的文件夹或资产。 在顶部的工具栏中，单击“下 **[!UICONTROL 载]** ”图标。 随后 **[!UICONTROL 将显示]** “下载 **[!UICONTROL ”对话框，并]** 默认选中“资产 **[!UICONTROL ”和“]** 启用下载加速”复选框。
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,19 +83,25 @@ Brand Portal通过与IBM Aspera Connect集成，可增强大资产文件的下�
 
    ![](assets/fast-download-emailchk.png)
 
-1. 点按／单击“下 **[!UICONTROL 载]** ”选项。
-要加快Brand Portal租户帐户的下载体验，您需要在系统上安装Aspera Connect客户端应用程序。
+1. 单击“ **[!UICONTROL 下载]**”。
 
-1. **下载Aspera Connect客**&#x200B;户端如果系统中未安装Aspera Connect客户端或现有安装的Aspera Connect客户端已过时，浏览器页面上将显示提示，您可以从该页面下载系统特定的Aspera Connect客户端，方法是选择“下载最 **[!UICONTROL 新版本”]**。
+   要加快Brand Portal租户帐户的下载体验，您需要在浏览器扩展中安装Aspera Connect客户端应用程序。
+
+1. **下载Aspera Connect客户端**
+
+   如果系统中未安装Aspera Connect客户端或现有Aspera Connect客户端已过时，则浏览器页面上会显示提示，您可以通过选择“下载最新版本”从该页面下载系统特定 **[!UICONTROL 的Aspera Connect客户端]**。
 
    ![](assets/aspera-not-launched.png)
 
    要从https://downloads.asperasoft.com/connect2/下载最新版Aspera Connect，请选 [择](https://downloads.asperasoft.com/connect2/)“立 **[!UICONTROL 即下载]** ”并按照说明操作。
 
-1. **安装Aspera Connect客**&#x200B;户端要安装IBM Aspera Connect客户端安装程序，请从IBM Aspera Connect客户端应用程序的。msi文件运行安装程序，然后按照安装向导进行操作。
+1. **安装Aspera Connect客户端**
 
-1. 成功安装客户端后，请刷新浏览器页面并再次启动下载步骤，或选 **[!UICONTROL 择]** “在资 **[!UICONTROL 产下载]** 中重新启动”对话框（步骤#2）。
-首次使用Aspera Connect时，浏览器会提示使用IBM Aspera Connect打 **[!UICONTROL 开链接]**。 要在将来跳过此对话框，请启 **[!UICONTROL 用“记住我对FASP链接的选择]**”。
+   要安装IBM Aspera Connect客户端安装程序，请从IBM Aspera Connect客户端应用程序的。msi文件运行安装程序，然后按照安装向导进行操作。
+
+1. 成功安装客户端后，请刷新浏览器页面并再次启动下载步骤。
+
+   首次使用Aspera Connect时，浏览器会提示使用IBM Aspera Connect打 **[!UICONTROL 开链接]**。 要以后跳过此对话框，请启 **[!UICONTROL 用“记住我对FASP链接的选择]**”。
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ Aspera Connect应用程序在系统上提供一个活动窗口，用户可以在
 
 >[!NOTE]
 >
->Aspera Connect客户端应用程序存在已知限制，如果在“首选项”中的选项卡“传输”下启 **[!UICONTROL 用“始终询问我保存下载文件的位置]** ”，则不会显示选 [!UICONTROL 择下载] 位置的提示 。 在开始下载之前，请在文本框中提供将下载的文 **[!UICONTROL 件保存到的位置]**。
+>Aspera Connect客户端应用程序存在已知限制，如果在“首选项”中的选项卡“传输”下启 **[!UICONTROL 用“始终询问我保存下载文件的位置]** ”，则不会显示选 **[!UICONTROL 择下载]** 位置的提示 ****。 在开始下载之前，请在文本框中提供将下载的文 **[!UICONTROL 件保存到的位置]**。
 
 ## 在Microsoft Edge浏览器上使用文件加速器 {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,8 +128,8 @@ Microsoft Edge在同一专用网络或受信任站点上以增强保护模式(EP
 
 要在Microsoft Edge上使用加速下载功能，请从受信任的站点列表中删除Brand Portal站点。
 
-1. 打开控制面板(按 **[!UICONTROL Window键+ X]**，然后选择 **[!UICONTROL 控制面板]**)。
-1. 转到“网 **[!UICONTROL 络和Internet”>“Internet选项”]**。 Click the **[!UICONTROL Security]** tab.
+1. 打开控制面板(**[!UICONTROL Window键+ X]**，然后选择 **[!UICONTROL 控制面板]**)。
+1. 转到“网 **[!UICONTROL 络和因特网]** ”> **[!UICONTROL “因特网选项]**”。 Click the **[!UICONTROL Security]** tab.
 1. 单击“受 **[!UICONTROL 信任的站点]**”区域，然 **[!UICONTROL 后单击]**“站点”。
 1. 从列表中删除Brand Portal站点。
 
@@ -153,6 +160,6 @@ Microsoft Edge在同一专用网络或受信任站点上以增强保护模式(EP
    如果带宽只有几(1-10 Mbps)或Kbps，则使用Aspera首选项并尝试限制等于可用带宽的带宽。
 
 1. 要确认来自Aspera演示服务器的下载是否正常，请使用 [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user)。\
-   (登录：  asperaweb，密码：  德马斯帕
+   (登录： asperaweb，密码： 德马斯帕
 
 1. 如果上述疑难解答步骤均无效，请取消选择“启用下载加速”选项，然后使用正常下载。
