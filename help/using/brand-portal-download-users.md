@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 030fab342dba6e6561668eb34c0bb2c9c056db41
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
@@ -79,7 +79,8 @@ Adobe Experience Manager资产品牌门户允许用户同时下载可从品牌�
 * 如果“自 **[!UICONTROL 定义演]** 绎版 **[!UICONTROL ”和“系统演绎版]** ”配置都处于关闭状态，则下载资产的原始演绎版时，不会向用户显示任何其他对话框。
 
 <!--
-If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required. 
+If all the three download configurations are turned-off, or only the **[!UICONTROL Fast Download]** configuration is enabled, the original assets are directly downloaded on your local system with no additional step required.
+Test.. 
 -->
 
 * 如果启用了任 **[!UICONTROL 何“自定]** 义演绎版” **[!UICONTROL 或“系统演绎版]****** ”配置，则会显示一个额外的“下载”对话框，在该对话框中，您可以选择是下载原始资产及其演绎版，还是仅下载特定的演绎版。
