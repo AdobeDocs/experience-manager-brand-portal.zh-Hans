@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '871'
 ht-degree: 4%
 
 ---
@@ -23,26 +23,29 @@ ht-degree: 4%
 
 图像预设用于生成可预览和下载的图像的动态演绎版。 在预览图像及其演绎版时，您可以选择预设来根据管理员设置的规范重新设置图像格式。
 
-要在Brand Portal中视图资产的动态演绎版，请确保其Pyramid tiff演绎版存在于AEM作者实例中，您可以从该实例发布到Brand Portal。 发布资产时，其PTIFF再现也会发布到Brand Portal。 无法从Brand Portal生成PTIFF再现。
+(如&#x200B;*果AEM（作者）实例在Dynamic Media Hybrid模&#x200B;**式上运行***)要在Brand Portal中视图资产的动态演绎版，请确保其Pyramid tiff再现存在于发布到Brand Portal的AEM作者实例中。 发布资产时，其PTIFF再现也会发布到Brand Portal。
 
 >[!NOTE]
 >
 >下载图像及其演绎版时，没有选项可从现有预设中进行选择。 您可以指定自定义图像预设的属性。 有关详细信息，请参 [阅下载图像时应用图像预设](../using/brand-portal-image-presets.md#main-pars-text-1403412644)。
 
+
 有关创建图像预设时所需参数的详细信息，请参阅管 [理图像预设](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
 
 ## Create an image preset {#create-an-image-preset}
 
-管理员可以创建图像预设，这些预设在资产详细信息页面上显示为动态演绎版。 您可以从头开始创建图像预设，也可以使用新名称保存现有图像预设。 创建图像预设时，请选择图像投放的大小和格式命令。 当传送图像以供查看时，其外观会根据所选命令进行优化。
-请注意，只有管理员才能在Brand Portal中创建图像预设。
+AEM管理员可以创建在资产详细信息页面上显示为动态演绎版的图像预设。 您可以从头开始创建图像预设，也可以使用新名称保存现有图像预设。 创建图像预设时，请选择图像投放的大小和格式命令。 当传送图像以供查看时，其外观会根据所选命令进行优化。
 
-请注意，只有管理员才能在Brand Portal中创建图像预设。
 
 >[!NOTE]
 >
 >图像的动态演绎版是使用其金字塔TIFF创建的。 如果金字塔TIFF不适用于任何资产，则无法在Brand Portal中获取该资产的动态演绎版。
-如果AEM（作者）实例在Dynamic Media混 **合模式下运行**，则会在AEM存储库中创建并保存图像资产的金字塔TIFF演绎版。 而如果AEM（作者）实例在Dynamic Media场景7模 **式下运行**，则图像资产的金字塔TIFF演绎版在Scene 7服务器上存在。
-当此类资产发布到品牌门户时，会应用图像预设并显示动态演绎版。
+>
+>如果AEM（作者）实例在Dynamic Media混 **合模式下运行**，则会创建图像资产的金字塔TIFF演绎版并将其保存在AEM存储库中。
+>
+>而如果AEM（作者）实例在Dynamic Media Scene 7模 **式上运行**，则图像资产的金字塔TIFF演绎版在Scene 7服务器上存在。
+>当此类资产发布到品牌门户时，会应用图像预设并显示动态演绎版。
+
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
