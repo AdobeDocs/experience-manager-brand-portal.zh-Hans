@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
 workflow-type: tm+mt
-source-wordcount: '4753'
+source-wordcount: '4758'
 ht-degree: 2%
 
 ---
@@ -61,16 +61,18 @@ Brand Portal管理员可以启用任何组合来配置资产下载。
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* 如果关闭了所有这三种配置，则下载资产时无需任何其他对话框，从而简化了Brand Portal用户的下载体验。 根据配置，下载工作流对于独立资产、多个资产、包含资产的文件夹、授权或未授权的资产，以及当使用共享链接下载资产时，都保持不变。
+* 如果关 **[!UICONTROL 闭了“自定]** 义演绎版 **[!UICONTROL ”和“系统演绎版]** ”配置，则下载资产的原始演绎版时无需任何其他对话框，从而简化了Brand Portal用户的下载体验。
 
 * 如果启用了任 **[!UICONTROL 何“自定]** 义演绎版 **[!UICONTROL ”或“系统演绎版]** ”，则会显示“ **[!UICONTROL 下载]** ”对话框，并下载原始资产以及资产演绎版。 启用 **[!UICONTROL “快速下载]** ”配置可加快下载过程。
+
+根据配置，独立资产、多个资产、包含资产的文件夹、授权或未授权的资产以及使用共享链接下载资产时，下载工作流程将保持不变。
 
 ![](assets/download-configuration.png)
 
 
 ## 6.4.6中的更改 {#what-changed-in-646}
 
-在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道已更改。 AEM Assets云服务、AEM Assets6.3及更高版本现在支持Brand Portal。 在AEM Assets6.3及更高版本中，Brand Portal先前已通过旧版OAuth网关在经典UI中配置，该网关使用JWT令牌交换获得IMS访问令牌进行授权。 AEM Assets现在通过Adobe开发人员控制台配置了品牌门户，该控制台为您的品牌门户租户购买IMS令牌以进行授权。
+在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道已更改。 Brand Portal现在作为AEM Assets6.3及更高版本的Cloud Service在AEM Assets受支持。 在AEM Assets6.3及更高版本中，Brand Portal先前已通过旧版OAuth网关在经典UI中配置，该网关使用JWT令牌交换获得IMS访问令牌进行授权。 AEM Assets现在通过Adobe开发人员控制台配置了品牌门户，该控制台为您的品牌门户租户购买IMS令牌以进行授权。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -127,7 +129,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 资产来源补充允许AEM用户（管理员／非管理员用户）使用其他“资产贡献 **”属性创建新文件夹** ，确保创建的新文件夹可由Brand Portal用户通过资产提交方式打开。 这会自动触发一个工作流，该工作流会在新创建的Contribution文件夹内创建另外两个子文件夹，名为NEW **和SHARED** 。
 
-AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-properties.md) ，将应添加到贡献文件夹的资产类型以及将基 [准资产上传到](brand-portal-upload-baseline-assets.md)SHARED **** 文件夹，以确保BP用户获得所需的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动Brand Portal用户授予对贡 **献文** 件夹的访问权限。
+AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-properties.md) ，将应添加到贡献文件夹的资产类型以及将基 [准资产上传到](brand-portal-upload-baseline-assets.md)SHARED **** 文件夹，以确保BP用户获得所需的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授 **予对** 贡献文件夹的访问权限。
 
 
 用户在NEW文件夹中添加完内 **容后** ，即可将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM Assets内新发布的内容可能需要几分钟时间。
@@ -142,7 +144,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
-拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -190,7 +192,7 @@ Brand Portal 6.4.4 版主要增强了文本搜索和常见客户请求。请参�
 
 * ***clim** 返回标题短语中包含以字符 **clamp** 结尾的所有资产。
 
-* ***climb*返回** 所有包含词的资源，词的标题词 **中包含** “clipt”字符。
+* ***climb*返回** 所有包含词汇的资产，词汇包含词 **汇的字符** （在其标题短语中）。
 
 >[!NOTE]
 >
@@ -247,7 +249,7 @@ Brand Portal 6.4.3版本重点介绍——除了在Brand Portal访问URL中的�
 
 AEM作者实例处于Dynamic Media混合模式的用户除了可以下载原始视频文件外，还可以预览和下载Dynamic Media演绎版。
 
-要允许预览和下载特定租户帐户上的动态媒体演绎版，管理员需要在“ **Video** ”配置中从“管理工具”面板指定Dynamic Media Configuration(视频服务URL(DM-Gateway URL)和注册ID **以获取动态视频** )。
+要允许预览和下载特定租户帐户上的Dynamic Media再现，管理员需要在“ **Video Configuration** ”(视频服务URL(DM-Gateway URL)和注册ID，以从“Admin Tools”（管理工具）面板中 **指定Dynamic Media Configuration(视频服务URL（DM-网关URL）和注册ID)** 以获取动态视频)。
 
 **Dynamic Media视频**&#x200B;的用例可在以下位置预览：
 
@@ -420,7 +422,7 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新功能和�
 
 * 预览资产详细信息页面中从AEM上传的音频文件的新功能。
 * 资产属性中提供的新的相关资产功能。 与AEM上的其他源／派生资产相关并在Brand Portal上发布的资产现在在Brand Portal中保持其关系，并在属性页面上提供相关资产的链接。
-* 已引入限制非管理员用户创建公共集合的新配置。 组织可以与Adobe支持团队协作，在特定帐户上配置此功能。
+* 已引入新配置，以限制非管理员用户创建公共集合。 组织可以与Adobe支持团队协作，在特定帐户上配置此功能。
 
 ### 搜索增强功能
 
@@ -582,7 +584,7 @@ Brand Portal 6.3.1包含面向将Brand Portal与AEM相协调的新增和增强�
 
 ### 改进的性能 {#improved-performance}
 
-浏览、搜索和下载功能中的增强功能显着提高了Brand Portal的性能。
+浏览、搜索和下载功能的增强功能显着提高了Brand Portal的性能。
 
 ### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
