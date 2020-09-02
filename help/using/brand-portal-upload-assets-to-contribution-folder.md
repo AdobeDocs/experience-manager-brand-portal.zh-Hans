@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: f6ba54780fb74e7cf8634e8a90ab62c2401a1a33
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -29,6 +29,7 @@ Brand Portal用户 [下载资产要求](brand-portal-download-asset-requirements
 >
 >任何Brand Portal帐户／租户的最大上载限 **制为** 10 GB。
 
+
 **要上传新资产，请执行以下操作：**
 
 1. 登录您的Brand Portal实例。
@@ -41,4 +42,4 @@ Brand Portal仪表板反映了Brand Portal用户允许的所有现有文件夹�
 1. 浏览并上传NEW文件夹中的新资产(文件/ **[!UICONTROL 文件夹]** )。
    ![](assets/upload-new-assets3.png)
 
-上传完成后，Brand Portal用户可以将贡献文件夹发布回AEM Assets。 请参阅将贡 [献文件夹发布到AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)。
+上传完成后，Brand Portal用户可以将贡献文件夹发布回AEM Assets。 请参阅， [将贡献文件夹发布到AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)。
