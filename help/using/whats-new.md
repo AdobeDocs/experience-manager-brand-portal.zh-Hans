@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
+source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### 下载体验 {#download-configurations}
 
-改进了资产下载过程，在从Brand Portal下载资产时提供简化的用户体验。
+改进了资产下载过程，在从Brand Portal下载资产时提供 [了简化的用户体验](brand-portal-download-users.md)。
 
 从Brand Portal下载资产的现有工作流不可避免地会出现“下载 **** ”对话框，其中包含多个可供选择的下载选项。
 
@@ -144,7 +144,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
-拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -249,7 +249,7 @@ Brand Portal 6.4.3版本重点介绍——除了在Brand Portal访问URL中的�
 
 AEM作者实例处于Dynamic Media混合模式的用户除了可以下载原始视频文件外，还可以预览和下载Dynamic Media演绎版。
 
-要允许预览和下载特定租户帐户上的Dynamic Media再现，管理员需要在“ **Video Configuration** ”(视频服务URL(DM-Gateway URL)和注册ID，以从“Admin Tools”（管理工具）面板中 **指定Dynamic Media Configuration(视频服务URL（DM-网关URL）和注册ID)** 以获取动态视频)。
+要允许预览和下载特定租户帐户上的Dynamic Media再现，管理员需要在“ **Video Configuration** ”(视频服务URL(DM-Gateway URL)和注册ID，以从“Admin Tools”（管理工具）面板中 **提取Dynamic Media** Configuration)。
 
 **Dynamic Media视频**&#x200B;的用例可在以下位置预览：
 
