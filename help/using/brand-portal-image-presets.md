@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 图像预设用于生成可预览和下载的图像的动态演绎版。 在预览图像及其演绎版时，您可以选择预设来根据管理员设置的规范重新设置图像格式。
 
-(如&#x200B;*果AEM（作者）实例在Dynamic Media Hybrid模&#x200B;**式上运行***)要在Brand Portal中视图资产的动态演绎版，请确保其Pyramid tiff再现存在于发布到Brand Portal的AEM作者实例中。 发布资产时，其PTIFF再现也会发布到Brand Portal。
+(如&#x200B;*果AEM作者实例在Dynamic Media Hybrid **模式下运行***)要在Brand Portal中视图资产的动态演绎版，请确保其Pyramid tiff再现存在于发布到Brand Portal的AEM作者实例中。 发布资产时，其PTIFF再现也会发布到Brand Portal。
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ AEM管理员可以创建在资产详细信息页面上显示为动态演绎版�
 >
 >图像的动态演绎版是使用其金字塔TIFF创建的。 如果金字塔TIFF不适用于任何资产，则无法在Brand Portal中获取该资产的动态演绎版。
 >
->如果AEM（作者）实例在Dynamic Media混 **合模式下运行**，则会创建图像资产的金字塔TIFF演绎版并将其保存在AEM存储库中。
+>如果AEM作者实例在Dynamic Media混 **合模式下运行**，则会创建图像资产的金字塔TIFF演绎版并将其保存在AEM存储库中。
 >
->而如果AEM（作者）实例在Dynamic Media Scene 7模 **式上运行**，则图像资产的金字塔TIFF演绎版在Scene 7服务器上存在。
+>而如果AEM作者实例在Dynamic Media Scene 7模 **式上运行**，则图像资产的金字塔TIFF演绎版在Scene 7服务器上存在。
 >当此类资产发布到品牌门户时，会应用图像预设并显示动态演绎版。
 
 
