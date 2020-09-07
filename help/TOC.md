@@ -6,7 +6,7 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 3ef894f4aa6f12054716315b343d3f85246a313e
+source-git-commit: 628c051cad7c3d3923b1b6c7f7eaf0e353f13227
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 70%
@@ -37,7 +37,7 @@ ht-degree: 70%
 + 品牌门户中的资产来源补充 {#asset-sourcing-in-brand-portal}
    + [概述](using/brand-portal-asset-sourcing.md)
    + [在AEM中配置资产来源补充](using/brand-portal-configure-asset-sourcing.md)
-   + 在AEM Assets中配置贡献文件夹 {#configure-contribution-folder}
+   + 在AEM Assets配置贡献文件夹 {#configure-contribution-folder}
       + [概述](using/brand-portal-contribution-folder.md)
       + [创建贡献文件夹](using/brand-portal-create-contribution-folder.md)
       + [配置贡献文件夹属性](using/brand-portal-configure-contribution-folder-properties.md)
@@ -56,7 +56,7 @@ ht-degree: 70%
    + [在 Brand Portal 上搜索资产](using/brand-portal-searching.md)
    + [使用自定义搜索 Facet](using/brand-portal-search-facets.md)
 + 使用下载功能 {#download}
-   + [下载资产](using/brand-portal-download-users.md)
+   + [下载资产](using/brand-portal-download-assets.md)
    + [Brand Portal 上的动态视频支持](using/dynamic-video-brand-portal.md)
    + [管理 Lightbox 收藏集](using/brand-portal-light-box.md)
    + [管理资产的数字权限](using/manage-digital-rights-of-assets.md)
