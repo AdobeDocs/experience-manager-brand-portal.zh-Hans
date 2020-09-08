@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 4%
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 AEM Assets品牌门户提供各种功能和用户界面元素，便于在使用不同视图选项时浏览资源、遍历资产层次结构和搜索资产。
 
-顶部AEM工具栏中的AEM徽标方便管理员用户访问管理工具面板。
+顶部的AEM工具栏中的AEM徽标方便管理员用户访问管理工具面板。
 
 ![](assets/aemlogo.png)
 
@@ -57,7 +57,7 @@ AEM Assets品牌门户提供各种功能和用户界面元素，便于在使用�
 * 类型
 * 标题
 * 名称
-* 从AEM将资产发布到Brand Portal的日期和时间
+* 资产从AEM发布到Brand Portal的日期和时间
 * 大小
 * 尺寸
 
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 视图列表视图中的设置
 
-列表视图默认 **[!UICONTROL 情况下]** ，资产名称显示为第一列。 还会显示其他信息，如 **[!UICONTROL 资产]**、 **[!UICONTROL 区域设置]**、类 **[!UICONTROL 型]**、维标 ************&#x200B;题、大小、、评级、发布状态。 However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+列表视图默认 **[!UICONTROL 情况下]** ，资产名称显示为第一列。 还会显示其他信息，如 **[!UICONTROL 资产]**、 **[!UICONTROL 区域设置]**、类 **[!UICONTROL 型、]** Dimension标 ************&#x200B;题、大小、、评级、发布状态等。 However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -142,7 +142,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * 标题
 * 名称
 * 尺寸
-* 从AEM将资产发布到Brand Portal的日期和时间
+* 资产从AEM发布到Brand Portal的日期和时间
 * 大小
 * 类型
 * 更多详细信息选项，转到资产的详细信息页面
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -261,4 +261,4 @@ Comment Type: draft
 
 ![](assets/asset-properties.png)
 
-您还可以在资产的属性页面上视图其所有相关资产（AEM上的源资产或派生资产）的列表，因为资产关系也会从AEM发布到Brand Portal。
+您还可以在资产的属性页面上视图其所有相关资产(AEM上的源资产或派生资产)的列表，因为资产关系也会从AEM发布到品牌门户。
