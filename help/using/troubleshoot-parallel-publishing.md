@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
+source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
