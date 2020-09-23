@@ -8,9 +8,10 @@ getting-started-url: https://docs.adobe.com/content/help/zh-Hans/experience-mana
 tutorials-title: 教程
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.zh-Hans
+solution: Experience Manager
 index: y
 translation-type: tm+mt
-source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
+source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 12%
