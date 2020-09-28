@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -116,6 +116,12 @@ Test..
       >受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可协议，可通过在Experience Manager资产中设置资产的 [元数据](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 属性来完成。
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >确保在从资产详细信息页面下载资产演绎版时选择所有所需的资产演绎版，然后单击“ **[!UICONTROL 下载]**”。 选定的演绎版将下载到您的本地计算机。
+      > 
+      >下载后，将禁 **[!UICONTROL 用]** “下载”按钮，以避免创建已下载演绎版的重复副本。 要下载更多（缺少或其他再现副本），请刷新浏览器以重新启用下载按钮。
 
       如果在“下载设 **[!UICONTROL 置”中]** , **[!UICONTROL 启用了任何“自定]** 义演绎版”或“系统演绎版 **[!UICONTROL ”配置，则将显]********** 示“下载”对话框，并默认选中“Download Renditions(s)”复选框。 如果启 **[!UICONTROL 用了]** “快速下载”配置 **[!UICONTROL ，则默认情况下]** 会选中“启用下载加速”复选框。
 
