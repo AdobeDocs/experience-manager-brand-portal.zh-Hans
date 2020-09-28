@@ -7,17 +7,17 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal Guide
 user-guide-description: Use AEM Assets Brand Portal to meet marketing needs by securely distributing approved brand and product assets to external agencies, partners, internal teams, and resellers for download.
 translation-type: tm+mt
-source-git-commit: 80780f908bbcfd3dcc3a4b2fc2f6faad247c4695
+source-git-commit: 24ec8bc66f24b573a154c8bcd150c7c1b197bbf2
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 70%
+source-wordcount: '286'
+ht-degree: 67%
 
 ---
 
 
-# 目录 {#using}
+# AEM Assets Brand Portal Documentation {#using}
 
-+ [Brand Portal 用户指南](using/home.md)
++ [品牌门户指南](using/home.md)
 + 简介 {#introduction}
    + [概述](using/brand-portal.md)
    + [AEM Assets Brand Portal 的新增功能](using/whats-new.md)
