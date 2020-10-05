@@ -1,18 +1,18 @@
 ---
-title: AEM Brand Portal 用户指南
-seo-title: AEM Brand Portal 用户指南
-description: AEM Brand Portal 用户指南
+title: Adobe Experience Manager资产品牌门户指南
+seo-title: Adobe Experience Manager资产品牌门户指南
+description: Adobe Experience Manager资产品牌门户指南
 seo-description: 介绍如何使用 Brand Portal
 translation-type: tm+mt
-source-git-commit: 5d8bd0187f08c179db76bcc3af2143d689060d85
+source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 80%
+source-wordcount: '360'
+ht-degree: 74%
 
 ---
 
 
-# Adobe Experience Manager资产品牌门户 {#aem-brand-portal}
+# Adobe Experience Manager资产品牌门户指南 {#aem-brand-portal}
 
 **Adobe Experience Manager资产品牌门户** ，可以将经过批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而帮助组织满足其营销需求。
 
