@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
 workflow-type: tm+mt
-source-wordcount: '4758'
+source-wordcount: '4755'
 ht-degree: 2%
 
 ---
@@ -144,7 +144,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
-拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -212,10 +212,12 @@ Brand Portal 6.4.3版本重点介绍——除了在Brand Portal访问URL中的�
 * **禁用**,登陆页上仅显示共享文件夹。
 
 ![](assets/enable-folder-hierarchy.png)
-**用例**
 
 启用 [文件夹层次结构](../using/brand-portal-general-configuration.md) （启用后）功能可帮助您区分名称与从不同层次结构共享的文件夹名称相同的文件夹。 登录时，非管理员用户现在可以看到共享文件夹的虚拟父（和上级）文件夹。
-![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 共享文件夹在虚拟文件夹的各个目录中进行组织。 您可以通过锁定图标识别这些虚拟文件夹。
 
@@ -231,7 +233,8 @@ Brand Portal 6.4.3版本重点介绍——除了在Brand Portal访问URL中的�
 
 * 管理员用户可以使用路径浏览器导航到Brand Portal上的任意文件夹目录。
 * 非管理员用户可以使用路径浏览器仅导航到与他们共享的文件夹（并导航回父文件夹）。
-例如， `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 与非管理员用户共享。 用户可以使用路径浏览器在folderC内搜索资产。 此用户还可以导航到folderB和folderA（因为它们是与用户共享的folderC的祖先）。
+
+   例如， `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 与非管理员用户共享。 用户可以使用路径浏览器在folderC内搜索资产。 此用户还可以导航到folderB和folderA（因为它们是与用户共享的folderC的祖先）。
 
 ![](assets/edit-search-form.png)
 
