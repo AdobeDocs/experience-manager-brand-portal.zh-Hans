@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 6%
@@ -31,7 +31,6 @@ AEM Assets品牌门户管理员可以与授权的内部用户和外部实体（�
 >[!NOTE]
 >
 >使用Brand Portal上的链接共享功能最多可下载5GB的zip文件。
-
 
 以下是将资产共享为链接的步骤：
 
@@ -59,7 +58,7 @@ AEM Assets品牌门户管理员可以与授权的内部用户和外部实体（�
 
 1. 在电子邮件地址框中，键入要与其共享链接的用户的电子邮件ID。 您可以与多个用户共享链接。
 
-   如果用户是您组织的成员，请从下拉列表中显示的建议中选择其电子邮件ID。 如果用户是外部用户，请键入完整的电子邮件ID并按 **[!UICONTROL Enter]**; 电子邮件ID将添加到用户列表。
+   如果用户是您组织的成员，请从下拉列表中显示的建议中选择其电子邮件ID。 如果用户是外部用户，请键入完整的电子邮件ID并按 **[!UICONTROL Enter]**;电子邮件ID将添加到用户列表。
 
    ![](assets/link-sharing-text.png)
 
@@ -79,7 +78,7 @@ AEM Assets品牌门户管理员可以与授权的内部用户和外部实体（�
 
 ## 从共享链接下载资源 {#download-assets-from-shared-links}
 
-单击电子邮件中的链接，以视图共享的资产。 此时将打开AEM链接共享页面。
+单击电子邮件中的链接，以视图共享的资产。 将打开AEM链接共享页。
 
 要下载共享资产，请执行以下操作：
 
@@ -190,7 +189,7 @@ AEM Assets品牌门户管理员可以与授权的内部用户和外部实体（�
 | ✓ | 此文件格式支持此功能 |
 | ✕ | 此文件格式不支持此功能 |
 | NA | 此功能不适用于此文件格式 |
-| * | 此功能要求在AEM作者实例上支持此文件格式，但在资产发布到Brand Portal后，不要在Brand Portal上支持此文件格式 |
+| * | 此功能要求AEM作者实例上的此文件格式提供附加支持，但在资产发布到品牌门户后，不要在品牌门户上提供此支持 |
 
 ## 取消共享作为链接共享的资产 {#unshare-assets-shared-as-a-link}
 
