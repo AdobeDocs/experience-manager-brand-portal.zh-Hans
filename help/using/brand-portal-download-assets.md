@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 1%
@@ -28,7 +28,6 @@ Adobe Experience Manager资产品牌门户允许用户同时下载可从品牌�
 >[!NOTE]
 >
 >在从Brand Portal下载资源之前，在浏览器的扩展中安装IBM Aspera Connect 3.9.9。
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >只有管理员才能下载过期的资产。 有关已过期资产的更多信息，请 [参阅管理资产的数字权限](../using/manage-digital-rights-of-assets.md)。
-
 
 ## 下载资源的步骤 {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Test..
       >
       >Brand Portal支持在Hybird和Scene 7模式下配置Dynamic Media。
       >
-      >(如&#x200B;*果AEM作者实例在Dynamic Media Hybrid模&#x200B;**式上运行***)      >要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，且资产的金字塔型Tiff演绎版存在于资产发布位置所在的AEM Assets作者实例中。 将资产发布到Brand Portal时，也会发布其金字塔tiff再现。
+      >(如&#x200B;*果AEM作者实例在Dynamic Media Hybrid模&#x200B;**式上运行***)
+      >
+      >要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，且资产的金字塔型Tiff演绎版存在于资产发布位置所在的AEM Assets作者实例中。 将资产发布到Brand Portal时，也会发布其金字塔tiff再现。
 
    * 要在下载资产时保留Brand Portal文件夹层次结构，请选中“为 **[!UICONTROL 每个资产创建单独的文件夹]** ”复选框。 默认情况下，将忽略Brand Portal文件夹层次结构，所有资产都下载到本地系统的一个文件夹中。
 
@@ -179,7 +179,6 @@ Test..
    >[!NOTE]
    >
    >单独下载的资产会显示在资产下载报告中。 但是，如果下载的文件夹中包含资产，则文件夹和资产不会显示在资产下载报告中。
-
 
 ## 预期下载性能 {#expected-download-performance}
 
@@ -199,4 +198,3 @@ Test..
 >[!NOTE]
 >
 >在测试条件下观察引用的数据，这可能因不同位置的用户目睹不同的延迟和带宽而异。
-
