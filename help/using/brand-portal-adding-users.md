@@ -1,15 +1,15 @@
 ---
 title: 管理用户、组和用户角色
 seo-title: 管理用户、组和用户角色
-description: 管理员可以使用AdobeAdmin Console创建AEM Assets品牌门户用户和产品用户档案，并使用品牌门户用户界面管理他们的角色。 此权限对查看者和编辑者不可用。
-seo-description: 管理员可以使用AdobeAdmin Console创建AEM Assets品牌门户用户和产品用户档案，并使用品牌门户用户界面管理他们的角色。 此权限对查看者和编辑者不可用。
+description: 管理员可以使用Adobe Admin Console创建AEM Assets品牌门户用户和产品用户档案，并使用品牌门户用户界面管理他们的角色。 此权限对查看者和编辑者不可用。
+seo-description: 管理员可以使用Adobe Admin Console创建AEM Assets品牌门户用户和产品用户档案，并使用品牌门户用户界面管理他们的角色。 此权限对查看者和编辑者不可用。
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 # Manage Users, Groups, and User Roles {#manage-users-groups-and-user-roles}
 
-管理员可以使用AdobeAdmin Console创建AEM Assets品牌门户用户和产品用户档案，并使用品牌门户用户界面管理他们的角色。 此权限对查看者和编辑者不可用。
+管理员可以使用Adobe Admin Console创建AEM Assets品牌门户用户和产品用户档案，并使用品牌门户用户界面管理他们的角色。 此权限对查看者和编辑者不可用。
 
-在Admin Console [[!UICONTROL 中]](http://adminconsole.adobe.com/enterprise/overview)，您可以视图与您的组织关联的所有产品。 产品可以是任何Experience Cloud解决方案，如AdobeAnalytics、Adobe Target或AEM Brand Portal。 您必须选择AEM Brand Portal产品，并创建产品用户档案。
+在Admin Console [[!UICONTROL 中]](http://adminconsole.adobe.com/enterprise/overview)，您可以视图与您的组织关联的所有产品。 产品可以是任何Experience Cloud解决方案，如Adobe Analytics、Adobe Target或AEM品牌门户。 您必须选择AEM Brand Portal产品，并创建产品用户档案。
 
 <!--
 Comment Type: draft
@@ -45,11 +45,11 @@ Comment Type: draft
 
 >[!NOTE]
 >
->无权访问Brand Portal的新用户可以从Brand Portal的登录屏幕请求访问权限。 有关详细信息，请参 [阅请求访问Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知区域中收到访问请求通知后，单击相关通知，然后单击“授予访 **[!UICONTROL 问权限”]**。 或者，也可以按照收到的访问请求电子邮件中的链接操作。 接下来，要通过AdobeAdmin Console [添加 [!UICONTROL 用户]](http://adminconsole.adobe.com/enterprise/overview)，请按照以下步骤4-7进行操作。
+>无权访问Brand Portal的新用户可以从Brand Portal的登录屏幕请求访问权限。 有关详细信息，请参 [阅请求访问Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知区域中收到访问请求通知后，单击相关通知，然后单击“授予访 **[!UICONTROL 问权限”]**。 或者，也可以按照收到的访问请求电子邮件中的链接操作。 接下来，要通过Adobe [Admin Console [!UICONTROL 添加]](http://adminconsole.adobe.com/enterprise/overview)用户，请按照以下步骤4-7进行操作。
 
 >[!NOTE]
 >
->您可以直接 [或 [!UICONTROL 从]](http://adminconsole.adobe.com/enterprise/overview) Brand Portal登录AdobeAdmin Console。 如果您直接登录，请按照以下步骤中的步骤4-7添加用户。
+>您可以直接或 [从 [!UICONTROL Brand]](http://adminconsole.adobe.com/enterprise/overview) Portal登录AdobeAdmin Console。 如果您直接登录，请按照以下步骤中的步骤4-7添加用户。
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -78,17 +78,17 @@ Comment Type: draft
    ![将用户添加到Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. 将用户分配给至少一个产品用户档案（以前称为产品配置），以便用户可以访问Brand Portal。 从“请为此产品选择 **[!UICONTROL 用户档案”字段中选择相应的产品用户档案]** 。
-1. 单击&#x200B;**[!UICONTROL 保存]**。将向您添加的用户发送一封欢迎电子邮件。 受邀用户可以通过单击欢迎电子邮件中的链接并使用Adobe ID登录来访问品牌 [!UICONTROL 门户]。 有关详细信息，请 [参阅首次登录体验](../using/brand-portal-onboarding.md)。
+1. 单击&#x200B;**[!UICONTROL 保存]**。将向您添加的用户发送一封欢迎电子邮件。 受邀用户可通过单击欢迎电子邮件中的链接并使用Adobe ID登录来访问品牌门 [!UICONTROL 户]。 有关详细信息，请 [参阅首次登录体验](../using/brand-portal-onboarding.md)。
 
    >[!NOTE]
    >
-   >如果用户无法登录到Brand Portal，则组织的管理员应访问Adobe [!UICONTROL Admin Console] ，并检查该用户是否存在以及是否已添加到至少一个产品用户档案。
+   >如果用户无法登录到Brand Portal，则组织的管理员应访问Adobe [!UICONTROL Admin Console] ，并检查用户是否存在以及是否已添加到至少一个产品用户档案。
 
    有关向用户授予管理权限的信息，请参 [阅向用户提供管理员权限](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)。
 
 ## 添加产品用户档案 {#add-a-product-profile}
 
-用户档案中的产品Admin Console(以前称 [!UICONTROL 为] “产品配置”)用于在Brand Portal中创建组，以便您可以在Brand Portal中执行批量操作，如角色管理和资产共享。 **Brand Portal** 是提供的默认产品用户档案; 您可以创建更多产品用户档案，并将用户添加到新产品用户档案。
+用户档案中的产品Admin Console(以前称 [!UICONTROL 为] “产品配置”)用于在Brand Portal中创建组，以便您可以在Brand Portal中执行批量操作，如角色管理和资产共享。 **Brand Portal** 是提供的默认产品用户档案;您可以创建更多产品用户档案，并将用户添加到新产品用户档案。
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Comment Type: draft
    ![通过csv添加用户](assets/admin_console_addbulkuserscsv.png)
 
    * Click **[!UICONTROL Upload]**.
-   如果您将用户添加到默认的产品用户档案（即Brand Portal），则欢迎电子邮件会发送到您添加的用户的电子邮件ID。 受邀用户可以通过单击欢迎电子邮件中的链接并使用Adobe ID登录来访问品牌 [!UICONTROL 门户]。 有关详细信息，请 [参阅首次登录体验](../using/brand-portal-onboarding.md)。
+   如果您将用户添加到默认的产品用户档案（即Brand Portal），则欢迎电子邮件会发送到您添加的用户的电子邮件ID。 受邀用户可以通过单击欢迎电子邮件中的链接并使用Adobe ID登录来访问品牌门 [!UICONTROL 户]。 有关详细信息，请 [参阅首次登录体验](../using/brand-portal-onboarding.md)。
 
    添加到自定义或新产品用户档案的用户不会收到电子邮件通知。
 
@@ -209,8 +209,7 @@ Comment Type: draft
    >
    >Brand Portal仅支持系统管理员和产品管理员角色。
    >
-   >
-   >Adobe建议您避免使用系统管理员角色，因为它授予组织内所有产品的管理员权限。 例如，某个组织（包括三个marketing cloud产品）的系统管理员对所有三个产品都具有整套权限。 只有系统管理员才能配置AEM Assets，以便将资产从AEM Assets发布到Brand Portal。 For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe建议您避免使用系统管理员角色，因为它授予组织内所有产品的管理员权限。 例如，某个组织（包括三个marketing cloud产品）的系统管理员对所有三个产品都具有整套权限。 只有系统管理员才能配置AEM Assets，以便将资产从AEM Assets发布到品牌门户。 For more information, see [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >相反，产品管理员角色仅授予特定产品的管理员权限。 如果要在Brand Portal中强制实施更精细的访问控制，请使用“产品管理员”角色，然后选择产品作为Brand Portal。
 
@@ -230,8 +229,8 @@ Comment Type: draft
 
 除了管理员角色之外，Brand Portal还支持以下角色：
 
-* [!UICONTROL 查看器]: 具有此角色的用户可以视图管理员与他们共享的文件和文件夹。 查看器还可以搜索和下载资产。 但是，查看器不能与其他用户共享内容(文件 [!UICONTROL 、文件夹]、集合)。
-* [!UICONTROL 编辑]: 具有此角色的用户具有查看器的所有权限。 此外，编辑人员还可以与其他用户共享内 [!UICONTROL 容]（文件夹、集合、链接）。
+* [!UICONTROL 查看器]:具有此角色的用户可以视图管理员与他们共享的文件和文件夹。 查看器还可以搜索和下载资产。 但是，查看器不能与其他用户共享内容(文件 [!UICONTROL 、文件夹]、集合)。
+* [!UICONTROL 编辑]:具有此角色的用户具有查看器的所有权限。 此外，编辑人员还可以与其他用户共享内 [!UICONTROL 容]（文件夹、集合、链接）。
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -286,7 +285,6 @@ Comment Type: draft
    >
    >如果将用户添加到多个用户组，并且其中一个用户组具有限制，则限制将适用于该用户。
    >
-   >
    >此外，访问图像文件原始演绎版的限制不适用于管理员，即使管理员是受限组的成员。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。将修改相应组的角色。
@@ -294,4 +292,3 @@ Comment Type: draft
    >[!NOTE]
    >
    >用户与组的关联或用户的组成员关系每8小时同步一次到Brand Portal。 对用户或组角色的更改在下一个同步作业运行后生效。
-
