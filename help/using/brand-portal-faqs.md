@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -187,20 +187,13 @@ Brand Portal用户访问Contribution **文件夹** ，并上传NEW文 **件夹�
 **安。** 在AEM中，每次将文件夹发布到Brand Portal时都会保留日志。 在发布时，所有未发布到Brand Portal的资产都将放在复制队列中。 触发发布作业后添加到文件夹的任何资产均不会发布到Brand Portal。 当AEM用户再次发布文件夹时，只有之前未发布的资产（在复制队列中存在）才会发布到Brand Portal。
 对于从AEM Assets发布到Brand Portal的任何文件夹以及贡献文件夹中的SHARED文件夹，此情况均适用。
 
-
-
 **Ques。 如有问题，应与谁联系？**
 
 **安。** 联系Adobe客户经理或客户支持。
 
-
 >[!NOTE]
 >
 >释放计划是暂时性的，可能会发生变化。 联系Adobe客户经理或客户支持以获取更新的发行计划。
-
-
-
-
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
