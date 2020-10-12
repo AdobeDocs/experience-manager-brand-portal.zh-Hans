@@ -1,8 +1,8 @@
 ---
 title: AEM Assets Brand Portal 的新增功能
 seo-title: AEM Assets Brand Portal 的新增功能
-description: 了解6.4.7的新增功能和增强功能。
-seo-description: 了解6.4.7的新增功能和增强功能。
+description: 了解2020.10.0的新增功能和增强功能。
+seo-description: 了解2020.10.0的新增功能和增强功能。
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
 workflow-type: tm+mt
-source-wordcount: '4755'
+source-wordcount: '5387'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,94 @@ ht-degree: 2%
 # AEM Assets Brand Portal 的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Adobe正在努力改善整体品牌门户体验。 抢先领略新增功能和增强功能。
+
+## 2020.10.0中的更改 {#what-changed-in-oct-2020}
+
+Brand Portal 2020.10.0是一个增强版本，侧重于简化资产下载体验并包含关键修复。 该增强功能包括用于资产下载的全新和经过改进的工作流、排除再现的其他选项、从演绎版 **[!UICONTROL 面板直接下载]** 、允许特定用户组访问和下载权限的配置，以及从所有品牌门户页面轻松导航到文件、集合和共享链接。 请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
+
+
+### 简化的下载体验 {#download-dialog}
+
+以前，会显 **[!UICONTROL 示]** “下载”对话框，其中包含多个选项，如为每个资产创建单独的文件夹、电子邮件资产、选择原始资产、自定义演绎版、动态演绎版、排除系统演绎版并启用下载加速，这些选项对于非技术用户或新用户来说很模糊，尤其是当选择了多个资产或文件夹进行下载时。 此外，用户无法查看所有资产演绎版或排除特定的自定义或动态演绎版。
+
+新的“下 **[!UICONTROL 载]** ”对话框概括了资产选择和筛选过程，使Brand Portal用户在下载资产演绎版时能更轻松地做出有效决策。 它会根据“下载”配置和“下载”设置来列表所 [**[!UICONTROL 有选定]**](brand-portal-download-assets.md) 的资产 **[!UICONTROL 及其演绎]** 版。
+
+<!--
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+-->
+
+从“下 **[!UICONTROL 载]** ”对话框中，用户可以：
+
+* 视图下载列表中任何资产的所有可用演绎版。
+* 排除不需要下载的资产演绎版。
+* 只需单击一次，即可将同一组演绎版应用于所有类似的资产类型。
+* 对不同资产类型应用不同的演绎版集。
+* 为每个资产创建单独的文件夹.
+* 下载选定资产及其演绎版。
+
+对于独立资产、多个资产、包含资产的文件夹、授权或未授权的资产，以及使用共享链接下载资产，下载工作流程将保持不变。
+
+![下载对话框](assets/download-dialog-box.png)
+
+### 快速导航  {#quick-navigation}
+
+以前，“视图文 **[!UICONTROL 件]**、集合和共享链接 **[!UICONTROL ”选项是]****** 隐藏的，用户每次要切换到其他视图，都需要多次单击。
+
+在Brand Portal 2020.10.0中，用户可使用快速导航链 **[!UICONTROL 接从所有Brand Portal页面]**，一键导航 **[!UICONTROL 到文]**&#x200B;件、集合 **[!UICONTROL 和共享链接]** 。
+
+![集合导航](assets/collection-navigation.png)
+
+### 增强的再现面板 {#rendition-panel}
+
+以前，如果在下载配置中启用了任何自定义演绎版或系统演绎版，则用户只能在 **[!UICONTROL “演绎版]** ”面板中视图原始资产及其 **[!UICONTROL 演绎]********** 版。 此外，用户还必须下载所有资产演绎版，因为没有过滤器可排除不需要的特定自定义或动态演绎版。
+
+<!--
+Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
+There was no filter to exclude specific custom or dynamic renditions which were not required for download.
+-->
+
+在Brand Portal 2020.10.0中，用户可以排除特定再现并直接从资产详细信息页面的“演 **[!UICONTROL 绎版]** ”面板下载选定的演绎版，而无需打开“下 **[!UICONTROL 载]** ”对话框。
+
+
+<!-- 
+In Brand Portal 2020.10.0, direct download and exclude renditions features are introduced in the **[!UICONTROL Renditions]** panel on the asset details page. All the renditions (original asset, custom renditions, dynamic renditions) under the rendition panel are now associated with a check box and are enabled by default. 
+
+The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
+-->
+
+![再现面板](assets/rendition-panel.png)
+
+
+### 配置下载权限 {#download-permissions}
+
+除了现有的下载 [**[!UICONTROL 配置]**](brand-portal-download-assets.md) ,Brand Portal管理员还可以配置不同用户组的视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
+
+以前，这些设置仅用于限制用户组下载原始资产。
+
+<!-- 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
+-->
+
+“用 **[!UICONTROL 户角]** 色 **[!UICONTROL ”页上的“组]** ”选项卡允许管理员配置视图和下载设置：
+
+* 如果同时 **[!UICONTROL 打开]** “下 **[!UICONTROL 载原始资产”和]** “下载演绎版”设置，则选定组的用户可以视图和下载原始资产及其演绎版。
+* 如果两个设置都处于关闭状态，则用户只能视图原始资产。 资产演绎版对资产详细信息页面上的用户不可见。
+* 如果只 **[!UICONTROL 启用了]** “下载原件”设置，则用户只能从资产详细信息页面视图和下载原始资产。
+* 如果仅 **[!UICONTROL 启用了]** “下载演绎版”设置，则用户可以视图原始资产，但无法下载它。 但是，用户可以视图和下载资产演绎版。
+
+![视图下载权限](assets/download-permissions.png)
+
+>[!NOTE]
+>
+>如果将用户添加到多个组，并且其中一个组具有限制，则限制将适用于该用户。
+
+
+<!--
+>Restrictions to access the original asset and their renditions do not apply to administrators even if they are members of restricted groups.
+ >
+ >The users can always download assets and their renditions from the repository using a `curl` request even if the download configurations are turned-off.
+ >
+-->
 
 ## 6.4.7中的更改 {#what-changed-in-647}
 
@@ -236,7 +324,6 @@ Brand Portal 6.4.3版本重点介绍——除了在Brand Portal访问URL中的�
 
 ![](assets/edit-search-form.png)
 
-**用例**
 
 您现在可以限制在已浏览到的特定文件夹内搜索资产，而不是从根文件夹开始。
 
@@ -252,7 +339,8 @@ AEM作者实例处于Dynamic Media混合模式的用户除了可以下载原始�
 
 要允许预览和下载特定租户帐户上的Dynamic Media再现，管理员需要在“ **Video Configuration** ”(视频服务URL(DM-Gateway URL)和注册ID，以从“Admin Tools”（管理工具）面板中 **指定Dynamic Media Configuration(视频服务URL（DM-网关URL）和注册ID)** 以获取动态视频)。
 
-**Dynamic Media视频**&#x200B;的用例可在以下位置预览：
+
+Dynamic Media视频可在以下位置预览：
 
 * 资产详细信息页面
 * 资产卡视图
@@ -274,6 +362,7 @@ Dynamic Media视频编码可从以下位置下载：
 同样，可以通过计划从Brand Portal中取消发布工作流，在以后的日期（时间）从门户中删除已发布的资产。
 
 ![](assets/schedule-publish.png)
+
 ![](assets/publishlater-workflow.png)
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
@@ -287,7 +376,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 但是，AEM作者实例只能 [使用](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) 租户ID URL进行配置，而不能使用租户别名（备用）URL进行配置。
 
-**用例组**&#x200B;织可以通过自定义门户URL而不是坚持Adobe提供的URL来满足其品牌需求。
+组织可以通过自定义门户URL而不是坚持Adobe提供的URL来满足其品牌需求。
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
@@ -296,7 +385,7 @@ Dynamic Media视频编码可从以下位置下载：
 发行优惠通过减少点击次数和警告次数简化了下载体验，具体内容如下：
 
 * 选择仅下载演绎版（而非原始资产）。
-* 当访问原始演绎版受到限制时，下载资产。
+* 当访问原始演绎版受限时，下载资产。
 
 ## 6.4.2中的更改 {#what-changed-in-1}
 
