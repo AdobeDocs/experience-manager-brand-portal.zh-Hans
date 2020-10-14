@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -31,6 +31,7 @@ Adobe Experience Manager资产通过Adobe开发者控制台配置了品牌门户
 >以前，Brand Portal通过旧版OAuth Gateway在经典界面中配置，该网关使用JSON Web令牌(JWT)交换获取IMS令牌进行授权。
 >
 >从2020年4月6日起，不再支持通过旧版OAuth进行配置，并且已通过Adobe开发人员控制台更改为进行配置。
+
 
 >[!TIP]
 >
