@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 4%
@@ -29,6 +29,7 @@ ht-degree: 4%
 >
 >下载图像及其演绎版时，没有选项可从现有预设中进行选择。 您可以指定自定义图像预设的属性。 有关详细信息，请参 [阅下载图像时应用图像预设](../using/brand-portal-image-presets.md#main-pars-text-1403412644)。
 
+
 有关创建图像预设时所需参数的详细信息，请参阅管 [理图像预设](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
 
 ## Create an image preset {#create-an-image-preset}
@@ -44,6 +45,7 @@ AEM管理员可以创建在资产详细信息页面上显示为动态演绎版�
 >而如果AEM作者实例在Dynamic Media Scene 7模 **式上运行**，则图像资产的金字塔TIFF演绎版在Scene 7服务器上存在。
 >
 >当此类资产发布到品牌门户时，会应用图像预设并显示动态演绎版。
+
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
