@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -107,11 +107,13 @@ Test..
       >
       >如果您是首次下载资源，并且浏览器中未安装IBM Aspera Connect，将提示您安装Aspera下载加速器。
 
+
       >[!NOTE]
       >
       >如果您正在下载的资产也包含许可的资产，则会将您重定向到版权 **[!UICONTROL 管理页]** 面。 在此页中，选择资产，单击“ **[!UICONTROL 同意]**”，然后单击“ **[!UICONTROL 下载]**”。 如果您选择不同意，则不会下载许可的资产。
       > 
       >受许可证保护的资 [产附加了许](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 可协议，可通过在Experience Manager资产中设置资产的 [元数据](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) 属性来完成。
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Test..
       >
       >管理员可以使用品牌功能自定义电子邮件，即徽标、说明 [和页脚](../using/brand-portal-branding.md) 。
 
+
    * 您可以选择预定义的图像预设，或从“下载”对话框中创建自 **[!UICONTROL 定义]** 动态演绎版。
 
       要将自定 [义图像预设应用到资产及其演绎版](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages)，请选 **[!UICONTROL 中“动态演绎版”复选框]** 。 指定图像预设属性（如大小、格式、色彩空间、分辨率和图像修饰符），以便在下载资产及其演绎版时应用自定义图像预设。 要仅下载动态演绎版，请清 **[!UICONTROL 除“资产]** ”复选框。
@@ -166,6 +169,7 @@ Test..
       >
       >要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，且资产的金字塔型Tiff演绎版存在于资产发布位置所在的AEM Assets作者实例中。 将资产发布到Brand Portal时，也会发布其金字塔tiff再现。
 
+
    * 要在下载资产时保留Brand Portal文件夹层次结构，请选中“为 **[!UICONTROL 每个资产创建单独的文件夹]** ”复选框。 默认情况下，将忽略Brand Portal文件夹层次结构，所有资产都下载到本地系统的一个文件夹中。
 
 1. 单击“ **[!UICONTROL 下载]**”。
@@ -177,6 +181,7 @@ Test..
    >[!NOTE]
    >
    >单独下载的资产会显示在资产下载报告中。 但是，如果下载的文件夹中包含资产，则文件夹和资产不会显示在资产下载报告中。
+
 
 ## 预期下载性能 {#expected-download-performance}
 
@@ -193,6 +198,8 @@ Test..
 | 伦敦 | 179毫秒 | 0.32 MB/秒 | 106分钟 |
 | 新加坡 | 196毫秒 | 0.5 MB/s | 68分钟 |
 
+
 >[!NOTE]
 >
 >在测试条件下观察引用的数据，这可能因不同位置的用户目睹不同的延迟和带宽而异。
+
