@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,6 +29,7 @@ Brand Portal用户可以下 [载资产要求](brand-portal-download-asset-requir
 >
 >任何Brand Portal租户的最大上载限 **制**&#x200B;为10GB，累计应用于所有贡献文件夹。
 
+
 将新创建的资产发布到AEM Assets后，Brand Portal用户可以从NEW文件夹中删除这些资产。 但是，Brand Portal管理员可以从NEW和SHARED文件夹中删除资产。
 
 实现创建贡献文件夹的目标后，Brand Portal管理员可以删除贡献文件夹，为其他用户释放上传空间。
@@ -38,6 +39,7 @@ Brand Portal用户可以下 [载资产要求](brand-portal-download-asset-requir
 >建议在将贡献文件夹发布到AEM Assets后释放上传空间，以便其他Brand Portal用户可以参与。
 >
 >如果需要将您的Brand Portal租户的上传限制延长到10GB以 **上**，请与Adobe支持联系，指定该要求。
+
 
 **要上传新资产，请执行以下操作：**
 
