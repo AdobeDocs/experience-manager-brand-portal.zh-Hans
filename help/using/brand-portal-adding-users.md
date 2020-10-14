@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
@@ -223,6 +223,7 @@ Comment Type: draft
    >
    >要撤销用户的管理员权限，请在“编辑管理员”页 **[!UICONTROL 面中进行相]** 应的更改，然后单 **[!UICONTROL 击保存]**。
 
+
 ## 管理用户角色 {#manage-user-roles}
 
 管理员可以修改Brand Portal中用户的角色。
@@ -250,9 +251,11 @@ Comment Type: draft
    >
    >管理员 [!UICONTROL 用户的] “角色”列表被禁用。 您无法选择这些用户来修改其角色。
 
+
    >[!NOTE]
    >
    >如果用户是编辑者组的成员，则用户角色也会被禁用。 要撤销用户的编辑权限，请从编辑器组中删除该用户，或将整个组的角色更改为查看器。
+
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。将修改相应用户的角色。 如果选择了多个用户，则同时修改所有用户的角色。
 
@@ -287,8 +290,10 @@ Comment Type: draft
    >
    >此外，访问图像文件原始演绎版的限制不适用于管理员，即使管理员是受限组的成员。
 
+
 1. 单击&#x200B;**[!UICONTROL 保存]**。将修改相应组的角色。
 
    >[!NOTE]
    >
    >用户与组的关联或用户的组成员关系每8小时同步一次到Brand Portal。 对用户或组角色的更改在下一个同步作业运行后生效。
+
