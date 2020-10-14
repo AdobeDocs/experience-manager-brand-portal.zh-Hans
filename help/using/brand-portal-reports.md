@@ -1,15 +1,15 @@
 ---
 title: 使用报告
 seo-title: 使用报告
-description: AEM Assets品牌门户管理员可以视图有关品牌门户使用情况的报告，以及创建、管理和视图通过品牌门户共享的已下载、过期、发布和链接的资产相关的报告。
-seo-description: AEM Assets品牌门户管理员可以视图有关品牌门户使用情况的报告，以及创建、管理和视图通过品牌门户共享的已下载、过期、发布和链接的资产相关的报告。
+description: AEM Assets品牌门户管理员可以视图有关品牌门户使用情况的报告，以及创建、管理和视图通过品牌门户共享的已下载、过期、发布和链接的资产的报告。
+seo-description: AEM Assets品牌门户管理员可以视图有关品牌门户使用情况的报告，以及创建、管理和视图通过品牌门户共享的已下载、过期、发布和链接的资产的报告。
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 要视图报告，请执行以下步骤：
 
-1. 从顶部的工具栏中，点按／单击AEM徽标以访问管理工具。
+1. 在顶部的工具栏中，点按／单击AEM徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL 发布]** 报告列表，并提供有关在指定时间范围内从AEM发布到Brand Portal的所有资产的信息。
+   **[!UICONTROL 发布报]** 告列表，并提供有关在指定时间范围内从AEM发布到Brand Portal的所有资产的信息。
 
    ![](assets/publish-report.png)
 
@@ -78,7 +78,6 @@ ht-degree: 2%
    >[!NOTE]
    >
    >链接共享报告不会显示有权访问通过链接共享的资产或通过链接下载资产的用户。
-   >
    >
    >要通过共享链接跟踪下载，您需要在选择“创建报告”页面上的“仅链 **[!UICONTROL 接共享下载]** ”选项 **[!UICONTROL 后生成下载报]** 告。 但是，在本例中，用户（下载者）是匿名的。
 
@@ -155,7 +154,7 @@ ht-degree: 2%
 
 ## 删除报告 {#delete-reports}
 
-要删除现有报表，请从资产报表页 **[!UICONTROL 面选择报表]** ，然后点按／单 **[!UICONTROL 击顶]** 部工具栏中的删除。
+要删除现有报表，请从资产报表页 **[!UICONTROL 面选择报表]** ，然后点按/ **[!UICONTROL 单击顶]** 部工具栏中的删除。
 
 >[!NOTE]
 >
