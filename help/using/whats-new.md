@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 2%
@@ -231,7 +231,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
-拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
@@ -249,7 +249,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 Brand Portal 6.4.4 版主要增强了文本搜索和常见客户请求。请参阅最 [新的Brand Portal发行说明](brand-portal-release-notes.md)。
 
-### 搜索增强功能 {#search-enhancements}
+### 搜索增强功能
 
 从Brand Portal 6.4.4开始，支持对筛选窗格中的属性谓词进行部分文本搜索。 要允许部分文本搜索，您需要在搜 **索表单中** “属性谓词”中启用部分搜索。
 
