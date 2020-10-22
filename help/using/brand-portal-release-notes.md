@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
+source-git-commit: 8881e9d171c3a4e750a906caadd8aa26f6fc0674
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 9%
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 此版本包含以下新增功能：
 
-* 在列表 **[!UICONTROL 视图中]** ,“下载”对话框进行了改头换面，其中包含了其他选项，可排除不需要的演绎版、对类似资产类型应用相同的规则集以及下载选定的资产演绎版。
+* 在列表 **[!UICONTROL 视图中]** ,“下载”对话框进行了改头换面，增加了一些选项，可排除不需要的演绎版、对类似资产类型应用同一套规则以及下载选定的资产演绎版。
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
