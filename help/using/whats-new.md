@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
+source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
 workflow-type: tm+mt
-source-wordcount: '5387'
+source-wordcount: '5439'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,10 @@ Brand Portal 2020.10.0是一个增强版本，侧重于简化资产下载体验�
 以前，会显 **[!UICONTROL 示]** “下载”对话框，其中包含多个选项，如为每个资产创建单独的文件夹、电子邮件资产、选择原始资产、自定义演绎版、动态演绎版、排除系统演绎版并启用下载加速，这些选项对于非技术用户或新用户来说很模糊，尤其是当选择了多个资产或文件夹进行下载时。 此外，用户无法查看所有资产演绎版或排除特定的自定义或动态演绎版。
 
 新的“下 **[!UICONTROL 载]** ”对话框概括了资产选择和筛选过程，使Brand Portal用户在下载资产演绎版时能更轻松地做出有效决策。 它会根据“下载”配置和“下载”设置来列表所 [**[!UICONTROL 有选定]**](brand-portal-download-assets.md) 的资产 **[!UICONTROL 及其演绎]** 版。
+
+>[!NOTE]
+>
+>所有用户现在都将 **[!UICONTROL 默认启用]** “快速下载”，并要求在从Brand Portal下载资源之前，在浏览器扩展中安装IBM Aspera Connect 3.9.9。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
@@ -67,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在Brand Portal 2020.10.0中，用户可以排除特定再现并直接从资产详细信息页面的“演 **[!UICONTROL 绎版]** ”面板下载选定的演绎版，而无需打开“下 **[!UICONTROL 载]** ”对话框。
+在Brand Portal 2020.10.0中，用户可以排除特定演绎版并直接从资 [产详细信息页面的“演 **[!UICONTROL 绎版]**](brand-portal-download-assets.md#download-assets-from-asset-details-page) ”面板下载选定的演绎版，而无需打开“ **[!UICONTROL 下载]** ”对话框。
 
 
 <!-- 
@@ -76,18 +80,18 @@ In Brand Portal 2020.10.0, direct download and exclude renditions features are i
 The user can clear the check boxes to exclude the renditions which are not required for download. And can click on the **[!UICONTROL Download]** button in the **[!UICONTROL Renditions]** panel to directly download the selected set of renditions in a zip folder without having to open the **[!UICONTROL Download]** dialog.
 -->
 
-![再现面板](assets/rendition-panel.png)
+![再现面板](assets/renditions-panel.png)
 
 
 ### 配置下载权限 {#download-permissions}
 
-除了现有的下载 [**[!UICONTROL 配置]**](brand-portal-download-assets.md) ,Brand Portal管理员还可以配置不同用户组的视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
+除了现有的下载 [**[!UICONTROL 配置]**](brand-portal-download-assets.md) ,Brand Portal管理员还可以配置不同用户组的视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。
+
+以管理员身份登录到您的Brand Portal租户，然后导航到 **[!UICONTROL 工具]** > **[!UICONTROL 用户]**。
+
+在“用 **[!UICONTROL 户角色]** ”页中，导航到“ **[!UICONTROL 组]** ”选项卡，以配置用户组的视图和（或）下载权限
 
 以前，这些设置仅用于限制用户组下载原始资产。
-
-<!-- 
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the **[!UICONTROL Download]** configuration and **[!UICONTROL Download]** settings are enabled for the group users, then all the renditions of the selected assets or folders containing assets are available to the users for download.
--->
 
 “用 **[!UICONTROL 户角]** 色 **[!UICONTROL ”页上的“组]** ”选项卡允许管理员配置视图和下载设置：
 
@@ -231,7 +235,7 @@ AEM用户随后定义了此 [要求](brand-portal-configure-contribution-folder-
 
 ### 将资产上传到贡献文件夹 {#upload-assets-in-bp}
 
-拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可 [以下载资产要求](brand-portal-download-asset-requirements.md) ，了解贡献的需要并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到NEW子文 **件夹** 。 SHARED **文件夹** ，用于分发要求和基准资产。 请参阅，将 [资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
 
 ![](assets/upload-asset6.png)
 
