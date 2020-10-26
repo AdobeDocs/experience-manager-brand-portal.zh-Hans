@@ -1,8 +1,8 @@
 ---
 title: 管理常规租户配置
 seo-title: 管理常规租户配置
-description: 配置下载加速、公共智 [!UICONTROL 能收藏] 、公共收 [!UICONTROL 藏集创] 建，并使管理员用户能够删除租户上的资产。
-seo-description: 配置下载加速、公共智 [!UICONTROL 能收藏] 、公共收 [!UICONTROL 藏集创] 建，并使管理员用户能够删除租户上的资产。
+description: 配置下载加速、公共智能集合创建、公共集合创建，并允许管理员用户删除租户上的资产。
+seo-description: 配置下载加速、公共智能集合创建、公共集合创建，并允许管理员用户删除租户上的资产。
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 307bed102148f6e5a68bac8273a93729b9d49854
+source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
