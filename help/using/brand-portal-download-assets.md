@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -166,7 +166,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
    单击任何资产以视图可用的演绎版，然后选中与要下载的演绎版对应的复选框。
 
-   您可以手动选择或排除单个资产的演绎版，或者单击 **应用** 图标，将同一组演绎版应用到所有选定进行下载的类似资产类型（此示例中的所有图像文件）。 单击 **[!UICONTROL 完成]** ，以确认已应用的规则。
+   您可以手动选择或排除单个资产的演绎版，也可以单击 **应用** 图标，选择要下载的同一组演绎版以用于类似资产类型（此示例中的所有图像文件）。 在全 **[!UICONTROL 部应用]** 对话框中，单 **[!UICONTROL 击完成]** ，将规则应用到所有类似资产。
 
    ![全部应用](assets/apply.png)
 
