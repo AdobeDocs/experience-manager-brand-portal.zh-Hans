@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1878'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager资产品牌门户允许用户同时下载可从品牌�
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更高版本）中，默认 **[!UICONTROL 情况下启用]** “快速下载”设置，该设置使用IBM Aspera Connect加快资源下载。 在从Brand Portal下载资源之前，在浏览器的扩展中安装IBM Aspera Connect 3.9.9。
+>在Brand Portal 2020.10.0（及更高版本）中，默认 **[!UICONTROL 情况下启用]** “快速下载”设置，该设置使用IBM Aspera Connect加快资源下载。 在从Brand Portal下载资源之前，在浏览器的扩展中安装IBM Aspera Connect 3.9.9。 有关详细信息，请参 [阅加速从Brand Portal下载的指南](../using/accelerated-download.md)。
 >
 >如果您不想使用IBM Aspera Connect并继续正常下载过程，请与Brand Portal管理员联系以关闭“快速 **[!UICONTROL 下载]** ”设置。
 
@@ -52,13 +52,11 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载设置和权�
 
    它使用IBM Aspera Connect提供资源的加速下载。 默认情况下，“ **[!UICONTROL 下载设置]** ”中启用“快速 **[!UICONTROL 下载”设置]**。
 
-   要了解更多信息，请参 [阅可加快从Brand Portal下载的指南](../using/accelerated-download.md)。
-
 * **[!UICONTROL 自定义呈现版本]**
 
    支持下载资产的自定义和（或）动态演绎版。
 
-   除原始资产和系统生成的演绎版之外的所有资产演绎版均称为自定义演绎版。 它包括资产可用的静态和动态演绎版。 任何用户都可以在AEM Assets创建自定义静态演绎版，而只有AEM管理员才能创建自定义动态演绎版。 要了解更多信息，请 [参阅如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
+   除原始资产和系统生成的演绎版之外的所有资产演绎版均称为自定义演绎版。 它包括资产可用的静态和动态演绎版。 任何用户都可以在AEM Assets创建自定义静态演绎版，而只有AEM管理员才能创建自定义动态演绎版。 有关详细信息， [请参阅如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系统呈现版本]**
 
