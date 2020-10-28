@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: df378757f901a92de7003790651f623dcb92a4e3
+source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 此版本包含以下新增功能：
 
-* 在列表 **[!UICONTROL 视图中]** ,“下载”对话框进行了改头换面，增加了一些选项，可排除不需要的演绎版、对类似资产类型应用同一套规则以及下载选定的资产演绎版。
+* 在列表 **[!UICONTROL 视图中]** ,“下载”对话框进行了改头换面，增加了一些选项，可排除不需要的演绎版、对类似资产类型应用同一套规则以及下载选定的资产演绎版。 请参 [阅从Brand Portal下载资产的步骤](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
@@ -47,13 +47,13 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 * 现在，只需 **[!UICONTROL 单击一]**&#x200B;下，即可从所 **[!UICONTROL 有Brand Portal页面]****** 导航到文件、集合和共享链接。
 
-* 现在， **[!UICONTROL 资产]** 详细信息页面中的“演绎版”面板允许Brand Portal用户选择原始资产和（或）特定资产演绎版，并直接从“演绎版”面板下载它们，而无需打开“下载 **[!UICONTROL ”对话]** 框 **** 。
+* 现在， **[!UICONTROL 资产]** 详细信息页面中的“演绎版”面板允许Brand Portal用户选择原始资产和（或）特定资产演绎版，并直接从“演绎版”面板下载它们，而无需打开“下载 **[!UICONTROL ”对话]** 框 **** 。 请参 [阅从资产详细信息页面下载资产](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 除了现有的下载 **[!UICONTROL 配置]** ,Brand Portal管理员还可以配置不同用户组的视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
+* 除了现有的下 **[!UICONTROL 载配置]** ,Brand Portal管理员还可以将不同用户组的权 [限配置为视图](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) ，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
 
 ### 增强功能 {#enhancements}
 
