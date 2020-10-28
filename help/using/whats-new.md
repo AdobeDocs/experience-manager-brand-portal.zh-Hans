@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
+source-wordcount: '5471'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 为每个资产创建单独的文件夹.
 * 下载选定资产及其演绎版。
 
-对于独立资产、多个资产、包含资产的文件夹、授权或未授权的资产，以及使用共享链接下载资产，下载工作流程将保持不变。
+对于独立资产、多个资产、包含资产的文件夹、授权或未授权的资产，以及使用共享链接下载资产，下载工作流程将保持不变。 请参 [阅从Brand Portal下载资产的步骤](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 ![下载对话框](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在Brand Portal 2020.10.0中，用户可以排除特定演绎版并直接从资 [产详细信息页面的“演 **[!UICONTROL 绎版]**](brand-portal-download-assets.md#download-assets-from-asset-details-page) ”面板下载选定的演绎版，而无需打开“ **[!UICONTROL 下载]** ”对话框。
+在Brand Portal 2020.10.0中，用户可以排除特定演绎版并直接从资产详细信息页面 [的“演绎版](brand-portal-download-assets.md#download-assets-from-asset-details-page) ”面板下载选定的演绎版 **[!UICONTROL ，而无需打开“下载]** ”对话框。
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### 配置下载权限 {#download-permissions}
 
-除了现有的下载 [**[!UICONTROL 配置]**](brand-portal-download-assets.md) ,Brand Portal管理员还可以配置不同用户组的视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。
+除了现有的下载 **[!UICONTROL 配置]** ,Brand Portal管理员还可以配置不同用户组的视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。
 
 以管理员身份登录到您的Brand Portal租户，然后导航到 **[!UICONTROL 工具]** > **[!UICONTROL 用户]**。
 
@@ -99,6 +99,8 @@ The user can clear the check boxes to exclude the renditions which are not requi
 * 如果两个设置都处于关闭状态，则用户只能视图原始资产。 资产演绎版对资产详细信息页面上的用户不可见。
 * 如果只 **[!UICONTROL 启用了]** “下载原件”设置，则用户只能从资产详细信息页面视图和下载原始资产。
 * 如果仅 **[!UICONTROL 启用了]** “下载演绎版”设置，则用户可以视图原始资产，但无法下载它。 但是，用户可以视图和下载资产演绎版。
+
+请参阅 [配置资产下载](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)。
 
 ![视图下载权限](assets/download-permissions.png)
 
