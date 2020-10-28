@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 4774d8a78657c89081d229ce596a3bd404ae1bc8
+source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1886'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Adobe Experience Manager资产品牌门户允许用户同时下载可从品牌�
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更高版本）中，默认 **[!UICONTROL 情况下启用]** “快速下载”设置，该设置使用IBM Aspera Connect加快资源下载。 在从Brand Portal下载资源之前，在浏览器的扩展中安装IBM Aspera Connect 3.9.9。 有关详细信息，请参 [阅加速从Brand Portal下载的指南](../using/accelerated-download.md)。
+>在Brand Portal 2020.10.0（及更高版本）中，默认 **[!UICONTROL 情况下启用]** “快速下载”设置，该设置使用IBM Aspera Connect加快资源下载。 [在从Brand Portal下载资源之前](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) ，在浏览器的扩展中安装IBM Aspera Connect 3.9.9。 有关详细信息，请参 [阅加速从Brand Portal下载的指南](../using/accelerated-download.md)。
 >
 >如果您不想使用IBM Aspera Connect并继续正常下载过程，请与Brand Portal管理员联系以关闭“快速 **[!UICONTROL 下载]** ”设置。
 
