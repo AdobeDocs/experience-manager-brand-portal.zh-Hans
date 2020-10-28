@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1107'
 ht-degree: 2%
 
 ---
@@ -35,9 +35,9 @@ Brand Portal通过与IBM Aspera Connect集成，可增强大资产文件的下�
 要更快地下载文件，请确保：
 
 * 导航到 **[!UICONTROL 工具]** >下 **[!UICONTROL 载]** ，并验证在下载设置中 **[!UICONTROL 是否启用了快]** 速下载 ****&#x200B;配置。
-* 端口33001（TCP和UDP）在防火墙上处于打开状态。 有关先决条件的详细信息，请参 [阅Aspera Connect客户端文档](https://downloads.asperasoft.com/en/documentation/8)。
-* 使用管理员权限安装Aspera Connect。
-* 有关Aspera传输客户端的平台支持，请参 [阅Aspera Connect平台支持列表](https://www.asperasoft.com/company/support/transfer-clients/)。
+* 确保防火墙上的端口33001（TCP和UDP）均打开。 有关先决条件的详细信息，请参 [阅IBM Aspera Connect客户端文档](https://downloads.asperasoft.com/en/documentation/8)。
+* [使用管理员权限在浏览器的扩展](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 中安装IBM Aspera Connect 3.9.9。
+* 有关Aspera传输客户端的平台支持，请 [参阅IBM Aspera Connect平台支持列表](https://www.asperasoft.com/company/support/transfer-clients/)。
 
 ## 下载域 {#download-domains}
 
