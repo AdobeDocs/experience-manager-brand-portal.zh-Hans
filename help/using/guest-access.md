@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 来宾访问 Brand Portal {#guest-access-to-brand-portal}
 
-AEM Brand Portal允许客人访问该门户。 客人用户无需凭据即可进入门户，并有权访问门户的公共资产（和集合）。 来宾会话中的用户可以将资产添加到其lightbox（专用集合）并下载相同的资产，直到其会话持续。除非来宾用户选择“结束会话”，否则会话从会话开始算起2 [[!UICONTROL 小时]](#exit-guest-session)。
+AEM Brand Portal允许客人访问门户。 客人用户无需凭据即可进入门户，并有权访问门户的公共资产（和集合）。 来宾会话中的用户可以将资产添加到其lightbox（专用集合）并下载相同的资产，直到其会话持续。除非来宾用户选择“结束会话”，否则会话从会话开始算起2 [[!UICONTROL 小时]](#exit-guest-session)。
 
 客人访问功能使组织 [能够快速大规模地与](../using/brand-portal-sharing-folders.md#how-to-share-folders) 目标受众共享获准资产，而无需加入这些资产。 从Brand Portal 6.4.2开始，可为多个并发来宾用户提供服务，这是每个组织的用户配额总数的10%。 允许客人访问可节省管理和安装大量需要在Brand Portal上使用有限功能的用户的时间。\
 组织可以使用管理工具面板中的“访问”设置中的“允许客人访 **[!UICONTROL 问]** ”选项， **[!UICONTROL 在组织的Brand Portal帐户上启]** 用（或禁用）客人访问。
@@ -111,7 +111,7 @@ Brand Portal为客人 **[!UICONTROL 用户提]** 供了“概述”选项， **[
 
 ### 在客人会话中下载资源
 
-客人用户可以直接在Brand Portal上下载与客人共享的公共或专门共享的资源。 客人用户还可以将资产添 **[!UICONTROL 加到Lightbox]** （公共收藏集），并在 **[!UICONTROL Lightbox收藏集过]** 期前下载Lightbox收藏集。
+客人用户可以直接在Brand Portal上下载公共或专供客人用户共享的资源。 客人用户还可以将资产添 **[!UICONTROL 加到Lightbox]** （公共收藏集），并在 **[!UICONTROL Lightbox收藏集过]** 期前下载Lightbox收藏集。
 
 要下载资产和集合，请使用下载图标：
 
