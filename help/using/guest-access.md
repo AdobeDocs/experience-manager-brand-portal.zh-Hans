@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,11 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 来宾会话持续时间 {#guest-session-duration}
 
-客人用户会话在2小时内保持活动状态。 这意味着Lightbox的状态将保 **[!UICONTROL 留到]** 会话开始时间起1小时后，当前来宾会话将在2小时后重新启动，因此Lightbox状态将丢失。\
-例如，客人用户在15时登录Brand Portal，并将资产添加到Lightbox，然后在16时50分下载。 如果用户在17:00 **[!UICONTROL 小时]** （或其资产）之前未下载Lightbox集合（或其资产），则 **** Lightbox将变为空，因为用户将必须在1小时结束时（即1700小时）重新启动会话。
+
+来宾用户会话保持活动状态15分钟。
+这意味着Lightbox的状态将 **[!UICONTROL 从会话开始]** 开始保留15分钟，并在此之后，当前来宾会话将重新启动，因此Lightbox状态将丢失。
+
+例如，客人用户在15时登录Brand Portal，并将资产添加到Lightbox **** ，然后在15时05分下载。 如果用户在15:15 **[!UICONTROL 小时]** （登录后15分钟内）之前未下载Lightbox集合（或其资产），则用户将必须重新启动会话。 Lightbox **[!UICONTROL 将为]** 空，这意味着如果会话丢失，上传的资产将不再可用。
 
 ## 允许并发来宾会话 {#concurrent-guest-sessions-allowed}
 
