@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 168177bae46b2242d883838da538218b8d192031
+source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 **要发布贡献文件夹，请执行以下操作：**
 
 1. 登录到AEM作者实例。
-默认URL: http://本地主机：4502/aem/start.html
+默认URL:http://本地主机：4502/aem/start.html
 1. 导航到 **[!UICONTROL 资产>文件]** ，然后找到要发布到Brand Portal的贡献文件夹。
 1. 选择贡献文件夹，然后单 **[!UICONTROL 击“快速发布”>“发布到品牌门户”]**。
    ![](assets/publish-contribution-folder-to-bp.png)
