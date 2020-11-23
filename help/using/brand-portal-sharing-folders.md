@@ -1,15 +1,15 @@
 ---
 title: 共享文件夹
 seo-title: 共享文件夹
-description: Brand Portal不支持资产摄取，因此必须从预配置的AEM Author实例将资产发布到Brand Portal。 Brand Portal的非管理员用户无法访问发布的资产，除非在使用AEM实例配置复制时进行了配置，因此需要与他们共享。
-seo-description: Brand Portal不支持资产摄取，因此必须从预配置的AEM Author实例将资产发布到Brand Portal。 Brand Portal的非管理员用户无法访问发布的资产，除非在使用AEM实例配置复制时进行了配置，因此需要与他们共享。
+description: Brand Portal不支持资产摄取，因此必须从预配置的AEM作者实例将资产发布到Brand Portal。 Brand Portal的非管理员用户无法访问发布的资产，除非在使用AEM实例配置复制时进行了配置，因此需要与他们共享。
+seo-description: Brand Portal不支持资产摄取，因此必须从预配置的AEM作者实例将资产发布到Brand Portal。 Brand Portal的非管理员用户无法访问发布的资产，除非在使用AEM实例配置复制时进行了配置，因此需要与他们共享。
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # 在Brand Portal上共享文件夹 {#share-folders}
 
-资产需要从预配置的AEM Author实例发布到Brand Portal，因为Brand Portal不支持资产摄取。
+资产需要从预配置的AEM作者实例发布到Brand Portal，因为Brand Portal不支持资产摄取。
 
 ## Brand Portal中的文件夹共享工作流 {#folder-sharing-workflow-in-brand-portal}
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ### Public folder publish {#public-folder-publish}
 
-除非在 **[!UICONTROL 配置Brand]** Portal复制时选择了“公共文件夹发布”选项，否则非管理员用户（如编辑器和查看器）无权访问从AEM Assets发布到Brand Portal的资产。
+除非在 **[!UICONTROL 配置Brand]** Portal复制时选择“公共文件夹发布”选项，否则非管理员用户（如编辑和查看器）无权访问从AEM Assets发布到Brand Portal的资产。
 
 ![](assets/assetbpreplication.png)
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->从AEM 6.3. **[!UICONTROL 2.1开始]** ，可以使用启用公共文件夹发布的选项。
+>从AEM 6.3. **[!UICONTROL 2.1开始]** ，可使用启用公共文件夹发布的选项。
 
 ## 访问共享文件夹 {#access-to-shared-folders}
 
@@ -62,7 +62,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->默认情况下，配 **[!UICONTROL 置带有AEM Author的Brand]** Portal复制时，会禁用“公共文件夹发布”选项。 如果启用此选项，则默认情况下，所有用户（非管理员用户）都可以访问发布到Brand Portal的文件夹。
+>默认情况下，在 **[!UICONTROL 配置Brand Portal与AEM]** Author的复制时，会禁用“公共文件夹发布”选项。 如果启用此选项，则默认情况下，所有用户（非管理员用户）都可以访问发布到Brand Portal的文件夹。
 
 ### 非管理员用户访问共享文件夹 {#non-admin-user-access-to-shared-folders}
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 **如果配置已启用**
 
-非管理员用户登录到Brand Portal时，可以看到文件夹树（从根文件夹开始）以及排列在各自父文件夹中的共享文件夹。
+非管理员用户登录到Brand Portal时，可以看到文件夹树（从根文件夹开始）和在其各自的父文件夹内排列的共享文件夹。
 
 这些父文件夹是虚拟文件夹，不能对其执行任何操作。 您可以通过锁定图标识别这些虚拟文件夹。
 
@@ -124,6 +124,7 @@ ht-degree: 1%
 
 1. 如有必要，请 **[!UICONTROL 单击更改缩略图]** ，以修改文件夹的缩略图图像。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
 1. 要访问共享文件夹，请使用您与之共享文件夹的用户的凭据登录到Brand Portal。 查看界面中的共享文件夹。
 
 ## 取消共享文件夹 {#unshare-the-folders}
