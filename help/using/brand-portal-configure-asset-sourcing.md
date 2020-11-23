@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ AEM管理员可以上传包含AEM Assets活动Brand Portal用户列表的Brand P
 
 >[!NOTE]
 >
->CSV文件的格式与批量用户导入Admin Console支持的格式相同。 电子邮件、名字和姓氏是必填项。
+>CSV文件的格式与批量用户导入Admin Console中支持的格式相同。 电子邮件、名字和姓氏是必填项。
 
 管理员可以在AEMAdmin Console中添加新用户，有关详细 [信息](brand-portal-adding-users.md) ，请参阅管理用户。 在Admin Console中添加用户后，可将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
@@ -66,6 +66,6 @@ AEM管理员可以上传包含AEM Assets活动Brand Portal用户列表的Brand P
    ![](assets/upload-user-list2.png)
 
 
-管理员可以在配置贡献文件夹时，从此用户列表提供对特定用户／组的访问。
+管理员可以在配置贡献文件夹时，通过此用户列表提供对特定用户的访问。
 
 有关详细信息，请参 [阅配置贡献文件夹](brand-portal-contribution-folder.md)。
