@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
@@ -55,11 +55,14 @@ AEM管理员可以上传包含AEM Assets活动Brand Portal用户列表的Brand P
 
 **要上传Brand Portal用户列表，请执行以下操作：**
 1. 登录到AEM作者实例默认URL:http://本地主机：4502/aem/start.html
-1. 从“工 **具** ”面板 ![](assets/tools.png) 中，导航到“资产”>“ **[!UICONTROL Brand Portal用户”]**
+1. 从“工 **具** ”面板，导航到“资 **[!UICONTROL 产”>“Brand Portal用户”]**
+
    ![](assets/upload-user-list1.png)
+
 1. 将打开“品牌门户上传参与者”窗口。
 从您的本地机器浏览并上 **传包含活动Brand Portal用户列表** 的配置(.csv)文件。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
+
    ![](assets/upload-user-list2.png)
 
 
