@@ -27,16 +27,16 @@ ht-degree: 0%
 ---
 
 
-# 资产来源补充概述 {#overview-asset-sourcing-in-bp}
+# 资产来源补充概述{#overview-asset-sourcing-in-bp}
 
-**资产来源** -AEM用户（管理员／非管理员用户）可以使用其他“资产贡献”属性创建新文 **件夹** ，从而确保创建的新文件夹可以由Brand Portal用户通过资产提交方式打开。 这会自动触发一个工作流，该工作流会在新创建的Contribution **文件夹内** ，创建另外两个名 **为** SHARED和NEW **** 的子文件夹。 AEM管理员随后会定义此要求，方法是将应添加到贡献文件夹的资产类型以及一组基准资产的简报上传到 **SHARED** 文件夹，以确保BP用户获得所需的参考信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授 **予对** 贡献文件夹的访问权限。 用户在NEW文件夹中添加完内 **容后** ，即可将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM Assets内新发布的内容可能需要几分钟时间。
+**资** 产源允许AEM用户（管理员／非管理员用户）使用其他Asset Contribution属性创建新 **文** 件夹，确保创建的新文件夹可由Brand Portal用户提交资产。这会自动触发一个工作流，该工作流在新创建的&#x200B;**Contribution**&#x200B;文件夹内创建另外两个子文件夹，名为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基准资产的简介上传到&#x200B;**SHARED**&#x200B;文件夹，以确保BP用户获得所需的参考信息，从而定义此要求。 然后，管理员可以在将新创建的&#x200B;**Contribution**&#x200B;文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件夹的访问权限。 用户在&#x200B;**NEW**&#x200B;文件夹中添加完内容后，可以将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM Assets内新发布的内容可能需要几分钟时间。
 
 此外，所有现有功能都保持不变。 Brand Portal用户可以从贡献文件夹以及其他允许的文件夹中视图、搜索和下载资产。 此外，管理员还可以进一步共享贡献文件夹、修改属性以及向收藏集添加资产。
 
 ## 前提条件 {#prerequisites}
 
 * AEM 6.5.2或更高版本。
-* 确保您的AEM Assets实例已配置Brand Portal。 See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* 确保您的AEM Assets实例已配置Brand Portal。 请参阅[使用Brand Portal配置AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
 * 确保您的Brand Portal租户配置了一个AEM Assets作者实例。
 
 >[!NOTE]
@@ -53,9 +53,9 @@ ht-degree: 0%
 >
 >AEM 6.5.4中存在已知问题。在升级到Adobe开发人员控制台时，Brand Portal用户无法将贡献文件夹的资产发布到AEM Assets。
 >
->此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的服务包AEM 6.5.5，并在Adobe开发 [人员控制台上](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 升级您的配置。
+>此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的服务包AEM 6.5.5，并[升级Adobe开发人员控制台上的配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 >
->要立即修复AEM 6.5.4，建议下载 [修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) ，并在创作实例上安装。
+>要立即修复AEM 6.5.4，建议[下载修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)并安装在创作实例上。
 
 
 ## 另请参阅 {#reference-articles}
