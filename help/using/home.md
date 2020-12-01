@@ -12,9 +12,9 @@ ht-degree: 74%
 ---
 
 
-# Adobe Experience Manager资产品牌门户指南 {#aem-brand-portal}
+# Adobe Experience Manager资产品牌门户指南{#aem-brand-portal}
 
-**Adobe Experience Manager资产品牌门户** ，可以将经过批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而帮助组织满足其营销需求。
+**Adobe Experience Manager资产品** 牌帮助组织通过将获准的品牌和产品资产安全地分发到外部代理、合作伙伴、内部团队和经销商进行下载来满足其营销需求。
 
 缺乏安全保障的资产共享解决方案可能导致：
 
