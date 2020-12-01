@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# 配置贡献文件夹 {#configure-contribution-folder}
+# 配置贡献文件夹{#configure-contribution-folder}
 
-对于协作资产来源补充，AEM用户（管理员和具有权限的非管理员用户）可以创建“资产贡献” **类型的新文件夹**，确保创建的新文件夹可由Brand Portal用户提交资产。  这会自动触发一个工作流，该工作流会在新创建的Contribution **文件夹内** ，创建另外两个名 **为** SHARED和NEW **** 的子文件夹。
+对于协作资产来源补充，AEM用户（具有权限的管理员和非管理员用户）可以创建类型为&#x200B;**资产贡献**&#x200B;的新文件夹，确保创建的新文件夹可由Brand Portal用户提交资产。  这会自动触发一个工作流，该工作流在新创建的&#x200B;**Contribution**&#x200B;文件夹内创建另外两个子文件夹，名为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。
 
-然后，AEM用户通过将应添加到贡献文件夹的资产类型以及一组基准资产的简介上传到SHARED文件夹来定义资产 **要求** ，以确保Brand Portal用户获得所需的信息。 然后，管理员可以在将新创建的“贡献”文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件夹的访问权限。
+AEM用户随后通过将应添加到贡献文件夹的资产类型以及一组基准资产的简报上传到&#x200B;**SHARED**&#x200B;文件夹来定义资产要求，以确保Brand Portal用户获得所需的信息。 然后，管理员可以在将新创建的“贡献”文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件夹的访问权限。
 
-以下视频演示了如何在AEM Assets中配置贡献文件夹：
+以下视频演示了如何在AEM Assets配置Contribution文件夹：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
