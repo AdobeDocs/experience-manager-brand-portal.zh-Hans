@@ -15,7 +15,7 @@ ht-degree: 71%
 ---
 
 
-# Adobe Experience Manager资产品牌门户指南 {#using}
+# Adobe Experience Manager资产品牌门户指南{#using}
 
 + [Brand Portal 指南](using/home.md)
 + 简介 {#introduction}
@@ -35,16 +35,16 @@ ht-degree: 71%
    + [对并行发布到 Brand Portal 时出现的问题进行故障诊断](using/troubleshoot-parallel-publishing.md)
    + [将标记发布到 Brand Portal](using/brand-portal-publish-tags.md)
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
-+ 品牌门户中的资产来源补充 {#asset-sourcing-in-brand-portal}
++ 品牌门户中的资产来源补充{#asset-sourcing-in-brand-portal}
    + [概述](using/brand-portal-asset-sourcing.md)
    + [在AEM中配置资产来源补充](using/brand-portal-configure-asset-sourcing.md)
-   + 在AEM Assets配置贡献文件夹 {#configure-contribution-folder}
+   + 在AEM Assets{#configure-contribution-folder}中配置贡献文件夹
       + [概述](using/brand-portal-contribution-folder.md)
       + [创建贡献文件夹](using/brand-portal-create-contribution-folder.md)
       + [配置贡献文件夹属性](using/brand-portal-configure-contribution-folder-properties.md)
       + [上传基准资产](using/brand-portal-upload-baseline-assets.md)
       + [将贡献文件夹发布到Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + 在品牌门户中使用资产来源补充 {#using-asset-sourcing}
+   + 在Brand Portal中使用资产来源补充{#using-asset-sourcing}
       + [概述](using/brand-portal-overiew-using-asset-sourcing.md)
       + [下载资产要求](using/brand-portal-download-asset-requirements.md)
       + [将资产上传到贡献文件夹](using/brand-portal-upload-assets-to-contribution-folder.md)
