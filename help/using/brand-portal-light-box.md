@@ -19,13 +19,13 @@ ht-degree: 18%
 
 # 管理 Lightbox 收藏集 {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox 是一种特殊类型的收藏集，使用它可以轻松访问资产。]**&#x200B;每个用户首 **[!UICONTROL 次登录]** Brand Portal时，都会自动创建专用的Lightbox。 无 **[!UICONTROL 法删除]** Lightbox集合。
+**[!UICONTROL Lightbox 是一种特殊类型的收藏集，使用它可以轻松访问资产。]**&#x200B;每个用户都有一个独占的&#x200B;**[!UICONTROL Lightbox]**，当他们首次登录到Brand Portal时会自动创建它。 无法删除&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合。
 
 ## 将资产添加到Lightbox {#add-assets-to-lightbox}
 
-要向Lightbox添加 **[!UICONTROL 资产]**，请执行以下操作：
+要将资产添加到&#x200B;**[!UICONTROL Lightbox]**，请执行以下操作：
 
-1. Navigate to the location of the assets that you want to add to **[!UICONTROL Lightbox]**, and select the assets.
+1. 导航到要添加到&#x200B;**[!UICONTROL Lightbox]**&#x200B;的资产所在的位置，然后选择资产。
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -33,30 +33,30 @@ ht-degree: 18%
 
    ![](assets/add_to_collection.png)
 
-1. 在“添 **[!UICONTROL 加到收藏集]** ”页面上， **[!UICONTROL Lightbox收藏集默]** 认为选中。
+1. 在&#x200B;**[!UICONTROL 添加到收藏集]**&#x200B;页面上，默认情况下选择&#x200B;**[!UICONTROL Lightbox]**&#x200B;收藏集。
 
-   单击&#x200B;**[!UICONTROL 添加]**。The selected assets are added to the **[!UICONTROL Lightbox]**.
+   单击&#x200B;**[!UICONTROL 添加]**。选定的资产将添加到&#x200B;**[!UICONTROL Lightbox]**。
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. 要审核添加到Lightbox的 **[!UICONTROL 资产]**，请单 **[!UICONTROL 击左边栏]** 上的 **[!UICONTROL “收藏集”，然后单击]** Lightbox收藏集。
+1. 要查看添加到&#x200B;**[!UICONTROL Lightbox]**&#x200B;的资产，请单击左边栏上的&#x200B;**[!UICONTROL 收藏集]**，然后单击&#x200B;**[!UICONTROL Lightbox]**&#x200B;收藏集。
 
    ![](assets/collections_lightbox.png)
 
-   添加到Lightbox的 **[!UICONTROL 资产]** 会显示 **[!UICONTROL 在Lightbox页]** 面中。
+   添加到&#x200B;**[!UICONTROL Lightbox]**&#x200B;的资产会显示在&#x200B;**[!UICONTROL Lightbox]**&#x200B;页面中。
 
    ![](assets/added_to_collectionlightbox.png)
 
-## 从Lightbox删除资产 {#remove-assets-from-lightbox}
+## 从Lightbox {#remove-assets-from-lightbox}删除资产
 
-1. 要查看Lightbox中的 [!UICONTROL 资产]，请单 **[!UICONTROL 击左边栏]** 上的 [!UICONTROL “收藏集”，然后单] 击Lightbox收藏集。
+1. 要查看[!UICONTROL Lightbox]中的资产，请单击左边栏上的&#x200B;**[!UICONTROL 收藏集]**，然后单击[!UICONTROL Lightbox]收藏集。
 
    ![](assets/collections_lightbox-1.png)
 
-1. 选择要从收藏集中删除的文件夹，然后单击 **[!UICONTROL 顶部]** 工具栏中的删除。
+1. 选择要从集合中删除的文件夹，然后单击顶部工具栏中的&#x200B;**[!UICONTROL 删除]**。
 
    ![](assets/collections_lightboxdelete.png)
 
-1. 在警告消息框中，单击“ **[!UICONTROL 删除]** ”以确认删除。
+1. 在警告消息框中，单击&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。
 
-该文件夹将从Lightbox收 **[!UICONTROL 藏集中]** 删除。
+文件夹将从&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合中删除。
