@@ -21,9 +21,9 @@ ht-degree: 27%
 
 元数据模式描述“属性”页面的布局以及为使用特定模式的资产显示的元数据属性。 您应用于资产的模式将决定在其“属性”页面上显示的元数据字段。
 
-每个 **[!UICONTROL 资产的]** “属性”页包括默认元数据属性，具体取决于资产的MIME类型。 管理员可以使用元数据模式编辑器修改现有模式或添加自定义元数据模式。 AEM Assets品牌门户为各种MIME类型的资产提供默认表单。 但是，您也可以为此类资产添加自定义表单。
+每个资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面包含默认元数据属性，具体取决于资产的MIME类型。 管理员可以使用元数据模式编辑器修改现有模式或添加自定义元数据模式。 AEM Assets品牌门户为各种MIME类型的资产提供默认表单。 但是，您也可以为此类资产添加自定义表单。
 
-## Add a metadata schema form {#add-a-metadata-schema-form}
+## 添加元数据模式表单{#add-a-metadata-schema-form}
 
 要创建新的元数据模式表单，请执行以下操作：
 
@@ -31,19 +31,19 @@ ht-degree: 27%
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，单击元 **[!UICONTROL 数据模式]**。
+1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 元数据模式]**。
 
    ![](assets/navigation-panel.png)
 
-1. 在“元数 **[!UICONTROL 据模式表单]** ”页面上，单 **[!UICONTROL 击创建]**。
+1. 在&#x200B;**[!UICONTROL 元数据模式Forms]**&#x200B;页面上，单击&#x200B;**[!UICONTROL 创建]**。
 
    ![](assets/create-metadata-schema-form.png)
 
-1. 在“创 **[!UICONTROL 建模式表单]** ”对话框中，指定模式表单的标题，然后单击“ **[!UICONTROL 创建]** ”以完成表单创建过程。
+1. 在&#x200B;**[!UICONTROL 创建模式表单]**&#x200B;对话框中，指定模式表单的标题，然后单击&#x200B;**[!UICONTROL 创建]**&#x200B;以完成表单创建过程。
 
    ![](assets/create-schema-form.png)
 
-## Edit a metadata schema form {#edit-a-metadata-schema-form}
+## 编辑元数据模式表单{#edit-a-metadata-schema-form}
 
 您可以编辑新添加的或现有的元数据模式表单。 元数据模式表单包含从其父表单派生的内容，包括选项卡和选项卡中的表单项。 您可以将这些表单项目映射或配置到元数据节点中的字段。
 
@@ -55,8 +55,8 @@ ht-degree: 27%
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，单击元 **[!UICONTROL 数据模式]**。
-1. 从元数 **[!UICONTROL 据模式表单]** 页面中，选择一个模式表单以编辑其属性，例如， **[!UICONTROL 集合]**。
+1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 元数据模式]**。
+1. 从&#x200B;**[!UICONTROL 元数据模式Forms]**&#x200B;页面中，选择一个模式表单以编辑其属性，例如&#x200B;**[!UICONTROL 集合]**。
 
    ![](assets/metadata-schema-forms.png)
 
@@ -64,31 +64,31 @@ ht-degree: 27%
    >
    >未经编辑的模板在前面显示一个锁符号。 如果自定义任何模板，则模板前的锁符号将消失。
 
-1. 在顶部的工具栏中，单击“编 **[!UICONTROL 辑”]**。
+1. 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 编辑]**。
 
-   此时 **[!UICONTROL 将打开元数据模式]** “编辑器”页面， **[!UICONTROL 左侧将打开]** “基本”选项卡，右侧将打 **[!UICONTROL 开“构建表单]** ”选项卡。
+   打开&#x200B;**[!UICONTROL 元数据模式编辑器]**&#x200B;页面，左侧打开&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡，右侧打开&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡。
 
-1. In the **[!UICONTROL Metadata Schema Editor]** page, customize the **[!UICONTROL Properties]** page of the asset by dragging one or more components from a list of component types in the **[!UICONTROL Build Form]** tab to the **[!UICONTROL Basic]** tab.
+1. 在&#x200B;**[!UICONTROL 元数据模式编辑器]**&#x200B;页面中，通过将&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中的组件类型列表中的一个或多个组件拖动到&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡，自定义资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面。
 
    ![](assets/metadata-schemaeditor-page.png)
 
-1. To configure a component, select it and modify its properties in the **[!UICONTROL Settings]** tab.
+1. 要配置组件，请选择它并在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中修改其属性。
 
-### Components in the Build Form tab {#components-in-the-build-form-tab}
+### 构建表单选项卡{#components-in-the-build-form-tab}中的组件
 
-The **[!UICONTROL Build Form]** tab lists items that you can use in your schema form. The **[!UICONTROL Settings]** tab provides the attributes of each item that you select in the **[!UICONTROL Build Form]** tab. The following table lists the form items available in the **[!UICONTROL Build Form]** tab:
+**[!UICONTROL 构建表单]**&#x200B;选项卡会列表可在模式表单中使用的项目。 **[!UICONTROL 设置]**&#x200B;选项卡提供您在&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中选择的每个项的属性。 下表列表了&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中可用的表单项：
 
 | 组件名称 | 描述 |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[!UICONTROL 章节标题]** | 添加一列表常用组件的章节标题。 |
-| **[!UICONTROL 单行文本]** | 添加单行文本属性。 它存储为字符串。 |
+| **[!UICONTROL 单行文本]** | 添加单行文本属性。它存储为字符串。 |
 | **[!UICONTROL 多值文本]** | 添加多值文本属性。 它将作为字符串数组存储。 |
 | **[!UICONTROL 数字]** | 添加数字组件。 |
 | **[!UICONTROL 日期]** | 添加日期组件。 |
 | **[!UICONTROL 下拉列表]** | 添加下拉列表。 |
-| **[!UICONTROL 标准标记]** | 添加标记. **注意：** 管理员可能需要更改路径值，例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他们从AEM发布元数据模式表单，则该路径不包含租户信息，例如 `/etc/tags/<custom_tag_namespace>`。 |
-| **[!UICONTROL 智能标记]** | 如果已购买并配置AEM智能标记加载项，则自动检测到标记。 |
-| **[!UICONTROL 隐藏字段]** | 添加隐藏字段。 在保存资产时，它将作为POST参数发送。 |
+| **[!UICONTROL 标准标记]** | 添加标记. **注意：** 管理员可能需要更改路径值，例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他们从AEM发布元数据模式表，则路径不包括租户信息，例如 `/etc/tags/<custom_tag_namespace>`。 |
+| **[!UICONTROL 智能标记]** | 如果已购买并配置AEM smart tags加载项，则自动检测到标记。 |
+| **[!UICONTROL 隐藏字段]** | 添加隐藏字段。在保存资产时，它将作为POST参数发送。 |
 | **[!UICONTROL 资产引用对象]** | 将此组件添加到资产引用的资产的视图列表。 |
 | **[!UICONTROL 资产引用]** | 添加以显示引用资产的资产列表。 |
 | **[!UICONTROL 资产评级]** | 从AEM Assets添加的资产在发布到Brand Portal之前的平均评级。 |
@@ -96,50 +96,50 @@ The **[!UICONTROL Build Form]** tab lists items that you can use in your schema 
 
 >[!NOTE]
 >
->请勿使用 **[!UICONTROL 产品引用]**，因为它无法正常工作。
+>请勿使用&#x200B;**[!UICONTROL 产品引用]**，因为它不起作用。
 
-#### 编辑元数据组件 {#edit-the-metadata-component}
+#### 编辑元数据组件{#edit-the-metadata-component}
 
 要在表单上编辑元数据组件的属性，请单击相应的组件，然后在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中编辑其属性。
 
-* **[!UICONTROL 字段标签]**: 资产的属性页面上显示的元数据属性的名称。
+* **[!UICONTROL 字段标签]**:资产的属性页面上显示的元数据属性的名称。
 
 * **[!UICONTROL 映射到属性]**：此属性的值提供资产节点在 CRX 存储库中保存的相对路径/名称。该值以“**./**”开头，因为这表示该路径位于资产的节点下。
 
 以下是此属性的有效值：
 
--- `./jcr:content/metadata/dc:title`: Stores the value at the asset&#39;s metadata node as the property [!UICONTROL `dc:title`].
+— `./jcr:content/metadata/dc:title`:将该值作为属性[!UICONTROL `dc:title`]存储在资产的元数据节点。
 
--- `./jcr:created`: Displays the jcr property at the asset&#39;s node. 如果您在视图属性上配置这些属性，我们建议您将这些属性标记为“禁用编辑”，因为它们是受保护属性。否则，在保存资产的属性时，会出现“资产修改失败”错误。
+— `./jcr:created`:在资产的节点上显示jcr属性。 如果您在视图属性上配置这些属性，我们建议您将这些属性标记为“禁用编辑”，因为它们是受保护属性。否则，在保存资产的属性时，会出现“资产修改失败”错误。
 
 * **[!UICONTROL 占位符]**：使用此属性可向用户提供有关元数据属性的任何相关信息。
 * **[!UICONTROL 必需]**：使用此属性可在“属性”页面上将元数据属性标记为必需。
 * **[!UICONTROL 禁用编辑]**：使用此属性可让“属性”页面上的元数据属性变得不可编辑。
 * **[!UICONTROL 在只读模式下显示空字段]**：标记此属性可使没有值的元数据属性显示在“属性”页面上。默认情况下，当元数据属性没有值时，不会在“属性”页面上将其列出。
 * **[!UICONTROL 描述]**：使用此属性可添加对元数据组件的简短描述。
-* **[!UICONTROL 删除图标]**: 单击此图标可从模式表单中删除组件。
+* **[!UICONTROL 删除图标]**:单击此图标可从模式表单中删除组件。
 
 ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
->资产的元数据编辑器表单中的所有元数据字段都是只读的。 由于资产的元数据必须先用AEM Assets进行编辑，才能将资产发布到Brand Portal。
+>资产的元数据编辑器表单中的所有元数据字段都是只读的。 由于资产的元数据必须在AEM Assets进行编辑，才能将资产发布到Brand Portal。
 
-#### 在模式表单中添加或删除选项卡 {#add-or-delete-a-tab-in-the-schema-form}
+#### 在模式表单{#add-or-delete-a-tab-in-the-schema-form}中添加或删除选项卡
 
-The default schema form includes the **[!UICONTROL Basic]** and **[!UICONTROL Advanced]** tabs. 通过架构编辑器，可以添加或删除选项卡。
+默认模式表单包括&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡。 通过架构编辑器，可以添加或删除选项卡。
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* To add a new tab on a schema form, click **[!UICONTROL +]**. 默认情况下，新选项卡的名称为“未命名-1”。 You can modify the name from the **[!UICONTROL Settings]** tab.
+* 要在模式表单上添加新选项卡，请单击&#x200B;**[!UICONTROL +]**。 默认情况下，新选项卡的名称为“未命名-1”。 可以从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中修改名称。
 
 ![](assets/add-tab-metadata-form.png)
 
-* 要删除选项卡，请单击 **[!UICONTROL x]**。 Click **[!UICONTROL Save]** to save the changes.
+* 要删除选项卡，请单击&#x200B;**[!UICONTROL x]**。 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
 
-## 将元数据模式应用到文件夹 {#apply-a-metadata-schema-to-a-folder}
+## 将元数据模式应用于文件夹{#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal允许您自定义和控制元数据模式，以 **[!UICONTROL 便资产]** 的“属性”页面仅显示您选择显示的特定信息。 要控制在“属性”页中显 **[!UICONTROL 示的元数]** 据，请从元数据模式表单中删除所需的元数据，并将其应用到特定文件夹。
+Brand Portal允许您自定义和控制元数据模式，以便资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面仅显示您选择显示的特定信息。 要控制在&#x200B;**[!UICONTROL 属性]**&#x200B;页面中显示的元数据，请从元数据模式表单中删除所需的元数据，并将其应用到特定文件夹。
 
 要将元数据模式表单应用到文件夹，请执行以下操作：
 
@@ -147,21 +147,21 @@ Brand Portal允许您自定义和控制元数据模式，以 **[!UICONTROL 便�
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，单击元 **[!UICONTROL 数据模式]**。
+1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 元数据模式]**。
 
-1. 从元数 **[!UICONTROL 据模式表单]** 页面中，选择要应用于资产的模式表单，例如， **[!UICONTROL Clothing]**。
+1. 从&#x200B;**[!UICONTROL 元数据模式Forms]**&#x200B;页面中，选择要应用于资产的模式表单，例如&#x200B;**[!UICONTROL clothing]**。
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. 在顶部的工具栏中，单 **[!UICONTROL 击“应用到文件夹”]**。
+1. 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 应用到文件夹]**。
 
-1. 从“选 **[!UICONTROL 择文件夹]** ”页面，导览至要应用Clothing元数据模式的文 **[!UICONTROL 件夹]** ，例如Gloves ****。
+1. 从&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;页面，导览至要应用&#x200B;**[!UICONTROL clothing]**&#x200B;元数据模式的文件夹，例如&#x200B;**[!UICONTROL Gloves]**。
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. 单击 **[!UICONTROL 应用]** ，将元数据模式表单应用到文件夹。
+1. 单击&#x200B;**[!UICONTROL 应用]**&#x200B;将元数据模式表应用到文件夹。
 
-   服装元数据模式 **[!UICONTROL 表单中]** ，可用的元数据将应 **[!UICONTROL 用到Gloves]** 文件夹，并可 **[!UICONTROL 在文件夹的]** “属性”页面中显示。
+   **[!UICONTROL clothing]**&#x200B;元数据模式表单中可用的元数据应用于&#x200B;**[!UICONTROL Gloves]**&#x200B;文件夹，并可在文件夹的&#x200B;**[!UICONTROL Properties]**&#x200B;页中看到。
 
    ![](assets/folder_metadata_properties.png)
 
@@ -169,7 +169,7 @@ Brand Portal允许您自定义和控制元数据模式，以 **[!UICONTROL 便�
 >
 >如果将包含嵌套模式的模式应用到包含视频文件的文件夹，则视频文件的元数据属性可能无法正确呈现。 要确保元数据属性正确呈现，请删除嵌套模式，并仅将父模式应用到文件夹。
 
-## Delete a metadata schema form {#delete-a-metadata-schema-form}
+## 删除元数据模式表单{#delete-a-metadata-schema-form}
 
 Brand Portal仅允许您删除自定义模式表单。 您无法删除默认的架构表单/模板。但是，您可以删除对这些表单所做的任何自定义更改。
 
@@ -179,9 +179,9 @@ Brand Portal仅允许您删除自定义模式表单。 您无法删除默认的�
 
 >[!NOTE]
 >
->After you delete the custom changes made to a default form, the **[!UICONTROL Lock]** symbol reappears before the form name on the Metadata Schema interface to indicate that the form is reverted to its default state.
+>删除对默认表单所做的自定义更改后，**[!UICONTROL 锁]**&#x200B;符号将重新出现在元数据模式界面上的表单名称前，以指示表单已恢复为默认状态。
 
-## Schema forms for MIME TYPES {#schema-forms-for-mime-types}
+## 模式MIME类型{#schema-forms-for-mime-types}的表单
 
 ### 为 MIME 类型添加新表单 {#adding-new-forms-for-mime-types}
 
@@ -189,17 +189,17 @@ Brand Portal仅允许您删除自定义模式表单。 您无法删除默认的�
 
 #### 为各种 MIME 类型使用现有架构模板 {#using-an-existing-schema-template-for-various-mime-types}
 
-You can use an existing template for a different MIME type. For example, use the **image/jpeg** form for assets of MIME type **image/png**.
+您可以对其他MIME类型使用现有模板。例如，对于MIME类型&#x200B;**image/png**&#x200B;的资产，请使用&#x200B;**image/jpeg**&#x200B;表单。
 
-In this case, create a new node at [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] in the CRX repository. 指定节点的名称并定义以下属性：
+在这种情况下，请在CRX存储库中的[!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`]处创建新节点。 指定节点的名称并定义以下属性：
 
 | **名称** | **类型** | **值** |
 |---|---|---|
 | exposedmimetype | 字符串 | image/jpeg |
 | mimetypes | String[] | image/png |
 
-* **exposedmimetype**: 要映射的现有表单的名称
-* **mimetypes**: 使用exposedmimetype属性中定义的表单的MIME类 **型的列表**
+* **exposedmimetype**:要映射的现有表单的名称
+* **mimetypes**:使用exposedmimetypeattribute中定义的表单的MIME类型 **** 列表
 
 Brand Portal映射以下MIME类型和模式表单：
 
