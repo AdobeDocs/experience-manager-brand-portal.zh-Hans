@@ -1,8 +1,8 @@
 ---
 title: 在品牌门户中使用资产来源补充
 seo-title: 在品牌门户中使用资产来源补充
-description: 了解如何使用资产来源补充功能，将资产上传到贡献文件夹，以及将贡献文件夹发布到品牌门户中的AEM Assets。
-seo-description: 了解如何使用资产来源补充功能，将资产上传到贡献文件夹，以及将贡献文件夹发布到品牌门户中的AEM Assets。
+description: 了解如何使用资产来源补充功能，将资产上传到贡献文件夹，以及将贡献文件夹发布到品牌门户的AEM Assets。
+seo-description: 了解如何使用资产来源补充功能，将资产上传到贡献文件夹，以及将贡献文件夹发布到品牌门户的AEM Assets。
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# 使用资产来源补充 {#using-asset-souring-in-bp}
+# 使用资产来源补充{#using-asset-souring-in-bp}
 
-拥有适当权限的Brand Portal用户可以将多个资产或包含多个资产的文件夹上传到贡献文件夹。 但是，Brand Portal用户只能将资产上传到NEW文 **件夹** 。 SHARED **文件夹** 用于分发基线资产（参考内容），在创建新资产进行贡献时，Brand Portal用户可使用这些资产。
+拥有适当权限的Brand Portal用户可以将多个资产或包含多个资产的文件夹上传到贡献文件夹。 但是，Brand Portal用户只能将资产上传到&#x200B;**NEW**&#x200B;文件夹。 **SHARED**&#x200B;文件夹用于分发基线资产（引用内容）,Brand Portal用户在创建新资产进行贡献时可使用该文件夹。
 
 具有访问贡献文件夹权限的Brand Portal用户可以执行以下活动:
 
