@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Create contribution folder {#create-contribution-folder}
+# 创建贡献文件夹{#create-contribution-folder}
 
 
 AEM管理员和非管理员用户有权创建新文件夹，可在AEM Assets创建贡献文件夹。
@@ -33,11 +33,11 @@ AEM管理员和非管理员用户有权创建新文件夹，可在AEM Assets创�
 
    默认URL为http:// localhost:4502/aem/start.html。
 
-1. 导航到 **[!UICONTROL 资产]** > **[!UICONTROL 文件]**。 它将列表AEM Assets存储库中的所有现有文件夹。
+1. 导航到&#x200B;**[!UICONTROL 资产]** > **[!UICONTROL 文件]**。 它将列表AEM Assets存储库中的所有现有文件夹。
 
-1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL “创建文件夹]** ”对话框打开。
+1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建新文件夹。 **[!UICONTROL 创建文]** 件夹对话框打开。
 
-1. 输 **[!UICONTROL 入文]** 件夹的 **[!UICONTROL 标题]** 和名称 **[!UICONTROL ，然后选择“资]** 产贡献”复选框。
+1. 输入文件夹的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 名称]**，然后选中&#x200B;**[!UICONTROL 资产贡献]**复选框。
 建议使用小写字母来命名文件夹，但不要有任何空格。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。您可以看到列在AEM Assets存储库中的贡献文件夹。
@@ -49,10 +49,10 @@ AEM管理员和非管理员用户有权创建新文件夹，可在AEM Assets创�
 
    ![](assets/create-contribution-folder.png)
 
-1. 单击打开贡献文件夹，您可以看到两个子文件夹-**[!UICONTROL SHARED]****[!UICONTROL 和NEW]** 在贡献文件夹中自动创建。
+1. 单击打开贡献文件夹，您可以看到两个子文件夹-**[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**&#x200B;自动在贡献文件夹中创建。
 
    ![](assets/contribution-folder.png)
 
-您现在可以 [配置贡献文件夹属性](brand-portal-configure-contribution-folder-properties.md)。
+您现在可以[配置贡献文件夹属性](brand-portal-configure-contribution-folder-properties.md)。
 
 
