@@ -35,32 +35,32 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 2020.10.0 的新增功能 {#whats-new-in-2020.10.0}
 
-### New Features {#new-features}
+### 新增功能{#new-features}
 
 此版本包含以下新增功能：
 
-* 在列表 **[!UICONTROL 视图中]** ,“下载”对话框进行了改头换面，增加了一些选项，可排除不需要的演绎版、对类似资产类型应用同一套规则以及下载选定的资产演绎版。 请参 [阅从Brand Portal下载资产的步骤](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
+* **[!UICONTROL 下载]**&#x200B;对话框在列表视图中进行了改头换面，其中包含其他选项，可排除不需要的演绎版、对类似资产类型应用相同的规则集以及下载选定的资产演绎版。 请参阅[从Brand Portal下载资产的步骤](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* 现在，只需 **[!UICONTROL 单击一]**&#x200B;下，即可从所 **[!UICONTROL 有Brand Portal页面]****** 导航到文件、集合和共享链接。
+* 现在，只需单击一下，即可从所有品牌门户页面导航到&#x200B;**[!UICONTROL 文件]**、**[!UICONTROL 集合]**&#x200B;和&#x200B;**[!UICONTROL 共享链接]**。
 
-* 现在， **[!UICONTROL 资产]** 详细信息页面中的“演绎版”面板允许Brand Portal用户选择原始资产和（或）特定资产演绎版，并直接从“演绎版”面板下载它们，而无需打开“下载 **[!UICONTROL ”对话]** 框 **** 。 请参 [阅从资产详细信息页面下载资产](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
+* 现在，资产详细信息页面中的&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板允许Brand Portal用户选择原始资产和（或）特定资产演绎版，并直接从&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板下载它们，而无需打开&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。 请参阅[从资产详细信息页面下载资产](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 除了现有的下 **[!UICONTROL 载配置]** ,Brand Portal管理员还可以将不同用户组的权 [限配置为视图](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) ，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
+* 除了现有的&#x200B;**[!UICONTROL 下载]**&#x200B;配置之外，Brand Portal管理员还可以[为不同用户组](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)配置视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
 
 ### 增强功能 {#enhancements}
 
 此版本包含以下增强功能：
 
 * 来宾用户的会话超时阈值已从2小时减少到15分钟。
-* 对于多 **[!UICONTROL 页PDF]** ，已删除附加的视图页面选项，因为用户现在可以从Adobe Document Cloud查看器视图PDF页面。
+* 对于多页PDF，额外的&#x200B;**[!UICONTROL 视图页面]**&#x200B;选项已被删除，因为用户现在可以从Adobe Document Cloud查看器视图PDF页面。
 
 
 <!--
@@ -75,7 +75,7 @@ This release includes fixes to the following critical issue:
 
 此版本包含以下已知问题：
 
-* 在资产报 **[!UICONTROL 表上搜索]** ，会显示产品界面上的处理情况，而没有搜索结果。
+* 在&#x200B;**[!UICONTROL 资产报表]**&#x200B;上搜索会显示产品界面上的处理情况，而没有搜索结果。
 * 非管理员用户在资产详细信息页面上无法看到视频DM编码。
 * 在下载对话框中，单个资产演绎版的大小和总下载大小的对齐方式会失真。
 
@@ -133,14 +133,14 @@ Brand Portal用户界面提供以下语言版本：
 
 ## 经过认证的平台 {#certified-platforms}
 
-要确定哪些平台经认证可随此版本的Brand Portal一起运行，请参阅“技术 **要求”的“支持的创作用户界面浏览器** ”一节中 **的“触屏优化UI支持** ”一 [列](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)。
+要确定哪些平台经认证可运行此版本的Brand Portal，请参阅[技术要求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的&#x200B;**受支持的创作用户界面浏览器**&#x200B;部分中的&#x200B;**触屏优化UI支持**&#x200B;列。
 
 ## 链接 {#links}
 
 * [adobe.com 上的 Adobe Experience Manager 产品页面](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
 * [Assets Brand Portal文档](https://helpx.adobe.com/cn/experience-manager/brand-portal/user-guide.html)
 
-## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
+## 产品访问和支持（受限站点）{#product-access-and-support-restricted-sites}
 
 这些网站仅适用于客户。如果您是Adobe并需要访问，请与客户经理联系。
 
