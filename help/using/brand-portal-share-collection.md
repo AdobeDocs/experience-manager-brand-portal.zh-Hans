@@ -18,73 +18,73 @@ ht-degree: 1%
 ---
 
 
-# 共享集合 {#share-collections}
+# 共享集合{#share-collections}
 
-集合表示存储在Adobe Experience Manager资产品牌门户中的一组相关资产。 用户可通过应用全搜索或 [facet搜索来创建智能收藏集，从而筛选出相关资产](brand-portal-searching.md) ，并将它们存储在一起，以便轻松访问，并进一步与其他Brand Portal用户共享。
+集合表示存储在Adobe Experience Manager资产品牌门户中的一组相关资产。 用户可以通过[应用全搜索或facet搜索创建智能收藏集，以过滤掉相关资产](brand-portal-searching.md)并将它们存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
 
 管理员可以与授权的Brand Portal用户共享和取消共享集合。 编辑和查看者可以视图和共享由他们创建的集合、与他们共享的集合以及公共集合。
 
 >[!NOTE]
 >
->编辑者无法将公共集合更改为非公共集合，因此“集合设置”对话框中 **[!UICONTROL 不提供]** “公共集合” **[!UICONTROL 复选框]** 。
+>编辑不能将公共集合更改为非公共集合，因此&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框中不提供&#x200B;**[!UICONTROL 公共集合]**&#x200B;复选框。
 
 ## 共享收藏集 {#share-collection}
 
 以下是与授权Brand Portal用户共享集合的步骤：
 
-1. 登录到您的Brand Portal租户。 默认情况下，将打 **[!UICONTROL 开]** “文件”视图，其中包含所有已发布的资产和文件夹。
+1. 登录到您的Brand Portal租户。 默认情况下，将打开&#x200B;**[!UICONTROL 文件]**&#x200B;视图，其中包含所有已发布的资产和文件夹。
 
-1. 在顶部的快速导航中，单击“集 **[!UICONTROL 合”]**。
+1. 在顶部的快速导航中，单击&#x200B;**[!UICONTROL 集合]**。
 
-1. 在“收 **[!UICONTROL 藏集]** ”控制台中，执行下列操作之一：
+1. 在&#x200B;**[!UICONTROL 集合]**&#x200B;控制台中，执行下列操作之一：
 
-   * 将指针悬停在要共享的集合上。 从集合可用的快速操作缩略图中，单击“设 **[!UICONTROL 置]** ”图标。
+   * 将指针悬停在要共享的集合上。 从集合可用的快速操作缩略图中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标。
 
       ![](assets/settings-icon.png)
 
-   * 选择要共享的集合。 在顶部的工具栏中，单击“ **[!UICONTROL 设置”]**。
+   * 选择要共享的集合。 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 设置]**。
 
       ![](assets/collection-console.png)
 
-1. 在收 **[!UICONTROL 藏集设置]** 对话框中，选择要与其共享收藏集的用户，然后为用户选择与其全局角色匹配的角色。 例如，为全局编辑器分配“编辑者”角色，为全局查看器分配“查看者”角色。
+1. 在&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框中，选择要与其共享集合的用户，然后为用户选择与其全局角色匹配的角色。 例如，为全局编辑器分配“编辑者”角色，为全局查看器分配“查看者”角色。
 
-   或者，要使集合对所有用户可用（不论其用户组成员身份和角色如何），请通过选中“公共集合”复选 **[!UICONTROL 框将其公]** 开。
+   或者，要使集合对所有用户可用，而不管其用户组成员身份和角色如何，请通过选中&#x200B;**[!UICONTROL 公共集合]**&#x200B;复选框将其公开。
 
    >[!NOTE]
    >
-   >但是，非管理员用户可能无法创建公共集合，以避免拥有大量公共集合，从而可以保存系统空间。 组织可以从管理工具 **[!UICONTROL 面板中提供的]** “常规 **[!UICONTROL ”设置禁]** 用“允许创建公共集合”配置。
+   >但是，非管理员用户可能无法创建公共集合，以避免拥有大量公共集合，从而可以保存系统空间。 组织可以禁用管理工具面板中提供的“允许从&#x200B;]**常规**[!UICONTROL &#x200B;设置创建公共集合&#x200B;**[!UICONTROL 配置”。]**
 
    ![](assets/collection_sharingadduser.png)
 
-   编辑者无法将公共集合更改为非公共集合，因此“集合设置”对话框 **[!UICONTROL 中不提供]** “公共集合” **[!UICONTROL 复选框]** 。
+   编辑者无法将公共集合更改为非公共集合，因此在&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框中没有&#x200B;**[!UICONTROL 公共集合]**&#x200B;复选框。
 
    ![](assets/collection-setting-editor.png)
 
-1. 单击“ **[!UICONTROL 添加]** ”按钮以添加用户，然后单击“ **[!UICONTROL 保存”]**。 集合将与用户共享。
+1. 单击&#x200B;**[!UICONTROL 添加]**&#x200B;按钮添加用户，然后单击&#x200B;**[!UICONTROL 保存]**。 集合将与用户共享。
 
    >[!NOTE]
    >
    >用户的角色控制对集合中的资产和文件夹的访问权限。 如果用户无权访问资产，则会与该用户共享一个空集合。 此外，用户的角色将控制集合的可用操作。
 
-## 取消共享集合 {#unshare-a-collection}
+## 取消共享集合{#unshare-a-collection}
 
 要取消共享以前共享的集合，请执行以下操作：
 
-1. 从“收 **[!UICONTROL 藏集]** ”控制台中，选择要取消共享的收藏集。
+1. 从&#x200B;**[!UICONTROL 集合]**&#x200B;控制台中，选择要取消共享的集合。
 
-   在顶部的工具栏中，单击“ **[!UICONTROL 设置”]**。
+   在顶部的工具栏中，单击&#x200B;**[!UICONTROL 设置]**。
 
    ![](assets/collection_settings.png)
 
-1. 在“集 **[!UICONTROL 合设置]** ”对话框的“成员 **[!UICONTROL ”部分下，单击]** 用户旁的 **** x符号，将其从有权访问该集合的用户列表中删除。
+1. 在&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框的&#x200B;**[!UICONTROL 成员]**&#x200B;部分下，单击用户旁边的&#x200B;**[!UICONTROL x]**&#x200B;符号，以从有权访问集合的用户列表中删除这些符号。
 
    ![](assets/unshare_collection.png)
 
-1. 出现警告消息。 单击 **[!UICONTROL 确认]** ，取消共享集合。
+1. 出现警告消息。 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以取消共享集合。
 
-1. Click **[!UICONTROL Save]** to apply the changes.
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 
-   从共享列表中删除用户后，将从用户的“集合”控制台中删除未共享的 **[!UICONTROL 集合]** 。
+   从共享列表中删除用户后，将从用户的&#x200B;**[!UICONTROL 集合]**&#x200B;控制台中删除未共享的集合。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.
