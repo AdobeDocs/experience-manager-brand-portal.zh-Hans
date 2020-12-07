@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 7adc6b311a7f669b05dd8cc82cede62194cb8ec6
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 8%
@@ -234,4 +234,4 @@ Brand Portal产品管理员会在其Brand Portal通知区域或通过收件箱�
 ## 相关资源{#related-resources}
 
 * [Adobe客户关怀](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
-* [AEM 论坛](https://www.adobe.com/go/aod_forums_en)
+* [AEM 论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
