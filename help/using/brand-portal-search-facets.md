@@ -9,10 +9,10 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 21%
+source-wordcount: '1298'
+ht-degree: 20%
 
 ---
 
@@ -69,6 +69,12 @@ ht-degree: 21%
    >在选中&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框时，默认情况下会选中&#x200B;**[!UICONTROL 忽略大小写]**。
 
 1. 在&#x200B;**[!UICONTROL 属性名称]**&#x200B;字段中，打开属性选取器并选择执行搜索时所依据的属性。 或者，输入属性的名称。 例如，输入 `  jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
+
+   >[!NOTE]
+   >
+   >在Brand Portal中，默认情况下，将索引`jcrcontent/metadata`中所有属性（以`xmp`开头的属性除外）。`dam:asset`
+   >
+   >创建属性谓词时，可以使用已编制索引的任何属性。 如果配置了任何非索引属性，则未索引属性上的搜索查询可能不会给出任何搜索结果。
 
    ![](assets/title-prop.png)
 
