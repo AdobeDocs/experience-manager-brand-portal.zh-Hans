@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,13 @@ Brand Portal用户可以将贡献文件夹发布到AEM Assets，无需访问AEM�
 
 管理员可以利用两种报告来视图从Brand Portal发布到AEM Assets的资产贡献文件夹的状态。
 
-* 在Brand Portal中，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]**。 此报告反映所有发布作业的状态，包括发布工作流程的不同阶段（已排队和完成）。
+* 在Brand Portal中，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]**。 此报告反映了发布工作流程不同阶段的所有发布作业的状态。
 
-* 在AEM Assets创作实例中，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作业]**。 此报告仅反映处于挂起状态的发布作业。
+   ![](assets/contribution-folder-status.png)
+
+* 在AEM Assets创作实例中，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作业]**。 此报告反映了所有发布作业的最终状态（成功或错误）。
+
+   ![](assets/publishing-status.png)
 
 
 
