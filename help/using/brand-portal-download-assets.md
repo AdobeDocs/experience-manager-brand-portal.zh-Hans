@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1940'
 ht-degree: 3%
 
 ---
@@ -35,12 +35,16 @@ Adobe Experience Manager资产品牌门户允许用户同时下载可从品牌�
 
 ## 配置资产下载{#configure-download}
 
-Brand Portal管理员可以为Brand Portal用户配置资产下载设置和权限，允许他们从Brand Portal界面访问和下载资产演绎版。
+Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组设置，允许他们从Brand Portal界面访问和下载资产演绎版。
 
-通过以下配置可以定义从Brand Portal访问和下载演绎版：
+>[!NOTE]
+>
+>应用于用户界面的下载设置方便了Brand Portal用户的自助体验，以便轻松配置和下载资产演绎版。 它不限制在应用程序层下载资产，例如，用户仍可以访问和下载具有完整URL路径的资产演绎版。
+
+通过以下配置可以定义从品牌门户界面访问和下载资产演绎版：
 
 * 启用下载设置
-* 配置下载权限
+* 配置用户组设置
 
 ### 启用下载设置{#enable-download-settings}
 
@@ -75,11 +79,11 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载设置和权�
 >
 >只有管理员才能下载过期的资产。 有关已过期资产的详细信息，请参阅[管理资产的数字权限](../using/manage-digital-rights-of-assets.md)。
 
-### 配置下载权限{#configure-download-permissions}
+### 配置用户组设置{#configure-user-group-settings}
 
-除了&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员还可以进一步配置不同用户组的视图权限，以及（或）下载原始资产及其演绎版。
+除了&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员还可以进一步配置不同用户组的设置以进行视图和（或）下载原始资产及其演绎版。
 
-以管理员身份登录到您的Brand Portal租户，然后导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 用户]**。 在&#x200B;**[!UICONTROL 用户角色]**&#x200B;页面中，导航到&#x200B;**[!UICONTROL 组]**&#x200B;选项卡，以配置用户组的视图和（或）下载权限。
+以管理员身份登录到您的Brand Portal租户，然后导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 用户]**。 在&#x200B;**[!UICONTROL 用户角色]**&#x200B;页面中，导航到&#x200B;**[!UICONTROL 组]**&#x200B;选项卡，为用户组配置视图和（或）下载设置。
 
 ![视图下载权限](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载设置和权�
 
 以下矩阵定义用户是否有权访问演绎版，具体取决于[下载配置](#configure-download):
 
-| **下载设置：自定义演绎版** | **下载设置：系统再现** | **用户组权限：下载原始** | **用户组权限：下载演绎版** | **结果** |
+| **下载设置：自定义演绎版** | **下载设置：系统再现** | **用户组设置：下载原始** | **用户组设置：下载演绎版** | **结果** |
 |---|---|---|---|---|
 | 开启 | 开启 | 开启 | 开启 | 视图并下载所有再现 |
 | 开启 | 开启 | 关闭 | 关闭 | 视图原始资产 |
@@ -112,7 +116,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
 >[!NOTE]
 >
->如果您没有访问或下载演绎版的权限，请与Brand Portal管理员联系。
+>如果您没有访问或下载资产演绎版的权限，请与Brand Portal管理员联系。
 
 如果用户有权访问演绎版，则会为用户提供增强的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，其中包含以下功能：
 * 视图下载列表中任何资产的所有可用演绎版。
@@ -198,7 +202,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 >
 >Brand Portal支持在混合模式和Scene 7模式下配置Dynamic Media。
 >
->(*如果AEM作者实例在&#x200B;**Dynamic Media Hybrid模式***上运行)
+>(*如果AEM作者实例在&#x200B;**Dynamic Media混合模式***上运行)
 >
 >要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，且资产的金字塔型Tiff演绎版存在于资产发布位置所在的AEM Assets作者实例中。 当资产从AEM发布到Brand Portal时，其金字塔tiff再现也会发布。
 
