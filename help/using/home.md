@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 74%
 | [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 对 Brand Portal 和 AEM Assets 之间的复制问题进行故障诊断。 |
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
-| [品牌门户中的资产来源补充](brand-portal-asset-sourcing.md) | 如何在AEM Assets配置资产来源补充、在Brand Portal中上传资产并将贡献文件夹发布回AEM Assets。 |
+| [Brand Portal 中的资产源](brand-portal-asset-sourcing.md) | 如何在AEM Assets配置资产来源补充、在Brand Portal中上传资产并将贡献文件夹发布回AEM Assets。 |
 
 ### 有用资源
 
