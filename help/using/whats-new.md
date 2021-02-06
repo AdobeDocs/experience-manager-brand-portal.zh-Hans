@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
 workflow-type: tm+mt
 source-wordcount: '5479'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -199,10 +199,10 @@ Brand Portal管理员可以启用任何组合来配置资产下载。
 
 | **AEM 版本** | **新配置** | **升级配置** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
+| **AEM Assets as a Cloud Service** | [创建配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 联系支持 | 联系支持 |
 
 >[!NOTE]
@@ -218,7 +218,7 @@ Brand Portal管理员可以启用任何组合来配置资产下载。
 
 Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户（外部代理/团队）提供在不需要访问作者环境的情况下将内容上传到 Brand Portal 并发布到 AEM Assets 的功能。此功能称为&#x200B;**[品牌门户中的资产来源补充](brand-portal-asset-sourcing.md)**，通过为用户提供双向机制，以便与全球分布的其他品牌门户用户共同贡献和共享资产，将改善客户体验。
 
-### 品牌门户中的资产来源补充{#asset-sourcing-in-bp}
+### Brand Portal 中的资产源 {#asset-sourcing-in-bp}
 
 资产来源补充允许AEM用户（管理员／非管理员用户）使用额外的&#x200B;**资产贡献**&#x200B;属性创建新文件夹，确保创建的新文件夹可由Brand Portal用户提交资产。 这会自动触发一个工作流，该工作流在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建另外两个子文件夹，称为NEW和SHARED。
 
@@ -268,7 +268,7 @@ Brand Portal 6.4.4 版主要增强了文本搜索和常见客户请求。请参�
 **使用**
 案例当您不确定搜索的短语中出现的词语的确切组合时，部分短语搜索会很有帮助。
 
-例如，如果您在Brand Portal中的搜索表单使用属性谓词对资产标题进行部分搜索，则指定术语&#x200B;**camp**&#x200B;将返回标题短语中带有单词camp的所有资产。
+例如，如果您在Brand Portal中的搜索表单使用属性谓词对资产标题进行部分搜索，则指定术语&#x200B;**camp**&#x200B;将返回标题短语中包含单词camp的所有资产。
 
 ![](assets/partialphrasesearch.png)
 
@@ -342,11 +342,11 @@ Brand Portal 6.4.3版本重点介绍——除了在Brand Portal访问URL中的�
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### 动态媒体视频演绎版支持
+### Dynamic Media视频再现支持
 
-AEM作者实例处于Dynamic Media混合模式的用户除了可以下载原始视频文件外，还可以预览和下载Dynamic Media演绎版。
+AEM作者实例处于Dynamic Media混合模式的用户除了原始视频文件外，还可以预览和下载动态媒体演绎版。
 
-要允许在特定租户帐户上预览和下载Dynamic Media演绎版，管理员需要从管理工具面板中指定&#x200B;**Dynamic Media Configuration**(视频服务URL(DM-Gateway URL)和注册ID，以获取&#x200B;**视频**&#x200B;配置中的动态视频)。
+要允许在特定租户帐户上预览和下载动态媒体演绎版，管理员需要从管理工具面板中指定&#x200B;**视频**&#x200B;配置中的&#x200B;**Dynamic Media配置**(视频服务URL（DM-网关URL）和注册ID来获取动态视频。
 
 
 Dynamic Media视频可在以下位置预览：
@@ -355,7 +355,7 @@ Dynamic Media视频可在以下位置预览：
 * 资产卡视图
 * 链接共享预览页
 
-Dynamic Media视频编码可从以下位置下载：
+Dynamic Media视频编码可从以下网页下载：
 
 * Brand Portal
 * 共享链接
@@ -383,7 +383,7 @@ Dynamic Media视频编码可从以下位置下载：
 请注意，只能自定义品牌门户URL的前缀，而不能自定义整个URL。\
 例如，现有域为&#x200B;**geometrix.brand-portal.adobe.com**&#x200B;的组织可以获取根据请求创建的&#x200B;**geometrixinc.brand-portal.adobe.com**。
 
-但是，AEM作者实例只能[配置](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)（仅使用租户ID URL），而不能使用租户别名（备用）URL。
+但是，AEM作者实例只能[配置](https://helpx.adobe.com/cn/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)（仅使用租户ID URL），而不能使用租户别名（备用）URL。
 
 组织可以通过自定义门户URL而不是坚持Adobe提供的URL来满足其品牌需求。
 
