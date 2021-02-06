@@ -5,12 +5,12 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Brand Portal 指南
-user-guide-description: 使用 AEM Assets Brand Portal，通过将获准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载来满足营销需求。
+user-guide-description: 使用 AEM Assets Brand Portal，将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，来满足营销需求。
 translation-type: tm+mt
 source-git-commit: bc9e2727ed3cccd9ce8f12601843f335c9578195
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 71%
+ht-degree: 74%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 71%
    + [对并行发布到 Brand Portal 时出现的问题进行故障诊断](using/troubleshoot-parallel-publishing.md)
    + [将标记发布到 Brand Portal](using/brand-portal-publish-tags.md)
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
-+ 品牌门户中的资产来源补充{#asset-sourcing-in-brand-portal}
++ Brand Portal 中的资产源 {#asset-sourcing-in-brand-portal}
    + [概述](using/brand-portal-asset-sourcing.md)
    + [在AEM中配置资产来源补充](using/brand-portal-configure-asset-sourcing.md)
-   + 在AEM Assets{#configure-contribution-folder}中配置贡献文件夹
+   + 在 AEM Assets 中配置 Contribution 文件夹 {#configure-contribution-folder}
       + [概述](using/brand-portal-contribution-folder.md)
       + [创建贡献文件夹](using/brand-portal-create-contribution-folder.md)
       + [配置贡献文件夹属性](using/brand-portal-configure-contribution-folder-properties.md)
