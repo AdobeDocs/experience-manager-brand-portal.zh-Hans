@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新的AEM AssetsB
 
 **安。** 是的，通过Adobe开发人员控制台将贡献文件夹的资产发布到AEM 6.5.4上的AEM Assets时存在已知问题。
 
-此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的服务包AEM 6.5.5，并[升级Adobe开发人员控制台上的配置](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+此问题在AEM 6.5.5中已解决。您可以将AEM Assets实例升级到最新的服务包AEM 6.5.5，并[升级Adobe开发人员控制台上的配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
 对于AEM 6.5.4的即时修复，建议[下载修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)并安装在AEM作者实例上。
 
