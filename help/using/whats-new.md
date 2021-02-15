@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Brand Portal 2021.02.0是一个增强版本，侧重于改善资产下载体验�
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-之前，所有资产演绎版都直接下载到了一个zip文件夹中。 已跳过文件夹和收藏集的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，并且没有方法可以控制资产的下载行为，因此难以从大量下载中搜索特定的再现。
+之前，所有资产演绎版都直接下载到了一个zip文件夹中。 文件夹和收藏集已跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，并且没有方法可以控制资产的下载行为，因此很难从大量下载中搜索特定的再现。
 
 **[!UICONTROL 资产]** 下载设置现在提供了一个选项，用于在下载文件夹、收藏集或批量下载资产时为每个资产创建单独的文件夹。
 
@@ -199,7 +199,7 @@ Brand Portal管理员可以启用任何组合来配置资产下载。
 根据配置，独立资产、多个资产、包含资产的文件夹、授权或未授权的资产以及使用共享链接下载资产的下载工作流程将保持不变。
 
 
-## 6.4.6 {#what-changed-in-646}中的变化
+## 6.4.2 {#what-changed-in-646}中的变化
 
 在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道已更改。 AEM Assets现在作为Cloud Service、AEM Assets 6.3及更高版本支持Brand Portal。 在AEM Assets 6.3及更高版本中，Brand Portal先前已通过旧版OAuth网关在经典UI中配置，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。 AEM Assets现在通过Adobe Developer Console配置了Brand Portal，后者为您的Brand Portal租户购买IMS令牌以授权。
 
