@@ -1,8 +1,8 @@
 ---
 title: 发行说明
 seo-title: 发行说明
-description: 深入了解Adobe Experience Manager资产品牌门户2020.10.0版本中的功能、增强功能、已修复的关键问题和已知问题。
-seo-description: 深入了解Adobe Experience Manager资产品牌门户2020.10.0版本中的增强功能、已修复的关键问题和已知问题。
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.02.0版本中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.02.0版本中的增强功能、已修复的关键问题和已知问题。
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cf924ce71433e33506449bbad608d5e57a41b8d
+source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '515'
 ht-degree: 9%
 
 ---
@@ -20,65 +20,85 @@ ht-degree: 9%
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager资产品牌门户2020.10.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2021.02.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 发行信息 {#release-information}
 
-| 产品 | Adobe Experience Manager资产品牌门户 |
+| 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2020.10.0 |
-| 日期 | 2020年10月 |
+| 版本号 | 2021.02.0 |
+| 日期 | 2021年2月 |
 
 ## 概述 {#overview}
 
-Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并跨设备安全地将其分发给外部方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
+Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并将其安全地分发给外部各方和跨设备的内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2020.10.0 的新增功能 {#whats-new-in-2020.10.0}
+## 2021.02.0 的新增功能 {#whats-new-in-2021.02.0}
 
 ### 新增功能{#new-features}
 
 此版本包含以下新增功能：
 
-* **[!UICONTROL 下载]**&#x200B;对话框在列表视图中进行了改头换面，其中包含其他选项，可排除不需要的演绎版、对类似资产类型应用相同的规则集以及下载选定的资产演绎版。 请参阅[从Brand Portal下载资产的步骤](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets)。
+* 在&#x200B;**[!UICONTROL 下载设置]**&#x200B;下增加了&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 在下载文件夹、收藏集或批量下载资产时，系统会为每个资产创建一个单独的文件夹。 请参阅[下载设置](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)。
+
+<!-- 
+* The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+-->
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* 现在，只需单击一下，即可从所有品牌门户页面导航到&#x200B;**[!UICONTROL 文件]**、**[!UICONTROL 集合]**&#x200B;和&#x200B;**[!UICONTROL 共享链接]**。
+<!-- 
+* Navigation to the **[!UICONTROL Files]**, **[!UICONTROL Collections]**, and **[!UICONTROL Shared Links]** is now possible from all the Brand Portal pages in one-click.  
 
-* 现在，资产详细信息页面中的&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板允许Brand Portal用户选择原始资产和（或）特定资产演绎版，并直接从&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板下载它们，而无需打开&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。 请参阅[从资产详细信息页面下载资产](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。
+* The **[!UICONTROL Renditions]** panel in the asset details page now allows the Brand Portal users to select the original asset and (or) specific asset renditions, and directly download them from the **[!UICONTROL Renditions]** panel without having to open the **[!UICONTROL Download]** dialog. See [download assets from asset details page](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
+-->
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* 除了现有的&#x200B;**[!UICONTROL 下载]**&#x200B;配置之外，Brand Portal管理员还可以[为不同用户组](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)配置视图权限，并（或）从资产详细信息页面下载原始资产及其演绎版。 这些配置将定义哪些人员可以访问和（或）下载资产演绎版。
+<!-- 
+* In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
+-->
 
 ### 增强功能 {#enhancements}
 
 此版本包含以下增强功能：
 
-* 来宾用户的会话超时阈值已从2小时减少到15分钟。
-* 对于多页PDF，额外的&#x200B;**[!UICONTROL 视图页面]**&#x200B;选项已被删除，因为用户现在可以从Adobe Document Cloud查看器视图PDF页面。
-
+* 对于文件夹下载，将使用共享链接为每个资产创建一个单独的文件夹，而不管&#x200B;**[!UICONTROL 下载设置]**。
+* Brand Portal **[!UICONTROL 使用情况报告]**&#x200B;已修改，仅反映活动的Brand Portal用户。
 
 <!--
-### Critical Issues Fixed {#critical-issues-fixed}
-
-This release includes fixes to the following critical issue:
-
-* The users are not able to view the PDF pages if the PDF contains sub assets.
+* The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
+* The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
 -->
 
-### 已知问题 {#known-issues}
 
-此版本包含以下已知问题：
+### 已修复{#critical-issues-fixed}的严重问题
 
-* 在&#x200B;**[!UICONTROL 资产报表]**&#x200B;上搜索会显示产品界面上的处理情况，而没有搜索结果。
-* 非管理员用户在资产详细信息页面上无法看到视频DM编码。
-* 在下载对话框中，单个资产演绎版的大小和总下载大小的对齐方式会失真。
+此版本修复了以下关键问题：
 
+* 如果仅下载了原始资产，资产会反映其自己的扩展，直到将扩展手动更改为zip后，才会打开。
+* 单击导航箭头时，集合文件夹的用户界面不会响应。
+* **[!UICONTROL 即]** 使文件夹为空，“列 **** 视图”中也会显示“创建”按钮。
+* **[!UICONTROL 如果]** 在访问Brand Portal实例时绕过调度程序，则omni search将失败，并显示414错误消息(Request-URI Too Long)。
+* 如果资产的文件名中包含逗号(`,`)，则会下载一个空的zip文件夹。
+* 查看器用户可以选择将用户添加到他们创建的集合。
+* 使用共享链接下载资产（缩略图或Web演绎版）时，会出现不一致的行为。
+
+请参阅[Brand Portal 2021.02.0](whats-new.md)中的新增功能。
+
+<!--
+### Known Issues {#known-issues}
+
+This release includes the following known issue:
+
+* Search on the **[!UICONTROL Asset Reports]** shows processing on the product interface with no search result.
+* The video DM encodes are not visible to the non-admin users on the asset details page.
+* The alignment of the size of individual asset renditions and total download size is distorted in the Download dialog.
+-->
 
 
 <!--
@@ -133,7 +153,7 @@ Brand Portal用户界面提供以下语言版本：
 
 ## 经过认证的平台 {#certified-platforms}
 
-要确定哪些平台经认证可运行此版本的Brand Portal，请参阅[技术要求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的&#x200B;**受支持的创作用户界面浏览器**&#x200B;部分中的&#x200B;**触屏优化UI支持**&#x200B;列。
+要确定哪些平台经认证可随此版本的Brand Portal一起运行，请参阅[技术要求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的&#x200B;**创作用户界面支持的浏览器**&#x200B;部分中的&#x200B;**触屏优化UI支持**&#x200B;列。
 
 ## 链接 {#links}
 
@@ -142,7 +162,7 @@ Brand Portal用户界面提供以下语言版本：
 
 ## 产品访问和支持（受限站点）{#product-access-and-support-restricted-sites}
 
-这些网站仅适用于客户。如果您是Adobe并需要访问，请与客户经理联系。
+这些网站仅适用于客户。如果您是Adobe并需要访问，请与您的客户经理联系。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
