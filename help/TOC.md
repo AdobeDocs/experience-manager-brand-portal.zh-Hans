@@ -15,7 +15,7 @@ ht-degree: 74%
 ---
 
 
-# Adobe Experience Manager资产品牌门户指南{#using}
+# Adobe Experience Manager Assets Brand Portal指南{#using}
 
 + [Brand Portal 指南](using/home.md)
 + 简介 {#introduction}
@@ -25,7 +25,7 @@ ht-degree: 74%
    + [常见问题](using/brand-portal-faqs.md)
    + [支持的文件格式](using/brand-portal-supported-formats.md)
    + [来宾访问 Brand Portal](using/guest-access.md)
-   + [了解品牌门户与AEM Assets](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
+   + [了解Brand Portal与AEM Assets](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上浏览资产](using/browse-assets-brand-portal.md)
 + 从 AEM Assets 发布到 Brand Portal {#publish}
    + [使用 Brand Portal 配置 AEM Assets](using/configure-aem-assets-with-brand-portal.md)
@@ -37,7 +37,7 @@ ht-degree: 74%
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的资产源 {#asset-sourcing-in-brand-portal}
    + [概述](using/brand-portal-asset-sourcing.md)
-   + [在AEM中配置资产来源补充](using/brand-portal-configure-asset-sourcing.md)
+   + [在AEM中配置资产来源](using/brand-portal-configure-asset-sourcing.md)
    + 在 AEM Assets 中配置 Contribution 文件夹 {#configure-contribution-folder}
       + [概述](using/brand-portal-contribution-folder.md)
       + [创建贡献文件夹](using/brand-portal-create-contribution-folder.md)
