@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '558'
 ht-degree: 9%
 
 ---
@@ -38,6 +38,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 ### 新增功能{#new-features}
 
 此版本包含以下新增功能：
+
+* 资产来源补充功能现在在AEM Assets上作为Cloud Service可用。 它允许Brand Portal用户将资产上传到允许的贡献文件夹，并将贡献文件夹从Brand Portal发布到AEM Assets作为Cloud Service实例。
 
 * 在&#x200B;**[!UICONTROL 下载设置]**&#x200B;下增加了&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 在下载文件夹、收藏集或批量下载资产时，系统会为每个资产创建一个单独的文件夹。 请参阅[下载设置](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download)。
 
