@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '5796'
+source-wordcount: '5907'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,14 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}中的变化
 
-Brand Portal 2021.02.0是一个增强版本，侧重于改善资产下载体验并包含关键修复。 它使管理员能够配置文件夹、收藏集的默认下载行为以及在租户级别批量下载资产。 还修改了Brand Portal **[!UICONTROL 使用情况报告]**，以反映活动的Brand Portal用户。 请参阅最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
+Brand Portal 2021.02.0是一个增强版本，它侧重于促进AEM Assets作为Cloud Service的资产来源补充功能，改进了资产下载体验，并包含重要修复。 它使管理员能够配置文件夹、收藏集的默认下载行为以及在租户级别批量下载资产。 还修改了Brand Portal **[!UICONTROL 使用情况报告]**，以反映活动的Brand Portal用户。 请参阅最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
+
+### 将AEM Assets上的资产来源补充作为Cloud Service{#asset-sourcing-on-cloud-service}
+
+现在，在AEM Assets上，可以使用资产来源补充功能作为Cloud Service。 默认情况下，为所有云服务用户启用这些功能。 允许的Brand Portal用户可以通过将新资产上传到贡献文件夹并将贡献文件夹从Brand Portal发布到AEM Assets作为Cloud Service实例，对资产来源补充。 管理员可以审核和批准Brand Portal用户的贡献，以进一步将其分发给其他Brand Portal用户。
+
+以前，资产来源补充仅在AEM Assets（内部部署和托管服务）上可用。
 
 ### 资产下载{#asset-download-setting}
 
@@ -199,7 +205,7 @@ Brand Portal管理员可以启用任何组合来配置资产下载。
 根据配置，独立资产、多个资产、包含资产的文件夹、授权或未授权的资产以及使用共享链接下载资产的下载工作流程将保持不变。
 
 
-## 6.4.2 {#what-changed-in-646}中的变化
+## 6.4.6 {#what-changed-in-646}中的变化
 
 在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道已更改。 AEM Assets现在作为Cloud Service、AEM Assets 6.3及更高版本支持Brand Portal。 在AEM Assets 6.3及更高版本中，Brand Portal先前已通过旧版OAuth网关在经典UI中配置，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。 AEM Assets现在通过Adobe Developer Console配置了Brand Portal，后者为您的Brand Portal租户购买IMS令牌以授权。
 
@@ -258,7 +264,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 资产来源补充允许AEM用户（管理员/非管理员用户）使用额外的&#x200B;**资产贡献**&#x200B;属性创建新文件夹，确保创建的新文件夹可由Brand Portal用户打开以供资产提交。 这会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建另外两个子文件夹，称为NEW和SHARED。
 
-然后，AEM用户通过[将应添加到贡献文件夹的资产类型的简短](brand-portal-configure-contribution-folder-properties.md)以及[将基准资产](brand-portal-upload-baseline-assets.md)上传到&#x200B;**SHARED**&#x200B;文件夹来定义要求，以确保BP用户获得所需的参考信息。 然后，管理员可以在将新创建的&#x200B;**Contribution**&#x200B;文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件夹的访问权限。
+然后，AEM用户通过将应添加到贡献文件夹的资产类型的简报上传到&#x200B;**SHARED**&#x200B;文件夹来定义要求，以确保BP用户获得所需的参考信息。 然后，管理员可以在将新创建的&#x200B;**Contribution**&#x200B;文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件夹的访问权限。
 
 
 用户在&#x200B;**NEW**&#x200B;文件夹中添加完内容后，可以将贡献文件夹发布回AEM作者环境。 请注意，完成导入并反映AEM Assets中新发布的内容可能需要几分钟时间。
@@ -273,7 +279,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 ### 将资产上传到贡献文件夹{#upload-assets-in-bp}
 
-拥有相应权限的Brand Portal用户可以[下载资产要求](brand-portal-download-asset-requirements.md)，了解贡献的需要，并将包含多个资产的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到&#x200B;**NEW**&#x200B;子文件夹。 **SHARED**&#x200B;文件夹用于分配要求和基准资产。 请参阅[将资产上传到贡献文件夹](brand-portal-upload-assets-to-contribution-folder.md)
+拥有适当权限的Brand Portal用户可以下载资产要求，以了解贡献的需要，并将包含多个资产或文件夹的多个资产或文件夹上传到贡献文件夹。 但是，请注意，Brand Portal用户只能将资产上传到&#x200B;**NEW**&#x200B;子文件夹。 **SHARED**&#x200B;文件夹用于分配要求和基准资产。
 
 ![](assets/upload-asset6.png)
 
@@ -518,7 +524,7 @@ Brand Portal为非管理员用户（编辑者、查看者、客人用户）提�
 ![](assets/general-configs-1.png)
 ![](assets/admin-tools-panel-13.png)
 
-### Adobe I/O UI用于配置身份验证集成
+### Adobe I/OUI配置Auth集成
 
 从Brand Portal 6.4.2开始，使用Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)接口创建JWT应用程序，这允许配置Auth集成以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在`https://marketing.adobe.com/developer/`中。 要了解有关将AEM Assets与Brand Portal集成以将资产和集合发布到Brand Portal的更多信息，请参阅[配置AEM Assets与Brand Portal的集成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
 
