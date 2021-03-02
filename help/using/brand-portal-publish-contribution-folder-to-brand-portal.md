@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ AEM管理员和拥有创建新文件夹权限的用户可以在AEM Assets中创�
 
    ![](assets/contribution-folder.png)
 
-您现在可以配置贡献文件夹属性。
+您还可以在创建贡献文件夹时配置贡献文件夹属性。
 
 ## 配置贡献文件夹属性{#configure-contribution-folder-properties}
 
