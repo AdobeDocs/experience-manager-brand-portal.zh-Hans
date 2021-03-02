@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Brand Portal用户无需访问AEM作者实例即可将贡献文件夹发布到AE
 
 实现创建贡献文件夹的目标后，Brand Portal管理员可以删除贡献文件夹，以释放其他用户的上传空间。
 
-**发布作业状态**
+## 发布作业状态{#publishing-job-status}
 
 管理员可以利用两种报告来视图从Brand Portal发布到AEM Assets的资产贡献文件夹的状态。
 
@@ -129,13 +129,27 @@ Brand Portal用户无需访问AEM作者实例即可将贡献文件夹发布到AE
 
    ![](assets/contribution-folder-status.png)
 
-* 在AEM Assets作者实例中，导航到&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Jobs]**。 此报表反映所有发布作业的最终状态（成功或错误）。
+* 在AEM Assets（内部部署或托管服务）中，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作业]**。 此报表反映所有发布作业的最终状态（成功或错误）。
 
    ![](assets/publishing-status.png)
 
+* 在AEM Assets作为Cloud Service，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 资产]** > **[!UICONTROL 报表]**。
+
+   单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 发布]**&#x200B;以创建发布报告。
+
+   ![](assets/create-publish-report.png)
+
+   输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 说明]**，然后选择贡献文件夹的&#x200B;**[!UICONTROL 文件夹路径]**&#x200B;并计划&#x200B;**[!UICONTROL Now]**&#x200B;的报表。 单击&#x200B;**[!UICONTROL 下一步]**。
+
+   ![](assets/create-publish-report1.png)
+
+   在报表中选择您想要的字段属性并生成它。 此报表反映所有发布作业的最终状态（成功或错误）。
+
+<!--
 >[!NOTE]
 >
->AEM Assets作为Cloud Service的用户界面可能略有不同，但工作流保持不变。
+>Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
+-->
 
 
 
