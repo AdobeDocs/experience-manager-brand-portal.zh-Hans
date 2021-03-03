@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ AEM用户在配置贡献文件夹时执行以下活动:
 AEM管理员和拥有创建新文件夹权限的用户可以在AEM Assets中创建贡献文件夹。
 要创建贡献文件夹，请新建一个类型为“资产贡献”的文件夹，确保创建的新文件夹已打开，可供Brand Portal用户提交资产。  这会自动触发一个工作流，该工作流会在贡献文件夹内创建另外两个子文件夹，称为SHARED和NEW。
 
+
 >[!NOTE]
 >
 >您可以在一个文件夹中创建多个贡献文件夹。 请勿在其他贡献文件夹中创建贡献文件夹。
+
+除了在创建贡献文件夹时，您还可以单独配置贡献文件夹属性。 在此示例中，我们将单独配置属性。
 
 **要创建贡献文件夹，请执行以下操作：**
 1. 登录到AEM Assets实例。
@@ -68,7 +71,6 @@ AEM管理员和拥有创建新文件夹权限的用户可以在AEM Assets中创�
 
    ![](assets/contribution-folder.png)
 
-您还可以在创建贡献文件夹时配置贡献文件夹属性。
 
 ## 配置贡献文件夹属性{#configure-contribution-folder-properties}
 
