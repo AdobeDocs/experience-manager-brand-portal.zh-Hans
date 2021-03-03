@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,24 @@ Brand Portal仪表板反映了允许给Brand Portal用户的所有现有文件�
 
 1. 登录到您的Brand Portal实例。
 1. 从Brand Portal仪表板中选择贡献文件夹。
-1. 单击&#x200B;**[!UICONTROL 属性]** ![](assets/properties.png). 属性窗口将打开，显示“资产贡献”文件夹详细信息。
-   ![](assets/download-asset-requirement1.png)
-1. 单击&#x200B;**[!UICONTROL 下载Brief]** ![](assets/download.png)以将资产需求文档下载到本地计算机。
+1. 单击&#x200B;**[!UICONTROL 属性]**. 此时将打开包含贡献文件夹详细信息的“属性”窗口。
+
+   ![](assets/properties.png)
+
    ![](assets/download-asset-requirement2.png)
+
+1. 单击&#x200B;**[!UICONTROL 下载Brief]**&#x200B;选项，将资产需求文档下载到本地计算机。
+
+   ![](assets/download.png)
+
 1. 返回Brand Portal仪表板。
 1. 单击打开贡献文件夹，您可以在贡献文件夹中看到两个子文件夹 — **[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 SHARED文件夹包含管理员共享的所有基准资产（参考内容）。
 1. 您可以下载&#x200B;**[!UICONTROL SHARED]**文件夹，其中包含本地计算机上的所有基准资产。
-或者，可以打开**[!UICONTROL SHARED]**&#x200B;文件夹，然后单击&#x200B;**下载**&#x200B;图标![](assets/download.png)下载单个文件/文件夹。
-   ![](assets/download-asset-requirement3.png)
+或者，可以打开**[!UICONTROL SHARED]**&#x200B;文件夹，然后单击&#x200B;**下载**&#x200B;图标以下载单个文件/文件夹。
+
+   ![](assets/download.png)
+
+   ![](assets/download-asset-requirement4.png)
 
 浏览简介(资产需求文档)，参阅基准资产以了解资产需求。 现在，您可以创建新资产以进行贡献，并将其上传到贡献文件夹。
 
@@ -82,15 +91,15 @@ Brand Portal仪表板反映了允许给Brand Portal用户的所有现有文件�
 
 1. 单击&#x200B;**[!UICONTROL NEW]**&#x200B;文件夹。
 
-   ![](assets/upload-new-assets1.png)
+   ![](assets/upload-new-assets4.png)
 
 1. 单击&#x200B;**[!UICONTROL 创建]** > **[!UICONTROL 文件]**&#x200B;可上传包含多个资产的单个文件或文件夹(.zip)。
 
-   ![](assets/upload-new-assets2.png)
+   ![](assets/upload-new-assets5.png)
 
 1. 浏览资产（文件或文件夹）并将其上传到&#x200B;**[!UICONTROL NEW]**&#x200B;文件夹。
 
-   ![](assets/upload-new-assets3.png)
+   ![](assets/upload-new-assets6.png)
 
 将所有资产或文件夹上传到NEW文件夹后，将贡献文件夹发布到AEM Assets。
 
@@ -110,7 +119,7 @@ Brand Portal用户无需访问AEM作者实例即可将贡献文件夹发布到AE
 
    ![](assets/export.png)
 
-   ![](assets/publish-contribution-folder-to-aem.png)
+   ![](assets/publish-contribution-folder-to-aem1.png)
 
 将向位于发布工作流程不同阶段的Brand Portal用户和管理员发送电子邮件/脉冲通知：
 1. **已排队**  — 当在Brand Portal中触发发布工作流时，将向Brand Portal用户和Brand Portal管理员发送通知。
@@ -129,21 +138,17 @@ Brand Portal用户无需访问AEM作者实例即可将贡献文件夹发布到AE
 
    ![](assets/contribution-folder-status.png)
 
-* 在AEM Assets（内部部署或托管服务）中，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 作业]**。 此报表反映所有发布作业的最终状态（成功或错误）。
+* 在AEM Assets（内部部署或托管服务）中，导航到&#x200B;**[!UICONTROL 资产]** > **[!UICONTROL 作业]**。 此报表反映所有发布作业的最终状态（成功或错误）。
 
    ![](assets/publishing-status.png)
 
-* 在AEM Assets作为Cloud Service，导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 资产]** > **[!UICONTROL 报表]**。
+* 在AEM Assets作为Cloud Service，导航到&#x200B;**[!UICONTROL 资产]** > **[!UICONTROL 作业]**。
 
-   单击&#x200B;**[!UICONTROL 创建]**&#x200B;按钮并选择&#x200B;**[!UICONTROL 发布]**&#x200B;以创建发布报告。
+   或者，您也可以从全局导航直接导航到&#x200B;**[!UICONTROL 作业]**。
 
-   ![](assets/create-publish-report.png)
+   此报表反映所有发布作业的最终状态（成功或错误），包括将资产从Brand Portal导入AEM Assets作为Cloud Service。
 
-   输入&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 说明]**，然后选择贡献文件夹的&#x200B;**[!UICONTROL 文件夹路径]**&#x200B;并计划&#x200B;**[!UICONTROL Now]**&#x200B;的报表。 单击&#x200B;**[!UICONTROL 下一步]**。
-
-   ![](assets/create-publish-report1.png)
-
-   在报表中选择您想要的字段属性并生成它。 此报表反映所有发布作业的最终状态（成功或错误）。
+   ![](assets/cloud-service-job-status.png)
 
 <!--
 >[!NOTE]
