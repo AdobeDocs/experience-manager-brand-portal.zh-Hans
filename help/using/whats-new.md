@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
+source-wordcount: '6125'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0是一个增强版本，它将AEM Assets上的Brand Portal
 
 ### 将AEM Assets作为Cloud Service{#bp-automation-on-cloud-service}实现Brand Portal自动化
 
-通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。 Cloud Manager用户触发激活工作流，该工作流会在后端创建所需的配置，并激活与AEM Assets作为Cloud Service实例在同一IMS组织上的Brand Portal。
+通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。
 
 以前，AEM Assets作为Cloud Service是使用Adobe开发人员控制台手动配置Brand Portal的。
+
+Cloud Manager用户触发激活工作流，该工作流会在后端创建所需的配置，并激活与AEM Assets作为Cloud Service实例在同一IMS组织上的Brand Portal。
+
+要在AEM Assets上以Cloud Service实例激活Brand Portal，请执行以下操作：
+
+1. 登录到Adobe Cloud Manager，然后导航到&#x200B;**[!UICONTROL 环境]**。
+1. 从列表中选择环境（逐个）以视图环境详细信息。 找到与Brand Portal关联的环境后，单击&#x200B;**[!UICONTROL 激活Brand Portal]**&#x200B;按钮，开始激活工作流。
+1. 激活Brand Portal租户后，状态将更改为“已激活”。
+
+![视图状态](assets/create-environment5.png)
 
 请参阅[将AEM Assets上的Brand Portal作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)激活。
 
@@ -448,7 +458,7 @@ Dynamic Media视频编码可从以下位置下载：
 * 选择仅下载演绎版（而非原始资产）。
 * 当访问原始演绎版受到限制时，请下载资产。
 
-## 6.4.6 {#what-changed-in-1}中的变化
+## 6.4.2 {#what-changed-in-1}中的变化
 
 Brand Portal 6.4.2版本提供了一系列功能，可满足组织的资产分发需求，并帮助他们接触通过访客访问和最佳下载体验在全球分发的大量用户。 Brand Portal还通过新的管理员配置、新添加的报告以及迎合客户请求，为组织提供更大的控制力。
 
