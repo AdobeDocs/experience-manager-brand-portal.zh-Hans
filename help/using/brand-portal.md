@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: c7e76a1b06d94eec3bdd38411eb40dbaa4238eaf
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1554'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。 激活工作流在后端创建所需的配置，并将AEM Assets作为Cloud Service实例激活同一IMS组织上的品牌门户。
 
-而AEM Assets(本地和Managed Services)则使用Adobe Developer Console手动配置Brand Portal，后者为Brand Portal租户购买Adobe Identity Management服务(IMS)令牌以授权。
+而AEM Assets（内部部署和托管服务）是使用Adobe Developer Console手动配置Brand Portal的，后者为Brand Portal租户购买Adobe Identity Management Services(IMS)令牌以授权。
 
 有关详细信息，请参阅[使用Brand Portal配置AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
