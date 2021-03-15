@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
 workflow-type: tm+mt
-source-wordcount: '5907'
+source-wordcount: '6069'
 ht-degree: 3%
 
 ---
@@ -24,16 +24,25 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}中的变化
 
-Brand Portal 2021.02.0是一个增强版本，它侧重于促进AEM Assets作为Cloud Service的资产来源补充功能，改进了资产下载体验，并包含重要修复。 它使管理员能够配置文件夹、收藏集的默认下载行为以及在租户级别批量下载资产。 还修改了Brand Portal **[!UICONTROL 使用情况报告]**，以反映活动的Brand Portal用户。 请参阅最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
+Brand Portal 2021.02.0是一个增强版本，它将AEM Assets上的Brand Portal自动化工作流作为Cloud Service引入，将AEM Assets上的资产来源补充功能作为Cloud Service促进，改进了资产下载体验，并包含重要修复。 它还使管理员能够配置文件夹、收藏集的默认下载行为以及在租户级别批量下载资产。 还修改了Brand Portal **[!UICONTROL 使用情况报告]**，以反映活动的Brand Portal用户。 请参阅最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
+### 将AEM Assets作为Cloud Service{#bp-automation-on-cloud-service}实现Brand Portal自动化
+
+通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。 Cloud Manager用户触发激活工作流，该工作流会在后端创建所需的配置，并激活与AEM Assets作为Cloud Service实例在同一IMS组织上的Brand Portal。
+
+以前，AEM Assets作为Cloud Service是使用Adobe开发人员控制台手动配置Brand Portal的，该控制台为Brand Portal租户购买Adobe Identity Management服务(IMS)令牌以授权。
+
+请参阅[将AEM Assets上的Brand Portal作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)激活。
 
 ### 将AEM Assets上的资产来源补充作为Cloud Service{#asset-sourcing-on-cloud-service}
 
-现在，在AEM Assets上，可以使用资产来源补充功能作为Cloud Service。 默认情况下，为所有云服务用户启用这些功能。 允许的Brand Portal用户可以通过将新资产上传到贡献文件夹并将贡献文件夹从Brand Portal发布到AEM Assets作为Cloud Service实例，对资产来源补充。 管理员可以审核和批准Brand Portal用户的贡献，以进一步将其分发给其他Brand Portal用户。
+现在，在AEM Assets上，可以使用资产来源补充功能作为Cloud Service。 默认情况下，该功能为所有云服务用户启用。 允许的Brand Portal用户可以通过将新资产上传到贡献文件夹并将贡献文件夹从Brand Portal发布到AEM Assets作为Cloud Service实例，对资产来源补充。 管理员可以审核和批准Brand Portal用户的贡献，以进一步将其分发给其他Brand Portal用户。
 
 以前，资产来源补充仅在AEM Assets（内部部署和托管服务）上可用。
 
-### 资产下载{#asset-download-setting}
+请参阅[品牌门户中的资产来源补充](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)。
+
+### 资源下载 {#asset-download-setting}
 
 除了现有的&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员现在还可以配置&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 此设置允许管理员控制租户级别的文件夹、收藏集和资产（超过20个资产）的默认下载行为。
 
@@ -52,6 +61,7 @@ Earlier, all the asset renditions were directly downloaded in a zip folder in ca
 
 ![](assets/download-settings-new.png)
 
+请参阅[从Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)下载资产。
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -339,7 +349,7 @@ Brand Portal允许在搜索查询中使用星号(*)，并在搜索的短语中�
 
 ## 6.4.3 {#what-changed-in}中的更改
 
-Brand Portal 6.4.3版本侧重于 — 除了在Brand Portal访问URL中的租户ID外，为组织提供替代别名、新文件夹层次结构配置、视频支持增强、从AEM作者实例到Brand Portal的计划发布、操作增强以及客户请求的类别。
+Brand Portal 6.4.3版本重点介绍 — 除了在Brand Portal访问URL中的租户ID外，为组织提供替代别名、新文件夹层次结构配置、视频支持增强、从AEM作者实例到Brand Portal的计划发布、操作增强 — 以及迎合客户请求。
 
 ### 非管理员的文件夹层次结构导航
 
@@ -438,7 +448,7 @@ Dynamic Media视频编码可从以下位置下载：
 * 选择仅下载演绎版（而非原始资产）。
 * 当访问原始演绎版受到限制时，请下载资产。
 
-## 6.4.2 {#what-changed-in-1}中的变化
+## 6.4.6 {#what-changed-in-1}中的变化
 
 Brand Portal 6.4.2版本提供了一系列功能，可满足组织的资产分发需求，并帮助他们接触通过访客访问和最佳下载体验在全球分发的大量用户。 Brand Portal还通过新的管理员配置、新添加的报告以及迎合客户请求，为组织提供更大的控制力。
 
