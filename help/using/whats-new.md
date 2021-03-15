@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 979545105694eca65652d6c8e6ad5b9fdd9eea86
+source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
 workflow-type: tm+mt
-source-wordcount: '6069'
+source-wordcount: '6053'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Brand Portal 2021.02.0是一个增强版本，它将AEM Assets上的Brand Portal
 
 通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。 Cloud Manager用户触发激活工作流，该工作流会在后端创建所需的配置，并激活与AEM Assets作为Cloud Service实例在同一IMS组织上的Brand Portal。
 
-以前，AEM Assets作为Cloud Service是使用Adobe开发人员控制台手动配置Brand Portal的，该控制台为Brand Portal租户购买Adobe Identity Management服务(IMS)令牌以授权。
+以前，AEM Assets作为Cloud Service是使用Adobe开发人员控制台手动配置Brand Portal的。
 
 请参阅[将AEM Assets上的Brand Portal作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en)激活。
 
