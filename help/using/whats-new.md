@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '6125'
+source-wordcount: '6138'
 ht-degree: 3%
 
 ---
@@ -24,11 +24,11 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 ## 2021.02.0 {#what-changed-in-feb-2021}中的变化
 
-Brand Portal 2021.02.0是一个增强版本，它将AEM Assets上的Brand Portal自动化工作流作为Cloud Service引入，将AEM Assets上的资产来源补充功能作为Cloud Service促进，改进了资产下载体验，并包含重要修复。 它还使管理员能够配置文件夹、收藏集的默认下载行为以及在租户级别批量下载资产。 还修改了Brand Portal **[!UICONTROL 使用情况报告]**，以反映活动的Brand Portal用户。 请参阅最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
+Brand Portal 2021.02.0是一个增强版本，它将AEM Assets上的Brand Portal激活工作流作为Cloud Service引入，将AEM Assets上的资产来源补充功能作为Cloud Service促进，改进了资产下载体验，并包含重要修复。 它还使管理员能够配置文件夹、收藏集的默认下载行为以及在租户级别批量下载资产。 还修改了Brand Portal **[!UICONTROL 使用情况报告]**，以反映活动的Brand Portal用户。 请参阅最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
-### 将AEM Assets作为Cloud Service{#bp-automation-on-cloud-service}实现Brand Portal自动化
+### 在AEM Assets上激活Brand Portal作为Cloud Service{#bp-automation-on-cloud-service}
 
-通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。
+AEM Assets作为Cloud Service，现在有权使用预配置的Brand Portal实例。 Cloud Manager用户可以在AEM Assets上以Cloud Service实例的形式激活Brand Portal。
 
 以前，AEM Assets作为Cloud Service是使用Adobe开发人员控制台手动配置Brand Portal的。
 
