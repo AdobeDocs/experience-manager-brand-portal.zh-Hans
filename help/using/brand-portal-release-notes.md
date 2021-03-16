@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 9%
+source-wordcount: '600'
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控�
 
 此版本包含以下新增功能：
 
-* 通过从云管理器激活Brand Portal，AEM Assets作为Cloud Service自动配置为Brand Portal。
+* AEM Assets作为Cloud Service，现在有权使用预配置的Brand Portal实例。 Cloud Manager用户可以在AEM Assets上以Cloud Service实例的形式激活Brand Portal。
 
 * 资产来源补充功能现在在AEM Assets上作为Cloud Service可用。 它允许Brand Portal用户将资产上传到允许的贡献文件夹，并将贡献文件夹从Brand Portal发布到AEM Assets作为Cloud Service实例。
 
