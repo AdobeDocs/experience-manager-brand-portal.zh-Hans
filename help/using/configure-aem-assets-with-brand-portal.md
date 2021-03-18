@@ -9,11 +9,12 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+role: 管理员
 translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+source-git-commit: 6b9433bd5a225a2bbaddc09980c9f7b866a75fe8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 22%
+source-wordcount: '434'
+ht-degree: 23%
 
 ---
 
