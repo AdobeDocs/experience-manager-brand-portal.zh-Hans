@@ -9,10 +9,11 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
+role: 管理员
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '303'
 ht-degree: 10%
 
 ---
@@ -20,11 +21,11 @@ ht-degree: 10%
 
 # 管理 Brand Portal 上的用户访问权限 {#administer-user-access-on-brand-portal}
 
-从AEM Assets品牌门户6.4.2开始，管理员可以配置来宾访问权限，并允许用户在其组织的品牌门户上请求访问权限。 这些配置已作为&#x200B;**[!UICONTROL 访问设置]**&#x200B;配置在管理面板中提供。 默认情况下，这两个设置都处于禁用状态。
+从AEM Assets Brand Portal 6.4.2开始，管理员可以配置来宾访问权限，并允许用户在其组织的Brand Portal上请求访问权限。 这些配置已作为&#x200B;**[!UICONTROL 访问设置]**&#x200B;配置在管理面板上提供。 默认情况下，这两个设置都处于禁用状态。
 
 ![](assets/access-configs.png)
 
-**是**   否配置允许客人使用客人访问在品牌门户 **[!UICONTROL 上访问？]** 链接。（默认为禁用）
+**是**   否配置允许客人使用来宾访问在品牌门 **[!UICONTROL 户上访问？]** 链接。（默认为禁用）
 
 **BConfiguration**   允许用户使用“需要”访问请求对Brand Portal **[!UICONTROL 的访问？]** 链接。（默认为禁用）
 
@@ -35,7 +36,7 @@ ht-degree: 10%
 
 1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
 1. 从管理工具面板中，选择&#x200B;**[!UICONTROL 访问]**&#x200B;以打开&#x200B;**[!UICONTROL 访问设置]**&#x200B;页。
-1. 启用&#x200B;**[!UICONTROL 允许客人访问]**&#x200B;配置。
+1. 启用&#x200B;**[!UICONTROL 允许来宾访问]**&#x200B;配置。
 1. **[!UICONTROL 保存更改。]**
 1. 注销以使更改生效。
 
@@ -43,9 +44,9 @@ ht-degree: 10%
 
 ## 允许用户请求访问权限 {#allow-users-to-request-access}
 
-管理员可以允许组织用户从欢迎屏幕请求访问品牌门户。 但是，管理员需要启用&#x200B;**[!UICONTROL 允许用户请求访问]**&#x200B;配置，以便在欢迎屏幕上显示请求访问链接。
+管理员可以允许组织用户从欢迎屏幕请求对Brand Portal的访问权限。 但是，管理员需要启用&#x200B;**[!UICONTROL 允许用户请求访问]**&#x200B;配置，以便请求访问链接显示在欢迎屏幕上。
 
-要允许组织用户请求在Brand Portal上的访问权限，管理员需要：
+要允许组织用户请求在Brand Portal上访问，管理员需要：
 
 1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
 1. 从管理工具面板中，选择&#x200B;**[!UICONTROL 访问]**&#x200B;以打开&#x200B;**[!UICONTROL 访问设置]**&#x200B;页。
