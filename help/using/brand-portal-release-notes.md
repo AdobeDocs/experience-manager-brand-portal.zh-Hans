@@ -9,14 +9,13 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
-translation-type: tm+mt
-source-git-commit: 26fbcf9970a77fc531b82919b29010bc37a1ab8e
+exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 8%
 
 ---
-
 
 # 发行说明 {#release-notes}
 
@@ -31,19 +30,19 @@ ht-degree: 8%
 
 ## 概述 {#overview}
 
-Adobe Experience Manager(AEM)Assets Brand Portal可帮助您轻松获取、控制获准的创意资产并将其安全地分发给外部各方和跨设备的内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
+Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
 ## 2021.02.0 的新增功能 {#whats-new-in-2021.02.0}
 
 ### 新增功能{#new-features}
 
-此版本包含以下新增功能：
+此版本包括以下新增功能：
 
-* AEM Assets作为Cloud Service，现在有权使用预配置的Brand Portal实例。 Cloud Manager用户可以在AEM Assets上以Cloud Service实例的形式激活Brand Portal。
+* AEM Assets as aCloud Service现在有权使用预配置的Brand Portal实例。 Cloud Manager用户可以在AEM Assets上作为Cloud Service实例激活Brand Portal。
 
-* 资产来源补充功能现在在AEM Assets上作为Cloud Service可用。 它允许Brand Portal用户将资产上传到允许的贡献文件夹，并将贡献文件夹从Brand Portal发布到AEM Assets作为Cloud Service实例。
+* 资产源功能现在在AEM Assets上作为Cloud Service提供。 它允许Brand Portal用户将资产上传到允许的贡献文件夹，并将贡献文件夹从Brand Portal作为Cloud Service实例发布到AEM Assets。
 
-* 在&#x200B;**[!UICONTROL 下载设置]**&#x200B;下增加了&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 在下载文件夹、收藏集或批量下载资产时，系统会为每个资产创建一个单独的文件夹。
+* 在&#x200B;**[!UICONTROL 下载设置]**&#x200B;下，引入了额外的&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 下载文件夹、收藏集或批量下载资产时，它会为每个资产创建一个单独的文件夹。
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -69,10 +68,10 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 ### 增强功能 {#enhancements}
 
-此版本包含以下增强功能：
+此版本包括以下增强功能：
 
-* 对于文件夹下载，将使用共享链接为每个资产创建一个单独的文件夹，而不管&#x200B;**[!UICONTROL 下载设置]**。
-* Brand Portal **[!UICONTROL 使用情况报告]**&#x200B;已修改，仅反映活动的Brand Portal用户。
+* 对于文件夹下载，使用共享链接为每个资产创建一个单独的文件夹，而与&#x200B;**[!UICONTROL 下载设置]**&#x200B;无关。
+* 已修改Brand Portal **[!UICONTROL 使用情况报表]**，以仅反映活动的Brand Portal用户。
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -80,26 +79,26 @@ Brand Portal users can exclude specific renditions which are not required and di
 -->
 
 
-### 已修复{#critical-issues-fixed}的严重问题
+### 已修复{#critical-issues-fixed}的关键问题
 
-此版本修复了以下关键问题：
+此版本包括对以下关键问题的修复：
 
-* 如果仅下载了原始资产，资产会反映其自己的扩展，直到将扩展手动更改为zip后，才会打开。
-* 单击导航箭头时，集合文件夹的用户界面不会响应。
-* **[!UICONTROL 即]** 使文件夹为空，“列 **** 视图”中也会显示“创建”按钮。
-* **[!UICONTROL 如果]** 在访问Brand Portal实例时绕过调度程序，则omni search将失败，并显示414错误消息(Request-URI Too Long)。
-* 如果资产的文件名中包含逗号(`,`)，则会下载一个空的zip文件夹。
+* 如果仅下载原始资产，资产将反映其自身的扩展，并且在将扩展手动更改为zip之前不会打开资产。
+* 单击导航箭头时，收藏集文件夹的用户界面未做出响应。
+* **** 即使文件夹为空，列 **** 视图中也会显示创建按钮。
+* **[!UICONTROL 如果]** 在访问Brand Portal实例时绕过调度程序，则Omni search会失败，并显示414错误消息（请求URI过长）。
+* 如果资产的文件名中包含逗号(`,`)，则会下载空的zip文件夹。
 * 查看器用户可以选择将用户添加到他们创建的集合。
 * 使用共享链接下载资产（缩略图或Web演绎版）时，会出现不一致的行为。
 
-请参阅[Brand Portal 2021.02.0](whats-new.md)中的新增功能。
+请参阅[Brand Portal 2021.02.0的新增功能](whats-new.md)。
 
 
 ### 已知问题 {#known-issues}
 
-此版本包含以下已知问题：
+此版本包括以下已知问题：
 
-* 用户不会接收资产来源补充发布工作流的电子邮件通知。
+* 用户不会收到有关资产源发布工作流的电子邮件通知。
 
 <!--
 ### Known Issues {#known-issues}
@@ -150,7 +149,7 @@ This release includes the following known issues:
 
 ## 语言 {#languages}
 
-Brand Portal用户界面提供以下语言版本：
+提供了以下语言版本的Brand Portal用户界面：
 
 * 英语
 * 德语
@@ -164,7 +163,7 @@ Brand Portal用户界面提供以下语言版本：
 
 ## 经过认证的平台 {#certified-platforms}
 
-要确定哪些平台经认证可随此版本的Brand Portal一起运行，请参阅[技术要求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的&#x200B;**创作用户界面支持的浏览器**&#x200B;部分中的&#x200B;**触屏优化UI支持**&#x200B;列。
+要确定哪些平台经认证可以随此版本的Brand Portal一起运行，请参阅[技术要求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的“创作用户界面支持的浏览器”部分&#x200B;**中的表格中的**&#x200B;触屏优化UI **支持列。**
 
 ## 链接 {#links}
 
@@ -173,7 +172,7 @@ Brand Portal用户界面提供以下语言版本：
 
 ## 产品访问和支持（受限站点）{#product-access-and-support-restricted-sites}
 
-这些网站仅适用于客户。如果您是Adobe并需要访问，请与您的客户经理联系。
+这些网站仅适用于客户。如果您是客户并需要访问，请联系您的Adobe客户经理。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
