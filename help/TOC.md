@@ -8,7 +8,6 @@ breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 AEM Assets Brand Portal，将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，来满足营销需求。
 feature: Brand Portal
 role: Business Practitioner
-translation-type: tm+mt
 source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
 workflow-type: tm+mt
 source-wordcount: '281'
@@ -17,7 +16,7 @@ ht-degree: 80%
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal指南{#using}
+# Adobe Experience Manager Assets Brand Portal指南 {#using}
 
 + [Brand Portal 指南](using/home.md)
 + 简介 {#introduction}
@@ -38,8 +37,8 @@ ht-degree: 80%
    + [将标记发布到 Brand Portal](using/brand-portal-publish-tags.md)
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的资产源 {#asset-sourcing-in-brand-portal}
-   + [资产来源补充概述](using/brand-portal-asset-sourcing.md)
-   + [在AEM Assets中配置贡献文件夹](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [资产源概述](using/brand-portal-asset-sourcing.md)
+   + [在AEM Assets中配置Contribution文件夹](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [将贡献文件夹发布到AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 与用户共享资产 {#share}
    + [共享收藏集](using/brand-portal-share-collection.md)
