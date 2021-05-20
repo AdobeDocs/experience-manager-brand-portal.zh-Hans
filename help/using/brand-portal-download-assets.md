@@ -1,22 +1,21 @@
 ---
 title: 下载资产
 seo-title: 下载资产
-description: 所有用户均可同时下载可供他们访问的多个资产和文件夹。 这样，可安全地分发获准的品牌资产以供脱机使用。
-seo-description: 所有用户均可同时下载可供他们访问的多个资产和文件夹。 这样，可安全地分发获准的品牌资产以供脱机使用。
+description: 所有用户都可以同时下载可供他们访问的多个资产和文件夹。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。
+seo-description: 所有用户都可以同时下载可供他们访问的多个资产和文件夹。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
-translation-type: tm+mt
-source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
+exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
+source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
 workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 3%
 
 ---
-
 
 # 从  Brand Portal 下载资产 {#download-assets-from-bp}
 
@@ -24,33 +23,33 @@ ht-degree: 3%
  All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
 -->
 
-Adobe Experience Manager Assets Brand Portal允许用户同时下载可通过Brand Portal访问的多个资产和文件夹，从而增强了下载体验。 这样，可安全地分发获准的品牌资产以供脱机使用。 阅读相关内容，了解如何从Brand Portal下载已批准的资产，以及从[下载性能](../using/brand-portal-download-assets.md#expected-download-performance)中可能看到的情况。
+Adobe Experience Manager Assets Brand Portal允许用户同时从Brand Portal下载可供他们访问的多个资产和文件夹，从而增强了下载体验。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。 阅读并了解如何从Brand Portal下载已批准的资产，以及从[下载性能](../using/brand-portal-download-assets.md#expected-download-performance)中预期获得什么。
 
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更高版本）中，默认情况下启用&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置，该设置使用IBM Aspera Connect加快资源的下载。 [在从Brand Portal下载资源之前，请](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 在浏览器的扩展中安装IBM Aspera Connect 3.9.9。有关详细信息，请参阅[指南以加速从Brand Portal](../using/accelerated-download.md)下载。
+>在Brand Portal 2020.10.0（及更高版本）中，默认启用&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，该设置使用IBM Aspera Connect来加速资产下载。 [在从Brand Portal下载资产之前，请在浏览器的扩展中安装IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 。有关更多详细信息，请参阅[指南以加快从Brand Portal下载的速度](../using/accelerated-download.md)。
 >
->如果您不想使用IBM Aspera Connect并继续正常下载过程，请与Brand Portal管理员联系以关闭&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。
+>如果您不想使用IBM Aspera Connect并继续正常下载过程，请联系Brand Portal管理员以关闭&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置。
 
 ## 配置资产下载{#configure-download}
 
-Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组设置，允许他们从Brand Portal界面访问和下载资产演绎版。
+Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组设置，以便他们能够从Brand Portal界面访问和下载资产演绎版。
 
 >[!NOTE]
 >
->应用于用户界面的下载设置有助于Brand Portal用户实现自助服务体验，从而轻松配置和下载资产演绎版。 它不会限制在应用程序层下载资产，例如，用户仍可以访问和下载包含完整URL路径的资产演绎版。
+>应用于用户界面的下载设置有助于Brand Portal用户获得自助体验，从而轻松配置和下载资产演绎版。 它不会限制在应用程序层下载资产，例如，用户仍然可以访问和下载具有完整URL路径的资产演绎版。
 
-通过以下配置可以定义通过Brand Portal界面访问和下载资产演绎版：
+从Brand Portal界面访问和下载资产演绎版由以下配置定义：
 
 * 启用下载设置
-* 配置用户组设置
+* 配置用户群组设置
 
 ### 启用下载设置{#enable-download-settings}
 
 管理员可以启用资产&#x200B;**[!UICONTROL 下载设置]**&#x200B;来定义可供Brand Portal用户下载的演绎版集。
 
-可用设置有：
+可用的设置包括：
 
 * **[!UICONTROL 快速下载]**
 
@@ -58,60 +57,60 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组�
 
 * **[!UICONTROL 自定义呈现版本]**
 
-   支持下载资产的自定义和（或）动态演绎版。
+   允许下载资产的自定义演绎版和（或）动态演绎版。
 
-   除原始资产和系统生成的演绎版之外的所有资产演绎版均称为自定义演绎版。 它包括可用于资产的静态和动态演绎版。 任何用户都可以在AEM Assets中创建自定义静态演绎版，而只有AEM管理员才能创建自定义动态演绎版。 有关详细信息，请参阅[如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
+   除原始资产和系统生成的演绎版之外的所有资产演绎版都称为自定义演绎版。 它包括可用于资产的静态和动态演绎版。 任何用户都可以在AEM Assets中创建自定义静态演绎版，而只有AEM管理员才能创建自定义动态演绎版。 有关详细信息，请参阅[如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系统呈现版本]**
 
-   支持下载系统生成的资产演绎版。
+   允许下载系统生成的资产演绎版。
 
    这些缩略图是根据“DAM更新资产”工作流在AEM Assets中自动生成的。
 
-* **[!UICONTROL 资产下载]**
+* **[!UICONTROL 资源下载]**
 
-   允许将演绎版下载到每个资产的单独文件夹中。 此设置适用于文件夹、收藏集和批量下载资产（超过20个资产）。
+   允许将演绎版下载到每个资产的单独文件夹中。 该设置适用于文件夹、收藏集和批量下载资产（超过20个资产）。
 
 
-以管理员身份登录到您的Brand Portal租户，然后导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下载]**。
+以管理员身份登录Brand Portal租户，然后导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下载]**。
 
-管理员可以启用品牌门户用户访问和下载再现的任意设置组合。
+管理员可以启用Brand Portal用户访问和下载演绎版的任意设置组合。
 
 ![](assets/download-settings-new.png)
 
 
 >[!NOTE]
 >
->只有管理员才能下载过期的资产。 有关已过期资产的详细信息，请参阅[管理资产的数字权限](../using/manage-digital-rights-of-assets.md)。
+>只有管理员才能下载已过期的资产。 有关已过期资产的更多信息，请参阅[管理资产的数字权限](../using/manage-digital-rights-of-assets.md)。
 
 ### 配置用户组设置{#configure-user-group-settings}
 
-除了&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员可以进一步配置不同用户组的设置以进行视图和（或）下载原始资产及其演绎版。
+除了&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员还可以进一步配置不同用户组的设置，以查看和（或）下载原始资产及其演绎版。
 
-以管理员身份登录到您的Brand Portal租户，然后导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 用户]**。 在&#x200B;**[!UICONTROL 用户角色]**&#x200B;页中，导航到&#x200B;**[!UICONTROL 组]**&#x200B;选项卡以配置用户组的视图和（或）下载设置。
+以管理员身份登录Brand Portal租户，然后导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 用户]**。 在&#x200B;**[!UICONTROL 用户角色]**&#x200B;页面中，导航到&#x200B;**[!UICONTROL 组]**&#x200B;选项卡，以配置用户组的视图和（或）下载设置。
 
-![视图-download-permission](assets/download-permissions.png)
+![view-download-permission](assets/download-permissions.png)
 
 >[!NOTE]
 >
->如果将用户添加到多个组，并且其中一个组具有限制，则限制将适用于用户。
+>如果用户被添加到多个组，并且其中一个组具有限制，则该限制将适用于该用户。
 
-根据配置，独立资产、多个资产、包含资产的文件夹、授权或未授权的资产以及使用共享链接下载资产的下载工作流程将保持不变。
+根据配置，独立资产、多个资产、包含资产的文件夹、已授权或未授权的资产，以及使用共享链接下载资产时，下载工作流将保持不变。
 
-以下矩阵定义用户是否有权访问演绎版，具体取决于[下载配置](#configure-download):
+下表根据[下载配置](#configure-download)定义用户是否有权访问演绎版：
 
-| **下载设置：自定义演绎版** | **下载设置：系统再现** | **用户组设置：下载原件** | **用户组设置：下载演绎版** | **结果** |
+| **下载设置：自定义演绎版** | **下载设置：系统呈现** | **用户群组设置：下载原始** | **用户群组设置：下载演绎版** | **结果** |
 |---|---|---|---|---|
-| 开启 | 开启 | 开启 | 开启 | 视图和下载所有再现 |
-| 开启 | 开启 | 关闭 | 关闭 | 视图原始资产 |
-| 关闭 | 关闭 | 开启 | 开启 | 视图和下载原始资产 |
-| 开启 | 关闭 | 开启 | 开启 | 视图和下载原始资产和自定义演绎版 |
-| 关闭 | 开启 | 开启 | 开启 | 视图和下载原始资产和系统演绎版 |
-| 开启 | 关闭 | 关闭 | 关闭 | 视图原始资产 |
-| 关闭 | 开启 | 关闭 | 关闭 | 视图原始资产 |
-| 关闭 | 关闭 | 关闭 | 开启 | 视图原始资产 |
-| 关闭 | 关闭 | 开启 | 关闭 | 视图和下载原始资产 |
-| 关闭 | 关闭 | 关闭 | 关闭 | 视图原始资产 |
+| 开启 | 开启 | 开启 | 开启 | 查看和下载所有演绎版 |
+| 开启 | 开启 | 关闭 | 关闭 | 查看原始资产 |
+| 关闭 | 关闭 | 开启 | 开启 | 查看和下载原始资产 |
+| 开启 | 关闭 | 开启 | 开启 | 查看和下载原始资产和自定义演绎版 |
+| 关闭 | 开启 | 开启 | 开启 | 查看和下载原始资产和系统演绎版 |
+| 开启 | 关闭 | 关闭 | 关闭 | 查看原始资产 |
+| 关闭 | 开启 | 关闭 | 关闭 | 查看原始资产 |
+| 关闭 | 关闭 | 关闭 | 开启 | 查看原始资产 |
+| 关闭 | 关闭 | 开启 | 关闭 | 查看和下载原始资产 |
+| 关闭 | 关闭 | 关闭 | 关闭 | 查看原始资产 |
 
 
 
@@ -121,13 +120,13 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
 >[!NOTE]
 >
->如果您没有访问或下载资产演绎版的权限，请与Brand Portal管理员联系。
+>如果您没有访问或下载资产演绎版的权限，请联系Brand Portal管理员。
 
-如果用户有权访问演绎版，则会为用户提供增强的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，其中具有以下功能：
-* 视图下载列表中任何资产的所有可用演绎版。
-* 不包括不需要下载的资产演绎版。
-* 只需一次单击即可将同一组演绎版应用到所有类似的资产类型。
-* 对不同资产类型应用一组不同的演绎版。
+如果用户有权访问演绎版，则会向用户提供增强的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，该对话框具有以下功能：
+* 在下载列表中查看任何资产的所有可用演绎版。
+* 排除下载不需要的资产演绎版。
+* 只需单击一次，即可将相同的演绎版集应用于所有类似的资产类型。
+* 为不同的资产类型应用一组不同的演绎版。
 * 为每个资产创建一个单独的文件夹。
 * 下载选定的资产及其演绎版。
 
@@ -135,10 +134,10 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
 >[!NOTE]
 >
->仅当&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 自定义演绎版]**&#x200B;和（或）**[!UICONTROL 系统演绎版]**&#x200B;时，才显示&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
+>只有在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 自定义呈现]**&#x200B;和（或）**[!UICONTROL 系统呈现]**&#x200B;时，才会显示&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
 
 
-### 下载资产{#bulk-download}的步骤
+### 下载资产的步骤{#bulk-download}
 
 以下是从Brand Portal界面下载包含资产的资产或文件夹的步骤：
 
@@ -148,74 +147,74 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
    * 选择要下载的资产或文件夹。 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 下载]**&#x200B;图标。
 
-      ![select-multiple-assets](assets/select-assets-new.png)
+      ![选择多个资产](assets/select-assets-new.png)
 
    * 要下载资产的特定资产演绎版，请将指针悬停在资产上，然后单击快速操作缩略图中提供的&#x200B;**[!UICONTROL 下载]**&#x200B;图标。
 
-      ![select-asset](assets/select-asset.png)
+      ![选择资产](assets/select-asset.png)
 
 
       >[!NOTE]
       >
-      >如果您是首次下载资源，且浏览器中未安装IBM Aspera Connect，系统会提示您[安装Aspera下载加速器](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)。
+      >如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，它将提示您[安装Aspera下载加速器](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)。
 
 
       >[!NOTE]
       >
-      >如果您正在下载的资产也包含许可的资产，则会将您重定向到&#x200B;**[!UICONTROL 版权管理]**&#x200B;页面。 在此页中，选择资产，单击&#x200B;**[!UICONTROL 同意]**，然后单击&#x200B;**[!UICONTROL 下载]**。 如果您不同意，则不会下载许可的资产。
+      >如果您下载的资产也包括授权资产，则会将您重定向到&#x200B;**[!UICONTROL 版权管理]**&#x200B;页面。 在此页中，选择资产，单击&#x200B;**[!UICONTROL 同意]**，然后单击&#x200B;**[!UICONTROL 下载]**。 如果您选择不同意，则不会下载授权资产。
       > 
-      >受许可证保护的资产附加了[许可协议](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，可通过在Experience Manager资产中设置资产的[元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)来完成此操作。
+      >受许可证保护的资产具有附加的[许可协议](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，这可通过在Experience Manager资产中设置资产的[元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)来完成。
 
 
-      ![licensed-asset](assets/licensed-asset-new.png)
+      ![许可资产](assets/licensed-asset-new.png)
 
-1. 将打开列出所有选定资源的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
+1. 将打开列出所有选定资产的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
 
-   单击任何资产以视图可用的演绎版，然后选中与要下载的演绎版对应的复选框。
+   单击任何资产可查看可用的演绎版，并选中与您要下载的演绎版对应的复选框。
 
-   您可以手动选择或排除单个资产的演绎版，或者单击&#x200B;**应用**&#x200B;图标，以选择要为类似资产类型（此示例中的所有图像文件）下载的同一组演绎版。 在&#x200B;**[!UICONTROL 应用全部]**&#x200B;对话框中，单击&#x200B;**[!UICONTROL 完成]**&#x200B;以将规则应用于所有类似资产。
+   您可以手动选择或排除单个资产的演绎版，或单击&#x200B;**应用**&#x200B;图标，以选择要为类似资产类型（本示例中的所有图像文件）下载的相同演绎版集。 在&#x200B;**[!UICONTROL 应用全部]**&#x200B;对话框中，单击&#x200B;**[!UICONTROL 完成]**&#x200B;以将规则应用于所有类似资产。
 
-   ![apply-all](assets/apply.png)
+   ![全部应用](assets/apply.png)
 
-   您还可以通过单击&#x200B;**删除**&#x200B;图标，从下载列表（如果需要）中删除资产。
+   您还可以通过单击&#x200B;**删除**&#x200B;图标，从下载列表中删除资产（如果需要）。
 
    ![删除](assets/remove.png)
 
    要在下载资产时保留Brand Portal文件夹层次结构，请选中&#x200B;**[!UICONTROL 为每个资产创建单独的文件夹]**&#x200B;复选框。
 
-   “下载”按钮反映选定项目的计数。 应用规则完成后，单击&#x200B;**[!UICONTROL 下载项目]**。
+   “下载”按钮反映选定项目的计数。 完成应用规则后，单击&#x200B;**[!UICONTROL 下载项目]**。
 
    ![下载对话框](assets/download-dialog-box-new.png)
 
-1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会出现一个确认框，允许使用IBM Aspera Connect加速下载。
+1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，似乎有一个确认框允许使用IBM Aspera Connect加速下载。
 
-   要继续使用&#x200B;**[!UICONTROL 快速下载]**，请单击&#x200B;**[!UICONTROL 允许]**。 所有选定的演绎版均使用IBM Aspera Connect下载到一个zip文件夹中。
+   要继续使用&#x200B;**[!UICONTROL Fast Download]**，请单击&#x200B;**[!UICONTROL Allow]**。 所有选定的演绎版均使用IBM Aspera Connect下载到zip文件夹中。
 
-   如果不想使用IBM Aspera Connect，请单击&#x200B;**[!UICONTROL 拒绝]**。 如果拒绝或失败&#x200B;**[!UICONTROL 快速下载]**，则系统会填充一条错误消息。 单击&#x200B;**[!UICONTROL 正常下载]**&#x200B;按钮以继续下载资产。
-
->[!NOTE]
->
->如果管理员关闭了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置，则选定的演绎版将直接下载到zip文件夹中，而无需使用IBM Aspera Connect。
-
+   如果不想使用IBM Aspera Connect，请单击&#x200B;**[!UICONTROL 拒绝]**。 如果拒绝或失败&#x200B;**[!UICONTROL Fast Download]**，则系统会填充一条错误消息。 单击&#x200B;**[!UICONTROL Normal Download]**&#x200B;按钮以继续下载资产。
 
 >[!NOTE]
 >
->如果选择了要下载的文件夹、集合或20多个资产，将跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，用户可以访问的所有资产演绎版（不包括动态演绎版）都将下载到zip文件夹中。
+>如果管理员关闭了&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，则所选演绎版将直接下载到zip文件夹中，而无需使用IBM Aspera Connect。
+
+
+>[!NOTE]
 >
->如果在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置，则会将资产演绎版下载到zip文件夹中每个资产的单独文件夹中。
+>如果选择了文件夹、收藏集或20个以上的资产进行下载，则会跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，用户可访问的所有资产演绎版（不包括动态演绎版）都将下载到zip文件夹中。
+>
+>如果在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置，则会在zip文件夹中每个资产的单独文件夹中下载资产演绎版。
 
 
 >[!NOTE]
 >
 >Brand Portal支持在混合模式和Scene 7模式下配置Dynamic Media。
 >
->(*如果AEM作者实例在&#x200B;**Dynamic Media Hybrid mode***上运行)
+>(*如果AEM创作实例在&#x200B;**Dynamic Media混合模式***上运行)
 >
->要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，且资产的Pyramid tiff演绎版存在于资产从中发布的AEM Assets作者实例中。 将资产从AEM发布到Brand Portal时，也会发布其Pyramid tiff再现。
+>要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，并且资产的Pyramid tiff演绎版存在于资产发布位置的AEM Assets创作实例中。 将资产从AEM发布到Brand Portal后，其Pyramid tiff呈现版本也会发布。
 
 
 
-如果管理员未[授权您访问原始演绎版](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)，则不会下载选定资产的原始演绎版。
+如果管理员未授权您[访问原始演绎版](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)，则不会下载选定资产的原始演绎版。
 
 ![无访问消息](assets/no-access-message.png)
 
@@ -229,7 +228,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
 除了下载工作流之外，还有一种方法可以直接从资产详细信息页面下载各个资产的演绎版。
 
-用户可以预览不同的演绎版，选择特定的演绎版，并直接从资产详细信息页面的&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板下载它们，而无需打开&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
+用户可以预览不同的演绎版，选择特定的演绎版，并直接从资产详细信息页面的&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板中下载它们，而无需打开&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
 
 
 以下是从资产详细信息页面下载资产演绎版的步骤：
@@ -237,28 +236,28 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 1. 登录到您的Brand Portal租户，然后单击资产以打开资产详细信息页面。
 1. 单击左侧的叠加图标，然后单击&#x200B;**[!UICONTROL 演绎版]**。
 
-   ![再现导航](assets/rendition-navigation.png)
+   ![演绎版导航](assets/rendition-navigation.png)
 
-1. **[!UICONTROL 演绎版]**&#x200B;面板会根据资产[下载配置](#configure-download)列表所有可访问的资产演绎版。
+1. **[!UICONTROL 演绎版]**&#x200B;面板会根据资产[下载配置](#configure-download)列出所有可访问的资产演绎版。
 
    选择要下载的特定演绎版，然后单击&#x200B;**[!UICONTROL 下载项目]**。
 
-   ![再现 — 面板](assets/renditions-panel.png)
+   ![renditions面板](assets/renditions-panel.png)
 
-1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会出现一个确认框，允许使用IBM Aspera Connect加速下载。
+1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，似乎有一个确认框允许使用IBM Aspera Connect加速下载。
 
-   要继续使用&#x200B;**[!UICONTROL 快速下载]**，请单击&#x200B;**[!UICONTROL 允许]**。 所有选定的演绎版均使用IBM Aspera Connect下载到一个zip文件夹中。
+   要继续使用&#x200B;**[!UICONTROL Fast Download]**，请单击&#x200B;**[!UICONTROL Allow]**。 所有选定的演绎版均使用IBM Aspera Connect下载到zip文件夹中。
 
-   如果使用&#x200B;**[!UICONTROL 快速下载]**&#x200B;拒绝，系统将填充一条错误消息。 单击&#x200B;**[!UICONTROL 正常下载]**&#x200B;按钮以继续下载资产。
-
->[!NOTE]
->
->如果管理员关闭了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置，则选定的演绎版将直接下载到zip文件夹中，而无需使用IBM Aspera Connect。
-
+   如果使用&#x200B;**[!UICONTROL Fast Download]**&#x200B;拒绝，则系统会填充一条错误消息。 单击&#x200B;**[!UICONTROL Normal Download]**&#x200B;按钮以继续下载资产。
 
 >[!NOTE]
 >
->单独下载的资产会显示在资产下载报告中。 但是，如果下载的文件夹中包含资产，则文件夹和资产不会显示在资产下载报告中。
+>如果管理员关闭了&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，则所选演绎版将直接下载到zip文件夹中，而无需使用IBM Aspera Connect。
+
+
+>[!NOTE]
+>
+>单独下载的资产会显示在资产下载报表中。 但是，如果下载的文件夹中包含资产，则文件夹和资产不会显示在资产下载报表中。
 
 <!--
 >[!NOTE]
@@ -402,21 +401,20 @@ Following are the steps to download assets or folders containing assets from Bra
 
 ## 预期下载性能{#expected-download-performance}
 
-不同客户端位置的用户的文件下载体验可能不同，具体取决于诸如本地Internet连接和服务器延迟等因素。 在不同客户端位置观察到的2-GB文件的预期下载性能如下：
+不同客户端位置的用户的文件下载体验可能会有所不同，具体取决于本地Internet连接和服务器延迟等因素。 在不同客户端位置观察到的2-GB文件的预期下载性能如下所示，其中Brand Portal服务器位于美国俄勒冈州：
 
-| 客户端位置 | 客户端和服务器之间的延迟 | 预期下载速度 | 下载2-GB文件所花的时间 |
+| 客户端位置 | 客户端和服务器之间的延迟 | 预期下载速度 | 下载2 GB文件所花费的时间 |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
-| 美国西部（北加利福尼亚） | 18毫秒 | 7.68 MB/s | 4分钟 |
-| 美国西部（俄勒冈） | 42毫秒 | 3.84 MB/s | 9分钟 |
-| 美国东部（弗吉尼亚北） | 85毫秒 | 1.61 MB/s | 21分钟 |
-| APAC（东京） | 124毫秒 | 1.13 MB/s | 30 分钟 |
-| 诺伊达 | 275毫秒 | 0.5 MB/s | 68分钟 |
-| 悉尼 | 175毫秒 | 0.49 MB/s | 69分钟 |
-| 伦敦 | 179毫秒 | 0.32 MB/s | 106分钟 |
-| 新加坡 | 196毫秒 | 0.5 MB/s | 68分钟 |
+| 美国西部（北加利福利亚） | 18毫秒 | 7.68 MB/秒 | 4分钟 |
+| 美国西部（俄勒冈） | 42毫秒 | 3.84 MB/秒 | 9分钟 |
+| 美国东部（弗吉尼亚北） | 85毫秒 | 1.61 MB/秒 | 21分钟 |
+| APAC（东京） | 124毫秒 | 1.13 MB/秒 | 30 分钟 |
+| 诺伊达 | 275毫秒 | 0.5 MB/秒 | 68分钟 |
+| 悉尼 | 175毫秒 | 0.49 MB/秒 | 69分钟 |
+| 伦敦 | 179毫秒 | 0.32 MB/秒 | 106分钟 |
+| 新加坡 | 196毫秒 | 0.5 MB/秒 | 68分钟 |
 
 
 >[!NOTE]
 >
->在测试条件下观察引用的数据，这些情况对于不同位置的用户可能不同，这些用户目睹不同的延迟和带宽。
-
+>在测试条件下观察引用的数据，不同位置的用户可能看到不同的延迟和带宽。
