@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1013'
 ht-degree: 7%
 
 ---
@@ -96,7 +96,9 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权的内部用
 
    >[!NOTE]
    >
-   >如果选择了文件夹、收藏集或20个以上的资产进行下载，则会跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，用户可访问的所有资产演绎版（不包括动态演绎版）都将下载到zip文件夹中。 在zip文件夹中，会为每个资产创建一个单独的文件夹。
+   >从共享链接下载资产时，会为每个资产创建一个单独的文件夹。
+   >
+   >如果选择了文件夹、收藏集或20多个资产进行下载，则会跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，用户可访问的所有资产演绎版（不包括动态演绎版）都会下载到zip文件夹中，其中包含每个资产的单独文件夹。
 
    >[!NOTE]
    >
