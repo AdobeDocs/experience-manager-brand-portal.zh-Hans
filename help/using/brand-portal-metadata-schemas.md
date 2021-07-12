@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
+role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 32%
@@ -23,7 +23,7 @@ ht-degree: 32%
 
 每个资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面包含默认的元数据属性，具体取决于资产的MIME类型。 管理员可以使用元数据架构编辑器修改现有架构或添加自定义元数据架构。 AEM Assets Brand Portal为各种MIME类型的资产提供默认表单。 但是，您也可以为此类资产添加自定义表单。
 
-## 添加元数据架构表单{#add-a-metadata-schema-form}
+## 添加元数据架构表单 {#add-a-metadata-schema-form}
 
 要创建新的元数据架构表单，请执行以下操作：
 
@@ -43,7 +43,7 @@ ht-degree: 32%
 
    ![](assets/create-schema-form.png)
 
-## 编辑元数据架构表单{#edit-a-metadata-schema-form}
+## 编辑元数据架构表单 {#edit-a-metadata-schema-form}
 
 您可以编辑新添加的或现有的元数据架构表单。 元数据架构表单包含从其父级派生的内容，包括制表符和制表符内的表单项。 您可以将这些表单项目映射到或配置到元数据节点中的字段。
 
@@ -74,7 +74,7 @@ ht-degree: 32%
 
 1. 要配置组件，请选择该组件并在&#x200B;**[!UICONTROL Settings]**&#x200B;选项卡中修改其属性。
 
-### “构建表单”选项卡{#components-in-the-build-form-tab}中的组件
+### “构建表单”选项卡中的组件 {#components-in-the-build-form-tab}
 
 **[!UICONTROL 构建表单]**&#x200B;选项卡列出了可在架构表单中使用的项目。 **[!UICONTROL 设置]**&#x200B;选项卡提供您在&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中选择的每个项目的属性。 下表列出了&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中可用的表单项目：
 
@@ -98,7 +98,7 @@ ht-degree: 32%
 >
 >请勿使用&#x200B;**[!UICONTROL 产品引用]**，因为它无法正常工作。
 
-#### 编辑元数据组件{#edit-the-metadata-component}
+#### 编辑元数据组件 {#edit-the-metadata-component}
 
 要在表单上编辑元数据组件的属性，请单击相应的组件，然后在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中编辑其属性。
 
@@ -125,7 +125,7 @@ ht-degree: 32%
 >
 >所有元数据字段在资产的元数据编辑器表单中均为只读。 由于资产的元数据必须先在AEM Assets中编辑，然后才能将资产发布到Brand Portal。
 
-#### 在架构表单{#add-or-delete-a-tab-in-the-schema-form}中添加或删除选项卡
+#### 在架构表单中添加或删除选项卡 {#add-or-delete-a-tab-in-the-schema-form}
 
 默认架构表单包括&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡。 通过架构编辑器，可以添加或删除选项卡。
 
@@ -137,7 +137,7 @@ ht-degree: 32%
 
 * 要删除选项卡，请单击&#x200B;**[!UICONTROL x]**。 单击&#x200B;**[!UICONTROL Save]**&#x200B;以保存更改。
 
-## 将元数据架构应用到文件夹{#apply-a-metadata-schema-to-a-folder}
+## 将元数据架构应用到文件夹 {#apply-a-metadata-schema-to-a-folder}
 
 Brand Portal允许您自定义和控制元数据架构，以便资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面仅显示您选择显示的特定信息。 要控制在&#x200B;**[!UICONTROL 属性]**&#x200B;页面中显示的元数据，请从元数据架构表单中删除所需的元数据，并将其应用到特定文件夹。
 
@@ -169,7 +169,7 @@ Brand Portal允许您自定义和控制元数据架构，以便资产的&#x200B;
 >
 >如果将包含嵌套架构的架构应用到包含视频文件的文件夹，则视频文件的元数据属性可能无法正确呈现。 要确保元数据属性正确呈现，请删除嵌套架构，并仅将父架构应用到文件夹。
 
-## 删除元数据架构表单{#delete-a-metadata-schema-form}
+## 删除元数据架构表单 {#delete-a-metadata-schema-form}
 
 Brand Portal仅允许您删除自定义架构表单。 您无法删除默认的架构表单/模板。但是，您可以删除对这些表单所做的任何自定义更改。
 
@@ -181,7 +181,7 @@ Brand Portal仅允许您删除自定义架构表单。 您无法删除默认的�
 >
 >删除对默认表单所做的自定义更改后，**[!UICONTROL 锁定]**&#x200B;符号会在元数据架构界面上的表单名称前重新显示，以指示表单已还原为默认状态。
 
-## MIME类型{#schema-forms-for-mime-types}的架构表单
+## MIME类型的架构表单 {#schema-forms-for-mime-types}
 
 ### 为 MIME 类型添加新表单 {#adding-new-forms-for-mime-types}
 
