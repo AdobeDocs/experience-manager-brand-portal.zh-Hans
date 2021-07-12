@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
+role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: b4aa1bf08b8edc21d980d16d8a0068e453ae627d
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '1298'
 ht-degree: 20%
@@ -29,7 +29,7 @@ Brand Portal支持[多面搜索](../using/brand-portal-searching.md#search-using
 >
 >AEM允许组织[将自定义搜索表单从AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)发布到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
 
-## 添加搜索谓词{#add-a-search-predicate}
+## 添加搜索谓词 {#add-a-search-predicate}
 
 要向&#x200B;**[!UICONTROL Filters]**&#x200B;面板添加搜索谓词，请执行以下操作：
 
@@ -85,7 +85,7 @@ Brand Portal支持[多面搜索](../using/brand-portal-searching.md#search-using
 
 1. 在&#x200B;**[!UICONTROL 属性]**&#x200B;文本框中输入要搜索的资产的标题。 例如，“Adobe”。 执行搜索时，标题与“Adobe”匹配的资产会显示在搜索结果中。
 
-## 搜索谓词列表{#list-of-search-predicates}
+## 搜索谓词列表 {#list-of-search-predicates}
 
 与添加&#x200B;**[!UICONTROL 属性]**&#x200B;谓词的方式类似，您可以将以下谓词添加到&#x200B;**[!UICONTROL 过滤器]**&#x200B;面板：
 
@@ -113,7 +113,7 @@ Brand Portal支持[多面搜索](../using/brand-portal-searching.md#search-using
 >
 >请勿使用&#x200B;**[!UICONTROL 选项谓词]**、**[!UICONTROL 发布状态谓词]**&#x200B;和&#x200B;**[!UICONTROL 评级谓词]**，因为这些谓词在Brand Portal中不起作用。
 
-## 删除搜索谓词{#delete-a-search-predicate}
+## 删除搜索谓词 {#delete-a-search-predicate}
 
 要删除搜索谓词，请执行以下步骤：
 
