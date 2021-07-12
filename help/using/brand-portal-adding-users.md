@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
-role: Administrator
+role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 1%
 
 ---
 
-# 管理用户、组和用户角色{#manage-users-groups-and-user-roles}
+# 管理用户、组和用户角色 {#manage-users-groups-and-user-roles}
 
 管理员可以使用Adobe Admin Console创建AEM Assets Brand Portal用户和产品配置文件，并使用Brand Portal用户界面管理其角色。 此权限对查看器和编辑器不可用。
 
@@ -39,7 +39,7 @@ Comment Type: draft
 >
 >要在Brand Portal中创建组，请从Adobe[!UICONTROL Admin Console]中，使用&#x200B;**[!UICONTROL 产品>产品配置文件]**，而不是&#x200B;**[!UICONTROL 用户页面>用户组]**。 Adobe[!UICONTROL Admin Console]中的产品配置文件用于在Brand Portal中创建组。
 
-## 添加用户{#add-a-user}
+## 添加用户 {#add-a-user}
 
 如果您是产品管理员，请使用Adobe[[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview)创建用户，并将其分配给在Brand Portal中显示为组的产品配置文件（*以前称为产品配置*）。 您可以使用组执行批量操作，如角色管理和资产共享。
 
@@ -86,7 +86,7 @@ Comment Type: draft
 
    有关向用户授予管理权限的信息，请参阅[向用户提供管理员权限](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)。
 
-## 添加产品配置文件{#add-a-product-profile}
+## 添加产品配置文件 {#add-a-product-profile}
 
 [!UICONTROL Admin Console]中的产品配置文件（以前称为产品配置）用于在Brand Portal中创建组，以便您能够在Brand Portal中执行批量操作，如角色管理和资产共享。 **Brand Portalis** 提供默认的产品配置文件；您可以创建更多产品配置文件，并将用户添加到新的产品配置文件中。
 
@@ -119,7 +119,7 @@ Comment Type: draft
 
    ![产品配置文件](assets/admin_console_productprofileadded.png)
 
-## 将用户添加到产品配置文件{#add-users-to-a-product-profile}
+## 将用户添加到产品配置文件 {#add-users-to-a-product-profile}
 
 要将用户添加到Brand Portal组，请将其添加到[!UICONTROL Admin Console]中的相应产品配置文件（以前称为产品配置）中。 您可以单独或批量添加用户。
 
@@ -173,7 +173,7 @@ Comment Type: draft
 
    添加到自定义或新产品配置文件的用户不会收到电子邮件通知。
 
-## 为用户{#provide-administrator-privileges-to-users}提供管理员权限
+## 向用户提供管理员权限 {#provide-administrator-privileges-to-users}
 
 您可以向Brand Portal用户提供系统管理员或产品管理员权限。 请勿在[!UICONTROL Admin Console]中提供其他可用的管理权限，例如产品配置文件管理员、用户组管理员和支持管理员。 要了解这些角色的更多信息，请参阅[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
 
@@ -224,7 +224,7 @@ Comment Type: draft
    >要撤销用户的管理员权限，请在&#x200B;**[!UICONTROL 编辑管理员]**&#x200B;页面中进行相应更改，然后单击&#x200B;**[!UICONTROL 保存]**。
 
 
-## 管理用户角色{#manage-user-roles}
+## 管理用户角色 {#manage-user-roles}
 
 管理员可以在Brand Portal中修改用户的角色。
 
@@ -263,7 +263,7 @@ Comment Type: draft
    >
    >用户权限的更改仅在用户重新登录Brand Portal后才会反映在&#x200B;**[!UICONTROL User Roles]**&#x200B;页面中。
 
-## 管理组角色和权限{#manage-group-roles-and-privileges}
+## 管理组角色和权限 {#manage-group-roles-and-privileges}
 
 管理员可以将特定权限与Brand Portal上[组](../using/brand-portal-adding-users.md#main-pars-title-278567577)的用户相关联。 **[!UICONTROL 用户角色]**&#x200B;页面上的&#x200B;**[!UICONTROL 组]**&#x200B;选项卡允许管理员：
 
@@ -280,7 +280,7 @@ Comment Type: draft
 1. 选择要更改其角色的组。
 1. 从&#x200B;**[!UICONTROL 角色]**&#x200B;下拉列表中选择相应的角色。
 
-   要允许组成员访问图像文件(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-pixmap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/photoshop、image/x-photoshop、.psd、image/vnd.adobe.photoshop)的原始呈现版本，请保留为该组选择的&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 默认情况下，为所有用户选择了&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 要阻止用户组访问原始演绎版，请取消选择与该组对应的选项。
+   要允许组成员访问图像文件(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、x-portable-anymap、x-portable-bitmap、x-portable-graymap、x-portable-pixmap、x-rgb、x-xbitmap、x-xpixmap、x-icon、image/photoshop、image/x-photoshop、.psd、image/vnd.adobe.photoshop)的原始呈现版本，请保留为该组选择的&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 默认情况下，为所有用户选择了&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 要阻止用户组访问原始演绎版，请取消选择与该组对应的选项。
 
    ![用户组角色](assets/access-original-rend.png)
 
