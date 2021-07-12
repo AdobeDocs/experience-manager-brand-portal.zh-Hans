@@ -9,9 +9,9 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-role: Administrator
+role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 4%
@@ -39,7 +39,7 @@ AEM Assets Brand Portal允许组织为特定租户配置以下功能：
 
 ****  DConfiguration ，用于向非管理员用户（编辑者、查看者、来宾用户）显示共享文件夹的文件夹层次结构（从根目录）。（默认为禁用）
 
-## 启用/禁用常规配置{#enable-disable-general-configurations}
+## 启用/禁用常规配置 {#enable-disable-general-configurations}
 
 要启用/禁用以下每个配置：
 
@@ -50,15 +50,15 @@ AEM Assets Brand Portal允许组织为特定租户配置以下功能：
 1. **[!UICONTROL 保存更改。]**
 1. 注销以使更改生效。
 
-## 允许管理员用户从Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}中删除资产
+## 允许管理员用户从Brand Portal中删除资产 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
 **[!UICONTROL 允许用户删]** 除配置允许组织允许（或限制）具有管理员权限的用户从Brand Portal中删除资产和文件夹。
 
-## 允许非管理员创建公共集合{#allow-public-collections-creation-by-non-admins}
+## 允许非管理员创建公共集合 {#allow-public-collections-creation-by-non-admins}
 
 [[!UICONTROL 允许创建公共]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 收藏集配置控制非管理员是否可以在Brand Portal上创建公共收藏集。默认情况下，配置处于启用状态。 通过禁用配置，组织可以阻止在其门户上拥有大量公共收藏集，以便节省系统空间。
 
-## 允许非管理员创建公共智能收藏集{#allow-public-smart-collections-creation-by-non-admins}
+## 允许非管理员创建公共智能收藏集 {#allow-public-smart-collections-creation-by-non-admins}
 
 [[!UICONTROL 允许公共智能收藏]](../using/brand-portal-searching.md#main-pars-header-500620467) 集创建配置控制非管理员是否可以将其搜索另存为智能收藏集，并将其设为该租户的公共收藏集。默认情况下，配置处于启用状态。 通过禁用配置，组织可能会阻止组织的Brand Portal上有大量由非管理员用户创建的公共智能收藏集。
 
