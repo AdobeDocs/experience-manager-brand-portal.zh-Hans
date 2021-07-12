@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
+role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Brand Portal管理员可以对向用户显示的界面进行有限的自定义。 您可以为Brand Portal登录页面选择特定的背景图像（墙纸）。 您还可以添加标题图像和自定义资产共享电子邮件，以匹配客户的品牌。
 
-## 自定义登录屏幕墙纸{#customize-the-login-screen-wallpaper}
+## 自定义登录屏幕壁纸 {#customize-the-login-screen-wallpaper}
 
 如果没有自定义品牌墙纸图像，则登录页面上会显示默认壁纸。
 
@@ -71,7 +71,7 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
 
 
-## 自定义标头{#customize-the-header}
+## 自定义标题 {#customize-the-header}
 
 登录到Brand Portal后，标头会显示在各种Brand Portal页面上。
 
@@ -123,7 +123,7 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
 
 
-## 自定义电子邮件消息{#customize-the-email-messaging}
+## 自定义电子邮件消息 {#customize-the-email-messaging}
 
 以链接形式共享资产时，用户会收到一封包含该链接的电子邮件。 管理员可以自定义这些电子邮件的消息传送（即徽标、描述和页脚）。
 
