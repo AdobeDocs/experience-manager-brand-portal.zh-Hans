@@ -9,9 +9,9 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-role: Administrator
+role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 资产到期是控制组织内批准资产在Brand Portal上的使用的有效方式。 从AEM Assets发布到Brand Portal的所有资产都可以具有过期日期，这会限制不同用户角色对这些资产的使用。
 
-### 与过期资产相关的使用权限{#usage-permissions-expired-assets}
+### 与过期资产相关的使用权限 {#usage-permissions-expired-assets}
 
 在Brand Portal中，管理员可以查看、下载过期的资产并将其添加到收藏集。 然而，编辑器和查看器只能查看过期的资产并将其添加到收藏集。
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 >
 >如果查看器和编辑器下载包含已过期和未过期资产的文件夹，则只会下载未过期的资产。 如果文件夹仅包含已过期的资产，则会下载一个空文件夹。
 
-### 资产的过期状态{#expiration-status-of-assets}
+### 资产的过期状态 {#expiration-status-of-assets}
 
 您可以在资产的&#x200B;**[!UICONTROL 卡片视图]**&#x200B;中查看资产的过期状态。 卡片上的红色标记表示资产已过期。
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 >
 >列表视图和列视图不显示资产的过期状态。
 
-## 资产链接到期{#asset-link-expiration}
+## 资产链接到期 {#asset-link-expiration}
 
 在通过链接共享资产时，管理员和编辑人员可以使用&#x200B;**[!UICONTROL 链接共享]**&#x200B;对话框中的&#x200B;**[!UICONTROL 过期]**&#x200B;字段设置过期日期和时间。 链接的默认过期时间为共享链接之日起七天。
 
@@ -71,9 +71,9 @@ ht-degree: 2%
 
 有关链接共享的更多信息，请参阅[将资产共享为链接](../using/brand-portal-link-share.md)。
 
-## 授权资产{#licensed-assets}
+## 授权资产 {#licensed-assets}
 
-授权资产在从Brand Portal下载之前必须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资产时，即表示您同意使用此许可资产协议。 无论是否过期，受许可证保护的资产都可由所有用户查看。 但是，过期的授权资产的下载和使用受到限制。 要了解过期的授权资产的行为以及基于用户角色允许的活动，请参阅已过期资产的[使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
+授权资产在从Brand Portal下载之前必须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资产时，即表示您同意使用此许可资产协议。 无论是否过期，受许可证保护的资产都可由所有用户查看。 但是，已过期的授权资产的下载和使用会受到限制。 要了解过期的授权资产的行为以及基于用户角色允许的活动，请参阅已过期资产的[使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
 
 受许可证保护的资产具有附加的[许可协议](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，这可通过在AEM Assets中设置资产的[元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)来完成。
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 如果选择的资产包含多个受保护的资产，请一次选择一个资产，接受许可协议，然后继续下载资产。
 
-## 生成有关已过期资产的报告{#generate-report-about-expired-assets}
+## 生成有关已过期资产的报表 {#generate-report-about-expired-assets}
 
 管理员可以生成并下载一个报表，其中列出了在特定时间范围内过期的所有资产。 此报表包含有关已过期资产的详细信息，例如大小、类型、在资产层次结构中指定资产位置的路径、资产何时过期以及资产何时发布。 可根据用户要求自定义此报表的列以显示更多数据。
 
