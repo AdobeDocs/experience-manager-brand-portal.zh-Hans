@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
+role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Brand Portal已使用AEM Assets进行配置，以便能够从AEM Assets创作实
 
 ![](assets/test-connection.png)
 
-## 首次发布失败故障诊断：验证发布配置{#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 首次发布失败故障诊断：验证发布配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 要验证发布配置，请执行以下操作：
 
@@ -61,11 +61,11 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### 清理现有Brand Portal发布配置{#clean-up-existing-config}
+### 清理现有Brand Portal发布配置 {#clean-up-existing-config}
 
 大多数情况下，发布不起作用，原因可能是正在发布的用户(例如：`mac-<tenantid>-replication`没有最新的私钥，因此发布失败，出现“401 unauthorized”错误，并且复制代理日志中未报告任何其他错误。 您可能希望避免疑难解答，而是创建新配置。 要使新配置正常工作，请从AEM创作设置中清除以下内容：
 
-1. 转到`localhost:4502/crx/de/`(考虑到您正在localhost:4502上运行创作实例：\
+1. 转到`localhost:4502/crx/de/`（考虑到您正在localhost:4502:上运行创作实例）\
    i.删除`/etc/replication/agents.author/mp_replication`
 ii. 删除 
 `/etc/cloudservices/mediaportal/<config_name>`
@@ -76,7 +76,7 @@ ii. 删除此用户
 
 现在系统已全部清理完毕。 现在，您可以尝试创建新的cloudservice配置，并仍使用[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)中已有的JWT应用程序。 无需创建新应用程序，而只需从新创建的云配置中更新公共密钥。
 
-## 开发人员连接JWT应用程序租户可见性问题{#developer-connection-jwt-application-tenant-visibility-issue}
+## 开发人员连接JWT应用程序租户可见性问题 {#developer-connection-jwt-application-tenant-visibility-issue}
 
 如果位于[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)上，则列出当前用户持有系统管理员的所有组织（租户）。 如果您在此处找不到组织名称，或者无法在此处为所需租户创建应用程序，请检查您是否具有足够的（系统管理员）权限来执行此操作。
 
@@ -84,7 +84,7 @@ ii. 删除此用户
 
 JWT应用程序可能未正确列出。 因此，建议在创建JWT应用程序时记下URL/为其添加书签。
 
-## 运行配置停止工作{#running-configuration-stops-working}
+## 运行配置停止工作 {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -118,7 +118,7 @@ permission
 根据错误，建议您记录支持票证，以便Brand Portal工程团队可以帮助您解决问题。
 
 
-## 配置复制代理以避免连接超时错误{#connection-timeout}
+## 配置复制代理以避免连接超时错误 {#connection-timeout}
 
 如果复制队列中存在多个待处理请求，则发布作业通常会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
 
