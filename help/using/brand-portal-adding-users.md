@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 785be735a11277ea16e269bfc00368ced88ed510
 workflow-type: tm+mt
-source-wordcount: '2209'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +78,7 @@ Comment Type: draft
    ![将用户添加到Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. 将用户至少分配一个产品配置文件（以前称为产品配置），以便用户可以访问Brand Portal。 从&#x200B;**[!UICONTROL Please select a profile for this product]**&#x200B;字段中选择相应的产品配置文件。
-1. 单击&#x200B;**[!UICONTROL 保存]**。系统会向您添加的用户发送一封欢迎电子邮件。 受邀用户可以通过单击欢迎电子邮件中的链接并使用[!UICONTROL Adobe ID]登录来访问Brand Portal。 有关更多信息，请参阅[首次登录体验](../using/brand-portal-onboarding.md)。
+1. 单击&#x200B;**[!UICONTROL 保存]**。将向新添加的用户发送欢迎电子邮件。 受邀用户可以单击欢迎电子邮件中的链接以访问Brand Portal。 用户可以使用在Admin Console中配置的电子邮件ID([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL 扩展的ID])登录。 有关更多信息，请参阅[首次登录体验](../using/brand-portal-onboarding.md)。
 
    >[!NOTE]
    >
