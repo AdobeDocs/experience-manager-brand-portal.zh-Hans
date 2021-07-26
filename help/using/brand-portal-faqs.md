@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 2%
+source-wordcount: '1482'
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 Brand Portal常见问题解答主要介绍最终用户在使用最新的AEM Assets Brand Portal 6.4.6版本或更早版本时可能遇到的查询和问题。
 
 
-## Brand Portal 6.4.6常见问题解答{#faqs-bp646}
+## Brand Portal 6.4.6常见问题解答  {#faqs-bp646}
 
 **是的。现有旧版OAuth端点(`https://legacy-oauth.cloud.adobe.io/login`)不起作用。 可能的原因是什么？**
 
@@ -40,7 +40,11 @@ Brand Portal常见问题解答主要介绍最终用户在使用最新的AEM Asse
 
 此问题已在AEM 6.5.5中修复。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人员控制台上[升级您的配置。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
 
-要在AEM 6.5.4上立即修复，建议[下载修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)并在AEM创作实例上安装。
+<!--
+Broken link of download hotfix, comment out this section until we have the latest URL.
+
+For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
+-->
 
 **是的。我在AEM Assets中看不到从Brand Portal发布的贡献文件夹内容。 可能的原因是什么？**
 
@@ -65,7 +69,7 @@ Brand Portal常见问题解答主要介绍最终用户在使用最新的AEM Asse
 1. 重新启动服务器并验证连接。
 
 
-## Brand Portal 6.4.5常见问题解答{#faqs-bp645}
+## Brand Portal 6.4.5常见问题解答  {#faqs-bp645}
 
 **是的。Brand Portal 6.4.5版本中有哪些主要更改？**
 
@@ -194,7 +198,7 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 >发布计划是暂定的，可能会发生更改。 请联系您的Adobe客户经理或客户支持以获取更新的发行计划。
 
 
-## 产品访问和支持（受限站点）{#product-access-and-support-restricted-sites}
+## 产品访问和支持（受限网站） {#product-access-and-support-restricted-sites}
 
 这些网站仅适用于客户。如果您是客户并需要访问，请联系您的Adobe客户经理。
 
