@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1954'
 ht-degree: 3%
 
 ---
@@ -28,11 +28,11 @@ Adobe Experience Manager Assets Brand Portal允许用户同时从Brand Portal下
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更高版本）中，默认启用&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，该设置使用IBM Aspera Connect来加速资产下载。 [在从Brand Portal下载资产之前，请在浏览器的扩展中安装IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 。有关更多详细信息，请参阅[指南以加快从Brand Portal下载的速度](../using/accelerated-download.md)。
+>在Brand Portal 2020.10.0（及更高版本）中，默认启用&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，该设置使用IBM Aspera Connect来加速资产下载。 [在从Brand Portal下载资产之前，请在浏览器的扩展中安装IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) 。有关更多详细信息，请参阅[指南以加快从Brand Portal下载的速度](../using/accelerated-download.md)。
 >
 >如果您不想使用IBM Aspera Connect并继续正常下载过程，请联系Brand Portal管理员以关闭&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置。
 
-## 配置资产下载{#configure-download}
+## 配置资产下载 {#configure-download}
 
 Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组设置，以便他们能够从Brand Portal界面访问和下载资产演绎版。
 
@@ -45,7 +45,7 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组�
 * 启用下载设置
 * 配置用户群组设置
 
-### 启用下载设置{#enable-download-settings}
+### 启用下载设置 {#enable-download-settings}
 
 管理员可以启用资产&#x200B;**[!UICONTROL 下载设置]**&#x200B;来定义可供Brand Portal用户下载的演绎版集。
 
@@ -83,7 +83,7 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组�
 >
 >只有管理员才能下载已过期的资产。 有关已过期资产的更多信息，请参阅[管理资产的数字权限](../using/manage-digital-rights-of-assets.md)。
 
-### 配置用户组设置{#configure-user-group-settings}
+### 配置用户群组设置 {#configure-user-group-settings}
 
 除了&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员还可以进一步配置不同用户组的设置，以查看和（或）下载原始资产及其演绎版。
 
@@ -137,7 +137,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 >只有在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 自定义呈现]**&#x200B;和（或）**[!UICONTROL 系统呈现]**&#x200B;时，才会显示&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
 
 
-### 下载资产的步骤{#bulk-download}
+### 下载资产的步骤 {#bulk-download}
 
 以下是从Brand Portal界面下载包含资产的资产或文件夹的步骤：
 
@@ -156,7 +156,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
       >[!NOTE]
       >
-      >如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，它将提示您[安装Aspera下载加速器](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)。
+      >如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，它将提示您[安装Aspera下载加速器](https://www.ibm.com/docs/en/aspera-connect/3.9.9)。
 
 
       >[!NOTE]
@@ -224,7 +224,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 >Once you have downloaded the asset renditions, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
 -->
 
-### 从资产详细信息页面{#download-assets-from-asset-details-page}下载资产
+### 从资产详细信息页面下载资产 {#download-assets-from-asset-details-page}
 
 除了下载工作流之外，还有一种方法可以直接从资产详细信息页面下载各个资产的演绎版。
 
@@ -399,7 +399,7 @@ Following are the steps to download assets or folders containing assets from Bra
    >Assets that are individually downloaded are visible in the assets download report. However, if a folder containing assets is downloaded, the folder and assets are not displayed in the assets download report.
 -->
 
-## 预期下载性能{#expected-download-performance}
+## 预期下载性能 {#expected-download-performance}
 
 不同客户端位置的用户的文件下载体验可能会有所不同，具体取决于本地Internet连接和服务器延迟等因素。 在不同客户端位置观察到的2-GB文件的预期下载性能如下所示，其中Brand Portal服务器位于美国俄勒冈州：
 
