@@ -10,14 +10,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1043'
 ht-degree: 3%
 
 ---
 
-# 加快Brand Portal下载速度{#guide-to-accelerate-downloads-from-brand-portal}
+# 加快Brand Portal下载速度 {#guide-to-accelerate-downloads-from-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来增强大型资产文件的下载性能，Aspera Connect是一个按需安装的应用程序。 该应用程序使用专有技术来删除TCP开销，并帮助提高资产文件的传输速度。 此集成可确保增强的下载体验。
 
@@ -29,16 +29,16 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 
 ![](assets/download-settings-new.png)
 
-## 加速文件下载的先决条件{#prerequisites-to-accelerate-file-download}
+## 加快文件下载的先决条件 {#prerequisites-to-accelerate-file-download}
 
 要更快地下载文件，请确保：
 
 * 导航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下载]**，并确认在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;配置。
 * 确保防火墙上的端口33001（TCP和UDP）处于打开状态。 有关先决条件的更多信息，请参阅[IBM Aspera Connect Client文档](https://downloads.asperasoft.com/en/documentation/8)。
-* [使用管理员权限在浏览器的扩展中安装IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) 。
+* [使用管理员权限在浏览器的扩展中安装IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) 。
 * 有关Aspera传输客户端的平台支持，请参阅[IBM Aspera Connect平台支持表](https://www.asperasoft.com/company/support/transfer-clients/)。
 
-## 下载域{#download-domains}
+## 下载域 {#download-domains}
 
 以下是不同地理位置的下载域：
 
@@ -49,7 +49,7 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
 | APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
-## 使用文件加速器{#expected-download-performance-using-file-accelerator}的下载性能示例
+## 使用文件加速器的下载性能示例 {#expected-download-performance-using-file-accelerator}
 
 下表显示了使用Aspera Connect文件下载加速器下载2 GB文件的性能：
 
@@ -66,7 +66,7 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 | 伦敦 | 179 | 35 | 58 |
 | 新加坡 | 196 | 34 | 60 |
 
-## 使用文件加速器{#download-workflow-using-file-accelerator}下载工作流
+## 使用文件加速器下载工作流 {#download-workflow-using-file-accelerator}
 
 要更快地从Brand Portal下载资产，请执行以下操作：
 
@@ -92,7 +92,7 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 
 1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会出现一个确认框，用于使用IBM Aspera Connect下载资产。
 
-   如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，或者现有版本已过期，它将提示您[安装Aspera下载加速器](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html)。
+   如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，或者现有版本已过期，它将提示您[安装Aspera下载加速器](https://www.ibm.com/docs/en/aspera-connect/3.9.9)。
 
    ![](assets/aspera-not-launched.png)
 
@@ -173,7 +173,7 @@ On successful completion of the download, a dialog box shows the location where 
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 -->
 
-## 在Microsoft Edge浏览器{#using-file-accelerator-on-microsoft-edge-browser}上使用文件加速器
+## 在Microsoft Edge浏览器上使用文件加速器 {#using-file-accelerator-on-microsoft-edge-browser}
 
 Microsoft Edge在增强保护模式(EPM)下运行，在同一专用网络或与受信任站点通信时，阻止与Aspera Connect服务器通信。 因此，每次与服务器建立连接时都会显示一个弹出窗口。
 
@@ -186,7 +186,7 @@ Microsoft Edge在增强保护模式(EPM)下运行，在同一专用网络或与�
 1. 单击&#x200B;**[!UICONTROL 受信任站点区域]**，然后单击&#x200B;**[!UICONTROL 站点]**。
 1. 从列表中删除Brand Portal网站。
 
-## Aspera连接客户端首选项{#aspera-connect-client-preferences}
+## Aspera连接客户端首选项 {#aspera-connect-client-preferences}
 
 在IBM Aspera Connect Client首选项中，可通过右键单击图标并选择&#x200B;**[!UICONTROL 首选项]**&#x200B;来设置一些有用的首选项。
 
@@ -200,7 +200,7 @@ Microsoft Edge在增强保护模式(EPM)下运行，在同一专用网络或与�
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## 下载加速{#troubleshoot-issues-with-download-acceleration}问题疑难解答
+## 下载加速问题疑难解答 {#troubleshoot-issues-with-download-acceleration}
 
 如果下载加速不适合您，请按照以下步骤进行故障诊断：
 
