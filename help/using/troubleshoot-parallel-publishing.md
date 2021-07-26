@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -74,11 +74,11 @@ ii. 删除
    i.搜索用户`mac-<tenantid>replication`
 ii. 删除此用户
 
-现在系统已全部清理完毕。 现在，您可以尝试创建新的cloudservice配置，并仍使用[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)中已有的JWT应用程序。 无需创建新应用程序，而只需从新创建的云配置中更新公共密钥。
+现在系统已全部清理完毕。 现在，您可以尝试创建新的cloudservice配置，并仍使用`https://legacy-oauth.cloud.adobe.io/`中已有的JWT应用程序。 无需创建新应用程序，而只需从新创建的云配置中更新公共密钥。
 
 ## 开发人员连接JWT应用程序租户可见性问题 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-如果位于[https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/)上，则列出当前用户持有系统管理员的所有组织（租户）。 如果您在此处找不到组织名称，或者无法在此处为所需租户创建应用程序，请检查您是否具有足够的（系统管理员）权限来执行此操作。
+如果在`https://legacy-oauth.cloud.adobe.io/`上，则列出当前用户持有系统管理员的所有组织（租户）。 如果您在此处找不到组织名称，或者无法在此处为所需租户创建应用程序，请检查您是否具有足够的（系统管理员）权限来执行此操作。
 
 此用户界面上存在一个已知问题，即对于任何租户，仅显示前10个应用程序。 创建应用程序时，请停留在该页面上，并为URL添加书签。 您无需转到应用程序的列表页面，并找到您创建的应用程序。 您可以直接点击此标为书签的URL，并根据需要更新/删除应用程序。
 
