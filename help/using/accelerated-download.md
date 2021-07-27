@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1033'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 
 * 导航至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下载]**，并确认在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;配置。
 * 确保防火墙上的端口33001（TCP和UDP）处于打开状态。 有关先决条件的更多信息，请参阅[IBM Aspera Connect Client文档](https://downloads.asperasoft.com/en/documentation/8)。
-* [使用管理员权限在浏览器的扩展中安装IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) 。
+* **使用管理员权限(** )在浏览器的扩展中安装IBM Aspera Connect 3.9.9`https://www.ibm.com/docs/en/aspera-connect/3.9.9`。
 * 有关Aspera传输客户端的平台支持，请参阅[IBM Aspera Connect平台支持表](https://www.asperasoft.com/company/support/transfer-clients/)。
 
 ## 下载域 {#download-domains}
@@ -92,7 +92,7 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 
 1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会出现一个确认框，用于使用IBM Aspera Connect下载资产。
 
-   如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，或者现有版本已过期，它将提示您[安装Aspera下载加速器](https://www.ibm.com/docs/en/aspera-connect/3.9.9)。
+   如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，或者现有版本已过期，则会提示您安装Aspera下载加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
    ![](assets/aspera-not-launched.png)
 
