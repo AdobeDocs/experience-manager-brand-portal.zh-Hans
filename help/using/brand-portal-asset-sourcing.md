@@ -17,14 +17,14 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: bfbc90e3cdc9e3fc72a6e54f6730922753585471
+source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 5%
+source-wordcount: '651'
+ht-degree: 3%
 
 ---
 
-# 资产源概述{#overview-asset-sourcing-in-bp}
+# 资产源概述 {#overview-asset-sourcing-in-bp}
 
 **资产** 源允许AEM用户（管理员/非管理员用户）使用额外的资产贡献属性创建新文 **件** 夹，以确保Brand Portal用户能够打开所创建的新文件夹来提交资产。这会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建另外两个子文件夹，分别称为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 然后，AEM管理员将应添加到贡献文件夹的资产类型以及一组基线资产的简介上传到&#x200B;**SHARED**&#x200B;文件夹，以确保BP用户获得所需的参考信息，从而定义此要求。 然后，管理员可以在将新创建的&#x200B;**Contribution**&#x200B;文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对贡献文件夹的访问权限。 用户完成在&#x200B;**NEW**&#x200B;文件夹中添加内容后，便可以将Contribution文件夹发布回AEM创作环境。 请注意，完成导入并反映AEM Assets中新发布的内容可能需要几分钟的时间。
 
@@ -54,8 +54,11 @@ ht-degree: 5%
 >AEM Assets 6.5.4中存在一个已知问题。在升级到Adobe开发人员控制台时，Brand Portal用户无法将贡献文件夹的资产发布到AEM Assets。
 >
 >此问题已在AEM 6.5.5中修复。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人员控制台上[升级您的配置。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
->
->要在AEM 6.5.4上立即修复，建议[下载修补程序](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041)并在创作实例上安装。
+
+<!--
+
+>For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your author instance.
+-->
 
 <!--
 ## Configure Asset Sourcing {#configure-asset-sourcing}
@@ -97,7 +100,7 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 -->
 
 
-### 上载Brand Portal用户列表{#upload-bp-user-list}
+### 上传Brand Portal用户列表 {#upload-bp-user-list}
 
 AEM管理员可以上传包含AEM Assets中活动Brand Portal用户列表的Brand Portal用户配置(.csv)文件，以便他们能够访问资产源功能。
 
