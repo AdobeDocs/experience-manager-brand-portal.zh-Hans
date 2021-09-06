@@ -1,8 +1,8 @@
 ---
 title: 发行说明
-seo-title: 发行说明
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版本中的功能、增强功能、已修复的关键问题和已知问题。
-seo-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版本中的增强功能、已修复的关键问题和已知问题。
+seo-title: Release Notes
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.08.0版本中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 54af86b96ef3c3cfe3b1c0db7772d369cac9bb71
+source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 17%
+source-wordcount: '494'
+ht-degree: 10%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2021.06.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2021.08.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
-## 发行信息 {#release-information}
+## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本号 | 2021.06.0 |
-| 日期 | 2021年6月 |
+| 版本 | 2021.08.0 |
+| 日期 | 2021年8月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2021.06.0 的新增功能 {#whats-new-in-2021.06.0}
+## 2021.08.0 的新增功能 {#whats-new-in-2021.08.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,20 +67,22 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
-<!--
-### Enhancements {#enhancements}
 
-Brand Portal 2021.06.0 is an internal release for T2E migration that introduces a new workflow to facilitate orgranization specific entitlement to the Brand Portal users. 
+### 增强功能 {#enhancements}
 
-This release includes the following enhancements:
+Brand Portal 2021.08.0是一个内部版本，其中为企业和团队客户引入了业务配置文件，以便组织更好地控制其资产。
 
-* For a new or migrated T2E organization, the users will have an organization specific entitlement. 
+此版本包括以下增强功能：
 
+* 用户现在对新组织和迁移组织拥有特定于组织的权利。 如果用户有权访问多个组织，则用户必须在登录时选择组织。
 
-* The new users added to Admin Console will have to **Join Team** to get entitled to the T2E organization. 
+* 在Admin Console中添加的新用户必须&#x200B;**加入团队**&#x200B;才能获得组织的授权。
 
-* The administrators will get an additional screen to select the T2E organization while navigating from Brand Portal to Admin Console.
--->
+>[!NOTE]
+>
+>业务配置文件当前适用于2021年8月16日之后创建的新组织。
+>
+>在迁移您的组织之前，您可以继续使用Adobe ID、Enterprise ID或Federated ID类型来访问组织。
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -95,13 +97,13 @@ This release includes the following enhancements:
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
-Brand Portal 2021.06.0是一个内部版本，其中包含对以下关键问题的修复：
+此版本包括对以下关键问题的修复：
 
 * 某些组织不会发送资产源电子邮件通知。
 
-* 扩展名为.mov的视频文件未在Brand Portal上运行。
+* 扩展名为`.mov`的视频文件未在Brand Portal上运行。
 
-* 在智能收藏集下拉列表中，只显示10个已保存的收藏集。
+* 在&#x200B;**[!UICONTROL 智能收藏集]**&#x200B;下拉列表中，只显示10个保存的收藏集。
 
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
@@ -119,15 +121,19 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
-<!--
-### Known Issues {#known-issues}
 
-This release includes the following known issue:
+### 已知问题 {#known-issues}
 
-* The users will not be able to login to Brand Portal during the migration of their existing organization to T2E. 
+此版本包括以下已知问题：
 
-  However, the active users will be able to continue to work untill their current session expires or the migration is complete.   
--->
+* 用户在迁移其现有组织期间无法登录Brand Portal。
+
+   但是，已登录Brand Portal的活动用户可以继续工作，直到其当前会话过期为止。
+
+* 从Brand Portal导航到Admin Console时，管理员可能会看到一个额外的屏幕来选择组织。
+
+* 用户无法从文件夹删除已应用的元数据架构配置文件。
+
 
 <!--
 ### Known Issues {#known-issues}
@@ -192,12 +198,12 @@ This release includes the following known issues:
 
 ## 经过认证的平台 {#certified-platforms}
 
-要确定哪些平台经认证可以随此版本的Brand Portal一起运行，请参阅[技术要求](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)的“创作用户界面支持的浏览器”部分&#x200B;**中的表格中的**&#x200B;触屏优化UI **支持列。**
+要确定哪些平台经认证可以随此版本的Brand Portal一起运行，请参阅[技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的“创作用户界面支持的浏览器”部分&#x200B;**中的表格中的**&#x200B;触屏优化UI **支持列。**
 
 ## 链接 {#links}
 
-* [adobe.com 上的 Adobe Experience Manager 产品页面](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Assets Brand Portal文档](https://helpx.adobe.com/cn/experience-manager/brand-portal/user-guide.html)
+* [adobe.com 上的 Adobe Experience Manager 产品页面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal文档](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## 产品访问和支持（受限网站） {#product-access-and-support-restricted-sites}
 
@@ -209,4 +215,4 @@ This release includes the following known issues:
 
 * [产品访问](https://login.marketing.adobe.com)
 
-* [Adobe客户关怀](https://helpx.adobe.com/contact.html)
+* [客户支持](https://helpx.adobe.com/contact.html)

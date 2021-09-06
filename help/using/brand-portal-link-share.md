@@ -1,8 +1,8 @@
 ---
 title: 以链接方式共享资产
-seo-title: 以链接方式共享资产
+seo-title: Share assets as a link
 description: AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑者只能查看和共享与其共享的资产。
-seo-description: AEM Assets Brand Portal管理员可以与授权的内部用户和外部实体（包括合作伙伴和供应商）共享多个资产的链接。 编辑者只能查看和共享与其共享的资产。
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '965'
 ht-degree: 7%
 
 ---
@@ -27,10 +27,6 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权的内部用
 -->
 
 有关更多信息，请参阅[管理用户、组和用户角色](../using/brand-portal-adding-users.md#manage-user-roles)。
-
->[!NOTE]
->
->使用Brand Portal上的链接共享功能，最多允许下载5GB的zip文件。
 
 
 以下是将资产作为链接共享的步骤：
@@ -70,7 +66,7 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权的内部用
    >
    >管理员可以自定义电子邮件消息，包括使用[品牌](../using/brand-portal-branding.md)功能自定义徽标、描述和页脚。
 
-## 从共享链接{#download-assets-from-shared-links}下载资产
+## 从共享链接下载资产 {#download-assets-from-shared-links}
 
 单击电子邮件中的链接，以访问共享资产。 此时将打开AEM Link Share页面。
 
@@ -107,7 +103,7 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权的内部用
 
 >[!NOTE]
 >
->Brand Portal限制下载每个文件大小超过5GB的资产。
+>Brand Portal使用链接共享限制每个文件大小大于&#x200B;**1** GB的资产下载。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,12 +124,9 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权的内部用
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
-## 资产格式{#preview-thumbnail-support}的预览和缩略图支持
+## 资产格式的预览和缩略图支持 {#preview-thumbnail-support}
 
 下表列出了Brand Portal支持缩略图和预览的资产格式：
 
@@ -205,7 +198,7 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权的内部用
 | NA | 此功能不适用于此文件格式 |
 | * | 此功能要求在将资产发布到Brand Portal后，在AEM创作实例上支持此文件格式，但在Brand Portal上不支持此文件格式 |
 
-## 取消共享作为链接{#unshare-assets-shared-as-a-link}共享的资产
+## 取消共享作为链接共享的资产 {#unshare-assets-shared-as-a-link}
 
 要取消共享以前共享的资产作为链接，请执行以下操作：
 
