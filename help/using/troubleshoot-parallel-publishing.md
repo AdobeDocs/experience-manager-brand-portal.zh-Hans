@@ -1,8 +1,8 @@
 ---
 title: 对并行发布到 Brand Portal 时出现的问题进行故障诊断
-seo-title: 对并行发布到 Brand Portal 时出现的问题进行故障诊断
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: 并行发布故障诊断。
-seo-description: 并行发布故障诊断。
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '873'
+ht-degree: 1%
 
 ---
 
@@ -123,6 +123,7 @@ permission
 如果复制队列中存在多个待处理请求，则发布作业通常会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
 
 请执行以下步骤以配置复制代理：
+
 1. 登录到您的AEM Assets创作实例。
 1. 从&#x200B;**工具**&#x200B;面板中，导航到&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 复制]**。
 1. 在“复制”页中，单击&#x200B;**[!UICONTROL 创作代理]**。 您可以看到Brand Portal租户的四个复制代理。
