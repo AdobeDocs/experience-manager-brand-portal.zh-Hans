@@ -1,8 +1,8 @@
 ---
 title: 加快Brand Portal下载速度
-seo-title: 加快Brand Portal下载速度
+seo-title: Speed up the Brand Portal downloads
 description: 提高从Brand Portal和共享链接下载的性能。
-seo-description: 提高从Brand Portal和共享链接下载的性能。
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1037'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,10 @@ Adobe Experience Manager Assets Brand Portal通过与IBM Aspera Connect集成来
 * 确保防火墙上的端口33001（TCP和UDP）处于打开状态。 有关先决条件的更多信息，请参阅[IBM Aspera Connect Client文档](https://downloads.asperasoft.com/en/documentation/8)。
 * **使用管理员权限(** )在浏览器的扩展中安装IBM Aspera Connect 3.9.9`https://www.ibm.com/docs/en/aspera-connect/3.9.9`。
 * 有关Aspera传输客户端的平台支持，请参阅[IBM Aspera Connect平台支持表](https://www.asperasoft.com/company/support/transfer-clients/)。
+
+>[!NOTE]
+>
+>IBM Aspera Connect存在已知问题。 快速下载不适用于IBM Aspera Connect版本3.10及更高版本。
 
 ## 下载域 {#download-domains}
 
@@ -208,7 +212,7 @@ Microsoft Edge在增强保护模式(EPM)下运行，在同一专用网络或与�
 
    如果端口不正常，请联系您的网络团队，并确保防火墙中的端口33001（TCP和UDP）未被阻止。
 
-1. 如果端口正常，则使用[https://www.speedtest.net/](https://www.speedtest.net/)测量可用带宽来检查网络是否不慢。
+1. 如果端口正常，则使用[https://www.speedtest.net/](https://www.speedtest.net/)测量可用带宽，检查网络是否不慢。
 
    如果带宽是几(1-10 Mbps)或以Kbps为单位，则使用Aspera首选项并尝试将带宽限制为等于可用带宽。
 
