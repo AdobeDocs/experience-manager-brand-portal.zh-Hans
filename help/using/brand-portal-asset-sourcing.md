@@ -1,15 +1,15 @@
 ---
 title: Brand Portal 中的资产源
-seo-title: Brand Portal 中的资产源
+seo-title: Asset Sourcing in Brand Portal
 description: 深入了解Adobe Experience Manager Assets Brand Portal中发布的资产源功能。
-seo-description: 深入了解Adobe Experience Manager Assets Brand Portal中发布的资产源功能。
+seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
-sub-product: 资产
+sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
@@ -17,10 +17,10 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 88526c235a12d47f5cbb5f442683f8b0ac2f21e5
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 3%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 >
 >AEM Assets 6.5.4中存在一个已知问题。在升级到Adobe开发人员控制台时，Brand Portal用户无法将贡献文件夹的资产发布到AEM Assets。
 >
->此问题已在AEM 6.5.5中修复。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人员控制台上[升级您的配置。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
+>此问题已在AEM 6.5.5中修复。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人员控制台上[升级您的配置。](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
 
 <!--
 
@@ -117,6 +117,7 @@ AEM管理员可以上传包含AEM Assets中活动Brand Portal用户列表的Bran
 管理员可以在AEMAdmin Console中添加新用户，有关详细信息，请参阅[管理用户](brand-portal-adding-users.md) 。 在Admin Console中添加用户后，可以将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
 **要上传Brand Portal用户列表，请执行以下操作：**
+
 1. 登录到AEM Assets实例。
 1. 从&#x200B;**工具**&#x200B;面板中，导航到&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal用户]**。
 

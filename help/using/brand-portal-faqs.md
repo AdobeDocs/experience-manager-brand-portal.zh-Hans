@@ -1,5 +1,5 @@
 ---
-title: 常见问题
+title: 常见问题解答
 seo-title: null
 description: 深入了解Adobe Experience Manager Assets Brand Portal中的常见问题。
 seo-description: null
@@ -10,14 +10,14 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1480'
 ht-degree: 1%
 
 ---
 
-# 常见问题 {#frequently-asked-questions}
+# 常见问题解答 {#frequently-asked-questions}
 
 Brand Portal常见问题解答主要介绍最终用户在使用最新的AEM Assets Brand Portal 6.4.6版本或更早版本时可能遇到的查询和问题。
 
@@ -38,7 +38,7 @@ Brand Portal常见问题解答主要介绍最终用户在使用最新的AEM Asse
 
 **安。** 是，在AEM 6.5.4上通过Adobe开发人员控制台将贡献文件夹的资产发布到AEM Assets时，出现已知问题。
 
-此问题已在AEM 6.5.5中修复。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人员控制台上[升级您的配置。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
+此问题已在AEM 6.5.5中修复。您可以将AEM Assets实例升级到最新的Service Pack AEM 6.5.5，并在Adobe开发人员控制台上[升级您的配置。](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 **安。** 如果复制队列中存在多个待处理请求，发布通常会失败并出现超时错误。要解决此问题，请确保将复制代理配置为避免超时。
 
 请执行以下步骤以配置复制代理：
+
 1. 登录到您的AEM Assets创作实例。
 1. 从&#x200B;**工具**&#x200B;面板中，导航到&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 复制]**。
 1. 在“复制”页中，单击&#x200B;**[!UICONTROL 创作代理]**。 您可以看到Brand Portal租户的四个复制代理。

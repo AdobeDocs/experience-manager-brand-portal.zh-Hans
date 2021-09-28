@@ -1,17 +1,17 @@
 ---
 title: Adobe Experience Manager Assets Brand Portal指南
-seo-title: Adobe Experience Manager Assets Brand Portal指南
+seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal指南
-seo-description: 介绍如何使用 Brand Portal
+seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 76%
+source-wordcount: '345'
+ht-degree: 75%
 
 ---
 
-# Adobe Experience Manager Assets Brand Portal指南{#aem-brand-portal}
+# Adobe Experience Manager Assets Brand Portal指南 {#aem-brand-portal}
 
 **Adobe Experience Manager Assets品牌** 门户组织可将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而满足其营销需求。
 
@@ -48,4 +48,4 @@ ht-degree: 76%
 
 ### 有用资源
 
-* [了解Brand Portal与AEM Assets](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/home.html)
+* [了解Brand Portal与AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

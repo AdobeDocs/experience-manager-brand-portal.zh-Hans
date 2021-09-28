@@ -1,8 +1,8 @@
 ---
 title: 在 Brand Portal 上搜索资产
-seo-title: 在AEM Brand Portal上搜索资产并保存搜索
+seo-title: Asset searching and saved search on AEM Brand Portal
 description: Brand Portal搜索功能允许您使用omnisearch快速搜索相关资产，而搜索过滤器可以帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集，以供将来使用。
-seo-description: Brand Portal搜索功能允许您使用omnisearch快速搜索相关资产，而搜索过滤器可以帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集，以供将来使用。
+seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1123'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索相关资产，这些搜索使用过滤器来帮助您进一步缩小搜索范围。 您还可以将搜索另存为智能收藏集，以供将来使用。
 
-## 使用Omnisearch {#search-assets-using-omnisearch}搜索资产
+## 使用Omnisearch搜索资产 {#search-assets-using-omnisearch}
 
 要在Brand Portal上搜索资产，请执行以下操作：
 
@@ -45,11 +45,11 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
 要了解智能标记资产的搜索行为，请参阅[了解搜索结果和行为](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
 
-## 在“筛选器”面板{#search-using-facets-in-filters-panel}中使用Facet进行搜索
+## 在“过滤器”面板中使用Facet进行搜索 {#search-using-facets-in-filters-panel}
 
 “过滤器”面板中的搜索彩块化可为您的搜索体验添加粒度，并提高搜索功能的效率。 搜索彩块化使用多个维度（谓词），允许您执行复杂搜索。 您可以轻松地向下展开到所需的详细信息级别，以便进行更集中的搜索。
 
-例如，如果要查找图像，则可以选择想要位图还是矢量图像。 您可以通过在“文件类型”搜索方面中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS Word格式。<br />
+例如，如果要查找图像，则可以选择想要位图还是矢量图像。 您可以通过在“文件类型”搜索方面中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS Word格式。
 
 ![Brand Portal中的“过滤器”面](assets/file-type-search.png "板Brand Portal中的“过滤器”面板")
 
@@ -110,7 +110,7 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
 1. 您可以轻松地从搜索结果导航到项目，并使用浏览器中的返回按钮返回到相同的搜索结果，而无需重新运行搜索查询。
 
-## 将搜索另存为智能收藏集{#save-your-searches-as-smart-collection}
+## 将搜索另存为智能收藏集 {#save-your-searches-as-smart-collection}
 
 您可以将搜索设置另存为智能收藏集，以便能够快速重复相同的搜索，而无需稍后重做相同的设置。
 

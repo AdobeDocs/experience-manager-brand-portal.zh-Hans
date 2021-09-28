@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: c7ffeda69beb92ce8fa549fe270cc5156fa1ec1c
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '6331'
-ht-degree: 2%
+source-wordcount: '6317'
+ht-degree: 1%
 
 ---
 
@@ -245,7 +245,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 * 如果仅启用了&#x200B;**[!UICONTROL 下载原始资产]**&#x200B;设置，则用户只能从资产详细信息页面查看和下载原始资产。
 * 如果仅启用了&#x200B;**[!UICONTROL 下载演绎版]**&#x200B;设置，则用户可以查看原始资产，但无法下载该资产。 但是，用户可以查看和下载资产演绎版。
 
-请参阅[配置资产下载](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)。
+请参阅[配置资产下载](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)。
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -291,6 +291,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 从Brand Portal下载资产的现有工作流必然会随后出现&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，其中包含多个下载选项可供选择。
 
 在Brand Portal 6.4.7中，Brand Portal管理员可以配置资产&#x200B;**[!UICONTROL 下载]**&#x200B;设置。 可用的配置包括：
+
 * **[!UICONTROL 快速下载]**
 * **[!UICONTROL 自定义呈现版本]**
 * **[!UICONTROL 系统呈现版本]**
@@ -342,9 +343,9 @@ Brand Portal管理员可以启用任意组合来配置资产下载。
 
 | **AEM 版本** | **新配置** | **升级配置** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [创建配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://docs.adobe.com/content/help/zh-Hans/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
+| **AEM Assets as a Cloud Service** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | 联系支持人员 | 联系支持人员 |
 
@@ -626,7 +627,7 @@ Brand Portal为非管理员用户（编辑者、查看者、来宾用户）提�
 
 ### Adobe I/OUI以配置oAuth集成
 
-从Brand Portal 6.4.2开始，使用旧版OAuth(`https://legacy-oauth.cloud.adobe.io/`)界面创建JWT应用程序，该应用程序支持配置oAuth集成，以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在`https://marketing.adobe.com/developer/`中。 有关将AEM Assets与Brand Portal集成以将资产和收藏集发布到Brand Portal的更多信息，请参阅[配置AEM Assets与Brand Portal的集成](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
+从Brand Portal 6.4.2开始，使用旧版OAuth(`https://legacy-oauth.cloud.adobe.io/`)界面创建JWT应用程序，该应用程序支持配置oAuth集成，以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在`https://marketing.adobe.com/developer/`中。 有关将AEM Assets与Brand Portal集成以将资产和收藏集发布到Brand Portal的更多信息，请参阅[配置AEM Assets与Brand Portal的集成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
 
 ## 搜索增强功能
 

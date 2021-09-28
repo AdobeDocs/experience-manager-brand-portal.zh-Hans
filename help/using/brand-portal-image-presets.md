@@ -1,8 +1,8 @@
 ---
 title: 应用图像预设或动态演绎版
-seo-title: 应用图像预设或动态演绎版
+seo-title: Apply image presets or dynamic renditions
 description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令使用名称进行保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。 '
-seo-description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令使用名称进行保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。 '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 4%
+source-wordcount: '800'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 >下载图像及其演绎版时，无法从现有预设中进行选择。 您而是可以指定自定义图像预设的属性。 有关更多信息，请参阅[下载图像时应用图像预设](../using/brand-portal-image-presets.md#main-pars-text-1403412644) 。
 
 
-有关创建图像预设时所需参数的更多信息，请参阅[管理图像预设](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)。
+有关创建图像预设时所需参数的更多信息，请参阅[管理图像预设](../using/brand-portal-image-presets.md)。
 
 ## 创建图像预设 {#create-an-image-preset}
 
@@ -57,7 +57,7 @@ AEM管理员可以创建图像预设，这些图像预设在资产详细信息�
 
    ![](assets/image_preset_homepage.png)
 
-1. 在&#x200B;**[!UICONTROL 编辑图像预设]**&#x200B;页面中，根据需要在&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡中输入值，包括名称。 有关各个选项的概述，请参阅[图像预设选项](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)。预设显示在左窗格中，并可以与其他资产一起动态使用。
+1. 在&#x200B;**[!UICONTROL 编辑图像预设]**&#x200B;页面中，根据需要在&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡中输入值，包括名称。 预设显示在左窗格中，并可以与其他资产一起动态使用。
 
    ![](assets/image_preset_create.png)
 
