@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
 workflow-type: tm+mt
-source-wordcount: '1480'
+source-wordcount: '1468'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 
 这些网站仅适用于客户。如果您是客户并需要访问，请联系您的Adobe客户经理。
 
-* [](https://daycare.day.com) [产品访问](https://login.marketing.adobe.com)
+<!--
+* [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe客户关怀](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
+-->
