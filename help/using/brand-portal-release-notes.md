@@ -1,8 +1,8 @@
 ---
 title: 发行说明
 seo-title: Release Notes
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.08.0版本中的功能、增强功能、已修复的关键问题和已知问题。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.08.0 release.
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.10.0版本中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 67a745fed6a13cfdb30e26062eecc3c8d1775e36
+source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 10%
+source-wordcount: '391'
+ht-degree: 13%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2021.08.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2021.10.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2021.08.0 |
-| 日期 | 2021年8月 |
+| 版本 | 2021.10.0 |
+| 日期 | 2021年10月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2021.08.0 的新增功能 {#whats-new-in-2021.08.0}
+## 2021.10.0 的新增功能 {#whats-new-in-2021.10.0}
 
 <!--
 ### New Features {#new-features}
@@ -67,22 +67,23 @@ Brand Portal users can exclude specific renditions which are not required and di
 * In addition to the existing **[!UICONTROL Download]** configurations, the Brand Portal administrators can also [configure permissions for different group of users]() to view and (or) download the original asset and its renditions from the asset details page. These configurations will define who can access and (or) download the asset renditions.
 -->
 
+<!--
+### Enhancements {#enhancements}
 
-### 增强功能 {#enhancements}
+Brand Portal 2021.08.0 is an internal release that introduces Business profiles for enterprise and teams customers to give organizations better control over their assets. 
 
-Brand Portal 2021.08.0是一个内部版本，其中为企业和团队客户引入了业务配置文件，以便组织更好地控制其资产。
+This release includes the following enhancements:
 
-此版本包括以下增强功能：
+* The users now have organization-specific entitlement on the new and migrated organizations. If a user is entitled to multiple organizations, the user has to select the organization at the time of login.
 
-* 用户现在对新组织和迁移组织拥有特定于组织的权利。 如果用户有权访问多个组织，则用户必须在登录时选择组织。
-
-* 在Admin Console中添加的新用户必须&#x200B;**加入团队**&#x200B;才能获得组织的授权。
+* The new users that are added in Admin Console must **Join Team** to get entitled to the organization. 
 
 >[!NOTE]
 >
->业务配置文件当前适用于2021年8月16日之后创建的新组织。
+>Business profiles are currently applicable for the new organizations that are created after August 16, 2021. 
 >
->在迁移您的组织之前，您可以继续使用Adobe ID、Enterprise ID或Federated ID类型来访问组织。
+>Until your organization is migrated, you can continue to use Adobe ID, Enterprise ID, or Federated ID types to access the organization.   
+-->
 
 <!-- 
 * For folder download, a separate folder is created for each asset using share link irrespective of the **[!UICONTROL Download Settings]**. 
@@ -99,12 +100,19 @@ Brand Portal 2021.08.0是一个内部版本，其中为企业和团队客户引�
 
 此版本包括对以下关键问题的修复：
 
-* 某些组织不会发送资产源电子邮件通知。
+* 从Brand Portal发布的Experience Manager无法显示在特定贡献文件夹的资产中。
+* 取消发布贡献文件夹后，Brand Portal租户的&#x200B;**[!UICONTROL totalUploadSize]**&#x200B;不会减少。
+* 用户无法从文件夹删除已应用的元数据架构配置文件。
+* 用户权限页面上的群组计数不正确。
+* 在列表中导航时，收藏集页面会花费过长的时间。
 
-* 扩展名为`.mov`的视频文件未在Brand Portal上运行。
+<!--
+* Asset Sourcing email notifications are not delivered for some organizations. 
 
-* 在&#x200B;**[!UICONTROL 智能收藏集]**&#x200B;下拉列表中，只显示10个保存的收藏集。
+* Video files with extension `.mov` are not running on Brand Portal. 
 
+* In the **[!UICONTROL Smart Collections]** dropdown list, only ten saved collections are visible. 
+-->
 <!--
 * *_deleted tenants are listed as valid tenant which fails during the execution of TenantCustomizers/TenantUpdates where tenant id is returned as /etc/tenants/`<nodename>`.
 -->
@@ -131,8 +139,6 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
    但是，已登录Brand Portal的活动用户可以继续工作，直到其当前会话过期为止。
 
 * 从Brand Portal导航到Admin Console时，管理员可能会看到一个额外的屏幕来选择组织。
-
-* 用户无法从文件夹删除已应用的元数据架构配置文件。
 
 
 <!--
