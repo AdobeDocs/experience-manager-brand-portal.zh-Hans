@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 13%
+source-wordcount: '396'
+ht-degree: 12%
 
 ---
 
@@ -100,8 +100,8 @@ This release includes the following enhancements:
 
 此版本包括对以下关键问题的修复：
 
-* 从Brand Portal发布的Experience Manager无法显示在特定贡献文件夹的资产中。
-* 取消发布贡献文件夹后，Brand Portal租户的&#x200B;**[!UICONTROL totalUploadSize]**&#x200B;不会减少。
+* 大小相同的Contribution文件夹的资产不会从Brand Portal发布到Experience Manager资产。
+* 取消发布贡献文件夹后，资产贡献文件夹的大小不会减小。
 * 用户无法从文件夹删除已应用的元数据架构配置文件。
 * 用户权限页面上的群组计数不正确。
 * 在列表中导航时，收藏集页面会花费过长的时间。
