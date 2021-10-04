@@ -1,8 +1,8 @@
 ---
 title: 自定义墙纸、标题和电子邮件消息
-seo-title: 自定义墙纸、标题和电子邮件消息
+seo-title: Customize wallpaper, header, and email message
 description: Brand Portal管理员可以对向用户显示的界面进行有限的自定义。 您可以为Brand Portal登录页面选择特定的背景图像（墙纸）。 您还可以添加标题图像和自定义资产共享电子邮件，以匹配客户的品牌。
-seo-description: Brand Portal管理员可以对向用户显示的界面进行有限的自定义。 您可以为Brand Portal登录页面选择特定的背景图像（墙纸）。 您还可以添加标题图像和自定义资产共享电子邮件，以匹配客户的品牌。
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '762'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
 如果没有自定义品牌墙纸图像，则登录页面上会显示默认壁纸。
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
 登录到Brand Portal后，标头会显示在各种Brand Portal页面上。
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -127,7 +127,7 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
 以链接形式共享资产时，用户会收到一封包含该链接的电子邮件。 管理员可以自定义这些电子邮件的消息传送（即徽标、描述和页脚）。
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 

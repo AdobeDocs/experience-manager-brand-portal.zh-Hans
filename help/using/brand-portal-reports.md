@@ -1,8 +1,8 @@
 ---
 title: 使用报告
-seo-title: 使用报告
-description: AEM Assets Brand Portal管理员可以查看有关Brand Portal使用情况的报表，以及创建、管理和查看有关通过Brand Portal共享的已下载、过期、已发布和链接资产的报表。
-seo-description: AEM Assets Brand Portal管理员可以查看有关Brand Portal使用情况的报表，以及创建、管理和查看有关通过Brand Portal共享的已下载、过期、已发布和链接资产的报表。
+seo-title: Work with reports
+description: Experience ManagerAssets Brand Portal管理员可以查看有关Brand Portal使用情况的报表，以及创建、管理和查看有关通过Brand Portal共享的已下载、过期、已发布和链接的资产的报表。
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '996'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 要查看报表，请执行以下步骤：
 
-1. 在顶部的工具栏中，点按/单击AEM徽标以访问管理工具。
+1. 在顶部的工具栏中，点按/单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
    ![](assets/expiration-report.png)
 
-   **** 发布报表列出并提供有关指定时间范围内从AEM发布到Brand Portal的所有资产的信息。
+   **** 发布报表会列出并提供有关在指定时间范围内从Experience Manager资产发布到Brand Portal的所有资产的信息。
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
 可以自定义下载、过期和发布报表中的列以供查看。 要生成报表，请执行以下步骤：
 
-1. 在顶部的工具栏中，点按/单击AEM徽标以访问管理工具。
+1. 在顶部的工具栏中，点按/单击Experience Manager徽标以访问管理工具。
 
 1. 在管理工具面板中，点按/单击&#x200B;**[!UICONTROL 创建/管理报表]** ，以打开&#x200B;**[!UICONTROL 资产报表]**&#x200B;页面。
 

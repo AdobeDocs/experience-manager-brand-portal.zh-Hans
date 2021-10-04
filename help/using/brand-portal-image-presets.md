@@ -1,8 +1,8 @@
 ---
 title: 应用图像预设或动态演绎版
 seo-title: Apply image presets or dynamic renditions
-description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令使用名称进行保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。 '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: '与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令使用名称进行保存。 图像预设使Experience ManagerAssets Brand Portal能够动态传送不同大小、格式和属性的图像。 '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # 应用图像预设或动态演绎版 {#apply-image-presets-or-dynamic-renditions}
 
-与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令使用名称进行保存。 图像预设使AEM Assets Brand Portal能够动态传送不同大小、格式和属性的图像。
+与宏一样，图像预设是一组预定义的大小调整和格式设置命令，这些命令使用名称进行保存。 图像预设使Experience ManagerAssets Brand Portal能够动态传送不同大小、格式和属性的图像。
 
 图像预设用于生成可预览和下载的图像的动态演绎版。 在预览图像及其演绎版时，您可以选择预设，以按照管理员设置的规范来重新设置图像的格式。
 
-(*如果AEM创作实例在&#x200B;**Dynamic Media混合模式***上运行)要在Brand Portal中查看资产的动态呈现，请确保其Pyramid tiff呈现存在于从中发布到Brand Portal的AEM创作实例中。 在发布资产时，其PTIFF演绎版也会发布到Brand Portal。
+(*如果Experience Manager资产创作实例在&#x200B;**Dynamic Media混合模式***上运行)要在Brand Portal中查看资产的动态演绎版，请确保其Pyramid tiff演绎版存在于您发布到Brand Portal的Experience Manager资产创作实例中。 在发布资产时，其PTIFF演绎版也会发布到Brand Portal。
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ ht-degree: 3%
 
 ## 创建图像预设 {#create-an-image-preset}
 
-AEM管理员可以创建图像预设，这些图像预设在资产详细信息页面上显示为动态演绎版。 您可以从头开始创建图像预设，也可以使用新名称保存现有图像预设。 创建图像预设时，请选择图像传送的大小和格式命令。 当传送图像供查看时，其外观会根据所选命令进行优化。
+Experience Manager资产管理员可以创建图像预设，这些图像预设在资产详细信息页面上显示为动态演绎版。 您可以从头开始创建图像预设，也可以使用新名称保存现有图像预设。 创建图像预设时，请选择图像传送的大小和格式命令。 当传送图像供查看时，其外观会根据所选命令进行优化。
 
 >[!NOTE]
 >
 >图像的动态呈现版本使用其Pyramid TIFF进行创建。 如果金字塔TIFF不适用于任何资产，则无法在Brand Portal中获取该资产的动态演绎版。
 >
->如果AEM创作实例在&#x200B;**Dynamic Media混合模式**&#x200B;上运行，则会在AEM存储库中创建并保存图像资产的Pyramid TIFF呈现版本。
+>如果Experience Manager资产创作实例在&#x200B;**Dynamic Media混合模式**&#x200B;上运行，则会在Experience Manager资产存储库中创建并保存图像资产的Pyramid TIFF呈现版本。
 >
->然而，如果AEM创作实例在&#x200B;**Dynamic Media Scene 7模式**&#x200B;上运行，则图像资产的Pyramid TIFF呈现版本存在于Scene 7服务器上。
+>然而，如果Experience Manager资产创作实例在&#x200B;**Dynamic Media Scene 7模式**&#x200B;上运行，则图像资产的Pyramid TIFF呈现版本存在于Scene 7服务器上。
 >
 >将此类资产发布到Brand Portal后，将应用图像预设并显示动态演绎版。
 
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
 1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 图像预设]**。
 
@@ -95,7 +95,7 @@ AEM管理员可以创建图像预设，这些图像预设在资产详细信息�
 
    ![](assets/downloadassets.png)
 
-1. 从&#x200B;**[!UICONTROL 下载]**&#x200B;对话框中，根据您是要下载资产，还是不下载其演绎版，选择所需的选项。
+1. 从&#x200B;**[!UICONTROL 下载]**&#x200B;对话框中，根据您是要下载资产及其演绎版，还是不下载资产，选择所需的选项。
 
    ![](assets/donload-assets-dialog.png)
 

@@ -1,8 +1,8 @@
 ---
 title: 共享收藏集
-seo-title: 共享收藏集
-description: AEM Assets Brand Portal管理员可以与授权用户共享和取消共享收藏集或智能收藏集。 编辑者只能查看和共享由他们创建、与他们共享的收藏集以及公共收藏集。
-seo-description: AEM Assets Brand Portal管理员可以与授权用户共享和取消共享收藏集或智能收藏集。 编辑者只能查看和共享由他们创建、与他们共享的收藏集以及公共收藏集。
+seo-title: Share a collection
+description: Experience ManagerAssets Brand Portal管理员可以与授权用户共享和取消共享收藏集或智能收藏集。 编辑者只能查看和共享由他们创建、与他们共享的收藏集以及公共收藏集。
+seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
 content-type: reference
@@ -10,14 +10,14 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
 
-# 共享集合{#share-collections}
+# 共享收藏集 {#share-collections}
 
 收藏集表示存储在Adobe Experience Manager Assets Brand Portal中的一组相关资产。 用户可以通过[应用Omnisearch或Facet搜索创建智能收藏集，以筛选出相关资产](brand-portal-searching.md)并将它们存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
 
@@ -65,7 +65,7 @@ ht-degree: 1%
    >
    >用户的角色控制对收藏集中资产和文件夹的访问权限。 如果用户无权访问资产，则会与用户共享一个空的收藏集。 此外，用户的角色也控制可用于收藏集的操作。
 
-## 取消共享集合{#unshare-a-collection}
+## 取消共享收藏集 {#unshare-a-collection}
 
 要取消共享之前共享的收藏集，请执行以下操作：
 

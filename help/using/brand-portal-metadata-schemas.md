@@ -1,8 +1,8 @@
 ---
 title: 使用元数据架构表单
-seo-title: 使用元数据架构表单
+seo-title: Use the metadata schema form
 description: 元数据架构描述了“属性”页面的布局以及为使用特定架构的资产显示的元数据属性。 您应用到资产的架构可确定其“属性”页面上显示的元数据字段。
-seo-description: 元数据架构描述了“属性”页面的布局以及为使用特定架构的资产显示的元数据属性。 您应用到资产的架构可确定其“属性”页面上显示的元数据字段。
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1718'
 ht-degree: 32%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 32%
 
 元数据架构描述了“属性”页面的布局以及为使用特定架构的资产显示的元数据属性。 您应用到资产的架构可确定其“属性”页面上显示的元数据字段。
 
-每个资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面包含默认的元数据属性，具体取决于资产的MIME类型。 管理员可以使用元数据架构编辑器修改现有架构或添加自定义元数据架构。 AEM Assets Brand Portal为各种MIME类型的资产提供默认表单。 但是，您也可以为此类资产添加自定义表单。
+每个资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面包含默认的元数据属性，具体取决于资产的MIME类型。 管理员可以使用元数据架构编辑器修改现有架构或添加自定义元数据架构。 Experience ManagerAssets Brand Portal为各种MIME类型的资产提供默认表单。 但是，您也可以为此类资产添加自定义表单。
 
 ## 添加元数据架构表单 {#add-a-metadata-schema-form}
 
 要创建新的元数据架构表单，请执行以下操作：
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ ht-degree: 32%
 
 要编辑元数据架构表单，请执行以下操作：
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ ht-degree: 32%
 | **[!UICONTROL 数字]** | 添加数字组件。 |
 | **[!UICONTROL 日期]** | 添加日期组件。 |
 | **[!UICONTROL 下拉列表]** | 添加下拉列表。 |
-| **[!UICONTROL 标准标记]** | 添加标记。**注意：** 如果管理员从AEM发布元数据架构表单(其中路径不包含租户信息，例如， `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`)，则可能需要更改路径值。 `/etc/tags/<custom_tag_namespace>` |
-| **[!UICONTROL 智能标记]** | 自动检测标记(如果您已购买并配置AEM智能标记加载项)。 |
+| **[!UICONTROL 标准标记]** | 添加标记。**注意：** 如果管理员从Experience Manager资产中发布元数据架构表单，而路径不包含租户信息(例如，  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`)，则可能需要更改路径值。 `/etc/tags/<custom_tag_namespace>` |
+| **[!UICONTROL 智能标记]** | 自动检测的标记(如果您已购买并配置Experience Manager资产智能标记加载项)。 |
 | **[!UICONTROL 隐藏字段]** | 添加隐藏字段。在保存资产时，该字段将作为 POST 参数发送。 |
 | **[!UICONTROL 资产引用对象]** | 添加此组件可查看该资产所引用的其他资产的列表。 |
 | **[!UICONTROL 资产引用]** | 添加此组件可显示引用该资产的其他资产的列表。 |
-| **[!UICONTROL 资产评级]** | 从AEM Assets添加的资产在发布到Brand Portal之前的平均评级。 |
+| **[!UICONTROL 资产评级]** | 从Experience Manager资产添加的资产在发布到Brand Portal之前的平均评级。 |
 | **[!UICONTROL 上下文元数据]** | 通过添加，可控制资产属性页面中其他元数据选项卡的显示。 |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->所有元数据字段在资产的元数据编辑器表单中均为只读。 由于资产的元数据必须先在AEM Assets中编辑，然后才能将资产发布到Brand Portal。
+>所有元数据字段在资产的元数据编辑器表单中均为只读。 由于资产的元数据必须先在Experience Manager资产中进行编辑，然后才能将资产发布到Brand Portal。
 
 #### 在架构表单中添加或删除选项卡 {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal允许您自定义和控制元数据架构，以便资产的&#x200B;
 
 要将元数据架构表单应用到文件夹，请执行以下操作：
 
-1. 在顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
+1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
    ![](assets/aemlogo.png)
 

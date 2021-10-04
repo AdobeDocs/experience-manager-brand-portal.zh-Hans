@@ -1,8 +1,8 @@
 ---
 title: 下载资产
-seo-title: 下载资产
+seo-title: Download assets
 description: 所有用户都可以同时下载可供他们访问的多个资产和文件夹。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。
-seo-description: 所有用户都可以同时下载可供他们访问的多个资产和文件夹。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1924'
 ht-degree: 3%
 
 ---
@@ -59,13 +59,13 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组�
 
    允许下载资产的自定义演绎版和（或）动态演绎版。
 
-   除原始资产和系统生成的演绎版之外的所有资产演绎版都称为自定义演绎版。 它包括可用于资产的静态和动态演绎版。 任何用户都可以在AEM Assets中创建自定义静态演绎版，而只有AEM管理员才能创建自定义动态演绎版。 有关详细信息，请参阅[如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
+   除原始资产和系统生成的演绎版之外的所有资产演绎版都称为自定义演绎版。 它包括可用于资产的静态和动态演绎版。 任何用户都可以在Experience Manager资产中创建自定义静态演绎版，而只有管理员才能创建自定义动态演绎版。 有关详细信息，请参阅[如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系统呈现版本]**
 
    允许下载系统生成的资产演绎版。
 
-   这些缩略图是根据“DAM更新资产”工作流在AEM Assets中自动生成的。
+   这些缩略图是根据“DAM更新资产”工作流在Experience Manager资产中自动生成的缩略图。
 
 * **[!UICONTROL 资源下载]**
 
@@ -208,9 +208,9 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 >
 >Brand Portal支持在混合模式和Scene 7模式下配置Dynamic Media。
 >
->(*如果AEM创作实例在&#x200B;**Dynamic Media混合模式***上运行)
+>(*如果Experience Manager资产创作实例在&#x200B;**Dynamic Media混合模式***上运行)
 >
->要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，并且资产的Pyramid tiff演绎版存在于资产发布位置的AEM Assets创作实例中。 将资产从AEM发布到Brand Portal后，其Pyramid tiff呈现版本也会发布。
+>要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，并且资产的Pyramid tiff演绎版存在于Experience Manager资产创作实例中，资产的创作实例已从中发布。 将资产从Experience Manager资产发布到Brand Portal时，也会发布其金字塔TIFF演绎版。
 
 
 

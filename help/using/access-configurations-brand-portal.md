@@ -1,8 +1,8 @@
 ---
 title: 管理 Brand Portal 上的用户访问权限
-seo-title: 管理 Brand Portal 上的用户访问权限
+seo-title: Administer user access on Brand Portal
 description: 在Brand Portal上配置来宾访问权限和新用户访问权限。
-seo-description: 在Brand Portal上配置来宾访问权限和新用户访问权限。
+seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 role: Admin
 exl-id: 27a9cd26-9bb3-473b-b1ac-37f77975c912
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 10%
+source-wordcount: '288'
+ht-degree: 9%
 
 ---
 
 # 管理 Brand Portal 上的用户访问权限 {#administer-user-access-on-brand-portal}
 
-从AEM Assets Brand Portal 6.4.2开始，授权管理员配置来宾访问权限，并允许用户在其组织的Brand Portal上请求访问权限。 这些配置在管理面板上作为&#x200B;**[!UICONTROL 访问设置]**&#x200B;配置提供。 默认情况下，这两个设置均处于禁用状态。
+从Adobe Experience Manager Assets Brand Portal 6.4.2开始，授权管理员配置来宾访问权限，并允许用户在其组织的Brand Portal上请求访问权限。 这些配置在管理面板上作为&#x200B;**[!UICONTROL 访问设置]**&#x200B;配置提供。 默认情况下，这两个设置均处于禁用状态。
 
 ![](assets/access-configs.png)
 

@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
@@ -29,18 +29,18 @@ Brand Portal用户可以：
 
 >[!NOTE]
 >
->要处理视频并将它们发布到Brand Portal，请确保在Dynamic Media混合模式或Dynamic Media **[!DNL Scene 7]**&#x200B;模式上设置您的AEM创作实例。
+>要处理视频并将它们发布到Brand Portal，请确保在Dynamic Media混合模式或Dynamic Media **[!DNL Scene 7]**&#x200B;模式上设置了Experience Manager创作实例。
 
 为了预览、播放和下载视频，Brand Portal向管理员提供了以下两种配置：
 
 * [Dynamic Media混合](#configure-dm-hybrid-settings)
-配置如果AEM创作实例在Dynamic Media混合模式下运行。
+配置如果Experience Manager创作实例在Dynamic Media混合模式下运行。
 * [Dynamic  [!DNL Scene 7] ](#configure-dm-scene7-settings)
-Media Configuration如果AEM创作实例在Dynamic Media模式下运**[!DNL Scene 7]** 行。根据您在AEM创作实例中设置的配置(与其复制Brand Portal租户)来设置其中任一配置。
+Mediaconfiguration如果Experience Manager创作实例在Dynamic Media模式下运**[!DNL Scene 7]** 行。根据您在用于复制Brand Portal租户的Experience Manager创作实例中设置的配置，设置这些配置中的任一配置。
 
 >[!NOTE]
 >
->配置为AEM Author的Brand Portal租户在&#x200B;**[!UICONTROL Scene7Connect]**&#x200B;运行模式下运行时，不支持动态视频。
+>配置了在&#x200B;**[!UICONTROL Scene7Connect]**&#x200B;运行模式上运行“Experience Manager作者”的Brand Portal租户上不支持动态视频。
 
 ## 动态视频的播放方式是如何？ {#how-are-dynamic-videos-played}
 

@@ -10,20 +10,20 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 96ce77b306c207bb20e0fdc56dd218295fbaeffe
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
 
 # 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal已使用AEM Assets进行配置，以便能够从AEM Assets创作实例无缝摄取（或发布）已批准的品牌资产。 配置[](../using/configure-aem-assets-with-brand-portal.md)后，Experience Manager作者使用复制代理将选定的资产复制到Brand Portal云服务，以供Brand Portal用户批准使用。 Experience Manager6.2 SP1-CFP5、Experience ManagerCFP 6.3.0.2及以上版本使用多个复制代理，以允许高速并行发布。
+Brand Portal已使用Experience Manager资产进行配置，以便能够从Experience Manager资产创作实例无缝摄取（或发布）已批准的品牌资产。 配置[](../using/configure-aem-assets-with-brand-portal.md)后，Experience Manager作者使用复制代理将选定的资产复制到Brand Portal云服务，以供Brand Portal用户批准使用。 Experience Manager6.2 SP1-CFP5、Experience ManagerCFP 6.3.0.2及以上版本使用多个复制代理，以允许高速并行发布。
 
 >[!NOTE]
 >
->Adobe建议升级到Experience Manager6.4.1.0，以确保已成功使用AEM Assets配置AEM Assets Brand Portal。 Experience Manager6.4中的限制在使用Brand Portal配置AEM Assets时出错，并且复制失败。
+>Adobe建议升级到Experience Manager6.4.1.0，以确保已成功为Experience ManagerAssets Brand Portal配置Experience Manager资产。 Experience Manager6.4中的限制在使用Brand Portal配置Experience Manager资产时出错，并且复制失败。
 
 在&#x200B;**[!UICONTROL /etc/cloudservice]**&#x200B;下为Brand Portal配置云服务时，将自动生成所有必需的用户和令牌并将其保存在存储库中。 云服务配置已创建，复制代理和复制代理复制内容所需的服务用户也已创建。 它创建四个复制代理。 因此，当您将大量资产从Experience Manager发布到Brand Portal时，这些资产将通过轮询在复制代理之间排队和分发。
 
@@ -49,7 +49,7 @@ Brand Portal已使用AEM Assets进行配置，以便能够从AEM Assets创作实
 
 查看日志（如果在复制日志中发现错误）：
 
-1. 联系Adobe支持。
+1. 联系客户支持。
 
 1. 重试[清理](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config)，然后再次创建发布配置。
 

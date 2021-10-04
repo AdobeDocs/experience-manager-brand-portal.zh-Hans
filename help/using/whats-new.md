@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6340'
 ht-degree: 1%
 
 ---
 
-# AEM Assets Brand Portal 的新增功能 {#what-s-new-in-aem-assets-brand-portal}
+# Experience ManagerAssets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Adobe正在努力改进整体Brand Portal体验。 以下是新增功能和增强功能的先机概述。
 
@@ -525,7 +525,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 ### URL中的可配置租户别名
 
-组织可以通过在URL中使用替代前缀来自定义其门户URL。 要在其现有门户URL中获取租户名称的别名，组织必须联系Adobe支持。
+组织可以通过在URL中使用替代前缀来自定义其门户URL。 要在其现有门户URL中获取租户名称的别名，组织必须联系客户支持。
 
 只能自定义Brand Portal URL的前缀，而不能自定义整个URL。\
 例如，现有域为&#x200B;**geometrix.brand-portal.adobe.com**&#x200B;的组织可以获取根据请求创建的&#x200B;**geomettrixinc.brand-portal.adobe.com**。
@@ -668,7 +668,7 @@ Brand Portal 6.4.1是一个平台升级版本，它引入了多项新增功能�
 
 * 新增了在资产详细信息页面中预览从AEM上传的音频文件的功能。
 * 资产属性中提供了新的相关资产功能。 与AEM上的其他源/派生资产相关并在Brand Portal上发布的资产现在在Brand Portal中的关系将保持不变，并且在属性页面上具有指向相关资产的链接。
-* 引入了新配置，以限制非管理员用户创建公共收藏集。 组织可以与Adobe支持团队合作，在特定帐户上配置此功能。
+* 引入了新配置，以限制非管理员用户创建公共收藏集。 组织可以与客户支持团队合作，在特定帐户上配置此功能。
 
 ### 搜索增强功能
 

@@ -1,8 +1,8 @@
 ---
 title: 管理常规租户配置
-seo-title: 管理常规租户配置
+seo-title: Administer general tenant configurations
 description: 配置下载加速、公共智能收藏集创建、公共收藏集创建，并允许管理员用户删除租户上的资产。
-seo-description: 配置下载加速、公共智能收藏集创建、公共收藏集创建，并允许管理员用户删除租户上的资产。
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 # 管理常规租户配置 {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal允许组织为特定租户配置以下功能：
+Experience ManagerAssets Brand Portal允许组织为特定租户配置以下功能：
 
 * 管理员删除资产
 * 非管理员用户创建公共收藏集
@@ -44,7 +44,7 @@ AEM Assets Brand Portal允许组织为特定租户配置以下功能：
 要启用/禁用以下每个配置：
 
 1. 使用管理员权限登录。
-1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
+1. 从顶部的工具栏中选择Experience Manager徽标以访问管理工具。
 1. 从管理工具面板中，选择&#x200B;**[!UICONTROL 常规]**&#x200B;以打开&#x200B;**[!UICONTROL 常规设置]**&#x200B;页面。
 1. 使用相应的切换开关启用/禁用任何常规配置。
 1. **[!UICONTROL 保存更改。]**

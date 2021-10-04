@@ -1,8 +1,8 @@
 ---
 title: 使用自定义搜索 Facet
-seo-title: 使用自定义搜索 Facet
+seo-title: Use custom search facets
 description: 管理员可以在“过滤器”面板中添加搜索谓词，以自定义搜索并使搜索功能通用。
-seo-description: 管理员可以在“过滤器”面板中添加搜索谓词，以自定义搜索并使搜索功能通用。
+seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1279'
 ht-degree: 20%
 
 ---
@@ -27,13 +27,13 @@ Brand Portal支持[多面搜索](../using/brand-portal-searching.md#search-using
 
 >[!NOTE]
 >
->AEM允许组织[将自定义搜索表单从AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)发布到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
+>Experience Manager资产允许组织[将自定义搜索表单从AEM作者](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)发布到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
 
 ## 添加搜索谓词 {#add-a-search-predicate}
 
 要向&#x200B;**[!UICONTROL Filters]**&#x200B;面板添加搜索谓词，请执行以下操作：
 
-1. 要访问管理工具，请单击顶部工具栏中的AEM徽标。
+1. 要访问管理工具，请单击顶部工具栏中的Experience Manager徽标。
 
    ![](assets/aemlogo.png)
 

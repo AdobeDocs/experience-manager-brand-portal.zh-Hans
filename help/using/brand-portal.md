@@ -1,22 +1,22 @@
 ---
-title: AEM Assets Brand Portal概述
-seo-title: AEM Assets Brand Portal概述
-description: AEM Assets Brand Portal可以帮助您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。
-seo-description: AEM Assets Brand Portal可以帮助您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。
+title: Experience ManagerAssets Brand Portal概述
+seo-title: Overview of Experience Manager Assets Brand Portal
+description: Experience ManagerAssets Brand Portal可以帮助您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。
+seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1528'
 ht-degree: 7%
 
 ---
 
-# AEM Assets Brand Portal概述{#overview-of-aem-assets-brand-portal}
+# Experience ManagerAssets Brand Portal概述 {#overview-of-aem-assets-brand-portal}
 
 作为营销人员，您有时需要与渠道合作伙伴和内部业务用户协作，以快速创建、管理和向客户交付相关的数字内容。 在整个客户历程中及时交付相关内容对于提高需求、转化、参与度和客户忠诚度至关重要。
 
@@ -24,24 +24,24 @@ ht-degree: 7%
 
 **Adobe Experience Manager(AEM)Assets品牌** 组合重点关注营销人员需要通过提供资产分发和资产贡献功能，与分布在全球的Brand Portal用户进行有效协作。
 
-资产分发允许您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 然而，资产贡献功能使Brand Portal用户能够将资产上传到Brand Portal并发布到AEM Assets，而无需访问创作环境。 贡献功能在Brand Portal中称为&#x200B;**资产源**。 同时，它还改善了Brand Portal在资产分发方面的整体体验，并且改善了Brand Portal用户（外部机构/团队）的贡献，加快了资产的上市时间，并降低了不合规和未授权访问的风险。
+资产分发允许您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 然而，资产贡献功能让Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager资产，而无需访问创作环境。 贡献功能在Brand Portal中称为&#x200B;**资产源**。 同时，它还改善了Brand Portal在资产分发方面的整体体验，并且改善了Brand Portal用户（外部机构/团队）的贡献，加快了资产的上市时间，并降低了不合规和未授权访问的风险。
 请参阅[Brand Portal中的资产源](brand-portal-asset-sourcing.md)。
 
 通过基于浏览器的门户环境，您可以轻松上传、浏览、搜索、预览和导出已批准格式的资产。
 
-## 使用 Brand Portal 配置 AEM Assets {#configure-brand-portal}
+## 使用 Brand Portal 配置 Experience Manager Assets {#configure-brand-portal}
 
 使用Brand Portal配置Adobe Experience Manager Assets可为Brand Portal用户启用资产发布、资产分发和资产贡献功能。
 
 >[!NOTE]
 >
->AEM Assets as aCloud Service、AEM Assets 6.3及更高版本支持使用Brand Portal配置AEM Assets。
+>Experience Manager资产作为Cloud Service、Experience Manager资产6.3及更高版本的Experience Manager，支持使用Brand Portal配置资产。
 
-AEM Assets as aCloud Service通过从Cloud Manager激活Brand Portal，自动配置为Brand Portal。 激活工作流会在后端创建所需的配置，并在与AEM Assets(作为Cloud Service实例)相同的IMS组织上激活Brand Portal。
+Experience ManagerCloud Service是通过从Cloud Manager激活Brand Portal，自动使用Brand Portal进行配置的。 激活工作流会在后端创建所需的配置，并在与Experience Manager资产作为Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-而是，AEM Assets（内部部署版和托管服务版）会使用Brand Portal开发人员控制台通过Adobe手动配置，该控制台可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
+然而，Experience Manager资产（内部部署版和托管服务版）是使用Brand Portal使用Adobe开发人员控制台手动配置的，该控制台可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
 
-有关更多信息，请参阅[使用Brand Portal配置AEM Assets](../using/configure-aem-assets-with-brand-portal.md)。
+有关更多信息，请参阅[使用Brand Portal配置Experience Manager资产](../using/configure-aem-assets-with-brand-portal.md)。
 
 ## Brand Portal中的用户角色 {#Personas}
 
@@ -71,7 +71,7 @@ Brand Portal支持以下用户角色：
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### 来宾用户{#guest-user}
+### 来宾用户 {#guest-user}
 
 任何未经身份验证而对Brand Portal上的资产具有有限访问权限的用户都是来宾用户。 来宾会话允许用户访问公共文件夹和收藏集。 作为来宾用户，您可以浏览资产详细信息，并拥有公共文件夹和收藏集成员的完整资产视图。 您可以搜索、下载公共资产并将其添加到[!UICONTROL Lightbox]收藏集。
 
@@ -133,7 +133,7 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
 [将收藏集发布到 Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## Brand Portal url {#tenant-alias-for-portal-url}的替代别名
+## Brand Portal url的替代别名 {#tenant-alias-for-portal-url}
 
 从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的现有URL使用一个替代（别名）URL。 别名URL可通过在URL中使用备用前缀来创建。\
 请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。 例如，现有域为&#x200B;**[!UICONTROL geometrix.brand-portal.adobe.com]**&#x200B;的组织可以获取根据请求创建的&#x200B;**[!UICONTROL geomettrixinc.brand-portal.adobe.com]**。
@@ -142,7 +142,7 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
 >[!NOTE]
 >
->要在现有门户URL中获取租户名称的别名，组织需要使用新的租户别名创建请求联系Adobe支持。 首先检查别名是否可用，然后创建别名，即可处理此请求。
+>要获取现有门户URL中租户名称的别名，组织需要通过新的租户别名创建请求联系客户支持。 首先检查别名是否可用，然后创建别名，即可处理此请求。
 >
 >要替换旧别名或删除旧别名，需要执行相同的过程。
 
@@ -187,7 +187,7 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
    ![](assets/bplogin-request-access.png)
 
-## 产品管理员授予{#grant-access-to-brand-portal}访问权限
+## 产品管理员授予访问权限 {#grant-access-to-brand-portal}
 
 Brand Portal产品管理员会在其Brand Portal通知区域并通过其收件箱中的电子邮件接收访问请求。
 
@@ -198,7 +198,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域并通过其收件�
 
 您将被重定向到[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)主页。 使用Adobe[!UICONTROL Admin Console]创建用户，并将其分配给在Brand Portal中显示为组的产品配置（以前称为产品配置）。 有关在[!UICONTROL Admin Console]中添加用户的更多信息，请参阅[添加用户](brand-portal-adding-users.md#add-a-user)（按照过程中的步骤4-7添加用户）。
 
-## Brand Portal语言{#brand-portal-language}
+## Brand Portal语 {#brand-portal-language}
 
 您可以从Adobe[!UICONTROL Experience Cloud设置]更改Brand Portal语言。
 
@@ -212,7 +212,7 @@ Brand Portal产品管理员会在其Brand Portal通知区域并通过其收件�
 
 1. 在[!UICONTROL Experience Cloud设置]页面上，从[!UICONTROL 语言]下拉菜单中选择一种语言。
 
-## Brand Portal维护通知{#brand-portal-maintenance-notification}
+## Brand Portal维护通知 {#brand-portal-maintenance-notification}
 
 在计划Brand Portal停机进行维护之前，您登录Brand Portal后，会将通知显示为横幅。 示例通知：
 
@@ -220,13 +220,16 @@ Brand Portal产品管理员会在其Brand Portal通知区域并通过其收件�
 
 您可以关闭此通知并继续使用Brand Portal。 此通知将显示在每个新会话中。
 
-## 版本和系统信息{#release-and-system-information}
+## 发行和系统信息 {#release-and-system-information}
 
 * [新增功能](whats-new.md)
 * [发行说明](brand-portal-release-notes.md)
 * [支持的文件格式](brand-portal-supported-formats.md)
 
-## 相关资源{#related-resources}
+## 相关资源 {#related-resources}
 
-* [Adobe客户关怀](https://helpx.adobe.com/cn/marketing-cloud/contact-support.html)
+<!--
+* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+-->
+
 * [AEM 论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
