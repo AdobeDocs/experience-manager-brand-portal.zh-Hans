@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal允许用户同时从Brand Portal下
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0（及更高版本）中，默认启用&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，该设置使用IBM Aspera Connect来加速资产下载。 在从Brand Portal下载资产之前，在浏览器的扩展中安装IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 有关更多详细信息，请参阅[指南以加快从Brand Portal下载的速度](../using/accelerated-download.md)。
+>在Brand Portal 2020.10.0（及更高版本）中，默认启用&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置，该设置使用IBM Aspera Connect加速资产下载。 在从Brand Portal下载资产之前，在浏览器的扩展中安装IBM Aspera Connect 3.9.9(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 有关更多详细信息，请参阅[指南以加快从Brand Portal下载的速度](../using/accelerated-download.md)。
 >
 >如果您不想使用IBM Aspera Connect并继续正常下载过程，请联系Brand Portal管理员以关闭&#x200B;**[!UICONTROL Fast Download]**&#x200B;设置。
 
@@ -59,13 +59,13 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组�
 
    允许下载资产的自定义演绎版和（或）动态演绎版。
 
-   除原始资产和系统生成的演绎版之外的所有资产演绎版都称为自定义演绎版。 它包括可用于资产的静态和动态演绎版。 任何用户都可以在Experience Manager资产中创建自定义静态演绎版，而只有管理员才能创建自定义动态演绎版。 有关详细信息，请参阅[如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
+   除原始资产和系统生成的演绎版之外的所有资产演绎版都称为自定义演绎版。 它包括可用于资产的静态和动态演绎版。 任何用户都可以在Experience Manager Assets中创建自定义静态演绎版，而只有管理员才能创建自定义动态演绎版。 有关详细信息，请参阅[如何应用图像预设或动态演绎版](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系统呈现版本]**
 
    允许下载系统生成的资产演绎版。
 
-   这些缩略图是根据“DAM更新资产”工作流在Experience Manager资产中自动生成的缩略图。
+   这些缩略图是根据“DAM更新资产”工作流在Experience Manager Assets中自动生成的。
 
 * **[!UICONTROL 资源下载]**
 
@@ -156,14 +156,14 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
       >[!NOTE]
       >
-      >如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，则系统会提示您安装Aspera下载加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+      >如果您是首次下载资产，并且浏览器中未安装IBM Aspera Connect，它将提示您安装Aspera下载加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
 
       >[!NOTE]
       >
       >如果您下载的资产也包括授权资产，则会将您重定向到&#x200B;**[!UICONTROL 版权管理]**&#x200B;页面。 在此页中，选择资产，单击&#x200B;**[!UICONTROL 同意]**，然后单击&#x200B;**[!UICONTROL 下载]**。 如果您选择不同意，则不会下载授权资产。
       > 
-      >受许可证保护的资产具有附加的[许可协议](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，这可通过在Experience Manager资产中设置资产的[元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)来完成。
+      >受许可证保护的资产具有附加的[许可协议](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，这可通过在Experience Manager Assets中设置资产的[元数据属性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)来完成。
 
 
       ![许可资产](assets/licensed-asset-new.png)
@@ -186,9 +186,9 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
    ![下载对话框](assets/download-dialog-box-new.png)
 
-1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，似乎有一个确认框允许使用IBM Aspera Connect加速下载。
+1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会出现一个确认框，允许使用IBM Aspera Connect加速下载。
 
-   要继续使用&#x200B;**[!UICONTROL Fast Download]**，请单击&#x200B;**[!UICONTROL Allow]**。 所有选定的演绎版均使用IBM Aspera Connect下载到zip文件夹中。
+   要继续使用&#x200B;**[!UICONTROL Fast Download]**，请单击&#x200B;**[!UICONTROL Allow]**。 使用IBM Aspera Connect将所有选定的演绎版下载到zip文件夹中。
 
    如果不想使用IBM Aspera Connect，请单击&#x200B;**[!UICONTROL 拒绝]**。 如果拒绝或失败&#x200B;**[!UICONTROL Fast Download]**，则系统会填充一条错误消息。 单击&#x200B;**[!UICONTROL Normal Download]**&#x200B;按钮以继续下载资产。
 
@@ -208,9 +208,9 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 >
 >Brand Portal支持在混合模式和Scene 7模式下配置Dynamic Media。
 >
->(*如果Experience Manager资产创作实例在&#x200B;**Dynamic Media混合模式***上运行)
+>(*如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media混合模式***上运行)
 >
->要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，并且资产的Pyramid tiff演绎版存在于Experience Manager资产创作实例中，资产的创作实例已从中发布。 将资产从Experience Manager资产发布到Brand Portal时，也会发布其金字塔TIFF演绎版。
+>要预览或下载资产的动态演绎版，请确保已启用Dynamic Media，并且资产的Pyramid tiff演绎版存在于资产发布位置的Experience Manager Assets创作实例中。 将资产从Experience Manager Assets发布到Brand Portal时，也会发布其Pyramid tiff呈现版本。
 
 
 
@@ -244,9 +244,9 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
    ![renditions面板](assets/renditions-panel.png)
 
-1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，似乎有一个确认框允许使用IBM Aspera Connect加速下载。
+1. 默认情况下，在&#x200B;**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会出现一个确认框，允许使用IBM Aspera Connect加速下载。
 
-   要继续使用&#x200B;**[!UICONTROL Fast Download]**，请单击&#x200B;**[!UICONTROL Allow]**。 所有选定的演绎版均使用IBM Aspera Connect下载到zip文件夹中。
+   要继续使用&#x200B;**[!UICONTROL Fast Download]**，请单击&#x200B;**[!UICONTROL Allow]**。 使用IBM Aspera Connect将所有选定的演绎版下载到zip文件夹中。
 
    如果使用&#x200B;**[!UICONTROL Fast Download]**&#x200B;拒绝，则系统会填充一条错误消息。 单击&#x200B;**[!UICONTROL Normal Download]**&#x200B;按钮以继续下载资产。
 
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

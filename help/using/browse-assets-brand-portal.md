@@ -9,16 +9,16 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1014'
 ht-degree: 4%
 
 ---
 
 # 在Brand Portal上浏览资产 {#browsing-assets-on-brand-portal}
 
-Experience ManagerAssets Brand Portal提供了各种功能和用户界面元素，有助于在使用不同视图选项时浏览资源、遍历资产层次结构和搜索资产。
+Experience Manager Assets Brand Portal提供了各种功能和用户界面元素，有助于在使用不同视图选项时浏览资源、遍历资产层次结构和搜索资产。
 
 Experience Manager顶部工具栏中的徽标有助于管理员用户访问管理工具面板。
 
@@ -60,7 +60,7 @@ Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航�
 * 大小
 * 尺寸
 
-您可以通过点按/单击卡片对层次结构进行向下导航（注意避免快速操作），或使用标题](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)中的[痕迹导航再次向上导航。
+您可以通过点按/单击卡片对层次结构进行向下导航（注意避免快速操作），或使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
 
 ![](assets/cardquickactions.png)
 
@@ -109,7 +109,7 @@ Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航�
 * 显示资产层次结构的文件夹路径<sup>*</sup>
 * 在Brand Portal上发布资产的日期
 
-通过“路径”列，您可以轻松地识别文件夹层次结构中的资产位置。 您可以通过点按/单击资源名称对层次结构进行向下导航，然后使用标题](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader)中的[痕迹导航再次向上导航。
+通过“路径”列，您可以轻松地识别文件夹层次结构中的资产位置。 您可以通过点按/单击资源名称对层次结构进行向下导航，然后使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."

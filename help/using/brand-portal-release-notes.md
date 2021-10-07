@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 12%
@@ -100,7 +100,7 @@ This release includes the following enhancements:
 
 此版本包括对以下关键问题的修复：
 
-* 大小相同的Contribution文件夹的资产不会从Brand Portal发布到Experience Manager资产。
+* 大小相同的Contribution文件夹的资产不会从Brand Portal发布到Experience Manager Assets。
 * 取消发布资产贡献文件夹后，不会减小贡献文件夹的大小。
 * 用户无法从文件夹删除已应用的元数据架构配置文件。
 * 用户权限页面上的群组计数不正确。
@@ -220,5 +220,5 @@ This release includes the following known issues:
 -->
 
 <!--
-* [Customer Support](https://helpx.adobe.com/contact.html)
+* [Customer Support]()
 -->

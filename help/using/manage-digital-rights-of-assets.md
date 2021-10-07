@@ -1,8 +1,8 @@
 ---
 title: 管理资产的数字权限
-seo-title: 管理资产的数字权限
+seo-title: Manage digital rights of assets
 description: 为资产授予许可并为资产和共享链接设置过期时间，可确保对这些资产进行受控的使用并保护它们。
-seo-description: 为资产授予许可并为资产和共享链接设置过期时间，可确保对这些资产进行受控的使用并保护它们。
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,9 +11,9 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '805'
 ht-degree: 2%
 
 ---
@@ -73,9 +73,9 @@ ht-degree: 2%
 
 ## 授权资产 {#licensed-assets}
 
-授权资产在从Brand Portal下载之前必须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资产时，即表示您同意使用此许可资产协议。 无论是否过期，受许可证保护的资产都可由所有用户查看。 但是，已过期的授权资产的下载和使用会受到限制。 要了解过期的授权资产的行为以及基于用户角色允许的活动，请参阅已过期资产的[使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
+授权资产在从Brand Portal下载之前必须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资产时，即表示您同意使用此许可资产协议。 无论是否过期，受许可证保护的资产都可由所有用户查看。 但是，过期的授权资产的下载和使用受到限制。 要了解过期的授权资产的行为以及基于用户角色允许的活动，请参阅已过期资产的[使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
 
-受许可证保护的资产具有附加的[许可协议](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)，这可通过在AEM Assets中设置资产的[元数据属性](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets)来完成。
+受许可证保护的资产具有附加的[许可协议](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，这可通过在AEM Assets中设置资产的[元数据属性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)来完成。
 
 如果您选择下载受许可证保护的资产，则会将您重定向到&#x200B;**[!UICONTROL 版权管理]**&#x200B;页面。
 

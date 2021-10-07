@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 1%
@@ -19,14 +19,14 @@ ht-degree: 1%
 
 # 常见问题解答 {#frequently-asked-questions}
 
-Brand Portal常见问题解答主要介绍最终用户在使用最新Experience ManagerAssets Brand Portal 6.4.6版本或更早版本时可能遇到的查询和问题。
+Brand Portal常见问题解答主要介绍最终用户在使用最新的Experience Manager Assets Brand Portal 6.4.6版本或更早版本时可能遇到的查询和问题。
 
 
 ## Brand Portal 6.4.6常见问题解答  {#faqs-bp646}
 
 **是的。现有旧版OAuth端点(`https://legacy-oauth.cloud.adobe.io/login`)不起作用。 可能的原因是什么？**
 
-**安。** 已弃用旧版OAuth配置。您必须将Experience Manager资产创作实例升级到最新的Service Pack，并通过Adobe开发人员控制台对其进行配置。 有关详细信息，请参阅[使用Brand Portal配置Experience Manager资产](configure-aem-assets-with-brand-portal.md)。 但是，要使旧版OAuth配置在升级之前一直有效，请将旧版OAuth端点更新为`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**安。** 已弃用旧版OAuth配置。您必须将Experience Manager Assets创作实例升级到最新的Service Pack，并通过Adobe开发人员控制台对其进行配置。 有关详细信息，请参阅[使用Brand Portal配置Experience Manager Assets](configure-aem-assets-with-brand-portal.md)。 但是，要使旧版OAuth配置在升级之前一直有效，请将旧版OAuth端点更新为`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -34,11 +34,11 @@ Brand Portal常见问题解答主要介绍最终用户在使用最新Experience 
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**是的。升级到Adobe开发人员控制台后，我无法将贡献文件夹的资产从Brand Portal发布到Experience Manager资产。 我的创作实例位于Experience Manager资产6.5.4上。原因可能是什么？**
+**是的。升级到“Adobe开发人员控制台”后，我无法将贡献文件夹的资产从Brand Portal发布到Experience Manager Assets。 我的创作实例位于Experience Manager Assets 6.5.4上。原因可能是什么？**
 
-**安。** 是，通过Adobe开发人员控制台将贡献文件夹的资产发布到Experience Manager资产6.5.4时，出现已知问题。
+**安。** 是，通过Adobe开发人员控制台将贡献文件夹的资产发布到Experience Manager Assets 6.5.4时，出现已知问题。
 
-此问题已在Experience Manager资产6.5.5中修复。您可以将Experience Manager资产实例升级到最新的Service Pack，并在Adobe开发人员控制台中[升级您的配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+此问题已在Experience Manager Assets 6.5.5中修复。您可以将Experience Manager Assets实例升级到最新的Service Pack，并在Adobe开发人员控制台中[升级您的配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -46,20 +46,20 @@ Broken link of download hotfix, comment out this section until we have the lates
 For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) and install on your AEM author instance.
 -->
 
-**是的。在Experience Manager资产中，我看不到从Brand Portal发布的贡献文件夹内容。 可能的原因是什么？**
+**是的。我在Experience Manager Assets中看不到从Brand Portal发布的贡献文件夹内容。 可能的原因是什么？**
 
-**安。** 请联系您的Experience Manager资产管理员以验证配置，并确保您的Brand Portal租户仅配置了一个Experience Manager资产创作实例。
+**安。** 请联系Experience Manager Assets管理员以验证配置，并确保您的Brand Portal租户仅配置了一个Experience Manager Assets创作实例。
 
-当您在多个Brand Portal Assets创作实例上配置了Experience Manager租户时，可能会发生此问题。 例如，管理员在暂存和生产环境的Experience Manager资产创作实例上配置相同的Brand Portal租户。 在这种情况下，资产发布会在Brand Portal中触发，但Experience Manager资产创作实例无法导入资产，因为复制代理未收到请求令牌。
+当您在多个Brand Portal创作实例上配置了Experience Manager Assets租户时，可能会出现此问题。 例如，管理员在暂存和生产环境的Experience Manager Assets创作实例上配置相同的Brand Portal租户。 在这种情况下，资产发布会在Brand Portal中触发，但Experience Manager Assets创作实例无法导入资产，因为复制代理未收到请求令牌。
 
 
-**是的。我无法将资产从Experience Manager资产发布到Brand Portal。 复制日志指示连接超时。 是否有快速修复？**
+**是的。我无法将资产从Experience Manager Assets发布到Brand Portal。 复制日志指示连接超时。 是否有快速修复？**
 
 **安。** 如果复制队列中存在多个待处理请求，发布通常会失败并出现超时错误。要解决此问题，请确保将复制代理配置为避免超时。
 
 请执行以下步骤以配置复制代理：
 
-1. 登录到Experience Manager资产创作实例。
+1. 登录到您的Experience Manager Assets创作实例。
 1. 从&#x200B;**工具**&#x200B;面板中，导航到&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 复制]**。
 1. 在“复制”页中，单击&#x200B;**[!UICONTROL 创作代理]**。 您可以看到Brand Portal租户的四个复制代理。
 1. 单击复制代理URL以打开代理详细信息。
@@ -74,7 +74,7 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **是的。Brand Portal 6.4.5版本中有哪些主要更改？**
 
-**安。** Experience ManagerAssets Brand Portal 6.4.5是一个功能版本，通过该版本，Brand Portal用户可以从Brand Portal实例内上传内容，并将贡献文件夹发布回Experience Manager资产，而无需拥有管理员权限。有关更多信息，请参阅Brand Portal中的[资产源](brand-portal-asset-sourcing.md)。
+**安。** Experience Manager Assets Brand Portal 6.4.5是一个功能版本，该版本允许Brand Portal用户从Brand Portal实例内上传内容，并将Contribution文件夹发布回Experience Manager Assets，而无需管理员权限。有关更多信息，请参阅Brand Portal中的[资产源](brand-portal-asset-sourcing.md)。
 
 
 
@@ -99,20 +99,20 @@ For immediate fix on AEM 6.5.4, it is recommended to [download the hotfix](https
 
 **是的。作为Brand Portal用户，我是否需要执行任何操作？**
 
-**安。** Brand Portal 6.4.5版本附带了名为“资产源”的新功能。管理员必须在Experience Manager资产中配置资产源功能，才能为Brand Portal用户启用该功能。 有关更多信息，请参阅[启用资产源](brand-portal-asset-sourcing.md)。
+**安。** Brand Portal 6.4.5版本附带了名为“资产源”的新功能。管理员必须在Experience Manager Assets中配置资产源功能，才能为Brand Portal用户启用该功能。 有关更多信息，请参阅[启用资产源](brand-portal-asset-sourcing.md)。
 
 
 
 **是的。谁可以创建Contribution文件夹？**
 
-**安。** 任何Experience Manager资产用户有权在Experience Manager资产中创建新文件夹，都可以创建贡献文 **** 件夹。要创建&#x200B;**Contribution**&#x200B;文件夹，请创建类型为&#x200B;**Asset Contribution**的新文件夹。
+**安。** 任何有权在Experience Manager Assets中创建新文件夹的Experience Manager Assets用户都可以创建Contribution **** 文件夹。要创建&#x200B;**Contribution**&#x200B;文件夹，请创建类型为&#x200B;**Asset Contribution**的新文件夹。
 此文件夹将与活动的Brand Portal用户共享以供贡献。
 
 
 
 **是的。Contribution文件夹包含什么？**
 
-**安。** **** Contribution文件夹包含两个新建和共 **** 享 **的子文件夹**。最初，NEW文件夹为空，并且SHARED文件夹包含Brand Portal用户的引用内容（可重用资产）。
+**安。** **** Contription文件夹包含两个NEW和 **** SHARED子 **文件夹**。最初，NEW文件夹为空，并且SHARED文件夹包含Brand Portal用户的引用内容（可重用资产）。
 Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**NEW**&#x200B;文件夹中的内容。
 
 
@@ -131,7 +131,7 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 
 **是的。我能否将资产上传到任何允许的文件夹？**
 
-**安。** 并非所有允许的文件夹。Brand Portal用户只能将内容上传到由Experience Manager资产或Brand Portal管理员共享的&#x200B;**Contribution**&#x200B;文件夹。
+**安。** 并非所有允许的文件夹。Brand Portal用户只能将内容上传到Experience Manager Assets或Brand Portal管理员共享的&#x200B;**Contribution**&#x200B;文件夹。
 
 
 
@@ -141,7 +141,7 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 
 >[!NOTE]
 >
->如果您不是现有的Brand Portal用户，请请求Experience Manager资产管理员在Admin Console中创建您的用户，并将您的配置文件添加到Brand Portal用户列表中的用户配置文件。
+>如果您不是现有的Brand Portal用户，请请求Experience Manager Assets管理员在Admin Console中创建您的用户，并将您的配置文件添加到Brand Portal用户列表中的用户配置文件。
 
 **是的。用户导入的CSV文件格式是什么？**
 
@@ -151,25 +151,25 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 
 **是的。“资产贡献用户”下拉列表中填充了哪些用户(Brand Portal参与者)列表？**
 
-**安。** 下拉菜单中的用户是通过Brand Portal用户配置(.csv)文件填充的，该文件上传在Experience Manager资产中。
+**安。** 下拉菜单中的用户将通过上传在Experience Manager Assets中的Brand Portal用户配置(.csv)文件填充。
 
 
 
 **是的。在哪里可以看到导入和发布作业的状态？**
 
-**安。** 在Experience Manager资产中，您可以在异步作业页面中查看导 **** 入的状态。在Brand Portal中，您可以在&#x200B;**[!UICONTROL 工具>资产贡献状态]**&#x200B;中查看发布作业的状态。
+**安。** 在Experience Manager Assets中，您可以在异步作业页面中查看导 **** 入的状态。在Brand Portal中，您可以在&#x200B;**[!UICONTROL 工具>资产贡献状态]**&#x200B;中查看发布作业的状态。
 
 
 
 **是的。定期以Experience Manager运行的导入作业的频率是多少？**
 
-**安。** 在Experience Manager资产中，轮询每5分钟运行一次。
+**安。** 在Experience Manager Assets，轮询每5分钟运行一次。
 
 
 
-**是的。文件夹可以从Brand Portal发布到Experience Manager资产的次数是否存在任何原因？**
+**是的。文件夹可以从Brand Portal发布到Experience Manager Assets的次数是否存在任何原因？**
 
-**安。** 不会，NEWfolder中的所有资产都会 **** 发布到Experience Manager资产，而与之前发布的资产无关。每当&#x200B;**Contribution**&#x200B;文件夹从Brand Portal发布到Experience Manager资产时，它都会覆盖&#x200B;**NEW**&#x200B;文件夹的内容。
+**安。** 不会，NEWfolder中的所有资 **** 产都会发布到Experience Manager Assets，而不考虑它们之前发布的事实。每次将&#x200B;**Contribution**&#x200B;文件夹从Brand Portal发布到Experience Manager Assets时，它都会覆盖&#x200B;**NEW**&#x200B;文件夹的内容。
 
 
 
@@ -185,10 +185,10 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 
 
 
-**是的。如果文件夹从Experience Manager资产发布到Brand Portal，且该文件夹处于流量中，会发生什么情况？**
+**是的。如果文件夹从Experience Manager Assets发布到Brand Portal的流量中，会发生什么情况？**
 
-**安。** 在Experience Manager资产中，每次将文件夹发布到Brand Portal时，都会维护日志。发布时，所有未发布到Brand Portal的资产都会放入复制队列。 触发发布作业后添加到文件夹的任何资产都不会发布到Brand Portal。 当Experience Manager资产用户再次发布文件夹时，只有之前未发布的资产（复制队列中的现有资产）才会发布到Brand Portal。
-对于从Experience Manager资产发布到Brand Portal的任何文件夹，以及Contribution文件夹中的SHARED文件夹，均符合此条件。
+**安。** 在Experience Manager Assets中，每次将文件夹发布到Brand Portal时，都会维护日志。发布时，所有未发布到Brand Portal的资产都会放入复制队列。 触发发布作业后添加到文件夹的任何资产都不会发布到Brand Portal。 当Experience Manager Assets用户再次发布文件夹时，只有之前未发布的资产（复制队列中的现有资产）才会发布到Brand Portal。
+对于从Experience Manager Assets发布到Brand Portal的任何文件夹以及Contribution文件夹中的SHARED文件夹，均适用此条件。
 
 **是的。我应该与谁联系？**
 
@@ -206,5 +206,5 @@ Brand Portal用户访问**Contribution**&#x200B;文件夹，并上传&#x200B;**N
 <!--
 * [](https://daycare.day.com) [Product Access](https://login.marketing.adobe.com)
 
-* [Adobe Customer Support](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Support]()
 -->

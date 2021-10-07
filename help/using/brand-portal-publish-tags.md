@@ -1,7 +1,7 @@
 ---
 title: 将标记发布到 Brand Portal
 seo-title: Publish tags to Brand Portal
-description: 了解如何将标记从Experience Manager资产发布到Brand Portal。
+description: 了解如何将标记从Experience Manager Assets发布到Brand Portal。
 seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 4%
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 # 将标记发布到 Brand Portal {#publish-tags-to-brand-portal}
 
-了解如何将标记从Experience Manager资产发布到Brand Portal。
+了解如何将标记从Experience Manager Assets发布到Brand Portal。
 
-标记可用于组织资产并增强与其关联的资产的可搜索性。 标记可以视为与资产附加的关键字或标签（元数据），并允许在搜索结果中快速找到资产。 要了解如何为Experience Manager资产中的资产分配标记，请参阅[使用标记来组织资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)。
+标记可用于组织资产并增强与其关联的资产的可搜索性。 标记可以视为与资产附加的关键字或标签（元数据），并允许在搜索结果中快速找到资产。 要了解如何为Experience Manager Assets中的资产分配标记，请参阅[使用标记来组织资产](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html)。
 
 将具有关联标记的资产（和收藏集）发布到Brand Portal时，标记(与AEM中的资产和收藏集关联)会自动发布到Brand Portal。 发布的标记有助于搜索以查找关联的资产。
 
@@ -50,7 +50,7 @@ ht-degree: 4%
 
       *（必需）* 标记的显示标题。
    * **[!UICONTROL 名称]**
-      *（必需）* 标记的名称。如果未指定，则从标题中创建有效的节点名称。 请参阅[TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID)。
+      *（必需）* 标记的名称。如果未指定，则从标题中创建有效的节点名称。 请参阅[TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html)。
    * **描述**
 
       *（可选）* 标记的描述。
@@ -67,7 +67,7 @@ ht-degree: 4%
 
 1. **将标记附加到资产（或收藏集）**。
 
-   选择一个资产（或收藏集），然后使用该资产的属性部分或管理标记部分附加所需的标记。 要详细了解如何为AEM Assets中的资产分配标记，请参阅[使用标记来组织资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets)。
+   选择一个资产（或收藏集），然后使用该资产的属性部分或管理标记部分附加所需的标记。 要详细了解如何为AEM Assets中的资产分配标记，请参阅[使用标记来组织资产](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html)。
 
 1. **将资产（或收藏集）发布到Brand Portal**。\
    将资产（或收藏集）发布到Brand Portal时，附加的标记也会在Brand Portal上可用。

@@ -1,7 +1,7 @@
 ---
 title: 共享文件夹
 seo-title: Share folders
-description: Brand Portal不支持资产摄取，因此必须从预配置的Experience Manager资产创作实例将资产发布到Brand Portal。 已发布的资产对Brand Portal的非管理员用户无法访问，除非在使用Experience Manager实例配置复制时进行了配置，因此需要与他们共享。
+description: Brand Portal不支持资产摄取，因此必须从预配置的Experience Manager Assets创作实例将资产发布到Brand Portal。 已发布的资产对Brand Portal的非管理员用户无法访问，除非在使用Experience Manager实例配置复制时进行了配置，因此需要与他们共享。
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 下面介绍了文件夹共享工作流程和用户访问权限：
 
-* 默认情况下，从Experience Manager资产发布到Brand Portal的所有文件夹都只对Brand Portal管理员可见，除非在配置复制时标记为公用。
+* 默认情况下，从Experience Manager Assets发布到Brand Portal的所有文件夹都只对Brand Portal管理员可见，除非在配置复制时标记为公用。
 * 管理员使用&#x200B;**[!UICONTROL 文件夹属性]**&#x200B;控制台与选择性用户或组共享文件夹。 只有与其共享文件夹的用户或组在登录到Brand Portal后才能看到该文件夹。 其他用户看不到该文件夹。
 * 管理员还可以通过&#x200B;**[!UICONTROL 文件夹属性]**&#x200B;控制台中的&#x200B;**[!UICONTROL 公用文件夹]**&#x200B;复选框，将文件夹设为公用文件夹。 所有用户都可以看到公共文件夹。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ### 与Brand Portal上的用户组共享文件夹 {#sharing-folders-with-user-groups-on-brand-portal}
 
-文件夹资产的访问权限取决于其父文件夹的访问权限，而与子文件夹的设置无关。 此行为受AEM中[ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM)的约束，因为子文件夹会从其父文件夹继承ACL。 例如，如果文件夹A包含包含文件夹C的文件夹B，则对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。作为A的子文件夹的文件夹B继承其ACL，作为B的子文件夹的文件夹C继承其ACL。
+文件夹资产的访问权限取决于其父文件夹的访问权限，而与子文件夹的设置无关。 此行为受AEM中[ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)的约束，因为子文件夹会从其父文件夹继承ACL。 例如，如果文件夹A包含包含文件夹C的文件夹B，则对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。作为A的子文件夹的文件夹B继承其ACL，作为B的子文件夹的文件夹C继承其ACL。
 
 同样，具有仅访问文件夹B权限的用户组（或用户）对文件夹C具有相同的访问权限，但对文件夹A没有相同的访问权限。因此，建议组织安排其内容，以便将大多数公开的资产放置在子文件夹中，并限制从子文件夹到根文件夹的访问。
 
@@ -79,7 +79,7 @@ ht-degree: 1%
 
 这些父文件夹是虚拟文件夹，不能对其执行任何操作。 您可以使用锁定图标识别这些虚拟文件夹。
 
-与共享文件夹不同，在&#x200B;**[!UICONTROL 卡片视图]**&#x200B;中悬停或选择操作任务时，不显示任何操作任务。 **** 在列视图和列表视图中选择虚拟文件 **[!UICONTROL 夹时，]** 会显示 **[!UICONTROL “概述”按钮]**。
+与共享文件夹不同，在&#x200B;**[!UICONTROL 卡片视图]**&#x200B;中悬停或选择操作任务时，不显示任何操作任务。 **** 在列视图和列表视图中选择虚拟文件夹时， **[!UICONTROL 会显示]** “概述 **[!UICONTROL ”按钮]**。
 
 >[!NOTE]
 >

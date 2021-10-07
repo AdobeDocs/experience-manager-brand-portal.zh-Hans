@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1124'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
    *使用Omnisearch搜索资产*
 
-要了解智能标记资产的搜索行为，请参阅[了解搜索结果和行为](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
+要了解智能标记资产的搜索行为，请参阅[了解搜索结果和行为](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html)。
 
 ## 在“过滤器”面板中使用Facet进行搜索 {#search-using-facets-in-filters-panel}
 
@@ -70,11 +70,11 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
    >对于非管理员用户， [!UICONTROL 过滤器]面板中的[!UICONTROL 路径浏览器]仅显示与其共享的文件夹（及其上级文件夹）的内容结构。\
    >对于管理员用户，路径浏览器允许导航到Brand Portal中的任意文件夹。
 
-   * **[!UICONTROL 文]** 件类型，以指定要查找的资产文件的类型（图像、文档、多媒体、存档）。此外，您还可以缩小搜索范围，例如，为文档的图像或格式（PDF或MS Word）指定MIME类型（Tiff、位图、GIMP图像）。
+   * **[!UICONTROL 文]** 件类型，以指定要查找的资产文件的类型（图像、文档、多媒体、存档）。此外，您还可以缩小搜索范围，例如，为文档的图像或格式(PDF或MS Word)指定MIME类型（Tiff、位图、GIMP图像）。
    * **[!UICONTROL 文]** 件大小，以根据资产大小搜索资产。您可以为大小范围指定下限和上限，以缩小搜索范围并指定要搜索的度量单位。
-   * **** 状态，用于根据资产状态(如批准（已批准）、请求更改、已拒绝、待定)和到期情况搜索资产。
+   * **** 状态：根据资产状态(如批准（已批准）、请求更改、已拒绝、待定)和到期情况搜索资产。
    * **[!UICONTROL 平均]** 评分，以根据资产评级搜索资产。
-   * **** 方向，以根据资产的方向（水平、垂直、正方形）搜索资产。
+   * **** 方向：根据资产的方向（水平、垂直、正方形）搜索资产。
    * **** 样式：根据资产的样式（彩色、单色）搜索资产。
    * **[!UICONTROL 视]** 频格式，根据视频资产的格式(DVI、Flash、MPEG4、MPEG、OGG Theora、QuickTime、Windows Media、WebM)搜索视频资产。
 

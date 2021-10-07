@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
@@ -59,13 +59,13 @@ Mediaconfiguration如果Experience Manager创作实例在Dynamic Media模式下�
 要处理有关Brand Portal的动态视频，请确保：
 
 * **在DM(Dynamic Media)模式下启动AEM创作**
-在Dynamic Media混合模式或动态媒体模式下启动AEM创作实例( [已配](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) 置Brand Portal) [ [!DNL Scene 7] ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode)。
+在Dynamic Media混合模式或动态媒体模式下启动AEM创作实例( [已配](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 置Brand Portal) [ [!DNL Scene 7] ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html)。
 * **在AEM作者上配置**
-Dynamic Media云服务根据运行AEM作者的Dynamic Media模式，从工具中设置 [Dynamic Media ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) 云服务或 [[!DNL Scene 7] ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) 在AEM作者上 **设置云服务** |  **Cloud Services** |  **Dynamic Media**。
+Dynamic Media云服务根据运行AEM作者的Dynamic Media模式，从工具中设置 [Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 云服务或 [[!DNL Scene 7] ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) 在AEM作者上 **设置云服务** |  **Cloud Services** |  **Dynamic Media**。
 * **在Brand Portal上配置**
 Dynamic Media基于AEM Author上的Dynamic Media云配置，从Brand Portal管理工具 [中配](#configure-dm-hybrid-settings) 置Dynamic Media [[!DNL Scene 7] ](#configure-dm-scene7-settings)  设置或设置。如果您使用的是Brand Portal Hybrid和Dynamic Media **[!UICONTROL S7]**&#x200B;的功能，请确保将[单独的Dynamic Media租户](#separate-tenants)用于配置了Dynamic Media Hybrid和Dynamic Media **[!UICONTROL Scene7]**&#x200B;模式的AEM创作实例。
 * **发布应用了视频编码的文件夹**
-应用 [视频](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) 编码，并将包含富媒体资产的文件夹从AEM创作实例发布到Brand Portal。
+应用 [视频](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 编码，并将包含富媒体资产的文件夹从AEM创作实例发布到Brand Portal。
 * **如果启允许列表用了安全预览，则在SPS中出口IP如果使**
 用Dynamic Media- **[!DNL Scene 7]** (为公司启用 [安全](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) 预览)，则建议公司管理员使用SPS( **[!DNL Scene 7]** Scene 7 [Publishing System)闪存UI来](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) 为相应地区&#x200B;**[!UICONTROL 允许列表域]** 公共出口IP。出口IP如下：
 
@@ -111,7 +111,7 @@ Dynamic Media基于AEM Author上的Dynamic Media云配置，从Brand Portal管�
 
 >[!NOTE]
 >
->[视频编码配置文件](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html)未发布到Brand Portal，而是从&#x200B;**[!UICONTROL Scene 7]**&#x200B;服务器获取。 因此，要在Brand Portal中成功播放视频编码，请确保配置详细信息与AEM创作实例中的[[!UICONTROL Scene7云配置]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices)相同。
+>[视频编码配置文件](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html)未发布到Brand Portal，而是从&#x200B;**[!UICONTROL Scene 7]**&#x200B;服务器获取。 因此，要在Brand Portal中成功播放视频编码，请确保配置详细信息与AEM创作实例中的[Scene7云配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html)相同。
 
 要在Brand Portal租户上设置Dynamic Media配置，请执行以下操作：
 

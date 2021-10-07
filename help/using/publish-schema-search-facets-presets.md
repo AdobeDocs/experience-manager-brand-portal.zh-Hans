@@ -1,18 +1,18 @@
 ---
 title: 将预设、架构和 Facet 发布到 Brand Portal
-seo-title: 将预设、架构和 Facet 发布到 Brand Portal
+seo-title: Publish presets, schema, and facets to Brand Portal
 description: 了解如何将预设、架构和Facet发布到Brand Portal。
-seo-description: 了解如何将预设、架构和Facet发布到Brand Portal。
+seo-description: Learn how to publish presets, schema, and facets to Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: d2bfd06f8cd8a9e78efbc8dd92880e0faae39176
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 3%
+source-wordcount: '1141'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->如果AEM创作实例未在&#x200B;**[!UICONTROL Dynamic Media模式]**&#x200B;中运行(客户尚未购买Dynamic Media)，则上传时不会创建资产的&#x200B;**[!UICONTROL Pyramid TIFF]**&#x200B;演绎版。 图像预设或动态演绎版适用于资产的&#x200B;**[!UICONTROL Pyramid TIFF]**，因此，如果&#x200B;**[!UICONTROL Pyramid TIFF]**&#x200B;在AEM创作实例上不可用，则它也在Brand Portal上不可用。 因此，资产详细信息页面和下载对话框的演绎版边栏中不存在动态演绎版。
+>如果AEM创作实例未在&#x200B;**[!UICONTROL Dynamic Media模式]**&#x200B;中运行(客户尚未购买Dynamic Media)，则上传时不会创建资产的&#x200B;**[!UICONTROL 金字塔TIFF]**&#x200B;演绎版。 图像预设或动态演绎版适用于资产的&#x200B;**[!UICONTROL 金字塔TIFF]**，因此，如果&#x200B;**[!UICONTROL 金字塔TIFF]**&#x200B;在AEM创作实例上不可用，则它也在Brand Portal上不可用。 因此，资产详细信息页面和下载对话框的演绎版边栏中不存在动态演绎版。
 
 要将图像预设发布到Brand Portal，请执行以下操作：
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后点按/单击&#x200B;**[!UICONTROL 工具]**&#x200B;图标，然后导航到&#x200B;**[!UICONTROL 资产>图像预设]**。
 1. 选择图像预设，然后从顶部可用的选项中选择&#x200B;**[!UICONTROL 从Brand Portal中删除]** 。
 
-## 将元数据架构发布到Brand Portal {#publish-metadata-schema-to-brand-portal}
+## 将元数据架构发布到Brand Portal  {#publish-metadata-schema-to-brand-portal}
 
 元数据架构描述资产/收藏集的属性页面上显示的布局和属性。
 
@@ -85,7 +85,7 @@ ht-degree: 3%
 
 ## 将搜索彩块化发布到Brand Portal {#publish-search-facets-to-brand-portal}
 
-搜索表单为Brand Portal上的用户提供了[多面搜索](../using/brand-portal-search-facets.md)的功能。 搜索彩块化可为Brand Portal上的搜索提供更大的粒度。 在搜索表单中添加的所有[谓词](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-facets.html#AddingaPredicate)作为搜索筛选器中的搜索彩块化可供用户使用。
+搜索表单为Brand Portal上的用户提供了[多面搜索](../using/brand-portal-search-facets.md)的功能。 搜索彩块化可为Brand Portal上的搜索提供更大的粒度。 在搜索表单中添加的所有[谓词](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/search-facets.html)作为搜索筛选器中的搜索彩块化可供用户使用。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

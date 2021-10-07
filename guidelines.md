@@ -1,7 +1,7 @@
 ---
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -37,7 +37,7 @@ AEM 文档涵盖标准用例。因此，通常不会记录错误、错误产生�
 
 如果您有关于改进 AEM 文档的任何想法，欢迎向我们贡献内容。但是，评论、问题和拉取请求仅适用于&#x200B;*贡献内容*。它们不用于回答有关如何使用 AEM、实施 AEM 项目，或解决技术难题的问题。
 
-如果您对 AEM 的使用或技术错误有任何疑问，应采用常规支持流程通过 [Experience Cloud 企业支持门户](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)报告，或在 [Experience Manager 社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)中讨论。
+如果您对 AEM 的使用或技术错误有任何疑问，应采用常规支持流程通过 [Experience Cloud 企业支持门户](https://experienceleague.adobe.com/?support-solution=General#support)报告，或在 [Experience Manager 社区](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)中讨论。
 
 ***AEM文档贡献内容不是Adobe客户支持的替*** 代品，任何寻求支持相关问题答案的此类贡献内容都将被拒绝。
 
