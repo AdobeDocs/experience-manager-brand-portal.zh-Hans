@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e970775efa611357378516119077a3bfd52b124f
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Mediaconfiguration如果Experience Manager创作实例在Dynamic Media模式下�
 
 >[!NOTE]
 >
->配置了在&#x200B;**[!UICONTROL Scene7Connect]**&#x200B;运行模式上运行“Experience Manager作者”的Brand Portal租户上不支持动态视频。
+>配置了在&#x200B;**[!UICONTROL Scene7Connect]**&#x200B;运行模式上运行的“Experience Manager作者”的Brand Portal租户上不支持动态视频。
 
 ## 动态视频的播放方式是如何？ {#how-are-dynamic-videos-played}
 
@@ -71,8 +71,8 @@ Dynamic Media基于AEM Author上的Dynamic Media云配置，从Brand Portal管�
 
 | **区域** | **出口IP** |
 |--- |--- |
-| NA | 130.248.160.66, 52.151.32.108 |
-| 欧洲、中东和非洲 | 185.34.189.1 |
+| NA | 130.248.160.68, 20.94.203.130 |
+| 欧洲、中东和非洲 | 185.34.189.3, 51.132.146.75 |
 | APAC | 63.140.44.54 |
 
 要允许列出这些出口IP中的任一IP，请参阅[为安全测试服务准备帐户](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service)。
