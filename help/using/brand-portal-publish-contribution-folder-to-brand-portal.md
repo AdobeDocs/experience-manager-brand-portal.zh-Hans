@@ -10,18 +10,18 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
 
-# 在Experience Manager Assets中配置Contribution文件夹 {#configure-contribution-folder}
+# Configure contribution folder in Experience Manager Assets {#configure-contribution-folder}
 
-对于协作资产源，Experience Manager Assets用户（管理员和具有权限的非管理员用户）可以创建类型为&#x200B;**资产贡献**&#x200B;的新文件夹，以确保创建的新文件夹对Brand Portal用户提交资产的操作是开放的。  这会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建另外两个子文件夹，分别称为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。
+对于协作资产源，Experience Manager Assets用户（管理员和具有权限的非管理员用户）可以创建类型为&#x200B;**资产贡献**&#x200B;的新文件夹，以确保创建的新文件夹对Brand Portal用户提交资产的操作是开放的。  This automatically triggers a workflow which creates two additional sub folders, called **SHARED** and **NEW**, within the newly created **Contribution** folder.
 
-然后，Experience Manager Assets用户通过将关于应添加到贡献文件夹的资产类型以及一组基准资产的简报上传到&#x200B;**SHARED**&#x200B;文件夹来定义资产要求，以确保Brand Portal用户具备所需的信息。 然后，管理员可以在将新创建的Contribution文件夹发布到Brand Portal之前，向活动的Brand Portal用户授予对Contribution文件夹的访问权限。
+然后，Experience Manager Assets用户通过将关于应添加到贡献文件夹的资产类型以及一组基准资产的简报上传到&#x200B;**SHARED**&#x200B;文件夹来定义资产要求，以确保Brand Portal用户具备所需的信息。 The administrator can then grant active Brand Portal users access to the contribution folder before publishing the newly created Contribution folder to Brand Portal.
 
 以下视频演示了如何在Experience Manager Assets中配置Contribution文件夹：
 
@@ -34,23 +34,23 @@ Experience Manager Assets用户在配置贡献文件夹时，会执行以下活�
 * [上传基准资产](#uplad-new-assets-to-contribution-folder)
 * [将贡献文件夹从Experience Manager Assets发布到Brand Portal](#publish-contribution-folder-to-brand-portal)
 
-## 创建贡献文件夹 {#create-contribution-folder}
+## Create contribution folder {#create-contribution-folder}
 
 
 Experience Manager Assets管理员和有权创建新文件夹的非管理员用户可以在Experience Manager Assets中创建贡献文件夹。
-要创建贡献文件夹，请创建一个类型为“资产贡献”的新文件夹，并确保创建的新文件夹已打开，可供Brand Portal用户提交资产。  这会自动触发一个工作流，该工作流会在贡献文件夹内创建另外两个子文件夹，称为SHARED和NEW。
+To create a contribution folder, create a new folder of type Asset Contribution, ensuring the new folder created is open to asset submission by Brand Portal users.  这会自动触发一个工作流，该工作流会在贡献文件夹内创建另外两个子文件夹，称为SHARED和NEW。
 
 
 >[!NOTE]
 >
->您可以在一个文件夹中创建多个贡献文件夹。
+>管理员可以在一个文件夹中创建多个资产贡献文件夹。
 >
->资产贡献文件夹包含用于资产分发和贡献的新文件夹和共享文件夹。 请勿在资产贡献文件夹中创建资产、文件夹或贡献文件夹。
+>An asset contribution folder contains NEW and SHARED folders for the distribution and contribution of the assets. Do not create an asset, folder, or contribution folder within a contribution folder.
 
 
-您可以在创建贡献文件夹时，分别配置贡献文件夹属性。 在本例中，我们将分别配置这些属性。
+您可以在创建贡献文件夹时，分别配置贡献文件夹属性。 In this example, we are configuring the properties separately.
 
-**要创建贡献文件夹，请执行以下操作：**
+**To create a contribution folder:**
 
 1. 登录到Experience Manager Assets实例。
 
@@ -58,7 +58,7 @@ Experience Manager Assets管理员和有权创建新文件夹的非管理员用�
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建新文件夹。 **[!UICONTROL 创建文]** 件夹对话框打开。
 
-1. 输入文件夹的&#x200B;**[!UICONTROL 标题]**&#x200B;和&#x200B;**[!UICONTROL 名称]** ，然后选中&#x200B;**[!UICONTROL 资产贡献]**复选框。
+1. Enter **[!UICONTROL Title]** and **[!UICONTROL Name]** of the folder and select the **[!UICONTROL Asset Contribution]** check box.
 建议使用不带任何空格的小写字母来命名文件夹。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。您可以在Experience Manager Assets存储库中看到列出的贡献文件夹。
@@ -90,28 +90,28 @@ Experience Manager Assets管理员在配置贡献文件夹的属性时，会执�
 1. 登录到Experience Manager Assets实例。
 
 1. 导航至&#x200B;**[!UICONTROL 资产>文件]**，然后找到贡献文件夹。
-1. 选择贡献文件夹，然后单击&#x200B;**[!UICONTROL 属性]**&#x200B;以打开“文件夹属性”窗口。
+1. Select contribution folder and click **[!UICONTROL Properties]** to open the Folder properties window.
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
 1. 导航到&#x200B;**[!UICONTROL 资产贡献]**&#x200B;选项卡。
-1. 输入贡献文件夹的高级&#x200B;**[!UICONTROL 描述]**。
-1. 单击&#x200B;**[!UICONTROL 上传Brief]**&#x200B;可从本地计算机浏览并上传&#x200B;**资产要求文档**。
+1. Enter high-level **[!UICONTROL Description]** of the contribution folder.
+1. Click **[!UICONTROL Upload Brief]** to browse from your local machine and upload an **Asset Requirement Document**.
 
    ![](assets/upload.png)
 
-1. 在&#x200B;**[!UICONTROL 添加用户]**&#x200B;字段中，添加要与其共享贡献文件夹的Brand Portal用户。 这些用户可以使用Brand Portal界面访问内容并将内容上传到Contribution文件夹。
+1. 在&#x200B;**[!UICONTROL 添加用户]**&#x200B;字段中，添加要与其共享贡献文件夹的Brand Portal用户。 These users can access and upload content to the contribution folder using the Brand Portal interface.
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
 >
->搜索结果基于在Experience Manager Assets中配置的Brand Portal用户列表。 确保已更新Brand Portal用户列表。
+>The search results are based on the Brand Portal user list configured in Experience Manager Assets. Make sure you have the updated Brand Portal user list.
 
-## 将资产上传到贡献文件夹 {#uplad-new-assets-to-contribution-folder}
+## Upload assets to contribution folder {#uplad-new-assets-to-contribution-folder}
 
 Brand Portal用户可以下载资产要求，以了解贡献的需要。
 然后，他们可以创建新资产以进行贡献，并将其上传到贡献文件夹中的NEW文件夹。
@@ -131,13 +131,13 @@ Brand Portal用户可以下载资产要求，以了解贡献的需要。
 >
 >建议在将贡献文件夹发布到Experience Manager Assets后释放上传空间，以便其他Brand Portal用户可以使用该文件夹进行贡献。
 >
->如果需要将Brand Portal租户的上载限制扩展到&#x200B;**10** GB以外，请联系客户支持部门以指定要求。
+>If there is a need to extend the upload limit of your Brand Portal tenant beyond **10** GB, contact Customer Support specifying the requirement.
 
 
 **要上传新资产，请执行以下操作：**
 
 1. 登录到Brand Portal实例。
-Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件夹以及新共享的贡献文件夹。
+The Brand Portal dashboard reflects all the existing folders permitted to the Brand Portal user along with the newly shared contribution folder.
 
 1. 选择贡献文件夹，然后单击以将其打开。 贡献文件夹包含两个子文件夹 — **[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。
 
@@ -149,16 +149,16 @@ Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件�
 
    ![](assets/upload-new-assets2.png)
 
-1. 浏览资产（文件或文件夹）并将其上传到&#x200B;**[!UICONTROL NEW]**&#x200B;文件夹。
+1. Browse and upload assets (files or folders) to the **[!UICONTROL NEW]** folder.
 
    ![](assets/upload-new-assets3.png)
 
-将所有资产或文件夹上传到NEW文件夹后，将Contribution文件夹发布到Experience Manager Assets。
+After uploading all the assets or folders to the NEW folder, publish the contribution folder to Experience Manager Assets.
 
 
-## 将贡献文件夹发布到Brand Portal {#publish-contribution-folder-to-brand-portal}
+## Publish contribution folder to Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-配置贡献文件夹后，Experience Manager Assets用户（管理员/非管理员用户）可以将贡献文件夹从Experience Manager Assets发布到Brand Portal。 具有访问贡献文件夹权限的Brand Portal用户将在发布操作完成时收到电子邮件/脉冲通知。
+Once the contribution folder is configured, Experience Manager Assets user (administrator/non-admin user) can publish the contribution folder from Experience Manager Assets to Brand Portal. 具有访问贡献文件夹权限的Brand Portal用户将在发布操作完成时收到电子邮件/脉冲通知。
 
 
 **要发布贡献文件夹，请执行以下操作：**
@@ -172,4 +172,4 @@ Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件�
 
    将贡献文件夹发布到Brand Portal后，您将收到一条成功消息。
 
-电子邮件/脉冲通知会发送给分配到贡献文件夹的Brand Portal用户。 Brand Portal用户可以访问贡献文件夹并开始贡献。 请参阅[将资产上传到Contribution文件夹并发布到Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)。
+电子邮件/脉冲通知会发送给分配到贡献文件夹的Brand Portal用户。 Brand Portal用户可以访问贡献文件夹并开始贡献。 See, [Upload assets to the contribution folder and publish to Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).

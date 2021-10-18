@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 在Brand Portal上浏览资产 {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal提供了各种功能和用户界面元素，有助于在使用不同视图选项时浏览资源、遍历资产层次结构和搜索资产。
+Experience Manager Assets Brand Portal provides various capabilities and user interface elements that facilitate browsing through resources, traversing asset hierarchies, and searching assets while using different view options.
 
 Experience Manager顶部工具栏中的徽标有助于管理员用户访问管理工具面板。
 
@@ -26,9 +26,9 @@ Experience Manager顶部工具栏中的徽标有助于管理员用户访问管�
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
-Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航到资产层次结构的选项、简化搜索并显示资源。
+Rail selector at the upper left in Brand Portal drops-down to expose options to navigate into asset hierarchies, streamline your search, and display resources.
 
 ![](assets/siderail-1.png)
 
@@ -52,7 +52,7 @@ Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航�
 
 卡片视图显示各个项目在当前级别的信息卡片。这些卡片提供了以下详细信息：
 
-* 资产/文件夹的可视表示形式。
+* A visual representation of the asset/folder.
 * 类型
 * 标题
 * 名称
@@ -64,10 +64,10 @@ Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航�
 
 ![](assets/cardquickactions.png)
 
-#### 非管理员用户的卡片视图
+#### Card view for non-admin users
 
 文件夹卡片在卡片视图中向非管理员用户（编辑者、查看者和来宾用户）显示文件夹层次结构信息。 通过此功能，用户可以了解文件夹的位置以及他们正在访问的文件夹相对于父层次结构的位置。
-文件夹层次结构信息在区分名称与从其他文件夹层次结构共享的其他文件夹相似的文件夹时特别有用。 如果非管理员用户不知道与他们共享的资产的文件夹结构，则名称相似的资产/文件夹似乎会令人困惑。
+文件夹层次结构信息在区分名称与从其他文件夹层次结构共享的其他文件夹相似的文件夹时特别有用。 If the non-admin users are not aware of the folder structure of the assets shared with them, assets /folders with similar names seem confusing.
 
 * 相应卡片上显示的路径会被截断以适合卡片大小。 但是，用户可以将完整路径视为将鼠标悬停在截断路径上的工具提示。
 
@@ -75,7 +75,7 @@ Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航�
 
 **查看资产属性的概述选项**
 
-非管理员用户（编辑者、查看者、来宾用户）可以使用概述选项来查看选定资产/文件夹的资产属性。 概述选项可见：
+Overview option is available to non-admin users (Editors, Viewers, Guest users) to view Asset Properties of selected assets/folders. 概述选项可见：
 
 * （位于顶部的工具栏中）。
 * 在下拉菜单中，选择边栏选择器。
@@ -106,10 +106,10 @@ Brand Portal左上角的边栏选择器下拉列表，用于显示用于导航�
 * Dimension
 * 大小
 * 评级
-* 显示资产层次结构的文件夹路径<sup>*</sup>
+* Folder path showing asset hierarchy
 * 在Brand Portal上发布资产的日期
 
-通过“路径”列，您可以轻松地识别文件夹层次结构中的资产位置。 您可以通过点按/单击资源名称对层次结构进行向下导航，然后使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
+Path column lets you easily identify asset location in the folder hierarchy. 您可以通过点按/单击资源名称对层次结构进行向下导航，然后使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 在列表视图中查看设置
 
-默认情况下，列表视图将资产&#x200B;**[!UICONTROL 名称]**&#x200B;显示为第一列。 此外，还显示资产&#x200B;**[!UICONTROL 标题]**、**[!UICONTROL 区域设置]**、**[!UICONTROL 类型]**、**[!UICONTROL Dimension]**、**[!UICONTROL 大小]**、**[!UICONTROL 评级]**、发布状态等其他信息。 但是，您可以使用&#x200B;**[!UICONTROL 查看设置]**&#x200B;选择要显示的列。
+List view shows asset **[!UICONTROL Name]** as the first column by default. 此外，还显示资产&#x200B;**[!UICONTROL 标题]**、**[!UICONTROL 区域设置]**、**[!UICONTROL 类型]**、**[!UICONTROL Dimension]**、**[!UICONTROL 大小]**、**[!UICONTROL 评级]**、发布状态等其他信息。 但是，您可以使用&#x200B;**[!UICONTROL 查看设置]**&#x200B;选择要显示的列。
 
 ![](assets/list-view-setting.png)
 
@@ -134,7 +134,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * 点按或单击资源名称和V形标记时，将突出显示。
 * 点按或单击缩略图会选择资源。
 * 选择后，缩略图上会叠加一个复选标记，并突出显示资源名称。
-* 最终列中将显示选定资源的详细信息。
+* The details of the selected resource are shown in the final column.
 
 在列视图中选择资产后，该资产的可视化表示形式会与以下详细信息一起显示在最终列中：
 
@@ -144,7 +144,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 * 资产从AEM发布到Brand Portal的日期和时间
 * 大小
 * 类型
-* 更多详细信息选项，转到资产的详细信息页面
+* More Details option, to go on the details page of the asset
 
 <!--
 Comment Type: draft
@@ -234,21 +234,21 @@ Comment Type: draft
 
 除了这些视图之外，在您查看和选择所需的资产或文件夹时，还可以使用树视图向下展开资产层次结构。
 
-要打开树视图，请点按/单击左上角的边栏选择器，然后从菜单中选择&#x200B;**[!UICONTROL 内容树]**。
+To open the tree view, tap/click the rail selector at upper left and select the **[!UICONTROL Content tree]** from the menu.
 
 ![](assets/contenttree.png)
 
-在内容层次结构中，导航到所需的资产。
+From the content hierarchy, navigate to the desired asset.
 
 ![](assets/content-tree.png)
 
 ## 资源详细信息 {#asset-details}
 
-资产详细信息页面允许您查看资产、下载资产、共享资产链接、将资产移动到收藏集或查看其属性页面。 它还允许您连续浏览同一文件夹中其他资产的详细信息页面。
+资产详细信息页面允许您查看资产、下载资产、共享资产链接、将资产移动到收藏集或查看其属性页面。 It also allows you to navigate through the details page of other assets of the same folder in succession.
 
 ![](assets/asset-detail.png)
 
-要查看资产的元数据或查看其各种演绎版，请使用资产详细信息页面上的边栏选择器。
+To view the asset&#39;s metadata, or view its various renditions, use the rail selector on asset detail page.
 
 ![](assets/asset-overview.png)
 
