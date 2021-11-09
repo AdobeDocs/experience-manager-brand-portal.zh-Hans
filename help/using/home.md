@@ -4,16 +4,16 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Adobe Experience Manager Assets Brand Portal指南
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: d3076552969eb17264f5f27cbe7527470c01299d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 69%
+source-wordcount: '377'
+ht-degree: 64%
 
 ---
 
 # Adobe Experience Manager Assets Brand Portal指南 {#aem-brand-portal}
 
-**Adobe Experience Manager Assets品牌** 门户组织可将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而满足其营销需求。
+**Adobe Experience Manager Assets Brand Portal** 通过将已批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，可帮助组织满足其营销需求。
 
 缺乏安全保障的资产共享解决方案可能导致：
 
@@ -40,11 +40,12 @@ ht-degree: 69%
 |--- |---|
 | [新增功能](whats-new.md) | Brand Portal 相较于之前发布的版本有哪些变化？最新的功能是什么？ |
 | [发行说明](brand-portal-release-notes.md) | 做出的改进、已修复的关键问题以及当前版本中的已知问题。 |
-| [使用 Brand Portal 配置 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何复制Brand Portal与Experience Manager资产以发布资产。 |
-| [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 对Brand Portal和Experience Manager资产之间的复制问题进行故障诊断。 |
+| [使用 Brand Portal 配置 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何复制Brand Portal与Experience Manager Assets以发布资产。 |
+| [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 对Brand Portal和Experience Manager Assets之间的复制问题进行故障诊断。 |
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
 | [Brand Portal 中的资产源](brand-portal-asset-sourcing.md) | 如何在AEM Assets中配置资产源，将Brand Portal中的资产上传并将Contribution文件夹发布回AEM Assets。 |
+| [Brand Portal专题视频](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 通过视频教程了解如何使用Experience Manager Assets Brand Portal。 |
 
 ### 有用资源
 
