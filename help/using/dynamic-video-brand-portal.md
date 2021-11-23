@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 7128c71576ae938a49f9bff0b95b98b7fc480f69
+source-git-commit: 8924ff9c78c065895dd0f8d1099a5488b34a34e2
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1250'
 ht-degree: 3%
 
 ---
@@ -60,11 +60,11 @@ Brand Portal用户可以：
 要处理有关Brand Portal的动态视频，请确保：
 
 * **在Dynamic Media模式下启动Experience Manager作者**
-在中启动Experience Manager创作实例(配置了Brand Portal) [Dynamic Media - [!DNL Scene7] 模式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) 或 [Dynamic Media — 混合模式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 或
+在中启动Experience Manager创作实例(配置了Brand Portal) [Dynamic Media - [!DNL Scene7] 模式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#enabling-dynamic-media-in-scene-mode) 或 [Dynamic Media — 混合模式](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) 或
 * **在Experience Manager作者上配置Dynamic MediaCloud Services**
-根据Dynamic Media模式(Scene7模式或混合模式)Experience Manager作者正在运行的模式，请设置以下任一 [Dynamic MediaCloud Services([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) 或 [Dynamic MediaCloud Services（混合模式）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) 在Experience Manager作者从 **工具** | **Cloud Services** | **Dynamic Media**.
+根据Dynamic Media模式(Scene7模式或混合模式)Experience Manager作者正在运行的模式，请设置以下任一 [Dynamic MediaCloud Services([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) 或 [Dynamic MediaCloud Services（混合模式）](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html?lang=en#configuring-dynamic-media-cloud-services) 在Experience Manager作者从 **工具** | **Cloud Services** | **Dynamic Media**.
 * **在Brand Portal上配置Dynamic Media**
-根据Dynamic Media云在Experience Manager作者上的配置，配置 [Dynamic Media设置](#configure-dm-hybrid-settings) 或 [[!DNL Scene7] 设置](#configure-dm-scene7-settings)  从Brand Portal管理工具。
+根据Dynamic Media云在Experience Manager作者上的配置，配置 [Dynamic Media设置](#configure-dm-hybrid-settings) 或 [[!DNL Scene7] 设置](#configure-dm-scene7-settings) 从Brand Portal管理工具。
 确保 [单独的Brand Portal租户](#separate-tenants) 用于在Dynamic Media中配置的Experience Manager创作实例 —  **[!UICONTROL Scene7]** 模式和Dynamic Media — 混合模式。 特别是当您使用Dynamic Media的功能 **[!UICONTROL S7]** 和Dynamic Media混合。
 * **发布文件夹，并将视频编码应用于Brand Portal**
 应用 [视频编码](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 并将包含富媒体资产的文件夹从Experience Manager创作实例发布到Brand Portal。
@@ -122,7 +122,7 @@ Brand Portal用户可以：
 
 >[!NOTE]
 >
->的 [视频编码配置文件](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 不会发布到Brand Portal，而是从 **[!UICONTROL Scene7]** 服务器。 因此，为了在Brand Portal中成功播放视频编码，请确保配置详细信息与 [Dynamic MediaCloud Services([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-scene7-mode/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) 在Experience Manager创作实例中。
+>的 [视频编码配置文件](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) 不会发布到Brand Portal，而是从 **[!UICONTROL Scene7]** 服务器。 因此，为了在Brand Portal中成功播放视频编码，请确保配置详细信息与 [Dynamic MediaCloud Services([!DNL Scene7] mode)](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html?lang=en#configuring-dynamic-media-cloud-services) 在Experience Manager创作实例中。
 
 要在Brand Portal租户上设置Dynamic Media配置，请执行以下操作：
 
