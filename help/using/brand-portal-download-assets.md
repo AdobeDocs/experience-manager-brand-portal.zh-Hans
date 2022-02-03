@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: fe6677df928a4125185051d80ae3055afb479369
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 3%
@@ -19,11 +19,7 @@ ht-degree: 3%
 
 # 下载资源 {#download-assets-from-bp}
 
-<!-- Before update in Download experience - 26th Aug 2020 comment by Vishabh.
- All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the [download performance](../using/brand-portal-download-assets.md#main-pars-header).
--->
-
-Adobe Experience Manager Assets Brand Portal允许用户同时从Brand Portal下载可供他们访问的资产和文件夹，从而增强了下载体验。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。 请阅读相关内容，了解如何从Brand Portal下载资产（已批准的资产），以及期待从 [下载性能](../using/brand-portal-download-assets.md#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal允许用户同时从Brand Portal下载可供他们访问的资产和文件夹，从而增强了下载体验。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。 请阅读相关内容，了解如何从Brand Portal下载资产（已批准的资产），以及期待从 [下载性能](#expected-download-performance).
 
 
 >[!NOTE]
