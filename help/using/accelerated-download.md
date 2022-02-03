@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 63b7bdd34ff185a96ea69560d2b94c2dc04129de
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
@@ -90,7 +90,7 @@ Adobe Experience Manager Assets Brand Portal通过与按需安装应用程序IBM
 
    要在下载资产时保留Brand Portal文件夹层次结构，请选择 **[!UICONTROL 为每个资产创建单独的文件夹]** 复选框。
 
-   “下载”按钮反映选定项目的计数。 完成应用规则后，单击 **[!UICONTROL 下载项目]**. 要详细了解如何应用规则，请参阅 [下载资产](../using/download-assets.md#download-assets).
+   “下载”按钮反映选定项目的计数。 完成应用规则后，单击 **[!UICONTROL 下载项目]**. 要详细了解如何应用规则，请参阅 [下载资产](../using/brand-portal-download-assets.md#download-assets).
 
    ![下载对话框](assets/download-dialog-box-new.png)
 

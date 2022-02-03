@@ -8,10 +8,10 @@ breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 Experience Manager Assets Brand Portal，通过将获准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载来满足营销需求。
 feature: Brand Portal
 role: User
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 75%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    + [在 Brand Portal 上搜索资产](using/brand-portal-searching.md)
    + [使用自定义搜索 Facet](using/brand-portal-search-facets.md)
 + 使用下载功能 {#download}
-   + [下载资源](using/download-assets.md)
+   + [下载资源](using/brand-portal-download-assets.md)
    + [Brand Portal 上的动态视频支持](using/dynamic-video-brand-portal.md)
    + [管理 Lightbox 收藏集](using/brand-portal-light-box.md)
    + [管理资产的数字权限](using/manage-digital-rights-of-assets.md)
