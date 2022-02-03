@@ -1,8 +1,8 @@
 ---
 title: 发行说明
 seo-title: Release Notes
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2021.10.0版本中的功能、增强功能、已修复的关键问题和已知问题。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2021.10.0 release.
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2022.02.0版本中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,29 +10,29 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 853b4f8abf085bdad4f9537aacb23b8c45a083d5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 12%
+source-wordcount: '537'
+ht-degree: 10%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2021.10.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2022.02.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2021.10.0 |
-| 日期 | 2021年10月 |
+| 版本 | 2022.02.0 |
+| 日期 | 2022年2月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2021.10.0 的新增功能 {#whats-new-in-2021.10.0}
+## 2022.02.0 的新增功能 {#whats-new-in-2022.02.0}
 
 <!--
 ### New Features {#new-features}
@@ -100,11 +100,16 @@ This release includes the following enhancements:
 
 此版本包括对以下关键问题的修复：
 
-* 大小相同的Contribution文件夹的资产不会从Brand Portal发布到Experience Manager Assets。
-* 取消发布资产贡献文件夹后，不会减小贡献文件夹的大小。
-* 用户无法从文件夹删除已应用的元数据架构配置文件。
-* 用户权限页面上的群组计数不正确。
-* 在列表中导航时，收藏集页面会花费过长的时间。
+* 用户无法搜索、导航或打开文件夹。 用户界面反映错误消息： `Failed to load data`.
+* 的 **[!UICONTROL 演绎版]** 面板中未列出发布到Brand Portal的资产的所有静态演绎版。
+* 的 **[!UICONTROL 演绎版]** 面板会列出资产的智能裁剪演绎版，但用户无法预览或下载智能裁剪演绎版。
+* 下载对话框会列出选定资产的智能裁剪演绎版，但用户无法下载智能裁剪演绎版。
+* 非管理员用户在下载资产时只能获取原始资产演绎版。 不会下载系统和自定义演绎版。
+* 应用搜索过滤器下载资产时， `Download` 按钮在“下载”对话框中处于禁用状态，且不允许用户下载资产。
+* 如果 `Smart Tags` 和（或） `Color Tags` ，则下载对话框会列出 `json` 文件作为演绎版并下载这些文件 `json` 文件。
+* 匿名用户无法使用共享链接下载资产，因为该链接重定向到Brand Portal登录页面。
+* 系统未反映活动并发用户数的正确值。
+
 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
@@ -139,6 +144,8 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
    但是，已登录Brand Portal的活动用户可以继续工作，直到其当前会话过期为止。
 
 * 从Brand Portal导航到Admin Console时，管理员可能会看到一个额外的屏幕来选择组织。
+
+* 如果 `Color Tags` ，并且用户会下载文件夹或收藏集， `xml` 文件会针对存档的zip文件夹中文件夹（或收藏集）的每个资产下载。
 
 
 <!--
@@ -204,7 +211,7 @@ This release includes the following known issues:
 
 ## 经过认证的平台 {#certified-platforms}
 
-要确定哪些平台经认证可以随此版本的Brand Portal一起运行，请参阅[技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的“创作用户界面支持的浏览器”部分&#x200B;**中的表格中的**&#x200B;触屏优化UI **支持列。**
+要确定哪些平台经认证可随此版本的Brand Portal一起运行，请参阅 **支持触屏优化UI** 列 **用于创作用户界面的支持的浏览器** 部分 [技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## 链接 {#links}
 

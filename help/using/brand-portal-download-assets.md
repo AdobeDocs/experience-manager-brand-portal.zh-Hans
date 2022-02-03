@@ -1,5 +1,5 @@
 ---
-title: 下载资产
+title: 下载资源
 seo-title: Download assets
 description: 所有用户都可以同时下载可供他们访问的多个资产和文件夹。 这样，就可以安全地分发已批准的品牌资产，以便离线使用。
 seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 98b6ed1aad82d773f0e6d6866d6b197428d3f3df
+source-git-commit: 7f08db48bb259795860415a0569929eef58f8ca5
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '1924'
 ht-degree: 3%
 
 ---
@@ -114,7 +114,7 @@ Brand Portal管理员可以为Brand Portal用户配置资产下载和用户组�
 
 
 
-## 下载资产 {#download-assets}
+## 下载资源 {#download-assets}
 
 Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产的文件夹和收藏集。
 
@@ -123,6 +123,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 >如果您没有访问或下载资产演绎版的权限，请联系Brand Portal管理员。
 
 如果用户有权访问演绎版，则向用户提供增强功能 **[!UICONTROL 下载]** 对话框，其中包含以下功能：
+
 * 在下载列表中查看任何资产的所有可用演绎版。
 * 排除下载不需要的资产演绎版。
 * 只需单击一次，即可将相同的演绎版集应用于所有类似的资产类型。
@@ -186,17 +187,19 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
    ![下载对话框](assets/download-dialog-box-new.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assetsas a Cloud Service** 仅)在即将发布的版本中将修复以下已知问题：
-   >
-   >下载对话框会列出选定资产的智能裁剪演绎版，但用户无法下载智能裁剪演绎版。
-
 1. 默认情况下， **[!UICONTROL 快速下载]** 设置 **[!UICONTROL 下载设置]**. 因此，会出现一个确认框，允许使用IBM Aspera Connect加速下载。
 
    继续使用 **[!UICONTROL 快速下载]**，单击 **[!UICONTROL 允许]**. 使用IBM Aspera Connect将所有选定的演绎版下载到zip文件夹中。
 
    如果您不想使用IBM Aspera Connect，请单击 **[!UICONTROL 拒绝]**. 如果 **[!UICONTROL 快速下载]** 被拒绝或失败时，系统会填充“错误”消息。 单击 **[!UICONTROL 正常下载]** 按钮以继续下载资产。
+
+<!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issue will be fixed in the upcoming release:
+   >
+   >The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
@@ -250,19 +253,22 @@ Brand Portal用户可以从Brand Portal界面下载多个资产、包含资产�
 
    ![renditions面板](assets/renditions-panel.png)
 
-   >[!CAUTION]
-   >
-   >(**Experience Manager Assetsas a Cloud Service** 仅)在即将发布的版本中将修复以下已知问题：
-   >
-   >的 **[!UICONTROL 演绎版]** 面板不会列出2021年12月16日后发布到Brand Portal的所有资产的静态演绎版。
-   >
-   >的 **[!UICONTROL 演绎版]** 面板会列出资产的智能裁剪演绎版，但用户无法预览或下载智能裁剪演绎版。
 
 1. 默认情况下， **[!UICONTROL 快速下载]** 设置 **[!UICONTROL 下载设置]**. 因此，会出现一个确认框，允许使用IBM Aspera Connect加速下载。
 
    继续使用 **[!UICONTROL 快速下载]**，单击 **[!UICONTROL 允许]**. 使用IBM Aspera Connect将所有选定的演绎版下载到zip文件夹中。
 
    如果您拒绝使用 **[!UICONTROL 快速下载]**，则系统会填充一条错误消息。 单击 **[!UICONTROL 正常下载]** 按钮以继续下载资产。
+
+<!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
+   >[!CAUTION]
+   >
+   >(**Experience Manager Assets as a Cloud Service** only) The following known issues will be fixed in the upcoming release:
+   >
+   >The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal after December 16, 2021.
+   >
+   >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+-->
 
 >[!NOTE]
 >
