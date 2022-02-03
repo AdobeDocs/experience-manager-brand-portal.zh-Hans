@@ -5,30 +5,30 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Brand Portal 指南
-user-guide-description: 使用Experience ManagerAssets Brand Portal将已批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而满足营销需求。
+user-guide-description: 使用 Experience Manager Assets Brand Portal，通过将获准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载来满足营销需求。
 feature: Brand Portal
 role: User
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Manager Assets Brand Portal指南 {#using}
+# Adobe Experience Manager Assets Brand Portal 指南 {#using}
 
 + [Brand Portal 指南](using/home.md)
 + 简介 {#introduction}
    + [概述](using/brand-portal.md)
-   + [Experience ManagerAssets Brand Portal的新增功能](using/whats-new.md)
+   + [Experience Manager Assets·Brand Portal的新增功能](using/whats-new.md)
    + [发行说明](using/brand-portal-release-notes.md)
    + [常见问题解答](using/brand-portal-faqs.md)
    + [支持的文件格式](using/brand-portal-supported-formats.md)
    + [来宾访问 Brand Portal](using/guest-access.md)
-   + [了解Brand Portal和Experience Manager资产](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [了解Brand Portal与Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上浏览资产](using/browse-assets-brand-portal.md)
-+ 从Experience Manager资产发布到Brand Portal {#publish}
++ 从Experience Manager Assets发布到Brand Portal {#publish}
    + [使用 Brand Portal 配置 Experience Manager Assets](using/configure-aem-assets-with-brand-portal.md)
    + [将资产发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
@@ -38,8 +38,8 @@ ht-degree: 61%
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的资产源 {#asset-sourcing-in-brand-portal}
    + [资产源概述](using/brand-portal-asset-sourcing.md)
-   + [在Experience Manager资产中配置Contribution文件夹](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [将贡献文件夹发布到Experience Manager资产](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [在Experience Manager Assets中配置Contribution文件夹](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [将贡献文件夹发布到Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 与用户共享资产 {#share}
    + [共享收藏集](using/brand-portal-share-collection.md)
    + [共享文件夹](using/brand-portal-sharing-folders.md)
@@ -48,7 +48,7 @@ ht-degree: 61%
    + [在 Brand Portal 上搜索资产](using/brand-portal-searching.md)
    + [使用自定义搜索 Facet](using/brand-portal-search-facets.md)
 + 使用下载功能 {#download}
-   + [下载资产](using/brand-portal-download-assets.md)
+   + [下载资源](using/download-assets.md)
    + [Brand Portal 上的动态视频支持](using/dynamic-video-brand-portal.md)
    + [管理 Lightbox 收藏集](using/brand-portal-light-box.md)
    + [管理资产的数字权限](using/manage-digital-rights-of-assets.md)

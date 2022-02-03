@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: ec52e1900e4ac9ec664d88c4b5fb492df4d4a32f
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
 source-wordcount: '1528'
 ht-degree: 7%
@@ -22,10 +22,10 @@ ht-degree: 7%
 
 但是，开发解决方案是一项挑战，该解决方案支持与扩展的内部团队、合作伙伴和经销商高效、安全地共享已批准的品牌徽标、准则、活动资产或产品照片。
 
-**Adobe Experience Manager(AEM)Assets品牌** 组合重点关注营销人员需要通过提供资产分发和资产贡献功能，与分布在全球的Brand Portal用户进行有效协作。
+**Adobe Experience Manager(AEM)Assets Brand Portal** 重点关注营销人员通过提供资产分发和资产贡献功能与全球分布的Brand Portal用户进行有效协作的需求。
 
-资产分发允许您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 然而，资产贡献功能使Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 贡献功能在Brand Portal中称为&#x200B;**资产源**。 同时，它还改善了Brand Portal在资产分发方面的整体体验，并且改善了Brand Portal用户（外部机构/团队）的贡献，加快了资产的上市时间，并降低了不合规和未授权访问的风险。
-请参阅[Brand Portal中的资产源](brand-portal-asset-sourcing.md)。
+资产分发允许您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 然而，资产贡献功能使Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 贡献功能称为 **Brand Portal中的资产源**. 同时，它还改善了Brand Portal在资产分发方面的整体体验，并且改善了Brand Portal用户（外部机构/团队）的贡献，加快了资产的上市时间，并降低了不合规和未授权访问的风险。
+看， [Brand Portal中的资产源](brand-portal-asset-sourcing.md).
 
 通过基于浏览器的门户环境，您可以轻松上传、浏览、搜索、预览和导出已批准格式的资产。
 
@@ -41,7 +41,7 @@ Experience Manager Assetsas a Cloud Service通过从Cloud Manager激活Brand Por
 
 而是，Experience Manager Assets（内部部署版和托管服务版）会使用Brand Portal开发人员控制台通过Adobe手动配置，该控制台可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
 
-有关更多信息，请参阅[使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
+有关更多信息，请参阅 [将Experience Manager Assets配置为Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Brand Portal中的用户角色 {#Personas}
 
@@ -75,7 +75,7 @@ Brand Portal支持以下用户角色：
 
 ### 来宾用户 {#guest-user}
 
-任何未经身份验证而对Brand Portal上的资产具有有限访问权限的用户都是来宾用户。 来宾会话允许用户访问公共文件夹和收藏集。 作为来宾用户，您可以浏览资产详细信息，并拥有公共文件夹和收藏集成员的完整资产视图。 您可以搜索、下载公共资产并将其添加到[!UICONTROL Lightbox]收藏集。
+任何未经身份验证而对Brand Portal上的资产具有有限访问权限的用户都是来宾用户。 来宾会话允许用户访问公共文件夹和收藏集。 作为来宾用户，您可以浏览资产详细信息，并拥有公共文件夹和收藏集成员的完整资产视图。 您可以搜索、下载公共资产并将其添加到 [!UICONTROL 灯箱] 收藏集。
 
 但是，来宾会话会限制您创建收藏集和保存的搜索，并进一步共享这些搜索。 来宾会话中的用户无法访问文件夹和收藏集设置，并且无法将资产共享为链接。 以下是来宾用户可以执行的任务列表：
 
@@ -83,9 +83,9 @@ Brand Portal支持以下用户角色：
 
 * [搜索公共资产](brand-portal-searching.md)
 
-* [下载公共资产](brand-portal-download-assets.md)
+* [下载公共资产](download-assets.md)
 
-* [将资产添加到[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+* [将资产添加到 [!UICONTROL 灯箱]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### 查看者 {#viewer}
 
@@ -95,7 +95,7 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
 * [搜索资产](brand-portal-searching.md)
 
-* [下载资产](brand-portal-download-assets.md)
+* [下载资源](download-assets.md)
 
 ### 编辑者 {#editor}
 
@@ -111,7 +111,7 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
 ### 管理员 {#administrator}
 
-管理员包括在[!UICONTROL Admin Console]中标记为系统管理员或Brand Portal产品管理员的用户。 管理员可以添加和删除系统管理员和用户、定义预设、向用户发送电子邮件，以及查看门户使用情况和存储报告。
+管理员包括在中标记为系统管理员或Brand Portal产品管理员的用户 [!UICONTROL Admin Console]. 管理员可以添加和删除系统管理员和用户、定义预设、向用户发送电子邮件，以及查看门户使用情况和存储报告。
 
 管理员可以执行编辑器可以执行的所有任务，以执行以下其他任务：
 
@@ -138,9 +138,9 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 ## Brand Portal url的替代别名 {#tenant-alias-for-portal-url}
 
 从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的现有URL使用一个替代（别名）URL。 别名URL可通过在URL中使用备用前缀来创建。\
-请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。 例如，现有域为`geomettrix.brand-portal.adobe.com`的组织可以根据请求创建`geomettrixinc.brand-portal.adobe.com`。
+请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。 例如，具有现有域的组织 `geomettrix.brand-portal.adobe.com` ceg `geomettrixinc.brand-portal.adobe.com` 已根据请求创建。
 
-但是，AEM创作实例只能[配置](../using/configure-aem-assets-with-brand-portal.md) ，且只能使用租户ID URL，而不能使用租户别名（替代）URL。
+但是，AEM创作实例可以是 [已配置](../using/configure-aem-assets-with-brand-portal.md) 仅使用租户ID URL，而不使用租户别名（备用）URL。
 
 >[!NOTE]
 >
@@ -150,45 +150,45 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
 ## 请求访问Brand Portal {#request-access-to-brand-portal}
 
-用户可以从登录屏幕请求访问Brand Portal。 这些请求将发送给Brand Portal管理员，他们将通过Adobe[!UICONTROL Admin Console]授予用户访问权限。 授予访问权限后，用户会收到通知电子邮件。
+用户可以从登录屏幕请求访问Brand Portal。 这些请求将发送给Brand Portal管理员，管理员会通过Adobe授予用户访问权限 [!UICONTROL Admin Console]. 授予访问权限后，用户会收到通知电子邮件。
 
 要请求访问，请执行以下操作：
 
-1. 从Brand Portal登录页面中，选择&#x200B;**[!UICONTROL Click here]**&#x200B;对应于&#x200B;**[!UICONTROL Need Access?]**. 但是，要进入来宾会话，请选择&#x200B;**[!UICONTROL Click here]**&#x200B;对应于&#x200B;**[!UICONTROL 来宾访问？]**。
+1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]** 对应 **[!UICONTROL 需要访问权限？]**. 但是，要进入来宾会话，请选择 **[!UICONTROL 单击此处]** 对应 **[!UICONTROL 来宾访问？]**.
 
    ![Brand Portal登录屏幕](assets/bp-login-requestaccess.png)
 
-   此时将打开[!UICONTROL 请求访问]页。
+   的 [!UICONTROL 请求访问] 页面。
 
-1. 要请求访问组织的Brand Portal，您必须具有有效的[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]。
+1. 要请求访问组织的Brand Portal，您必须具有 [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID].
 
-   在[!UICONTROL 请求访问]页面中，使用您的ID登录（场景1）或创建[!UICONTROL Adobe ID]（场景2）：
+   在 [!UICONTROL 请求访问] 页面，使用您的ID登录（场景1），或创建 [!UICONTROL Adobe ID] (情景2:
 
    ![[!UICONTROL 请求访问]](assets/bplogin_request_access_2.png)
 
    **场景1**
 
-   1. 如果您具有[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]，请单击&#x200B;**[!UICONTROL 登录]**。
-此时将打开[!UICONTROL 登录]页面。
+   1. 如果您有 [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]或 [!UICONTROL Federated ID]，单击 **[!UICONTROL 登录]**.
+的 [!UICONTROL 登录] 页面。
 
-   1. 提供您的[!UICONTROL Adobe ID]凭据，然后单击&#x200B;**[!UICONTROL 登录]**。
+   1. 提供 [!UICONTROL Adobe ID] 凭据，单击 **[!UICONTROL 登录]**.
 
       ![Adobe登录](assets/bplogin_request_access_3.png)
-   您将被重定向到[!UICONTROL 请求访问]页面。
+   系统会将您重定向到 [!UICONTROL 请求访问] 页面。
 
    **场景2**
 
-   1. 如果您没有[!UICONTROL Adobe ID]，则要创建一个，请单击&#x200B;**[!UICONTROL 从[!UICONTROL 请求访问]页面中的]**获取Adobe ID。
-此时将打开[!UICONTROL 登录]页面。
-   1. 单击&#x200B;**[!UICONTROL 获取Adobe ID]**。
-此时将打开[!UICONTROL Sign up]页面。
+   1. 如果您没有 [!UICONTROL Adobe ID]，要创建一个，请单击 **[!UICONTROL 获取Adobe ID]** 从 [!UICONTROL 请求访问] 页面。
+的 [!UICONTROL 登录] 页面。
+   1. 单击 **[!UICONTROL 获取Adobe ID]**.
+的 [!UICONTROL 注册] 页面。
    1. 输入您的名字和姓氏、电子邮件ID和密码。
-   1. 选择&#x200B;**[!UICONTROL 注册]**。
+   1. 选择 **[!UICONTROL 注册]**.
 
       ![](assets/bplogin_request_access_5.png)
-   您将被重定向到[!UICONTROL 请求访问]页面。
+   系统会将您重定向到 [!UICONTROL 请求访问] 页面。
 
-1. 下一页显示您的姓名和用于请求访问权限的电子邮件ID。 为管理员留下注释，然后单击&#x200B;**[!UICONTROL Submit]**。
+1. 下一页显示您的姓名和用于请求访问权限的电子邮件ID。 为管理员留下注释，然后单击 **[!UICONTROL 提交]**.
 
    ![](assets/bplogin-request-access.png)
 
@@ -198,24 +198,24 @@ Brand Portal产品管理员会在其Brand Portal通知区域并通过其收件�
 
 ![访问请求的通知](assets/bplogin_request_access_7.png)
 
-要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击&#x200B;**[!UICONTROL 授予访问权限]**。
-或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe[!UICONTROL Admin Console]，并将用户添加到相关的产品配置中。
+要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击 **[!UICONTROL 授予访问权限]**.
+或者，产品管理员也可以按照访问请求电子邮件中提供的链接来访问Adobe [!UICONTROL Admin Console] 并将用户添加到相关产品配置。
 
-您将被重定向到[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)主页。 使用Adobe[!UICONTROL Admin Console]创建用户，并将其分配给在Brand Portal中显示为组的产品配置（以前称为产品配置）。 有关在[!UICONTROL Admin Console]中添加用户的更多信息，请参阅[添加用户](brand-portal-adding-users.md#add-a-user)（按照过程中的步骤4-7添加用户）。
+系统会将您重定向到 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 主页。 使用Adobe [!UICONTROL Admin Console] 创建用户并将其分配给在Brand Portal中显示为组的产品配置文件（以前称为产品配置）。 有关在 [!UICONTROL Admin Console]，请参阅 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
 
 ## Brand Portal语 {#brand-portal-language}
 
-您可以从Adobe[!UICONTROL Experience Cloud设置]更改Brand Portal语言。
+您可以将Brand Portal语言从Adobe [!UICONTROL Experience Cloud设置].
 
 ![访问请求的通知](assets/BPLang.png)
 
 要更改语言，请执行以下操作：
 
-1. 从顶部菜单中选择[!UICONTROL User] > [!UICONTROL Edit Profile]。
+1. 选择 [!UICONTROL 用户] > [!UICONTROL 编辑配置文件] 中。
 
    ![编辑个人资料](assets/EditBPProfile.png)
 
-1. 在[!UICONTROL Experience Cloud设置]页面上，从[!UICONTROL 语言]下拉菜单中选择一种语言。
+1. 开 [!UICONTROL Experience Cloud设置] ，请从 [!UICONTROL 语言] 下拉菜单。
 
 ## Brand Portal维护通知 {#brand-portal-maintenance-notification}
 
