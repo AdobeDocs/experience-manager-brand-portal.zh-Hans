@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1225'
 ht-degree: 5%
 
 ---
 
 # 在 Brand Portal 上搜索资产 {#search-assets-on-brand-portal}
 
-Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索相关资产，这些搜索使用过滤器来帮助您进一步缩小搜索范围。 您可以在文件或文件夹级别搜索资产，并将搜索结果另存为智能收藏集。 但是，您无法使用Omnisearch或Facet搜索来搜索收藏集的资产。
+Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索相关资产，这些搜索使用过滤器来帮助您进一步缩小搜索范围。 您可以在文件或文件夹级别搜索资产，并将搜索结果另存为智能收藏集。
+
+>[!NOTE]
+>
+>Brand Portal不支持使用omnisearch进行收藏集搜索。
+>
+>但是，您可以使用 [搜索过滤器以获取相关收藏集的列表](#search-collection).
 
 ## 使用Omnisearch搜索资产 {#search-assets-using-omnisearch}
 
@@ -133,3 +139,12 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 1. 在 **[!UICONTROL 编辑智能收藏集]** 对话框，选择 **[!UICONTROL 另存为]** 并输入智能收藏集的名称。 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/saveas_smartsearch.png)
+
+
+## 搜索收藏集 {#search-collection}
+
+收藏集不支持Omnisearch。 但是，您可以应用搜索过滤器，以从 [!UICONTROL 收藏集] 界面。
+
+从 [!UICONTROL 收藏集] 界面中，单击叠加图标以打开左边栏中的过滤器面板。 从可用过滤器中应用一个或多个搜索过滤器(`modified date`, `access type`和 `tags`)。 它会根据应用的过滤器列出一组最相关的收藏集。
+
+![](assets/collection-search.png)
