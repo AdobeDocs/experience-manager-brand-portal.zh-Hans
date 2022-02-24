@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 3845d9fa17e75d59493383303ca0978349ca0401
+source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件�
 
 >[!NOTE]
 >
->Brand Portal用户只能将资产上传到NEW文件夹。
+>Brand Portal用户可以上传资产(最大 **2** GB（每个文件大小）转到新文件夹。
 >
 >任何Brand Portal租户的上载上限均为 **10** GB，用于累计应用于所有贡献文件夹。
 >
