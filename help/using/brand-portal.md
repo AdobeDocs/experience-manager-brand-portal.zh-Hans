@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 7%
 
 Experience Manager Assetsas a Cloud Service通过从Cloud Manager激活Brand Portal，自动配置为Brand Portal。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-而是，Experience Manager Assets（内部部署版和托管服务版）会使用Brand Portal开发人员控制台通过Adobe手动配置，该控制台可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
+然而，Experience Manager Assets（内部部署版和托管服务版）是使用Adobe Developer Console通过Brand Portal手动配置的，后者可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
 
 有关更多信息，请参阅 [将Experience Manager Assets配置为Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -113,7 +113,11 @@ Brand Portal中的标准用户通常是具有“查看者”角色的用户。 �
 
 管理员包括在中标记为系统管理员或Brand Portal产品管理员的用户 [!UICONTROL Admin Console]. 管理员可以添加和删除系统管理员和用户、定义预设、向用户发送电子邮件，以及查看门户使用情况和存储报告。
 
-管理员可以执行编辑器可以执行的所有任务，以执行以下其他任务：
+>[!NOTE]
+>
+>在Brand Portal中，在 [!UICONTROL Admin Console] 具有与系统管理员相同的权限。
+
+管理员可以执行编辑器可以执行的所有任务。 以下是管理员可以执行的其他任务：
 
 * [管理用户、组和用户角色](brand-portal-adding-users.md)
 
