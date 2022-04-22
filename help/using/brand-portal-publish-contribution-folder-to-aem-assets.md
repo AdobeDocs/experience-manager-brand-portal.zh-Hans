@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件�
 
 ## 将资产上传到贡献文件夹 {#uplad-new-assets-to-contribution-folder}
 
-完成资产要求后，Brand Portal用户可以创建新资产以进行贡献，并将其上传到贡献文件夹的NEW文件夹。
+完成资产要求后，Brand Portal用户可以创建新资产以进行贡献，并将其上传到贡献文件夹的NEW文件夹。 用户可以将多个资产上传到资产贡献文件夹。 但是，一次只能创建一个文件夹。
 
 >[!NOTE]
 >
