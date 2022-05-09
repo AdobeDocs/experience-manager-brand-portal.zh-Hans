@@ -1,38 +1,38 @@
 ---
 title: 发行说明
 seo-title: Release Notes
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2022.02.0版本中的功能、增强功能、已修复的关键问题和已知问题。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.02.0 release.
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2022.05.0版本中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2022.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-contentOwner: Vishabh Gupta
+contentOwner: Anuj Kapoor
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 10%
+source-wordcount: '445'
+ht-degree: 13%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2022.02.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2022.05.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2022.02.0 |
-| 日期 | 2022年2月 |
+| 版本 | 2022.05.0 |
+| 日期 | 2022年5月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2022.02.0 的新增功能 {#whats-new-in-2022.02.0}
+## 2022.05.0 的新增功能 {#whats-new-in-2022.05.0}
 
 <!--
 ### New Features {#new-features}
@@ -93,22 +93,38 @@ This release includes the following enhancements:
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
 * The additional **[!UICONTROL View pages]** option has been removed for multi-page PDFs as the user can now view the PDF pages from the Adobe Document Cloud Viewer.
+
+* The users are unable to search, navigate, or open folders. The user interface reflects the error message: `Failed to load data`. 
+* The **[!UICONTROL Renditions]** panel does not list all the static renditions of the assets that are published to Brand Portal.
+* The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
+* The download dialog lists the smart crop renditions of the selected asset, however, the user cannot download the smart crop renditions. 
+* A non-admin user is getting only the original asset rendition when downloading an asset. The system and custom renditions are not downloaded.  
+* When applying search filter to download an asset, the `Download` button is disabled in the download dialog and does not allows the user to download the asset.
+* If `Smart Tags` and (or) `Color Tags` are enabled, the download dialog lists the `json` files as renditions and downloads these `json` files in the archived zip folder.
+* The anonymous users are unable to download assets using a shared link because the link redirects to the Brand Portal login page. 
+* The system is not reflecting the correct value for the number of active concurrent users.
 -->
+
+### 新增功能 {#new-features}
+
+现在，Brand Portal每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资产。 因此，您无需手动删除Contribution文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 请参阅 [Experience Manager Assets·Brand Portal的新增功能](whats-new.md).
 
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
 此版本包括对以下关键问题的修复：
 
-* 用户无法搜索、导航或打开文件夹。 用户界面反映错误消息： `Failed to load data`.
-* 的 **[!UICONTROL 演绎版]** 面板中未列出发布到Brand Portal的资产的所有静态演绎版。
-* 的 **[!UICONTROL 演绎版]** 面板会列出资产的智能裁剪演绎版，但用户无法预览或下载智能裁剪演绎版。
-* 下载对话框会列出选定资产的智能裁剪演绎版，但用户无法下载智能裁剪演绎版。
-* 非管理员用户在下载资产时只能获取原始资产演绎版。 不会下载系统和自定义演绎版。
-* 应用搜索过滤器下载资产时， `Download` 按钮在“下载”对话框中处于禁用状态，且不允许用户下载资产。
-* 如果 `Smart Tags` 和（或） `Color Tags` ，则下载对话框会列出 `json` 文件作为演绎版并下载这些文件 `json` 文件。
-* 匿名用户无法使用共享链接下载资产，因为该链接重定向到Brand Portal登录页面。
-* 系统未反映活动并发用户数的正确值。
+* 下载包含带有颜色标记的资产的文件夹或收藏集时，也会下载XML文件。
+
+* 下载包含演绎版的视频时，Brand Portal会创建一个无效的.ZIP文件。
+
+* 在AEM作者上创建预设和资产，并将它们发布到Brand Portal，然后在下载资产时选择动态演绎版，此时，您将无法提取下载的资产。 ZIP文件。
+
+* 从Brand Portal上可用的某些文件夹下载视频资产时出现问题。
+
+* 使用电子邮件共享Contribution文件夹的URL时，查看器和编辑器角色在使用痕迹导航访问其父文件夹时遇到问题。
+
+* 来源补充发布报表显示错误的作业开始时间。
 
 
 <!--
@@ -139,13 +155,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 此版本包括以下已知问题：
 
-* 用户在迁移其现有组织期间无法登录Brand Portal。
-
-   但是，已登录Brand Portal的活动用户可以继续工作，直到其当前会话过期为止。
-
-* 从Brand Portal导航到Admin Console时，管理员可能会看到一个额外的屏幕来选择组织。
-
-* 如果 `Color Tags` ，并且用户会下载文件夹或收藏集， `xml` 文件会针对存档的zip文件夹中文件夹（或收藏集）的每个资产下载。
+* 资产源报表内容中的局部本地化。
 
 
 <!--
