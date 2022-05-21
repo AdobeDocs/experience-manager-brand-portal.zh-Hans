@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
+source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1576'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 6%
 
 Experience Manager Assetsas a Cloud Service通过从Cloud Manager激活Brand Portal，自动配置为Brand Portal。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-而是，Experience Manager Assets（内部部署版和托管服务版）会使用Brand Portal开发人员控制台通过Adobe手动配置，该控制台可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
+然而，Experience Manager Assets（内部部署版和托管服务版）是使用Adobe Developer Console通过Brand Portal手动配置的，后者可获取AdobeIdentity Management服务(IMS)令牌以授权Brand Portal租户。
 
 有关更多信息，请参阅 [将Experience Manager Assets配置为Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -73,7 +73,7 @@ Brand Portal支持以下用户角色：
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### 来宾用户（轻量级用户） {#guest-user}
+### 来宾用户 {#guest-user}
 
 Experience Manager Assets Brand Portal允许 [来宾访问](#request-access-to-brand-portal) Brand Portal。 来宾用户无需凭据即可进入门户，并有权访问公共文件夹和收藏集。 作为来宾用户，您可以浏览资产详细信息，并拥有公共文件夹和收藏集成员的完整资产视图。 您可以搜索、下载公共资产并将其添加到 [!UICONTROL 灯箱] 收藏集。
 
@@ -89,9 +89,9 @@ Experience Manager Assets Brand Portal允许 [来宾访问](#request-access-to-b
 
 有关更多信息，请参阅 [来宾访问Brand Portal](../using/guest-access.md).
 
-### 查看器（标准用户） {#viewer}
+### 查看者 {#viewer}
 
-标准用户是在 [!DNL Admin Console] 具有查看器角色的Brand Portal的访问权限。 具有此角色的用户可以登录Brand Portal并访问允许的文件夹、收藏集和资产。 用户还可以浏览、预览、下载和导出资产（原始或特定演绎版）、配置帐户设置，以及搜索资产。 以下是查看器可以执行的任务列表：
+Brand Portal用户在 [!DNL Admin Console] 具有查看器角色的Brand Portal的访问权限。 具有此角色的用户可以登录Brand Portal并访问允许的文件夹、收藏集和资产。 用户还可以浏览、预览、下载和导出资产（原始或特定演绎版）、配置帐户设置，以及搜索资产。 以下是查看器可以执行的任务列表：
 
 * [浏览资产](browse-assets-brand-portal.md)
 
