@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
+source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
 workflow-type: tm+mt
-source-wordcount: '6482'
+source-wordcount: '6493'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,10 @@ Adobe Experience Manager Assets Brand Portal可帮助您跨设备轻松获取、
 * 作业结束时间
 * 作业状态
 * 作业中包含的资产总数
-* 作业中已成功删除的资产总数。
+* 作业中成功删除的资产总数
+* 作业运行后可用的存储总数
 
-![删除报表](assets/deletion-reports.png)
+![删除报告](assets/deletion-reports.png)
 
 您还可以进一步向下展开以查看删除作业中包含的每个资产的详细信息。 资产标题、大小、作者、删除状态和删除时间等详细信息包含在报表中。
 
@@ -336,7 +337,7 @@ Brand Portal管理员可以启用任意组合来配置资产下载。
 
 ## 6.4.6中的更改 {#what-changed-in-646}
 
-在Brand Portal 6.4.6中，更改了AEM Assets和Brand Portal之间的授权渠道。 Brand Portal现在在AEM Assetsas a Cloud Service、AEM Assets 6.3及更高版本上受支持。 在AEM Assets 6.3及更高版本中，Brand Portal之前已通过旧版OAuth网关在经典UI中进行配置，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。 AEM Assets现在可通过Adobe开发人员控制台使用Brand Portal进行配置，以便获取IMS令牌以授权您的Brand Portal租户。
+在Brand Portal 6.4.6中，更改了AEM Assets和Brand Portal之间的授权渠道。 Brand Portal现在在AEM Assetsas a Cloud Service、AEM Assets 6.3及更高版本上受支持。 在AEM Assets 6.3及更高版本中，Brand Portal之前已通过旧版OAuth网关在经典UI中进行配置，该网关使用JWT令牌交换获取IMS访问令牌以进行授权。 AEM Assets现在通过Adobe Developer Console配置了Brand Portal，以便获取IMS令牌以授权您的Brand Portal租户。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->

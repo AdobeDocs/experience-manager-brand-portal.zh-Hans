@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件�
 阅读简介（资产要求文档），并参考基准资产，以了解资产要求。 现在，您可以创建新资产以进行贡献，并将其上传到贡献文件夹。
 
 
-## 将资产上传到贡献文件夹 {#uplad-new-assets-to-contribution-folder}
+## 将资产上传到贡献文件夹 {#upload-new-assets-to-contribution-folder}
 
 完成资产要求后，Brand Portal用户可以创建新资产以进行贡献，并将其上传到贡献文件夹的NEW文件夹。 用户可以将多个资产上传到资产贡献文件夹。 但是，一次只能创建一个文件夹。
 
@@ -138,7 +138,7 @@ Brand Portal用户可以将贡献文件夹发布到Experience Manager Assets，�
 
 * 在Brand Portal中，导航到 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]**. 此报表反映发布工作流程不同阶段的所有发布作业的状态。
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * 在Experience Manager Assets（内部部署或托管服务）中，导航到 **[!UICONTROL 资产]** > **[!UICONTROL 作业]**. 此报表反映所有发布作业的最终状态（成功或错误）。
 
@@ -157,3 +157,58 @@ Brand Portal用户可以将贡献文件夹发布到Experience Manager Assets，�
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## 从Contribution文件夹自动删除已发布到Experience Manager Assets的资产 {#automatically-delete-published-assets-from-contribution-folder}
+
+现在，Brand Portal每十二小时执行一次自动作业，以扫描所有“贡献”文件夹并删除已发布到AEM的所有资产。 因此，您无需手动删除Contribution文件夹中的资产，即可将文件夹大小保留在 [阈值限制](#upload-new-assets-to-contribution-folder). 您还可以监控过去七天内自动执行的删除作业的状态。 作业报表提供以下详细信息：
+
+* 作业开始时间
+* 作业结束时间
+* 作业状态
+* 作业中包含的资产总数
+* 作业中成功删除的资产总数
+* 作业运行后可用的存储总数
+
+   ![删除报告](assets/deletion-reports.png)
+
+您还可以进一步向下展开以查看删除作业中包含的每个资产的详细信息。 资产标题、大小、作者、删除状态和删除时间等详细信息包含在报表中。
+
+![详细的删除报表](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * 客户可以请求Adobe客户支持，以禁用和重新启用自动删除作业功能，或更改其执行频率。
+> * 此功能在Experience Manager6.5.13.0及更高版本中可用。
+
+
+### 查看和下载删除报表 {#view-delete-jobs}
+
+要查看和下载删除作业的报表，请执行以下操作：
+
+1. 在Brand Portal中，导航到 **[!UICONTROL 工具]**>**[!UICONTROL 资产贡献状态]**>**[!UICONTROL 删除报表]** 选项。
+
+1. 选择作业并单击 **[!UICONTROL 查看]** 查看报表。
+
+   查看删除作业中包含的每个资产的详细信息。 资产标题、大小、作者、删除状态和删除时间等详细信息包含在报表中。 单击 **[!UICONTROL 下载]** 以CSV格式下载作业的报表。
+
+   报表中资产的删除状态可以具有以下可能值：
+
+   * **已删除**  — 资产已成功从Contribution文件夹中删除。
+
+   * **未找到** - Brand Portal在“贡献”文件夹中找不到资产。 资产已手动从文件夹中删除。
+
+   * **已跳过** - Brand Portal跳过了资产删除，因为“贡献”文件夹中有一个资产可用的新版本，该版本尚未发布到Experience Manager。
+
+   * **失败** - Brand Portal无法删除资产。 有三次重试尝试删除具有 `Failed` 删除状态。 如果资产第三次重试删除尝试失败，您需要手动删除资产。
+
+### 删除报表
+
+Brand Portal还允许您选择一个或多个报表并手动删除它们。
+
+要删除报表，请执行以下操作：
+
+1. 导航到 **[!UICONTROL 工具]**>**[!UICONTROL 资产贡献状态]**>**[!UICONTROL 删除报表]** 选项。
+
+1. 选择一个或多个报表并单击 **[!UICONTROL 删除]**.
+
+
