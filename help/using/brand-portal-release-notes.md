@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 15%
 
 ---
@@ -37,7 +37,8 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获�
 ### 已修复的关键问题 {#critical-issues-fixed}
 
 此版本包括对以下关键问题的修复：
-* 当NUI无法在Experience Manager中处理资产时，Brand Portal会显示不准确的资产导入状态。
+
+* 当Asset compute无法在Experience Manager中处理资产时，Brand Portal会显示不准确的资产导入状态。
 * 预览操作失败时，不会显示通知来告知失败。
 * 租户上载配额属性设置不准确。
 * 单击 **下载所有项目** 并且资产有大量的演绎版可用，因此Brand Portal会下载无效的.ZIP文件。
