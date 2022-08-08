@@ -10,29 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 5ca00738be59632ffcd481c2d007f869b561b9db
+source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 13%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2022.05.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2022.08.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2022.05.0 |
-| 日期 | 2022年5月 |
+| 版本 | 2022.08.0 |
+| 日期 | 2022年8月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2022.05.0 的新增功能 {#whats-new-in-2022.05.0}
+## 2022.08.0 的新增功能 {#whats-new-in-2022.08.0}
+
+### 已修复的关键问题 {#critical-issues-fixed}
+
+此版本包括对以下关键问题的修复：
+* 当NUI无法在Experience Manager中处理资产时，Brand Portal会显示不准确的资产导入状态。
+* 预览操作失败时，不会显示通知来告知失败。
+* 租户上载配额属性设置不准确。
+* 单击 **下载所有项目** 并且资产有大量的演绎版可用，因此Brand Portal会下载无效的.ZIP文件。
+* 某些字符串的翻译在Brand Portal用户界面中会被截断。
 
 <!--
 ### New Features {#new-features}
@@ -105,28 +114,28 @@ This release includes the following enhancements:
 * The system is not reflecting the correct value for the number of active concurrent users.
 -->
 
-### 新增功能 {#new-features}
+<!--
+### New features {#new-features}
 
-现在，Brand Portal每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资产。 因此，您无需手动删除Contribution文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 请参阅 [Experience Manager Assets·Brand Portal的新增功能](whats-new.md).
+Brand Portal now executes automatic jobs every twelve hours to delete all Brand Portal assets that are published to AEM. As a result, you do not need to delete the assets in the Contribution folder manually to keep the folder size below the threshold limit. See [What's new in Experience Manager Assets Brand Portal](whats-new.md).
+-->
 
+<!--
+This release includes fixes to the following critical issues:
 
-### 已修复的关键问题 {#critical-issues-fixed}
+* When you download a folder or a collection that includes assets with color tags, an XML file gets downloaded as well.
 
-此版本包括对以下关键问题的修复：
+* When you download a video that includes renditions, Brand Portal creates an invalid .ZIP file.
 
-* 下载包含带有颜色标记的资产的文件夹或收藏集时，也会下载XML文件。
+* When you create presets and assets on AEM author and publish them to Brand Portal and then select dynamic renditions while downloading the assets, you cannot extract the downloaded .ZIP file.
 
-* 下载包含演绎版的视频时，Brand Portal会创建一个无效的.ZIP文件。
+* Issues while downloading video assets from certain folders available on Brand Portal.
 
-* 在AEM作者上创建预设和资产，并将它们发布到Brand Portal，然后在下载资产时选择动态演绎版，此时，您将无法提取下载的资产。 ZIP文件。
+* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
-* 从Brand Portal上可用的某些文件夹下载视频资产时出现问题。
-
-* 使用电子邮件共享Contribution文件夹的URL时，查看器和编辑器角色在使用痕迹导航访问其父文件夹时遇到问题。
-
-* 来源补充发布报表显示错误的作业开始时间。
-
-
+* Sourcing published report displays an incorrect job start time.
+>
+ 
 <!--
 * Asset Sourcing email notifications are not delivered for some organizations. 
 
@@ -155,7 +164,7 @@ See [what's new in Brand Portal 2021.02.0](whats-new.md).
 
 此版本包括以下已知问题：
 
-* 资产源报表内容中的局部本地化。
+* 资产源报表内容中的局部本地化
 
 
 <!--

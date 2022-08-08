@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d02b9b347c37e6960f18fe3772b219d0d79dc8c5
+source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
 workflow-type: tm+mt
-source-wordcount: '6493'
-ht-degree: 1%
+source-wordcount: '6498'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 1%
 
 Adobe Experience Manager Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Adobe正在努力改进整体Brand Portal体验。 以下是新增功能和增强功能的先机概述。
 
+## 2022.08.0中的变化 {#what-changed-in-August-2022}
+
+Brand Portal 2022.08.0包含对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+
 ## 2022.05.0中的变化 {#what-changed-in-May-2022}
 
-现在，Brand Portal每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资产。 因此，您无需手动删除Contribution文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 您还可以使用 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]** > **[!UICONTROL 删除报表]** 选项。 作业报表提供以下详细信息：
+ Brand Portal 现在，每十二小时执行一次自动作业，以删除发布到 AEM 的所有 Brand Porta l资产。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 您还可以使用 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]** > **[!UICONTROL 删除报表]** 选项。 作业报表提供以下详细信息：
 
 * 作业开始时间
 * 作业结束时间
