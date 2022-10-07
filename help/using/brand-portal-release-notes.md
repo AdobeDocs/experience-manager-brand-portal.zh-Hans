@@ -10,40 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
+source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 15%
+source-wordcount: '343'
+ht-degree: 16%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2022.08.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2022.10.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2022.08.0 |
-| 日期 | 2022年8月 |
+| 版本 | 2022.10.0 |
+| 日期 | 2022年10月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2022.08.0 的新增功能 {#whats-new-in-2022.08.0}
+## 2022.10.0 的新增功能 {#whats-new-in-2022.10.0}
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
 此版本包括对以下关键问题的修复：
+* 将大文件从Brand Portal复制到第三方工具时响应速度缓慢。
+* 选中演绎版计数复选框时，用于选择各个演绎版的复选框将处于禁用状态。
+* 搜索响应速度缓慢。
 
-* 当Asset compute无法在Experience Manager中处理资产时，Brand Portal会显示不准确的资产导入状态。
-* 预览操作失败时，不会显示通知来告知失败。
-* 租户上载配额属性设置不准确。
-* 单击 **下载所有项目** 并且资产有大量的演绎版可用，因此Brand Portal会下载无效的.ZIP文件。
-* 某些字符串的翻译在Brand Portal用户界面中会被截断。
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portal的脉冲通知将从2022年12月1日起停用。 您将继续接收以下事件的电子邮件通知，而不是Pulse通知：
+>* 通过链接共享资产
+>* 请求访问工作流
+>* 共享贡献文件夹
+>* 开始导出到AEM
+>* 已完成导出到AEM
 
+
+<!--
+## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+* When the preview action fails, there is no notification to communicate the failure.
+* Tenant Upload Quota property is getting inaccurately set for tenants.
+* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The translation of some strings gets truncated on the Brand Portal user interface.
+-->
 <!--
 ### New Features {#new-features}
 
@@ -160,13 +180,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
+### Known Issues {#known-issues}
 
-### 已知问题 {#known-issues}
+This release includes the following known issue:
 
-此版本包括以下已知问题：
-
-* 资产源报表内容中的局部本地化
-
+* Partial localization in Asset sourcing report content
+-->
 
 <!--
 ### Known Issues {#known-issues}
