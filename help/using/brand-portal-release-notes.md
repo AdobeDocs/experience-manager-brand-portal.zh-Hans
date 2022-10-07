@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
+source-git-commit: 6a111a24d999bdbf1aaa306ad95ae359053f374e
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 16%
+source-wordcount: '382'
+ht-degree: 14%
 
 ---
 
@@ -37,18 +37,19 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获�
 ### 已修复的关键问题 {#critical-issues-fixed}
 
 此版本包括对以下关键问题的修复：
+
 * 将大文件从Brand Portal复制到第三方工具时响应速度缓慢。
 * 选中演绎版计数复选框时，用于选择各个演绎版的复选框将处于禁用状态。
 * 搜索响应速度缓慢。
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal的脉冲通知将从2022年12月1日起停用。 您将继续接收以下事件的电子邮件通知，而不是Pulse通知：
->* 通过链接共享资产
->* 请求访问工作流
->* 共享贡献文件夹
->* 开始导出到AEM
->* 已完成导出到AEM
+>AEM Assets Brand Portal的脉冲通知将从2022年12月1日起停用。 您将继续接收有关以下事件的电子邮件通知：
+>* 通过共享链接与您共享Brand Portal资产时
+>* 当管理员批准您的Brand Portal访问请求时。 在您请求获取Brand Portal访问权限时，管理员还会收到通知。
+>* 与您共享贡献文件夹时
+>* 当您开始将资产从Brand Portal发布到AEM时
+>* 将资产成功从Brand Portal发布到AEM
 
 
 <!--
@@ -152,7 +153,7 @@ This release includes fixes to the following critical issues:
 
 * Issues while downloading video assets from certain folders available on Brand Portal.
 
-* When you share the Contribution folder’s URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
+* When you share the Contribution folder's URL using an email, Viewer and Editor roles face issues while accessing its parent folder using the breadcrumb.
 
 * Sourcing published report displays an incorrect job start time.
 >
