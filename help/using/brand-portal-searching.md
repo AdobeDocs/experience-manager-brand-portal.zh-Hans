@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
+source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1254'
 ht-degree: 5%
 
 ---
@@ -55,7 +55,7 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
 “过滤器”面板中的搜索彩块化可为您的搜索体验添加粒度，并提高搜索功能的效率。 搜索彩块化使用多个维度（谓词），允许您执行复杂搜索。 您可以轻松地向下展开到所需的详细信息级别，以便进行更集中的搜索。
 
-例如，如果要查找图像，则可以选择想要位图还是矢量图像。 您可以通过在“文件类型”搜索方面中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS Word格式。
+例如，如果要查找图像，则可以选择想要位图还是矢量图像。 您可以通过在“文件类型”搜索方面中为图像指定MIME类型，进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS® Word格式。
 
 ![Brand Portal中的“过滤器”面板](assets/file-type-search.png "Brand Portal中的“过滤器”面板")
 
@@ -76,7 +76,7 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
    >对于非管理员用户， [!UICONTROL 路径浏览器] in [!UICONTROL 过滤器] 面板仅显示与其共享的文件夹（及其上级文件夹）的内容结构。\
    >对于管理员用户，路径浏览器允许导航到Brand Portal中的任意文件夹。
 
-   * **[!UICONTROL 文件类型]** 要指定要查找的资产文件的类型（图像、文档、多媒体、存档）。 此外，您还可以缩小搜索范围，例如，为文档的图像或格式(PDF或MS Word)指定MIME类型（Tiff、位图、GIMP图像）。
+   * **[!UICONTROL 文件类型]** 要指定要查找的资产文件的类型（图像、文档、多媒体、存档）。 此外，您还可以缩小搜索范围，例如，为文档的图像或格式(PDF或MS® Word)指定MIME类型（Tiff、位图、GIMP图像）。
    * **[!UICONTROL 文件大小]** 以根据资产的大小搜索资产。 您可以为大小范围指定下限和上限，以缩小搜索范围并指定要搜索的度量单位。
    * **[!UICONTROL 状态]** 用于根据资产状态（如“批准”、“请求更改”、“已拒绝”、“待定”）和“到期”)搜索资产。
    * **[!UICONTROL 平均评分]** ，以根据资产的评级搜索资产。
@@ -90,15 +90,24 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
       例如，如果属性谓词映射到 [!UICONTROL `jcr:content /metadata/dc:title`]，您可以根据资产的标题搜索资产。\
       的 [!UICONTROL 属性谓词] 支持文本搜索：
 
-      **部分短语**&#x200B;要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框。\
-      该功能允许您搜索所需的资产，即使您没有指定资产元数据中使用的确切字词/短语。\
+      **部分短语**&#x200B;要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框。该功能允许您搜索所需的资产，即使您没有指定资产元数据中使用的确切字词/短语。
+
+      >[!NOTE]
+      >
+      > Brand Portal支持以下有关部分搜索的字段：
+      >* jcr:content/metadata/dc:title
+      >* jcr:content/jcr:title
+      >* jcr:content/metadata/dam:search_promote
+      >* jcr:content/metadata/dc:format
+
+
       您可以：
       * 在“过滤器”面板的Facet中，指定出现在搜索短语中的单词。 例如，如果您搜索词 **爬升** (并且属性谓词已映射到 [!UICONTROL `dc:title`] 属性)，则所有带单词的资产 **爬升** 返回其标题短语。
-      * 指定出现在搜索短语中的单词的一部分，以及通配符(*)以填补空白。
+      * 指定出现在搜索短语中的单词的一部分，以及通配符(&#42;)以填补空白。
 例如，搜索：
-         * **爬*** 返回所有资产的标题短语中单词的开头为“climb”。
-         * ***爬** 返回标题短语中带有以“climb”字符结尾的所有资产。
-         * ***climb*** 返回所有资产的标题短语中包含字符“climb”的词语。
+         * **爬升&#42;** 返回所有资产的标题短语中单词的开头为“climb”。
+         * **&#42;爬升** 返回标题短语中带有以“climb”字符结尾的所有资产。
+         * **&#42;爬升&#42;** 返回所有资产的标题短语中包含字符“climb”的词语。
 
 要允许在属性谓词中进行不区分大小写的搜索，请启用       **不区分大小写的文本**
 要允许在属性谓词中进行不区分大小写的搜索，请启用 **[!UICONTROL 忽略大小写]** 复选框。 默认情况下，对属性谓词的文本搜索区分大小写。
@@ -136,7 +145,7 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
    ![](assets/edit_smartcollection.png)
 
-1. 在 **[!UICONTROL 编辑智能收藏集]** 对话框，选择 **[!UICONTROL 另存为]** 并输入智能收藏集的名称。 单击&#x200B;**[!UICONTROL 保存]**。
+1. 在 **[!UICONTROL 编辑智能收藏集]** 对话框，选择 **[!UICONTROL 另存为]** 并输入智能收藏集的名称。 单击“**[!UICONTROL 保存]**”。
 
    ![](assets/saveas_smartsearch.png)
 
