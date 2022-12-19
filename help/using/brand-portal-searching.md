@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 541f736c8157a7aa98faf11a426f6d2fd93829e2
+source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
 workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 5%
@@ -94,7 +94,7 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
       >[!NOTE]
       >
-      > Brand Portal支持以下有关部分搜索的字段：
+      > Brand Portal支持以下部分搜索字段：
       >* jcr:content/metadata/dc:title
       >* jcr:content/jcr:title
       >* jcr:content/metadata/dam:search_promote
