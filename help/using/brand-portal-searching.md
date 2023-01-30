@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
+source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1297'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,9 @@ Brand Portal搜索功能允许您使用omnisearch和facet搜索来快速搜索�
 
    >[!NOTE]
    >
-   >Omnisearch中至少需要3个字符才能显示搜索建议。
+   >* Omnisearch中至少需要3个字符才能显示搜索建议。
+   >* 搜索词时 `mountain` 或 `biking` 然后，omnisearch会提供搜索结果并显示文本 `mountain` 和 `biking` 元数据字段中。 否则，行为为或，对于智能标记，则行为为 `mountain` 或 `biking` 检索其各自的智能标记中。
+
 
 1. 从下拉列表中显示的相关建议中进行选择，以快速访问相关资产。
 
