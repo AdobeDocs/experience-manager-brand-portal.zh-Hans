@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '1047'
+ht-degree: 7%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 13%
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | 版本 | 2023.02.0 |
-| 日期 | 2023年2月 |
+| 日期 | 2023 年 2 月 日 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2023.02.0 的新增功能 {#whats-new-in-2023.02.0}
+## 2023.02.0的新增功能 {#whats-new-in-2023.02.0}
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
@@ -62,14 +62,72 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获�
 * 资产源报表内容中的局部本地化。
 * 用户配置文件的少数字段在用户配置文件中不可编辑。
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## 以前版本
+
+### 2022年10月版 {#oct-2022}
+
+**已修复的关键问题**
+
+此版本包括对以下关键问题的修复：
+* 将大文件从Brand Portal复制到第三方工具时响应速度缓慢。
+* 选中演绎版计数复选框时，用于选择各个演绎版的复选框将处于禁用状态。
+* 搜索响应速度缓慢。
+
+>[!IMPORTANT]
+>
+>AEM Assets Brand Portal的脉冲通知将从2022年12月1日起停用。 您将继续接收以下事件的电子邮件通知，而不是Pulse通知：
+>* 通过链接共享资产
+>* 请求访问工作流
+>* 共享贡献文件夹
+>* 开始导出到AEM
+>* 已完成导出到AEM
+>
+
+
+### 2022年8月版 {#aug-2022}
+
+**已修复的关键问题**
+
+此版本包括对以下关键问题的修复：
+* 当NUI无法在Experience Manager中处理资产时，Brand Portal会显示不准确的资产导入状态。
+* 预览操作失败时，不会显示通知来告知失败。
+* 修复了每个资产的totalUploadedSize属性值不准确的问题。
+* 单击 **下载所有项目** 并且资产有大量的演绎版可用，因此Brand Portal会下载无效的.ZIP文件。
+* 某些字符串的翻译在Brand Portal用户界面中会被截断。
+
+### 2022年5月版 {#may-2022}
+
+**新增功能**
+
+ Brand Portal 现在，每十二小时执行一次自动作业，以删除发布到 AEM 的所有 Brand Portal 资产。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 
+
+**已修复的关键问题**
+
+此版本包括对以下关键问题的修复：
+
+* 下载包含带有颜色标记的资产的文件夹或收藏集时，也会下载XML文件。
+* 下载包含演绎版的视频时，Brand Portal会创建一个无效的.ZIP文件。
+* 在AEM作者上创建预设和资产，并将它们发布到Brand Portal，然后在下载资产时选择动态演绎版，此时您将无法提取下载的.ZIP文件。
+* 从Brand Portal上可用的某些文件夹下载视频资产时出现问题。
+* 使用电子邮件共享Contribution文件夹的URL时，查看器和编辑器角色在使用痕迹导航访问其父文件夹时遇到问题。
+* 来源补充发布报表显示错误的作业开始时间。
+
+### 2022年2月版 {#feb-2022}
+
+**新增功能**
+
+* 来宾用户的会话超时阈值已从2小时减少到15分钟。
+* 其他 **[!UICONTROL 查看页面]** 多页面PDF的选项已被删除，因为用户现在可以从Adobe Document Cloud查看器中查看PDF页面。
+* 用户无法搜索、导航或打开文件夹。 用户界面反映错误消息： `Failed to load data`.
+* 的 **[!UICONTROL 演绎版]** 面板中未列出发布到Brand Portal的资产的所有静态演绎版。
+* 的 **[!UICONTROL 演绎版]** 面板会列出资产的智能裁剪演绎版，但用户无法预览或下载智能裁剪演绎版。
+* 下载对话框会列出选定资产的智能裁剪演绎版，但用户无法下载智能裁剪演绎版。
+* 非管理员用户在下载资产时只能获取原始资产演绎版。 不会下载系统和自定义演绎版。
+* 应用搜索过滤器下载资产时， `Download` 按钮在“下载”对话框中处于禁用状态，且不允许用户下载资产。
+* 如果 `Smart Tags` 和（或） `Color Tags` ，则下载对话框会列出 `json` 文件作为演绎版并下载这些文件 `json` 文件。
+* 匿名用户无法使用共享链接下载资产，因为该链接重定向到Brand Portal登录页面。
+* 系统未反映活动并发用户数的正确值。
+
 <!--
 ### New Features {#new-features}
 
@@ -245,20 +303,20 @@ This release includes the following known issues:
 * 巴西葡萄牙语
 * 日语
 * 简体中文
-* 韩语
+* 朝鲜语
 
-## 经过认证的平台 {#certified-platforms}
+## 认证平台 {#certified-platforms}
 
 要确定哪些平台经认证可随此版本的Brand Portal一起运行，请参阅 **支持触屏优化UI** 列 **用于创作用户界面的支持的浏览器** 部分 [技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## 链接 {#links}
 
-* [adobe.com 上的 Adobe Experience Manager 产品页面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Adobe Experience Manager adobe.com上的产品页](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Assets Brand Portal文档](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## 产品访问和支持（受限网站） {#product-access-and-support-restricted-sites}
 
-这些网站仅适用于客户。如果您是客户并需要访问，请联系您的Adobe客户经理。
+这些网站仅供客户使用。 如果您是客户并需要访问，请联系您的Adobe客户经理。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
