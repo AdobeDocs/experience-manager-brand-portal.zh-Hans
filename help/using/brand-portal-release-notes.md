@@ -1,8 +1,8 @@
 ---
 title: 发行说明
 seo-title: Release Notes
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2023.02.0版本中的功能、增强功能、已修复的关键问题和已知问题。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.02.0 release.
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2023.05.0版本中的功能、增强功能、已修复的关键问题和已知问题。
+seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
@@ -10,33 +10,50 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
+source-git-commit: 78168800e22dc1bd18d77b958d1dec4892dc4d2d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1125'
 ht-degree: 7%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2023.02.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2023.05.0版本中的新增功能、增强功能、已修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2023.02.0 |
-| 日期 | 2023 年 2 月 日 |
+| 版本 | 2023.05.0 |
+| 日期 | 2023 年 5 月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将已批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资产。
 
-## 2023.02.0的新增功能 {#whats-new-in-2023.02.0}
+## 2023.05.0的新增功能 {#whats-new-in-2023.05.0}
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
 #### 错误修复 {#bug-fixes}
+
+此版本包括对以下关键问题的修复：
+* 如果从共享链接下载资产时出错，则 `Notice` 和 `Close` 错误提示的标签未本地化。
+* Brand Portal显示屏 **请求标题字段太大** 使用访问搜索过滤器时出错 `Filter` 中。
+
+### 已知问题 {#known-issues}
+
+此版本包括以下已知问题：
+
+* 资产源报表内容中的局部本地化。
+* 用户配置文件的少数字段在用户配置文件中不可编辑。
+
+## 以前版本
+
+### 2023年2月版 {#feb-2023}
+
+**错误修复**
 
 此版本包括对以下关键问题的修复：
 * 无法在Brand Portal上更新用户档案图片。
@@ -44,7 +61,7 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获�
 * 搜索表单中使用两次的同一属性谓词的搜索结果不一致。
 * 中间登录页面上的文本并非针对所有语言进行本地化。
 
-### 增强功能 {#enhancements}
+**增强功能**
 
 此版本包括以下增强功能：
 * 现在提供了新的现代PDF查看器，以改进PDF资产的预览。
@@ -55,14 +72,12 @@ Adobe Experience Manager(AEM)Assets Brand Portal可帮助您跨设备轻松获�
 * 如果请求访问被禁用，则未授权用户无法请求访问Brand Portal。
 * 仅为Brand Portal配置的组织显示在配置文件选取器列表中。
 
-### 已知问题 {#known-issues}
+**已知问题**
 
 此版本包括以下已知问题：
 
 * 资产源报表内容中的局部本地化。
 * 用户配置文件的少数字段在用户配置文件中不可编辑。
-
-## 以前版本
 
 ### 2022年10月版 {#oct-2022}
 

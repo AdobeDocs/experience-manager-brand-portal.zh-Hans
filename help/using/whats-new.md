@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets·Brand Portal的新增功能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2032.02.0的新增功能和增强功能
-seo-description: What are the new features and enhancements for 2023.02.0
+description: 2032.05.0的新增功能和增强功能
+seo-description: What are the new features and enhancements for 2023.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 236204c8bcea7ef8e9f2d4708a65aac88cd77268
+source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6514'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Experience Manager Assets·Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可帮助您跨设备轻松获取、控制和安全地将批准的创意资产分发给外部各方和内部业务用户。 它有助于提高资产共享的效率，加快资产的上市时间，并降低不合规和未经授权访问的风险。 Adobe正在努力改进整体Brand Portal体验。 以下是新增功能和增强功能的先机概述。
+
+## 2023.05.0中的变化 {#what-changed-in-May-2023}
+
+Brand Portal 2023.05.0是一个内部版本，其中包含对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
 
 ## 2023.02.0中的变化 {#what-changed-in-February-2023}
 
@@ -385,9 +389,6 @@ Brand Portal管理员可以启用任意组合来配置资产下载。
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
-| **AEM 6.4（6.4.8.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
-| **AEM 6.3（6.3.3.8及更高版本）** | [创建配置](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [升级配置](https://helpx.adobe.com/cn/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
-| **AEM 6.2** | 联系客户支持 | 联系客户支持 |
 
 >[!NOTE]
 >
@@ -440,7 +441,7 @@ Brand Portal用户只能将资产上传到 **新建** 子文件夹。 的 **共�
 
 ## 6.4.4中的更改 {#what-changed-in-644}
 
-Brand Portal 6.4.4 版主要增强了文本搜索和常见客户请求。查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 6.4.4版本重点关注对文本搜索和热门客户请求的增强。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
 
 ### 搜索增强功能
 
@@ -552,7 +553,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 ### 计划发布到Brand Portal
 
-资产（和文件夹）的发布工作流程 [AEM(6.4.2.0)](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html) 可以将创作实例安排在以后的日期和时间使用Brand Portal。
+可以将资产（和文件夹）从AEM 6.4.2.0创作实例发布到Brand Portal的工作流安排在稍后的日期和时间执行。
 
 同样，可以稍后通过计划从Brand Portal取消发布工作流，从门户中删除已发布的资产。
 
@@ -670,7 +671,7 @@ Brand Portal为非管理员用户（编辑者、查看者、来宾用户）提�
 
 ### Adobe I/OUI以配置oAuth集成
 
-从Brand Portal 6.4.2开始使用旧版OAuth(`https://legacy-oauth.cloud.adobe.io/`)界面来创建JWT应用程序，该应用程序支持配置oAuth集成以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在 `https://marketing.adobe.com/developer/`. 要了解有关将AEM Assets与Brand Portal集成以将资产和收藏集发布到Brand Portal的更多信息，请参阅 [配置AEM Assets与Brand Portal集成](https://experienceleague.adobe.com/docs/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+从Brand Portal 6.4.2开始使用旧版OAuth(`https://legacy-oauth.cloud.adobe.io/`)界面来创建JWT应用程序，该应用程序支持配置oAuth集成以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在 `https://marketing.adobe.com/developer/`. 要了解有关将AEM Assets与Brand Portal集成以将资产和收藏集发布到Brand Portal的更多信息，请参阅 [配置AEM Assets与Brand Portal集成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ## 搜索增强功能
 
