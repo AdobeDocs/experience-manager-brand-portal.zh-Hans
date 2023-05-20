@@ -1,7 +1,7 @@
 ---
 title: 支持的文件格式
 seo-title: Supported file formats
-description: '每个Experience ManagerAssets Brand Portal都支持特定的文件格式，如矩阵中所示。 '
+description: 每個Experience Manager Assets Brand Portal都支援特定的檔案格式，如矩陣所示。
 seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
@@ -12,19 +12,19 @@ exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 54%
+ht-degree: 48%
 
 ---
 
 # 支持的文件格式 {#supported-file-formats}
 
-每个Experience ManagerAssets Brand Portal都支持特定的文件格式，如矩阵中所示。
+每個Experience Manager Assets Brand Portal都支援特定的檔案格式，如矩陣所示。
 
-| 文件格式 | 发布到Brand Portal的资产 | 发布到Brand Portal的演绎版 | 发布到Brand Portal的元数据 | 发布到Brand Portal的缩略图 | 已发布到Brand Portal的资产详细信息页面 | 链接共享 | 链接共享缩略图 | 链接共享预览 |
+| 檔案格式 | 發佈至Brand Portal的資產 | 發佈至Brand Portal的轉譯 | 發佈至Brand Portal的中繼資料 | 發佈至Brand Portal的縮圖 | 發佈至Brand Portal的資產詳細資訊頁面 | 連結共用 | 連結共用縮圖 | 連結共用預覽 |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
 | PNG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | GIF | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| Tiff | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ (N) |
 | JPEG | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | BMP | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PNM* | ✓ | NA | ✓ | NA | NA | ✓ | NA | NA |
@@ -54,7 +54,7 @@ ht-degree: 54%
 | INDD | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | PS | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | QXP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
-| EPUB | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
+| ePub | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✕ |
 | AAC | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | MIDI | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
 | 3GP | ✓ | NA | ✓ | NA | NA | ✓ | ✕ | ✕ |
@@ -80,11 +80,11 @@ ht-degree: 54%
 | TAR | ✓ | NA | ✓ | NA | NA | ✓ | NA | ✕ |
 | Zip | ✓ | ✓ | ✓ | ✓ | NA | ✓ | ✓ | ✕ |
 
-以下图例说明了矩阵中使用的符号：
+下列圖例說明矩陣中使用的符號：
 
-| 符号 | 含义 |
+| 符號 | 含義 |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ✓ | 此文件格式支持此功能。 |
-| ✕ | 此文件格式不支持此功能。 |
-| NA | 此功能不适用于此文件格式。 |
-| * | 在将资产发布到Brand Portal后，此功能需要在AEM创作实例上支持此文件格式，但不需要在Brand Portal上支持此文件格式的附加组件。 |
+| ✓ | 此檔案格式支援此功能。 |
+| ✕ | 此檔案格式不支援此功能。 |
+| NA | 此功能不適用於此檔案格式。 |
+| * | 此功能需要在AEM製作執行個體上提供此檔案格式的附加元件支援，但在資產發佈至Brand Portal後則無法在Brand Portal上提供。 |

@@ -1,7 +1,7 @@
 ---
 title: 共享收藏集
 seo-title: Share a collection
-description: Experience ManagerAssets Brand Portal管理员可以与授权用户共享和取消共享收藏集或智能收藏集。 编辑者只能查看和共享由他们创建、与他们共享的收藏集以及公共收藏集。
+description: Experience Manager Assets Brand Portal管理員可與授權使用者共用和取消共用集合或智慧型集合。 編輯人員只能檢視和共用他們建立、與他們共用以及公開集合的集合。
 seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
 uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
 contentOwner: Vishabh Gupta
@@ -17,73 +17,73 @@ ht-degree: 1%
 
 ---
 
-# 共享收藏集 {#share-collections}
+# 共用集合 {#share-collections}
 
-收藏集表示存储在Adobe Experience Manager Assets Brand Portal中的一组相关资产。 用户可以通过[应用Omnisearch或Facet搜索创建智能收藏集，以筛选出相关资产](brand-portal-searching.md)并将它们存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
+集合代表儲存在Adobe Experience Manager Assets Brand Portal中一組相關資產。 使用者可透過以下方式建立智慧型集合 [套用omnisearch或facet搜尋以篩選掉相關資產](brand-portal-searching.md) 並將其儲存在一起，以便輕鬆存取並進一步與其他Brand Portal使用者共用。
 
-管理员可以与授权的Brand Portal用户共享和取消共享收藏集。 编辑者和查看者可以查看和共享由他们创建的收藏集、与他们共享的收藏集以及公共收藏集。
+管理員可與授權的Brand Portal使用者共用和取消共用集合。 編輯者和檢視者可以檢視和共用他們建立、與他們共用以及公開集合的集合。
 
 >[!NOTE]
 >
->编辑者无法将公共收藏集更改为非公共收藏集，因此在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框中没有可用的&#x200B;**[!UICONTROL 公共收藏集]**&#x200B;复选框。
+>編輯人員無法將公用集合變更為非公用集合，因此沒有 **[!UICONTROL 公開集合]** 中可用的核取方塊 **[!UICONTROL 集合設定]** 對話方塊。
 
 ## 共享收藏集 {#share-collection}
 
-以下是与授权的Brand Portal用户共享收藏集的步骤：
+以下是和授權的Brand Portal使用者共用集合的步驟：
 
-1. 登录到您的Brand Portal租户。 默认情况下，将打开&#x200B;**[!UICONTROL 文件]**&#x200B;视图，其中包含所有已发布的资产和文件夹。
+1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視會開啟，其中包含所有已發佈的資產和資料夾。
 
-1. 在顶部的快速导航中，单击&#x200B;**[!UICONTROL 收藏集]**。
+1. 在頂端的快速導覽中，按一下 **[!UICONTROL 集合]**.
 
-1. 从&#x200B;**[!UICONTROL 收藏集]**&#x200B;控制台中，执行下列操作之一：
+1. 從 **[!UICONTROL 集合]** 主控台，執行下列任一項作業：
 
-   * 将指针悬停在要共享的收藏集上。 在集合可用的快速操作缩略图中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标。
+   * 將指標暫留在您要共用的集合上。 在集合可用的快速動作縮圖中，按一下 **[!UICONTROL 設定]** 圖示。
 
       ![](assets/settings-icon.png)
 
-   * 选择要共享的收藏集。 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 设置]**。
+   * 選取您要共用的集合。 在頂端的工具列中，按一下 **[!UICONTROL 設定]**.
 
       ![](assets/collection-console.png)
 
-1. 在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框中，选择要与其共享收藏集的用户，然后为该用户选择角色以匹配其全局角色。 例如，将“编辑者”角色分配给全局编辑者，将“查看者”角色分配给全局查看者。
+1. 在 **[!UICONTROL 集合設定]** 對話方塊中，選取您要與其共用集合的使用者，並選取使用者的角色，以與其全域角色相符。 例如，將編輯者角色指派給全域編輯者，將檢視者角色指派給全域檢視者。
 
-   或者，要使集合可供所有用户使用，而不考虑其组成员资格和角色，请通过选中&#x200B;**[!UICONTROL Public Collection]**&#x200B;复选框将其公开。
+   或者，若要讓系列可供所有使用者使用（無論其群組成員資格和角色為何），請選取 **[!UICONTROL 公開集合]** 核取方塊。
 
    >[!NOTE]
    >
-   >但是，可以限制非管理员用户创建公共集合，以避免拥有大量公共集合，从而可以节省系统空间。 组织可以禁用管理工具面板中提供的&#x200B;**[!UICONTROL 允许从**[!UICONTROL &#x200B;常规&#x200B;]**设置创建]**&#x200B;公共集合。
+   >但是，非管理員使用者可以限制建立公開集合，以避免擁有許多公開集合，從而可以節省系統空間。 組織可以停用 **[!UICONTROL 允許建立公開集合]** 設定來源 **[!UICONTROL 一般]** 「管理工具」面板中可用的設定。
 
    ![](assets/collection_sharingadduser.png)
 
-   编辑器无法将公共集合更改为非公共集合，因此在&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框中没有&#x200B;**[!UICONTROL 公共集合]**&#x200B;复选框。
+   編輯人員無法將公用集合變更為非公用集合，因此沒有 **[!UICONTROL 公開集合]** 中可用的核取方塊 **[!UICONTROL 集合設定]** 對話方塊。
 
    ![](assets/collection-setting-editor.png)
 
-1. 单击&#x200B;**[!UICONTROL Add]**&#x200B;按钮以添加用户，然后单击&#x200B;**[!UICONTROL Save]**。 收藏集将与用户共享。
+1. 按一下 **[!UICONTROL 新增]** 按鈕以新增使用者，然後按一下 **[!UICONTROL 儲存]**. 集合會與使用者共用。
 
    >[!NOTE]
    >
-   >用户的角色控制对收藏集中资产和文件夹的访问权限。 如果用户无权访问资产，则会与用户共享一个空的收藏集。 此外，用户的角色也控制可用于收藏集的操作。
+   >使用者的角色可控制對集合內資產和資料夾的存取權。 如果使用者無權存取資產，則會與使用者共用空白集合。 此外，使用者的角色會控制可用於集合的動作。
 
-## 取消共享收藏集 {#unshare-a-collection}
+## 取消共用集合 {#unshare-a-collection}
 
-要取消共享之前共享的收藏集，请执行以下操作：
+若要取消共用先前共用的集合，請執行下列動作：
 
-1. 从&#x200B;**[!UICONTROL 收藏集]**&#x200B;控制台中，选择要取消共享的收藏集。
+1. 從 **[!UICONTROL 集合]** 控制檯中，選取您要取消共用的集合。
 
-   在顶部的工具栏中，单击&#x200B;**[!UICONTROL 设置]**。
+   在頂端的工具列中，按一下 **[!UICONTROL 設定]**.
 
    ![](assets/collection_settings.png)
 
-1. 在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框的&#x200B;**[!UICONTROL 成员]**&#x200B;部分下，单击用户旁边的&#x200B;**[!UICONTROL x]**&#x200B;符号，以从有权访问收藏集的用户列表中将其删除。
+1. 在 **[!UICONTROL 集合設定]** 對話方塊，在 **[!UICONTROL 成員]** 區段，按一下 **[!UICONTROL x]** 使用者旁邊的符號，用於從擁有集合存取許可權的使用者清單中移除這些使用者。
 
    ![](assets/unshare_collection.png)
 
-1. 出现警告消息。 单击&#x200B;**[!UICONTROL Confirm]**&#x200B;取消共享该集合。
+1. 出現警告訊息。 按一下 **[!UICONTROL 確認]** 以取消共用集合。
 
-1. 单击&#x200B;**[!UICONTROL Save]**&#x200B;以应用更改。
+1. 按一下 **[!UICONTROL 儲存]** 以套用變更。
 
-   从共享列表中删除用户后，将从用户的&#x200B;**[!UICONTROL 收藏集]**&#x200B;控制台中删除非共享的收藏集。
+   從共用清單中移除使用者後，非共用集合就會從使用者的 **[!UICONTROL 集合]** 主控台。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.

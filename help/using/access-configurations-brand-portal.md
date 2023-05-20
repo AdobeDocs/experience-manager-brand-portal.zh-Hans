@@ -1,7 +1,7 @@
 ---
 title: 管理 Brand Portal 上的用户访问权限
 seo-title: Administer user access on Brand Portal
-description: 在Brand Portal上配置来宾访问权限和新用户访问权限。
+description: 在Brand Portal上設定訪客存取權及新使用者存取權。
 seo-description: Configure guest access and new users access on brand portal.
 uuid: 522b499d-33a0-455f-ac7e-719face48009
 contentOwner: mgulati
@@ -20,35 +20,35 @@ ht-degree: 9%
 
 # 管理 Brand Portal 上的用户访问权限 {#administer-user-access-on-brand-portal}
 
-从Adobe Experience Manager Assets Brand Portal 6.4.2开始，授权管理员配置来宾访问权限，并允许用户在其组织的Brand Portal上请求访问权限。 这些配置在管理面板上作为&#x200B;**[!UICONTROL 访问设置]**&#x200B;配置提供。 默认情况下，这两个设置均处于禁用状态。
+Adobe Experience Manager Assets Brand Portal 6.4.2之後授權管理員設定guest存取權，並讓使用者能夠在其組織的Brand Portal上請求存取權。 這些設定提供為 **[!UICONTROL 存取設定]** 「管理」面板上的設定。 這兩個設定預設為停用。
 
 ![](assets/access-configs.png)
 
-****   配置以允许使用来宾访问在Brand Portal上以来宾 **[!UICONTROL 身份访问？]** 链接。（默认为禁用）
+**A**   允許訪客存取Brand Portal的設定，使用 **[!UICONTROL 訪客存取？]** Brand Portal歡迎畫面上的連結。 （預設為停用）
 
-****   BConfiguration ，允许用户使用“需要”访问请求对Brand Portal **[!UICONTROL 的访问？]** 链接。（默认为禁用）
+**B**   允許使用者透過以下專案請求Brand Portal存取權的設定： **[!UICONTROL 需要存取權？]** Brand Portal歡迎畫面上的連結。 （預設為停用）
 
 ## 允许来宾访问 {#allow-guest-access}
 
-通过允许来宾访问，用户无需登录Brand Portal即可访问公共资产。
-要允许来宾访问，管理员必须执行以下步骤：
+透過允許訪客存取，使用者無需登入Brand Portal即可存取公開資產。
+若要允許Guest存取，管理員必須執行下列步驟：
 
-1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
-1. 从管理工具面板中，选择&#x200B;**[!UICONTROL 访问]**&#x200B;以打开&#x200B;**[!UICONTROL 访问设置]**&#x200B;页面。
-1. 启用&#x200B;**[!UICONTROL 允许来宾访问]**&#x200B;配置。
+1. 從頂端的工具列選取AEM標誌以存取管理工具。
+1. 從管理工具面板中選取 **[!UICONTROL 存取]** 以開啟 **[!UICONTROL 存取設定]** 頁面。
+1. 啟用 **[!UICONTROL 允許訪客存取]** 設定。
 1. **[!UICONTROL 保存更改。]**
-1. 注销以使更改生效。
+1. 登出讓變更生效。
 
 ![](assets/bp-welcome-screen.png)
 
 ## 允许用户请求访问权限 {#allow-users-to-request-access}
 
-管理员可以允许组织用户从欢迎屏幕请求访问Brand Portal。 但是，管理员需要启用&#x200B;**[!UICONTROL 允许用户请求访问]**&#x200B;配置，以便请求访问链接显示在欢迎屏幕上。
+管理員可允許組織使用者從歡迎畫面請求對Brand Portal的存取權。 不過，管理員必須啟用 **[!UICONTROL 允許使用者要求存取權]** 設定，讓請求存取連結出現在歡迎畫面上。
 
-要允许组织用户请求访问Brand Portal，管理员需要：
+若要允許組織使用者請求對Brand Portal的存取權，管理員需要：
 
-1. 从顶部的工具栏中选择AEM徽标以访问管理工具。
-1. 从管理工具面板中，选择&#x200B;**[!UICONTROL 访问]**&#x200B;以打开&#x200B;**[!UICONTROL 访问设置]**&#x200B;页面。
-1. 启用&#x200B;**[!UICONTROL 允许用户请求访问]**&#x200B;配置。
+1. 從頂端的工具列選取AEM標誌以存取管理工具。
+1. 從管理工具面板中選取 **[!UICONTROL 存取]** 以開啟 **[!UICONTROL 存取設定]** 頁面。
+1. 啟用 **[!UICONTROL 允許使用者要求存取權]** 設定。
 1. **[!UICONTROL 保存更改。]**
-1. 注销以使更改生效。
+1. 登出讓變更生效。

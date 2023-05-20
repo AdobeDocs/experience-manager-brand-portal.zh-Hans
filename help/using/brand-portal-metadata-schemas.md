@@ -1,7 +1,7 @@
 ---
 title: 使用元数据架构表单
 seo-title: Use the metadata schema form
-description: 元数据架构描述了“属性”页面的布局以及为使用特定架构的资产显示的元数据属性。 您应用到资产的架构可确定其“属性”页面上显示的元数据字段。
+description: 中繼資料結構描述會說明「屬性」頁面的配置，以及針對使用特定結構描述的資產所顯示的中繼資料屬性。 您套用至資產的結構描述會決定出現在其「屬性」頁面上的中繼資料欄位。
 seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
@@ -13,197 +13,197 @@ exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
 source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
 source-wordcount: '1718'
-ht-degree: 32%
+ht-degree: 10%
 
 ---
 
 # 使用元数据架构表单 {#use-the-metadata-schema-form}
 
-元数据架构描述了“属性”页面的布局以及为使用特定架构的资产显示的元数据属性。 您应用到资产的架构可确定其“属性”页面上显示的元数据字段。
+中繼資料結構描述會說明「屬性」頁面的配置，以及針對使用特定結構描述的資產所顯示的中繼資料屬性。 您套用至資產的結構描述會決定出現在其「屬性」頁面上的中繼資料欄位。
 
-每个资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面包含默认的元数据属性，具体取决于资产的MIME类型。 管理员可以使用元数据架构编辑器修改现有架构或添加自定义元数据架构。 Experience ManagerAssets Brand Portal为各种MIME类型的资产提供默认表单。 但是，您也可以为此类资产添加自定义表单。
+此 **[!UICONTROL 屬性]** 每個資產的頁面包含預設中繼資料屬性，具體取決於資產的MIME型別。 管理員可以使用中繼資料結構編輯器來修改現有結構或新增自訂中繼資料結構。 Experience Manager Assets Brand Portal為各種MIME型別的資產提供預設表單。 不過，您也可以為這類資產新增自訂表單。
 
-## 添加元数据架构表单 {#add-a-metadata-schema-form}
+## 新增中繼資料結構表單 {#add-a-metadata-schema-form}
 
-要创建新的元数据架构表单，请执行以下操作：
+若要建立新的中繼資料結構表單，請執行下列動作：
 
-1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
+1. 從頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 元数据架构]**。
+1. 在管理工具面板中，按一下 **[!UICONTROL 中繼資料結構]**.
 
    ![](assets/navigation-panel.png)
 
-1. 在&#x200B;**[!UICONTROL 元数据架构Forms]**&#x200B;页面上，单击&#x200B;**[!UICONTROL 创建]**。
+1. 於 **[!UICONTROL 中繼資料結構Forms]** 頁面，按一下 **[!UICONTROL 建立]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-1. 在&#x200B;**[!UICONTROL 创建架构表单]**&#x200B;对话框中，指定架构表单的标题，然后单击&#x200B;**[!UICONTROL 创建]**&#x200B;以完成表单创建过程。
+1. 在 **[!UICONTROL 建立結構表單]** 對話方塊中，指定「架構」表單的標題，然後按一下 **[!UICONTROL 建立]** 以完成表單建立程式。
 
    ![](assets/create-schema-form.png)
 
-## 编辑元数据架构表单 {#edit-a-metadata-schema-form}
+## 編輯中繼資料結構表單 {#edit-a-metadata-schema-form}
 
-您可以编辑新添加的或现有的元数据架构表单。 元数据架构表单包含从其父级派生的内容，包括制表符和制表符内的表单项。 您可以将这些表单项目映射到或配置到元数据节点中的字段。
+您可以編輯新新增或現有的中繼資料結構表單。 中繼資料結構表單包含衍生自其父項的內容，包括索引標籤和索引標籤內的表單專案。 您可以將這些表單專案對應或設定至中繼資料節點內的欄位。
 
-可以向元数据架构表单中添加新的选项卡或表单项目。（从父表单）派生的选项卡和表单项目处于锁定状态。无法从子级别更改它们。
+您可以將新標籤或表單專案新增到中繼資料結構表單。 衍生的標籤和表單專案（來自父項）處於鎖定狀態。 您無法在子層級變更它們。
 
-要编辑元数据架构表单，请执行以下操作：
+若要編輯中繼資料結構表單，請執行下列動作：
 
-1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
+1. 從頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 元数据架构]**。
-1. 从&#x200B;**[!UICONTROL 元数据架构Forms]**&#x200B;页面中，选择一个架构表单以编辑其属性，例如&#x200B;**[!UICONTROL 集合]**。
+1. 在管理工具面板中，按一下 **[!UICONTROL 中繼資料結構]**.
+1. 從 **[!UICONTROL 中繼資料結構Forms]** 頁面中，選取要編輯其屬性的綱要表單，例如， **[!UICONTROL 集合]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >未编辑的模板会在其前面显示锁符号。 如果自定义任何模板，则模板前的“锁定”符号会消失。
+   >未編輯的範本會在它們之前顯示鎖定符號。 如果您自訂任何範本，則範本前的「鎖定」符號會消失。
 
-1. 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 编辑]**。
+1. 在頂端的工具列中，按一下 **[!UICONTROL 編輯]**.
 
-   此时将打开&#x200B;**[!UICONTROL 元数据架构编辑器]**&#x200B;页面，其中左侧打开&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡，右侧打开&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡。
+   此 **[!UICONTROL 中繼資料結構編輯器]** 頁面開啟，其中包含 **[!UICONTROL 基本]** 標籤在左側開啟，然後 **[!UICONTROL 建置表單]** 標籤在右側開啟。
 
-1. 在&#x200B;**[!UICONTROL 元数据架构编辑器]**&#x200B;页面中，通过将&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中的组件类型列表中的一个或多个组件拖到&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡，自定义资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面。
+1. 在 **[!UICONTROL 中繼資料結構編輯器]** 頁面，自訂 **[!UICONTROL 屬性]** 頁面（透過從中的元件型別清單拖曳一個或多個元件） **[!UICONTROL 建置表單]** 按Tab鍵至 **[!UICONTROL 基本]** 標籤。
 
    ![](assets/metadata-schemaeditor-page.png)
 
-1. 要配置组件，请选择该组件并在&#x200B;**[!UICONTROL Settings]**&#x200B;选项卡中修改其属性。
+1. 若要設定元件，請選取該元件，並在下列位置修改其屬性： **[!UICONTROL 設定]** 標籤。
 
-### “构建表单”选项卡中的组件 {#components-in-the-build-form-tab}
+### 「建置表單」標籤中的元件 {#components-in-the-build-form-tab}
 
-**[!UICONTROL 构建表单]**&#x200B;选项卡列出了可在架构表单中使用的项目。 **[!UICONTROL 设置]**&#x200B;选项卡提供您在&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中选择的每个项目的属性。 下表列出了&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中可用的表单项目：
+此 **[!UICONTROL 建置表單]** 索引標籤會列出可在結構描述表單中使用的專案。 此 **[!UICONTROL 設定]** 索引標籤會提供您在「 」中選取的每個專案的屬性。 **[!UICONTROL 建置表單]** 標籤。 下表列出 **[!UICONTROL 建置表單]** 標籤：
 
-| 组件名称 | 描述 |
+| 元件名稱 | 描述 |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[!UICONTROL 章节标题]** | 添加一系列常用组件的章节标题。 |
-| **[!UICONTROL 单行文本]** | 添加单行文本属性。它将作为字符串存储。 |
-| **[!UICONTROL 多值文本]** | 添加多值文本属性。 它将作为字符串数组存储。 |
-| **[!UICONTROL 数字]** | 添加数字组件。 |
-| **[!UICONTROL 日期]** | 添加日期组件。 |
-| **[!UICONTROL 下拉列表]** | 添加下拉列表。 |
-| **[!UICONTROL 标准标记]** | 添加标记。**注意：** 如果管理员从Experience Manager资产中发布元数据架构表单，而路径不包含租户信息(例如，  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`)，则可能需要更改路径值。 `/etc/tags/<custom_tag_namespace>` |
-| **[!UICONTROL 智能标记]** | 自动检测的标记(如果您已购买并配置Experience Manager资产智能标记加载项)。 |
-| **[!UICONTROL 隐藏字段]** | 添加隐藏字段。在保存资产时，该字段将作为 POST 参数发送。 |
-| **[!UICONTROL 资产引用对象]** | 添加此组件可查看该资产所引用的其他资产的列表。 |
-| **[!UICONTROL 资产引用]** | 添加此组件可显示引用该资产的其他资产的列表。 |
-| **[!UICONTROL 资产评级]** | 从Experience Manager资产添加的资产在发布到Brand Portal之前的平均评级。 |
-| **[!UICONTROL 上下文元数据]** | 通过添加，可控制资产属性页面中其他元数据选项卡的显示。 |
+| **[!UICONTROL 章节标题]** | 為常見元件清單新增區段標題。 |
+| **[!UICONTROL 单行文本]** | 新增單行文字屬性。 它會儲存為字串。 |
+| **[!UICONTROL 多值文字]** | 新增多值文字屬性。 它會儲存為字串陣列。 |
+| **[!UICONTROL 数字]** | 新增數字元件。 |
+| **[!UICONTROL 日期]** | 新增日期元件。 |
+| **[!UICONTROL 下拉列表]** | 新增下拉式清單。 |
+| **[!UICONTROL 标准标记]** | 添加标记. **注意：** 管理員可能需要變更路徑值，例如 `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他們從Experience Manager Assets發佈中繼資料結構表單，其中路徑不包含租使用者資訊，例如 `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL 智能标记]** | 自動偵測標籤(如果您已購買並設定Experience Manager Assets智慧標籤附加元件)。 |
+| **[!UICONTROL 隐藏字段]** | 新增隱藏欄位。 儲存資產時，這會傳送為POST引數。 |
+| **[!UICONTROL 资产引用对象]** | 新增此元件以檢視資產所參考的資產清單。 |
+| **[!UICONTROL 资产引用]** | 新增以顯示參照資產的資產清單。 |
+| **[!UICONTROL 资产评级]** | 在資產發佈至Brand Portal之前，從Experience Manager Assets新增資產的平均評分。 |
+| **[!UICONTROL 上下文元数据]** | 新增以控制其他中繼資料索引標籤在資產屬性頁面的顯示。 |
 
 >[!NOTE]
 >
->请勿使用&#x200B;**[!UICONTROL 产品引用]**，因为它无法正常工作。
+>不要使用 **[!UICONTROL 產品引用]**，因為它無法運作。
 
-#### 编辑元数据组件 {#edit-the-metadata-component}
+#### 編輯中繼資料元件 {#edit-the-metadata-component}
 
-要在表单上编辑元数据组件的属性，请单击相应的组件，然后在&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中编辑其属性。
+若要編輯表單上中繼資料元件的屬性，請按一下該元件，然後在 **[!UICONTROL 設定]** 標籤。
 
-* **[!UICONTROL 字段标签]**:资产的属性页面上显示的元数据属性的名称。
+* **[!UICONTROL 欄位標籤]**：在資產的「屬性」頁面上顯示的中繼資料屬性名稱。
 
-* **[!UICONTROL 映射到属性]**：此属性的值提供资产节点在 CRX 存储库中保存的相对路径/名称。该值以“**./**”开头，因为这表示该路径位于资产的节点下。
+* **[!UICONTROL 對應至屬性]**：此屬性的值會提供資產節點的相對路徑/名稱，該資產節點會儲存在CRX存放庫中。 開頭是&quot;**./**」是因為，表示路徑在資產的節點下。
 
-以下是此属性的有效值：
+以下是此屬性的有效值：
 
-— `./jcr:content/metadata/dc:title`:将该值作为属性[!UICONTROL `dc:title`]存储在资产的元数据节点中。
+— `./jcr:content/metadata/dc:title`：將值儲存在資產的中繼資料節點，做為屬性 [!UICONTROL `dc:title`].
 
-— `./jcr:created`:在资产的节点上显示jcr属性。 如果您在视图属性上配置这些属性，我们建议您将这些属性标记为“禁用编辑”，因为它们是受保护属性。否则，在保存资产的属性时，会出现“资产修改失败”错误。
+— `./jcr:created`：在資產的節點顯示jcr屬性。 如果您在视图属性上配置这些属性，我们建议您将这些属性标记为“禁用编辑”，因为它们是受保护属性。否则，在保存资产的属性时，会出现“资产修改失败”错误。
 
-* **[!UICONTROL 占位符]**：使用此属性可向用户提供有关元数据属性的任何相关信息。
-* **[!UICONTROL 必需]**：使用此属性可在“属性”页面上将元数据属性标记为必需。
-* **[!UICONTROL 禁用编辑]**：使用此属性可让“属性”页面上的元数据属性变得不可编辑。
-* **[!UICONTROL 在只读模式下显示空字段]**：标记此属性可使没有值的元数据属性显示在“属性”页面上。默认情况下，当元数据属性没有值时，不会在“属性”页面上将其列出。
-* **[!UICONTROL 描述]**：使用此属性可添加对元数据组件的简短描述。
-* **[!UICONTROL “删除”图标]**:单击此图标可从架构表单中删除组件。
+* **[!UICONTROL 預留位置]**：使用此屬性可向使用者提供有關中繼資料屬性的任何相關資訊。
+* **[!UICONTROL 必填]**：使用此屬性可將中繼資料屬性標示為「屬性」頁面上的必要屬性。
+* **[!UICONTROL 停用編輯]**：使用此屬性可讓中繼資料屬性在「屬性」頁面上無法編輯。
+* **[!UICONTROL 以唯讀方式顯示空白欄位]**：標示此屬性以在「屬性」頁面上顯示中繼資料屬性，即使該屬性沒有值亦然。 根據預設，當中繼資料屬性沒有值時，它不會列在屬性頁面上。
+* **[!UICONTROL 說明]**：使用此屬性為中繼資料元件新增簡短說明。
+* **[!UICONTROL 「刪除」圖示]**：按一下此圖示可從結構表單中刪除元件。
 
 ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
->所有元数据字段在资产的元数据编辑器表单中均为只读。 由于资产的元数据必须先在Experience Manager资产中进行编辑，然后才能将资产发布到Brand Portal。
+>資產的中繼資料編輯器表單中的所有中繼資料欄位都是唯讀的。 由於資產的中繼資料必須先在Experience Manager Assets中編輯，資產才會發佈至Brand Portal。
 
-#### 在架构表单中添加或删除选项卡 {#add-or-delete-a-tab-in-the-schema-form}
+#### 在結構表單中新增或刪除索引標籤 {#add-or-delete-a-tab-in-the-schema-form}
 
-默认架构表单包括&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡。 通过架构编辑器，可以添加或删除选项卡。
+預設結構表單包括 **[!UICONTROL 基本]** 和 **[!UICONTROL 進階]** 索引標籤。 通过架构编辑器，可以添加或删除选项卡。
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* 要在架构表单上添加新选项卡，请单击&#x200B;**[!UICONTROL +]**。 默认情况下，新选项卡的名称为“未命名–1”。 您可以从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡中修改该名称。
+* 若要在結構表單上新增索引標籤，請按一下 **[!UICONTROL +]**. 依預設，新索引標籤的名稱為「Unnamed-1」。 您可以修改名稱，從 **[!UICONTROL 設定]** 標籤。
 
 ![](assets/add-tab-metadata-form.png)
 
-* 要删除选项卡，请单击&#x200B;**[!UICONTROL x]**。 单击&#x200B;**[!UICONTROL Save]**&#x200B;以保存更改。
+* 若要刪除標籤，請按一下 **[!UICONTROL x]**. 按一下 **[!UICONTROL 儲存]** 以儲存變更。
 
-## 将元数据架构应用到文件夹 {#apply-a-metadata-schema-to-a-folder}
+## 將中繼資料結構描述套用至資料夾 {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal允许您自定义和控制元数据架构，以便资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页面仅显示您选择显示的特定信息。 要控制在&#x200B;**[!UICONTROL 属性]**&#x200B;页面中显示的元数据，请从元数据架构表单中删除所需的元数据，并将其应用到特定文件夹。
+Brand Portal可讓您自訂和控制中繼資料結構，以便 **[!UICONTROL 屬性]** 資產的頁面只會顯示您選擇顯示的特定資訊。 若要控制在中顯示的中繼資料 **[!UICONTROL 屬性]** 頁面，從中繼資料結構表單中移除所需的中繼資料，並將其套用至特定資料夾。
 
-要将元数据架构表单应用到文件夹，请执行以下操作：
+若要將中繼資料結構表單套用至資料夾，請執行下列動作：
 
-1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
+1. 從頂端的工具列中，按一下Experience Manager標誌以存取管理工具。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 元数据架构]**。
+1. 在管理工具面板中，按一下 **[!UICONTROL 中繼資料結構]**.
 
-1. 从&#x200B;**[!UICONTROL 元数据架构Forms]**&#x200B;页面中，选择要应用于资产的架构表单，例如&#x200B;**[!UICONTROL clothing]**。
+1. 從 **[!UICONTROL 中繼資料結構Forms]** 頁面上，選取您要套用至資產的結構描述表單，例如， **[!UICONTROL 服裝]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-1. 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 应用到文件夹]**。
+1. 在頂端的工具列中，按一下 **[!UICONTROL 套用至資料夾]**.
 
-1. 从&#x200B;**[!UICONTROL 选择文件夹]**&#x200B;页面中，导航到要将&#x200B;**[!UICONTROL clothing]**&#x200B;元数据架构应用到的文件夹，例如&#x200B;**[!UICONTROL Gloves]**。
+1. 從 **[!UICONTROL 選取資料夾]** 頁面上，導覽至您要套用的資料夾。 **[!UICONTROL 服裝]** 中繼資料結構，例如， **[!UICONTROL 手套]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. 单击&#x200B;**[!UICONTROL Apply]**&#x200B;以将元数据架构表单应用到文件夹。
+1. 按一下 **[!UICONTROL 套用]** 將中繼資料結構表單套用至資料夾。
 
-   **[!UICONTROL clothing]**&#x200B;元数据架构表单中可用的元数据将应用于&#x200B;**[!UICONTROL Gloves]**&#x200B;文件夹，并显示在文件夹的&#x200B;**[!UICONTROL Properties]**&#x200B;页面中。
+   中可用的中繼資料 **[!UICONTROL 服裝]** 中繼資料結構表單已套用至 **[!UICONTROL 手套]** 資料夾並顯示在 **[!UICONTROL 屬性]** 檔案夾的頁面。
 
    ![](assets/folder_metadata_properties.png)
 
 >[!NOTE]
 >
->如果将包含嵌套架构的架构应用到包含视频文件的文件夹，则视频文件的元数据属性可能无法正确呈现。 要确保元数据属性正确呈现，请删除嵌套架构，并仅将父架构应用到文件夹。
+>如果您將包含巢狀結構描述的結構描述套用至包含視訊檔案的資料夾，視訊檔案的中繼資料屬性可能無法正確呈現。 為確保中繼資料屬性正確呈現，請移除巢狀結構描述，並僅將父結構描述套用至資料夾。
 
-## 删除元数据架构表单 {#delete-a-metadata-schema-form}
+## 刪除中繼資料結構表單 {#delete-a-metadata-schema-form}
 
-Brand Portal仅允许您删除自定义架构表单。 您无法删除默认的架构表单/模板。但是，您可以删除对这些表单所做的任何自定义更改。
+Brand Portal僅可讓您刪除自訂結構表單。 它不允許您刪除預設結構表單/範本。 不過，您可以刪除這些表單中的任何自訂變更。
 
-要删除某个表单，请选择该表单，然后单击&#x200B;**[!UICONTROL 删除]**&#x200B;图标。
+若要刪除表單，請選取表單並按一下 **[!UICONTROL 刪除]** 圖示。
 
 ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >
->删除对默认表单所做的自定义更改后，**[!UICONTROL 锁定]**&#x200B;符号会在元数据架构界面上的表单名称前重新显示，以指示表单已还原为默认状态。
+>刪除對預設表單進行的自訂變更後， **[!UICONTROL 鎖定]** 符號會重新出現在中繼資料結構介面的表單名稱前，以表示表單已恢復為預設狀態。
 
-## MIME类型的架构表单 {#schema-forms-for-mime-types}
+## MIME型別的結構表單 {#schema-forms-for-mime-types}
 
-### 为 MIME 类型添加新表单 {#adding-new-forms-for-mime-types}
+### 為MIME型別新增表單 {#adding-new-forms-for-mime-types}
 
-除了默认表单之外，您还可以为各种MIME类型的资产添加自定义表单，或在相应的表单类型下创建新表单。 例如，要为 **[!UICONTROL image/png]** 子类型添加新模板，请在“image”表单下创建表单。架构表单的标题是子类型名称。在这种情况下，标题为“png”。
+除了預設表單之外，您還可以為各種MIME型別的資產新增自訂表單，或在適當的表單型別下建立新表單。 例如，要为 **[!UICONTROL image/png]** 子类型添加新模板，请在“image”表单下创建表单。架构表单的标题是子类型名称。在此範例中，標題為&quot;png&quot;。
 
-#### 为各种 MIME 类型使用现有架构模板 {#using-an-existing-schema-template-for-various-mime-types}
+#### 針對各種MIME型別使用現有結構描述範本 {#using-an-existing-schema-template-for-various-mime-types}
 
-您可以将现有模板用于其他MIME类型。例如，对于MIME类型为&#x200B;**image/png**&#x200B;的资产，请使用&#x200B;**image/jpeg**&#x200B;表单。
+您可以將現有範本用於不同的MIME型別。 例如，使用 **image/jpeg** MIME型別資產的表單 **image/png**.
 
-在这种情况下，请在CRX存储库的[!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`]处创建新节点。 指定节点的名称并定义以下属性：
+在此情況下，請在以下位置建立新節點： [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] 在CRX存放庫中。 指定節點名稱並定義下列屬性：
 
 | **名称** | **类型** | **值** |
 |---|---|---|
 | exposedmimetype | 字符串 | image/jpeg |
-| mimetypes | String[] | image/png |
+| mimetypes | 字符串[] | image/png |
 
-* **exposedmimetype**:要映射的现有表单的名称
-* **mimetypes**:使用exposedmimetypeattribute中定义的表单的MIME类型 **** 列表
+* **exposedmimetype**：要對應的現有表單名稱
+* **mimetypes**：使用中定義之表單的MIME型別清單 **exposedmimetype** 屬性
 
-Brand Portal映射以下MIME类型和架构表单：
+Brand Portal對應下列MIME型別和結構表單：
 
-| **架构表单** | **MIME类型** |
+| **結構表單** | **MIME型別** |
 |---|---|
 | image/jpeg | image/pjpeg |
 | image/tiff | image/x-tiff |
@@ -213,30 +213,30 @@ Brand Portal映射以下MIME类型和架构表单：
 | application/x-MixedMediaSet | Multipart/Related; type=application/x-MixedMediaSet |
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
-| video/avi | video/avi、video/msvideo、video/x-msvideo |
+| video/avi | video/avi， video/msvideo， video/x-msvideo |
 | video/wmv | video/x-ms-wmv |
 | video/flv | video/x-flv |
 
-以下是默认元数据属性的列表：
+以下是預設中繼資料屬性的清單：
 
 * jcr:content/metadata/cq:tags
 * jcr:content/metadata/dc:format
 * jcr:content/metadata/dam:status
-* jcr:content/metadata/videoCodec
-* jcr:content/metadata/audioCodec
-* jcr:content/metadata/dc:title
-* jcr:content/metadata/dc:description
-* jcr:content/metadata/xmpMM:InstanceID
-* jcr:content/metadata/xmpMM:DocumentID
-* jcr:content/metadata/dam:sha1
-* jcr:content/metadata/dam:solutionContext
-* jcr:content/metadata/videoBitrate
-* jcr:content/metadata/audioBitrate
-* jcr:content/usages/usedBy
+* jcr：content/metadata/videoCodec
+* jcr：content/metadata/audioCodec
+* jcr：content/metadata/dc：title
+* jcr：content/metadata/dc：description
+* jcr：content/metadata/xmpMM：InstanceID
+* jcr：content/metadata/xmpMM：DocumentID
+* jcr：content/metadata/dam：sha1
+* jcr：content/metadata/dam：solutionContext
+* jcr：content/metadata/videoBitrate
+* jcr：content/metadata/audioBitrate
+* jcr：content/usages/usedBy
 * jcr:content/jcr:lastModified
 * jcr:content/metadata/prism:expirationDate
-* jcr:content/onTime
-* jcr:content/offTime
+* jcr：content/onTime
+* jcr：content/offTime
 * jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* jcr：content/metadata/tiff：ImageWidth
+* jcr：content/metadata/tiff：ImageLength

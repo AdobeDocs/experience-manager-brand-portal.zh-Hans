@@ -1,7 +1,7 @@
 ---
 title: 对并行发布到 Brand Portal 时出现的问题进行故障诊断
 seo-title: Troubleshoot issues in parallel publishing to Brand Portal
-description: 并行发布故障诊断。
+description: 疑難排解平行發佈。
 seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -19,39 +19,39 @@ ht-degree: 1%
 
 # 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal已使用Experience Manager Assets进行配置，以便能够从Experience Manager Assets创作实例无缝摄取（或发布）已批准的品牌资产。 一次 [已配置](../using/configure-aem-assets-with-brand-portal.md)，则Experience Manager作者会使用复制代理将选定的资产复制到Brand Portal云服务，以供Brand Portal用户使用。 Experience Manager6.2 SP1-CFP5、Experience ManagerCFP 6.3.0.2及以上版本使用多个复制代理，以允许高速并行发布。
+Brand Portal已透過Experience Manager Assets設定，以核准從Experience Manager Assets製作執行個體無縫擷取（或發佈）品牌資產。 一次 [已設定](../using/configure-aem-assets-with-brand-portal.md)，Experience Manager作者會使用復寫代理將選取的資產復寫至Brand Portal雲端服務，以供Brand Portal使用者核准使用。 Experience Manager6.2 SP1-CFP5、Experience ManagerCFP 6.3.0.2及更高版本使用多個復寫代理程式，以便允許高速平行發佈。
 
 >[!NOTE]
 >
->Adobe建议升级到Experience Manager6.4.1.0，以确保已成功配置Experience Manager Assets Brand Portal。 Experience Manager6.4中的限制在使用Brand Portal配置Experience Manager Assets时出错，并且复制失败。
+>Adobe建議升級至Experience Manager6.4.1.0，以確保Experience Manager Assets Brand Portal成功設定為Experience Manager Assets。 Experience Manager6.4的限制會在使用Brand Portal設定Experience Manager Assets時發生錯誤，且復寫失敗。
 
-关于为Brand Portal配置云服务，请在 **[!UICONTROL /etc/cloudservice]**，所有必需的用户和令牌都将自动生成并保存在存储库中。 云服务配置已创建，复制代理和复制代理复制内容所需的服务用户也已创建。 它创建四个复制代理。 因此，当您将大量资产从Experience Manager发布到Brand Portal时，这些资产将通过轮询在复制代理之间排队和分发。
+在「 」下為Brand Portal設定雲端服務 **[!UICONTROL /etc/cloudservice]**，系統會自動產生所有必要的使用者和Token並儲存在存放庫中。 已建立雲端服務設定，也會建立復寫和復寫代理程式復寫內容所需的服務使用者。 它會建立四個復寫代理。 因此，當您從Experience Manager發佈許多資產到Brand Portal時，資產會排入佇列，並透過Round Robin在復寫代理程式之間分配。
 
-但是，发布可能会因为大型sling作业、网络增加和 **[!UICONTROL 磁盘I/O]** ，或者减慢了Experience Manager创作实例的性能。 因此，建议在开始发布之前测试与复制代理的连接。
+然而，由於大量的Sling工作、增加的網路和網路等原因，發佈可能會斷斷續續失敗。 **[!UICONTROL 磁碟I/O]** 「Experience Manager作者」例項上，或「Experience Manager作者」例項效能降低。 因此，建議您在開始發佈之前，先測試與復寫代理程式的連線。
 
 ![](assets/test-connection.png)
 
-## 首次发布失败故障诊断：验证发布配置 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## 疑難排解首次發佈時的失敗：驗證您的發佈設定 {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
-要验证发布配置，请执行以下操作：
+若要驗證您的發佈設定：
 
-1. 检查错误日志
-1. 检查复制代理是否已创建
-1. 测试连接
+1. 檢查錯誤記錄
+1. 檢查是否已建立復寫代理
+1. 測試連線
 
-**创建尾日志时Cloud Service**
+**建立Cloud Service時的尾端記錄**
 
-检查尾日志。 检查是否创建了复制代理。 如果复制代理创建失败，请通过在云服务中进行细微更改来编辑云服务。 验证并再次检查是否创建了复制代理。 如果没有，请重新编辑服务。
+檢查尾部記錄。 檢查是否已建立復寫代理。 如果復寫代理程式建立失敗，請在Cloud Service中進行微幅變更，以編輯雲端服務。 驗證並再次檢查復寫代理程式是否已建立。 如果沒有，請重新編輯服務。
 
-如果重复编辑云服务时配置不正确，请报告日托票证。
+如果重複編輯雲端服務時未正確設定，請回報Daycare票證。
 
-**测试与复制代理的连接**
+**測試與復寫代理的連線**
 
-查看日志（如果在复制日志中发现错误）：
+檢視記錄（如果在復寫記錄中找到錯誤）：
 
-1. 联系客户支持。
+1. 請聯絡客戶支援。
 
-1. 重试 [清理](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) 并再次创建发布配置。
+1. 重試 [cleanup](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) 並再次建立發佈設定。
 
 <!--
 Comment Type: remark
@@ -61,35 +61,35 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-## 清理现有Brand Portal发布配置 {#clean-up-existing-config}
+## 清除現有的Brand Portal發佈設定 {#clean-up-existing-config}
 
-大多数情况下，发布不起作用，原因可能是正在发布的用户(例如： `mac-<tenantid>-replication` 没有最新的私钥，因此发布失败，出现“401未授权”错误，并且复制代理日志中未报告任何其他错误。 您可能希望避免进行故障诊断，而改为创建配置。 要使新配置正常工作，请从Experience Manager作者设置中清除以下内容：
+大多數情況下，發佈無法正常運作，可能是因為使用者正在發佈(例如： `mac-<tenantid>-replication` 沒有最新的私密金鑰，因此發佈會失敗，並出現「401未獲授權」錯誤，復寫代理程式記錄檔中未報告任何其他錯誤。 您可能想要避免疑難排解，改為建立設定。 為了讓新設定正確運作，請從Experience Manager作者設定中清理下列專案：
 
-1. 转到 `localhost:4502/crx/de/` (考虑您在localhost上运行创作实例:4502:\
-   i.删除 `/etc/replication/agents.author/mp_replication`
-ii. 删除 
+1. 前往 `localhost:4502/crx/de/` (假設您正在localhost上執行作者例項:4502:\
+   i.刪除 `/etc/replication/agents.author/mp_replication`
+二、 删除 
 `/etc/cloudservices/mediaportal/<config_name>`
 
-1. 转到localhost:4502/useradmin:\
-   i.搜索用户 `mac-<tenantid>replication`
-ii. 删除此用户
+1. 前往localhost：4502/useradmin：\
+   i.搜尋使用者 `mac-<tenantid>replication`
+二、 刪除此使用者
 
-现在系统已全部清理完毕。 现在，您可以尝试创建云服务配置，并仍然使用现有的JWT应用程序。 无需创建应用程序，而是从新创建的云配置中更新公钥。
+現在系統已全部清除。 現在您可以嘗試建立雲端服務設定，並且仍使用現有的JWT應用程式。 不需要建立應用程式，只需從新建立的雲端設定更新公開金鑰即可。
 
 >[!NOTE]
 >
->请勿修改任何自动生成的设置。
+>請勿修改任何自動產生的設定。
 
 
-## 开发人员连接JWT应用程序租户可见性问题 {#developer-connection-jwt-application-tenant-visibility-issue}
+## 開發人員連線JWT應用程式租使用者可見性問題 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-如果开启 `https://legacy-oauth.cloud.adobe.io/`，将列出当前用户持有系统管理员的所有组织（租户）。 如果您在此处找不到组织名称，或者无法在此处为所需租户创建应用程序，请检查您是否具有足够的（系统管理员）权限。
+若開啟 `https://legacy-oauth.cloud.adobe.io/`，則會列出目前使用者擁有系統管理員的所有組織（租使用者）。 如果您在這裡找不到組織名稱，或無法在這裡為需要的租使用者建立應用程式，請檢查您是否有足夠的（系統管理員）許可權。
 
-此用户界面上存在一个已知问题，即对于任何租户，只显示前十个应用程序。 创建应用程序时，请停留在该页面上，并为URL添加书签。 您无需转到应用程序的列表页面，并找到您创建的应用程序。 您可以直接点击此标为书签的URL，并根据需要更新/删除应用程序。
+此使用者介面有一個已知問題，即對於任何租使用者而言，只會看到前十個應用程式。 建立應用程式時，請停留在頁面上並將URL加入書籤。 您不需要前往應用程式的清單頁面來尋找您建立的應用程式。 您可以直接點選此建立書籤的URL，並視需要更新/刪除應用程式。
 
-JWT应用程序可能未正确列出。 因此，建议在创建JWT应用程序时记下URL/为其添加书签。
+JWT應用程式可能未正確列出。 因此，建議您在建立JWT應用程式時記下/將URL加入書籤。
 
-## 运行配置停止工作 {#running-configuration-stops-working}
+## 執行組態停止運作 {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -116,32 +116,32 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-如果复制代理(刚刚发布到Brand Portal)停止处理发布作业，请检查复制日志。 Experience Manager具有自动重试内置功能，因此，如果特定资产发布失败，则会自动重试。 如果出现网络错误等间歇性问题，则在重试期间可能会成功。
+如果復寫代理程式(原本可順利發佈至Brand Portal)停止處理發佈工作，請檢查復寫記錄。 Experience Manager內建自動重試，因此如果特定資產發佈失敗，則會自動重試。 如果發生網路錯誤等間歇性問題，重試期間可能會成功。
 
-如果连续发布失败并阻止队列，则应检查 **[!UICONTROL 测试连接]** 并尝试解决所报告的错误。
+如果連續發佈失敗且佇列遭到封鎖，則應檢查 **[!UICONTROL 測試連線]** 並嘗試解決回報的錯誤。
 
-根据错误，建议您记录支持票证，以便Brand Portal工程团队可以帮助您解决问题。
+根據錯誤，建議您記錄支援票證，以便Brand Portal工程團隊可以幫助您解決問題。
 
-## Brand Portal IMS配置令牌已过期 {#token-expired}
+## Brand Portal IMS設定權杖已過期 {#token-expired}
 
-如果您的Brand Portal环境突然停止，则可能IMS配置无法正常运行。 系统会显示不正常的IMS配置，并反映出一条错误消息（类似于以下内容），指出您的访问令牌已过期。
+如果您的Brand Portal環境突然停止，IMS設定可能會無法正常運作。 系統會顯示不正常的IMS設定，並反映您的存取權杖已到期的錯誤訊息（類似於以下內容）。
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
-要解决此问题，建议手动保存并关闭IMS配置，并再次检查运行状况状态。 如果配置不起作用，请删除现有配置并创建新配置。
+若要解決此問題，建議手動儲存並關閉IMS設定，然後再次檢查健全狀態。 如果組態無法運作，請刪除現有組態並建立新組態。
 
 
-## 配置复制代理以避免连接超时错误 {#connection-timeout}
+## 設定復寫代理以避免連線逾時錯誤 {#connection-timeout}
 
-如果复制队列中存在多个待处理请求，则发布作业通常会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
+如果復寫佇列中有多個擱置中的請求，發佈作業通常會失敗並出現逾時錯誤。 若要解決此問題，請確保復寫代理已設定為避免逾時。
 
-要配置复制代理，请执行以下操作：
+設定復寫代理程式：
 
-1. 登录到您的AEM Assets创作实例。
-1. 从 **工具** 面板，导航到 **[!UICONTROL 部署]** > **[!UICONTROL 复制]**.
-1. 在复制页面中，单击 **[!UICONTROL 作者代理]**. 您可以看到Brand Portal租户的四个复制代理。
-1. 单击复制代理URL，然后单击 **[!UICONTROL 编辑]**.
-1. 在代理设置中，单击 **[!UICONTROL 扩展]** 选项卡。
-1. 选择 **[!UICONTROL 关闭连接]** 复选框。
-1. 重复步骤4至7以配置所有四个复制代理。
-1. 重新启动服务器。
+1. 登入您的AEM Assets作者執行個體。
+1. 從 **工具** 面板，導覽至 **[!UICONTROL 部署]** > **[!UICONTROL 復寫]**.
+1. 在「復寫」頁面中，按一下 **[!UICONTROL 作者上的代理]**. 您可以看到Brand Portal租使用者的四個復寫代理。
+1. 按一下復寫代理程式URL，然後按一下 **[!UICONTROL 編輯]**.
+1. 在「代理程式設定」中，按一下 **[!UICONTROL 延伸]** 標籤。
+1. 選取 **[!UICONTROL 關閉連線]** 核取方塊。
+1. 重複步驟4到7，設定所有四個復寫代理。
+1. 重新啟動伺服器。

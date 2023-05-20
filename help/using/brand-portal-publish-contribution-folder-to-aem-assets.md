@@ -1,7 +1,7 @@
 ---
-title: 将资产从Brand Portal上传并将Contribution文件夹发布到Experience Manager Assets
+title: 上傳資產並從Brand Portal發佈貢獻資料夾到Experience Manager Assets
 seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
-description: 深入了解上传新资产并将贡献文件夹从Brand Portal发布到Experience Manager Assets。
+description: 深入瞭解如何上傳新資產，以及如何將貢獻資料夾從Brand Portal發佈至Experience Manager Assets。
 seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
 uuid: null
 content-type: reference
@@ -17,138 +17,138 @@ ht-degree: 0%
 
 ---
 
-# 将贡献文件夹发布到Experience Manager Assets {#using-asset-souring-in-bp}
+# 將貢獻資料夾發佈至Experience Manager Assets {#using-asset-souring-in-bp}
 
-具有相应权限的Brand Portal用户可以将多个资产或包含多个资产的文件夹上传到“贡献”文件夹。 但是，Brand Portal用户只能将资产上传到 **新建** 文件夹。 的 **共享** 文件夹用于分发基线资产（参考内容），Brand Portal用户在创建新资产以进行贡献时可使用该基线资产。
+具有適當許可權的Brand Portal使用者可以將多個資產或包含多個資產的資料夾上傳至貢獻資料夾。 不過，Brand Portal使用者只能將資產上傳至 **新增** 資料夾。 此 **已共用** 資料夾用於散佈基線資產（參考內容），供Brand Portal使用者在建立新資產以進行貢獻時使用。
 
-Brand Portal用户（具有访问贡献文件夹的权限）可以执行以下活动：
+有權存取「貢獻」資料夾的Brand Portal使用者可以執行下列活動：
 
-* [下载资产要求](#download-asset-requirements)
-* [将新资产上传到贡献文件夹](#uplad-new-assets-to-contribution-folder)
-* [将贡献文件夹发布到Experience Manager Assets](#publish-contribution-folder-to-aem)
+* [下載資產需求](#download-asset-requirements)
+* [將新資產上傳至貢獻資料夾](#uplad-new-assets-to-contribution-folder)
+* [將貢獻資料夾發佈至Experience Manager Assets](#publish-contribution-folder-to-aem)
 
-## 下载资产要求 {#download-asset-requirements}
+## 下載資產需求 {#download-asset-requirements}
 
-Brand Portal用户在Experience Manager Assets用户共享贡献文件夹时会自动收到电子邮件/脉冲通知，以便他们能够从以下位置下载简要（资产要求）文档以及下载基线资产（参考内容）： **共享** 文件夹，以确保他们了解资产要求。
+每當Brand Portal使用者共用貢獻資料夾時，Experience Manager Assets使用者會自動收到電子郵件/脈衝通知，好讓他們下載簡短（資產需求）檔案，以及從 **已共用** 資料夾，確保他們瞭解資產需求。
 
-Brand Portal用户可通过执行以下活动来下载资产要求：
+Brand Portal使用者會執行下列活動來下載資產需求：
 
-* **下载摘要**:下载附加到贡献文件夹的简短（资产要求文档），其中包含与资产相关的信息，如资产类型、用途、支持的格式、最大资产大小等。
-* **下载基准资产**:下载可用于了解所需资产类型的基准资产。 Brand Portal用户可以将这些资产用作参考，以创建新资产供贡献。
+* **下載簡介**：下載附加至貢獻資料夾的簡報（資產需求檔案），其中包含資產型別、用途、支援的格式、資產大小上限等資產相關資訊。
+* **下載基準線資產**：下載基線資產，瞭解所需的資產型別。 Brand Portal使用者可以使用這些資產作為參考，以建立新的資產進行貢獻。
 
-Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件夹以及新共享的贡献文件夹。 在此示例中，Brand Portal用户只能访问新创建的贡献文件夹，不会与用户共享任何其他现有文件夹。
+Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料夾，以及新共用的貢獻資料夾。 在此範例中，Brand Portal使用者僅能存取新建立的貢獻資料夾，其他現有資料夾不會與使用者共用。
 
-**要下载资产要求，请执行以下操作：**
+**若要下載資產需求：**
 
-1. 登录到Brand Portal实例。
-1. 从Brand Portal功能板中选择Contribution文件夹。
-1. 单击&#x200B;**[!UICONTROL 属性]**. 此时将打开包含贡献文件夹详细信息的属性窗口。
+1. 登入您的Brand Portal執行個體。
+1. 從Brand Portal儀表板選取貢獻資料夾。
+1. 按一下 **[!UICONTROL 屬性]**. 包含貢獻資料夾詳細資訊的「屬性」視窗隨即開啟。
 
    ![](assets/properties.png)
 
    ![](assets/download-asset-requirement2.png)
 
-1. 单击 **[!UICONTROL 下载摘要]** 选项，在本地计算机上下载资产要求文档。
+1. 按一下 **[!UICONTROL 下載簡介]** 將資產需求檔案下載至本機電腦的選項。
 
    ![](assets/download.png)
 
-1. 返回到Brand Portal仪表板。
-1. 单击以打开贡献文件夹，您可以看到两个子文件夹 — **[!UICONTROL 共享]** 和 **[!UICONTROL 新建]** 中。 SHARED文件夹包含管理员共享的所有基线资产（引用内容）。
-1. 您可以下载 **[!UICONTROL 共享]** 包含本地计算机上所有基线资产的文件夹。
-或者，您可以打开 **[!UICONTROL 共享]** 文件夹，然后单击 **下载** 图标下载单个文件/文件夹。
+1. 返回Brand Portal儀表板。
+1. 按一下以開啟貢獻資料夾，您可以看到兩個子資料夾 — **[!UICONTROL 已共用]** 和 **[!UICONTROL 新增]** 在貢獻資料夾中。 「共用」資料夾包含管理員共用的所有基準資產（參考內容）。
+1. 您可以下載 **[!UICONTROL 已共用]** 包含您本機電腦上所有基準資產的資料夾。
+或者，您也可以開啟 **[!UICONTROL 已共用]** 資料夾，然後按一下 **下載** 圖示可下載個別檔案/資料夾。
 
    ![](assets/download.png)
 
    ![](assets/download-asset-requirement5.png)
 
-阅读简介（资产要求文档），并参考基准资产，以了解资产要求。 现在，您可以创建新资产以进行贡献，并将其上传到贡献文件夹。
+瀏覽簡報（資產需求檔案），並參閱基準資產，以瞭解資產需求。 現在，您可以為貢獻建立新資產，並將其上傳至貢獻資料夾。
 
 
-## 将资产上传到贡献文件夹 {#upload-new-assets-to-contribution-folder}
+## 將資產上傳至貢獻資料夾 {#upload-new-assets-to-contribution-folder}
 
-完成资产要求后，Brand Portal用户可以创建新资产以进行贡献，并将其上传到贡献文件夹的NEW文件夹。 用户可以将多个资产上传到资产贡献文件夹。 但是，一次只能创建一个文件夹。
-
->[!NOTE]
->
->Brand Portal用户可以上传资产(最大 **2** GB（每个文件大小）转到新文件夹。
->
->任何Brand Portal租户的上载上限均为 **10** GB，用于累计应用于所有贡献文件夹。
->
->上传到Brand Portal的资产不会进行演绎版处理，也不会包含预览。
+完成資產要求後，Brand Portal使用者可以為貢獻建立新資產，並將它們上傳到貢獻資料夾內的NEW資料夾。 使用者可以將多個資產上傳到資產貢獻資料夾。 不過，一次只能建立一個資料夾。
 
 >[!NOTE]
 >
->建议在将贡献文件夹发布到Experience Manager Assets后释放上传空间，以便其他Brand Portal用户可以使用该文件夹进行贡献。
+>Brand Portal使用者可以上傳資產(最多 **2** GB （每個檔案大小）。
 >
->如果需要将Brand Portal租户的上载限制扩展到 **10** GB，请联系客户支持部门以指定要求。
+>任何Brand Portal租使用者的最大上傳限製為 **10** GB，會累計套用至所有貢獻資料夾。
+>
+>上傳至Brand Portal的資產不會處理轉譯，且不包含預覽。
+
+>[!NOTE]
+>
+>建議在發佈貢獻資料夾至Experience Manager Assets後發佈上傳空間，以供其他Brand Portal使用者貢獻。
+>
+>如果需要延長Brand Portal租使用者的上傳限制超過 **10** GB，請聯絡客戶支援以指定需求。
 
 
-**要上传新资产，请执行以下操作：**
+**若要上傳新資產：**
 
-1. 登录到Brand Portal实例。
-Brand Portal功能板反映允许Brand Portal用户使用的所有现有文件夹以及新共享的贡献文件夹。
+1. 登入您的Brand Portal執行個體。
+Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料夾，以及新共用的貢獻資料夾。
 
-1. 选择贡献文件夹，然后单击以将其打开。 贡献文件夹包含两个子文件夹 —  **[!UICONTROL 共享]** 和 **[!UICONTROL 新建]**.
+1. 選取貢獻資料夾，然後按一下以開啟它。 貢獻資料夾包含兩個子資料夾 —  **[!UICONTROL 已共用]** 和 **[!UICONTROL 新增]**.
 
-1. 单击 **[!UICONTROL 新建]** 文件夹。
+1. 按一下 **[!UICONTROL 新增]** 資料夾。
 
    ![](assets/upload-new-assets4.png)
 
-1. 单击 **[!UICONTROL 创建]** > **[!UICONTROL 文件]** 上传包含多个资产的单个文件或文件夹(.zip)。
+1. 按一下 **[!UICONTROL 建立]** > **[!UICONTROL 檔案]** 上傳個別檔案或包含多個資產的資料夾(.zip)。
 
    ![](assets/upload-new-assets5.png)
 
-1. 浏览资产（文件或文件夹）并将其上传到 **[!UICONTROL 新建]** 文件夹。
+1. 瀏覽並將資產（檔案或資料夾）上傳至 **[!UICONTROL 新增]** 資料夾。
 
    ![](assets/upload-asset4.png)
 
-将所有资产或文件夹上传到NEW文件夹后，将Contribution文件夹发布到Experience Manager Assets。
+將所有資產或資料夾上傳至「新增」資料夾後，將貢獻資料夾發佈至Experience Manager Assets。
 
 
-## 将贡献文件夹发布到Experience Manager Assets {#publish-contribution-folder-to-aem}
+## 將貢獻資料夾發佈至Experience Manager Assets {#publish-contribution-folder-to-aem}
 
-Brand Portal用户可以将贡献文件夹发布到Experience Manager Assets，而无需访问Experience Manager创作实例。
+Brand Portal使用者可以將contribution資料夾發佈到Experience Manager Assets，而不需要存取Experience Manager作者例項。
 
-确保您已完成资产要求，并且已在 **新建** 文件夹中。
+確保您已滿足資產需求，並在中上傳新建立的資產 **新增** 貢獻資料夾中的資料夾。
 
-**要发布贡献文件夹，请执行以下操作：**
+**若要發佈貢獻資料夾：**
 
-1. 登录到Brand Portal实例。
+1. 登入您的Brand Portal執行個體。
 
-1. 从Brand Portal功能板中选择Contribution文件夹。
-1. 单击 **[!UICONTROL 发布到AEM]**.
+1. 從Brand Portal儀表板選取貢獻資料夾。
+1. 按一下 **[!UICONTROL 發佈至AEM]**.
 
    ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem1.png)
 
-将在发布工作流程的不同阶段向Brand Portal用户和管理员发送电子邮件/脉冲通知：
+在發佈工作流程的不同階段會傳送電子郵件/脈衝通知給Brand Portal使用者和管理員：
 
-1. **已排队**  — 在Brand Portal中触发发布工作流程时，会向Brand Portal用户和Brand Portal管理员发送通知。
+1. **已排入佇列**  — 在Brand Portal中觸發發佈工作流程時，會傳送通知給Brand Portal使用者和Brand Portal管理員。
 
-1. **完成**  — 将贡献文件夹成功发布到Brand Portal时，系统会向Experience Manager Assets用户和Brand Portal管理员发送通知。
+1. **完成**  — 當貢獻資料夾成功發佈至Experience Manager Assets時，會傳送通知給Brand Portal使用者和Brand Portal管理員。
 
-将新创建的资产发布到Experience Manager Assets后，Brand Portal用户可以从NEW文件夹中删除这些资产。 然而，Brand Portal管理员可以从NEW文件夹和SHARED文件夹中删除资产。
+將新建立的資產發佈到Experience Manager Assets後，Brand Portal使用者可以從「新增」資料夾中刪除這些資產。 然而，Brand Portal管理員可以從NEW和SHARED資料夾中刪除資產。
 
-实现创建贡献文件夹的目标后，Brand Portal管理员可以删除贡献文件夹，以便为其他用户释放上传空间。
+一旦達到建立貢獻資料夾的目標，Brand Portal管理員可以刪除貢獻資料夾，以釋出上傳空間給其他使用者。
 
-## 发布作业状态 {#publishing-job-status}
+## 發佈工作狀態 {#publishing-job-status}
 
-管理员可以使用两个报表来查看从Brand Portal发布到Experience Manager Assets的资产贡献文件夹的状态。
+管理員可以利用兩個報表來檢視從Brand Portal發佈到Experience Manager Assets的資產貢獻資料夾狀態。
 
-* 在Brand Portal中，导航到 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]**. 此报表反映发布工作流程不同阶段的所有发布作业的状态。
+* 在Brand Portal中，導覽至 **[!UICONTROL 工具]** > **[!UICONTROL 資產貢獻狀態]**. 此報表反映發佈工作流程不同階段的所有發佈工作狀態。
 
    ![](assets/contribution-folder-status-v2.png)
 
-* 在Experience Manager Assets（内部部署或托管服务）中，导航到 **[!UICONTROL 资产]** > **[!UICONTROL 作业]**. 此报表反映所有发布作业的最终状态（成功或错误）。
+* 在Experience Manager Assets （內部部署或受管理的服務）中，導覽至 **[!UICONTROL 資產]** > **[!UICONTROL 工作]**. 此報表可反映所有發佈工作的最終狀態（成功或錯誤）。
 
    ![](assets/publishing-status.png)
 
-* 在Experience Manager Assetsas a Cloud Service中，导航到 **[!UICONTROL 资产]** > **[!UICONTROL 作业]**.
+* 在Experience Manager Assetsas a Cloud Service中，導覽至 **[!UICONTROL 資產]** > **[!UICONTROL 工作]**.
 
-   或者，您也可以直接导航到 **[!UICONTROL 作业]** 中。
+   或者，您可以直接導覽至 **[!UICONTROL 工作]** 從全域導覽。
 
-   此报表反映所有发布作业的最终状态（成功或错误），包括将资产从Brand Portal导入Experience Manager Assetsas a Cloud Service。
+   此報表可反映所有發佈工作的最終狀態（成功或錯誤），包括從Brand Portal將資產匯入Experience Manager Assetsas a Cloud Service。
 
    ![](assets/cloud-service-job-status.png)
 
@@ -158,57 +158,57 @@ Brand Portal用户可以将贡献文件夹发布到Experience Manager Assets，�
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
 
-## 从Contribution文件夹自动删除已发布到Experience Manager Assets的资产 {#automatically-delete-published-assets-from-contribution-folder}
+## 從「貢獻」資料夾中自動刪除發佈至Experience Manager Assets的資產 {#automatically-delete-published-assets-from-contribution-folder}
 
-现在，Brand Portal每十二小时执行一次自动作业，以扫描所有“贡献”文件夹并删除已发布到AEM的所有资产。 因此，您无需手动删除Contribution文件夹中的资产，即可将文件夹大小保留在 [阈值限制](#upload-new-assets-to-contribution-folder). 您还可以监控过去七天内自动执行的删除作业的状态。 作业报表提供以下详细信息：
+Brand Portal現在每十二小時執行一次自動作業，以掃描所有「貢獻」資料夾並刪除發佈至AEM的所有資產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，以將資料夾大小保持在 [臨界值限制](#upload-new-assets-to-contribution-folder). 您也可以監視過去七天內自動執行的刪除工作的狀態。 工作的報表提供下列詳細資訊：
 
-* 作业开始时间
-* 作业结束时间
-* 作业状态
-* 作业中包含的资产总数
-* 作业中成功删除的资产总数
-* 作业运行后可用的存储总数
+* 工作開始時間
+* 工作結束時間
+* 工作狀態
+* 工作中包含的資產總數
+* 在工作中成功刪除的資產總數
+* 因工作執行而可供使用的儲存空間總計
 
    ![删除报告](assets/deletion-reports.png)
 
-您还可以进一步向下展开以查看删除作业中包含的每个资产的详细信息。 资产标题、大小、作者、删除状态和删除时间等详细信息包含在报表中。
+您也可以進一步向下展開，以檢視刪除工作中每個資產的詳細資訊。 資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊會包含在報表中。
 
-![详细的删除报表](assets/deletion-reports-detailed.png)
+![詳細刪除報告](assets/deletion-reports-detailed.png)
 
 >[!NOTE]
 >
-> * 客户可以请求Adobe客户支持，以禁用和重新启用自动删除作业功能，或更改其执行频率。
-> * 此功能在Experience Manager6.5.13.0及更高版本中可用。
+> * 客戶可以要求Adobe客戶支援停用和重新啟用自動刪除工作功能，或變更其執行頻率。
+> * Experience Manager 6.5.13.0和更新版本提供此功能。
 
 
-### 查看和下载删除报表 {#view-delete-jobs}
+### 檢視和下載刪除報告 {#view-delete-jobs}
 
-要查看和下载删除作业的报表，请执行以下操作：
+若要檢視和下載刪除工作的報告：
 
-1. 在Brand Portal中，导航到 **[!UICONTROL 工具]**>**[!UICONTROL 资产贡献状态]**>**[!UICONTROL 删除报表]** 选项。
+1. 在Brand Portal中，導覽至 **[!UICONTROL 工具]**>**[!UICONTROL 資產貢獻狀態]**>**[!UICONTROL 刪除報告]** 選項。
 
-1. 选择作业并单击 **[!UICONTROL 查看]** 查看报表。
+1. 選取工作並按一下 **[!UICONTROL 檢視]** 以檢視報表。
 
-   查看删除作业中包含的每个资产的详细信息。 资产标题、大小、作者、删除状态和删除时间等详细信息包含在报表中。 单击 **[!UICONTROL 下载]** 以CSV格式下载作业的报表。
+   檢視刪除工作中每個資產的詳細資訊。 資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊會包含在報表中。 按一下 **[!UICONTROL 下載]** 若要以CSV格式下載工作的報表。
 
-   报表中资产的删除状态可以具有以下可能值：
+   報表中資產的刪除狀態可能具有以下值：
 
-   * **已删除**  — 资产已成功从Contribution文件夹中删除。
+   * **已刪除**  — 已成功從「貢獻」資料夾中刪除資產。
 
-   * **未找到** - Brand Portal在“贡献”文件夹中找不到资产。 资产已手动从文件夹中删除。
+   * **找不到** - Brand Portal在「貢獻」資料夾中找不到資產。 資產已手動從資料夾中刪除。
 
-   * **已跳过** - Brand Portal跳过了资产删除，因为“贡献”文件夹中有一个资产可用的新版本，该版本尚未发布到Experience Manager。
+   * **已略過** - Brand Portal已略過資產刪除，因為「貢獻」資料夾中的資產有可用的新版本，而且尚未發佈至Experience Manager。
 
-   * **失败** - Brand Portal无法删除资产。 有三次重试尝试删除具有 `Failed` 删除状态。 如果资产第三次重试删除尝试失败，您需要手动删除资产。
+   * **已失敗** - Brand Portal無法刪除資產。 刪除具有下列專案的資產會有三次重試嘗試： `Failed` 刪除狀態。 如果資產在第三次重試刪除嘗試時失敗，您需要手動刪除資產。
 
 ### 删除报表
 
-Brand Portal还允许您选择一个或多个报表并手动删除它们。
+Brand Portal也可讓您選取一或多個報表，然後手動將其刪除。
 
 要删除报表，请执行以下操作：
 
-1. 导航到 **[!UICONTROL 工具]**>**[!UICONTROL 资产贡献状态]**>**[!UICONTROL 删除报表]** 选项。
+1. 導覽至 **[!UICONTROL 工具]**>**[!UICONTROL 資產貢獻狀態]**>**[!UICONTROL 刪除報告]** 選項。
 
-1. 选择一个或多个报表并单击 **[!UICONTROL 删除]**.
+1. 選取一或多個報告並按一下 **[!UICONTROL 刪除]**.
 
 
