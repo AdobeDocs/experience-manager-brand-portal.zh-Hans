@@ -1,7 +1,7 @@
 ---
 title: 使用自定义搜索 Facet
 seo-title: Use custom search facets
-description: 管理員可以將搜尋述詞新增至篩選器面板，以自訂搜尋並使搜尋功能通用。
+description: 管理员可以将搜索谓词添加到“筛选器”面板以自定义搜索并使搜索功能通用。
 seo-description: Administrators can add search predicates to the Filters panel to customize search and make the search functionality versatile.
 uuid: 986fba5a-fac5-4128-ac75-d04da5b52d45
 content-type: reference
@@ -19,131 +19,131 @@ ht-degree: 9%
 
 # 使用自定义搜索 Facet {#use-custom-search-facets}
 
-管理員可以將搜尋述詞新增至 [!UICONTROL 篩選器] 面板，可自訂搜尋並使搜尋功能通用。
+管理员可以将搜索谓词添加到 [!UICONTROL 筛选器] 用于自定义搜索并使搜索功能通用的面板。
 
-Brand Portal支援 [多面向搜尋](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) 針對已核准品牌資產的細微搜尋，可能原因如下： [**篩選器** 面板](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). 透過以下方式，可在「篩選器」面板上使用搜尋Facet： **[!UICONTROL 搜尋表單]** （在管理工具中）。 名為「資產管理搜尋邊欄」的預設搜尋表單存在於管理工具的「搜尋Forms」頁面中。 不過，管理員可以透過新增、修改或移除搜尋述詞來編輯預設搜尋表單（資產管理員搜尋邊欄），進而自訂預設篩選面板，從而使搜尋功能具有通用性。
+Brand Portal支持 [分面搜索](../using/brand-portal-searching.md#search-using-facets-in-filters-panel) 用于精细地搜索已批准的品牌资产，可能的原因是 [**筛选器** 面板](../using/brand-portal-searching.md#search-using-facets-in-filters-panel). 搜索Facet可通过以下方式在“筛选器”面板中提供 **[!UICONTROL 搜索表单]** （在管理工具中）。 管理工具的“搜索Forms”页面中存在一个名为资产管理员搜索边栏的默认搜索表单。 但是，管理员可以通过添加、修改或删除搜索谓词来编辑默认搜索表单（资产管理员搜索边栏），从而自定义默认的“筛选器”面板，从而使搜索功能变得通用。
 
-您可以使用各種搜尋述詞來自訂 **[!UICONTROL 篩選器]** 面板。 例如，新增屬性述詞，以搜尋符合您在此述詞中指定的單一屬性的資產。 新增選項述詞，以搜尋符合您為特定屬性指定的一或多個值的資產。 新增日期範圍述詞，以搜尋在指定日期範圍內建立的資產。
+您可以使用各种搜索谓词来自定义 **[!UICONTROL 筛选器]** 面板。 例如，添加属性谓词以搜索与您在此谓词中指定的单个属性匹配的资产。 添加选项谓词以搜索与您为特定属性指定的一个或多个值匹配的资产。 添加日期范围谓词以搜索在指定日期范围内创建的资源。
 
 >[!NOTE]
 >
->Experience Manager Assets可讓組織 [從AEM Author發佈自訂搜尋表單](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) Brand Portal，而不要在Brand Portal上重新建立相同的表單。
+>Experience Manager Assets允许组织 [从AEM作者发布自定义搜索表单](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) Brand Portal ，而不是在Brand Portal上重新创建相同的表单。
 
-## 新增搜尋述詞 {#add-a-search-predicate}
+## 添加搜索谓词 {#add-a-search-predicate}
 
-將搜尋述詞新增至 **[!UICONTROL 篩選器]** 面板：
+将搜索谓词添加到 **[!UICONTROL 筛选器]** 面板：
 
-1. 若要存取管理工具，請按一下頂端工具列中的Experience Manager標誌。
+1. 要访问管理工具，请单击顶部工具栏中的Experience Manager徽标。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，按一下 **[!UICONTROL 搜尋Forms]**.
+1. 在管理工具面板中，单击 **[!UICONTROL 搜索Forms]**.
 
    ![](assets/navigation-panel-1.png)
 
-1. 在 **[!UICONTROL 搜尋Forms]** 頁面，選取 **[!UICONTROL 資產管理搜尋邊欄]**.
+1. 在 **[!UICONTROL 搜索Forms]** 页面，选择 **[!UICONTROL 资产管理搜索边栏]**.
 
    ![](assets/search-forms-page.png)
 
-1. 在頂端出現的工具列上，按一下 **[!UICONTROL 編輯]** 以開啟「編輯搜尋」表單。
+1. 在顶部显示的工具栏上，单击 **[!UICONTROL 编辑]** 以打开“编辑搜索”表单。
 
    ![](assets/edit-search-form-1.png)
 
-1. 在 [!UICONTROL 編輯搜尋表單] 頁面，從拖曳述詞 [!UICONTROL 選取述詞] 標籤移至主窗格。 例如，拖曳 **[!UICONTROL 屬性述詞]**.
+1. 在 [!UICONTROL 编辑搜索表单] 页面，从拖动谓词 [!UICONTROL 选择谓词] 制表符进入主窗格。 例如，拖动 **[!UICONTROL 属性谓词]**.
 
-   此 **[!UICONTROL 屬性]** 欄位會顯示在主窗格中，而 **[!UICONTROL 設定]** 索引標籤在右側顯示屬性述詞。
+   此 **[!UICONTROL 属性]** 字段显示在主窗格中， **[!UICONTROL 设置]** 选项卡在右侧显示属性谓词。
 
    ![](assets/partial-prop-predicate.png)
 
    >[!NOTE]
    >
-   >中的標題標籤 **[!UICONTROL 設定]** tab會識別您選取的述詞型別。
+   >中的标题标签 **[!UICONTROL 设置]** 选项卡标识您选择的谓词类型。
 
-1. 在 **[!UICONTROL 設定]** 標籤，輸入屬性述詞的標籤、預留位置文字和說明。
+1. 在 **[!UICONTROL 设置]** 选项卡，输入属性谓词的标签、占位符文本和说明。
 
-   * 選取 **[!UICONTROL 部分搜尋]**，如果您想要根據指定的屬性值允許資產的部分片語搜尋（和萬用字元搜尋）。 依預設，述詞支援全文檢索搜尋。
-   * 選取 **[!UICONTROL 忽略大小寫]**，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，，， 依預設，搜尋篩選條件中的搜尋屬性值會區分大小寫。
-
-   >[!NOTE]
-   >
-   >選取時 **[!UICONTROL 部分搜尋]** 核取方塊、 **[!UICONTROL 忽略大小寫]** 預設為選取。
-
-1. 在 **[!UICONTROL 屬性名稱]** 欄位，開啟屬性選擇器，然後選取執行搜尋所依據的屬性。 或者，輸入屬性的名稱。 例如，输入 `  jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
+   * 选择 **[!UICONTROL 部分搜索]**，如果您要根据指定的属性值允许进行资产的部分短语搜索（和通配符搜索）。 默认情况下，谓词支持全文搜索。
+   * 选择 **[!UICONTROL 忽略大小写]**，如果希望基于属性值的资源搜索不区分大小写。 默认情况下，搜索筛选器中的属性值搜索区分大小写。
 
    >[!NOTE]
    >
-   >在Brand Portal中，所有屬性(開頭為 `xmp`)，在 `jcrcontent/metadata` 之 `dam:asset` 預設會編制索引。
+   >选择时 **[!UICONTROL 部分搜索]** 复选框， **[!UICONTROL 忽略大小写]** 默认情况下处于选中状态。
+
+1. 在 **[!UICONTROL 属性名称]** 字段中，打开属性选取器，然后选择要执行搜索的属性。 或者，输入属性的名称。 例如，输入 `  jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
+
+   >[!NOTE]
    >
-   >建立屬性述詞時，可以使用任何已編制索引的屬性。 如果設定了任何非索引屬性，則未索引屬性上的搜尋查詢可能不會提供任何搜尋結果。
+   >在Brand Portal中，所有资产(以开始的 `xmp`)，位于 `jcrcontent/metadata` 之 `dam:asset` 默认情况下已编制索引。
+   >
+   >创建属性谓词时可以使用任何已编制索引的属性。 如果配置了任何非索引属性，则非索引属性上的搜索查询可能不会提供任何搜索结果。
 
    ![](assets/title-prop.png)
 
-1. 按一下 **[!UICONTROL 完成]** 以儲存設定。
-1. 從 [!UICONTROL 資產] 使用者介面，按一下覆蓋圖示並選擇 **[!UICONTROL 篩選]** 導覽至 **[!UICONTROL 篩選器]** 面板。 此 **[!UICONTROL 屬性]** 述詞會新增至面板。
+1. 单击 **[!UICONTROL 完成]** 以保存设置。
+1. 从 [!UICONTROL 资产] 用户界面，单击叠加图标并选择 **[!UICONTROL 筛选条件]** 导航到 **[!UICONTROL 筛选器]** 面板。 此 **[!UICONTROL 属性]** 谓词将添加到面板。
 
    ![](assets/property-filter-panel.png)
 
-1. 在中輸入要搜尋的資產的標題 **[!UICONTROL 屬性]** 文字方塊。 例如，「Adobe」。 執行搜尋時，標題符合「Adobe」的資產會顯示在搜尋結果中。
+1. 在中输入要搜索的资源的标题 **[!UICONTROL 属性]** 文本框。 例如，“Adobe”。 执行搜索时，标题与“Adobe”匹配的资源将显示在搜索结果中。
 
-## 搜尋述詞清單 {#list-of-search-predicates}
+## 搜索谓词列表 {#list-of-search-predicates}
 
-類似於新增 **[!UICONTROL 屬性]** 述詞，您可以將下列述詞新增至 **[!UICONTROL 篩選器]** 面板：
+类似于添加 **[!UICONTROL 属性]** 谓词，可以将以下谓词添加到 **[!UICONTROL 筛选器]** 面板：
 
-| **述詞名稱** | **描述** | **属性** |
+| **谓词名称** | **描述** | **属性** |
 |-------|-------|----------|
-| **[!UICONTROL 路径浏览器]** | 搜尋述詞，可搜尋特定位置的資產。 **注意：** *對於登入的使用者，篩選器上的路徑瀏覽器僅顯示與該使用者共用的資料夾（及其祖先）的內容結構。* <br> 管理員使用者可使用路徑瀏覽器導覽至任何資料夾，以搜尋該資料夾中的資產。 <br> 反之，非管理員使用者可在路徑瀏覽器中導覽至資料夾（可由他們存取），在該資料夾中搜尋資產。 | <ul><li>字段标签</li><li>路径</li><li>描述</li></ul> |
-| **[!UICONTROL 属性]** | 根據特定中繼資料屬性搜尋資產。 **注意：** *選取「部分搜尋」時，預設會選取「忽略大小寫」*. | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>部分搜索</li><li>忽略大小写</li><li> 描述</li></ul> |
-| **[!UICONTROL 多值屬性]** | 類似於屬性述詞，但允許多個輸入值，以分隔字元（預設為COMMA）分隔[，])結果中會傳回符合任何輸入值的資產。 | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>分隔符支持</li><li>忽略大小写</li><li>描述</li></ul> |
-| **[!UICONTROL 标记]** | 搜尋述詞，以根據標籤搜尋資產。 您可以設定Path屬性以填入Tags清單中的各種標籤。 *注意：管理員可能需要變更路徑值，例如 [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]，如果他們從AEM發佈搜尋表單，其中路徑不包含租使用者資訊，例如 [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>字段标签</li><li>属性名称</li><li>路径</li><li>描述</li></ul> |
-| **[!UICONTROL 路径]** | 搜尋述詞，可搜尋特定位置的資產。 | <ul><li>字段标签</li><li>路径</li><li>描述</li></ul> |  |
-| **[!UICONTROL 相对日期]** | 搜尋述詞，以根據資產的相對建立日期來搜尋資產。 | <ul><li>字段标签</li><li>属性名称</li><li>相對日期</li></ul> |
-| **[!UICONTROL 范围]** | 搜尋述詞，可搜尋位於指定屬性值範圍內的資產。 在「篩選器」面板中，您可以指定範圍的最小和最大屬性值。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 日期范围]** | 搜尋述詞，以搜尋在指定範圍內建立的資產，以取得日期屬性。 在「篩選器」面板中，您可以指定「開始」和「結束」日期。 | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>範圍文字（從）</li><li>範圍文字（至）</li><li>描述</li></ul> |
-| **[!UICONTROL 日期]** | 根據日期屬性的資產滑桿式搜尋的搜尋述詞。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 檔案大小]** | 搜尋述詞，以根據資產的大小進行搜尋。 | <ul><li>字段标签</li><li>属性名称</li><li>路径</li><li>描述</li></ul> |
-| **[!UICONTROL 上次修改的资源]** | 搜尋述詞，以根據上次修改日期搜尋資產。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 核准狀態]** | 搜尋述詞，以根據核准中繼資料屬性搜尋資產。 預設屬性名稱為 **dam：status**. | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 签出状态]** | 搜尋述詞，以在資產從AEM Assets發佈時根據資產的簽出狀態搜尋資產。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 签出方]** | 搜尋述詞，以根據已取出資產的使用者來搜尋資產。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 到期状态]** | 搜尋述詞，以根據到期狀態搜尋資產。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
-| **[!UICONTROL 集合成員]** | 根據資產是否為集合的一部分來搜尋資產的搜尋述詞。 | 描述 |
-| **[!UICONTROL 隐藏]** | 一般使用者無法明確看見此述詞，且此述詞用於任何隱藏的限制，通常用於將搜尋結果型別限製為 **dam：Asset**. | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 路径浏览器]** | 搜索谓词以搜索特定位置的资源。 **注意：** *对于已登录的用户，过滤器上的路径浏览器仅显示与该用户共享的文件夹（及其祖先）的内容结构。* <br> 管理员用户可以使用路径浏览器导航到任何文件夹中的该文件夹，以搜索该文件夹中的资产。 <br> 相反，非管理员用户可以通过在路径浏览器中导航到文件夹（他们有权访问）来搜索该文件夹中的资产。 | <ul><li>字段标签</li><li>路径</li><li>描述</li></ul> |
+| **[!UICONTROL 属性]** | 根据特定的元数据属性搜索资源。 **注意：** *在选择“部分搜索”时，默认情况下会选中“忽略大小写”*. | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>部分搜索</li><li>忽略大小写</li><li> 描述</li></ul> |
+| **[!UICONTROL 多值属性]** | 与属性谓词类似，但允许使用多个输入值，以分隔符分隔（默认值为COMMA）[，])在结果中返回与任何输入值匹配的资产。 | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>分隔符支持</li><li>忽略大小写</li><li>描述</li></ul> |
+| **[!UICONTROL 标记]** | 搜索谓词，以基于标记搜索资产。 您可以配置Path属性以填充“标记”列表中的各种标记。 *注意：管理员可能需要更改路径值，例如 [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]，如果它们从AEM发布搜索表单，其中路径不包括租户信息，例如， [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>字段标签</li><li>属性名称</li><li>路径</li><li>描述</li></ul> |
+| **[!UICONTROL 路径]** | 搜索谓词以搜索特定位置的资源。 | <ul><li>字段标签</li><li>路径</li><li>描述</li></ul> |  |
+| **[!UICONTROL 相对日期]** | 搜索谓词，以根据资产的相对创建日期搜索资产。 | <ul><li>字段标签</li><li>属性名称</li><li>相对日期</li></ul> |
+| **[!UICONTROL 范围]** | 搜索谓词，可搜索位于指定属性值范围内的资产。 在“筛选器”面板中，您可以指定范围的最小和最大属性值。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 日期范围]** | 搜索谓词，以搜索在指定范围内为日期属性创建的资产。 在“筛选器”面板中，您可以指定开始日期和结束日期。 | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>范围文本（自）</li><li>范围文本（至）</li><li>描述</li></ul> |
+| **[!UICONTROL 日期]** | 基于日期属性的资产基于滑块搜索的搜索谓词。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 文件大小]** | 搜索谓词，以根据资产的大小搜索资产。 | <ul><li>字段标签</li><li>属性名称</li><li>路径</li><li>描述</li></ul> |
+| **[!UICONTROL 上次修改的资源]** | 搜索谓词，以根据上次修改日期搜索资源。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 审批状态]** | 搜索谓词，以根据审批元数据属性搜索资源。 默认属性名称为 **dam：status**. | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 签出状态]** | 搜索谓词，以在从AEM Assets发布资源时根据资源的签出状态搜索资源。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 签出方]** | 搜索谓词，以根据已签出资源的用户搜索资源。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 到期状态]** | 搜索谓词，以根据过期状态搜索资源。 | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
+| **[!UICONTROL 收藏集成员]** | 搜索谓词，用于根据资产是否为收藏集的一部分来搜索资产。 | 描述 |
+| **[!UICONTROL 隐藏]** | 此谓词对最终用户不可见，用于任何隐藏的约束，通常用于将搜索结果类型限制为 **dam：Asset**. | <ul><li>字段标签</li><li>属性名称</li><li>描述</li></ul> |
 
 >[!NOTE]
 >
->不要使用 **[!UICONTROL 選項述詞]**， **[!UICONTROL 發佈狀態述詞]**、和 **[!UICONTROL 評等述詞]** 因為這些述詞在Brand Portal中無法運作。
+>不使用 **[!UICONTROL 选项谓词]**， **[!UICONTROL 发布状态谓词]**、和 **[!UICONTROL 评级谓词]** 因为这些谓词在Brand Portal中不起作用。
 
-## 刪除搜尋述詞 {#delete-a-search-predicate}
+## 删除搜索谓词 {#delete-a-search-predicate}
 
-若要刪除搜尋述詞，請遵循下列步驟：
+要删除搜索谓词，请执行以下步骤：
 
-1. 按一下Adobe標誌以存取管理工具。
+1. 单击Adobe徽标可访问管理工具。
 
    ![](assets/aemlogo.png)
 
-1. 在管理工具面板中，按一下 **[!UICONTROL 搜尋Forms]**.
+1. 在管理工具面板中，单击 **[!UICONTROL 搜索Forms]**.
 
    ![](assets/navigation-panel-2.png)
 
-1. 在 **[!UICONTROL 搜尋Forms]** 頁面，選取 **[!UICONTROL 資產管理搜尋邊欄]**.
+1. 在 **[!UICONTROL 搜索Forms]** 页面，选择 **[!UICONTROL 资产管理搜索边栏]**.
 
    ![](assets/search-forms-page.png)
 
-1. 在頂端出現的工具列上，按一下 **[!UICONTROL 編輯]** 以開啟「編輯搜尋」表單。
+1. 在顶部显示的工具栏上，单击 **[!UICONTROL 编辑]** 以打开“编辑搜索”表单。
 
    ![](assets/edit-search-form-2.png)
 
-1. 在 [!UICONTROL 編輯搜尋表單] 頁面，從主窗格中選取您要刪除的述詞。 例如，選取 **[!UICONTROL 屬性述詞]**.
+1. 在 [!UICONTROL 编辑搜索表单] 页上，从主窗格中选择要删除的谓词。 例如，选择 **[!UICONTROL 属性谓词]**.
 
-   此 **[!UICONTROL 設定]** 索引標籤在右側顯示屬性述詞欄位。
+   此 **[!UICONTROL 设置]** 选项卡的右侧显示属性谓词字段。
 
-1. 若要刪除屬性述詞，請按一下bin圖示。 於 **[!UICONTROL 刪除欄位]** 對話方塊中，按一下 **[!UICONTROL 刪除]** 以確認刪除動作。
+1. 要删除属性谓词，请单击框图标。 在 **[!UICONTROL 删除字段]** 对话框中，单击 **[!UICONTROL 删除]** 以确认删除操作。
 
-   此 **[!UICONTROL 屬性述詞]** 欄位會從主窗格中移除，而 **[!UICONTROL 設定]** 索引標籤會變成空白。
+   此 **[!UICONTROL 属性谓词]** 字段将从主窗格中删除，并且 **[!UICONTROL 设置]** 制表符将为空。
 
    ![](assets/search-form-delete-predicate.png)
 
-1. 若要儲存變更，請按一下 **[!UICONTROL 完成]** （在工具列中）。
-1. 從 **[!UICONTROL 資產]** 使用者介面，按一下覆蓋圖示並選擇 **[!UICONTROL 篩選]** 導覽至 **[!UICONTROL 篩選器]** 面板。 此 **[!UICONTROL 屬性]** 述詞會從面板中移除。
+1. 要保存更改，请单击 **[!UICONTROL 完成]** 工具栏中。
+1. 从 **[!UICONTROL 资产]** 用户界面，单击叠加图标并选择 **[!UICONTROL 筛选条件]** 导航到 **[!UICONTROL 筛选器]** 面板。 此 **[!UICONTROL 属性]** 谓词将从面板中删除。
 
    ![](assets/property-predicate-removed.png)

@@ -13,7 +13,7 @@ ht-degree: 69%
 
 # Adobe Experience Manager Assets Brand Portal 指南 {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** 藉由安全方式向外部代理商、合作夥伴、內部團隊和經銷商散佈經過核准的品牌和產品資產以供下載，協助組織滿足其行銷需求。
+**Adobe Experience Manager Assets Brand Portal** 通过将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，帮助组织满足其营销需求。
 
 缺乏安全保障的资产共享解决方案可能导致：
 
@@ -40,13 +40,13 @@ ht-degree: 69%
 |--- |---|
 | [新增功能](whats-new.md) | Brand Portal 相较于之前发布的版本有哪些变化？最新的功能是什么？ |
 | [发行说明](brand-portal-release-notes.md) | 做出的改进、已修复的关键问题以及当前版本中的已知问题。 |
-| [使用 Brand Portal 配置 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何使用Experience Manager Assets復寫Brand Portal以發佈資產。 |
-| [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 疑難排解Brand Portal和Experience Manager Assets之間的復寫。 |
+| [使用 Brand Portal 配置 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何使用Experience Manager Assets复制Brand Portal以发布资产。 |
+| [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | Brand Portal和Experience Manager Assets之间的复制疑难解答。 |
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
-| [Brand Portal 中的资产源](brand-portal-asset-sourcing.md) | 如何在AEM Assets中設定Asset Sourcing，在Brand Portal中上傳資產，並將貢獻資料夾發佈回AEM Assets。 |
-| [Brand Portal功能影片](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 透過影片教學課程，瞭解如何使用Experience Manager Assets Brand Portal。 |
+| [Brand Portal 中的资产源](brand-portal-asset-sourcing.md) | 如何在AEM Assets中配置资源源，在Brand Portal中上传资源，并将贡献文件夹发布回AEM Assets。 |
+| [Brand Portal功能视频](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 了解如何在视频教程的帮助下使用Experience Manager Assets Brand Portal。 |
 
 ### 有用资源
 
-* [透過AEM Assets瞭解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [使用AEM Assets了解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

@@ -1,7 +1,7 @@
 ---
 title: 管理资产的数字权限
 seo-title: Manage digital rights of assets
-description: 授權資產和設定資產和共用連結的到期日，可確保控制這些資產的使用並保護它們。
+description: 为资源和共享链接授予资产许可并设置过期时间，可确保控制这些资产的使用，并保护它们。
 seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
@@ -20,90 +20,90 @@ ht-degree: 2%
 
 # 管理资产的数字权限 {#manage-digital-rights-of-assets}
 
-確保創意資產和品牌資料的安全發佈和使用對於保護您的品牌至關重要。 您可以將到期日（和時間）與從AEM發佈至Brand Portal的已核准資產建立關聯，或授權這些資產供條件式使用，藉此在整個組織內外強制執行此作業。 此外，Brand Portal可讓您指定從Brand Portal共用之資產的連結到期日。
+确保创意资源和品牌资料的安全分发和使用对于保护您的品牌至关重要。 通过将到期日期（和时间）与从AEM发布到Brand Portal的已批准资源相关联，或通过许可这些资源以供有条件使用，可以在整个组织和外部实施此操作。 此外，Brand Portal还允许您为从Brand Portal共享的资源链接指定到期日期。
 
-請閱讀下文，瞭解如何在Brand Portal上保護資產，並瞭解相關的使用許可權。
+请阅读并了解如何在Brand Portal上保护资源以及相关的使用权限。
 
-## 資產有效期 {#asset-expiration}
+## 资产到期 {#asset-expiration}
 
-資產到期是控制組織內對Brand Portal上已核准資產之使用方式的有效方式。 從AEM Assets發佈至Brand Portal的所有資產都可以有到期日，這會限制不同使用者角色對這些資產的使用。
+资源到期是控制组织内对Brand Portal上已批准资源的使用情况的一种有效方式。 从AEM Assets发布到Brand Portal的所有资源都可以有一个过期日期，该日期会限制不同用户角色对这些资源的使用。
 
-### 與過期資產相關的使用許可權 {#usage-permissions-expired-assets}
+### 与过期资产相关的使用权限 {#usage-permissions-expired-assets}
 
-在Brand Portal中，管理員可以檢視、下載過期的資產，並將其新增至收藏集。 而編輯者和檢視者只能檢視過期的資產，並將其新增至收藏集。
+在Brand Portal中，管理员可以查看、下载过期的资源并将其添加到收藏集。 而编辑者和查看者只能查看过期资产并将其添加到收藏集。
 
-管理員可以將過期的資產從AEM Assets發佈到Brand Portal。 不過，過期資產無法透過Brand Portal的連結共用。 如果您從包含過期和未過期資產的檔案夾中選取任何過期資產，則 **[!UICONTROL 共用連結]** 動作無法使用。 但是，如果您選取的資料夾中包含已過期和未過期的資產，則 [!UICONTROL 共用] 和 **[!UICONTROL 共用連結]** 動作可供使用。
+管理员可以将已过期的资源从AEM Assets发布到Brand Portal。 但是，无法通过Brand Portal中的墨迹共享过期的资源。 如果您从包含已过期和未过期资产的文件夹中选择任何已过期的资产，则 **[!UICONTROL 共享链接]** 操作不可用。 但是，如果选择包含已过期和未过期资产的文件夹，则 [!UICONTROL 共享] 和 **[!UICONTROL 共享链接]** 操作可用。
 
 >[!NOTE]
 >
->即使資料夾包含過期的資產，資料夾仍可以連結形式共用。 在此情況下，連結不會列出過期的資產，只會共用未過期的資產。
+>即使文件夹包含过期的资产，该文件夹仍可以链接形式共享。 在这种情况下，该链接不会列出已过期的资产，并且只会共享未过期的资产。
 
-下表顯示過期資產的使用許可權：
+下表显示已过期资产的使用权限：
 
-|  | **[!UICONTROL 連結共用]** | **[!UICONTROL 下载]** | **[!UICONTROL 属性]** | **[!UICONTROL 新增至集合]** | **[!UICONTROL 删除]** |
+|  | **[!UICONTROL 链接共享]** | **[!UICONTROL 下载]** | **[!UICONTROL 属性]** | **[!UICONTROL 添加到收藏集]** | **[!UICONTROL 删除]** |
 |---|---|---|---|---|---|
-| **[!UICONTROL 管理员]** | 無法使用 | 可用 | 可用 | 可用 | 可用 |
-| **[!UICONTROL 编辑器]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
-| **[!UICONTROL 查看者]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
-| **[!UICONTROL 訪客使用者]** | 無法使用 | 無法使用 | 可用 | 可用 | 無法使用 |
+| **[!UICONTROL 管理员]** | 不可用 | 可用 | 可用 | 可用 | 可用 |
+| **[!UICONTROL 编辑器]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
+| **[!UICONTROL 查看者]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
+| **[!UICONTROL 访客用户]** | 不可用 | 不可用 | 可用 | 可用 | 不可用 |
 
 >[!NOTE]
 >
->如果「檢視者和編輯器」下載的資料夾中包含已過期和未過期的資產，則只會下載未過期的資產。 如果資料夾僅包含過期的資產，則會下載空白資料夾。
+>如果查看者和编辑者下载的文件夹中包含已过期和未过期的资产，则只会下载未过期的资产。 如果文件夹仅包含过期的资产，则会下载空文件夹。
 
-### 資產的到期狀態 {#expiration-status-of-assets}
+### 资源的到期状态 {#expiration-status-of-assets}
 
-您可以檢視中資產的到期狀態 **[!UICONTROL 卡片檢視]**. 卡片上的紅色旗標表示資產已過期。
+您可以在其中查看资源的到期状态 **[!UICONTROL 卡片视图]**. 卡片上的红色标记表示资产已过期。
 
 ![](assets/expired_assets_cardview.png)
 
 >[!NOTE]
 >
->清單和欄檢視不會顯示資產的到期狀態。
+>列表和列视图不显示资源的到期状态。
 
-## 資產連結有效期 {#asset-link-expiration}
+## 资产链接过期 {#asset-link-expiration}
 
-透過連結共用資產時，管理員和編輯人員可以使用 **[!UICONTROL 有效期]** 中的欄位 **[!UICONTROL 連結共用]** 對話方塊。 連結的預設到期日是從共用連結的日期起七天。
+通过链接共享资产时，管理员和编辑人员可以使用设置过期日期和时间 **[!UICONTROL 过期]** 中的字段 **[!UICONTROL 链接共享]** 对话框。 链接的默认过期时间是从链接共享日期起七天。
 
 ![](assets/asset-link-sharing.png)
 
-它可確保共用為連結的資產會在Brand Portal管理員和編輯人員設定的日期和時間過期，並在過期日期後無法再檢視和下載。 由於透過連結共用的資產也可由不屬於組織的外部使用者檢視，透過指定有效期，您可以確保您的已核准資產受到保護，不會在指定時間後向未知實體公開。
+它可确保作为链接共享的资源在Brand Portal管理员和编辑人员设置的日期和时间过期，并在过期日期后无法再查看和下载。 由于通过链接共享的资产也可以由不属于组织的外部用户查看，因此通过指定过期，您可以确保批准的资产受到保护，并在指定时间后不会向未知实体公开。
 
-如需連結共用的詳細資訊，請參閱 [以連結形式共用資產](../using/brand-portal-link-share.md).
+有关链接共享的详细信息，请参阅 [将资产作为链接共享](../using/brand-portal-link-share.md).
 
-## 授權資產 {#licensed-assets}
+## 许可资产 {#licensed-assets}
 
-授權資產在從Brand Portal下載前，必須先接受授權合約。 授權資產的本合約於您直接從Brand Portal下載資產，或透過共用連結下載資產時提供。 無論是否已過期，所有使用者都可以檢視受授權保護的資產。 不過，已過期授權資產的下載和使用受到限制。 若要瞭解已過期授權資產的行為以及根據使用者角色而允許的活動，請參閱 [過期資產的使用許可權](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+在从Brand Portal下载许可资产之前，必须接受许可协议。 当您直接从Brand Portal下载资源或通过共享链接下载资源时，就会签署此许可资源协议。 无论是否已过期，所有用户都可以查看受许可证保护的资产。 但是，已过期许可资产的下载和使用有限。 要了解已过期许可资产的行为以及基于用户角色的可允许活动，请参阅 [已过期资产的使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-受授權保護的資產具有 [已附加授權合約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) ，方法是設定資產的中繼資料屬性 [!DNL Experience Manager Assets].
+受许可证保护的资产具有 [许可证协议已附加](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) ，方法是将资源的元数据属性设置为 [!DNL Experience Manager Assets].
 
-如果資產包含下列（或兩者）中繼資料屬性，則視為受保護：
+如果资产包含以下（或两者）元数据属性之一，则该资产被视为受保护：
 
-* `xmpRights:WebStatement`：此屬性是指包含資產授權合約的頁面路徑。 `xmpRights:WebStatement` 應為存放庫中的有效路徑。
-* `adobe_dam:restrictions`：此屬性的值是指定授權合約的原始HTML。
+* `xmpRights:WebStatement`：此属性是指包含资产的许可协议的页面的路径。 `xmpRights:WebStatement` 应为存储库中的有效路径。
+* `adobe_dam:restrictions`：此属性的值是指定许可协议的原始HTML。
 
 
-如果您選擇下載受授權保護的資產，則會將您重新導向至 **[!UICONTROL 版權管理]** 頁面（視中繼資料屬性而定）。
+如果您选择下载受许可证保护的资产，则会将您重定向到 **[!UICONTROL 版权管理]** 页面，具体取决于元数据属性。
 
 | `adobe_dam:restrictions` | `xmpRights:WebStatement` | 版权管理 |
 | --- | --- | --- |
-| 是 | - | 介面會顯示在Assets和Brand Portal中 |
-| - | 是（無效路徑） | 無介面 |
-| 是 | 是（無效路徑） | 無介面 |
-| 是 | 是（有效路徑） | 介面會顯示在「資產」或Brand Portal中 </br> 視路徑是否對Assets或Brand Portal （或兩者）有效而定。 |
+| 是 | - | 该界面同时显示在Assets和Brand Portal中 |
+| - | 是（无效路径） | 无界面 |
+| 是 | 是（无效路径） | 无界面 |
+| 是 | 是（有效路径） | 界面显示在Assets或Brand Portal中 </br> 取决于路径对Assets还是Brand Portal（或两者）有效。 |
 
 ![](assets/asset-copyright-mgmt.png)
 
-您必須在此處選取要下載的資產，並接受相關的授權合約。 如果您不接受授權合約，則 **[!UICONTROL 下載]** 按鈕未啟用。
+在此，您需要选择要下载的资源并接受关联的许可协议。 如果您不接受许可协议， **[!UICONTROL 下载]** 按钮未启用。
 
 ![](assets/licensed-asset-download-2.png)
 
-如果選取範圍包含多個受保護的資產，請一次選取一個資產、接受授權合約，然後繼續下載資產。
+如果所选内容包含多个受保护的资产，则一次选择一个资产，接受许可协议，然后继续下载该资产。
 
-## 產生過期資產的相關報告 {#generate-report-about-expired-assets}
+## 生成有关已过期资产的报告 {#generate-report-about-expired-assets}
 
-管理員可以產生並下載報表，列出特定時間範圍內所有已到期的資產。 此報表包含有關過期資產的詳細資訊（例如大小、型別、在資產階層中指定資產位置的路徑、資產過期時間以及資產發佈時間）。 可自訂此報告的欄，以根據使用者需求顯示更多資料。
+管理员可以生成并下载报表，其中列出在特定时间范围内过期的所有资源。 此报表包含有关过期资产的详细信息（例如大小、类型、指定资产在资产层次结构中的位置的路径、资产过期时间以及资产发布时间）。 可以自定义此报告的列，以根据用户要求显示更多数据。
 
 ![](assets/assets-expired.png)
 
-如需有關報表功能的詳細資訊，請參閱 [使用報告](../using/brand-portal-reports.md#work-with-reports).
+有关报告功能的详细信息，请参阅 [使用报告](../using/brand-portal-reports.md#work-with-reports).

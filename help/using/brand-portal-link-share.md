@@ -1,7 +1,7 @@
 ---
 title: 以链接方式共享资产
 seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視和共用他們共用的資產。
+description: Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户和外部实体（包括合作伙伴和供应商）共享多个资源的链接。 编辑者只能查看和共享与他们共享的资产。
 seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
@@ -19,91 +19,91 @@ ht-degree: 4%
 
 # 以链接方式共享资产 {#share-assets-as-a-link}
 
-Adobe Experience Manager Assets Brand Portal管理員可與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯人員只能檢視和共用他們共用的資產。
+Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户和外部实体（包括合作伙伴和供应商）共享多个资源的链接。 编辑者只能查看和共享与他们共享的资产。
 
-透過連結共用資產是一種便利的方式，可讓外部對象使用資產，因為接收者不必登入Brand Portal即可存取資產。
+通过链接共享资源是一种向外部各方提供资源的便利方法，因为接收者无需登录Brand Portal即可访问资源。
 
 <!-- Link sharing access is restricted to editors and administrators. 
 -->
 
-如需詳細資訊，請參閱 [管理使用者、群組和使用者角色](../using/brand-portal-adding-users.md#manage-user-roles).
+有关更多信息，请参阅 [管理用户、组和用户角色](../using/brand-portal-adding-users.md#manage-user-roles).
 
 
-以下是透過連結共用資產的步驟：
+以下是作为链接共享资产的步骤：
 
-1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視會開啟，其中包含所有已發佈的資產和資料夾。
+1. 登录到您的Brand Portal租户。 默认情况下， **[!UICONTROL 文件]** 视图打开，其中包含所有已发布的资源和文件夹。
 
-1. 選取您要共用的資產或資料夾，或導覽至 **[!UICONTROL 集合]** 檢視以共用您已建立的集合。
+1. 选择要共享的资源或文件夹，或导航到 **[!UICONTROL 收藏集]** 查看以共享您已创建的收藏集。
 
    ![select-multi-assets](assets/select-assets-new.png)
 
-1. 在頂端的工具列中，按一下 **[!UICONTROL 共用連結]** 圖示。
+1. 在顶部的工具栏中，单击 **[!UICONTROL 共享链接]** 图标。
 
-   此 **[!UICONTROL 連結共用]** 對話方塊隨即顯示。
+   此 **[!UICONTROL 链接共享]** 对话框。
 
    ![](assets/link-sharing.png)
 
-   * 在電子郵件地址方塊中，輸入您要共用連結之使用者的電子郵件ID。 您可以與多位使用者共用連結。 如果使用者是您組織的成員，請從下拉式清單中顯示的建議中選取其電子郵件ID。 如果使用者是外部使用者，請輸入完整的電子郵件ID並按 **[!UICONTROL 輸入]**；電子郵件ID會新增至使用者清單。
+   * 在电子邮件地址框中，键入要与其共享链接的用户的电子邮件ID。 您可以与多个用户共享该链接。 如果用户是您组织的成员，请从下拉列表中显示的建议中选择其电子邮件ID。 如果用户是外部用户，请键入完整的电子邮件ID并按 **[!UICONTROL 输入]**；电子邮件ID将添加到用户列表。
 
       ![](assets/link-sharing-text.png)
 
-   * 在 **[!UICONTROL 主旨]** 方塊中，輸入您要共用之資產的主旨。
-   * 在 **[!UICONTROL 訊息]** 方塊，視需要輸入訊息。
-   * 在 **[!UICONTROL 有效期]** 欄位中，使用日期選擇器來指定連結的到期日和時間。 預設情況下，到期日設為您共用連結當日起的7天。
-   * 啟用 **[!UICONTROL 允許下載原始檔案]** 核取方塊可讓收件者下載原始轉譯。
+   * 在 **[!UICONTROL 主题]** 框中，为要共享的资产键入主题。
+   * 在 **[!UICONTROL 消息]** 框中，根据需要键入消息。
+   * 在 **[!UICONTROL 过期]** 字段中，使用日期选取器指定链接的到期日期和时间。 默认情况下，到期日期设置为自您共享链接之日起的7天。
+   * 启用 **[!UICONTROL 允许下载原始文件]** 复选框，允许收件人下载原始演绎版。
 
-   透過連結共用的資產會在超過中指定的日期和時間後過期 **[!UICONTROL 有效期]** 欄位。 如需過期資產的行為資訊，以及根據Brand Portal中的使用者角色而允許的活動中的變更，請參閱 [管理資產的數位版權](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   通过链接共享的资产会在超过 **[!UICONTROL 过期]** 字段。 有关已过期资源的行为以及根据Brand Portal中的用户角色而允许的活动中的更改的信息，请参阅 [管理资产的数字权限](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
-   >連結的預設到期時間為7天。 必須透過電子郵件將連結傳送給使用 **[!UICONTROL 連結共用]** 對話方塊中，不要分別複製和共用連結。
+   >链接的默认到期时间为7天。 必须通过电子邮件将链接发送给使用 **[!UICONTROL 链接共享]** 对话框中，不要单独复制和共享链接。
 
-1. 按一下 **[!UICONTROL 共用]**. 訊息會確認此連結已與使用者共用。 使用者會收到包含共用連結的電子郵件。
+1. 单击 **[!UICONTROL 共享]**. 将显示一条消息，确认该链接已与用户共享。 用户将收到包含共享链接的电子邮件。
 
    ![](assets/link-share-email.png)
 
    >[!NOTE]
    >
-   >管理員可以自訂電子郵件訊息，包括自訂標誌、說明和頁尾 [品牌化](../using/brand-portal-branding.md) 功能。
+   >管理员可以自定义电子邮件消息，其中包括自定义徽标、描述和页脚 [品牌化](../using/brand-portal-branding.md) 功能。
 
-## 從共用連結下載資產 {#download-assets-from-shared-links}
+## 从共享链接下载资源 {#download-assets-from-shared-links}
 
-按一下電子郵件中的連結，以存取共用資產。 AEM連結共用頁面隨即開啟。
+单击电子邮件中的链接可访问共享资产。 将打开AEM链接共享页面。
 
-若要下載共用資產：
+要下载共享资产，请执行以下操作：
 
-1. 按一下資產或資料夾，然後按一下 **[!UICONTROL 下載]** 圖示加以檢視。
+1. 单击资源或文件夹，然后单击 **[!UICONTROL 下载]** 图标。
 
    ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
-   >目前，您只能根據檔案格式產生特定資產的預覽和縮圖。 如需支援的檔案格式詳細資訊，請參閱 [資產格式的預覽和縮圖支援](#preview-thumbnail-support).
+   >目前，您只能为某些资源生成预览和缩略图，具体取决于文件格式。 有关支持的文件格式的详细信息，请参见 [对资源格式的预览和缩略图支持](#preview-thumbnail-support).
 
-1. 此 **[!UICONTROL 下載]** 對話方塊隨即顯示。
+1. 此 **[!UICONTROL 下载]** 对话框。
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. 根據預設 **[!UICONTROL 快速下載]** 中的設定已啟用 **[!UICONTROL 下載設定]**. 因此，確認方塊會顯示為繼續使用IBM Aspera Connect下載。
+1. 默认情况下， **[!UICONTROL 快速下载]** 在中启用设置 **[!UICONTROL 下载设置]**. 因此，将显示一个确认框，确认继续使用IBM Aspera Connect下载。
 
-   若要繼續使用 **[!UICONTROL 快速下載]**，按一下 **[!UICONTROL 允許]**.
+   继续使用 **[!UICONTROL 快速下载]**，单击 **[!UICONTROL 允许]**.
 
-   所有選取的轉譯都會下載到包含每個資產個別資料夾的zip資料夾中。
-
-   >[!NOTE]
-   >
-   >從共用連結下載資產時，會為每個資產建立個別的資料夾。
-   >
-   >如果選取要下載的資料夾、集合或超過20個資產， **[!UICONTROL 下載]** 會略過對話方塊，並且使用者可存取的所有資產轉譯（動態轉譯除外）都會下載到包含每個資產的單獨資料夾的zip資料夾中。
+   所有选定的演绎版都将下载到一个zip文件夹中，该文件夹中为每个资源包含一个单独的文件夹。
 
    >[!NOTE]
    >
-   >如果以連結形式共用資產的使用者並未下載，則不會使用共用連結下載原始轉譯 [管理員已授權可存取原始轉譯](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
+   >从共享链接下载资源时，会为每个资源创建一个单独的文件夹。
+   >
+   >如果选择下载一个文件夹、收藏集或超过20个资产，则 **[!UICONTROL 下载]** 将跳过对话框，并且用户可访问的所有资源演绎版（不包括动态演绎版）都将下载到包含每个资源的单独文件夹的zip文件夹中。
+
+   >[!NOTE]
+   >
+   >如果作为链接共享资产的用户未使用共享链接下载原始演绎版，则不会使用共享链接下载原始演绎版 [管理员授权有权访问原始演绎版](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges).
 
 
 >[!NOTE]
 >
->Brand Portal會限制使用連結共用下載大小超過5 GB的資料夾或資產。
+>Brand Portal使用链接共享来限制下载大小大于5 GB的文件夹或资源。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -126,18 +126,18 @@ Adobe Experience Manager Assets Brand Portal管理員可與授權的內部使用
 
 -->
 
-## 資產格式的預覽和縮圖支援 {#preview-thumbnail-support}
+## 对资源格式的预览和缩略图支持 {#preview-thumbnail-support}
 
-下表列出Brand Portal支援縮圖和預覽的資產格式：
+下表列出了Brand Portal支持缩略图和预览的资源格式：
 
-| 資產格式 | 縮圖支援 | 預覽支援 |
+| 资源格式 | 缩略图支持 | 预览支持 |
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ (N) |
+| TIFF | ✓ | ✕ “ ”标签 |
 | JPEG | ✓ | ✓ |
 | BMP | ✓ | ✕ |
-| PNM* | NA | NA |
+| 凤凰新媒体* | NA | NA |
 | PGM* | NA | NA |
 | PBM* | NA | NA |
 | PPM* | NA | NA |
@@ -147,7 +147,7 @@ Adobe Experience Manager Assets Brand Portal管理員可與授權的內部使用
 | PICT | ✓ | ✕ |
 | PSB* | ✓ | ✕ |
 | JPG | ✓ | ✓ |
-| AI | ✓ | ✕ |
+| 人工智能 | ✓ | ✕ |
 | DOC | ✕ | ✕ |
 | DOCX | ✕ | ✕ |
 | ODT* | ✕ | ✕ |
@@ -189,31 +189,31 @@ Adobe Experience Manager Assets Brand Portal管理員可與授權的內部使用
 | TAR | NA | ✕ |
 | ZIP | ✓ | ✕ |
 
-下列圖例說明矩陣中使用的符號：
+下面的图例说明了矩阵中使用的符号：
 
-| 符號 | 含義 |
+| 符号 | 含义 |
 |---|---|
-| ✓ | 此檔案格式支援此功能 |
-| ✕ | 此檔案格式不支援此功能 |
-| NA | 此功能不適用於此檔案格式 |
-| &#42; | 此功能需要在AEM製作執行個體上提供此檔案格式的附加元件支援，但在資產發佈至Brand Portal後則不需要在Brand Portal上提供 |
+| ✓ | 此文件格式支持此功能 |
+| ✕ | 此文件格式不支持此功能 |
+| NA | 此功能不适用于此文件格式 |
+| &#42; | 此功能需要在AEM创作实例上对此文件格式提供加载项支持，但在将资产发布到Brand Portal后，不会在Brand Portal上提供此支持 |
 
-## 取消共用作為連結的資產 {#unshare-assets-shared-as-a-link}
+## 取消共享作为链接共享的资产 {#unshare-assets-shared-as-a-link}
 
-若要以連結形式取消共用先前共用的資產，請執行下列動作：
+要将以前共享的资产取消作为链接共享，请执行以下操作：
 
-1. 登入Brand Portal時， **[!UICONTROL 檔案]** 依預設，檢視會開啟。 若要檢視您以連結形式共用的資產，請導覽至 **[!UICONTROL 共用連結]** 檢視。
+1. 登录Brand Portal时， **[!UICONTROL 文件]** 默认情况下打开视图。 要查看您以链接形式共享的资源，请导航到 **[!UICONTROL 共享链接]** 视图。
 
-1. 從顯示的清單中檢閱您共用的連結。
+1. 从显示的列表中查看您共享的链接。
 
    ![](assets/shared-links.png)
 
-1. 若要從清單中取消共用連結，請選取該連結，然後按一下 **[!UICONTROL 取消共用]** 圖示進行修改。
+1. 要从列表中取消共享链接，请选择该链接并单击 **[!UICONTROL 取消共享]** 图标。
 
    ![](assets/unshare-asset.png)
 
    >[!NOTE]
    >
-   >共用連結的顯示會因使用者而異。 此功能未顯示租使用者所有使用者共用的所有連結。
+   >共享链接的显示因用户而异。 此功能不显示租户的所有用户共享的所有链接。
 
-1. 在警告訊息方塊中，按一下 **[!UICONTROL 繼續]** 以確認取消共用。 連結的專案會從共用連結清單中移除。
+1. 在警告消息框中，单击 **[!UICONTROL 继续]** 以确认取消共享。 链接的条目将从共享链接列表中删除。

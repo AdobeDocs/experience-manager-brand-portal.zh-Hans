@@ -1,7 +1,7 @@
 ---
 title: Brand Portal 中的资产源
 seo-title: Asset Sourcing in Brand Portal
-description: 深入瞭解Adobe Experience Manager Assets Brand Portal中發行的資產來源功能。
+description: 深入了解Adobe Experience Manager Assets Brand Portal中发布的资源获取功能。
 seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
 uuid: null
 content-type: reference
@@ -24,20 +24,20 @@ ht-degree: 1%
 
 ---
 
-# 資產來源概觀 {#overview-asset-sourcing-in-bp}
+# 资产来源补充概览 {#overview-asset-sourcing-in-bp}
 
-**資產來源** 可讓Experience Manager Assets使用者（管理員/非管理員使用者）使用額外的 **資產貢獻** 屬性，確保Brand Portal使用者可提交所建立的新資料夾。 這會自動觸發建立兩個額外子資料夾的工作流程，稱為 **已共用** 和 **新增**，在新建立的 **貢獻** 資料夾。 然後，管理員透過上傳應新增到貢獻資料夾的資產型別的簡短資訊以及一組基線資產來定義需求 **已共用** 資料夾，以確保BP使用者擁有他們所需的參考資訊。 之後，管理員便可在發佈新建立的貢獻資料夾之前，授予作用中Brand Portal使用者對貢獻資料夾的存取權 **貢獻** 資料夾移至Brand Portal。 一旦使用者完成在中新增內容 **新增** 資料夾中，他們可以將「貢獻」資料夾發佈回Experience Manager作者環境。 請注意，可能需要幾分鐘的時間來完成匯入，並反映Experience Manager Assets中新發佈的內容。
+**资产来源** 允许Experience Manager Assets用户（管理员/非管理员用户）使用其他 **资产贡献** 属性，确保创建的新文件夹可供Brand Portal用户提交资源。 这会自动触发一个工作流，该工作流会创建两个额外的子文件夹，称为 **已共享** 和 **新**，在新创建的 **贡献** 文件夹。 然后，管理员通过上传一份关于应添加到贡献文件夹的资产类型的简短介绍，以及一组基线资产，来定义需求 **已共享** 文件夹以确保BP用户获得所需的参考信息。 随后，管理员可以在发布新创建的贡献文件夹之前，向活动Brand Portal用户授予对贡献文件夹的访问权限 **贡献** 文件夹移至Brand Portal。 用户在中添加完内容后 **新** 之后，他们可以将contribution文件夹发布回Experience Manager创作环境。 请注意，完成导入并反映Experience Manager Assets中新发布的内容可能需要几分钟时间。
 
-此外，所有現有功能均維持不變。 Brand Portal使用者可以從貢獻資料夾以及其他允許的資料夾中檢視、搜尋和下載資產。 管理員可以進一步共用貢獻資料夾、修改屬性，以及將資產新增至收藏集。
+此外，所有现有功能保持不变。 Brand Portal用户可以从“贡献”文件夹以及其他允许的文件夹中查看、搜索和下载资源。 管理员可以进一步共享贡献文件夹、修改属性并将资源添加到收藏集。
 
-![Brand Portal資產來源](assets/asset-sourcing.png)
+![Brand Portal资源源](assets/asset-sourcing.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## 前提条件 {#prerequisites}
 
-* Experience Manager Assetsas a Cloud Service執行個體、Experience Manager Assets 6.5.2或更高版本。
-* 確保您的Experience Manager Assets執行個體已使用Brand Portal進行設定。 請參閱， [使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md).
+* Experience Manager Assetsas a Cloud Service实例，Experience Manager Assets 6.5.2或更高版本。
+* 确保已使用Brand Portal配置您的Experience Manager Assets实例。 参见， [使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md).
 
 <!--
 * Ensure that your Brand Portal tenant is configured with one AEM Assets author instance.
@@ -45,15 +45,15 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.5.9及更高版本預設會啟用「資產來源」功能。
+>默认情况下，Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.5.9及更高版本上启用了资源源功能。
 >
->現有設定將繼續在舊版上運作。
+>现有配置将继续用于早期版本。
 
 >[!NOTE]
 >
->Experience Manager Assets 6.5.4有一個已知問題。Brand Portal使用者升級至Experience Manager Assets主控台後，無法將貢獻資料夾的資產發佈至Adobe Developer。
+>Experience Manager Assets 6.5.4中存在一个已知问题。升级到Adobe Developer Console后，Brand Portal用户无法将贡献文件夹的资产发布到Experience Manager Assets。
 >
->Experience Manager Assets 6.5.5已修正此問題。您可以將Experience Manager Assets執行個體升級至最新的Service Pack，並且 [升級您的設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 在Adobe Developer Console上。
+>已在Experience Manager Assets 6.5.5中修复此问题。您可以将Experience Manager Assets实例升级到最新的Service Pack，并且 [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) 在Adobe Developer控制台上。
 
 <!--
 
@@ -100,38 +100,38 @@ Default URL: http:// localhost:4502/system/console/configMgr.
 -->
 
 
-### 上傳Brand Portal使用者清單 {#upload-bp-user-list}
+### 上传Brand Portal用户列表 {#upload-bp-user-list}
 
-Experience Manager Assets管理員可以上傳包含Experience Manager Assets中有效Brand Portal使用者清單的Brand Portal使用者設定(.csv)檔案，以允許他們存取Asset Sourcing功能。
+Experience Manager Assets管理员可以上传包含Experience Manager Assets中的活动Brand Portal用户列表的Brand Portal用户配置(.csv)文件，以便他们有权访问资源源功能。
 
-貢獻資料夾只能與使用者清單中定義的作用中Brand Portal使用者共用。 管理員也可以在設定檔案中新增使用者，並上傳修改過的使用者清單。
-
->[!NOTE]
->
->確保您的Experience Manager Assets執行個體已使用Brand Portal進行設定。 請參閱， [使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md).
+贡献文件夹只能与在用户列表中定义的活动Brand Portal用户共享。 管理员还可以在配置文件中添加新用户并上传修改后的用户列表。
 
 >[!NOTE]
 >
->CSV檔案的格式與Admin Console支援的大量使用者匯入格式相同。 電子郵件、名字和姓氏為必填欄位。
+>确保已使用Brand Portal配置您的Experience Manager Assets实例。 参见， [使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md).
 
-管理員可以在Admin Console中新增使用者，請參閱 [管理使用者](brand-portal-adding-users.md) 詳細資訊。 在Admin Console中新增使用者後，這些使用者可以新增到Brand Portal使用者設定檔，然後指派許可權以存取貢獻資料夾。
+>[!NOTE]
+>
+>CSV文件的格式与Admin Console支持的批量用户导入格式相同。 电子邮件、名字和姓氏是必填项。
 
-**若要上傳Brand Portal使用者清單：**
+管理员可以在Admin Console中添加新用户，请参阅 [管理用户](brand-portal-adding-users.md) 以了解详细信息。 在Admin Console中添加用户后，可以将这些用户添加到Brand Portal用户配置文件中，然后为其分配访问贡献文件夹的权限。
 
-1. 登入您的Experience Manager Assets執行個體。
-1. 從 **工具**  面板，導覽至 **[!UICONTROL 資產]** > **[!UICONTROL Brand Portal使用者]**.
+**要上传Brand Portal用户列表，请执行以下操作：**
 
-1. Brand Portal上傳貢獻者視窗隨即開啟。
-從本機電腦瀏覽並上傳 **設定(.csv)檔案** 包含作用中Brand Portal使用者清單。
+1. 登录到您的Experience Manager Assets实例。
+1. 从 **工具**  面板，导航到 **[!UICONTROL 资产]** > **[!UICONTROL Brand Portal用户]**.
+
+1. “Brand Portal上传参与者”窗口将打开。
+从本地计算机浏览并上传 **配置(.csv)文件** 包含活动的Brand Portal用户列表。
 1. 单击“**[!UICONTROL 保存]**”。
 
    ![](assets/upload-user-list2.png)
 
 
-管理員可在設定貢獻資料夾時，從此使用者清單提供特定使用者的存取權。 只有指派給貢獻資料夾的使用者才能存取貢獻資料夾，並從Brand Portal將資產發佈到Experience Manager Assets。
+在配置贡献文件夹时，管理员可以通过此用户列表向特定用户提供访问权限。 只有分配到贡献文件夹的用户才有权访问贡献文件夹，并可以将资产从Brand Portal发布到Experience Manager Assets。
 
 ## 另请参阅 {#reference-articles}
 
-* [設定貢獻資料夾並發佈至Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
+* [配置贡献文件夹并将其发布到Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [將貢獻資料夾發佈至Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [将贡献文件夹发布到Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)

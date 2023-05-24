@@ -1,7 +1,7 @@
 ---
 title: 使用 Brand Portal 配置 Experience Manager Assets
 seo-title: Configure Experience Manager Assets with Brand Portal
-description: 深入瞭解如何使用Brand Portal設定Experience Manager Assets。
+description: 深入了解如何使用Brand Portal配置Experience Manager Assets。
 seo-description: Get an insight into configuring Experience Manager Assets with Brand Portal.
 uuid: null
 content-type: reference
@@ -20,37 +20,37 @@ ht-degree: 6%
 
 # 使用 Brand Portal 配置 Experience Manager Assets {#configure-integration}
 
-透過Brand Portal設定Adobe Experience Manager Assets可為Brand Portal使用者啟用資產發佈、資產發佈和資產貢獻功能。 它可讓Experience Manager Assets使用者與Brand Portal使用者一起發佈和發佈資產。 Brand Portal使用者可以存取共用資產，並將新資產上傳至資產貢獻資料夾，再發佈回Experience Manager Assets來貢獻資產。
+使用Brand Portal配置Adobe Experience Manager Assets可为Brand Portal用户启用资产发布、资产分发和资源贡献功能。 它允许Experience Manager Assets用户与Brand Portal用户一起发布和分发资源。 Brand Portal用户可以访问共享资源并通过将新资源上传到资源贡献文件夹并将其发布回Experience Manager Assets来贡献资源。
 
-支援使用Brand Portal設定Experience Manager Assets：
+支持使用Brand Portal配置Experience Manager Assets：
 
 * Experience Manager Assetsas a Cloud Service
-* Experience Manager Assets （內部部署和託管服務） 6.5及更高版本
+* Experience Manager Assets（内部部署和托管服务）6.5及更高版本
 
-從Cloud Manager啟動Experience Manager Assets，即可使用Brand Portal自動設定Brand Portalas a Cloud Service。 啟動工作流程會在後端建立所需的設定，並在與Experience Manager Assetsas a Cloud Service執行個體相同的IMS組織上啟動Brand Portal。
+通过从Cloud Manager激活Experience Manager Assets，可使用Brand Portal自动配置Brand Portalas a Cloud Service。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-然而，Experience Manager Assets （內部部署和Managed Service）是使用Brand Portal手動設定Adobe Developer主控台，這會取得AdobeIdentity Management Services (IMS) Token以授權Brand Portal租使用者。
+而Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的Adobe Developer控制台，可获取AdobeIdentity Management Services (IMS)令牌以授权Brand Portal租户。
 
 >[!NOTE]
 >
->***適用於Experience Manager Assets 6.5及更高版本***
+>***适用于Experience Manager Assets 6.5及更高版本***
 >
->之前，Brand Portal是透過舊版OAuth閘道在傳統介面中設定，它會使用JSON Web權杖(JWT)交換取得IMS權杖以取得授權。
+>以前，通过旧版OAuth网关在经典界面中配置Brand Portal，后者使用JSON Web令牌(JWT)交换获取IMS令牌进行授权。
 >
->自2020年4月6日起，系統不再支援透過舊版OAuth進行設定，而會變更為透過Adobe Developer主控台進行設定。
+>从2020年4月6日起，将不再支持通过旧版OAuth进行配置，现在已更改为通过Adobe Developer控制台进行配置。
 
 
 >[!TIP]
 >
->***僅供現有客戶使用（內部部署和託管服務）***
+>***仅适用于现有客户（内部部署和托管服务）***
 >
->舊版OAuth閘道設定將繼續適用於現有客戶。
+>旧版OAuth网关配置将继续适用于现有客户。
 >
->如果您遇到舊版OAuth閘道設定問題，請刪除現有設定，並透過Adobe Developer主控台建立新設定。
+>如果您遇到旧版OAuth网关配置问题，请删除现有配置，并通过Adobe Developer控制台创建新配置。
 
-使用Brand Portal設定AEM Assets的步驟因您的AEM版本，以及您是第一次設定還是升級現有設定而異：
+使用Brand Portal配置AEM Assets的步骤因您的AEM版本，以及您是首次配置还是升级现有配置而异：
 
-| **AEM 版本** | **新設定** | **升級設定** |
+| **AEM 版本** | **新配置** | **升级配置** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [啟動Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 （6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升級設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [激活Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |

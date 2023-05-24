@@ -1,7 +1,7 @@
 ---
 title: 在 Brand Portal 上搜索资产
 seo-title: Asset searching and saved search on Experience Manager Assets Brand Portal
-description: Brand Portal搜尋功能可讓您使用omnisearch快速搜尋相關資產，而搜尋篩選器可協助您進一步縮小搜尋範圍。 將搜尋儲存為智慧型系列，以供日後使用。
+description: 通过Brand Portal搜索功能，您可以使用omnisearch快速搜索相关资源，而搜索筛选器可帮助您进一步缩小搜索范围。 将搜索另存为智能收藏集以供将来使用。
 seo-description: Brand Portal search capability lets you quickly search for relevant assets using omnisearch, and search filters help you further narrow down your search. Save your searches as smart collections for future.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
@@ -19,84 +19,84 @@ ht-degree: 5%
 
 # 在 Brand Portal 上搜索资产 {#search-assets-on-brand-portal}
 
-Brand Portal搜尋功能可讓您使用omnisearch快速搜尋相關資產，以及使用篩選器的多面向搜尋，以協助您進一步縮小搜尋範圍。 您可以在檔案或資料夾層級搜尋資產，並將搜尋結果儲存為智慧型集合。
+Brand Portal搜索功能允许您使用omnisearch快速搜索相关资源，以及使用筛选器的彩块化搜索帮助您进一步缩小搜索范围。 您可以在文件或文件夹级别搜索资产，并将搜索结果另存为智能收藏集。
 
 >[!NOTE]
 >
->Brand Portal不支援使用omnisearch進行集合搜尋。
+>Brand Portal不支持使用omnisearch进行收藏集搜索。
 >
->不過，您可以使用 [搜尋篩選器以取得相關集合的清單](#search-collection).
+>但是，您可以使用 [搜索筛选器以获取相关收藏集的列表](#search-collection).
 
-## 使用Omnisearch搜尋資產 {#search-assets-using-omnisearch}
+## 使用Omnisearch搜索资源 {#search-assets-using-omnisearch}
 
-若要在Brand Portal上搜尋資產：
+要在Brand Portal中搜索资源，请执行以下操作：
 
-1. 在工具列中，按一下 **[!UICONTROL 搜尋]** 圖示，或按下「**[!UICONTROL /]**」啟動Omnisearch的索引鍵。
+1. 在工具栏中，单击 **[!UICONTROL 搜索]** 图标，或按“**[!UICONTROL /]**”启动Omnisearch的关键。
 
    ![](assets/omnisearchicon-1.png)
 
-1. 在搜尋方塊中，輸入您要搜尋之資產的關鍵字。
+1. 在搜索框中，键入要搜索的资产的关键字。
 
    ![](assets/omnisearch.png)
 
    >[!NOTE]
    >
-   >* omnisearch中至少需要3個字元，才會顯示搜尋建議。
-   >* 當您搜尋 `mountain biking`，omnisearch會傳回搜尋結果中所有同時具備的資產 `mountain` 和 `biking` 在中繼資料欄位中提供。 例如， `mountain` 在 `Title` 欄位和 `biking` 在 `Description` 欄位。 這兩個字詞都必須在中繼資料欄位中可用，才能顯示在搜尋結果中。 不過，即使「智慧標籤」中繼資料欄位中只有兩個辭彙其中之一可用，Omnisearch仍會在搜尋結果中傳回資產。 例如，如果資產包含 `mountain` 作為其中一個智慧標籤，不包含 `biking` 在任何其他中繼資料欄位中搜尋 `mountain biking`，omnisearch仍會在搜尋結果中傳回資產。
+   >* omnisearch中至少需要3个字符才能显示搜索建议。
+   >* 当您搜索 `mountain biking`， omnisearch返回搜索结果中所有同时包含两者的资产 `mountain` 和 `biking` 在元数据字段中可用。 例如， `mountain` 在 `Title` 字段和 `biking` 在 `Description` 字段。 这两个术语必须在元数据字段中均可用，才能显示在搜索结果中。 但是，即使“智能标记”元数据字段中只有两个术语之一，Omnisearch也会在搜索结果中返回资产。 例如，如果资产包含 `mountain` 作为其中一个智能标记，不包含 `biking` 在任何其他元数据字段中，并且您搜索 `mountain biking`，omnisearch仍会在搜索结果中返回资产。
 
 
-1. 從下拉式清單中顯示的相關建議中選取，以快速存取相關資產。
+1. 从下拉列表中显示的相关建议中进行选择，以快速访问相关资源。
 
    ![](assets/assets-search-result.png)
 
-   *使用Omnisearch搜尋資產*
+   *使用Omnisearch搜索资源*
 
-若要瞭解使用智慧標籤資產的搜尋行為，請參閱 [瞭解搜尋結果和行為](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
+要了解带有智能标记的资源搜索行为，请参阅 [了解搜索结果和行为](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
-## 在「篩選器」面板中使用Facet進行搜尋 {#search-using-facets-in-filters-panel}
+## 在“筛选器”面板中使用Facet进行搜索 {#search-using-facets-in-filters-panel}
 
-「篩選器」面板中的搜尋Facet可為您的搜尋體驗增加精細度，並讓搜尋功能有效率。 搜尋Facet會使用多個維度（述詞），讓您執行複雜的搜尋。 您可以輕鬆向下鑽研至所需的詳細資訊層級，以更集中地搜尋。
+“筛选器”面板中的搜索Facet可为您的搜索体验添加粒度，并使搜索功能高效运行。 搜索Facet使用多个维度（谓词），使您能够执行复杂的搜索。 您可以轻松地深入到所需的详细级别以进行更集中的搜索。
 
-例如，如果您要尋找影像，您可以選擇想要點陣圖或向量影像。 您可以在「檔案型別」搜尋面向中指定影像的MIME型別，進一步縮小搜尋範圍。 同樣地，在搜尋檔案時，您可以指定格式，例如PDF或MS® Word格式。
+例如，如果您要查找图像，则可以选择是要位图还是矢量图像。 可以通过在“文件类型”搜索彩块中指定图像的MIME类型来进一步缩小搜索范围。 同样，在搜索文档时，可以指定格式，例如PDF或MS® Word格式。
 
-![Brand Portal中的篩選器面板](assets/file-type-search.png "Brand Portal中的篩選器面板")
+![Brand Portal中的“筛选器”面板](assets/file-type-search.png "Brand Portal中的“筛选器”面板")
 
-此 **[!UICONTROL 篩選器]** 面板包含幾個標準面向，例如 —  **[!UICONTROL 路徑瀏覽器]**， **[!UICONTROL 檔案型別]**， **[!UICONTROL 檔案大小]**， **[!UICONTROL 狀態]**、和 **[!UICONTROL 方向]**. 不過，您可以 [新增自訂搜尋Facet](../using/brand-portal-search-facets.md) 或從中移除特定搜尋Facet **[!UICONTROL 篩選器]** 面板，方法是在基礎搜尋表單中新增或移除述詞。 檢視可用和可用的 [Brand Portal上的搜尋述詞](../using/brand-portal-search-facets.md#list-of-search-predicates).
+此 **[!UICONTROL 筛选器]** 面板包括几个标准方面，例如 **[!UICONTROL 路径浏览器]**， **[!UICONTROL 文件类型]**， **[!UICONTROL 文件大小]**， **[!UICONTROL 状态]**、和 **[!UICONTROL 方向]**. 但是，您可以 [添加自定义搜索Facet](../using/brand-portal-search-facets.md) 或从中移除特定的搜索彩块化 **[!UICONTROL 筛选器]** 面板，方法是在基础搜索表单中添加或删除谓词。 查看可用和可用内容的列表 [Brand Portal上的搜索谓词](../using/brand-portal-search-facets.md#list-of-search-predicates).
 
-若要將篩選器套用至您的搜尋，請使用可用的 [搜尋Facet](../using/brand-portal-search-facets.md)：
+要将过滤器应用于您的搜索，请使用可用的 [搜索Facet](../using/brand-portal-search-facets.md)：
 
-1. 按一下覆蓋圖示並選取 **[!UICONTROL 篩選]**.
+1. 单击叠加图标并选择 **[!UICONTROL 筛选条件]**.
 
    ![](assets/selectorrail.png)
 
-1. 從 **[!UICONTROL 篩選器]** 面板中，選取適當的選項以套用相關的篩選器。
-例如，使用下列標準篩選器：
+1. 从 **[!UICONTROL 筛选器]** 选择适当的选项以应用相关的筛选器。
+例如，使用以下标准过滤器：
 
-   * **[!UICONTROL 路徑瀏覽器]** 以搜尋特定目錄中的資產。 路徑瀏覽器的述詞預設搜尋路徑為 `/content/dam/mac/<tenant-id>/`，可透過編輯預設搜尋表單進行設定。
+   * **[!UICONTROL 路径浏览器]** 以搜索特定目录中的资产。 路径浏览器的谓词的默认搜索路径为 `/content/dam/mac/<tenant-id>/`，可通过编辑默认搜索表单来配置该选项。
    >[!NOTE]
    >
-   >對於非管理員使用者， [!UICONTROL 路徑瀏覽器] 在 [!UICONTROL 篩選] 面板僅顯示與其共用的資料夾（及其上級資料夾）的內容結構。\
-   >路徑瀏覽器可讓管理員使用者導覽至Brand Portal中的任何資料夾。
+   >对于非管理员用户， [!UICONTROL 路径浏览器] 在 [!UICONTROL 筛选条件] 面板仅显示与其共享的文件夹（及其上级文件夹）的内容结构。\
+   >对于管理员用户，路径浏览器允许导航到Brand Portal中的任何文件夹。
 
-   * **[!UICONTROL 檔案型別]** 以指定您要尋找的資產檔案型別（影像、檔案、多媒體、封存）。 此外，您可以縮小搜尋範圍，例如，為影像或檔案格式(PDF或MS® Word)指定MIME型別（Tiff、點陣圖、GIMP影像）。
-   * **[!UICONTROL 檔案大小]** 以根據資產的大小來搜尋資產。 您可以指定大小範圍的下限和上限來縮小搜尋範圍，並指定要搜尋的度量單位。
-   * **[!UICONTROL 狀態]** 以根據資產狀態(例如，核准（已核准、已要求變更、已拒絕、待處理）和到期)搜尋資產。
-   * **[!UICONTROL 平均評分]** 以根據資產的評等搜尋資產。
-   * **[!UICONTROL 方向]** 以根據資產的方向（水準、垂直、正方形）搜尋資產。
-   * **[!UICONTROL 樣式]** 以根據資產的樣式（彩色、單色）搜尋資產。
-   * **[!UICONTROL 視訊格式]** 根據格式(DVI、Flash、MPEG4、MPEG、OGG Theora、QuickTime、Windows Media、WebM)搜尋視訊資產。
+   * **[!UICONTROL 文件类型]** 以指定要查找的资源文件的类型（图像、文档、多媒体、存档）。 此外，您可以缩小搜索范围，例如，为图像或文档格式(PDF或MS® Word)指定MIME类型（Tiff、位图、GIMP图像）。
+   * **[!UICONTROL 文件大小]** 以根据资源的大小搜索资源。 您可以指定大小范围的下限和上限以缩小搜索范围，并指定要搜索的度量单位。
+   * **[!UICONTROL 状态]** 根据资产状态（如批准、已请求更改、已拒绝、待处理）和到期)搜索资产。
+   * **[!UICONTROL 平均评分]** 以根据资产的评级搜索资产。
+   * **[!UICONTROL 方向]** 根据资源的方向（水平、垂直、平方）搜索资源。
+   * **[!UICONTROL 样式]** 根据资产的样式（彩色、单色）搜索资产。
+   * **[!UICONTROL 视频格式]** 根据视频资源的格式(DVI、Flash、MPEG4、MPEG、OGG Theora、QuickTime、Windows Media、WebM)搜索视频资源。
 
-   您可以使用 [自訂搜尋Facet](../using/brand-portal-search-facets.md) 編輯基礎的「搜尋表單」，即可在「篩選器」面板中選取。
+   您可以使用 [自定义搜索Facet](../using/brand-portal-search-facets.md) 通过编辑基础搜索表单，在“筛选器”面板中查找。
 
-   * **[!UICONTROL 屬性述詞]** 若用於搜尋表單，可讓您搜尋符合述詞對應之中繼資料屬性的資產。\
-      例如，如果屬性述詞對應到 [!UICONTROL `jcr:content /metadata/dc:title`]，您可以根據資產的標題來搜尋資產。\
-      此 [!UICONTROL 屬性述詞] 支援下列文字搜尋：
+   * **[!UICONTROL 属性谓词]** 如果在搜索表单中使用，则允许您搜索与谓词所映射到的元数据属性匹配的资源。\
+      例如，如果属性谓词映射到 [!UICONTROL `jcr:content /metadata/dc:title`]，您可以根据资产的标题搜索资产。\
+      此 [!UICONTROL 属性谓词] 支持以下内容的文本搜索：
 
       **部分短语**&#x200B;要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框。该功能允许您搜索所需的资产，即使您没有指定资产元数据中使用的确切字词/短语。
 
       >[!NOTE]
       >
-      > Brand Portal支援下列「部分搜尋」欄位：
+      > Brand Portal支持以下部分搜索字段：
       >* jcr：content/metadata/dc：title
       >* jcr：content/jcr：title
       >* jcr：content/metadata/dam：search_promote
@@ -104,58 +104,58 @@ Brand Portal搜尋功能可讓您使用omnisearch快速搜尋相關資產，以�
 
 
       您可以：
-      * 在「篩選器」面板的Facet中，指定搜尋片語中的單字。 例如，如果您搜尋字詞 **爬升** (屬性述詞對應至 [!UICONTROL `dc:title`] 屬性)，然後所有含有單字的資產 **爬升** 會傳回標題片語。
-      * 指定搜尋片語中單字的一部分，以及萬用字元(&#42;)填滿間隙。
+      * 在“过滤器”面板的Facet中，指定出现在搜索短语中的单词。 例如，如果您搜索术语 **爬升** (属性谓词映射到 [!UICONTROL `dc:title`] 属性)，则包含单词的所有资源 **爬升** 返回其标题短语。
+      * 指定出现在搜索短语中的单词的一部分，以及通配符(&#42;)以填补空白。
 例如，搜索：
-         * **爬升&#42;** 傳回標題片語中字元開頭為「climb」的所有資產。
-         * **&#42;爬升** 傳回標題片語中字詞結尾為「climb」的所有資產。
-         * **&#42;爬升&#42;** 傳回其標題片語中包含「climb」字元的所有資產。
+         * **爬升&#42;** 返回其标题短语中包含以“climb”字符开头的单词的所有资产。
+         * **&#42;爬升** 返回其标题短语中包含以“climb”字符结尾的单词的所有资产。
+         * **&#42;爬升&#42;** 返回其标题短语中包含字符“climb”的所有资产。
 
-若要允許在屬性述詞中進行不區分大小寫的搜尋，請啟用       **不區分大小寫的文字**
-若要允許在屬性述詞中進行不區分大小寫的搜尋，請啟用 **[!UICONTROL 忽略大小寫]** 「搜尋表單」中的核取方塊。 依預設，屬性述詞的文字搜尋會區分大小寫。
+要允许在属性谓词中进行不区分大小写的搜索，请启用       **不区分大小写的文本**
+要允许在属性谓词中进行不区分大小写的搜索，请启用 **[!UICONTROL 忽略大小写]** 复选框。 默认情况下，对属性谓词的文本搜索区分大小写。
    >[!NOTE]
    >
-   >選取時 **[!UICONTROL 部分搜尋]** 核取方塊、 **[!UICONTROL 忽略大小寫]** 預設為選取。
+   >选择时 **[!UICONTROL 部分搜索]** 复选框， **[!UICONTROL 忽略大小写]** 默认情况下处于选中状态。
 
    ![](assets/wildcard-prop-1.png)
 
-   搜尋結果會根據套用的篩選以及搜尋結果計數顯示。
+   根据应用的过滤器以及搜索结果计数显示搜索结果。
 
    ![](assets/omnisearch-with-filters.png)
 
-   具有搜尋結果計數的資產搜尋結果。
+   包含搜索结果计数的资源搜索结果。
 
-1. 您可以從搜尋結果輕鬆導覽至某個專案，然後使用瀏覽器中的「上一步」按鈕返回相同的搜尋結果，而不必重新執行搜尋查詢。
+1. 您可以轻松地从搜索结果中导航到某个项目，然后使用浏览器中的“返回”按钮返回到相同的搜索结果，而无需重新运行搜索查询。
 
-## 將搜尋儲存為智慧型集合 {#save-your-searches-as-smart-collection}
+## 将搜索另存为智能收藏集 {#save-your-searches-as-smart-collection}
 
-您可以將搜尋設定儲存為智慧型集合，以便快速重複相同的搜尋，而不必稍後重做相同的設定。 不過，您無法在集合中套用搜尋篩選器。
+您可以将搜索设置另存为智能收藏集，以便能够快速重复相同的搜索，而无需稍后重做相同的设置。 但是，无法在收藏集中应用搜索过滤器。
 
-若要將搜尋設定儲存為智慧型集合：
+要将搜索设置另存为智能收藏集，请执行以下操作：
 
-1. 點選/按一下 **[!UICONTROL 儲存智慧型集合]** 並提供智慧型集合的名稱。
+1. 点按/单击 **[!UICONTROL 保存智能收藏集]** 并提供智能收藏集的名称。
 
-   若要讓所有使用者都能存取智慧型集合，請選取 **[!UICONTROL 公用]**. 系統會顯示一則訊息，確認智慧型系列已建立，並已新增至已儲存搜尋的清單中。
+   要使所有用户都可访问智能收藏集，请选择 **[!UICONTROL 公共]**. 将显示一条消息，确认智能收藏集已创建并已添加到保存的搜索列表。
 
    >[!NOTE]
    >
-   >可限制非管理員使用者將智慧型集合設為公開，以避免非管理員使用者在組織的Brand Portal上建立大量公開的智慧型集合。 組織可以停用 **[!UICONTROL 允許建立公開的智慧型集合]** 設定來源 **[!UICONTROL 一般]** 「管理工具」面板中可用的設定。
+   >可以限制非管理员用户公开智能收藏集，以避免非管理员用户在组织的Brand Portal上创建大量公开智能收藏集。 组织可以禁用 **[!UICONTROL 允许创建公共智能收藏集]** 配置自 **[!UICONTROL 常规]** “管理工具”面板中提供的设置。
 
    ![](assets/save_smartcollectionui.png)
 
-1. 若要以不同名稱儲存智慧型集合，請選取或清除 **[!UICONTROL 公用]** 核取方塊，按一下 **[!UICONTROL 編輯智慧型集合]**.
+1. 要以其他名称保存智能收藏集，请选择或清除 **[!UICONTROL 公共]** 复选框，单击 **[!UICONTROL 编辑智能收藏集]**.
 
    ![](assets/edit_smartcollection.png)
 
-1. 於 **[!UICONTROL 編輯智慧型集合]** 對話方塊，選取 **[!UICONTROL 另存為]** 並輸入智慧型集合的名稱。 单击“**[!UICONTROL 保存]**”。
+1. 在 **[!UICONTROL 编辑智能收藏集]** 对话框中，选择 **[!UICONTROL 另存为]** 并输入智能收藏集的名称。 单击“**[!UICONTROL 保存]**”。
 
    ![](assets/saveas_smartsearch.png)
 
 
-## 搜尋集合 {#search-collection}
+## 搜索收藏集 {#search-collection}
 
-集合不支援Omnisearch。 不過，您可以套用搜尋篩選條件，以從 [!UICONTROL 集合] 介面。
+收藏集不支持Omnisearch。 但是，您可以应用搜索筛选器以从中列出相关收藏集 [!UICONTROL 收藏集] 界面。
 
-從 [!UICONTROL 集合] 介面，按一下覆蓋圖示以開啟左側欄中的篩選面板。 從可用的篩選器套用單一或多個搜尋篩選器(`modified date`， `access type`、和 `tags`)。 它會根據套用的篩選器列出最相關的集合集。
+从 [!UICONTROL 收藏集] 界面中，单击叠加图标以打开左边栏中的过滤器面板。 从可用过滤器中应用一个或多个搜索过滤器(`modified date`， `access type`、和 `tags`)。 它会根据应用的过滤器列出最相关的收藏集集。
 
 ![](assets/collection-search.png)

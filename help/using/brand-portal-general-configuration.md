@@ -1,7 +1,7 @@
 ---
 title: 管理常规租户配置
 seo-title: Administer general tenant configurations
-description: 設定下載加速、建立公開智慧型集合、建立公開集合，以及讓管理員使用者刪除租使用者上的資產。
+description: 配置下载加速、公共智能收藏集创建、公共收藏集创建，并允许管理员用户删除租户上的资产。
 seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
@@ -20,47 +20,47 @@ ht-degree: 3%
 
 # 管理常规租户配置 {#administer-general-tenant-configurations}
 
-Experience Manager Assets Brand Portal可讓組織為特定租使用者設定下列功能：
+Experience Manager Assets Brand Portal允许组织为特定租户配置以下功能：
 
-* 管理員刪除資產
-* 非管理員使用者建立的公開集合
-* 非管理員使用者建立的公用智慧型集合
-* 非管理員使用者可見的共用資料夾父階層
+* 管理员删除资产
+* 非管理员用户创建公共收藏集
+* 非管理员用户创建公共智能收藏集
+* 非管理员用户可见的共享文件夹的父层次结构
 
-這些設定提供為 **[!UICONTROL 一般設定]** 「管理工具」面板上的設定。
+这些配置提供为 **[!UICONTROL 常规设置]** “管理工具”面板上的配置。
 
 ![](assets/general-config.png)
 
-**A**   允許管理員從Brand Portal刪除資產的設定。 （預設為啟用）
+**A**   允许管理员从Brand Portal中删除资源的配置。 （默认启用）
 
-**B**   允許非管理員使用者建立公開集合的設定。 （預設為啟用）
+**B**   允许非管理员用户创建公共收藏集的配置。 （默认启用）
 
-**C**   允許非管理員使用者建立公開智慧型集合的設定。 （預設為啟用）
+**C**   允许非管理员用户创建公共智能收藏集的配置。 （默认启用）
 
-**D**  設定為非管理員使用者（編輯者、檢視者、來賓使用者）顯示共用資料夾的資料夾階層（從根目錄）。 （預設為停用）
+**D**  用于向非管理员用户（编辑者、查看者、来宾用户）显示共享文件夹的文件夹层次结构（从根目录）的配置。 （默认值为禁用）
 
-## 啟用/停用一般設定 {#enable-disable-general-configurations}
+## 启用/禁用常规配置 {#enable-disable-general-configurations}
 
-若要啟用/停用這些設定：
+要启用/禁用每个配置，请执行以下操作：
 
-1. 以管理員許可權登入。
-1. 從頂端的工具列選取Experience Manager標誌以存取管理工具。
-1. 從管理工具面板中選取 **[!UICONTROL 一般]** 以開啟 **[!UICONTROL 一般設定]** 頁面。
-1. 使用各自的切換開關來啟用/停用任何「一般」設定。
+1. 以管理员权限登录。
+1. 从顶部的工具栏中选择Experience Manager徽标以访问管理工具。
+1. 从管理工具面板中，选择 **[!UICONTROL 常规]** 以打开 **[!UICONTROL 常规设置]** 页面。
+1. 使用相应的切换开关来启用/禁用任何常规配置。
 1. **[!UICONTROL 保存更改。]**
-1. 登出讓變更生效。
+1. 注销以使更改生效。
 
-## 允許管理員使用者從Brand Portal刪除資產 {#allow-admin-users-to-delete-assets-from-brand-portal}
+## 允许管理员用户从Brand Portal删除资源 {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL 允許使用者刪除]** 設定可讓組織允許（或限制）具有管理員許可權的使用者從Brand Portal刪除資產和資料夾。
+**[!UICONTROL 允许用户删除]** 通过配置，组织可以允许（或限制）具有管理员权限的用户从Brand Portal中删除资源和文件夹。
 
-## 允許非管理員建立公開集合 {#allow-public-collections-creation-by-non-admins}
+## 允许非管理员创建公共收藏集 {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL 允許建立公開集合]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 設定可控制非管理員是否可以在Brand Portal上建立公開集合。 設定預設為啟用。 停用設定組織可防止其入口網站上有許多公開集合，以便節省系統空間。
+[[!UICONTROL 允许创建公共收藏集]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) 配置控制非管理员是否可以在Brand Portal上创建公共收藏集。 默认启用配置。 通过禁用配置，组织可以阻止其门户上有大量公共收藏集，从而节省系统空间。
 
-## 允許非管理員建立公開的智慧型集合 {#allow-public-smart-collections-creation-by-non-admins}
+## 允许非管理员创建公共智能收藏集 {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL 允許建立公開的智慧型集合]](../using/brand-portal-searching.md#main-pars-header-500620467) 設定可控制非管理員是否可將他們的搜尋儲存為智慧型集合，並為該租使用者公開這些搜尋。 設定預設為啟用。 停用設定組織可防止非管理員使用者在組織的Brand Portal上建立大量公開智慧型集合。
+[[!UICONTROL 允许创建公共智能收藏集]](../using/brand-portal-searching.md#main-pars-header-500620467) 配置控制非管理员是否可以将其搜索另存为智能收藏集，并将其为该租户公开。 默认启用配置。 通过禁用配置，组织可以阻止非管理员用户在组织的Brand Portal上创建大量公共智能收藏集。
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
@@ -70,4 +70,4 @@ Experience Manager Assets Brand Portal可讓組織為特定租使用者設定下
 
 ## 启用文件夹层次结构 {#enable-folder-hierarchy}
 
-[[!UICONTROL 啟用資料夾階層]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 設定可讓管理員控制非管理員使用者（編輯者、檢視者和訪客使用者）在登入後檢視共用資料夾的方式。
+[[!UICONTROL 启用文件夹层次结构]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) 通过配置，管理员可以控制非管理员用户（编辑者、查看者和来宾用户）在登录后查看共享文件夹的方式。

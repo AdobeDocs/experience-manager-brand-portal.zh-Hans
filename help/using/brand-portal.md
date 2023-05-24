@@ -1,7 +1,7 @@
 ---
-title: Experience Manager Assets Brand Portal概觀
+title: Experience Manager Assets Brand Portal概述
 seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portal可協助您輕鬆取得、控制核准的創意資產，並安全地將其散佈給跨裝置的外部團體和內部業務使用者。
+description: Experience Manager Assets Brand Portal可以帮助您轻松地获取、控制经过批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。
 seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
@@ -16,54 +16,54 @@ ht-degree: 6%
 
 ---
 
-# Experience Manager Assets Brand Portal概觀 {#overview-of-aem-assets-brand-portal}
+# Experience Manager Assets Brand Portal概述 {#overview-of-aem-assets-brand-portal}
 
-作為行銷人員，您有時需要與通路合作夥伴和內部業務使用者共同作業，以快速建立、管理相關數位內容並將其提供給客戶。 在整個客戶歷程中及時傳送相關內容，對於推動更多需求、轉換、參與和客戶忠誠度至關重要。
+作为营销人员，您有时需要与渠道合作伙伴和内部业务用户协作，以快速创建、管理和向客户提供相关数字内容。 在整个客户历程中及时交付相关内容对于提高需求、转化、参与度和客户忠诚度至关重要。
 
-然而，開發解決方案以支援與延伸的內部團隊、合作夥伴和經銷商有效且安全地共用核准的品牌標誌、指導方針、行銷活動資產或產品快照是一項挑戰。
+但是，开发解决方案以支持与扩展的内部团队、合作伙伴和经销商高效、安全地共享批准的品牌标识、准则、促销活动资产或产品快照是一项挑战。
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** 專注於行銷人員需求，透過提供資產分配和資產貢獻功能，與分散於全球的Brand Portal使用者有效合作。
+**Adobe Experience Manager (AEM) Assets Brand Portal** 重点关注营销人员通过提供资产分发和资产贡献功能来与遍布全球的Brand Portal用户有效协作的需求。
 
-資產散佈可讓您輕鬆取得、控制核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。 而Asset Contribution可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而無需存取作者環境。 「貢獻」功能的名稱為 **Brand Portal中的資產來源**. 此外，整合可改善資產散佈的整體Brand Portal體驗，以及Brand Portal使用者（外部機構/團隊）的貢獻，加速資產的上市時間，並降低不合規和未經授權存取的風險。
-請參閱， [Brand Portal中的Asset Sourcing](brand-portal-asset-sourcing.md).
+Asset Distribution允许您轻松地获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 相反，通过Asset Contribution，Brand Portal用户能够将资源上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 贡献功能称为 **Brand Portal中的资源源**. 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
+参见， [Brand Portal中的资源源](brand-portal-asset-sourcing.md).
 
-瀏覽器式入口網站環境可讓您輕鬆上傳、瀏覽、搜尋、預覽和匯出已核准格式的資產。
+通过基于浏览器的门户环境，您可以轻松地以批准的格式上传、浏览、搜索、预览和导出资产。
 
 ## 使用 Brand Portal 配置 Experience Manager Assets {#configure-brand-portal}
 
-透過Brand Portal設定Adobe Experience Manager Assets可為Brand Portal使用者啟用資產發佈、資產發佈和資產貢獻功能。
+使用Brand Portal配置Adobe Experience Manager Assets可为Brand Portal用户启用资产发布、资产分发和资源贡献功能。
 
 >[!NOTE]
 >
->Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.3及更高版本支援使用Brand Portal設定Experience Manager Assets。
+>Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.3及更高版本支持使用Brand Portal配置Experience Manager Assets。
 
-從Cloud Manager啟動Experience Manager Assets，即可使用Brand Portal自動設定Brand Portalas a Cloud Service。 啟動工作流程會在後端建立所需的設定，並在與Experience Manager Assetsas a Cloud Service執行個體相同的IMS組織上啟動Brand Portal。
+通过从Cloud Manager激活Experience Manager Assets，可使用Brand Portal自动配置Brand Portalas a Cloud Service。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-然而，Experience Manager Assets （內部部署和Managed Service）是使用Brand Portal手動設定Adobe Developer主控台，這會取得AdobeIdentity Management Services (IMS) Token以授權Brand Portal租使用者。
+而Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的Adobe Developer控制台，可获取AdobeIdentity Management Services (IMS)令牌以授权Brand Portal租户。
 
-如需詳細資訊，請參閱 [使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md).
+有关更多信息，请参阅 [使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md).
 
-## Brand Portal中的使用者角色 {#Personas}
+## Brand Portal中的用户角色 {#Personas}
 
-Brand Portal支援下列使用者角色：
+Brand Portal支持以下用户角色：
 
-* 訪客使用者
+* 访客用户
 * 查看者
 * 编辑器
 * 管理员
 
-下表列出具有這些角色的使用者可以執行的工作：
+下表列出了具有这些角色的用户可以执行的任务：
 
-|  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享收藏集** | **以链接方式共享资产** | **存取管理工具** |
+|  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享收藏集** | **以链接方式共享资产** | **访问管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **訪客使用者** | ✓ (A)* | ✓* | ✓* | x | x | x | x |
+| **访客用户** | ✓日* | ✓* | ✓* | x | x | x | x |
 | **查看者** | ✓ | ✓ | ✓ | x | x | x | x |
 | **编辑器** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理员** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 >[!NOTE]
 >
->訪客使用者只能瀏覽、存取和搜尋公用資料夾和集合中的資產。
+>Guest用户只能浏览、访问和搜索公用文件夹和收藏集中的资产。
 
 <!--
 &#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
@@ -73,37 +73,37 @@ Brand Portal支援下列使用者角色：
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### 訪客使用者 {#guest-user}
+### 访客用户 {#guest-user}
 
-Experience Manager Assets Brand Portal允許 [訪客存取](#request-access-to-brand-portal) 至Brand Portal。 訪客使用者不需要認證即可進入入口網站，且可存取公用資料夾和集合。 身為來賓使用者，您可以瀏覽資產詳細資訊，並擁有公用資料夾和集合成員的完整資產檢視。 您可以搜尋、下載公開資產，並將其新增至 [!UICONTROL Lightbox] 集合。
+Experience Manager Assets Brand Portal允许 [访客访问](#request-access-to-brand-portal) Brand Portal。 访客用户无需凭据即可进入门户，并且有权访问公共文件夹和收藏集。 作为访客用户，您可以浏览资源详细信息，并完整查看公用文件夹和收藏集成员的资源。 您可以搜索、下载公共资产并将其添加到 [!UICONTROL 灯箱] 收藏集。
 
-不過，訪客工作階段會限制您建立收藏集和已儲存的搜尋，並進一步共用它們。 來賓工作階段中的使用者無法存取資料夾和集合設定，也無法以連結形式共用資產。 以下是訪客使用者可以執行的工作清單：
+但是，访客会话会限制您创建收藏集和保存的搜索，并进一步共享它们。 来宾会话中的用户无法访问文件夹和收藏集设置，也无法以链接形式共享资产。 以下是Guest用户可以执行的任务列表：
 
-* [瀏覽及存取公用資產](browse-assets-brand-portal.md)
+* [浏览和访问公共资产](browse-assets-brand-portal.md)
 
-* [搜尋公用資產](brand-portal-searching.md)
+* [搜索公共资产](brand-portal-searching.md)
 
-* [下載公開資產](brand-portal-download-assets.md)
+* [下载公共资产](brand-portal-download-assets.md)
 
-* [將資產新增至 [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+* [将资源添加到 [!UICONTROL 灯箱]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-如需詳細資訊，請參閱 [訪客存取Brand Portal](../using/guest-access.md).
+有关更多信息，请参阅 [访客访问Brand Portal](../using/guest-access.md).
 
 ### 查看者 {#viewer}
 
-Brand Portal使用者定義於 [!DNL Admin Console] 以檢視器角色存取Brand Portal的使用者。 具有此角色的使用者可以登入Brand Portal並存取允許的資料夾、集合和資產。 使用者也可以瀏覽、預覽、下載和匯出資產（原始或特定轉譯）、設定帳戶設定和搜尋資產。 以下是檢視器可以執行的工作清單：
+Brand Portal用户定义于 [!DNL Admin Console] 具有查看者角色且有权访问Brand Portal的用户。 具有此角色的用户可以登录Brand Portal并访问允许的文件夹、收藏集和资源。 用户还可以浏览、预览、下载和导出资产（原始或特定演绎版）、配置帐户设置以及搜索资产。 以下是查看器可以执行的任务列表：
 
-* [瀏覽資產](browse-assets-brand-portal.md)
+* [浏览资源](browse-assets-brand-portal.md)
 
-* [搜尋資產](brand-portal-searching.md)
+* [搜索资源](brand-portal-searching.md)
 
 * [下载资源](brand-portal-download-assets.md)
 
 ### 编辑器 {#editor}
 
-具有編輯者角色的使用者可以執行檢視器可以執行的所有工作。 此外，和Editor可以檢視管理員共用的檔案和資料夾。 具有編輯者角色的使用者也可以與其他人共用內容（檔案、資料夾、集合）。
+具有编辑者角色的用户可以执行查看器可以执行的所有任务。 此外，和编辑器可以查看管理员共享的文件和文件夹。 具有编辑者角色的用户还可以与其他人共享内容（文件、文件夹、收藏集）。
 
-除了檢視器可以執行的工作之外，編輯者還可以執行下列其他工作：
+除了查看器可以执行的任务外，编辑器还可以执行以下附加任务：
 
 * [共享文件夹](brand-portal-sharing-folders.md)
 
@@ -113,17 +113,17 @@ Brand Portal使用者定義於 [!DNL Admin Console] 以檢視器角色存取Bran
 
 ### 管理员 {#administrator}
 
-管理員包括中標籤為系統管理員或Brand Portal產品管理員的使用者 [!UICONTROL Admin Console]. 管理員可以新增和移除系統管理員和使用者、定義預設集、傳送電子郵件給使用者，以及檢視入口網站使用情況和儲存空間報告。
+管理员包括中标记为系统管理员或Brand Portal产品管理员的用户 [!UICONTROL Admin Console]. 管理员可以添加和删除系统管理员和用户、定义预设、向用户发送电子邮件，以及查看门户使用情况和存储报告。
 
 >[!NOTE]
 >
->在Brand Portal中，在中標籤為支援管理員的使用者 [!UICONTROL Admin Console] 具有與系統管理員相同的許可權。
+>在Brand Portal中，在中标记为支持管理员的用户 [!UICONTROL Admin Console] 具有与系统管理员相同的权限。
 
-管理員可以執行編輯者可以執行的所有工作。 以下是管理員可以執行的其他工作：
+管理员可以执行编辑者可以执行的所有任务。 以下是管理员可以执行的其他任务：
 
 * [管理用户、组和用户角色](brand-portal-adding-users.md)
 
-* [自訂壁紙、頁面標題和電子郵件](brand-portal-branding.md)
+* [自定义壁纸、页面标题和电子邮件](brand-portal-branding.md)
 
 * [使用自定义搜索 Facet](brand-portal-search-facets.md)
 
@@ -133,7 +133,7 @@ Brand Portal使用者定義於 [!DNL Admin Console] 以檢視器角色存取Bran
 
 * [使用报告](brand-portal-reports.md)
 
-除了上述工作之外，AEM Assets中的作者還可以執行下列工作：
+除了上述任务外，AEM Assets中的作者还可以执行以下任务：
 
 * [使用 Brand Portal 配置 AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
 
@@ -141,106 +141,106 @@ Brand Portal使用者定義於 [!DNL Admin Console] 以檢視器角色存取Bran
 
 * [将收藏集发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
-## Brand Portal URL的替代別名 {#tenant-alias-for-portal-url}
+## Brand Portal URL的替代别名 {#tenant-alias-for-portal-url}
 
-Brand Portal 6.4.3以後，組織可以有一個替代（別名） URL用於其Brand Portal租使用者的現有URL。 別名URL可在URL中使用替代首碼來建立。\
-請注意，您只能自訂Brand Portal URL的前置詞，而不能自訂整個URL。 例如，擁有現有網域的組織 `geomettrix.brand-portal.adobe.com` 可以取得 `geomettrixinc.brand-portal.adobe.com` 已依要求建立。
+从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的现有URL拥有一个替代（别名） URL。 别名URL可通过在URL中使用替代前缀来创建。\
+请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。 例如，具有现有域的组织 `geomettrix.brand-portal.adobe.com` 可以获取 `geomettrixinc.brand-portal.adobe.com` 根据请求创建。
 
-不過，AEM作者例項可以 [已設定](../using/configure-aem-assets-with-brand-portal.md) 僅使用租使用者ID URL，而不使用租使用者別名（替代） URL。
+但是，AEM创作实例可以是 [已配置](../using/configure-aem-assets-with-brand-portal.md) 仅使用租户ID URL，而不使用租户别名（替代） URL。
 
 >[!NOTE]
 >
->若要在現有入口網站URL中取得租使用者名稱稱的別名，組織需要透過新的租使用者別名建立請求聯絡客戶支援。 系統會先檢查別名是否可用，然後建立別名，以處理此請求。
+>要在现有门户URL中获取租户名称的别名，组织需要通过新的租户别名创建请求联系客户支持。 首先检查别名是否可用，然后创建别名，以处理此请求。
 >
->若要取代舊別名或刪除舊別名，必須遵循相同的程式。
+>要替换旧别名或删除旧别名，需要执行相同的过程。
 
-## 要求存取Brand Portal {#request-access-to-brand-portal}
+## 请求访问Brand Portal {#request-access-to-brand-portal}
 
-使用者可從登入畫面要求存取Brand Portal。 這些請求會傳送給Brand Portal管理員，由管理員透過Adobe授予使用者存取權 [!UICONTROL Admin Console]. 授予存取權後，使用者會收到通知電子郵件。
+用户可以从登录屏幕请求对Brand Portal的访问权限。 这些请求将发送给Brand Portal管理员，管理员将通过Adobe向用户授予访问权限 [!UICONTROL Admin Console]. 授予访问权限后，用户会收到通知电子邮件。
 
-若要要求存取權，請執行下列動作：
+要请求访问权限，请执行以下操作：
 
-1. 從Brand Portal登入頁面中，選取 **[!UICONTROL 按一下這裡]** 對應至 **[!UICONTROL 需要存取權？]**. 不過，若要進入來賓工作階段，請選取 **[!UICONTROL 按一下這裡]** 對應至 **[!UICONTROL 訪客存取？]**.
+1. 从Brand Portal登录页面中，选择 **[!UICONTROL 单击此处]** 对应于 **[!UICONTROL 需要访问？]**. 但是，要进入来宾会话，请选择 **[!UICONTROL 单击此处]** 对应于 **[!UICONTROL 来宾访问？]**.
 
-   ![Brand Portal登入畫面](assets/bp-login-requestaccess.png)
+   ![Brand Portal登录屏幕](assets/bp-login-requestaccess.png)
 
-   此 [!UICONTROL 要求存取權] 頁面隨即開啟。
+   此 [!UICONTROL 请求访问] 页面打开。
 
-1. 若要請求存取組織的Brand Portal，您必須具備有效的 [!UICONTROL Adobe ID]， [!UICONTROL Enterprise ID]，或 [!UICONTROL Federated ID].
+1. 要请求访问组织的Brand Portal，您必须拥有有效的 [!UICONTROL Adobe ID]， [!UICONTROL Enterprise ID]，或 [!UICONTROL Federated ID].
 
-   在 [!UICONTROL 要求存取權] 頁面，使用您的ID登入（案例1）或建立 [!UICONTROL Adobe ID] （案例2）：
+   在 [!UICONTROL 请求访问] 页面，使用您的ID登录（场景1）或创建 [!UICONTROL Adobe ID] （场景2）：
 
-   ![[!UICONTROL 要求存取權]](assets/bplogin_request_access_2.png)
+   ![[!UICONTROL 请求访问]](assets/bplogin_request_access_2.png)
 
-   **案例1**
+   **场景1**
 
-   1. 如果您擁有 [!UICONTROL Adobe ID]， [!UICONTROL Enterprise ID]，或 [!UICONTROL Federated ID]，按一下 **[!UICONTROL 登入]**.
-此 [!UICONTROL 登入] 頁面隨即開啟。
+   1. 如果您拥有 [!UICONTROL Adobe ID]， [!UICONTROL Enterprise ID]，或 [!UICONTROL Federated ID]，单击 **[!UICONTROL 登录]**.
+此 [!UICONTROL 登录] 页面打开。
 
-   1. 提供您的 [!UICONTROL Adobe ID] 認證，然後按一下 **[!UICONTROL 登入]**.
+   1. 提供您的 [!UICONTROL Adobe ID] 凭据，然后单击 **[!UICONTROL 登录]**.
 
-      ![Adobe登入](assets/bplogin_request_access_3.png)
-   系統會將您重新導向至 [!UICONTROL 要求存取權] 頁面。
+      ![Adobe登录](assets/bplogin_request_access_3.png)
+   您将被重定向到 [!UICONTROL 请求访问] 页面。
 
-   **案例2**
+   **场景2**
 
-   1. 如果您沒有 [!UICONTROL Adobe ID]，若要建立一個，請按一下 **[!UICONTROL 取得Adobe ID]** 從 [!UICONTROL 要求存取權] 頁面。
-此 [!UICONTROL 登入] 頁面隨即開啟。
-   1. 按一下 **[!UICONTROL 取得Adobe ID]**.
-此 [!UICONTROL 註冊] 頁面隨即開啟。
-   1. 輸入您的名字和姓氏、電子郵件ID和密碼。
-   1. 選取 **[!UICONTROL 註冊]**.
+   1. 如果您没有 [!UICONTROL Adobe ID]，要创建一个，请单击 **[!UICONTROL 获取Adobe ID]** 从 [!UICONTROL 请求访问] 页面。
+此 [!UICONTROL 登录] 页面打开。
+   1. 单击 **[!UICONTROL 获取Adobe ID]**.
+此 [!UICONTROL 注册] 页面打开。
+   1. 输入您的名字、姓氏、电子邮件ID和密码。
+   1. 选择 **[!UICONTROL 注册]**.
 
       ![](assets/bplogin_request_access_5.png)
-   系統會將您重新導向至 [!UICONTROL 要求存取權] 頁面。
+   您将被重定向到 [!UICONTROL 请求访问] 页面。
 
-1. 下一頁會顯示您用來要求存取權的名稱和電子郵件ID。 為管理員留下註解，然後按一下 **[!UICONTROL 提交]**.
+1. 下一页显示用于请求访问的姓名和电子邮件ID。 为管理员留下注释，然后单击 **[!UICONTROL 提交]**.
 
    ![](assets/bplogin-request-access.png)
 
-## 產品管理員授予存取權 {#grant-access-to-brand-portal}
+## 产品管理员授予访问权限 {#grant-access-to-brand-portal}
 
-Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的電子郵件接收存取要求。
+Brand Portal产品管理员在其Brand Portal通知区域并通过收件箱中的电子邮件接收访问请求。
 
-![存取要求的通知](assets/bplogin_request_access_7.png)
+![访问请求的通知](assets/bplogin_request_access_7.png)
 
-若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下 **[!UICONTROL 授予存取權]**.
-或者，產品管理員也可以按照存取要求電子郵件中提供的連結來瀏覽Adobe [!UICONTROL Admin Console] 並將使用者新增至相關的產品設定。
+要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击 **[!UICONTROL 授予访问权限]**.
+或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console] 并将用户添加到相关的产品配置。
 
-系統會將您重新導向至 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 首頁。 使用Adobe [!UICONTROL Admin Console] 以建立使用者並將其指派給產品設定檔（先前稱為產品設定），在Brand Portal中顯示為群組。 如需在中新增使用者的詳細資訊 [!UICONTROL Admin Console]，請參閱 [新增使用者](brand-portal-adding-users.md#add-a-user) （請依照程式中的步驟4-7新增使用者）。
+您将被重定向到 [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) 主页。 使用Adobe [!UICONTROL Admin Console] 创建用户并将其分配给产品配置文件（以前称为产品配置），这些配置文件在Brand Portal中显示为组。 有关在中添加用户的更多信息 [!UICONTROL Admin Console]，请参见 [添加用户](brand-portal-adding-users.md#add-a-user) （按照过程中的步骤4-7添加用户）。
 
-## Brand Portal語言 {#brand-portal-language}
+## Brand Portal语言 {#brand-portal-language}
 
-您可以從Adobe變更Brand Portal語言 [!UICONTROL Experience Cloud設定].
+您可以从Adobe更改Brand Portal语言 [!UICONTROL Experience Cloud设置].
 
-![存取要求的通知](assets/BPLang.png)
+![访问请求的通知](assets/BPLang.png)
 
-若要變更語言：
+要更改语言，请执行以下操作：
 
-1. 選取 [!UICONTROL 使用者] > [!UICONTROL 編輯設定檔] 從頂端功能表。
+1. 选择 [!UICONTROL 用户] > [!UICONTROL 编辑个人资料] 从顶部菜单中。
 
    ![编辑个人资料](assets/EditBPProfile.png)
 
-1. 開啟 [!UICONTROL Experience Cloud設定] 頁面，從中選擇語言 [!UICONTROL 語言] 下拉式功能表。
+1. 日期 [!UICONTROL Experience Cloud设置] 页面上，从中选择语言 [!UICONTROL 语言] 下拉菜单。
 
-## Brand Portal維護通知 {#brand-portal-maintenance-notification}
+## Brand Portal维护通知 {#brand-portal-maintenance-notification}
 
-Brand Portal在排程進行維護前會先在您登入Brand Portal後，通知會顯示為橫幅。 範例通知：
+在Brand Portal按计划停机进行维护之前，在您登录到Brand Portal后会显示一条通知作为横幅。 示例通知：
 
 ![](assets/bp_maintenance_notification.png)
 
-您可以關閉此通知，並繼續使用Brand Portal。 此通知會出現在每個新工作階段中。
+您可以关闭此通知并继续使用Brand Portal。 此通知会显示在每个新会话中。
 
-## 版本和系統資訊 {#release-and-system-information}
+## 版本和系统信息 {#release-and-system-information}
 
 * [新增功能](whats-new.md)
 * [发行说明](brand-portal-release-notes.md)
 * [支持的文件格式](brand-portal-supported-formats.md)
 
-## 相關資源 {#related-resources}
+## 相关资源 {#related-resources}
 
 <!--
 * [Adobe Customer Support]()
 -->
 
-* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM论坛](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

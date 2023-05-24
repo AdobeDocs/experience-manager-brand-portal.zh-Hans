@@ -21,14 +21,14 @@ ht-degree: 75%
 + [Brand Portal 指南](using/home.md)
 + 简介 {#introduction}
    + [概述](using/brand-portal.md)
-   + [Experience Manager Assets Brand Portal的新功能](using/whats-new.md)
+   + [Experience Manager Assets Brand Portal的新增功能](using/whats-new.md)
    + [发行说明](using/brand-portal-release-notes.md)
    + [常见问题解答](using/brand-portal-faqs.md)
    + [支持的文件格式](using/brand-portal-supported-formats.md)
    + [来宾访问 Brand Portal](using/guest-access.md)
-   + [透過Experience Manager Assets瞭解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [使用Experience Manager Assets了解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [在 Brand Portal 上浏览资产](using/browse-assets-brand-portal.md)
-+ 從Experience Manager Assets發佈至Brand Portal {#publish}
++ 从Experience Manager Assets发布到Brand Portal {#publish}
    + [使用 Brand Portal 配置 Experience Manager Assets](using/configure-aem-assets-with-brand-portal.md)
    + [将资产发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
@@ -37,9 +37,9 @@ ht-degree: 75%
    + [将标记发布到 Brand Portal](using/brand-portal-publish-tags.md)
    + [将预设、架构和 Facet 发布到 Brand Portal](using/publish-schema-search-facets-presets.md)
 + Brand Portal 中的资产源 {#asset-sourcing-in-brand-portal}
-   + [資產來源概觀](using/brand-portal-asset-sourcing.md)
-   + [在Experience Manager Assets中設定貢獻資料夾](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
-   + [將貢獻資料夾發佈至Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+   + [资产来源补充概览](using/brand-portal-asset-sourcing.md)
+   + [在Experience Manager Assets中配置贡献文件夹](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + [将贡献文件夹发布到Experience Manager Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + 与用户共享资产 {#share}
    + [共享收藏集](using/brand-portal-share-collection.md)
    + [共享文件夹](using/brand-portal-sharing-folders.md)

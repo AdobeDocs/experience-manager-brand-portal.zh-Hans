@@ -1,7 +1,7 @@
 ---
-title: 設定貢獻資料夾並從Experience Manager Assets發佈到Brand Portal
+title: 配置贡献文件夹并将其从Experience Manager Assets发布到Brand Portal
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
-description: 深入瞭解如何從Experience Manager Assets設定貢獻資料夾並發佈至Brand Portal。
+description: 深入了解如何配置贡献文件夹并将其从Experience Manager Assets发布到Brand Portal。
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
 uuid: null
 content-type: reference
@@ -17,145 +17,145 @@ ht-degree: 0%
 
 ---
 
-# 在Experience Manager Assets中設定貢獻資料夾 {#configure-contribution-folder}
+# 在Experience Manager Assets中配置贡献文件夹 {#configure-contribution-folder}
 
-對於合作資產來源，Experience Manager Assets使用者（擁有許可權的管理員和非管理員使用者）可以建立型別為的新資料夾 **資產貢獻**，確保建立的新資料夾可供Brand Portal使用者提交資產。  這會自動觸發建立兩個額外子資料夾的工作流程，稱為 **已共用** 和 **新增**，在新建立的 **貢獻** 資料夾。
+对于协作资源源，Experience Manager Assets用户（拥有权限的管理员和非管理员用户）可以创建类型为的新文件夹 **资产贡献**，确保创建的新文件夹可供Brand Portal用户提交资源。  这会自动触发一个工作流，该工作流会创建两个额外的子文件夹，称为 **已共享** 和 **新**，在新创建的 **贡献** 文件夹。
 
-Experience Manager Assets使用者接著會上傳應新增至貢獻資料夾的資產型別簡介，以及一組基準資產，以定義資產需求。 **已共用** 資料夾，以確保Brand Portal使用者擁有他們需要的資訊。 然後，管理員可在將新建立的Contribution資料夾發佈至Brand Portal之前，先授予作用中Brand Portal使用者對貢獻資料夾的存取權。
+然后，Experience Manager Assets用户通过上传一份关于应添加到contribution文件夹的资源类型的简报以及一组基线资源来定义资源要求 **已共享** 文件夹，以确保Brand Portal用户获得所需的信息。 随后，管理员可以向活动Brand Portal用户授予对贡献文件夹的访问权限，然后再将新创建的Contribution文件夹发布到Brand Portal。
 
-以下影片示範如何在Experience Manager Assets中設定「貢獻」資料夾：
+以下视频演示了如何在Experience Manager Assets中配置Contribution文件夹：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-Experience Manager Assets使用者會在設定貢獻資料夾時執行下列活動：
+Experience Manager Assets用户在配置贡献文件夹时执行以下操作：
 
-* [建立貢獻資料夾](#create-contribution-folder)
-* [上傳資產需求並指派貢獻者](#configure-contribution-folder-properties)
-* [上傳基準線資產](#uplad-new-assets-to-contribution-folder)
-* [從Experience Manager Assets發佈貢獻資料夾到Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [创建贡献文件夹](#create-contribution-folder)
+* [上传资源要求并分配参与者](#configure-contribution-folder-properties)
+* [上载基线资源](#uplad-new-assets-to-contribution-folder)
+* [将贡献文件夹从Experience Manager Assets发布到Brand Portal](#publish-contribution-folder-to-brand-portal)
 
-## 建立貢獻資料夾 {#create-contribution-folder}
+## 创建贡献文件夹 {#create-contribution-folder}
 
 
-有權建立新資料夾的Experience Manager Assets管理員和非管理員使用者可以在Experience Manager Assets中建立貢獻資料夾。
-若要建立貢獻資料夾，請建立「資產貢獻」型別的新資料夾，以確保建立的新資料夾可供Brand Portal使用者提交資產。  這會自動觸發在貢獻資料夾中建立兩個其他子資料夾（稱為SHARED和NEW）的工作流程。
+有权创建新文件夹的Experience Manager Assets管理员和非管理员用户可以在Experience Manager Assets中创建“贡献”文件夹。
+要创建“贡献”文件夹，请创建一个类型为“资源贡献”的新文件夹，以确保创建的新文件夹可供Brand Portal用户提交资源。  这会自动触发一个工作流，该工作流会在contribution文件夹中创建两个额外的子文件夹，分别称为SHARED和NEW。
 
 
 >[!NOTE]
 >
->管理員可以在一個資料夾中建立多個資產貢獻資料夾。
+>管理员可以在一个文件夹中创建多个资产贡献文件夹。
 >
->資產貢獻資料夾包含用於資產分佈和貢獻的NEW和SHARED資料夾。 請勿在貢獻資料夾中建立資產、資料夾或貢獻資料夾。
+>资源贡献文件夹包含用于资源分发和贡献的NEW和SHARED文件夹。 请勿在贡献文件夹中创建资产、文件夹或贡献文件夹。
 
 
-您可以在建立貢獻資料夾時，個別設定貢獻資料夾屬性。 在此範例中，我們分別設定屬性。
+您可以在创建贡献文件夹时单独配置贡献文件夹属性。 在本例中，我们将单独配置属性。
 
-**若要建立貢獻資料夾：**
+**要创建贡献文件夹，请执行以下操作：**
 
-1. 登入您的Experience Manager Assets執行個體。
+1. 登录到您的Experience Manager Assets实例。
 
-1. 導覽至 **[!UICONTROL 資產]** > **[!UICONTROL 檔案]**. 其中列出Experience Manager Assets存放庫中的所有現有資料夾。
+1. 导航到 **[!UICONTROL 资产]** > **[!UICONTROL 文件]**. 它列出了Experience Manager Assets存储库中的所有现有文件夹。
 
-1. 按一下 **[!UICONTROL 建立]** 以建立新資料夾。 **[!UICONTROL 建立資料夾]** 對話方塊開啟。
+1. 单击 **[!UICONTROL 创建]** 以创建新文件夹。 **[!UICONTROL 创建文件夹]** 对话框打开。
 
-1. 輸入 **[!UICONTROL 標題]** 和 **[!UICONTROL 名稱]** ，然後選取 **[!UICONTROL 資產貢獻]** 核取方塊。
-建議使用不含任何空格的小寫字母來命名資料夾。
+1. 输入 **[!UICONTROL 标题]** 和 **[!UICONTROL 名称]** ，然后选择 **[!UICONTROL 资产贡献]** 复选框。
+建议使用不带任何空格的小写字母来命名文件夹。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。您可以看到Experience Manager Assets存放庫中列出的貢獻資料夾。
+1. 单击&#x200B;**[!UICONTROL 创建]**。您可以看到Experience Manager Assets存储库中列出的贡献文件夹。
 
    >[!NOTE]
    >
-   >非管理員使用者可以建立和共用資產貢獻資料夾，但無法修改或刪除它。
+   >非管理员用户可以创建和共享资产贡献文件夹，但无法修改或删除它。
 
 
    ![](assets/create-contribution-folder.png)
 
-1. 按一下以開啟貢獻資料夾，您可以看到兩個子資料夾 — **[!UICONTROL 已共用]** 和 **[!UICONTROL 新增]** 都會自動在「貢獻」資料夾中建立。
+1. 单击以打开贡献文件夹，您可以看到两个子文件夹 — **[!UICONTROL 已共享]** 和 **[!UICONTROL 新]** 将自动在contribution文件夹中创建。
 
    ![](assets/contribution-folder.png)
 
 
-## 設定貢獻資料夾屬性 {#configure-contribution-folder-properties}
+## 配置贡献文件夹属性 {#configure-contribution-folder-properties}
 
-Experience Manager Assets管理員會在設定貢獻資料夾的屬性時執行下列活動。
+Experience Manager Assets管理员在配置“贡献”文件夹的属性时执行以下操作。
 
-* **新增說明**：提供貢獻資料夾的高層級說明。
-* **上傳簡報**：上傳包含資產相關資訊的資產需求檔案。
-* **新增參與者**：新增Brand Portal使用者，以授予他們貢獻資料夾的存取權。
+* **添加描述**：提供贡献文件夹的高级别描述。
+* **上传摘要**：上传包含资产相关信息的资产要求文档。
+* **添加参与者**：添加Brand Portal用户，以授予他们访问贡献文件夹的权限。
 
-資產需求是指管理員提供的詳細資訊，可協助貢獻者(Brand Portal使用者)瞭解貢獻資料夾的需求和需求。 管理員會上傳資產需求檔案，其中包含應新增至貢獻資料夾的資產型別簡介以及資產相關資訊，例如用途、影像型別、最大大小等。
+资源要求是指管理员为帮助参与者(Brand Portal用户)了解贡献文件夹的需要和要求而提供的详细信息。 管理员上传资源请求文档，该文档简要说明了应添加到Contribution文件夹的资源的类型以及资源相关信息，例如用途、图像类型、最大大小等。
 
-**若要設定貢獻資料夾屬性：**
+**要配置贡献文件夹属性，请执行以下操作：**
 
-1. 登入您的Experience Manager Assets執行個體。
+1. 登录到您的Experience Manager Assets实例。
 
-1. 導覽至 **[!UICONTROL 「資產」>「檔案」]** 並找到貢獻資料夾。
-1. 選取貢獻資料夾並按一下 **[!UICONTROL 屬性]** 以開啟「資料夾屬性」視窗。
+1. 导航到 **[!UICONTROL 资产>文件]** 并找到贡献文件夹。
+1. 选择贡献文件夹并单击 **[!UICONTROL 属性]** 打开“文件夹属性”窗口。
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
-1. 導覽至 **[!UICONTROL 資產貢獻]** 標籤。
-1. 輸入高階 **[!UICONTROL 說明]** 貢獻資料夾的。
-1. 按一下 **[!UICONTROL 上傳簡報]** 從本機電腦瀏覽並上傳 **資產需求檔案**.
+1. 导航到 **[!UICONTROL 资产贡献]** 选项卡。
+1. 输入高级别 **[!UICONTROL 描述]** 贡献文件夹的。
+1. 单击 **[!UICONTROL 上传摘要]** 从本地计算机浏览并上传 **资产需求文档**.
 
    ![](assets/upload.png)
 
-1. 在 **[!UICONTROL 新增使用者]** 欄位中，新增您要共用貢獻資料夾的Brand Portal使用者。 這些使用者可以使用Brand Portal介面存取內容並將其上傳到貢獻資料夾。
+1. 在 **[!UICONTROL 添加用户]** 字段中，添加要与其共享贡献文件夹的Brand Portal用户。 这些用户可以使用Brand Portal界面访问内容并将其上传到贡献文件夹。
 1. 单击“**[!UICONTROL 保存]**”。
 
    ![](assets/contribution-folder-property3.png)
 
 >[!NOTE]
 >
->搜尋結果以Experience Manager Assets中設定的Brand Portal使用者清單為基礎。 確定您有更新的Brand Portal使用者清單。
+>搜索结果基于Experience Manager Assets中配置的Brand Portal用户列表。 确保您拥有更新的Brand Portal用户列表。
 
-管理員可以下載 `user.csv` 檔案來源 [!DNL Admin Console] 並將其作為新增Brand Portal使用者的基本範本。 前往 [!UICONTROL 使用者] 並按一下 [!UICONTROL 將使用者清單匯出為csv] 下載選項 `users.csv` 檔案。 下列範例使用者列出新增使用者所需的詳細屬性。 使用者專案的唯一必要屬性是 `Email` 而所有其他屬性則為選用屬性。
+管理员可以下载 `user.csv` 文件来源 [!DNL Admin Console] 并将其用作添加Brand Portal用户的基本模板。 转到 [!UICONTROL 用户] ，然后单击 [!UICONTROL 将用户列表导出到csv] 用于下载 `users.csv` 文件。 以下示例用户列表详细列出了添加用户所需的属性。 用户条目的唯一必需属性是 `Email` 而所有其他属性都是可选的。
 
 [获取文件](assets/users.csv)
 
-## 將資產上傳至貢獻資料夾 {#uplad-new-assets-to-contribution-folder}
+## 将资产上传到贡献文件夹 {#uplad-new-assets-to-contribution-folder}
 
-Experience Manager Assets使用者將一組基準資產上傳至 **已共用** 資料夾，以確保Brand Portal使用者擁有他們需要的資訊。
+Experience Manager Assets用户将一组基线资源上传到 **已共享** 文件夹，以确保Brand Portal用户获得所需的信息。
 
-**若要上傳基準線資產：**
+**要上传基线资源，请执行以下操作：**
 
-1. 登入您的Experience Manager Assets執行個體。
+1. 登录到您的Experience Manager Assets实例。
 
-1. 導覽至 **[!UICONTROL 「資產」>「檔案」]** 並找到貢獻資料夾。
+1. 导航到 **[!UICONTROL 资产>文件]** 并找到贡献文件夹。
 
-1. 選取貢獻資料夾，然後按一下以開啟它。
+1. 选择贡献文件夹，然后单击以将其打开。
 
-1. 按一下 **[!UICONTROL 新增]** 資料夾。
+1. 单击 **[!UICONTROL 新]** 文件夹。
 
    ![](assets/upload-new-assets1.png)
 
-1. 按一下 **[!UICONTROL 建立]** > **[!UICONTROL 檔案]** 上傳個別檔案或包含多個資產的資料夾(.zip)。
+1. 单击 **[!UICONTROL 创建]** > **[!UICONTROL 文件]** 上传单个文件或包含多个资产的文件夹(.zip)。
 
    ![](assets/upload-new-assets2.png)
 
-1. 瀏覽並將資產（檔案或資料夾）上傳至 **[!UICONTROL 新增]** 資料夾。
+1. 浏览资产（文件或文件夹）并将其上传到 **[!UICONTROL 新]** 文件夹。
 
    ![](assets/upload-asset4.png)
 
-將所有資產或資料夾上傳至「新增」資料夾後，將貢獻資料夾發佈至Experience Manager Assets。
+将所有资源或文件夹上传到NEW文件夹后，将贡献文件夹发布到Experience Manager Assets。
 
 
-## 將貢獻資料夾發佈至Brand Portal {#publish-contribution-folder-to-brand-portal}
+## 将贡献文件夹发布到Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-設定貢獻資料夾後，Experience Manager Assets使用者（管理員/非管理員使用者）可以將貢獻資料夾從Experience Manager Assets發佈到Brand Portal。 有權存取「貢獻」資料夾的Brand Portal使用者將在發佈動作完成後收到電子郵件/脈衝通知。
+配置贡献文件夹后，Experience Manager Assets用户（管理员/非管理员用户）可以将贡献文件夹从Experience Manager Assets发布到Brand Portal。 具有访问“贡献”文件夹权限的Brand Portal用户将在发布操作完成后收到电子邮件/脉冲通知。
 
 
-**若要發佈貢獻資料夾：**
+**要发布贡献文件夹，请执行以下操作：**
 
-1. 登入您的Experience Manager Assets執行個體。
+1. 登录到您的Experience Manager Assets实例。
 
-1. 導覽至 **[!UICONTROL 「資產」>「檔案」]** 並找到您要發佈至Brand Portal的貢獻資料夾。
-1. 選取貢獻資料夾並按一下 **[!UICONTROL 快速發佈]** > **[!UICONTROL 發佈至Brand Portal]**.
+1. 导航到 **[!UICONTROL 资产>文件]** 并找到要发布到Brand Portal的contribution文件夹。
+1. 选择贡献文件夹并单击 **[!UICONTROL 快速发布]** > **[!UICONTROL 发布到Brand Portal]**.
 
    ![](assets/publish-contribution-folder-to-bp.png)
 
-   一旦貢獻資料夾發佈至Brand Portal，您將會收到一則成功訊息。
+   将contribution文件夹发布到Brand Portal后，您将收到一则成功消息。
 
-電子郵件/脈衝通知會傳送給指派至貢獻資料夾的Brand Portal使用者。 Brand Portal使用者可以存取貢獻資料夾並開始貢獻。 請參閱， [將資產上傳至貢獻資料夾並發佈至Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+会向分配给contribution文件夹的Brand Portal用户发送电子邮件/脉冲通知。 Brand Portal用户可以访问贡献文件夹并开始贡献。 参见， [将资源上传到contribution文件夹并发布到Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
