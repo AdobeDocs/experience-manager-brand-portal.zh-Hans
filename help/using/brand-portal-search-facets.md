@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1312'
 ht-degree: 9%
 
 ---
@@ -68,7 +68,7 @@ Brand Portal支持 [分面搜索](../using/brand-portal-searching.md#search-usin
    >
    >选择时 **[!UICONTROL 部分搜索]** 复选框， **[!UICONTROL 忽略大小写]** 默认情况下处于选中状态。
 
-1. 在 **[!UICONTROL 属性名称]** 字段中，打开属性选取器，然后选择要根据其执行搜索的属性。 或者，输入属性的名称。 例如，输入 `  jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
+1. 在 **[!UICONTROL 属性名称]** 字段中，打开属性选取器，然后选择要根据其执行搜索的属性。 或者，输入属性的名称。 例如，输入 `jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Brand Portal支持 [分面搜索](../using/brand-portal-searching.md#search-usin
 
 >[!NOTE]
 >
->不使用 **[!UICONTROL 选项谓词]**， **[!UICONTROL 发布状态谓词]**、和 **[!UICONTROL 评级谓词]** 因为这些谓词在Brand Portal中不起作用。
+>* 不使用 **[!UICONTROL 选项谓词]**， **[!UICONTROL 发布状态谓词]**、和 **[!UICONTROL 评级谓词]** 因为这些谓词在Brand Portal中不起作用。
+>* 文件夹类型谓词 `(nt:folder type)` Brand Portal上不支持，这可能会导致性能问题。 如果它存在于已发布的自定义搜索表单中，则可以通过编辑搜索表单将其删除。
 
 ## 删除搜索谓词 {#delete-a-search-predicate}
 
