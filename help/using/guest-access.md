@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 097776f2c5d4c2f227935199f0b4811c0b2dfea8
+source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
 
 # 来宾访问 Brand Portal {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal允许Guest访问门户。 来宾用户无需凭据即可进入门户，并且有权访问门户的公共资产（和收藏集）。 访客会话中的用户可以向Lightbox（专用收藏集）添加资产并下载这些资产，直到其会话持续或访客用户选择这样做 [[!UICONTROL 结束会话]](#exit-guest-session). 访客用户会话保持活动状态15分钟，而实际的访客用户超时为2小时。
+Experience Manager Assets Brand Portal允许Guest访问门户。 来宾用户无需凭据即可进入门户，并且有权访问门户的公共资产（和收藏集）。 来宾会话中的用户可以向Lightbox（专用收藏集）添加资产并下载这些资产，直到其会话持续（从会话开始算起2小时，除非来宾用户选择这样做） [[!UICONTROL 结束会话]](#exit-guest-session).
 
 来宾访问功能使组织能够 [快速共享批准的资产](../using/brand-portal-sharing-folders.md#how-to-share-folders) 无需加入目标受众，即可进行规模调整。 从Brand Portal 6.4.2开始，已配备多个并发访客用户，这相当于每个组织总用户配额的10%。 允许来宾访问可节省在Brand Portal上管理和板载功能有限的用户所需的时间。\
 对于组织的Brand Portal帐户，组织可以使用启用（或禁用）来宾访问 **[!UICONTROL 允许来宾访问]** 选项自 **[!UICONTROL 访问]** “管理工具”面板中的设置。
