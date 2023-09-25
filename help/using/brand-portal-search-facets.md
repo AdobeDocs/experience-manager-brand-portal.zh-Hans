@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1325'
 ht-degree: 9%
 
 ---
@@ -27,7 +27,7 @@ Brand Portal支持 [分面搜索](../using/brand-portal-searching.md#search-usin
 
 >[!NOTE]
 >
->Experience Manager Assets允许组织 [从AEM作者发布自定义搜索表单](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) 到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
+>Experience Manager Assets允许组织 [从AEM Author发布自定义搜索表单](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) 到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
 
 ## 添加搜索谓词 {#add-a-search-predicate}
 
@@ -72,7 +72,7 @@ Brand Portal支持 [分面搜索](../using/brand-portal-searching.md#search-usin
 
    >[!NOTE]
    >
-   >在Brand Portal中，所有字符串属性(以开头的 `xmp`)，在 `jcrcontent/metadata` 之 `dam:asset` 默认已编制索引。
+   >在Brand Portal中，所有字符串属性(以开头的 `xmp`)，在 `jcrcontent/metadata` 之 `dam:asset` 默认已编制索引。 默认情况下，任何类型的其余所有自定义属性都不会编制索引。
    >
    >创建属性谓词时可以使用任何已编制索引的属性。 如果配置了任何非索引属性，则非索引属性上的搜索查询可能不会提供任何搜索结果。
 
