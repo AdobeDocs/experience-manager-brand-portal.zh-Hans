@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal的新增功能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2032.08.0版有哪些新增功能和增强功能
-seo-description: What are the new features and enhancements for 2023.08.0
+description: 2032.10.0版有哪些新增功能和增强功能
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
 workflow-type: tm+mt
-source-wordcount: '6536'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Experience Manager Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可帮助您轻松地获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Adobe正在努力改善整个Brand Portal体验。 以下是对新增功能和增强功能的简要介绍。
+
+## 2023.10.0版中的更改内容 {#what-changed-in-October-2023}
+
+Brand Portal 2023.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
 
 ## 2023.08.0版中的更改内容 {#what-changed-in-August-2023}
 
@@ -409,7 +413,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 ### Brand Portal 中的资产源 {#asset-sourcing-in-bp}
 
-资产源允许AEM用户（管理员/非管理员用户）创建包含额外内容的文件夹 **资产贡献** 属性，确保Brand Portal用户可提交创建的新文件夹资源。 它会自动触发一个工作流，该工作流会在新创建的文件夹中创建两个额外的子文件夹，称为NEW和SHARED **贡献** 文件夹。
+资产源允许AEM用户（管理员/非管理员用户）创建包含额外内容的文件夹 **资产贡献** 属性，确保Brand Portal用户可提交已创建的新文件夹中的资产。 它会自动触发一个工作流，该工作流会在新创建的文件夹中创建两个额外的子文件夹，称为NEW和SHARED **贡献** 文件夹。
 
 然后，AEM用户通过上传有关应添加到贡献文件夹的资源类型的简短说明，并将基线资源上传到来定义需求 **已共享** 文件夹，以确保Brand Portal用户能够获得他们所需的参考信息。 然后，管理员可以在发布新创建的贡献文件夹之前，向活动Brand Portal用户授予对贡献文件夹的访问权限 **贡献** 文件夹到Brand Portal。
 
@@ -447,7 +451,7 @@ Brand Portal用户只能将资源上传到 **新建** 子文件夹。 此 **已�
 
 Brand Portal 6.4.4版本重点对文本搜索和主要客户请求进行了增强。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
 
-### 搜索增强功能
+### 搜索增强
 
 Brand Portal 6.4.4及更高版本支持在筛选窗格中对属性谓词进行部分文本搜索。 要允许部分文本搜索，您必须启用 **部分搜索** 在搜索表单的属性谓词中。
 
@@ -535,7 +539,7 @@ Brand Portal 6.4.3版本的重点是 — 除了在Brand Portal访问URL中的租
 
 ### Dynamic Media视频呈现版本支持
 
-除了原始视频文件之外，AEM创作实例处于Dynamic Media混合模式的用户还可以预览和下载Dynamic Media演绎版。
+AEM创作实例处于Dynamic Media混合模式的用户除了可以预览和下载原始视频文件之外，还可以预览和下载Dynamic Media演绎版。
 
 要允许预览和下载特定租户帐户上的Dynamic Media演绎版，管理员必须指定 **Dynamic Media配置** (视频服务URL (DM-Gateway URL)和注册ID，用于获取动态视频) **视频** “管理工具”面板中的配置。
 
@@ -714,7 +718,7 @@ Brand Portal 6.4.1是一个平台升级版本，其中引入了若干新增功�
 * 资产属性中提供了新的“相关资产”功能。 现在，与AEM上其他源/派生资源相关并在Brand Portal上发布的资源在Brand Portal中的关系保持不变，并包含指向资产页面上相关资源的链接。
 * 引入了新配置，以限制非管理员用户创建公共收藏集。 组织可与客户支持团队合作，针对特定帐户配置此功能。
 
-### 搜索增强功能
+### 搜索增强
 
 * 引入的功能可在导航到搜索项目后，返回到搜索结果中的相同位置，而无需再次运行搜索查询。
 * 已提供新的搜索结果计数，以显示搜索结果的数量。
@@ -800,7 +804,7 @@ Brand Portal现在会在即将开始的维护活动前几天显示通知横幅�
 
 有关更多信息，请参阅 [Brand Portal维护通知](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
 
-### 增强使用链接共享功能共享的许可资源 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
+### 增强使用链接共享功能共享的许可资产 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
 现在，在使用链接共享功能下载许可资产时，系统会提示您同意这些资产的许可协议。
 

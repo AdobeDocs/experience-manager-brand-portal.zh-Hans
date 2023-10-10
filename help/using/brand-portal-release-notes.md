@@ -1,7 +1,7 @@
 ---
 title: 发行说明
 seo-title: Release Notes
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2023.08.0版本中的功能、增强功能、修复的关键问题和已知问题。
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2023.10.0版本中的功能、增强功能、修复的关键问题和已知问题。
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1312'
 ht-degree: 6%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2023.08.0版本中的新增功能、增强功能、修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2023.10.0版本中的新增功能、增强功能、修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2023.08.0 |
-| 日期 | 2023年8月 |
+| 版本 | 2023.10.0 |
+| 日期 | 2023年10 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、控制经过批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资源。
 
-## 2023.08.0版的新增功能 {#whats-new-in-2023.08.0}
+## 2023.10.0版的新增功能 {#whats-new-in-2023.10.0}
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
-#### 错误修复和增强功能 {#bug-fixes-enhancements}
+#### 错误修复 {#bug-fixes}
 
+此版本包含以下错误修复：
+
+* 无法保存 [!UICONTROL 日期] 和 [!UICONTROL 选项] 谓词 [!UICONTROL 智能收藏集].
+
+* 此 [!UICONTROL 日期和时间] 在英语以外的区域设置中工作时，格式不一致。
+
+* 搜索资产时， [!UICONTROL 删除] 按钮缺失。
+
+* 如果 [!UICONTROL 标题] 字段包含多字节符号 [!UICONTROL 链接共享]，则无法下载报表。
+
+* 查看PDF类型文档时，标签和工具提示未本地化。
+
+#### 增强 {#enhancements}
+
+此版本包括以下增强功能：
+
+* 浏览时的性能改进 [!UICONTROL 收藏集].
+
+* 使用OmniSearch字段执行部分搜索时，结果不准确。
+
+## 之前版本
+
+### 2023年8月版 {#aug-2023}
+
+**错误修复和增强功能**
 此版本包括以下增强功能：
 
 * 改进了在上加载资产时的性能 [!UICONTROL 下载] 弹出窗口。
@@ -48,9 +73,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 * 长标签或标记无法正确显示在搜索筛选器中。
 * 无法在“下载”对话框上显示较长的演绎版名称。
 * 无法在卡片视图中预览视频资产。
-
-
-## 之前版本
 
 ### 2023年5月版 {#may-2023}
 
