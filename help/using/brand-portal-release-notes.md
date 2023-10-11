@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
+source-git-commit: 16400476286ba9656f49981412494d07e4e0edc1
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1310'
 ht-degree: 6%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 
 * 浏览时的性能改进 [!UICONTROL 收藏集].
 
-* 使用OmniSearch字段执行部分搜索时，结果不准确。
+* 改进了使用OmniSearch字段执行部分搜索时的搜索结果。
 
 ## 之前版本
 
