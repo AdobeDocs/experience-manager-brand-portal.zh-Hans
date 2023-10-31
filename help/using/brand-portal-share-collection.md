@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 1%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
@@ -21,11 +21,19 @@ ht-degree: 1%
 
 收藏集表示存储在Adobe Experience Manager Assets Brand Portal中的一组相关资源。 用户可以通过以下方式创建智能收藏集 [应用omnisearch或facet搜索以过滤掉相关资源](brand-portal-searching.md) 并将它们存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
 
-管理员可以与授权的Brand Portal用户共享和取消共享收藏集。 编辑者和查看者可以查看和共享他们创建、与他们共享以及公共收藏集的收藏集。
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+收藏集通过电子邮件作为链接共享。 有权访问共享链接的每个人都可以打开收藏集，而共享电子邮件可以转发给任何人。 此外， [共享链接](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) 是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
+
+* **管理员** 可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
+
+* **编辑者** 允许创建和共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，如果他们受邀以编辑者或所有者的身份加入收藏集，则他们也可以共享收藏集。
+
+* **查看器** 只能创建专用收藏集。 不允许他们共享收藏集，即使他们作为所有者受邀也是如此。
 
 >[!NOTE]
 >
->编辑人员无法将公共收藏集更改为非公共收藏集，因此不具有 **[!UICONTROL 公共收藏集]** 中可用的复选框 **[!UICONTROL 收藏集设置]** 对话框。
+>编辑者无法将公共收藏集更改为非公共收藏集，因此没有 **[!UICONTROL 公共收藏集]** 中可用的复选框 **[!UICONTROL 收藏集设置]** 对话框。
 
 ## 共享收藏集 {#share-collection}
 
@@ -39,23 +47,23 @@ ht-degree: 1%
 
    * 将指针悬停在要共享的收藏集上。 在可用于收藏集的快速操作缩略图中，单击 **[!UICONTROL 设置]** 图标。
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
    * 选择要共享的收藏集。 在顶部的工具栏中，单击 **[!UICONTROL 设置]**.
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
 1. 在 **[!UICONTROL 收藏集设置]** 对话框中，选择要与其共享收藏集的用户，并为用户选择与其全局角色匹配的角色。 例如，将编辑者角色分配给全局编辑者，将查看者角色分配给全局查看者。
 
-   或者，为了使收藏集对所有用户可用，而不管其组成员资格和角色如何，请选择 **[!UICONTROL 公共收藏集]** 复选框。
+   或者，为了让所有用户（无论其组成员资格和角色如何）都能使用该集合，请选择 **[!UICONTROL 公共收藏集]** 复选框。
 
    >[!NOTE]
    >
-   >但是，可以限制非管理员用户创建公共收藏集，以避免存在大量公共收藏集，从而节省系统空间。 组织可以禁用 **[!UICONTROL 允许创建公共收藏集]** 配置自 **[!UICONTROL 常规]** “管理工具”面板中可用的设置。
+   >但是，可以限制非管理员用户创建公共收藏集，以避免存在大量公共收藏集，从而节省系统空间。 组织可以禁用 **[!UICONTROL 允许创建公共收藏集]** 配置自 **[!UICONTROL 常规]** “管理工具”面板中提供的设置。
 
    ![](assets/collection_sharingadduser.png)
 
-   编辑人员无法将公共收藏集更改为非公共收藏集，因此没有 **[!UICONTROL 公共收藏集]** 中可用的复选框 **[!UICONTROL 收藏集设置]** 对话框。
+   编辑者无法将公共收藏集更改为非公共收藏集，因此没有 **[!UICONTROL 公共收藏集]** 中可用的复选框 **[!UICONTROL 收藏集设置]** 对话框。
 
    ![](assets/collection-setting-editor.png)
 
@@ -63,7 +71,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >用户的角色可控制对收藏集中资源和文件夹的访问权限。 如果用户无权访问资产，则会与用户共享一个空集合。 此外，用户的角色可控制可用于收藏集的操作。
+   >用户的角色可管理对收藏集中资源和文件夹的访问。 如果用户无权访问资产，则会与用户共享空集合。 此外，用户的角色可控制可用于收藏集的操作。
 
 ## 取消共享收藏集 {#unshare-a-collection}
 
@@ -75,7 +83,7 @@ ht-degree: 1%
 
    ![](assets/collection_settings.png)
 
-1. 在 **[!UICONTROL 收藏集设置]** 对话框，位于 **[!UICONTROL 成员]** 部分，单击 **[!UICONTROL x]** 用户旁边的符号，用于从有权访问收藏集的用户列表中删除这些用户。
+1. 在 **[!UICONTROL 收藏集设置]** 对话框，在 **[!UICONTROL 成员]** 部分，单击 **[!UICONTROL x]** 用户旁边的符号，用于从具有集合访问权限的用户列表中删除这些用户。
 
    ![](assets/unshare_collection.png)
 
