@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: b91e0b4f03beb37d826ce75ac49498b7b79e4a39
+source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 3%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect（一种按需安装应用程序）集成来增强大型资源文件的下载性能。 该应用程序使用专有技术删除TCP开销，并帮助提高资产文件的传输速度。 此集成可确保增强下载体验。
+Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect（按需安装应用程序）集成来增强大型资源文件的下载性能。 该应用程序使用专有技术来删除TCP开销，并帮助提高资产文件的传输速度。 此集成可确保增强下载体验。
 
 >[!NOTE]
 >
 >下载速度因用户而异，因为它取决于网络带宽、服务器延迟和客户端的地理位置等因素。
 
-此 **[!UICONTROL 快速下载]** 默认情况下，配置处于启用状态，这可以显着减少从Brand Portal下载所需资源文件所用的时间。
+此 **[!UICONTROL 快速下载]** 默认情况下，配置处于启用状态，这可以显着减少从Brand Portal下载所需资源文件所需的时间。
 
 ![](assets/download-settings-new.png)
 
@@ -35,10 +35,9 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
 要更快地下载文件，请确保满足以下条件：
 
-* 导航到 **[!UICONTROL 工具]** > **[!UICONTROL 下载]** 并验证 **[!UICONTROL 快速下载]** 在中启用了配置 **[!UICONTROL 下载设置]**.
-* 确保端口33001（TCP和UDP）在防火墙上处于打开状态。 有关先决条件的更多信息，请参阅 [IBM® Aspera Connect客户端文档](https://downloads.asperasoft.com/en/documentation/8).
-* **安装IBM® Aspera Connect 3.9.9** 在浏览器的扩展中，使用管理员权限(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
-* 有关Aspera传输客户端的平台支持，请参阅 [IBM® Aspera Connect平台支持列表](https://www.asperasoft.com/company/support/transfer-clients/).
+* 导航到 **[!UICONTROL 工具]** > **[!UICONTROL 下载]** 并确认 **[!UICONTROL 快速下载]** 配置在中已启用 **[!UICONTROL 下载设置]**.
+* 确保在防火墙上打开端口33001（TCP和UDP）。
+* **安装IBM® Aspera Connect 3.9.9** 在浏览器的扩展中，使用管理员权限([IBM® Asperra Connect下载](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all))。
 
 >[!NOTE]
 >
@@ -53,7 +52,7 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 | NA或1 | downloads-na1.brand-portal.adobe.com |
 | NA VA5 | downloads-na2.brand-portal.adobe.com |
 | 欧洲、中东和非洲地区LON5 | downloads-emea1.brand-portal.adobe.com |
-| 亚太地区SIN2 | downloads-apac1.brand-portal.adobe.com |
+| APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
 ## 使用文件加速器的示例下载性能 {#expected-download-performance-using-file-accelerator}
 
@@ -61,7 +60,7 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
 *考虑到Brand Portal服务器位于美国俄勒冈，观察到的结果会因网络带宽、服务器延迟和客户端位置等因素而有所不同。*
 
-| 客户端位置 | 客户端和服务器之间的延迟（毫秒） | Aspera Connect File Transfer Accelerator (MBps)的速度 | 使用Aspera File Transfer Accelerator下载2 GB的文件所需的时间（秒） |
+| 客户端位置 | 客户端与服务器之间的延迟（毫秒） | Aspera Connect File Transfer Accelerator (MBps)的速度 | 使用Aspera File Transfer Accelerator下载2 GB的文件所需的时间（秒） |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
 | 美国西部（北加利福尼亚） | 18 | 36 | 57 |
 | 美国西部（俄勒冈州） | 42 | 36 | 57 |
@@ -82,13 +81,13 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
    * 选择要下载的资源或文件夹。 在顶部的工具栏中，单击 **[!UICONTROL 下载]** 图标。
 
-      ![select-multi-assets](assets/select-assets-new.png)
+     ![select-multi-assets](assets/select-assets-new.png)
 
    * 要下载资源的特定资源演绎版，请将指针悬停在资源上，然后单击 **[!UICONTROL 下载]** 图标（在快速操作缩略图中）。
 
-      ![select-asset](assets/select-asset.png)
+     ![select-asset](assets/select-asset.png)
 
-1. 此 **[!UICONTROL 下载]** 随即会打开列出所有选定资源的对话框。
+1. 此 **[!UICONTROL 下载]** 这将打开一个对话框，其中列出了所有选定的资源。
 
    要在下载资源时保留Brand Portal文件夹层次结构，请选择 **[!UICONTROL 为每个资源创建单独的文件夹]** 复选框。
 
@@ -98,28 +97,29 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
 1. 默认情况下， **[!UICONTROL 快速下载]** 在中启用设置 **[!UICONTROL 下载设置]**. 因此，会显示一个确认框，用于使用IBM® Aspera Connect下载资源。
 
-   如果您是首次下载资源，并且浏览器中未安装IBM® Aspera Connect，或者现有版本已过期，则会提示您安装Aspera下载加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+   如果您是首次下载资源，并且浏览器中未安装IBM® Aspera Connect ，或者现有版本已过期，则会提示您安装Aspera下载加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
    ![](assets/aspera-not-launched.png)
 
 1. **安装Aspera Connect客户端**
 
-   要安装IBM® Aspera Connect客户端安装程序，请从IBM® Aspera Connect客户端应用程序的.msi文件运行安装程序，然后遵循安装向导。
+   要安装IBM® Aspera Connect客户端安装程序，请从IBM® Aspera Connect客户端应用程序的.msi文件运行安装程序，然后按照安装向导进行操作。
 
    ![](assets/aspera-download-1.png)
 
-1. 成功安装客户端后，刷新浏览器页面并再次启动下载步骤。
+1. 成功安装客户端后，请刷新浏览器页面并再次启动下载步骤。
 
-1. 继续使用 **[!UICONTROL 快速下载]**，单击 **[!UICONTROL 允许]**. 使用IBM® Aspera Connect将所有选定的演绎版下载到zip文件夹中。
+1. 要继续使用 **[!UICONTROL 快速下载]**，单击 **[!UICONTROL 允许]**. 使用IBM® Aspera Connect将所有选定的呈现版本下载到zip文件夹中。
 
-   成功完成下载后，将显示一个对话框，其中显示了将资产下载到用户系统的位置。
+   成功完成下载后，将会显示一个对话框，其中显示了将资产下载到用户系统的位置。
 
    ![](assets/aspera-download-2.png)
 
-   如果您不想使用IBM® Aspera Connect，请单击 **[!UICONTROL 拒绝]**. 如果 **[!UICONTROL 快速下载]** 被拒绝或失败，系统会填充一条错误消息。 单击 **[!UICONTROL 普通下载]** 按钮继续下载资产。
+   如果您不想使用IBM® Aspera Connect，请单击 **[!UICONTROL 拒绝]**. 如果 **[!UICONTROL 快速下载]** 被拒绝或失败，系统会填充一条错误消息。 单击 **[!UICONTROL 正常下载]** 按钮继续下载资产。
 
 >[!NOTE]
-如果 **[!UICONTROL 快速下载]** 设置被管理员关闭，选定的呈现版本将直接下载到zip文件夹中，而无需使用IBM® Aspera Connect。
+>
+如果 **[!UICONTROL 快速下载]** 设置由管理员关闭，选定的呈现版本将直接下载到zip文件夹中，而无需使用IBM® Aspera Connect。
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -180,7 +180,7 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## 在Microsoft® Edge浏览器上使用文件加速器 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge在增强保护模式(EPM)下运行，防止在同一个专用网络或受信任的站点上与Aspera Connect服务器通信。 因此，每次建立与服务器的连接时都会显示一个弹出窗口。
+Microsoft® Edge在增强保护模式(EPM)下运行，以防止在同一个专用网络或与受信任站点上与Aspera Connect服务器通信。 因此，每次建立与服务器的连接时都会出现一个弹出窗口。
 
 ![](assets/switchapps-msedge.png)
 
@@ -193,7 +193,7 @@ Microsoft® Edge在增强保护模式(EPM)下运行，防止在同一个专用�
 
 ## Aspera Connect客户端首选项 {#aspera-connect-client-preferences}
 
-有一些有用的首选项，可以在IBM® Aspera Connect客户端首选项中进行设置，方法是右键单击图标并选择 **[!UICONTROL 首选项]**.
+在IBM® Aspera Connect客户端首选项中，可通过右键单击图标并选择 **[!UICONTROL 偏好设置]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,23 +201,23 @@ Microsoft® Edge在增强保护模式(EPM)下运行，防止在同一个专用�
 
 ![](assets/aspera-preferences.png)
 
-此外，可以将Aspera Connect客户端标记为在系统启动时自动启动，以便connect客户端正在运行并可供下载，从而更快地开始。
+此外，可以将Aspera Connect客户端标记为在系统启动时自动启动，这样Connect客户端可以运行，并可供下载，以便更快地开始。
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## 排除下载加速问题 {#troubleshoot-issues-with-download-acceleration}
+## 下载加速问题疑难解答 {#troubleshoot-issues-with-download-acceleration}
 
 如果下载加速不适合您，请尝试以下建议：
 
-1. 检查端口是否未被阻止。 使用Google Search查找选项，这些选项可让您根据使用的操作系统检查端口是否被阻止。  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. 检查端口是否未被阻止。 使用Google Search查找选项，这些选项允许您根据使用的操作系统检查端口是否受阻。  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
-   如果端口不正常，请与网络组联系，并确保端口33001（TCP和UDP）在防火墙中未被阻止。
+   如果端口不能正常工作，请与网络团队联系，并确保端口33001（TCP和UDP）在防火墙中未被阻止。
 
-1. 如果端口正常，则通过使用测量可用带宽来检查网络是否不慢 [https://www.speedtest.net/](https://www.speedtest.net/).
+1. 如果端口正常，则通过测量可用的带宽，检查网络是否运行不慢 [https://www.speedtest.net/](https://www.speedtest.net/).
 
-   如果带宽为几个(1-10 Mbps)或以Kbps为单位，则使用Aspera首选项，并尝试将带宽限制为等于可用带宽。
+   如果带宽为几个(1-10 Mbps)或以Kbps为单位，则使用Aspera首选项并尝试将带宽限制为等于可用带宽。
 
    <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
    (login:  asperaweb , password:  demoaspera ) -->
 
-1. 如果上述故障诊断步骤均无效，请取消选择“Enable Download Acceleration（启用下载加速）”选项并使用普通下载。
+1. 如果上述故障诊断步骤均无效，请取消选择启用下载加速选项并使用普通下载。
