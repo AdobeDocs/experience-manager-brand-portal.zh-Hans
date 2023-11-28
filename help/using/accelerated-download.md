@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 76d7c808d99c9c2ec86e0e9100b9c2954c695854
+source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1019'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
 * 导航到 **[!UICONTROL 工具]** > **[!UICONTROL 下载]** 并确认 **[!UICONTROL 快速下载]** 配置在中已启用 **[!UICONTROL 下载设置]**.
 * 确保在防火墙上打开端口33001（TCP和UDP）。
-* **安装IBM® Aspera Connect 3.9.9** 在浏览器的扩展中，使用管理员权限([IBM® Asperra Connect下载](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all))。
+* **安装IBM® Aspera Connect 3.9.9** 在浏览器的扩展中，使用管理员权限([IBM® Aspera Connect下载](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all))。
 
 >[!NOTE]
 >
