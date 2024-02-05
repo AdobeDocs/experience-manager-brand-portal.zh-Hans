@@ -1,8 +1,8 @@
 ---
 title: Experience Manager Assets Brand Portal的新增功能
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: 2023.10.0版有哪些新增功能和增强功能
-seo-description: What are the new features and enhancements for 2023.10.0
+description: 2024.02.0版有哪些新增功能和增强功能
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
 workflow-type: tm+mt
-source-wordcount: '6558'
-ht-degree: 2%
+source-wordcount: '6616'
+ht-degree: 1%
 
 ---
 
 # Experience Manager Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可帮助您轻松地获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Adobe正在努力改善整个Brand Portal体验。 以下是对新增功能和增强功能的简要介绍。
+
+## 2024.02.0版中的更改内容 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
 
 ## 2023.10.0版中的更改内容 {#what-changed-in-October-2023}
 
@@ -47,7 +51,7 @@ Brand Portal 2022.08.0是一个内部版本，其中包括对关键问题的修�
 
 ## 2022.05.0版中的更改内容 {#what-changed-in-May-2022}
 
- Brand Portal 现在，每十二小时执行一次自动作业，以删除发布到 AEM 的所有 Brand Portal 资产。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 您还可以使用监控自动执行的删除作业的状态 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]** > **[!UICONTROL 删除报告]** Brand Portal选项。 作业的报表提供以下详细信息：
+Brand Portal现在每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资源。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 您还可以使用监控自动执行的删除作业的状态 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]** > **[!UICONTROL 删除报告]** Brand Portal选项。 作业的报表提供以下详细信息：
 
 * 作业开始时间
 * 作业结束时间
@@ -244,7 +248,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 排除不需要下载的资产演绎版。
 * 只需单击一次，即可将同一组演绎版应用于所有类似的资源类型。
 * 为不同的资源类型应用不同的演绎版集。
-* 为每个资产创建单独的文件夹.
+* 为每个资源创建单独的文件夹。
 * 下载所选资源及其演绎版。
 
 对于独立资产、多个资产、包含资产的文件夹、已许可或未许可资产以及使用共享链接下载资产，下载工作流保持不变。 请参阅 [从Brand Portal下载资源的步骤](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
@@ -345,7 +349,7 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 在Brand Portal 6.4.7中，Brand Portal管理员可以配置资源  **[!UICONTROL 下载]** 设置。 可用的配置包括：
 
 * **[!UICONTROL 快速下载]**
-* **[!UICONTROL 自定义呈现版本]**
+* **[!UICONTROL 自定义演绎版]**
 * **[!UICONTROL 系统呈现版本]**
 
 Brand Portal管理员可以启用任意组合来配置资源下载。
@@ -393,7 +397,7 @@ Brand Portal管理员可以启用任意组合来配置资源下载。
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above -->
 
-| **AEM 版本** | **新建配置** | **升级配置** |
+| **AEM版本** | **新建配置** | **升级配置** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
 | **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
@@ -451,7 +455,7 @@ Brand Portal用户只能将资源上传到 **新建** 子文件夹。 此 **已�
 
 Brand Portal 6.4.4版本重点对文本搜索和主要客户请求进行了增强。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
 
-### 搜索增强
+### 搜索增强功能
 
 Brand Portal 6.4.4及更高版本支持在筛选窗格中对属性谓词进行部分文本搜索。 要允许部分文本搜索，您必须启用 **部分搜索** 在搜索表单的属性谓词中。
 
@@ -718,7 +722,7 @@ Brand Portal 6.4.1是一个平台升级版本，其中引入了若干新增功�
 * 资产属性中提供了新的“相关资产”功能。 现在，与AEM上其他源/派生资源相关并在Brand Portal上发布的资源在Brand Portal中的关系保持不变，并包含指向资产页面上相关资源的链接。
 * 引入了新配置，以限制非管理员用户创建公共收藏集。 组织可与客户支持团队合作，针对特定帐户配置此功能。
 
-### 搜索增强
+### 搜索增强功能
 
 * 引入的功能可在导航到搜索项目后，返回到搜索结果中的相同位置，而无需再次运行搜索查询。
 * 已提供新的搜索结果计数，以显示搜索结果的数量。
