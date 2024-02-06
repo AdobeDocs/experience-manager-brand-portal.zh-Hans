@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 506d8f9cd6aab14368aa0a644a81f25a11260a61
+source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1416'
 ht-degree: 3%
 
 ---
@@ -41,25 +41,12 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 此版本包含以下错误修复：
 
 * 无法在土耳其语言环境中下载受DRM保护的数字资产。
-
 * 无法打开和下载现有报表，这些报表包含具有多行标题的资产。
-
 * 当您使用下载资源时 [!UICONTROL 下载] 按钮时，最多可下载1000个资源。
-
 * 在PSD树中查看时，内容类型资源的名称不正确。
-
 * [!UICONTROL 删除节目] 资产详细信息页面上的选项不起作用。
-
 * 下载弹出窗口中资源的标题和大小未对齐。
-
-* 如果从树视图切换，则无法在卡片视图中加载文件夹。
-
-* 即使 [!UICONTROL 快速下载] 在中启用 [!UICONTROL 下载设置] 对于编辑者和管理员，特定租户无法下载过期的资产。
-
-* 如果未选中所有复选框，则在创建报告时不会本地化用户界面错误。
-
 * 创建报告时，标签未本地化。
-
 * 在Brand Portal中，支持管理员称为管理员。
 
 ## 以前的版本
