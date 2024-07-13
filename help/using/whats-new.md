@@ -23,35 +23,35 @@ Adobe Experience Manager Assets Brand Portal可帮助您轻松地获取、控制
 
 ## 2024.02.0版中的更改内容 {#what-changed-in-February-2024}
 
-Brand Portal 2024.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2024.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2023.10.0版中的更改内容 {#what-changed-in-October-2023}
 
-Brand Portal 2023.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2023.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2023.08.0版中的更改内容 {#what-changed-in-August-2023}
 
-Brand Portal 2023.08.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2023.08.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2023.05.0版中的更改内容 {#what-changed-in-May-2023}
 
-Brand Portal 2023.05.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2023.05.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2023.02.0版中的更改内容 {#what-changed-in-February-2023}
 
-Brand Portal 2023.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2023.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2022.10.0版中的更改内容 {#what-changed-in-October-2022}
 
-Brand Portal 2022.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2022.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2022.08.0版中的更改内容 {#what-changed-in-August-2022}
 
-Brand Portal 2022.08.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2022.08.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2022.05.0版中的更改内容 {#what-changed-in-May-2022}
 
-Brand Portal现在每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资源。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 您还可以使用监控自动执行的删除作业的状态 **[!UICONTROL 工具]** > **[!UICONTROL 资产贡献状态]** > **[!UICONTROL 删除报告]** Brand Portal选项。 作业的报表提供以下详细信息：
+Brand Portal现在每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资源。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。 您还可以使用Brand Portal中的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 资源贡献状态]** > **[!UICONTROL 删除报告]**&#x200B;选项来监视自动执行的删除作业的状态。 作业的报表提供以下详细信息：
 
 * 作业开始时间
 * 作业结束时间
@@ -64,18 +64,18 @@ Brand Portal现在每十二小时执行一次自动作业，以删除发布到AE
 
 您还可以进一步深入查看删除作业中包含的每个资源的详细信息。 资产标题、大小、作者、删除状态和删除时间等详细信息将包含在报表中。
 
-![详细删除报告](assets/deletion-reports-detailed.png)
+详细的![删除报告](assets/deletion-reports-detailed.png)
 
-此外，Brand Portal 2022.05.0还包含对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+此外，Brand Portal 2022.05.0还包含对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 
 ## 2022.02.0版中的更改内容 {#what-changed-in-Feb-2022}
 
-Brand Portal 2022.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2022.02.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2021.10.0版中的更改内容 {#what-changed-in-october-2021}
 
-Brand Portal 2021.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2021.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2021.08.0版中的更改内容 {#what-changed-in-august-2021}
 
@@ -97,15 +97,15 @@ Brand Portal 2021.08.0是一个内部版本，为企业和团队客户引入了�
 
 ### 参考文章 {#reference-articles}
 
-* [Adobe配置文件简介](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [正在引入Adobe配置文件](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
 
 * [管理Adobe配置文件](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
 
 * [更新用户和管理员的登录体验](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* [迁移期间的登录限制](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
+* 迁移期间[登录限制](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
 
-* [在Admin Console中管理用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [管理Admin Console中的用户](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
 
 * [管理企业用户的产品配置文件](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
 
@@ -156,59 +156,59 @@ For a new or migrated T2E orgnization, the users will have an organization speci
 
 ## 2021.06.0版中的更改内容 {#what-changed-in-june-2021}
 
-Brand Portal 2021.06.0是一个内部版本，其中包括对关键问题的修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2021.06.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 
 ## 2021.02.0版中的更改内容 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0是一个增强版本，它在AEM Assetsas a Cloud Service上引入了Brand Portal激活工作流，促进了AEM Assetsas a Cloud Service上的资产源功能，改进了资产下载体验，并包括关键修复。 它还允许管理员配置文件夹、收藏集的默认下载行为，以及租户级别的资产批量下载。 Brand Portal **[!UICONTROL 使用情况报表]** 还进行了相应修改，以反映活跃的Brand Portal用户。
+Brand Portal 2021.02.0是一个增强版本，它在AEM Assetsas a Cloud Service引入了Brand Portal激活工作流，促进了AEM Assetsas a Cloud Service的资产源功能，改进了资产下载体验，并包括关键修复。 它还允许管理员配置文件夹、收藏集的默认下载行为，以及租户级别的资产批量下载。 Brand Portal **[!UICONTROL 使用情况报表]**&#x200B;也已修改，以反映活动的Brand Portal用户。
 
 ### 在AEM Assetsas a Cloud Service上激活Brand Portal {#bp-automation-on-cloud-service}
 
-AEM Assetsas a Cloud Service现在有权预配置一个Brand Portal实例。 Cloud Manager用户可以在AEM Assetsas a Cloud Service实例上激活Brand Portal。
+AEM Assets as a Cloud Service现在有权预配置一个Brand Portal实例。 Cloud Manager用户可以在AEM Assetsas a Cloud Service实例上激活Brand Portal。
 
-之前，AEM Assetsas a Cloud Service是使用Brand PortalAdobe Developer控制台手动配置的。
+之前，AEM Assetsas a Cloud Service是使用Adobe Developer Console手动配置Brand Portal的。
 
 Cloud Manager用户触发激活工作流，该工作流在后端创建所需的配置，并在与AEM Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
 要在您的AEM Assetsas a Cloud Service实例上激活Brand Portal，请执行以下操作：
 
-1. 登录AdobeCloud Manager并导航至 **[!UICONTROL 环境]**.
-1. 从列表中选择环境（逐个）。 找到与Brand Portal关联的环境后，单击 **[!UICONTROL 激活Brand Portal]** 按钮以开始激活工作流。
+1. 登录AdobeCloud Manager并导航到&#x200B;**[!UICONTROL 环境]**。
+1. 从列表中选择环境（逐个）。 找到与Brand Portal关联的环境后，单击&#x200B;**[!UICONTROL 激活Brand Portal]**&#x200B;按钮以开始激活工作流。
 1. 激活Brand Portal租户后，状态将更改为“已激活”。
 
 ![查看状态](assets/create-environment5.png)
 
-请参阅 [在AEM Assetsas a Cloud Service上激活Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
+请参阅[在AEM Assetsas a Cloud Service上激活Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)。
 
-### AEM Assetsas a Cloud Service上的资源源 {#asset-sourcing-on-cloud-service}
+### AEM Assets上的Asset Sourcingas a Cloud Service {#asset-sourcing-on-cloud-service}
 
 AEM Assetsas a Cloud Service上现在提供了资源源功能。 默认情况下，所有Cloud Service用户都启用该功能。 允许的Brand Portal用户可以通过将新资源上传到贡献文件夹并将贡献文件夹从Brand Portal发布到AEM Assetsas a Cloud Service实例来贡献资源源。 管理员可以审核和批准Brand Portal用户的贡献，以进一步将它们分发给其他Brand Portal用户。
 
 以前，资产源仅在AEM Assets上可用（内部部署和托管服务）。
 
-请参阅 [Brand Portal中的资源源](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=zh-Hans).
+请参阅Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=zh-Hans)中的[资源源。
 
 ### 资源下载 {#asset-download-setting}
 
-除了现有的 **[!UICONTROL 下载设置]**，Brand Portal管理员现在可以配置 **[!UICONTROL 资源下载]** 设置。 此设置允许管理员在租户级别管理文件夹、收藏集的默认下载行为和资产（超过20个资产）的批量下载。
+除了现有的&#x200B;**[!UICONTROL 下载设置]**&#x200B;之外，Brand Portal管理员现在还可以配置&#x200B;**[!UICONTROL 资源下载]**&#x200B;设置。 此设置允许管理员在租户级别管理文件夹、收藏集的默认下载行为和资产（超过20个资产）的批量下载。
 
 <!--
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
 -->
 
-以前，所有资源演绎版都直接下载到zip文件夹中。 此 **[!UICONTROL 下载]** 已跳过文件夹和收藏集的对话框，并且没有控制资源下载行为的方法，因此很难从许多下载中搜索特定演绎版。
+以前，所有资源演绎版都直接下载到zip文件夹中。 已跳过文件夹和收藏集的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，并且没有控制资源下载行为的方法，因此很难通过多次下载搜索特定演绎版。
 
-**[!UICONTROL 资源下载]** 现在，设置提供了一种选项，可在下载文件夹、收藏集或批量下载资产时，为每个资产创建单独的文件夹。
+**[!UICONTROL 资源下载]**&#x200B;设置现在提供了一个选项，用于在下载文件夹、收藏集或批量下载资源时，为每个资源创建一个单独的文件夹。
 
-如果 **[!UICONTROL 资源下载]** 如果禁用设置，则文件夹或收藏集将下载到同一文件夹下包含所有资源演绎版的zip文件夹中，但使用共享链接下载资源的情况除外。
+如果&#x200B;**[!UICONTROL 资源下载]**&#x200B;设置被禁用，则文件夹或收藏集将下载到包含同一文件夹下所有资源演绎版的zip文件夹中，但使用共享链接下载资源的情况除外。
 
 
-以管理员身份登录到您的Brand Portal租户，并导航到 **[!UICONTROL 工具]** > **[!UICONTROL 下载]**. 管理员可以启用 **[!UICONTROL 资源下载]** 设置，以便在下载文件夹、收藏集和批量下载资产时为每个资产创建单独的文件夹。
+以管理员身份登录到您的Brand Portal租户，并导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下载]**。 管理员可以启用&#x200B;**[!UICONTROL 资源下载]**&#x200B;设置，以便在下载文件夹、收藏集和批量下载资源时为每个资源创建单独的文件夹。
 
 ![](assets/download-settings-new.png)
 
-请参阅 [从Brand Portal下载资源](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+请参阅[从Brand Portal下载资源](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html)。
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -217,7 +217,7 @@ The default behavior of downloading the assets using share link is now independe
 
 ### 使用情况报表 {#usage-report}
 
-Brand Portal **[!UICONTROL 使用情况报表]** 已修改，以仅反映活动的Brand Portal用户。 未分配给Admin Console中任何产品配置文件的Brand Portal用户被视为非活动用户，不会反映在 **[!UICONTROL 使用情况报表]**.
+已修改Brand Portal **[!UICONTROL 使用情况报表]**，以仅反映活动的Brand Portal用户。 未分配给Admin Console中任何产品配置文件的Brand Portal用户被视为非活动用户，未反映在&#x200B;**[!UICONTROL 使用情况报表]**&#x200B;中。
 
 以前，活动用户和非活动用户都显示在使用情况报表中。
 
@@ -225,24 +225,24 @@ Brand Portal **[!UICONTROL 使用情况报表]** 已修改，以仅反映活动�
 
 ## 2020.10.0版中的更改内容 {#what-changed-in-oct-2020}
 
-Brand Portal 2020.10.0是一个增强版本，其重点在于简化资源下载体验并包括关键修复。 这项增强功能包括新的和改进的资产下载工作流、用于排除演绎版的其他选项，以及从直接下载 **[!UICONTROL 节目]** 面板，配置可允许特定用户组的访问和下载权限，并可从所有Brand Portal页面轻松导航到文件、收藏集和共享链接。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 2020.10.0是一个增强版本，其重点在于简化资源下载体验并包括关键修复。 增强功能包括新增和改进的资源下载工作流、用于排除演绎版的其他选项、从&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板直接下载、用于允许特定用户组的访问和下载权限的配置，以及从所有Brand Portal页面轻松导航到文件、收藏集和共享链接。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 
 ### 简化的下载体验 {#download-dialog}
 
-之前， **[!UICONTROL 下载]** 此时会显示多个选项，例如为每个资产创建单独的文件夹、发送电子邮件资产、选择原始资产、自定义演绎版、动态演绎版、排除系统演绎版和启用下载加速，这些选项对于非技术用户或新用户而言并不明确，尤其是在选择了多个资产或文件夹进行下载时。 此外，用户无法看到所有资源演绎版，也无法排除特定的自定义或动态演绎版。
+以前，**[!UICONTROL 下载]**&#x200B;对话框出现时带有多个选项，例如为每个资源创建单独的文件夹、发送电子邮件资源、选择原始资源、自定义呈现形式、动态呈现形式、排除系统呈现形式，以及启用下载加速，这些选项对于非技术用户或新用户而言并不明确，尤其是在选择了多个资源或文件夹进行下载时。 此外，用户无法看到所有资源演绎版，也无法排除特定的自定义或动态演绎版。
 
-新 **[!UICONTROL 下载]** 对话框简化了资源选择和过滤流程，使Brand Portal用户在下载资源演绎版时能够更轻松地做出有效决策。 它根据以下内容列出了所有选定的资源及其演绎版： [**[!UICONTROL 下载]**](brand-portal-download-assets.md) 配置和 **[!UICONTROL 下载]** 设置。
+新的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框简化了资源选择和过滤流程，使Brand Portal用户在下载资源演绎版时能够更轻松地做出有效的决策。 根据[**[!UICONTROL 下载]**](brand-portal-download-assets.md)配置和&#x200B;**[!UICONTROL 下载]**&#x200B;设置，它列出了所有选定的资源及其演绎版。
 
 >[!NOTE]
 >
->所有用户现在都拥有 **[!UICONTROL 快速下载]** 默认启用，需要IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)在从Brand Portal下载资源之前，会先在浏览器的扩展中安装。
+>默认情况下，所有用户现在都启用了&#x200B;**[!UICONTROL 快速下载]**，在从Brand Portal下载资源之前，需要在其浏览器的扩展中安装IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
-从 **[!UICONTROL 下载]** 对话框，用户可以：
+通过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，用户可以：
 
 * 查看下载列表中任何资源的所有可用演绎版。
 * 排除不需要下载的资产演绎版。
@@ -251,28 +251,28 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 为每个资源创建单独的文件夹。
 * 下载所选资源及其演绎版。
 
-对于独立资产、多个资产、包含资产的文件夹、已许可或未许可资产以及使用共享链接下载资产，下载工作流保持不变。 请参阅 [从Brand Portal下载资源的步骤](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html).
+对于独立资产、多个资产、包含资产的文件夹、已许可或未许可资产以及使用共享链接下载资产，下载工作流保持不变。 查看从Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html)下载资源的[步骤。
 
-![download-dialog](assets/download-dialog-box.png)
+![下载对话框](assets/download-dialog-box.png)
 
 ### 快速导航  {#quick-navigation}
 
-以前，查看选项 **[!UICONTROL 文件]**， **[!UICONTROL 收藏集]**、和 **[!UICONTROL 共享的链接]** 被隐藏，用户每次想要切换到另一个视图时都需要多次单击。
+以前，查看&#x200B;**[!UICONTROL 文件]**、**[!UICONTROL 收藏集]**&#x200B;和&#x200B;**[!UICONTROL 共享链接]**&#x200B;的选项已隐藏，用户每次要切换到另一个视图时都需要多次单击。
 
-在Brand Portal 2020.10.0中，用户可以导航到 **[!UICONTROL 文件]**， **[!UICONTROL 收藏集]**、和 **[!UICONTROL 共享的链接]** 使用快速导航链接，通过单击从所有Brand Portal页面中访问。
+在Brand Portal 2020.10.0中，用户可以使用快速导航链接通过一次单击从所有Brand Portal页面导航到&#x200B;**[!UICONTROL 文件]**、**[!UICONTROL 收藏集]**&#x200B;和&#x200B;**[!UICONTROL 共享链接]**。
 
 ![收藏集导航](assets/collection-navigation.png)
 
 ### 增强型演绎版面板 {#rendition-panel}
 
-以前，用户只能在中查看原始资源及其演绎版 **[!UICONTROL 节目]** 面板(如果任何 **[!UICONTROL 自定义呈现版本]** 或 **[!UICONTROL 系统呈现版本]** 在中启用 **[!UICONTROL 下载]** 配置。 此外，用户必须下载所有资源演绎版，因为没有过滤器可排除不需要的特定自定义或动态演绎版。
+以前，如果在&#x200B;**[!UICONTROL 下载]**&#x200B;配置中启用了&#x200B;**[!UICONTROL 自定义演绎版]**&#x200B;或&#x200B;**[!UICONTROL 系统演绎版]**&#x200B;的任意一个，则用户只能在&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板中查看原始资源及其演绎版。 此外，用户必须下载所有资源演绎版，因为没有过滤器可排除不需要的特定自定义或动态演绎版。
 
 <!--
 Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-在Brand Portal 2020.10.0中，用户可以排除特定演绎版，并且直接 [从“演绎版”面板下载所选演绎版](brand-portal-download-assets.md#download-assets-from-asset-details-page) ，无需打开 **[!UICONTROL 下载]** 对话框。
+在Brand Portal 2020.10.0中，用户可以排除特定的演绎版，并直接[从资源详细信息页面中的“演绎版”面板](brand-portal-download-assets.md#download-assets-from-asset-details-page)下载选定的演绎版，而无需打开&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
 
 
 <!-- 
@@ -286,22 +286,22 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### 配置下载设置 {#download-permissions}
 
-除了现有的 **[!UICONTROL 下载]** 配置)时，Brand Portal管理员还可以为其他用户组配置设置，以查看和（或）从资源详细信息页面下载原始资源及其演绎版。
+除了现有的&#x200B;**[!UICONTROL 下载]**&#x200B;配置外，Brand Portal管理员还可以为其他用户组配置设置，以查看和（或）从资源详细信息页面下载原始资源及其演绎版。
 
-以管理员身份登录到您的Brand Portal租户，并导航到 **[!UICONTROL 工具]** > **[!UICONTROL 用户]**.
+以管理员身份登录到您的Brand Portal租户，并导航到&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 用户]**。
 
-在 **[!UICONTROL 用户角色]** 页面，导航到 **[!UICONTROL 组]** 选项卡以配置用户组的查看和（或）下载设置。
+在&#x200B;**[!UICONTROL 用户角色]**&#x200B;页面中，导航到&#x200B;**[!UICONTROL 组]**&#x200B;选项卡以配置用户组的查看和（或）下载设置。
 
 以前，设置仅可用于限制组用户下载原始资源。
 
-此 **[!UICONTROL 组]** 选项卡 **[!UICONTROL 用户角色]** 页面允许管理员配置查看和下载设置：
+**[!UICONTROL 用户角色]**&#x200B;页面上的&#x200B;**[!UICONTROL 组]**&#x200B;选项卡允许管理员配置查看和下载设置：
 
-* 如果两者 **[!UICONTROL 下载原始文件]** 和 **[!UICONTROL 下载节目]** 设置打开时，选定组的用户可以查看和下载原始资源及其演绎版。
+* 如果&#x200B;**[!UICONTROL 下载原始资产]**&#x200B;和&#x200B;**[!UICONTROL 下载演绎版]**&#x200B;设置都处于打开状态，则选定组的用户可以查看和下载原始资产及其演绎版。
 * 如果这两个设置都处于关闭状态，则用户只能查看原始资源。 资源详细信息页面上的用户看不到资源演绎版。
-* 如果 **[!UICONTROL 下载原始文件]** 设置打开时，用户只能从资源详细信息页面查看和下载原始资源。
-* 如果 **[!UICONTROL 下载节目]** 设置处于打开状态时，用户可以查看原始资源，但无法下载它。 但是，用户可以查看和下载资源演绎版。
+* 如果仅打开&#x200B;**[!UICONTROL 下载原始资产]**&#x200B;设置，则用户只能从资产详细信息页面查看和下载原始资产。
+* 如果仅打开&#x200B;**[!UICONTROL 下载演绎版]**&#x200B;设置，则用户可以查看原始资源，但无法下载它。 但是，用户可以查看和下载资源演绎版。
 
-请参阅 [配置资源下载](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions).
+请参阅[配置资源下载](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)。
 
 ![view-download-permission](assets/download-permissions.png)
 
@@ -319,7 +319,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ## 6.4.7中的更改内容 {#what-changed-in-647}
 
-Brand Portal 6.4.7版本引入了文档查看器，增强了下载资源的体验，并包括关键修复。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 6.4.7版本引入了文档查看器，增强了下载资源的体验，并包括关键修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -342,30 +342,30 @@ Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Po
 
 ### 下载体验 {#download-configurations}
 
-对资源下载流程进行了改进，简化了用户体验，同时 [从Brand Portal下载资源](brand-portal-download-assets.md).
+资源下载过程已改版，在[从Brand Portal](brand-portal-download-assets.md)下载资源时提供了简化的用户体验。
 
-现有的从Brand Portal下载资源的工作流不可避免地会随后出现  **[!UICONTROL 下载]** 对话框，其中包含多个可供选择的下载选项。
+从Brand Portal下载资产的现有工作流不可避免地会显示&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，其中包含多个可供选择的下载选项。
 
-在Brand Portal 6.4.7中，Brand Portal管理员可以配置资源  **[!UICONTROL 下载]** 设置。 可用的配置包括：
+在Brand Portal 6.4.7中，Brand Portal管理员可以配置资源&#x200B;**[!UICONTROL 下载]**&#x200B;设置。 可用的配置包括：
 
 * **[!UICONTROL 快速下载]**
-* **[!UICONTROL 自定义演绎版]**
+* **[!UICONTROL 自定义呈现版本]**
 * **[!UICONTROL 系统呈现版本]**
 
 Brand Portal管理员可以启用任意组合来配置资源下载。
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* 如果两者 **[!UICONTROL 自定义演绎版]** 和 **[!UICONTROL 系统呈现版本]** 配置处于关闭状态，无需任何其他对话框即可下载资源的原始演绎版，从而简化Brand Portal用户的下载体验。
+* 如果同时关闭&#x200B;**[!UICONTROL 自定义呈现版本]**&#x200B;和&#x200B;**[!UICONTROL 系统呈现版本]**&#x200B;配置，则无需任何其他对话框即可下载资源的原始呈现版本，从而简化了Brand Portal用户的下载体验。
 
-* 如果任何 **[!UICONTROL 自定义呈现版本]** 或 **[!UICONTROL 系统呈现版本]** 已启用， **[!UICONTROL 下载]** 此时将显示对话框并下载原始资源以及资源演绎版。 正在启用  **[!UICONTROL 快速下载]** 配置可加快下载过程。
+* 如果启用了&#x200B;**[!UICONTROL 自定义呈现版本]**&#x200B;或&#x200B;**[!UICONTROL 系统呈现版本]**&#x200B;中的任意一个，则会显示&#x200B;**[!UICONTROL 下载]**&#x200B;对话框并下载原始资源以及资源呈现版本。 启用&#x200B;**[!UICONTROL 快速下载]**&#x200B;配置可加快下载过程。
 
 根据配置，对于独立资产、多个资产、包含资产的文件夹、已许可或未许可资产以及使用共享链接下载资产，下载工作流会保持不变。
 
 
 ## 6.4.6中的更改内容 {#what-changed-in-646}
 
-在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道发生了更改。 Brand Portal现在在AEM Assetsas a Cloud Service、AEM Assets 6.3及更高版本上受支持。 在AEM Assets 6.3及更高版本中，Brand Portal之前通过旧版OAuth网关在经典UI中进行配置，该网关使用JWT令牌交换获取IMS访问令牌进行授权。 AEM Assets现在通过Brand Portal控制台配置了Adobe Developer，该控制台可获取IMS令牌以授权您的Brand Portal租户。
+在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道发生了更改。 Brand Portal现在在AEM Assetsas a Cloud Service、AEM Assets 6.3及更高版本上受支持。 在AEM Assets 6.3及更高版本中，Brand Portal之前通过旧版OAuth网关在经典UI中进行配置，该网关使用JWT令牌交换获取IMS访问令牌进行授权。 AEM Assets现在已通过Brand Portal进行了配置，Adobe Developer Console可获取IMS令牌以授权您的Brand Portal租户。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -397,32 +397,32 @@ Brand Portal管理员可以启用任意组合来配置资源下载。
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above -->
 
-| **AEM版本** | **新建配置** | **升级配置** |
+| **AEM版本** | **新配置** | **升级配置** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5（6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM 6.5 （6.5.4.0及更高版本）** | [创建配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [升级配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 
 >[!NOTE]
 >
 >建议将AEM实例更新到最新的Service Pack。
 
-查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
-请参阅 [Brand Portal常见问题解答](brand-portal-faqs.md).
+请参阅[Brand Portal常见问题解答](brand-portal-faqs.md)。
 
 ## 6.4.5中的更改内容 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户（外部代理/团队）提供在不需要访问作者环境的情况下将内容上传到 Brand Portal 并发布到 AEM Assets 的功能。此功能称为 **[Brand Portal中的资源源](brand-portal-asset-sourcing.md)**，并通过为用户提供双向机制来贡献资源并与其他分布在全球的Brand Portal用户共享资源，从而改善客户体验。
+Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户（外部代理/团队）提供在不需要访问作者环境的情况下将内容上传到 Brand Portal 并发布到 AEM Assets 的功能。此功能在Brand Portal中称为&#x200B;**[资源源](brand-portal-asset-sourcing.md)**，它通过为用户提供双向机制来贡献资源并与其他分布在全球的Brand Portal用户共享资源，从而改善客户体验。
 
 ### Brand Portal 中的资产源 {#asset-sourcing-in-bp}
 
-资产源允许AEM用户（管理员/非管理员用户）创建包含额外内容的文件夹 **资产贡献** 属性，确保Brand Portal用户可提交已创建的新文件夹中的资产。 它会自动触发一个工作流，该工作流会在新创建的文件夹中创建两个额外的子文件夹，称为NEW和SHARED **贡献** 文件夹。
+Asset Sourcing允许AEM用户（管理员/非管理员用户）使用额外的&#x200B;**Asset Contribution**&#x200B;属性创建文件夹，确保创建的新文件夹可供Brand Portal用户提交资源。 它会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建两个名为NEW和SHARED的子文件夹。
 
-然后，AEM用户通过上传有关应添加到贡献文件夹的资源类型的简短说明，并将基线资源上传到来定义需求 **已共享** 文件夹，以确保Brand Portal用户能够获得他们所需的参考信息。 然后，管理员可以在发布新创建的贡献文件夹之前，向活动Brand Portal用户授予对贡献文件夹的访问权限 **贡献** 文件夹到Brand Portal。
+随后，AEM用户通过上传有关应添加到贡献文件夹的资源类型的简短说明，并将基线资源上传到&#x200B;**SHARED**&#x200B;文件夹来定义需求，以确保Brand Portal用户拥有他们所需的参考信息。 随后，管理员可以向活动Brand Portal用户授予对贡献文件夹的访问权限，然后再将新创建的&#x200B;**贡献**&#x200B;文件夹发布到Brand Portal。
 
 
-用户在中添加完内容后 **新建** 之后，他们可以将contribution文件夹发布回AEM创作环境。 请注意，可能需要几分钟才能完成导入，并在AEM Assets中反映新发布的内容。
+用户完成在&#x200B;**NEW**&#x200B;文件夹中添加内容后，即可将贡献文件夹发布回AEM创作环境。 请注意，可能需要几分钟才能完成导入，并在AEM Assets中反映新发布的内容。
 
 此外，所有现有功能均保持不变。 Brand Portal用户可以从“贡献”文件夹和其他允许的文件夹中查看、搜索和下载资源。 管理员可以进一步共享贡献文件夹、修改属性并将资源添加到收藏集。
 
@@ -436,7 +436,7 @@ Brand Portal 6.4.5 是一个功能版本，其主要是为 Brand Portal 用户�
 
 具有适当权限的Brand Portal用户可以将单个资源或包含多个资源的文件夹（.zip文件）上传到contribution文件夹。 用户可以将多个资产上传到资产贡献文件夹。 但是，一次只能创建一个文件夹。
 
-Brand Portal用户只能将资源上传到 **新建** 子文件夹。 此 **已共享** 文件夹用于分发需求和基准资产。
+Brand Portal用户只能将资源上传到&#x200B;**NEW**&#x200B;子文件夹。 **SHARED**&#x200B;文件夹用于分发需求和基准资源。
 
 
 ![](assets/upload-asset6.png)
@@ -444,20 +444,20 @@ Brand Portal用户只能将资源上传到 **新建** 子文件夹。 此 **已�
 ![](assets/upload-asset4.png)
 
 
-### 将贡献文件夹发布到AEM Assets {#publish-assets-to-aem}
+### Publish贡献文件夹到AEM Assets {#publish-assets-to-aem}
 
-上传完成后，上传至 **新建** 之后，Brand Portal用户可以将贡献文件夹发布回AEM。 在AEM Assets中导入和反映发布的内容/资源可能需要几分钟的时间。 请参阅 [将contribution文件夹发布到AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+上传到&#x200B;**NEW**&#x200B;文件夹完成后，Brand Portal用户可以将该贡献文件夹发布回AEM。 在AEM Assets中导入和反映发布的内容/资源可能需要几分钟的时间。 请参阅[将贡献文件夹发布到AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)。
 
 
 ![](assets/upload-asset5.png)
 
 ## 6.4.4中的更改内容 {#what-changed-in-644}
 
-Brand Portal 6.4.4版本重点对文本搜索和主要客户请求进行了增强。 查看最新 [Brand Portal发行说明](brand-portal-release-notes.md).
+Brand Portal 6.4.4版本重点对文本搜索和主要客户请求进行了增强。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ### 搜索增强功能
 
-Brand Portal 6.4.4及更高版本支持在筛选窗格中对属性谓词进行部分文本搜索。 要允许部分文本搜索，您必须启用 **部分搜索** 在搜索表单的属性谓词中。
+Brand Portal 6.4.4及更高版本支持在筛选窗格中对属性谓词进行部分文本搜索。 要允许部分文本搜索，必须在搜索表单的属性谓词中启用&#x200B;**部分搜索**。
 
 请阅读下文，了解关于部分文本搜索和通配符搜索的更多信息。
 
@@ -468,29 +468,29 @@ Brand Portal 6.4.4及更高版本支持在筛选窗格中对属性谓词进行�
 **用例**
 当您不确定搜索到的短语中出现的确切单词组合时，部分短语搜索会很有帮助。
 
-例如，如果您在Brand Portal中的搜索表单使用属性谓词对资源标题进行部分搜索，则指定该术语 **camp** 返回其标题短语中包含camp一词的所有资产。
+例如，如果您在Brand Portal中的搜索表单使用属性谓词对资源标题进行部分搜索，则指定术语&#x200B;**camp**&#x200B;将返回其标题短语中包含单词camp的所有资源。
 
 ![](assets/partialphrasesearch.png)
 
 #### 通配符搜索 {#wildcard-search}
 
-Brand Portal允许使用星号(&#42;)，以及搜索短语中的单词的一部分。
+Brand Portal允许在搜索查询中使用星号(&#42;)以及搜索短语中的单词的一部分。
 
 **用例。 如果您不确定搜索短语中出现的确切单词，则可以使用通配符搜索来填补搜索查询中的空白。
 
-例如，指定 **爬升&#42;** 返回所有包含以字符开头的单词的资产 **爬升** 如果Brand Portal中的搜索表单使用属性谓词部分搜索资产标题，则在他们的标题短语中也应使用属性谓词。
+例如，如果Brand Portal中的搜索表单使用属性谓词对资源标题进行部分搜索，则指定&#x200B;**climb&#42;**&#x200B;将返回其标题短语中单词以&#x200B;**climb**&#x200B;开头的全部资源。
 
 ![](assets/wildcard-prop.png)
 
 同样，指定：
 
-* **&#42;爬升** 返回所有包含以字符结尾的单词的资产 **爬升** 在标题短语中。
+* **&#42;climb**&#x200B;返回标题短语中单词以&#x200B;**climb**&#x200B;结尾的所有资产。
 
-* **&#42;爬升&#42;** 返回包含包含字符的单词的所有资产 **爬升** 在标题短语中。
+* **&#42;climb&#42;**&#x200B;返回其标题短语中包含字符&#x200B;**climb**&#x200B;的所有资产。
 
 >[!NOTE]
 >
->选择时 **部分搜索** 复选框， **忽略大小写** 默认情况下处于选中状态。
+>选中&#x200B;**部分搜索**&#x200B;复选框时，默认情况下会选中&#x200B;**忽略大小写**。
 
 [![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -500,14 +500,14 @@ Brand Portal 6.4.3版本的重点是 — 除了在Brand Portal访问URL中的租
 
 ### 非管理员的文件夹层次结构导航
 
-管理员现在可以配置在登录时如何向非管理员用户（编辑者、查看者和访客用户）显示文件夹。 [启用文件夹层次结构](../using/brand-portal-general-configuration.md) 配置已添加至 **常规设置**，位于“管理工具”面板中。 如果配置为：
+管理员现在可以配置在登录时如何向非管理员用户（编辑者、查看者和访客用户）显示文件夹。 [启用文件夹层次结构](../using/brand-portal-general-configuration.md)配置已添加到“管理工具”面板的&#x200B;**常规设置**&#x200B;中。 如果配置为：
 
-* **已启用**，则非管理员用户将看到从根文件夹开始的文件夹树。 因此，可以授予他们类似于管理员的导航体验。
-* **已禁用**，则登陆页面上只显示共享文件夹。
+* **已启用**，从根文件夹开始的文件夹树对非管理员用户可见。 因此，可以授予他们类似于管理员的导航体验。
+* **已禁用**，登录页上仅显示共享文件夹。
 
 ![](assets/enable-folder-hierarchy.png)
 
-此 [启用文件夹层次结构](../using/brand-portal-general-configuration.md) 功能（启用时）可帮助您区分名称相同的文件夹与不同的层次结构共享。 登录时，非管理员用户现在可以看到共享文件夹的虚拟父文件夹（和祖先文件夹）。
+[启用文件夹层次结构](../using/brand-portal-general-configuration.md)功能（启用时）可帮助您区分不同层次结构中共享的同名文件夹。 登录时，非管理员用户现在可以看到共享文件夹的虚拟父文件夹（和祖先文件夹）。
 
 ![](assets/disabled-folder-hierarchy1-2.png)
 
@@ -523,12 +523,12 @@ Brand Portal 6.4.3版本的重点是 — 除了在Brand Portal访问URL中的租
 
 ### 在特定文件夹层次结构或路径中搜索
 
-**路径浏览器** 搜索表单中引入谓词，以允许搜索特定目录中的资源。 路径浏览器的搜索谓词的默认搜索路径为 `/content/dam/mac/<tenant-id>/`，可通过编辑默认搜索表单进行配置。
+搜索表单中引入了&#x200B;**路径浏览器**&#x200B;谓词，以允许搜索特定目录中的资源。 路径浏览器的搜索谓词的默认搜索路径为`/content/dam/mac/<tenant-id>/`，可通过编辑默认搜索表单来配置该路径。
 
 * 管理员用户可以使用路径浏览器导航到Brand Portal上的任何文件夹目录。
 * 非管理员用户可以使用路径浏览器仅导航到与他们共享的文件夹（并导航回父文件夹）。
 
-  例如， `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` 已与非管理员用户共享。 用户可以使用路径浏览器在folderC中搜索资产。 此用户还可以导航到folderB和folderA（因为它们是与用户共享的folderC的上级）。
+  例如，`/content/dam/mac/<tenant-id>/folderA/folderB/folderC`已与非管理员用户共享。 用户可以使用路径浏览器在folderC中搜索资产。 此用户还可以导航到folderB和folderA（因为它们是与用户共享的folderC的上级）。
 
 ![](assets/edit-search-form.png)
 
@@ -545,7 +545,7 @@ Brand Portal 6.4.3版本的重点是 — 除了在Brand Portal访问URL中的租
 
 AEM创作实例处于Dynamic Media混合模式的用户除了可以预览和下载原始视频文件之外，还可以预览和下载Dynamic Media演绎版。
 
-要允许预览和下载特定租户帐户上的Dynamic Media演绎版，管理员必须指定 **Dynamic Media配置** (视频服务URL (DM-Gateway URL)和注册ID，用于获取动态视频) **视频** “管理工具”面板中的配置。
+要允许预览和下载特定租户帐户上的Dynamic Media演绎版，管理员必须在&#x200B;**Video**&#x200B;配置中指定&#x200B;**Dynamic Media配置**(视频服务URL （DM网关URL）和注册ID以获取动态视频)，该配置位于“管理工具”面板中。
 
 
 可以在以下位置预览Dynamic Media视频：
@@ -565,7 +565,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 ### 已计划发布到Brand Portal
 
-可以计划在稍后的日期和时间执行从AEM 6.4.2.0创作实例到Brand Portal的资产（和文件夹）发布工作流。
+可以将从AEM 6.4.2.0创作实例到Brand Portal的Assets（和文件夹）发布工作流安排在稍后的日期和时间。
 
 同样，可以通过安排从Brand Portal取消发布工作流程，稍后从门户中删除已发布的资源。
 
@@ -580,9 +580,9 @@ Dynamic Media视频编码可从以下位置下载：
 通过在URL中使用备用前缀，组织可以自定义其门户URL。 要在现有门户URL中获取租户名称的别名，组织必须联系客户支持。
 
 只能自定义Brand Portal URL的前缀，而不能自定义整个URL。\
-例如，具有现有域的组织 **geomettrix.brand-portal.adobe.com** 可以获取 **geomettrixinc.brand-portal.adobe.com** 已应请求创建。
+例如，如果组织具有现有域&#x200B;**geometrix.brand-portal.adobe.com**，则可以根据请求创建&#x200B;**geometrixinc.brand-portal.adobe.com**。
 
-但是，AEM创作实例可以是 [已配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) 仅使用租户ID URL，不使用租户别名（替代）URL。
+但是，AEM创作实例只能使用租户ID URL [配置](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html)，而不能使用租户别名（替代）URL。
 
 组织可以通过自定义门户URL来满足其品牌需求，而不是停留在Adobe提供的URL上。
 
@@ -611,15 +611,15 @@ AEM Brand Portal允许来宾访问该门户。 访客用户无需凭据即可进
 
 ### 加速下载
 
-Brand Portal用户可应用基于IBM Aspera Connect的快速下载，获得高达25倍的速度并享受无缝下载体验，而无论他们位于全球何处。 要更快地从Brand Portal或共享链接下载资源，用户需要选择 **启用下载加速** 选项，则其组织已启用提供的下载加速。
+Brand Portal用户可应用基于IBM Aspera Connect的快速下载，获得高达25倍的速度并享受无缝下载体验，而无论他们位于全球何处。 要更快地从Brand Portal或共享链接下载资源，用户需要在下载对话框中选择&#x200B;**启用下载加速**&#x200B;选项，前提是他们的组织已启用下载加速。
 
 ![](assets/donload-assets-dialog-2.png)
 
-要为组织启用基于IBM Aspera的加速下载，管理员必须 **启用下载加速** 选项（默认情况下处于禁用状态） [常规设置](brand-portal-general-configuration.md#allow-download-acceleration) 在“管理工具”面板中。 要详细了解从Brand Portal和共享链接更快地下载资源文件的先决条件和疑难解答步骤，请参阅 [加快从Brand Portal下载的指南](../using/accelerated-download.md#main-pars-header).
+要为组织启用基于IBM Aspera的加速下载，管理员&#x200B;**从“管理工具”面板中的[常规设置](brand-portal-general-configuration.md#allow-download-acceleration)启用“加速下载”**&#x200B;选项（默认情况下处于禁用状态）。 要了解有关从Brand Portal和共享链接更快地下载资源文件的先决条件和疑难解答步骤的更多信息，请参阅[指南以加快从Brand Portal下载的速度](../using/accelerated-download.md#main-pars-header)。
 
 ### 用户登录报表
 
-引入了一个用于跟踪用户登录情况的新报表。 此 **用户登录** 报告有助于使组织能够审核并检查Brand Portal的委派管理员和其他用户。
+引入了一个用于跟踪用户登录情况的新报表。 **用户登录**&#x200B;报告有助于使组织能够审核并检查Brand Portal的委派管理员和其他用户。
 
 报表日志可显示从Brand Portal 6.4.2部署到生成报表期间每个用户的名称、电子邮件ID、角色（管理员、查看者、编辑者、来宾）、组、上次登录、活动状态和登录计数。 管理员可以将报表导出为.csv。 与其他报告一起，“用户登录”报告使组织能够更密切地监控用户与批准的品牌资源的交互，从而确保遵守公司法规遵从性办公室的要求。
 
@@ -683,7 +683,7 @@ Brand Portal为非管理员用户（编辑者、查看者、来宾用户）提�
 
 ### 用于配置oAuth集成的Adobe I/OUI
 
-Brand Portal 6.4.2及更高版本使用旧版OAuth (`https://legacy-oauth.cloud.adobe.io/`)界面创建JWT应用程序，这允许配置oAuth集成以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的UI托管在 `https://marketing.adobe.com/developer/`. 要了解有关将AEM Assets与Brand Portal集成以将资产和收藏集发布到Brand Portal的更多信息，请参阅 [配置AEM Assets与Brand Portal的集成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Brand Portal 6.4.2及更高版本使用旧版OAuth (`https://legacy-oauth.cloud.adobe.io/`)界面创建JWT应用程序，该应用程序允许配置oAuth集成以允许AEM Assets与Brand Portal集成。 以前，用于配置OAuth集成的用户界面托管在`https://marketing.adobe.com/developer/`中。 要了解有关将AEM Assets与Brand Portal集成以将资产和收藏集发布到Brand Portal的更多信息，请参阅[配置AEM Assets与Brand Portal的集成](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html)。
 
 ## 搜索增强功能
 
@@ -700,7 +700,7 @@ Brand Portal 6.4.1是一个平台升级版本，其中引入了若干新增功�
 
 ![](assets/contenttree-2.png)
 
-* 例如，引入了新的键盘快捷键 _(p)_ 要导航到属性页面， _(e)_ （用于编辑），和 _(ctrl+c)_ 进行复制操作。
+* 引入了新的键盘快捷键，例如&#x200B;_(p)_&#x200B;用于导航到属性页，_(e)_&#x200B;用于编辑，_(ctrl+c)_&#x200B;用于复制操作。
 * 改进了卡片视图和列表视图中的滚动、延迟加载体验，从而可浏览大量资产。
 * 增强的卡片视图，支持基于视图设置的不同大小的卡片。
 
@@ -708,18 +708,18 @@ Brand Portal 6.4.1是一个平台升级版本，其中引入了若干新增功�
 
 * 卡片视图现在在悬停在日期标签上方时显示日期/时间戳。
 
-* 列视图的增强功能 **更多详细信息** 在资源快照下，可导航到资源的详细信息页面。
+* 增强了列视图，资产快照下有&#x200B;**更多详细信息**，可让您导航到资产的详细信息页面。
 
 ![](assets/columnmoredetail.png)
 
-* 列表视图现在默认显示第一列中资源的文件名，以及区域设置、资源类型、维度、大小、评级和发布信息。 新建 **查看设置** 可用于配置要在列表视图中显示的详细信息量。
+* 列表视图现在默认显示第一列中资源的文件名，以及区域设置、资源类型、维度、大小、评级和发布信息。 新的&#x200B;**视图设置**&#x200B;可用于配置要在列表视图中显示的详细信息量。
 
 * 改进了资源详细信息体验，能够使用新的导航按钮在资源之间来回导航，并查看资源计数。
 
 ![](assets/navbtn.png)
 
 * 在资产的详细信息页面中，新增了用于预览从AEM上传的音频文件的功能。
-* 资产属性中提供了新的“相关资产”功能。 现在，与AEM上其他源/派生资源相关并在Brand Portal上发布的资源在Brand Portal中的关系保持不变，并包含指向资产页面上相关资源的链接。
+* 资产属性中提供了新的相关Assets功能。 现在，与AEM上其他源/派生资源相关并在Brand Portal上发布的Assets在Brand Portal中的关系保持不变，并包含指向资产页面上相关资源的链接。
 * 引入了新配置，以限制非管理员用户创建公共收藏集。 组织可与客户支持团队合作，针对特定帐户配置此功能。
 
 ### 搜索增强功能
@@ -735,7 +735,7 @@ Brand Portal 6.4.1是一个平台升级版本，其中引入了若干新增功�
 ### 下载优化
 
 * 无需创建zip文件，即可直接下载单个大文件，从而提高速度和吞吐量。
-* 链接共享功能的每个文件大小的下载限制为 **1** GB。
+* 链接共享功能的每个文件大小的下载限制为&#x200B;**1** GB。
 
 * 用户现在可以选择仅下载自定义文件和原始文件，并在从Brand Portal下载资源或通过共享链接功能下载资源时阻止现成演绎版。
 
@@ -747,24 +747,24 @@ Brand Portal 6.4.1是一个平台升级版本，其中引入了若干新增功�
 * 在资产搜索响应方面提升了40%。
 * 浏览性能提升高达40%。
 
-**注意**：根据实验室进行的测试列举的改进。
+**注意**：所引用的改进是根据实验室中进行的测试得出的。
 
 ### 增强的报告功能
 
-**引入的链接共享报表**
+**引入了链接共享报表**
 引入了一个新报表，用于提供有关共享链接的信息。 链接共享报表会列出在指定时间段内与组织内的内部和外部用户共享的所有URL到资产。 它还会通知链接何时共享、共享者以及链接何时过期。
 
 ![](assets/navigatereport.png)
 
-**修改了入口点以访问使用情况报表**
-使用情况报表现已与其他报表合并，并且现在可以从“资产报表”控制台中查看。 要访问资产报表控制台，请导航至 **创建/管理报表** 从“管理工具”面板。
+**已修改入口点以访问使用情况报告**
+使用情况报表现已与其他报表合并，并且现在可以从“资产报表”控制台中查看。 要访问资产报告控制台，请从管理工具面板导航到**创建/管理报告**。
 
 ![](assets/accessassetreport.png)
 
-**改进了报告的用户体验**
+**改进的用户报告体验**
 Brand Portal上的报表界面变得更加直观，并赋予组织更大的控制力。 除了创建各种报告之外，管理员现在还可以重新访问生成的报告并下载或删除它们，因为这些报告保存在Brand Portal中。
 
-通过添加或删除默认列，可以自定义正在创建的每个报告。 此外，可以将自定义列添加到下载、过期和发布报表中，以控制其粒度。
+通过添加或删除默认列，可以自定义正在创建的每个报告。 此外，可以将自定义列添加到下载、到期和Publish报表中，以控制其粒度。
 
 ### 改进了管理工具
 
@@ -772,7 +772,7 @@ Brand Portal上的报表界面变得更加直观，并赋予组织更大的控�
 
 ### 其他增强功能
 
-* 通过标记Brand Portal复制对话框上的公用文件夹发布复选框，现在可以向AEM 6.3.2.1和6.4中发布到AEM Assets Brand Portal的常规用户公开使用资产。Brand Portal现在可以这样做。
+* 从AEM 6.3.2.1和6.4发布到Brand Portal的Assets现在可以通过标记Brand Portal复制对话框上的公共文件夹Publish复选框，向AEM Assets Brand Portal的一般用户公开可用。
 
 ![](assets/public-folder-publish.png)
 
@@ -784,13 +784,13 @@ Brand Portal 6.3.2包括新的和增强的功能，这些功能面向最热门�
 
 ### 请求访问Brand Portal {#request-access-to-brand-portal}
 
-Brand Portal用户现在可以使用新的 **需要访问权限** Brand Portal登录屏幕上可用的功能。
+用户现在可以使用Brand Portal登录屏幕上提供的新&#x200B;**need access**&#x200B;功能来请求对Brand Portal的访问权限。
 
 ![](assets/bplogin_request_access.png)
 
 根据用户是拥有Adobe ID还是需要创建Adobe ID，用户可以按照相应的工作流提交请求。 Brand Portal产品管理员在其通知区域接收此类请求，并通过Adobe Admin Console授予访问权限。
 
-有关更多信息，请参阅 [请求访问Brand Portal](../using/brand-portal.md#requestaccesstobrandportal).
+有关详细信息，请参阅[请求访问Brand Portal](../using/brand-portal.md#requestaccesstobrandportal)。
 
 ### 增强了资产下载报表 {#enhancement-in-the-assets-downloaded-report}
 
@@ -798,7 +798,7 @@ Brand Portal用户现在可以使用新的 **需要访问权限** Brand Portal�
 
 ![](assets/reports_download_downloaded_by.png)
 
-有关更多信息，请参阅中的步骤3和6 [创建和管理其他报告](../using/brand-portal-reports.md#createandmanageadditionalreports).
+有关详细信息，请参阅[创建和管理其他报告](../using/brand-portal-reports.md#createandmanageadditionalreports)中的步骤3和6。
 
 ### Brand Portal维护通知 {#brand-portal-maintenance-notification}
 
@@ -806,7 +806,7 @@ Brand Portal现在会在即将开始的维护活动前几天显示通知横幅�
 
 ![](assets/bp_maintenance_notification-1.png)
 
-有关更多信息，请参阅 [Brand Portal维护通知](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html).
+有关详细信息，请参阅[Brand Portal维护通知](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html)。
 
 ### 增强使用链接共享功能共享的许可资产 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
@@ -814,7 +814,7 @@ Brand Portal现在会在即将开始的维护活动前几天显示通知横幅�
 
 ![](assets/copyright_management.png)
 
-有关更多信息，请参阅中的步骤12 [以链接形式共享资产](../using/brand-portal-link-share.md#shareassetsasalink).
+有关详细信息，请参阅[将资源作为链接共享](../using/brand-portal-link-share.md#shareassetsasalink)中的步骤12。
 
 ### 用户选取器增强功能 {#user-picker-enhancement}
 
@@ -881,7 +881,7 @@ Brand Portal 6.3.1包括旨在将Brand Portal与AEM保持一致的新功能和�
 
 ### 增强的下载体验 {#enhanced-downloading-experience}
 
-下载嵌套文件夹后，可以保留原始文件夹层次结构。 嵌套文件夹中的资产可在单个文件夹中下载，而不是在单独的文件夹中下载。
+下载嵌套文件夹后，可以保留原始文件夹层次结构。 嵌套文件夹中的Assets可在单个文件夹中下载，而不是在单独的文件夹中下载。
 
 ### 改进的性能 {#improved-performance}
 
@@ -903,7 +903,7 @@ Brand Portal 6.3.1包括旨在将Brand Portal与AEM保持一致的新功能和�
 
 ### 其他元数据 {#additional-metadata}
 
-Brand Portal 6.3.1引入了其他元数据，与AEM Assets 6.3处于同等水平。您可以使用架构编辑器表单来控制应在资产属性页面上可见的元数据。 资源元数据对外部链接共享用户不可见，这些用户只能使用链接共享URL预览和下载资源。
+Brand Portal 6.3.1引入了其他元数据，与AEM Assets 6.3处于同等水平。您可以使用架构编辑器表单来控制应在“Assets属性”页面上可见的元数据。 资源元数据对外部链接共享用户不可见，这些用户只能使用链接共享URL预览和下载资源。
 
 ![](assets/additionsinmetadata.png)
 

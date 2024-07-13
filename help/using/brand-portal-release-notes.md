@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、控制经过批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资源。
 
-## 2024.02.0版的新增功能 {#whats-new-in-2024.02.0}
+## 2024.02.0的新增功能{#whats-new-in-2024.02.0}
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
@@ -42,9 +42,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 
 * 无法在土耳其语言环境中下载受DRM保护的数字资产。
 * 无法打开和下载现有报表，这些报表包含具有多行标题的资产。
-* 当您使用下载资源时 [!UICONTROL 下载] 按钮时，最多可下载1000个资源。
+* 使用操作栏中的[!UICONTROL 下载]按钮下载资源时，最多可下载1000个资源。
 * 在PSD树中查看时，内容类型资源的名称不正确。
-* [!UICONTROL 删除节目] 资产详细信息页面上的选项不起作用。
+* 资源详细信息页面上的[!UICONTROL 删除演绎版]选项不起作用。
 * 下载弹出窗口中资源的标题和大小未对齐。
 * 创建报告时，标签未本地化。
 * 在Brand Portal中，支持管理员称为管理员。
@@ -56,19 +56,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 **错误修复和增强功能**
 此版本包括以下增强功能：
 
-* 浏览时的性能改进 [!UICONTROL 收藏集].
+* 浏览[!UICONTROL 收藏集]时的性能改进。
 
 * 改进了使用OmniSearch字段执行部分搜索时的搜索结果。
 
 此版本包含以下错误修复：
 
-* 无法保存 [!UICONTROL 日期] 和 [!UICONTROL 选项] 谓词 [!UICONTROL 智能收藏集].
+* 无法将[!UICONTROL Date]和[!UICONTROL Options]谓词保存到[!UICONTROL 智能收藏集]。
 
-* 此 [!UICONTROL 日期和时间] 在英语以外的区域设置中工作时，格式不一致。
+* 使用英语以外的区域设置时，[!UICONTROL 日期和时间]格式不一致。
 
-* 搜索资产时， [!UICONTROL 删除] 按钮缺失。
+* 执行搜索资产时，缺少[!UICONTROL 删除]按钮。
 
-* 如果 [!UICONTROL 标题] 字段包含多字节符号 [!UICONTROL 链接共享]，则无法下载报表。
+* 如果[!UICONTROL 标题]字段在[!UICONTROL 链接共享]中包含多字节符号，则无法下载报告。
 
 * 查看PDF类型文档时，标签和工具提示未本地化。
 
@@ -77,7 +77,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 **错误修复和增强功能**
 此版本包括以下增强功能：
 
-* 改进了在上加载资产时的性能 [!UICONTROL 下载] 弹出窗口。
+* 在[!UICONTROL 下载]弹出窗口中加载资产时的性能改进。
 * 现在，当您下载资源或资源的演绎版时，将以其原始文件类型格式而不是zip文件格式下载。
 
 此版本包含以下错误修复：
@@ -91,8 +91,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 **错误修复**
 此版本包括对以下关键问题的修复：
 
-* 如果从共享链接下载资产时出错，则 `Notice` 和 `Close` 错误提示的标签未本地化。
-* Brand Portal显示 **请求标头字段太大** 使用访问搜索筛选器时出错 `Filter` 窗格。
+* 如果从共享链接下载资产时出错，则错误提示的`Notice`和`Close`标签未本地化。
+* 使用`Filter`窗格访问搜索筛选器时，Brand Portal显示&#x200B;**请求标头字段太大**&#x200B;错误。
 
 **已知问题**
 此版本包括以下已知问题：
@@ -100,7 +100,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 * 资产源报表内容中的部分本地化。
 * 用户配置文件的某些字段在用户配置文件上不可编辑。
 
-### 2023年2月版 {#feb-2023}
+### 2023 年 2 月版本 {#feb-2023}
 
 **错误修复**
 
@@ -116,7 +116,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 此版本包括以下增强功能：
 
 * 现在提供了新的现代PDF查看器，以改进PDF资源的预览。
-* 您现在可以选择为管理员启用或禁用资产源通知。 导航到 [!UICONTROL 常规设置] 然后启用或禁用 [!UICONTROL `Notify Administrator of asset contribution`].
+* 您现在可以选择为管理员启用或禁用资产源通知。 导航到[!UICONTROL 常规设置]，然后启用或禁用[!UICONTROL `Notify Administrator of asset contribution`]。
 
   ![通知管理员资源贡献](assets/notify-admin.png)
 
@@ -132,7 +132,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 
 ### 2022 年 10 月版本 {#oct-2022}
 
-**已修复的关键问题**
+**已修复严重问题**
 
 此版本包括对以下关键问题的修复：
 
@@ -152,23 +152,23 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 
 ### 2022 年 8 月版本 {#aug-2022}
 
-**已修复的关键问题**
+**已修复严重问题**
 
 此版本包括对以下关键问题的修复：
 
 * 当NUI无法在Experience Manager中处理资源时，Brand Portal显示不准确的资源导入状态。
 * 当预览操作失败时，没有通知可传达该失败。
 * 修复了每个资源的totalUploadedSize属性的不准确值。
-* 当您单击 **下载所有项目** 并且资产有大量的演绎版可用，Brand Portal会下载无效的.ZIP文件。
+* 当您单击&#x200B;**下载所有项目**&#x200B;并且某个资源有大量的可用呈现时，Brand Portal将下载无效的.ZIP文件。
 * 某些字符串的翻译在Brand Portal用户界面中被截断。
 
 ### 2022 年 5 月版本 {#may-2022}
 
-**新增功能**
+**新功能**
 
 Brand Portal现在每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资源。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。
 
-**已修复的关键问题**
+**已修复严重问题**
 
 此版本包括对以下关键问题的修复：
 
@@ -179,19 +179,19 @@ Brand Portal现在每十二小时执行一次自动作业，以删除发布到AE
 * 当您使用电子邮件共享Contribution文件夹的URL时，查看者和编辑者角色在使用痕迹导航访问其父文件夹时面临问题。
 * 来源补充发布报表显示的作业开始时间不正确。
 
-### 2022年2月版 {#feb-2022}
+### 2022 年 2 月版本 {#feb-2022}
 
-**新增功能**
+**新功能**
 
 * 来宾用户的会话超时阈值已从2小时减少到15分钟。
-* 其他 **[!UICONTROL 查看页面]** 已为多页面PDF删除选项，因为用户现在可以从Adobe Document Cloud查看器查看PDF页面。
-* 用户无法搜索、导航或打开文件夹。 用户界面反映错误消息： `Failed to load data`.
-* 此 **[!UICONTROL 节目]** 面板不会列出发布到Brand Portal的资源的所有静态演绎版。
-* 此 **[!UICONTROL 节目]** 面板列出了资源的智能裁剪演绎版，但是，用户无法预览或下载智能裁剪演绎版。
+* 已为多页面PDF删除其他&#x200B;**[!UICONTROL 查看页面]**&#x200B;选项，因为用户现在可以从Adobe Document Cloud查看器查看PDF页面。
+* 用户无法搜索、导航或打开文件夹。 用户界面反映错误消息： `Failed to load data`。
+* **[!UICONTROL 呈现版本]**&#x200B;面板未列出发布到Brand Portal的所有资源的静态呈现版本。
+* **[!UICONTROL 演绎版]**&#x200B;面板列出了资源的智能裁剪演绎版，但是，用户无法预览或下载智能裁剪演绎版。
 * 下载对话框列出了所选资源的智能裁剪演绎版，但是，用户无法下载智能裁剪演绎版。
 * 非管理员用户在下载资源时仅获得原始资源演绎版。 未下载系统和自定义呈现版本。
-* 应用搜索过滤器下载资源时， `Download` 下载对话框中禁用了按钮，不允许用户下载资产。
-* 如果 `Smart Tags` 和（或） `Color Tags` 已启用，下载对话框会列出 `json` 文件作为演绎版并下载这些 `json` 文件，该文件位于存档的zip文件夹中。
+* 应用搜索筛选器下载资产时，`Download`按钮在下载对话框中处于禁用状态，不允许用户下载资产。
+* 如果启用了`Smart Tags`和（或）`Color Tags`，下载对话框会将`json`文件列为演绎版，并将这些`json`文件下载到存档的zip文件夹中。
 * 匿名用户无法使用共享链接下载资源，因为该链接将重定向到Brand Portal登录页面。
 * 系统未反映活动并发用户数的正确值。
 
@@ -374,11 +374,11 @@ This release includes the following known issues:
 
 ## 认证平台 {#certified-platforms}
 
-要确定哪些平台经认证可以使用此版本的Brand Portal，请参阅 **支持触控优化的UI** 中的列 **支持创作用户界面的浏览器** 部分 [技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+要确定哪些平台经认证可以使用此版本的Brand Portal运行，请参阅[技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的&#x200B;**用于创作用户界面的受支持的浏览器**&#x200B;部分的表中的&#x200B;**对触控优化UI的支持**&#x200B;列。
 
 ## 链接 {#links}
 
-* [adobe.com上的Adobe Experience Manager产品页面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* adobe.com上的[Adobe Experience Manager产品页](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Assets Brand Portal文档](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## 产品访问和支持（受限制的站点） {#product-access-and-support-restricted-sites}

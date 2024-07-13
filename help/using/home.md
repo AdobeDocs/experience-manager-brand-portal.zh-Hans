@@ -6,14 +6,14 @@ seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 source-git-commit: f8959c00c35ecdb76f94c1f12a81ad7d26cb5724
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 65%
+source-wordcount: '416'
+ht-degree: 58%
 
 ---
 
-# Adobe Experience Manager Assets Brand Portal 指南 {#aem-brand-portal}
+# Adobe Experience Manager Assets Brand Portal指南 {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** 可以将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而帮助组织满足其营销需求。
+**Adobe Experience Manager Assets Brand Portal**&#x200B;可以将获得批准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载，从而帮助组织满足其营销需求。
 
 缺乏安全保障的资产共享解决方案可能导致：
 
@@ -24,11 +24,11 @@ ht-degree: 65%
 * 在不同地理位置和组织之间照搬内容
 * 在发行前对资产的存储没有安全保障
 
-借助 Brand Portal，营销人员能够与渠道合作伙伴和内部业务用户协作，快速创建、管理最新的设计准则、徽标、营销活动和产品资产并将其交付给利益相关方，从而使公司和机构可以确保品牌的合规性。Brand Portal 是基于云的 SAAS 产品。它可作为 Adobe Experience Manager Assets 产品的一种扩展工具使用（可以内部部署，也可以作为受控的服务）。您可以将Brand Portal用于 [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service]. 一次 [已配置](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=zh-Hans)，则可以从发布已批准的资产 [!DNL Adobe Experience Manager Assets] as a [!DNL Cloud Service] 实例到 [!DNL Brand Portal] 并将它们分发给Brand Portal用户。
+借助 Brand Portal，营销人员能够与渠道合作伙伴和内部业务用户协作，快速创建、管理最新的设计准则、徽标、营销活动和产品资产并将其交付给利益相关方，从而使公司和机构可以确保品牌的合规性。Brand Portal 是基于云的 SAAS 产品。它可作为Adobe Experience Manager Assets产品的附加组件使用（内部部署或托管服务）。 您可以将[!DNL Adobe Experience Manager Assets]用作[!DNL Cloud Service]的Brand Portal。 配置[后](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=zh-Hans)，您可以将批准的资源从[!DNL Adobe Experience Manager Assets]作为[!DNL Cloud Service]实例发布到[!DNL Brand Portal]并将它们分发给Brand Portal用户。
 
 下图阐述了 Brand Portal 解决方案的工作流。
 
-![Brand Portal工作流程](assets/BPWorkflow1.png)
+![Brand Portal工作流](assets/BPWorkflow1.png)
 
 ## Adobe Experience Manager Brand Portal 用户指南
 
@@ -40,13 +40,13 @@ ht-degree: 65%
 |--- |---|
 | [新增功能](whats-new.md) | Brand Portal 相较于之前发布的版本有哪些变化？最新的功能是什么？ |
 | [发行说明](brand-portal-release-notes.md) | 做出的改进、已修复的关键问题以及当前版本中的已知问题。 |
-| [使用 Brand Portal 配置 Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何复制Brand Portal与Experience Manager Assets以发布资源。 |
+| [使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md) | 如何复制Brand Portal与Experience Manager Assets以发布资源。 |
 | [并行发布问题故障诊断](troubleshoot-parallel-publishing.md) | 对Brand Portal和Experience Manager Assets之间的复制问题进行故障诊断。 |
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
-| [Brand Portal 中的资产源](brand-portal-asset-sourcing.md) | 如何在AEM Assets中配置资源源，在Brand Portal中上传资源，并将贡献文件夹发布回AEM Assets。 |
+| Brand Portal中的[资源源](brand-portal-asset-sourcing.md) | 如何在AEM Assets中配置资源源，在Brand Portal中上传资源，并将贡献文件夹发布回AEM Assets。 |
 | [Brand Portal功能视频](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 通过视频教程，了解如何使用Experience Manager Assets Brand Portal。 |
 
 ### 有用资源
 
-* [了解带有AEM Assets的Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [了解Brand Portal与AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

@@ -12,62 +12,62 @@ discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
 
 # 共享收藏集 {#share-collections}
 
-收藏集表示存储在Adobe Experience Manager Assets Brand Portal中的一组相关资源。 用户可以通过以下方式创建智能收藏集 [应用omnisearch或facet搜索以过滤掉相关资源](brand-portal-searching.md) 并将它们存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
+收藏集表示存储在Adobe Experience Manager Assets Brand Portal中的一组相关资源。 用户可以通过[应用Omnisearch或Facet搜索来创建智能收藏集，以过滤掉相关资源](brand-portal-searching.md)并将其存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集通过电子邮件作为链接共享。 有权访问共享链接的每个人都可以打开收藏集，而共享电子邮件可以转发给任何人。 此外， [共享链接](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) 是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
+收藏集通过电子邮件作为链接共享。 有权访问共享链接的每个人都可以打开收藏集，而共享电子邮件可以转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
 
-* **管理员** 可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
+* **管理员**&#x200B;可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
 
-* **编辑者** 允许创建和共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，如果他们受邀以编辑者或所有者的身份加入收藏集，则他们也可以共享收藏集。
+* 允许&#x200B;**编辑器**&#x200B;创建和共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，如果他们受邀以编辑者或所有者的身份加入收藏集，则他们也可以共享收藏集。
 
-* **查看器** 只能创建专用收藏集。 不允许他们共享收藏集，即使他们作为所有者受邀也是如此。
+* **查看器**&#x200B;只能创建专用收藏集。 不允许他们共享收藏集，即使他们作为所有者受邀也是如此。
 
 >[!NOTE]
 >
->编辑者无法将公共收藏集更改为非公共收藏集，因此没有 **[!UICONTROL 公共收藏集]** 中可用的复选框 **[!UICONTROL 收藏集设置]** 对话框。
+>编辑者无法将公共集合更改为非公共集合，因此在&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框中没有&#x200B;**[!UICONTROL 公共集合]**&#x200B;复选框。
 
 ## 共享收藏集 {#share-collection}
 
 以下是与授权的Brand Portal用户共享收藏集的步骤：
 
-1. 登录到您的Brand Portal租户。 默认情况下， **[!UICONTROL 文件]** 视图打开，其中包含所有已发布的资源和文件夹。
+1. 登录到您的Brand Portal租户。 默认情况下，**[!UICONTROL 文件]**&#x200B;视图打开，其中包含所有已发布的资源和文件夹。
 
-1. 从顶部的快速导航中，单击 **[!UICONTROL 收藏集]**.
+1. 从顶部的快速导航中，单击&#x200B;**[!UICONTROL 收藏集]**。
 
-1. 从 **[!UICONTROL 收藏集]** 控制台，执行以下操作之一：
+1. 从&#x200B;**[!UICONTROL 收藏集]**&#x200B;控制台，执行以下操作之一：
 
-   * 将指针悬停在要共享的收藏集上。 在可用于收藏集的快速操作缩略图中，单击 **[!UICONTROL 设置]** 图标。
+   * 将指针悬停在要共享的收藏集上。 在可用于收藏集的快速操作缩略图中，单击&#x200B;**[!UICONTROL 设置]**&#x200B;图标。
 
      ![](assets/settings-icon.png)
 
-   * 选择要共享的收藏集。 在顶部的工具栏中，单击 **[!UICONTROL 设置]**.
+   * 选择要共享的收藏集。 从顶部的工具栏中，单击&#x200B;**[!UICONTROL 设置]**。
 
      ![](assets/collection-console.png)
 
-1. 在 **[!UICONTROL 收藏集设置]** 对话框中，选择要与其共享收藏集的用户，并为用户选择与其全局角色匹配的角色。 例如，将编辑者角色分配给全局编辑者，将查看者角色分配给全局查看者。
+1. 在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框中，选择要与其共享收藏集的用户，并为用户选择与其全局角色匹配的角色。 例如，将编辑者角色分配给全局编辑者，将查看者角色分配给全局查看者。
 
-   或者，为了让所有用户（无论其组成员资格和角色如何）都能使用该集合，请选择 **[!UICONTROL 公共收藏集]** 复选框。
+   或者，若要使收藏集对所有用户可用，而不考虑其组成员资格和角色，请选中&#x200B;**[!UICONTROL 公共收藏集]**&#x200B;复选框，以使其公开。
 
    >[!NOTE]
    >
-   >但是，可以限制非管理员用户创建公共收藏集，以避免存在大量公共收藏集，从而节省系统空间。 组织可以禁用 **[!UICONTROL 允许创建公共收藏集]** 配置自 **[!UICONTROL 常规]** “管理工具”面板中提供的设置。
+   >但是，可以限制非管理员用户创建公共收藏集，以避免存在大量公共收藏集，从而节省系统空间。 组织可以禁用管理工具面板中可用的&#x200B;**[!UICONTROL 常规]**&#x200B;设置中的&#x200B;**[!UICONTROL 允许公共收藏集创建]**&#x200B;配置。
 
    ![](assets/collection_sharingadduser.png)
 
-   编辑者无法将公共收藏集更改为非公共收藏集，因此没有 **[!UICONTROL 公共收藏集]** 中可用的复选框 **[!UICONTROL 收藏集设置]** 对话框。
+   编辑者无法将公共集合更改为非公共集合，因此在&#x200B;**[!UICONTROL 集合设置]**&#x200B;对话框中没有&#x200B;**[!UICONTROL 公共集合]**&#x200B;复选框。
 
    ![](assets/collection-setting-editor.png)
 
-1. 单击 **[!UICONTROL 添加]** 按钮以添加用户，然后单击 **[!UICONTROL 保存]**. 收藏集将与用户共享。
+1. 单击“**[!UICONTROL 添加]**”按钮添加用户，然后单击“**[!UICONTROL 保存]**”。 收藏集将与用户共享。
 
    >[!NOTE]
    >
@@ -77,21 +77,21 @@ ht-degree: 0%
 
 要取消共享以前共享的收藏集，请执行以下操作：
 
-1. 从 **[!UICONTROL 收藏集]** 控制台中，选择要取消共享的收藏集。
+1. 从&#x200B;**[!UICONTROL 集合]**&#x200B;控制台中，选择要取消共享的集合。
 
-   在顶部的工具栏中，单击 **[!UICONTROL 设置]**.
+   从顶部的工具栏中，单击&#x200B;**[!UICONTROL 设置]**。
 
    ![](assets/collection_settings.png)
 
-1. 在 **[!UICONTROL 收藏集设置]** 对话框，在 **[!UICONTROL 成员]** 部分，单击 **[!UICONTROL x]** 用户旁边的符号，用于从具有集合访问权限的用户列表中删除这些用户。
+1. 在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框的&#x200B;**[!UICONTROL 成员]**&#x200B;部分下，单击用户旁边的&#x200B;**[!UICONTROL x]**&#x200B;符号，将其从有权访问该收藏集的用户列表中删除。
 
    ![](assets/unshare_collection.png)
 
-1. 出现警告消息。 单击 **[!UICONTROL 确认]** 以取消共享收藏集。
+1. 出现警告消息。 单击&#x200B;**[!UICONTROL 确认]**&#x200B;以取消共享收藏集。
 
-1. 单击 **[!UICONTROL 保存]** 以应用更改。
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以应用更改。
 
-   从共享列表中删除用户后，非共享收藏集将从用户的 **[!UICONTROL 收藏集]** 控制台。
+   从共享列表中移除用户后，非共享收藏集将从用户的&#x200B;**[!UICONTROL 收藏集]**&#x200B;控制台中移除。
 
 <!--
 1. Click the overlay icon on the left, and choose **[!UICONTROL Navigation]**.

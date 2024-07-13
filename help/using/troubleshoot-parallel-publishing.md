@@ -1,5 +1,5 @@
 ---
-title: 对并行发布到 Brand Portal 时出现的问题进行故障诊断
+title: 对并行发布到Brand Portal时出现的问题进行故障诊断
 seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: 并行发布疑难解答。
 seo-description: Troubleshoot parallel publishing.
@@ -12,22 +12,22 @@ role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
 source-git-commit: 72cd0ebbf05067287d94e1dc4e1b68f5fb6c2888
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 1%
+source-wordcount: '960'
+ht-degree: 0%
 
 ---
 
-# 对并行发布到 Brand Portal 时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# 对并行发布到Brand Portal时出现的问题进行故障诊断 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal通过Experience Manager Assets进行配置，以批准从Experience Manager Assets创作实例无缝摄取（或发布）Brand Assets。 一次 [已配置](../using/configure-aem-assets-with-brand-portal.md)，Experience Manager作者使用复制代理将选定的资源复制到Brand Portal cloud service，以供Brand Portal用户批准使用。 多个复制代理用于Experience Manager6.2 SP1-CFP5、Experience ManagerCFP 6.3.0.2及更高版本，以允许高速并行发布。
+Brand Portal通过Experience Manager Assets进行配置，以批准从Experience Manager Assets创作实例中无缝摄取（或发布）Brand Assets。 配置[后](../using/configure-aem-assets-with-brand-portal.md)，Experience Manager作者会使用复制代理将选定的资源复制到Brand Portal云服务，以供Brand Portal用户批准使用。 Experience Manager6.2 SP1-CFP5、Experience ManagerCFP 6.3.0.2及更高版本使用了多个复制代理，以允许高速并行发布。
 
 >[!NOTE]
 >
->Adobe建议升级到Experience Manager6.4.1.0，以确保使用Experience Manager Assets成功配置Experience Manager Assets Brand Portal。 Experience Manager6.4中的限制会在使用Brand Portal配置Experience Manager Assets时出现错误，并且复制失败。
+>Adobe建议升级到Experience Manager6.4.1.0，以确保使用Experience Manager Assets成功配置Experience Manager Assets Brand Portal。 Experience Manager6.4中的限制会在使用Brand Portal配置Experience Manager Assets时出错，并且复制失败。
 
-在下，为Brand Portal配置云服务 **[!UICONTROL /etc/cloudservice]**，则会自动生成所有必需的用户和令牌，并将其保存在存储库中。 创建了云服务配置，还创建了复制和复制代理复制内容所需的服务用户。 它创建四个复制代理。 因此，当您将Experience Manager中的大量资源发布到Brand Portal时，这些资源会排队并通过Round Robin在复制代理之间分发。
+为&#x200B;**[!UICONTROL /etc/cloudservice]**&#x200B;下的Brand Portal配置云服务时，将自动生成所有必需的用户和令牌并将其保存在存储库中。 创建了云服务配置，还创建了复制和复制代理复制内容所需的服务用户。 它将创建四个复制代理。 因此，当您将Experience Manager中的大量资源发布到Brand Portal时，这些资源会排队并通过Round Robin在复制代理之间分发。
 
-但是，由于大量的Sling作业、增加的网络，以及 **[!UICONTROL 磁盘I/O]** Experience Manager创作实例上，或Experience Manager创作实例性能下降的问题。 因此，建议在开始发布之前测试与复制代理的连接。
+但是，发布可能会间歇性地失败，原因是Sling作业过大、Experience Manager创作实例上的网络和&#x200B;**[!UICONTROL 磁盘I/O]**&#x200B;增加或Experience Manager创作实例的性能降低。 因此，建议在开始发布之前测试与复制代理的连接。
 
 ![](assets/test-connection.png)
 
@@ -39,7 +39,7 @@ Brand Portal通过Experience Manager Assets进行配置，以批准从Experience
 1. 检查是否创建了复制代理
 1. 测试连接
 
-**创建Cloud Service时的尾日志**
+创建Cloud Service时&#x200B;**尾日志**
 
 检查尾日志。 检查是否创建了复制代理。 如果复制代理创建失败，请通过在云服务中进行细微更改来编辑云服务。 验证并再次检查是否创建了复制代理。 如果没有，请重新编辑该服务。
 
@@ -51,7 +51,7 @@ Brand Portal通过Experience Manager Assets进行配置，以批准从Experience
 
 1. 联系客户支持。
 
-1. 重试 [cleanup](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) 并再次创建发布配置。
+1. 重试[清理](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config)并再次创建发布配置。
 
 <!--
 Comment Type: remark
@@ -61,20 +61,19 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-## 清除现有Brand Portal发布配置 {#clean-up-existing-config}
+## 清理现有Brand Portal发布配置 {#clean-up-existing-config}
 
-大多数情况下，发布不起作用，原因可能是用户正在发布(例如： `mac-<tenantid>-replication` 没有最新的私钥，因此发布失败并出现“401未授权”错误，并且复制代理日志中未报告任何其他错误。 您可能希望避免进行故障排除，改为创建配置。 要使新配置正常工作，请从Experience Manager创作设置中清除以下内容：
+大多数情况下，发布无法正常工作，这可能是因为正在发布的用户(例如： `mac-<tenantid>-replication`没有最新的私钥，因此发布失败并出现“401未授权”错误，并且复制代理日志中未报告任何其他错误。 您可能希望避免进行故障排除，而改为创建配置。 要使新配置正常工作，请从Experience Manager创作设置中清理以下内容：
 
-1. 转到 `localhost:4502/crx/de/` (假定您正在本地主机上运行作者实例:4502:\
-   i.删除 `/etc/replication/agents.author/mp_replication`
-二、 删除 
-`/etc/cloudservices/mediaportal/<config_name>`
+1. 转到`localhost:4502/crx/de/` （假定您正在localhost:4502:上运行作者实例）\
+   i.删除`/etc/replication/agents.author/mp_replication`
+二、 删除`/etc/cloudservices/mediaportal/<config_name>`
 
 1. 转到localhost：4502/useradmin：\
-   i.搜索用户 `mac-<tenantid>replication`
+   i.搜索用户`mac-<tenantid>replication`
 二、 删除此用户
 
-现在系统已全部清理。 现在，您可以尝试创建云服务配置，并且仍使用现有JWT应用程序。 无需创建应用程序，而是从新创建的云配置中更新公钥。
+现在系统已全部清理。 现在，您可以尝试创建云服务配置，并且仍使用现有的JWT应用程序。 无需创建应用程序，只需从新创建的云配置中更新公钥即可。
 
 >[!NOTE]
 >
@@ -83,9 +82,9 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ## 开发人员连接JWT应用程序租户可见性问题 {#developer-connection-jwt-application-tenant-visibility-issue}
 
-如果为 `https://legacy-oauth.cloud.adobe.io/`，列出当前用户拥有系统管理员的所有组织（租户）。 如果您在此处找不到组织名称，或者您在此处无法为所需的租户创建应用程序，请检查您是否有足够的（系统管理员）权限。
+如果在`https://legacy-oauth.cloud.adobe.io/`，则列出当前用户拥有系统管理员的所有组织（租户）。 如果您在此处找不到组织名称，或者您在此处无法为所需的租户创建应用程序，请检查您是否有足够的（系统管理员）权限。
 
-此用户界面存在一个已知问题，即对于任何租户，只有前十个应用程序是可见的。 创建应用程序时，请停留在页面上并将URL加入书签。 您无需转至应用程序的列表页即可找到您创建的应用程序。 您可以直接点击此已添加书签的URL，并在需要时更新/删除应用程序。
+此用户界面存在一个已知问题，即对于任何租户，只有前十个应用程序是可见的。 创建应用程序时，请停留在页面上并将URL加入书签。 您无需转至应用程序的列表页，即可找到您创建的应用程序。 您可以直接点击此已添加书签的URL，并在需要时更新/删除应用程序。
 
 可能未正确列出JWT应用程序。 因此，建议在创建JWT应用程序时记下URL/将URL加入书签。
 
@@ -118,13 +117,13 @@ permission
 
 如果复制代理(可以正常发布到Brand Portal)停止处理发布作业，请检查复制日志。 Experience Manager内置了自动重试功能，因此，如果特定资源发布失败，则会自动重试该资源。 如果存在网络错误等间歇性问题，则在重试期间可能会成功。
 
-如果连续发布失败且队列被阻止，则应检查 **[!UICONTROL 测试连接]** 并尝试解决所报告的错误。
+如果连续发布失败且队列被阻止，则应检查&#x200B;**[!UICONTROL 测试连接]**&#x200B;并尝试解决所报告的错误。
 
 根据错误，建议您记录支持工单，以便Brand Portal工程团队可以帮助您解决问题。
 
 ## Brand Portal IMS配置令牌已过期 {#token-expired}
 
-如果您的Brand Portal环境突然停止，则可能是IMS配置无法正常工作。 系统显示不正常的IMS配置，并反映您的访问令牌已过期的错误消息（类似于以下内容）。
+如果您的Brand Portal环境突然停止，IMS配置可能会无法正常运行。 系统显示不正常的IMS配置，并反映您的访问令牌已过期的错误消息（类似于以下内容）。
 
 `com.adobe.granite.auth.oauth.AccessTokenProvider failed to get access token from authorization server status: 400 response: Unknown macro: {"error"}`
 
@@ -135,13 +134,13 @@ permission
 
 通常，如果复制队列中有多个挂起的请求，发布作业会失败并出现超时错误。 要解决此问题，请确保将复制代理配置为避免超时。
 
-配置复制代理：
+要配置复制代理，请执行以下操作：
 
 1. 登录到您的AEM Assets创作实例。
-1. 从 **工具** 面板，导航到 **[!UICONTROL 部署]** > **[!UICONTROL 复制]**.
-1. 在“复制”页中，单击 **[!UICONTROL 作者代理]**. 您可以看到Brand Portal租户的四个复制代理。
-1. 单击复制代理URL，然后单击 **[!UICONTROL 编辑]**.
-1. 在“代理设置”中，单击 **[!UICONTROL 扩展]** 选项卡。
-1. 选择 **[!UICONTROL 关闭连接]** 复选框。
+1. 从&#x200B;**工具**&#x200B;面板，导航到&#x200B;**[!UICONTROL 部署]** > **[!UICONTROL 复制]**。
+1. 在“复制”页面中，单击作者上的&#x200B;**[!UICONTROL 代理]**。 您可以看到Brand Portal租户的四个复制代理。
+1. 单击复制代理URL，然后单击&#x200B;**[!UICONTROL 编辑]**。
+1. 在“代理设置”中，单击&#x200B;**[!UICONTROL 扩展]**&#x200B;选项卡。
+1. 选中&#x200B;**[!UICONTROL 关闭连接]**&#x200B;复选框。
 1. 重复步骤4至7以配置所有四个复制代理。
 1. 重新启动服务器。

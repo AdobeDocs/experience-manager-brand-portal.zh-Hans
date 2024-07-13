@@ -1,7 +1,7 @@
 ---
 title: 在Brand Portal上浏览资源
 seo-title: Browse assets on Brand Portal
-description: 使用Brand Portal上的不同视图选项和UI元素，浏览资源、遍历资源层次结构和搜索资源。
+description: 使用Brand Portal上的其他查看选项和UI元素来浏览资源、遍历资源层次结构和搜索资源。
 seo-description: Browse through assets, traverse asset hierarchies, and search assets, using different view options and UI elements on Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -11,14 +11,14 @@ discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
 source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 4%
+source-wordcount: '1006'
+ht-degree: 7%
 
 ---
 
 # 在Brand Portal上浏览资源 {#browsing-assets-on-brand-portal}
 
-Experience Manager Assets Brand Portal提供了各种功能和用户界面元素，在使用不同的视图选项时，这些功能和元素有助于浏览资源、遍历资源层次结构和搜索资源。
+Experience Manager Assets Brand Portal提供了各种功能和用户界面元素，这有助于在使用不同的视图选项时浏览资源、遍历资源层次结构和搜索资源。
 
 顶部工具栏中的Experience Manager徽标可方便管理员用户访问“管理工具”面板。
 
@@ -28,7 +28,7 @@ Experience Manager Assets Brand Portal提供了各种功能和用户界面元素
 
 ![](assets/bp_subheader.png)
 
-Brand Portal左上角的“边栏”选择器下拉菜单可显示用于导航到资产层次结构、简化搜索和显示资源的选项。
+Brand Portal左上角的边栏选择器下拉菜单显示用于导航到资源层次结构、简化搜索和显示资源的选项。
 
 ![](assets/siderail-1.png)
 
@@ -38,9 +38,9 @@ Brand Portal左上角的“边栏”选择器下拉菜单可显示用于导航�
 
 ## 查看和选择资源 {#viewing-and-selecting-resources}
 
-从概念上讲，所有视图中的查看、导航和选择每个视图的方式都相同，但根据您使用的视图，操作方式略有不同。
+从概念上讲，所有视图中的查看、导航和选择每个视图的方式都相同，只是操作方法根据您使用的视图而略有差异。
 
-您可以通过任何可用视图查看、导航和选择资源（以便执行进一步操作）：
+您可以在任何可用视图中查看、导航和选择资源（以便执行进一步操作）：
 
 * 列视图
 * 信息卡视图
@@ -60,27 +60,27 @@ Brand Portal左上角的“边栏”选择器下拉菜单可显示用于导航�
 * 大小
 * 尺寸
 
-您可以通过点按/单击卡片对层次结构进行向下导航（注意避免快速操作），或使用再次向上导航 [标题中的痕迹导航](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+您可以通过点按/单击卡片对层次结构进行向下导航（注意避免快速操作），或使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
 
 ![](assets/cardquickactions.png)
 
 #### 非管理员用户的卡片视图
 
-文件夹信息卡在信息卡视图中，向非管理员用户（编辑者、查看者和来宾用户）显示文件夹层次结构信息。 此功能可让用户了解他们访问的文件夹相对于父层次结构的位置。
-文件夹层次结构信息对于区分名称与从不同文件夹层次结构共享的其他文件夹类似的文件夹特别有用。 如果非管理员用户不知道与他们共享的资产的文件夹结构，则名称类似的资产/文件夹似乎令人困惑。
+文件夹信息卡在信息卡视图中，向非管理员用户（编辑者、查看者和访客用户）显示文件夹层次结构信息。 此功能可让用户知道他们访问的文件夹相对于父层次结构的位置。
+文件夹层次结构信息对于区分名称与从不同文件夹层次结构共享的其他文件夹类似的文件夹特别有用。 如果非管理员用户不知道与其共享的资产所属的文件夹结构，则名称类似的资产/文件夹会让人感到困惑。
 
 * 相应卡上显示的路径将被截断以适合卡的大小。 但是，将鼠标悬停在截断的路径上时，用户可以查看完整路径作为工具提示。
 
 ![](assets/folder-hierarchy1.png)
 
-**用于查看资产属性的概述选项**
+**用于查看资源属性的概述选项**
 
 概述选项可供非管理员用户（编辑者、查看者、来宾用户）查看选定资产/文件夹的资产属性。 “概述”选项可见：
 
 * ，位于顶部的工具栏中选择资产/文件夹。
-* ，用于选择边栏选择器。
+* ，位于选择边栏选择器的下拉菜单中。
 
-选择 **[!UICONTROL 概述]** 选项选中某个资源/文件夹后，用户可以查看资源创建的标题、路径和时间。 而在资源详细信息页面上，选择概述选项可让用户查看资源的元数据。
+在选择资产/文件夹的同时选择&#x200B;**[!UICONTROL 概述]**&#x200B;选项时，用户可以查看资产创建的标题、路径和时间。 而在资源详细信息页面上，选择概述选项可让用户查看资源的元数据。
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Brand Portal左上角的“边栏”选择器下拉菜单可显示用于导航�
 
 #### 在信息卡视图中查看设置
 
-**[!UICONTROL 查看设置]** 对话框在选择时打开 **[!UICONTROL 查看设置]** 从视图选择器中。 它允许您在“信息卡”视图中调整资产缩略图的大小。 这样，您就可以个性化视图，并控制显示的缩略图数量。
+从视图选择器中选择&#x200B;**[!UICONTROL 视图设置]**&#x200B;时，**[!UICONTROL 视图设置]**&#x200B;对话框打开。 它允许您在卡片视图中调整资源缩略图的大小。 这样，您就可以个性化视图，并控制显示的缩略图数量。
 
 ![](assets/cardviewsettings.png)
 
@@ -96,20 +96,20 @@ Brand Portal左上角的“边栏”选择器下拉菜单可显示用于导航�
 
 ![](assets/list-view.png)
 
-列表视图显示当前级别上每个资源的信息。 列表视图提供以下详细信息：
+列表视图显示每个资源在当前级别的信息。 列表视图提供以下详细信息：
 
 * 资产的缩略图图像
 * 名称
 * 标题
 * 区域设置
 * 类型
-* Dimension
+* 维度
 * 大小
 * 评分
 * 显示资源层次结构的文件夹路径
 * 在Brand Portal上发布资源的日期
 
-通过路径列，您可以轻松识别文件夹层次结构中的资源位置。 您可以通过点按/单击资源名称在层次结构中向下导航，然后使用 [标题中的痕迹导航](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+通过路径列，您可以轻松识别文件夹层次结构中的资源位置。 您可以通过点按/单击资源名称对层次结构进行向下导航，并使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### 在列表视图中查看设置
 
-列表视图显示资源 **[!UICONTROL 名称]** 默认作为第一列。 其他信息，如资产 **[!UICONTROL 标题]**， **[!UICONTROL 区域设置]**， **[!UICONTROL 类型]**， **[!UICONTROL Dimension]**， **[!UICONTROL 大小]**， **[!UICONTROL 评级]**，则也会显示发布状态。 但是，您可以使用以下方式选择要显示的列 **[!UICONTROL 查看设置]**.
+默认情况下，列表视图将资源&#x200B;**[!UICONTROL Name]**&#x200B;显示为第一列。 此外，还会显示其他信息，例如资源&#x200B;**[!UICONTROL 标题]**、**[!UICONTROL 区域设置]**、**[!UICONTROL 类型]**、**[!UICONTROL Dimension]**、**[!UICONTROL 大小]**、**[!UICONTROL 评级]**、发布状态。 但是，您可以使用&#x200B;**[!UICONTROL 视图设置]**&#x200B;选择要显示的列。
 
 ![](assets/list-view-setting.png)
 
@@ -131,12 +131,12 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 您可以通过点按或单击资源名称或资源名称右侧的V形标记在树中向上和向下导航。
 
-* 点按或单击时，资源名称和V形高亮显示。
+* 资源名称和 V 形标记在被点按或单击时会突出显示。
 * 点按或单击缩略图将选择资源。
-* 选中后，缩略图上将叠加一个复选标记，并突出显示资源名称。
-* 所选资源的详细信息将显示在最后一列。
+* 选中后，缩略图上将叠加一个复选标记，并且资源名称会高亮显示。
+* 最后的列中会显示选定资源的详细信息。
 
-在列视图中选择资产时，资产的可视表示形式连同以下详细信息一起显示在最后一列：
+在列视图中选择资产时，该资产的可视表示形式连同以下详细信息一起显示在最后一列中：
 
 * 标题
 * 名称
@@ -234,7 +234,7 @@ Comment Type: draft
 
 除了这些视图之外，当您查看和选择所需的资源或文件夹时，还可以使用树视图向下钻取资源层次结构。
 
-要打开树视图，请点按/单击左上方的边栏选择器，然后选择 **[!UICONTROL 内容树]** 从菜单中。
+要打开树视图，请点按/单击左上角的边栏选择器，然后从菜单中选择&#x200B;**[!UICONTROL 内容树]**。
 
 ![](assets/contenttree.png)
 
@@ -242,9 +242,9 @@ Comment Type: draft
 
 ![](assets/content-tree.png)
 
-## 资源详细信息 {#asset-details}
+## 资源详情 {#asset-details}
 
-资产详细信息页面允许您查看资产、下载、共享资产的链接、将其移动到收藏集或查看其属性页面。 它还允许您连续浏览同一文件夹的其他资产的详细信息页面。
+使用资源详细信息页面，可以查看资源、下载、共享资源的链接、将资源移至收藏集或查看其属性页面。 它还允许您连续导航到同一文件夹的其他资产的详细信息页面。
 
 ![](assets/asset-detail.png)
 
@@ -252,7 +252,7 @@ Comment Type: draft
 
 ![](assets/asset-overview.png)
 
-您可以在资源详细信息页面上查看资源的所有可用演绎版，然后从中选择演绎版 **[!UICONTROL 演绎版]** 面板进行预览。
+您可以在资源详细信息页面上查看资源的所有可用演绎版，并从&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板中选择演绎版以进行预览。
 
 ![](assets/renditions.png)
 
@@ -266,7 +266,7 @@ Comment Type: draft
 >The **[!UICONTROL Renditions]** panel lists the smart crop renditions of the asset, however, the user cannot preview or download the smart crop renditions.
 -->
 
-要打开资产属性页面，请使用 **[!UICONTROL 属性(p)]** 选项。
+要打开资产属性页面，请使用顶部栏中的&#x200B;**[!UICONTROL 属性(p)]**&#x200B;选项。
 
 ![](assets/asset-properties.png)
 
