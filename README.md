@@ -1,17 +1,16 @@
 ---
-source-git-commit: c33730d076788b874c7c3b4f2e3341b0f3a56d7b
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '75'
-ht-degree: 0%
+source-wordcount: '73'
+ht-degree: 79%
 
 ---
-# Adobe Experience Manager品牌门户文档
+# Adobe Experience Manager Brand Portal文档
 
-这是Adobe Experience Manager品牌门户文档的存储库。
+Adobe Experience Manager Brand Portal文档存储库。
 
-欢迎您对文档做出贡献。 请参阅以下资源：
+欢迎您贡献文档内容。请参阅以下资源：
 
-* [comtribiting.](contributing.md) md有关如何为文档做出贡献的概述。
-* [guidelines.](guidelines.md) md有关稿件中预期内容以及如何编写文档稿件的概述。
-* [code-of-cond.md有关](code-of-conduct.md) 我们在您为本文档项目做出贡献时所期待的行为标准的概述。
+* [contributing.md](contributing.md) 概述如何贡献文档内容。
+* [guidelines.md](guidelines.md) 概述应贡献哪些内容以及如何撰写文档贡献内容。
+* [code-of-conduct.md](code-of-conduct.md) 概述了为本文档项目贡献内容时应遵循的行为标准。

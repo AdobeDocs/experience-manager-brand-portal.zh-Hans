@@ -1,18 +1,14 @@
 ---
 title: 应用图像预设或动态演绎版
-seo-title: Apply image presets or dynamic renditions
 description: 与宏一样，图像预设是预先定义的名称下保存的大小和格式命令集合。 图像预设使Experience Manager Assets Brand Portal能够动态交付不同大小、格式和属性的图像。
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
-uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
@@ -23,7 +19,7 @@ ht-degree: 1%
 
 图像预设用于生成可预览和下载的图像动态演绎版。 在预览图像及其演绎版时，您可以选择预设，按照管理员设置的规范重新格式化图像。
 
-(*如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media混合模式***上运行)要在Brand Portal中查看资源的动态演绎版，请确保其金字塔tiff演绎版存在于您发布到Brand Portal的Experience Manager Assets创作实例中。 发布资源时，其PTIFF演绎版也会发布到Brand Portal。
+(*如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media混合模式***下运行。) 要在Brand Portal中查看资源的动态演绎版，请确保其金字塔TIFF演绎版存在于您发布到Brand Portal的Experience Manager Assets创作实例中。 发布资源时，其PTIFF演绎版也会发布到Brand Portal。
 
 >[!NOTE]
 >
@@ -40,11 +36,11 @@ Experience Manager Assets管理员可以创建在资源详细信息页面上显�
 >
 >图像的动态演绎版使用其金字塔TIFF创建。 如果金字塔TIFF不适用于任何资源，则无法在Brand Portal中获取该资源的动态演绎版。
 >
->如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media混合模式**&#x200B;上运行，则会在Experience Manager Assets存储库中创建并保存图像资源的金字塔TIFF演绎版。
+>如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media混合模式**&#x200B;下运行，则会创建图像资源的金字塔TIFF演绎版并将其保存在Experience Manager Assets存储库中。
 >
->相反，如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media Scene 7模式**&#x200B;上运行，则Scene 7TIFF上存在图像资源的金字塔结构演绎版。
+>而如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media Scene7模式**&#x200B;下运行，则Scene7服务器上存在图像资源的金字塔TIFF演绎版。
 >
->将此类资产发布到Brand Portal时，会应用图像预设并显示动态演绎版。
+>将此类资源发布到Brand Portal时，会应用图像预设并显示动态演绎版。
 
 
 1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
@@ -68,7 +64,7 @@ Experience Manager Assets管理员可以创建在资源详细信息页面上显�
 1. 单击&#x200B;**[!UICONTROL 保存]**。图像预设随即创建并显示在图像预设页面上。
 1. 要删除图像预设，请从图像预设页面中选择它，然后单击&#x200B;**[!UICONTROL 删除]**。 在确认页面中，单击&#x200B;**[!UICONTROL 删除]**&#x200B;以确认删除。 图像预设将从图像预设页面中删除。
 
-## 在预览图像时应用图像预设  {#apply-image-presets-when-previewing-images}
+## 在预览图像时应用图像预设 {#apply-image-presets-when-previewing-images}
 
 在预览图像及其演绎版时，从现有预设中进行选择，以按照管理员设置的规范重新格式化图像。
 
@@ -100,7 +96,7 @@ Experience Manager Assets管理员可以创建在资源详细信息页面上显�
    ![](assets/donload-assets-dialog.png)
 
 1. 要下载资源的动态演绎版，请选择&#x200B;**[!UICONTROL 动态演绎版]**&#x200B;选项。
-1. 根据您希望在下载期间动态重新格式化图像及其演绎版的方式，自定义图像预设属性。 指定大小、格式、颜色空间、分辨率和图像修饰符。
+1. 自定义图像预设属性以在下载期间动态重新格式化图像及其演绎版。 指定大小、格式、颜色空间、分辨率和图像修饰符。
 
    ![](assets/dynamicrenditions.png)
 

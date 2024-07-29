@@ -6,10 +6,10 @@ feature-set: Experience Manager Assets
 type: Documentation
 index: y
 recommendations: noDisplay
-source-git-commit: b8b0f367a74023a12a29e05e8c384cd0d5cd84a3
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '112'
+ht-degree: 99%
 
 ---
 
@@ -25,5 +25,5 @@ metadata.md 文件中包含存储库级别的元数据，这些元数据会传�
 | solution-icon | 在解决方案标题旁边显示解决方案图标。尚未实施 |
 | getting-started-url | 指向 helpx 快速入门页面的链接 |
 | tutorials-url | 指向视频教程（helpx 教程或 KT 教程）的链接 |
-| mini-toc-levels | 确定显示在右边栏中的标题级别数量。默认值为 2 |
-| git-repo | 指定主存储库的位置以供内部使用 |
+| mini-toc-levels | 确定显示在右边栏中的标题级别数量。 默认值为 2 |
+| git-repo | 指定供内部使用的主要存储库的位置 |
