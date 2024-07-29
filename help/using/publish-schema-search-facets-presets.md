@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 要从Brand Portal取消发布图像预设，请执行以下操作：
 
-1. 在AEM Author实例中，点按/单击AEM徽标以访问全局导航控制台，然后点按/单击&#x200B;**[!UICONTROL 工具]**&#x200B;图标并导航到&#x200B;**[!UICONTROL Assets >图像预设]**。
+1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后单击&#x200B;**[!UICONTROL 工具]**&#x200B;图标，然后导航到&#x200B;**[!UICONTROL Assets >图像预设]**。
 1. 选择图像预设，然后从顶部可用的选项中选择&#x200B;**[!UICONTROL 从Brand Portal中删除]**。
 
 ## Publish元数据架构到Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 要将元数据架构从AEM创作实例发布到Brand Portal，请执行以下操作：
 
-1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后点按/单击工具图标并导航到&#x200B;**[!UICONTROL Assets >元数据架构]**。
+1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后单击工具图标，然后导航到&#x200B;**[!UICONTROL Assets >元数据架构]**。
 1. 选择元数据架构，然后从顶部可用的选项中选择&#x200B;**[!UICONTROL Publish到Brand Portal]**。
 
 >[!NOTE]
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 要从Brand Portal中取消发布元数据架构，请执行以下操作：
 
-1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后点按/单击工具图标并导航到&#x200B;**[!UICONTROL Assets >元数据架构]**。
+1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后单击工具图标，然后导航到&#x200B;**[!UICONTROL Assets >元数据架构]**。
 1. 选择一个元数据架构，然后从顶部可用的选项中选择&#x200B;**[!UICONTROL 从Brand Portal中删除]**。
 
 ## Publish搜索Facet到Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 要将编辑后的搜索彩块化从AEM创作实例发布到Brand Portal，请执行以下操作：
 
-1. 点按/单击AEM徽标，然后转到&#x200B;**[!UICONTROL 工具>常规>搜索Forms]**。
+1. 单击AEM徽标，然后转到&#x200B;**[!UICONTROL 工具>常规>搜索Forms]**。
 1. 选择编辑的搜索表单，然后选择&#x200B;**[!UICONTROL Publish到Brand Portal]**。
 
    >[!NOTE]
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 要从Brand Portal中取消发布搜索表单，请执行以下操作：
 
-1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后点按/单击工具图标，并导航到&#x200B;**[!UICONTROL 常规>搜索Forms]**。
+1. 在AEM创作实例中，点按/单击AEM徽标以访问全局导航控制台，然后单击工具图标，然后导航到&#x200B;**[!UICONTROL 常规>搜索Forms]**。
 1. 选择搜索表单，然后从顶部可用的选项中选择&#x200B;**[!UICONTROL 从Brand Portal中删除]**。
 
 >[!NOTE]

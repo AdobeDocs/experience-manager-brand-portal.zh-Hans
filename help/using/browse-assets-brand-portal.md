@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: a219adc020d63897b10dca83d9ce31fd3ebf847c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1005'
 ht-degree: 7%
 
 ---
@@ -112,7 +112,7 @@ Brand Portal左上角的边栏选择器下拉菜单显示用于导航到资源�
 通过路径列，您可以轻松识别文件夹层次结构中的资源位置。 您可以通过点按/单击资源名称对层次结构进行向下导航，并使用标题](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html)中的[痕迹导航再次向上导航。
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### 在列表视图中查看设置
@@ -234,7 +234,7 @@ Comment Type: draft
 
 除了这些视图之外，当您查看和选择所需的资源或文件夹时，还可以使用树视图向下钻取资源层次结构。
 
-要打开树视图，请点按/单击左上角的边栏选择器，然后从菜单中选择&#x200B;**[!UICONTROL 内容树]**。
+要打开树视图，请单击左上角的边栏选择器，然后从菜单中选择&#x200B;**[!UICONTROL 内容树]**。
 
 ![](assets/contenttree.png)
 
