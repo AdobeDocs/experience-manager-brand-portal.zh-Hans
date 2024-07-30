@@ -5,10 +5,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 7%
+source-wordcount: '1013'
+ht-degree: 6%
 
 ---
 
@@ -109,7 +109,7 @@ Brand Portal左上角的边栏选择器下拉菜单显示了用于导航到资�
 通过路径列，您可以轻松识别文件夹层次结构中的资源位置。 您可以通过单击资源名称向下导航到层次结构，并使用标题](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的[痕迹导航再次导航。
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### 在列表视图中查看设置
@@ -128,7 +128,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 您可以在树中向上和向下导航。 单击资源名称或资源名称右侧的V形。
 
-* 资源名称和 V 形标记在被点按或单击时会突出显示。
+* 单击时，资源名称和V形标记会突出显示。
 * 点按或单击缩略图将选择资源。
 * 选中后，缩略图上将叠加一个复选标记，并且资源名称会高亮显示。
 * 最后的列中会显示选定资源的详细信息。
@@ -218,13 +218,13 @@ Deselecting All
 Comment Type: draft
 
 <p>In all cases, as you select items the count of the items selected is displayed at the upper right of the toolbar.</p>
-<p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p>
+<p>You can deselect all items and exit selection mode by clicking the X next to the count.</p>
 -->
 
 <!--
 Comment Type: draft
 
-<p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
+<p>In all views, all items can be deselected by clicking escape on the keyboard if you are using a desktop device.</p>
 -->
 
 ## 内容树 {#content-tree}
