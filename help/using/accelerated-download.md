@@ -1,18 +1,14 @@
 ---
 title: 加快Brand Portal下载速度
-seo-title: Speed up the Brand Portal downloads
 description: 增强从Brand Portal和共享链接下载的性能。
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -21,7 +17,7 @@ ht-degree: 3%
 
 <!-- This topic is woefully out of date. It talks at length about using a third party application whose URLs have a variety of problems. Topic should either be deleted or updated entirely to not talk about a specific third party application that Adobe has no control over. It also appears that the third party app is NOT free anymore. -->
 
-Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect（按需安装应用程序）集成来增强大型资源文件的下载性能。 该应用程序使用专有技术来删除TCP开销，并帮助提高资产文件的传输速度。 此集成可确保增强下载体验。
+Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect（按需安装应用程序）集成来增强大型资源文件的下载性能。 该应用程序使用专有技术消除TCP开销，并帮助提高资产文件的传输速度。 此集成确保增强的下载体验。
 
 >[!NOTE]
 >
@@ -87,9 +83,9 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
      ![select-asset](assets/select-asset.png)
 
-1. 此时将打开&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，其中列出了所有选定的资源。
+1. 将打开列出所有选定资产的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。
 
-   要在下载资源时保留Brand Portal文件夹层次结构，请选中&#x200B;**[!UICONTROL 为每个资源创建单独的文件夹]**&#x200B;复选框。
+   要在下载资源时保留Brand Portal文件夹层次结构，请选中&#x200B;**[!UICONTROL `Create separate folder for each asset`]**&#x200B;复选框。
 
    下载按钮反映选定项目的计数。 应用完规则后，单击&#x200B;**[!UICONTROL 下载项目]**。 要了解有关如何应用规则的更多信息，请参阅[下载资源](../using/brand-portal-download-assets.md#download-assets)。
 
@@ -97,7 +93,7 @@ Adobe Experience Manager Assets Brand Portal允许通过与IBM® Aspera Connect�
 
 1. 默认情况下，**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会显示一个确认框，用于使用IBM® Aspera Connect下载资源。
 
-   如果您是首次下载资源，并且浏览器中未安装IBM® Aspera Connect，或者现有版本已过期，则系统会提示您安装Aspera下载加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+   如果您是首次下载资源，并且浏览器中未安装IBM® Aspera Connect，则会提示您安装它。 如果现有版本已过期，系统还会提示您安装[Aspera下载加速器](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)。
 
    ![](assets/aspera-not-launched.png)
 
@@ -184,7 +180,7 @@ Microsoft® Edge在增强保护模式(EPM)下运行，以防止在同一个专�
 
 ![](assets/switchapps-msedge.png)
 
-要在Microsoft® Edge上使用加速下载功能，请从受信任的站点列表中删除Brand Portal站点。
+要在Microsoft® Edge上使用加速下载功能，请从“受信任的站点”列表中删除Brand Portal站点。
 
 1. 打开控制面板(**[!UICONTROL 窗口键+ X]**，然后选择&#x200B;**[!UICONTROL 控制面板]**)。
 1. 转到&#x200B;**[!UICONTROL 网络和互联网]** > **[!UICONTROL 互联网选项]**。 单击&#x200B;**[!UICONTROL 安全]**&#x200B;选项卡。
@@ -201,7 +197,7 @@ Microsoft® Edge在增强保护模式(EPM)下运行，以防止在同一个专�
 
 ![](assets/aspera-preferences.png)
 
-此外，可以将Aspera Connect客户端标记为在系统启动时自动启动，这样Connect客户端可以运行，并可供下载，以便更快地开始。
+此外，可以标记Aspera Connect客户端，使其在系统启动时自动启动。 并且，Connect客户端将运行并可供下载，从而更快地开始下载。
 
 ![](assets/aspera-automaticallylaunch.png)
 
