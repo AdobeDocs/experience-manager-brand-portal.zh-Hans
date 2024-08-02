@@ -1,35 +1,31 @@
 ---
 title: Experience Manager Assets Brand Portal概述
-seo-title: Overview of Experience Manager Assets Brand Portal
-description: Experience Manager Assets Brand Portal可以帮助您轻松获取、控制经过批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。
-seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
-uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
+description: 了解Experience Manager Assets Brand Portal如何帮助您轻松地获取、控制经过批准的创意资源并将其安全分发给跨设备的外部方和内部业务用户。
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1622'
 ht-degree: 4%
 
 ---
 
 # Experience Manager Assets Brand Portal概述 {#overview-of-aem-assets-brand-portal}
 
-作为营销人员，您有时需要与渠道合作伙伴和内部业务用户协作，以快速创建、管理和向客户提供相关数字内容。 在整个客户历程中及时交付相关内容对于提高需求、转化、参与度和客户忠诚度至关重要。
+作为营销人员，您有时需要与渠道合作伙伴和内部业务用户协作，以创建、管理和快速地将相关数字内容交付给客户。 在整个客户历程中及时交付相关内容对于提高需求、转化、参与度和客户忠诚度至关重要。
 
-但是，开发解决方案来支持与扩展的内部团队、合作伙伴和经销商高效、安全地共享批准的品牌徽标、指南、活动资产或产品快照是一项挑战。
+但是，开发支持与团队、合作伙伴和经销商高效、安全地共享诸如已批准的品牌徽标、活动资产或产品快照等内容的解决方案非常困难。 在此过程中既要确保效率又要确保安全性，需要仔细规划和执行。
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;侧重于营销人员通过提供资产分发和资产贡献功能，与分布在全球的Brand Portal用户进行有效协作的需求。
 
-Asset Distribution允许您轻松地获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 相反，通过资源贡献，Brand Portal用户能够将资源上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
+Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
 请参阅Brand Portal](brand-portal-asset-sourcing.md)中的[资源源。
 
-通过基于浏览器的门户环境，您可以轻松地以批准的格式上传、浏览、搜索、预览和导出资源。
+通过基于浏览器的门户环境，您可以轻松以批准的格式上传、浏览、搜索、预览和导出资源。
 
-## 使用Brand Portal配置Experience Manager Assets {#configure-brand-portal}
+## 使用 Brand Portal 配置 Experience Manager Assets {#configure-brand-portal}
 
 使用Brand Portal配置Adobe Experience Manager Assets可为Brand Portal用户启用资产发布、资产分配和资产贡献功能。
 
@@ -39,7 +35,7 @@ Asset Distribution允许您轻松地获取、控制经批准的创意资产，�
 
 通过从Cloud Manager激活Experience Manager Assets，可使用Brand Portal自动配置Brand Portalas a Cloud Service。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-而Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的，Adobe Developer Console可获取AdobeIdentity Management Services (IMS)令牌以授权Brand Portal租户。
+但是，Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的，Adobe Developer Console可获取AdobeIdentity Management Services (IMS)令牌以授权Brand Portal租户。
 
 有关详细信息，请参阅[使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
@@ -75,7 +71,7 @@ Brand Portal支持以下用户角色：
 
 ### 访客用户 {#guest-user}
 
-Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-access-to-brand-portal)。 访客用户无需凭据即可进入门户，并且有权访问公共文件夹和收藏集。 作为访客用户，您可以浏览资源详细信息，并完整查看公共文件夹和收藏集成员的资源。 您可以搜索、下载公共资产，并将其添加到[!UICONTROL Lightbox]收藏集。
+Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-access-to-brand-portal)。 访客用户无需凭据即可进入门户，并且有权访问公共文件夹和收藏集。 作为访客用户，您可以浏览资源详细信息，并拥有公用文件夹和收藏集成员的完整资源视图。 您可以搜索、下载公共资产，并将其添加到[!UICONTROL Lightbox]收藏集。
 
 但是，来宾会话会限制您创建收藏集和保存的搜索，并进一步共享它们。 来宾会话中的用户无法访问文件夹和收藏集设置，也无法以链接形式共享资产。 以下是访客用户可以执行的任务列表：
 
@@ -87,7 +83,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 * [将资源添加到[!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-有关详细信息，请参阅[来宾访问Brand Portal](../using/guest-access.md)。
+有关详细信息，请转到[来宾访问Brand Portal](../using/guest-access.md)。
 
 ### 查看者 {#viewer}
 
@@ -117,33 +113,26 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 >[!NOTE]
 >
->在Brand Portal中，在[!UICONTROL 用户]中标记为支持管理员角色的Admin Console具有与系统管理员相同的权限。
+>在Brand Portal中，在[!UICONTROL Admin Console]中标记为支持管理员角色的用户具有与系统管理员相同的权限。
 
 管理员可以执行编辑者可以执行的所有任务。 以下是管理员可以执行的其他任务：
 
 * [管理用户、组和用户角色](brand-portal-adding-users.md)
-
 * [自定义壁纸、页面标题和电子邮件](brand-portal-branding.md)
-
 * [使用自定义搜索彩块化](brand-portal-search-facets.md)
-
-* [使用元数据架构表单](brand-portal-metadata-schemas.md)
-
+* [使用元数据架构](brand-portal-metadata-schemas.md)
 * [应用图像预设或动态演绎版](brand-portal-image-presets.md)
-
 * [使用报告](brand-portal-reports.md)
 
 除了上述任务之外，AEM Assets中的作者还可以执行以下任务：
 
 * [使用Brand Portal配置AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
-
-* [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-
-* [将收藏集发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+* [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [将收藏集发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL的替代别名 {#tenant-alias-for-portal-url}
 
-从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的现有URL拥有一个替代（别名） URL。 别名URL可通过在URL中使用备用前缀来创建。\
+从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的每个现有URL拥有一个替代（别名）URL。 别名URL可通过在URL中使用备用前缀来创建。\
 如果租户名称大于32个字符，则需要创建租户别名。
 请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。 例如，具有现有域`geomettrix.brand-portal.adobe.com`的组织可以按请求创建`geomettrixinc.brand-portal.adobe.com`。
 
@@ -151,7 +140,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 >[!NOTE]
 >
->要在现有门户URL中获取租户名称的别名，组织需要通过新的租户别名创建请求联系客户支持。 首先检查别名是否可用，然后创建别名，以处理此请求。
+>要在现有门户URL中获取租户名称的别名，组织需要通过新的租户别名创建请求联系客户支持。 首先，检查别名是否可用，然后创建别名以处理此请求。
 >
 >要替换旧别名或删除旧别名，需要执行相同的过程。
 

@@ -1,18 +1,14 @@
 ---
 title: 管理用户、组和用户角色
-seo-title: Manage users, groups, and user roles
-description: 管理员可以使用Adobe Admin Console创建Brand Portal用户和产品配置文件，并使用Brand Portal用户界面管理其角色。 查看者和编辑者无法使用此权限。
-seo-description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
-uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
+description: 了解管理员如何使用Adobe Admin Console创建Brand Portal用户和产品配置文件，并使用Brand Portal用户界面管理其角色。 查看者和编辑者无法使用此权限。
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,19 +17,19 @@ ht-degree: 0%
 
 管理员可以使用Adobe Admin Console创建Experience Manager Assets Brand Portal用户和产品配置文件，并使用Brand Portal用户界面管理其角色。 查看者和编辑者无法使用此权限。
 
-在[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)中，您可以查看与您的组织关联的所有产品。 产品可以是任何Experience Cloud解决方案，例如Adobe Analytics、Adobe Target或Experience Manager Assets Brand Portal。 您必须选择AEM Brand Portal产品并创建产品配置文件。
+在[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)中，您可以查看与您的组织关联的所有产品。 产品可以是任何Experience Cloud解决方案，例如Adobe Analytics、Adobe Target或Experience Manager Assets Brand Portal。 选择AEM Brand Portal产品，并创建产品配置文件。
 
 <!--
 Comment Type: draft
 
 <note type="note">
-<p>Product Profiles (formerly known as product configurations*). </p>
-<p>* The nomenclature has changed from product configurations to product profiles in the new Adobe Admin Console.</p>
+<p>Product profiles (formerly known as product configurations*). </p>
+<p>* The nomenclature has changed from product configurations to Product Profiles in the new Adobe Admin Console.</p>
 </note>
 -->
 ![](assets/create-user-group.png)
 
-这些产品配置文件每8小时与Brand Portal用户界面同步一次，并在Brand Portal中作为组显示。 添加用户和创建产品配置文件，并将用户添加到这些产品配置文件后，即可在Brand Portal中为用户和组分配角色。
+这些产品配置文件每8小时与Brand Portal用户界面同步一次，并在Brand Portal中作为组显示。 添加用户和创建产品配置文件，并将用户添加到这些产品配置文件后，您可以在Brand Portal中为用户和组分配角色。
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->您可以直接或从Brand Portal登录[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果直接登录，请按照以下过程中的步骤4-7添加用户。
+>您可以直接或从Brand Portal登录[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果直接登录，请按照下面的步骤4 - 7添加用户。
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -78,21 +74,21 @@ Comment Type: draft
    ![将用户添加到Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. 为用户分配至少一个产品配置文件（以前称为产品配置），以便用户可以访问Brand Portal。 从&#x200B;**[!UICONTROL 中选择相应的产品配置文件。请为此产品]**&#x200B;字段选择一个配置文件。
-1. 单击&#x200B;**[!UICONTROL 保存]**。向新添加的用户发送欢迎电子邮件。 受邀用户可单击欢迎电子邮件中的链接以访问Brand Portal。 用户可以使用在Admin Console中配置的电子邮件ID ([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL 已提取的ID])登录。 有关详细信息，请参阅[首次登录体验](../using/brand-portal-onboarding.md)。
+1. 单击&#x200B;**[!UICONTROL 保存]**。向新添加的用户发送欢迎电子邮件。 受邀用户可单击欢迎电子邮件中的链接以访问Brand Portal。 用户可以使用在Admin Console中配置的电子邮件ID ([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID])登录。 有关详细信息，请参阅[首次登录体验](../using/brand-portal-onboarding.md)。
 
    >[!NOTE]
    >
-   >如果用户无法登录到Brand Portal，则组织的管理员应访问Adobe[!UICONTROL Admin Console]，并检查该用户是否存在并已添加到至少一个产品配置文件。
+   >如果用户无法登录到Brand Portal，则组织的管理员应访问Adobe[!UICONTROL Admin Console]。 检查用户是否存在并已添加到至少一个产品配置文件。
 
    有关向用户授予管理权限的信息，请参阅[向用户提供管理员权限](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)。
 
 ## 添加产品配置文件 {#add-a-product-profile}
 
-[!UICONTROL Admin Console]中的产品配置文件（以前称为产品配置）用于在Brand Portal中创建组，以便您可以在Brand Portal中执行批量操作，如角色管理和资源共享。 **Brand Portal**&#x200B;是可用的默认产品配置文件；您可以创建更多产品配置文件并将用户添加到新的产品配置文件。
+[!UICONTROL Admin Console]中的产品配置文件（以前称为产品配置）用于在Brand Portal中创建组，以便您可以在Brand Portal中执行批量操作，如角色管理和资源共享。 **Brand Portal**&#x200B;是默认可用的产品配置文件；您可以创建更多产品配置文件并将用户添加到新的产品配置文件。
 
 >[!NOTE]
 >
->您可以直接或从Brand Portal登录[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登录[!UICONTROL Admin Console]，请按照以下过程中的步骤4-7添加产品配置文件。
+>您可以直接或从Brand Portal登录到[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登录[!UICONTROL Admin Console]，请按照以下过程中的步骤4-7添加产品配置文件。
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -107,15 +103,15 @@ Comment Type: draft
    ![启动Admin Console](assets/launch_admin_console.png)
 
 1. 从顶部的工具栏中，单击&#x200B;**[!UICONTROL 产品]**。
-1. 在[!UICONTROL 产品]页面中，[!UICONTROL 产品配置文件]默认处于选中状态。 单击&#x200B;**[!UICONTROL 新建配置文件]**。
+1. 在[!UICONTROL 产品]页面中，默认选中[!UICONTROL 产品配置文件]。 单击&#x200B;**[!UICONTROL 新建配置文件]**。
 
    ![添加新产品配置文件](assets/admin_console_addproductprofile.png)
 
-1. 在[!UICONTROL 新建配置文件]页面中，提供配置文件名称、显示名称、配置文件描述，并选择在用户添加到配置文件或从中移除时是否要通过电子邮件通知用户。
+1. 在[!UICONTROL 新建配置文件]页面中，提供配置文件名称、显示名称和配置文件说明。 选择在用户添加到配置文件或从配置文件中删除用户时，通过电子邮件通知用户。
 
    ![创建产品配置文件](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-1. 单击&#x200B;**[!UICONTROL 完成]**。 产品配置组，例如&#x200B;**[!UICONTROL Sales group]**，已添加到Brand Portal。
+1. 单击&#x200B;**[!UICONTROL 完成]**。 产品配置组。 例如，**[!UICONTROL Sales组]**&#x200B;已添加到Brand Portal。
 
    ![产品配置文件](assets/admin_console_productprofileadded.png)
 
@@ -125,7 +121,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->您可以直接或从Brand Portal登录[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登录Admin Console，请按照以下过程中的步骤4 - 7将用户添加到产品配置文件。
+>您可以直接或从Brand Portal登录到[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登录Admin Console，请按照以下过程中的步骤4 - 7将用户添加到产品配置文件。
 
 1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
@@ -140,7 +136,7 @@ Comment Type: draft
    ![启动[!DNL Admin Console]](assets/launch_admin_console.png)
 
 1. 从顶部的工具栏中，单击&#x200B;**[!UICONTROL 产品]**。
-1. 在[!UICONTROL 产品]页面中，[!UICONTROL 产品配置文件]默认处于选中状态。 打开要向其添加用户的产品配置文件，例如，[!UICONTROL 销售组]。
+1. 在[!UICONTROL 产品]页面中，默认选中[!UICONTROL 产品配置文件]。 打开要向其添加用户的产品配置文件，例如，[!UICONTROL 销售组]。
 
    ![产品配置文件](assets/admin_console_productprofileadded.png)
 
@@ -168,17 +164,17 @@ Comment Type: draft
 
    * 单击&#x200B;**[!UICONTROL 上传]**。
 
-   如果您将用户添加到默认产品配置文件(即Brand Portal)，则会向您添加用户的电子邮件ID发送欢迎电子邮件。 受邀用户可以通过单击欢迎电子邮件中的链接并使用[!UICONTROL Adobe ID]登录来访问Brand Portal。 有关详细信息，请参阅[首次登录体验](../using/brand-portal-onboarding.md)。
+   将用户添加到默认产品配置文件Brand Portal时，系统会向其电子邮件ID发送欢迎电子邮件。 随后，受邀用户可以通过单击欢迎电子邮件中的链接并使用其[!UICONTROL Adobe ID]登录来访问Brand Portal。 请参阅[首次登录体验](../using/brand-portal-onboarding.md)。
 
    添加到自定义或新产品配置文件的用户不会收到电子邮件通知。
 
 ## 向用户提供管理员权限 {#provide-administrator-privileges-to-users}
 
-您可以向Brand Portal用户提供系统管理员或产品管理员权限。 不提供[!UICONTROL Admin Console]中可用的其他管理权限，如产品配置文件管理员、用户组管理员和支持管理员。 要了解有关这些角色的更多信息，请参阅[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
+您可以授予Brand Portal用户系统管理员或产品管理员权限。 但是，请避免分配[!UICONTROL 角色]中可用的其他管理Admin Console。 例如，产品配置文件管理员、用户组管理员和支持管理员。 请参阅[管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
 
 >[!NOTE]
 >
->您可以直接或从Brand Portal登录[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登录[!UICONTROL Admin Console]，请按照以下过程中的步骤4-8将用户添加到产品配置文件。
+>您可以直接或从Brand Portal登录到[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登录[!UICONTROL Admin Console]，请按照以下过程中的步骤4-8将用户添加到产品配置文件。
 
 1. 从顶部的AEM工具栏中，单击Adobe徽标以访问管理工具。
 
@@ -193,7 +189,7 @@ Comment Type: draft
    ![启动Admin Console](assets/launch_admin_console.png)
 
 1. 从顶部的工具栏中，单击&#x200B;**[!UICONTROL 用户]**。
-1. 在[!UICONTROL 用户]页面中，默认选择左边栏中的[!UICONTROL 用户]。 单击要向其提供管理员权限的用户的用户名。
+1. 在[!UICONTROL 用户]页面的左边栏中，默认选中[!UICONTROL 用户]。 单击要向其提供管理员权限的用户的用户名。
 
    ![在Admin Console中添加用户](assets/admin_console_adduseruserpage.png)
 
@@ -208,7 +204,7 @@ Comment Type: draft
    >
    >Brand Portal仅支持系统管理员和产品管理员角色。
    >
-   >Adobe建议您避免使用系统管理员角色，因为它授予组织范围内所有组织产品的管理员权限。 例如，如果组织的系统管理员包含三个Marketing Cloud产品，则他拥有所有这三个产品的整套权限。 只有系统管理员才能配置Experience Manager Assets，以便将资源从Experience Manager Assets发布到Brand Portal。 有关详细信息，请参阅[使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
+   >Adobe建议您避免使用系统管理员角色，因为它授予组织范围内所有组织产品的管理员权限。 例如，如果组织的系统管理员包含三个用于营销的云产品，则他拥有所有这三个产品的完整权限集。 只有系统管理员才能配置Experience Manager Assets，以便将资源从Experience Manager Assets发布到Brand Portal。 有关详细信息，请参阅[使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
    >
    >相反，“产品管理员”角色仅授予特定产品的管理员权限。 如果要在Brand Portal中实施更细粒度的访问控制，请使用产品管理员角色，然后选择产品作为Brand Portal。
 
@@ -271,7 +267,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->对于作为链接共享的资产，将根据共享资产的用户的权限，应用访问图像文件原始演绎版的权限。
+>对于作为链接共享的资产，根据共享资产的用户的权限，会应用访问图像文件原始演绎版的权限。
 
 要修改特定组成员访问原始演绎版的角色和权限，请执行以下步骤：
 
@@ -279,15 +275,36 @@ Comment Type: draft
 1. 选择要更改角色的组。
 1. 从&#x200B;**[!UICONTROL 角色]**&#x200B;下拉列表中选择适当的角色。
 
-   若要允许组的成员访问他们从门户或共享链接下载的图像文件(.jpeg、.tiff、.png、.bmp、.gif、.pjpeg、.x-portable-anymap、 x-portable-bitmap、 x-portable-graymap、 x-rgb、 x-xbitmap、 x-xpixmap、 x-icon、image/photoshop、image/x-photoshop、.psd、.image/vnd.adobe.photoshop)的原始演绎版，请保持为该组选择&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 默认情况下，为所有用户选择了&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 要阻止用户组访问原始演绎版，请取消选择与该组对应的选项。
+   若要允许组成员访问他们从门户或共享链接下载的图像文件的原始演绎版，请保持为该组选择&#x200B;**[!UICONTROL 访问原始内容]**&#x200B;选项。 此方法包括以下文件类型：
+
+   * .jpeg
+   * .tiff
+   * .png
+   * .bmp
+   * .gif
+   * .pjpeg
+   * .psd
+   * x-portable-anymap
+   * x可移植位图
+   * x-portable-graymap
+   * x-portable-pixmap
+   * x-rgb
+   * x-xbitmap
+   * x-xpixmap
+   * x图标
+   * image/photoshop
+   * image/x-photoshop
+   * image/vnd.adobe.photoshop
+
+   默认情况下，为所有用户选择了&#x200B;**[!UICONTROL 访问原始]**&#x200B;选项。 要阻止用户组访问原始演绎版，请取消选择与该组对应的选项。
 
    ![用户组角色](assets/access-original-rend.png)
 
    >[!NOTE]
    >
-   >如果将用户添加到多个组，并且其中一个组具有限制，则该限制将适用于该用户。
+   >如果将用户添加到多个组，并且其中一个组具有限制，则该限制适用于该用户。
    >
-   >此外，对访问图像文件原始演绎版的限制不适用于管理员，即使管理员是受限制组的成员。
+   >此外，对访问图像文件原始演绎版的任何限制也不适用于管理员，即使管理员是受限制组的成员。
 
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。将修改相应组的角色。

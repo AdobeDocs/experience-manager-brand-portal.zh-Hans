@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Experience Manager Assets管理员可以创建在资源详细信息页面上显�
 >
 >如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media混合模式**&#x200B;下运行，则会创建图像资源的金字塔TIFF演绎版并将其保存在Experience Manager Assets存储库中。
 >
->而如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media Scene7模式**&#x200B;下运行，则Scene7服务器上存在图像资源的金字塔TIFF演绎版。
+>但是，如果Experience Manager Assets创作实例在&#x200B;**Dynamic Media Scene7模式**&#x200B;下运行，则Scene7服务器上存在图像资源的金字塔TIFF演绎版。
 >
 >将此类资源发布到Brand Portal时，会应用图像预设并显示动态演绎版。
 

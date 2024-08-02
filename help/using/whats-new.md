@@ -6,9 +6,9 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6554'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Brand Portal管理员可以启用任意组合来配置资源下载。
 
 ## 6.4.6中的更改内容 {#what-changed-in-646}
 
-在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道发生了更改。 Brand Portal现在在AEM Assetsas a Cloud Service、AEM Assets 6.3及更高版本上受支持。 在AEM Assets 6.3及更高版本中，Brand Portal之前通过旧版OAuth网关在经典UI中进行配置，该网关使用JWT令牌交换获取IMS访问令牌进行授权。 AEM Assets现在已通过Brand Portal进行了配置，Adobe Developer Console可获取IMS令牌以授权您的Brand Portal租户。
+在Brand Portal 6.4.6中，AEM Assets与Brand Portal之间的授权渠道发生了更改。 Brand Portal现在在AEM Assetsas a Cloud Service、AEM Assets 6.3及更高版本上受支持。 在AEM Assets 6.3及更高版本中，Brand Portal最初是使用旧版OAuth网关在经典UI中配置的。 此网关利用JWT令牌交换来获取IMS访问令牌以进行授权。 AEM Assets现在已通过Brand Portal进行了配置，Adobe Developer Console可获取IMS令牌以授权您的Brand Portal租户。
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -593,7 +593,7 @@ Dynamic Media视频编码可从以下位置下载：
 
 ## 6.4.2中的更改内容 {#what-changed-in-1}
 
-Brand Portal 6.4.2引入了一些功能以满足组织的资产分发需求，从而通过访客访问和更快的下载实现全球覆盖。 它还通过新的管理员配置和添加的报告提供了增强的控制，并解决了客户请求。
+Brand Portal 6.4.2引入了一些功能以满足组织的资产分发需求，从而通过Guest访问和更快的下载实现全球覆盖。 它还通过新的管理员配置和添加的报告提供了增强的控制，并解决了客户请求。
 
 ### 访客访问
 

@@ -1,18 +1,14 @@
 ---
 title: 管理Lightbox集合
-seo-title: Manage the lightbox collection
 description: Lightbox是一种特殊的收藏集，可让您轻松访问资产。 每个用户都有一个专用的灯箱，当他们首次登录Brand Portal时会自动创建该灯箱。 无法删除Lightbox集合。
-seo-description: Lightbox is a special type of collection that provides easy access to assets. Each user has an exclusive lightbox that is automatically created when they log in to Brand Portal for the first time. The Lightbox collection cannot be deleted.
-uuid: c074e45e-e63c-4856-947f-5e9e27bc46fb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
-discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -29,7 +25,7 @@ ht-degree: 0%
 
    ![](assets/link_sharing_assetselection.png)
 
-1. 在顶部的工具栏中，单击添加到收藏集图标。
+1. 从顶部的工具栏中，单击&#x200B;**添加到收藏集**&#x200B;图标。
 
    ![](assets/add_to_collection.png)
 

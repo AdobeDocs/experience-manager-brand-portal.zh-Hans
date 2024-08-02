@@ -1,19 +1,15 @@
 ---
 title: 使用元数据架构表单
-seo-title: Use the metadata schema form
 description: 元数据架构描述了“属性”页的布局，以及针对使用特定架构的资源显示的元数据属性。 应用于资源的架构决定了其属性页面上显示的元数据字段。
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 8%
+source-wordcount: '1622'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +41,7 @@ ht-degree: 8%
 
 ## 编辑元数据架构表单 {#edit-a-metadata-schema-form}
 
-您可以编辑新添加或现有的元数据架构表单。 元数据架构表单包含从其父级派生的内容，包括选项卡和选项卡中的表单项。 您可以将这些表单项映射或配置到元数据节点中的字段。
+可以编辑任何添加或现有的元数据架构表单。 元数据架构表单包含从其父级派生的内容，包括选项卡和选项卡中的表单项。 您可以将这些表单项映射或配置到元数据节点中的字段。
 
 您可以将新选项卡或表单项添加到元数据架构表单。 派生的选项卡和表单项目（来自父项）处于锁定状态。 不能在子级别更改它们。
 
@@ -66,9 +62,9 @@ ht-degree: 8%
 
 1. 在顶部的工具栏中，单击&#x200B;**[!UICONTROL 编辑]**。
 
-   **[!UICONTROL 元数据架构编辑器]**&#x200B;页面打开，左侧打开&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡，右侧打开&#x200B;**[!UICONTROL 生成表单]**&#x200B;选项卡。
+   **[!UICONTROL 元数据架构编辑器]**&#x200B;页面打开，左侧打开&#x200B;**[!UICONTROL Basic]**&#x200B;选项卡。 在右侧，打开&#x200B;**[!UICONTROL 生成表单]**&#x200B;选项卡。
 
-1. 在&#x200B;**[!UICONTROL 元数据架构编辑器]**&#x200B;页中，通过将&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中的组件类型列表中的一个或多个组件拖到&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡，自定义资产的&#x200B;**[!UICONTROL 属性]**&#x200B;页。
+1. 在&#x200B;**[!UICONTROL 元数据架构编辑器]**&#x200B;页面中，自定义资源的&#x200B;**[!UICONTROL 属性]**&#x200B;页面。 只需从&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中的组件类型列表中拖动一个或多个组件即可。 将它们拖到&#x200B;**[!UICONTROL 基本]**&#x200B;选项卡。
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,7 +82,7 @@ ht-degree: 8%
 | **[!UICONTROL 数字]** | 添加一个数值组件。 |
 | **[!UICONTROL 日期]** | 添加一个日期组件。 |
 | **[!UICONTROL 下拉列表]** | 添加下拉列表。 |
-| **[!UICONTROL 标准标记]** | 添加标记。 **注意：**&#x200B;管理员可能需要更改路径值，例如`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他们从Experience Manager Assets发布元数据架构表单，其中路径不包括租户信息，例如`/etc/tags/<custom_tag_namespace>`。 |
+| **[!UICONTROL 标准标记]** | 添加标记。 管理员可能需要更改路径值。 例如，`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他们从Experience Manager Assets发布元数据架构表单，其中路径不包括租户信息，例如`/etc/tags/<custom_tag_namespace>`。 |
 | **[!UICONTROL 智能标记]** | 如果您已购买并配置Experience Manager Assets智能标记加载项，则为自动检测到的标记。 |
 | **[!UICONTROL 隐藏字段]** | 添加隐藏字段。 在保存资源时，它将作为POST参数发送。 |
 | **[!UICONTROL 由]**&#x200B;引用的资产 | 添加此组件可查看资产引用的资产列表。 |
@@ -108,9 +104,9 @@ ht-degree: 8%
 
 以下是此属性的有效值：
 
-— `./jcr:content/metadata/dc:title`：将该值作为属性[!UICONTROL `dc:title`]存储在资产的元数据节点中。
+— `./jcr:content/metadata/dc:title`：将该值作为属性`dc:title`存储在资产的元数据节点中。
 
-— `./jcr:created`：在资产的节点上显示jcr属性。 如果您在视图属性上配置这些属性，我们建议您将这些属性标记为“禁用编辑”，因为它们是受保护属性。否则，在保存资产的属性时，会出现“资产修改失败”错误。
+— `./jcr:created`：在资产的节点上显示jcr属性。 如果您在视图属性上配置了这些属性，Adobe建议将它们标记为“禁用编辑”，因为它们是受保护属性。 否则，在保存资产的属性时，会出现“Assets无法修改”错误。
 
 * **[!UICONTROL 占位符]**：使用此属性向用户提供有关元数据属性的任何相关信息。
 * **[!UICONTROL 必需]**：使用此属性在“属性”页面上将元数据属性标记为必需。
@@ -139,7 +135,7 @@ ht-degree: 8%
 
 ## 将元数据架构应用到文件夹 {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal允许您自定义和控制元数据架构，以便资源的&#x200B;**[!UICONTROL 属性]**&#x200B;页面仅显示您选择显示的特定信息。 要控制&#x200B;**[!UICONTROL 属性]**&#x200B;页面中显示的元数据，请从元数据架构表单中删除所需的元数据并将其应用到特定文件夹。
+通过Brand Portal，您可以自定义和控制元数据架构，以便资源的&#x200B;**[!UICONTROL 属性]**&#x200B;页面仅显示您选择显示的特定信息。 要控制&#x200B;**[!UICONTROL 属性]**&#x200B;页面中显示的元数据，请从元数据架构表单中删除所需的元数据并将其应用到特定文件夹。
 
 要将元数据架构表单应用到文件夹，请执行以下操作：
 
@@ -196,10 +192,10 @@ Brand Portal仅允许您删除自定义架构表单。 不允许删除默认架�
 | **名称** | **类型** | **值** |
 |---|---|---|
 | exposedmimetype | 字符串 | image/jpeg |
-| mimetypes | 字符串[] | image/png |
+| mime类型 | 字符串[] | image/png |
 
 * **exposedmimetype**：要映射的现有表单的名称
-* **mimetypes**：使用&#x200B;**exposedmimetype**&#x200B;属性中定义的表单的MIME类型列表
+* **mime类型**：使用&#x200B;**exposedmimetype**&#x200B;属性中定义的表单的MIME类型列表
 
 Brand Portal映射以下MIME类型和架构表单：
 
@@ -214,29 +210,29 @@ Brand Portal映射以下MIME类型和架构表单：
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi， video/msvideo， video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 以下是默认元数据属性的列表：
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr：content/metadata/videoCodec
-* jcr：content/metadata/audioCodec
-* jcr：content/metadata/dc：title
-* jcr：content/metadata/dc：description
-* jcr：content/metadata/xmpMM：InstanceID
-* jcr：content/metadata/xmpMM：DocumentID
-* jcr：content/metadata/dam：sha1
-* jcr：content/metadata/dam：solutionContext
-* jcr：content/metadata/videoBitrate
-* jcr：content/metadata/audioBitrate
-* jcr：content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr：content/onTime
-* jcr：content/offTime
-* jcr:content/metadata/dam:size
-* jcr：content/metadata/tiff：ImageWidth
-* jcr：content/metadata/tiff：ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

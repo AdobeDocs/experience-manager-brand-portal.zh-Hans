@@ -1,17 +1,13 @@
 ---
 title: 共享文件夹
-seo-title: Share folders
-description: Brand Portal不支持资源摄取，因此必须从预配置的Brand Portal创作实例将资源发布到Experience Manager Assets。 Brand Portal的非管理员用户无法访问已发布的资源，除非在使用Experience Manager实例配置复制时进行了配置，否则需要与这些用户共享。
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal要求从预配置的Experience Manager Assets创作实例发布资源。 只有在使用Experience Manager设置复制期间进行了配置时，非管理员用户才能访问已发布的资源，并且资源必须与其共享。
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -32,17 +28,17 @@ ht-degree: 1%
 
 ### 在Brand Portal上与用户组共享文件夹 {#sharing-folders-with-user-groups-on-brand-portal}
 
-文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 此行为受AEM中的[ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)控制，因为子文件夹从其父文件夹继承ACL。 例如，如果文件夹A包含包含文件夹C的文件夹B，则对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
+文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
 
-同样，有权仅访问文件夹B的用户组（或用户）对文件夹C具有相同的访问权限，对文件夹A则没有相同的访问权限。因此，建议组织安排其内容，以便将大多数公开的资产放置在子文件夹中，并限制从子文件夹到根文件夹的访问。
+同样，有权仅访问文件夹B的用户组（或用户）对文件夹C而不是文件夹A具有相同的访问权限。Adobe建议组织内容，以便将最公开的资源放在子文件夹中，从而允许从子文件夹一直到根文件夹的访问权限受到限制。
 
 ### 公共文件夹发布 {#public-folder-publish}
 
-除非在配置Brand Portal复制时选择&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;选项，否则非管理员用户（如编辑者和查看者）无权访问从AEM Assets发布到Brand Portal的资源。
+只有在配置AEM Assets复制期间选择了&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;选项时，非管理员用户（例如编辑者和查看者）才能访问从Brand Portal发布到Brand Portal的资源。
 
 ![](assets/assetbpreplication.png)
 
-如果&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;选项已禁用，则管理员需要专门使用共享功能与非管理员用户共享这些资源。
+如果&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;选项已禁用，则管理员需要使用共享功能专门与非管理员用户共享这些资源。
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ ht-degree: 1%
 
 ## 访问共享文件夹 {#access-to-shared-folders}
 
-以下矩阵讨论了各种用户角色的访问权限以及共享/取消共享资产的权限：
+以下矩阵讨论了各种用户角色的访问权限以及共享或取消共享资产的权限：
 
-|               | 访问从AEM Assets发布到Brand Portal的所有文件夹 | 访问共享文件夹 | 共享/取消共享文件夹权限 |
+|               | 访问从AEM Assets发布到Brand Portal的所有文件夹 | 访问共享文件夹 | 共享或取消共享文件夹权限 |
 |---------------|-----------|-----------|------------|
 | 管理员 | 是 | 是 | 是 |
 | 编辑器 | 否* | 是，仅当与他们共享或与他们所属的组共享时 | 是，仅适用于与其共享或与所属组共享的文件夹 |
@@ -61,7 +57,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->默认情况下，在使用AEM Author配置Brand Portal复制时，**[!UICONTROL 公用文件夹Publish]**&#x200B;选项处于禁用状态。 如果启用了该选项，则所有用户（非管理员用户）默认情况下都可以访问发布到Brand Portal的文件夹。
+>默认情况下，在使用AEM Author配置Brand Portal复制时，**[!UICONTROL 公用文件夹Publish]**&#x200B;选项处于禁用状态。 如果启用了选项，则所有用户（非管理员用户）默认情况下都可以访问发布到Brand Portal的文件夹。
 
 ### 非管理员用户对共享文件夹的访问权限 {#non-admin-user-access-to-shared-folders}
 
@@ -69,7 +65,7 @@ ht-degree: 1%
 
 **如果配置被禁用**
 
-非管理员用户登录Brand Portal后，会在登陆页面上看到与其共享的所有文件夹。
+登录到Brand Portal后，非管理员用户可在登陆页面上看到与其共享的所有文件夹。
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -95,7 +91,7 @@ ht-degree: 1%
 
    ![](assets/selectorrail.png)
 
-1. 从左侧的侧边栏中选择&#x200B;**[!UICONTROL 文件]**。
+1. 从左侧的边栏中选择&#x200B;**[!UICONTROL 文件]**。
 
    ![](assets/access_files.png)
 

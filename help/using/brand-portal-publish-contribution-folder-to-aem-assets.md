@@ -1,25 +1,21 @@
 ---
 title: 上传资源并将贡献文件夹从Brand Portal发布到Experience Manager Assets
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: 深入了解如何上传新资源以及如何将贡献文件夹从Brand Portal发布到Experience Manager Assets。
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
 # Publish贡献文件夹到Experience Manager Assets {#using-asset-souring-in-bp}
 
-具有适当权限的Brand Portal用户可以将多个资源或包含多个资源的文件夹上传到contribution文件夹。 但是，Brand Portal用户只能将资源上传到&#x200B;**NEW**&#x200B;文件夹。 **SHARED**&#x200B;文件夹用于分发基线资源（参考内容），Brand Portal用户在创建新资源以进行贡献时可以使用该资源。
+具有适当权限的Brand Portal用户可以将多个资源或包含多个资源的文件夹上传到contribution文件夹。 但是，Brand Portal用户只能将资源上传到&#x200B;**NEW**&#x200B;文件夹。 **SHARED**&#x200B;文件夹用于分发Brand Portal用户在创建新资源以进行贡献时所使用的基线资源（参考内容）。
 
 有权访问“贡献”文件夹的Brand Portal用户可以执行以下操作：
 
@@ -29,14 +25,14 @@ ht-degree: 0%
 
 ## 下载资源要求 {#download-asset-requirements}
 
-只要Brand Portal用户共享了贡献文件夹，Experience Manager Assets用户就会自动收到电子邮件/脉冲通知，从而允许他们从&#x200B;**共享**&#x200B;文件夹下载简短（资源要求）文档以及下载基准资源（参考内容），以确保他们了解资源要求。
+当Brand Portal用户共享contribution文件夹时，Experience Manager Assets用户会自动收到电子邮件和pulse通知。 此工作流可让他们从&#x200B;**共享**&#x200B;文件夹下载简要（资源要求）文档和基准资源（参考内容），以了解资源要求。
 
 Brand Portal用户会执行以下操作，以下载资源要求：
 
-* **下载摘要**：下载附加到贡献文件夹的摘要（资源要求文档），该文件夹包含与资源相关的信息，如资源类型、用途、支持的格式、最大资源大小等。
-* **下载基线资源**：下载可用于了解所需资源类型的基线资源。 Brand Portal用户可以使用这些资源作为参考，为贡献创建新资源。
+* **下载摘要** — 下载附加到贡献文件夹的摘要（资产要求文档）。 它包含与资产相关的信息，例如资产类型、用途、支持的格式、最大资产大小等。
+* **下载基线资源** — 下载基线资源，该资源可用于了解所需的资源类型。 Brand Portal用户可以使用这些资源作为参考，为贡献创建新资源。
 
-Brand Portal功能板反映允许向Brand Portal用户访问的所有现有文件夹，以及新共享的贡献文件夹。 在此示例中，Brand Portal用户仅有权访问新创建的贡献文件夹，而不会与用户共享任何其他现有文件夹。
+Brand Portal功能板反映允许向Brand Portal用户访问的所有现有文件夹，以及新共享的贡献文件夹。 在此示例中，Brand Portal用户仅拥有新创建的贡献文件夹的访问权限。 没有其他现有文件夹与该用户共享。
 
 **要下载资源要求：**
 
@@ -53,7 +49,7 @@ Brand Portal功能板反映允许向Brand Portal用户访问的所有现有文�
    ![](assets/download.png)
 
 1. 返回到Brand Portal仪表板。
-1. 单击以打开贡献文件夹，您可以在贡献文件夹中看到两个子文件夹 — **[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 共享文件夹包含管理员共享的所有基线资源（引用内容）。
+1. 单击贡献文件夹以将其打开。 您可以在贡献文件夹中看到两个子文件夹：**[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 共享文件夹包含管理员共享的所有基线资源（引用内容）。
 1. 您可以下载包含本地计算机上所有基线资源的&#x200B;**[!UICONTROL SHARED]**文件夹。
 或者，您可以打开**[!UICONTROL 共享]**&#x200B;文件夹并单击&#x200B;**下载**&#x200B;图标来下载单个文件/文件夹。
 
@@ -63,22 +59,21 @@ Brand Portal功能板反映允许向Brand Portal用户访问的所有现有文�
 
 浏览简要（资产需求文档）并参考基准资产，以了解资产需求。 现在，您可以为贡献创建新资产，并将它们上传到贡献文件夹。
 
-
 ## 将资产上传到贡献文件夹 {#upload-new-assets-to-contribution-folder}
 
 完成资源要求后，Brand Portal用户可以为贡献创建新资源，并将这些资源上传到contribution文件夹中的NEW文件夹。 用户可以将多个资产上传到资产贡献文件夹。 但是，一次只能创建一个文件夹。
 
 >[!NOTE]
 >
->Brand Portal用户可以向新文件夹上传资源（每个文件大小最大为&#x200B;**2** GB）。
+>Brand Portal用户可以向NEW文件夹上传资源（每个文件大小最多2 GB）。
 >
->任何Brand Portal租户的最大上传限制为&#x200B;**10** GB，该限制累计应用于所有贡献文件夹。
+>任何Brand Portal租户的最大上传限制为10 GB，将累计应用于所有贡献文件夹。
 >
 >上传到Brand Portal的资源不会进行处理以供呈现，并且不包含预览。
 
 >[!NOTE]
 >
->建议在将贡献文件夹发布到Experience Manager Assets后发布上传空间，以便其他Brand Portal用户能够贡献内容。
+>Adobe建议您在将贡献文件夹发布到Experience Manager Assets后释放上传空间，以便其他Brand Portal用户能够贡献内容。
 >
 >如果需要将Brand Portal租户的上传限制延长到&#x200B;**10** GB以上，请联系客户支持部门并指定相关要求。
 

@@ -8,10 +8,10 @@ breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 Experience Manager Assets Brand Portal，通过将获准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载来满足营销需求。
 feature: Brand Portal
 role: User
-source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 31%
+source-wordcount: '252'
+ht-degree: 34%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 31%
    + [常见问题解答](/help/using/brand-portal-faqs.md)
    + [支持的文件格式](/help/using/brand-portal-supported-formats.md)
    + [来宾访问Brand Portal](/help/using/guest-access.md)
-   + [了解Brand Portal与Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [了解Brand Portal与Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [在Brand Portal上浏览资源](/help/using/browse-assets-brand-portal.md)
 + 从Experience Manager Assets到Brand Portal {#publish}的Publish
-   + [使用Brand Portal配置Experience Manager Assets](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [将资产发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [将收藏集发布到 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [使用 Brand Portal 配置 Experience Manager Assets](/help/using/configure-aem-assets-with-brand-portal.md)
+   + [将资产发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [将收藏集发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [对并行发布到Brand Portal时出现的问题进行故障诊断](/help/using/troubleshoot-parallel-publishing.md)
    + [Brand Portal的Publish标记](/help/using/brand-portal-publish-tags.md)
    + [Brand Portal的Publish预设、架构和Facet](/help/using/publish-schema-search-facets-presets.md)
@@ -59,7 +59,7 @@ ht-degree: 31%
    + [首次登录体验](/help/using/brand-portal-onboarding.md)
    + [管理用户、组和用户角色](/help/using/brand-portal-adding-users.md)
    + [自定义壁纸、标题和电子邮件消息](/help/using/brand-portal-branding.md)
-   + [使用元数据架构表单](/help/using/brand-portal-metadata-schemas.md)
+   + [使用元数据架构](/help/using/brand-portal-metadata-schemas.md)
    + [应用图像预设或动态演绎版](/help/using/brand-portal-image-presets.md)
    + [使用报告](/help/using/brand-portal-reports.md)
 

@@ -1,18 +1,14 @@
 ---
 title: 共享收藏集
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal管理员可以与授权用户共享和取消共享收藏集或智能收藏集。 编辑者只能查看和共享由他们创建、与他们共享以及公共收藏集的收藏集。
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: 了解Experience Manager Assets Brand Portal管理员如何与授权用户共享和取消共享集合或智能集合。 编辑者只能查看和共享由他们创建、与他们共享以及公共收藏集的收藏集。
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -23,13 +19,13 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集通过电子邮件作为链接共享。 有权访问共享链接的每个人都可以打开收藏集，而共享电子邮件可以转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
+收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
 
-* **管理员**&#x200B;可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
+* **管理员**&#x200B;可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户加入某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
 
-* 允许&#x200B;**编辑器**&#x200B;创建和共享收藏集。 他们可以邀请其他用户访问某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，如果他们受邀以编辑者或所有者的身份加入收藏集，则他们也可以共享收藏集。
+* 允许&#x200B;**编辑器**&#x200B;创建和共享收藏集。 他们可以邀请其他用户加入某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，如果他们受邀以编辑者或所有者的身份加入收藏集，则他们也可以共享收藏集。
 
-* **查看器**&#x200B;只能创建专用收藏集。 不允许他们共享收藏集，即使他们作为所有者受邀也是如此。
+* **查看器**&#x200B;只能创建专用收藏集。 即使受邀作为所有者，他们也无法共享收藏集。
 
 >[!NOTE]
 >
@@ -53,7 +49,7 @@ ht-degree: 0%
 
      ![](assets/collection-console.png)
 
-1. 在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框中，选择要与其共享收藏集的用户，并为用户选择与其全局角色匹配的角色。 例如，将编辑者角色分配给全局编辑者，将查看者角色分配给全局查看者。
+1. 在&#x200B;**[!UICONTROL 收藏集设置]**&#x200B;对话框中，选择要与其共享收藏集的用户，并为用户选择与其全局角色匹配的角色。 例如，将编辑者角色分配给全局编辑者，将查看器角色分配给全局查看者。
 
    或者，若要使收藏集对所有用户可用，而不考虑其组成员资格和角色，请选中&#x200B;**[!UICONTROL 公共收藏集]**&#x200B;复选框，以使其公开。
 

@@ -1,33 +1,30 @@
 ---
 title: 首次登录体验
-seo-title: First-time login experience
-description: 所有新的Experience Manager Assets Brand Portal用户（包括管理员）的首次登录体验都相同。 管理员将您添加到组织的Brand Portal帐户后，您无需接受邀请，系统就会自动添加您。 您会收到一封欢迎电子邮件，其中包含指向您组织的Brand Portal帐户的链接。
-seo-description: The first-time login experience is same for all new Experience Manager Assets Brand Portal users, including Administrators. After an Administrator adds you to your organization's Brand Portal account, you need not accept invitations, you are automatically added. You receive a welcome email that contains a link to your organization’s Brand Portal account.
-uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
+description: 所有新的Experience Manager Assets Brand Portal用户（包括管理员）都具有相同的首次登录体验。 管理员将您添加到组织的Brand Portal帐户后，您无需接受邀请即可自动包含在帐户中。 您会收到一封欢迎电子邮件，其中包含用于访问贵组织的Brand Portal帐户的链接。
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 exl-id: 1f52045b-afb1-4501-878d-c327d394e258
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 首次登录体验 {#first-time-login-experience}
 
-所有新的Experience Manager Assets Brand Portal用户（包括管理员）的首次登录体验都相同。 管理员将您添加到组织的Brand Portal帐户后，您无需接受邀请，系统就会自动添加您。 您会收到一封欢迎电子邮件，其中包含指向您组织的Brand Portal帐户的链接。
+所有新的Experience Manager Assets Brand Portal用户（包括管理员）都具有相同的首次登录体验。 管理员将您添加到组织的Brand Portal帐户后，您无需接受邀请即可自动包含在帐户中。 您会收到一封欢迎电子邮件，其中包含用于访问贵组织的Brand Portal帐户的链接。
 
 以下是对于首次登录Brand Portal的用户要执行的步骤：
 
 1. 打开欢迎电子邮件，然后单击&#x200B;**[!UICONTROL 开始]**。
 
 1. 在注册页面中，指定详细信息（包括名字、姓氏、密码和国家/地区）。
+
    >[!NOTE]
    >
-   >如果您是现有的Adobe Marketing Cloud用户，则会显示登录页面而不是注册页面。 要登录Adobe Marketing Cloud，请输入您的Adobe ID和密码。
+   >如果您是现有的Adobe Experience Cloud用户，则会显示登录页面而不是注册页面。 要登录Adobe Experience Cloud，请输入您的Adobe ID和密码。
 
    >[!NOTE]
    >
@@ -40,4 +37,4 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >要能够登录到Brand Portal，您必须至少有权使用一个Experience Manager Assets产品配置文件。
+   >要登录到Brand Portal，您必须至少有权使用一个Experience Manager Assets产品配置文件。

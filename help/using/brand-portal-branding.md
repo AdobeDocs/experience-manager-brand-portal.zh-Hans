@@ -1,18 +1,14 @@
 ---
 title: 自定义壁纸、标题和电子邮件消息
-seo-title: Customize wallpaper, header, and email message
 description: Brand Portal管理员可以对向用户显示的界面进行有限的自定义。 您可以为Brand Portal登录页面选择特定的背景图像（墙纸）。 您还可以添加页眉图像并自定义资产共享电子邮件以匹配客户的品牌。
-seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
-uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -30,7 +26,6 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
    ![](assets/aemlogo.png)
 
 1. 在管理工具面板中，单击&#x200B;**[!UICONTROL 品牌]**。
-
 
    ![](assets/admin-tools-panel-10.png)
 
@@ -87,7 +82,7 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
 1. 要上传页眉图像，请单击&#x200B;**[!UICONTROL 选择图像]**&#x200B;图标并选择&#x200B;**[!UICONTROL 上传]**。
 
-   若要使用现有Brand Portal映像，请选择&#x200B;**[!UICONTROL 从现有中选择]**。
+   要使用现有Brand Portal映像，请选择&#x200B;**[!UICONTROL 选择现有]**。
 
    ![](assets/choose_wallpaperimage-1.png)
 

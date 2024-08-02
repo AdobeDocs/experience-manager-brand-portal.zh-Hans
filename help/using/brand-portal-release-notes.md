@@ -1,18 +1,14 @@
 ---
 title: 发行说明
-seo-title: Release Notes
 description: 深入了解Adobe Experience Manager Assets Brand Portal 2024.02.0版本中的功能、增强功能、修复的关键问题和已知问题。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1429'
 ht-degree: 4%
 
 ---
@@ -83,7 +79,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 此版本包含以下错误修复：
 
 * 长标签或标记无法正确显示在搜索筛选器中。
-* 无法在“下载”对话框上显示较长的演绎版名称。
+* 无法在“下载”对话框中显示长格式副本名称。
 * 无法在卡片视图中预览视频资产。
 
 ### 2023 年 5 月版本 {#may-2023}
@@ -142,8 +138,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal中的Pulse通知将从2022年12月1日起停止。 您将继续接收以下事件的电子邮件通知，而不是Pulse通知：
->* 通过链接共享资产
+>AEM Assets Brand Portal中的Pulse通知将从2022年12月1日起停止。 您继续收到以下事件的电子邮件通知，而不是Pulse通知：
+>
+>* 通过链接共享资源
 >* 请求访问工作流
 >* 共享贡献文件夹
 >* 启动导出到AEM的过程
@@ -158,8 +155,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 
 * 当NUI无法在Experience Manager中处理资源时，Brand Portal显示不准确的资源导入状态。
 * 当预览操作失败时，没有通知可传达该失败。
-* 修复了每个资源的totalUploadedSize属性的不准确值。
-* 当您单击&#x200B;**下载所有项目**&#x200B;并且某个资源有大量的可用呈现时，Brand Portal将下载无效的.ZIP文件。
+* 修复了每个资源的`totalUploadedSize`属性不准确的值。
+* 当您单击&#x200B;**下载所有项目**&#x200B;并且某个资源具有大量可用呈现时，Brand Portal将下载无效的.ZIP文件。
 * 某些字符串的翻译在Brand Portal用户界面中被截断。
 
 ### 2022 年 5 月版本 {#may-2022}
@@ -174,7 +171,7 @@ Brand Portal现在每十二小时执行一次自动作业，以删除发布到AE
 
 * 下载包含带有颜色标记的资产的文件夹或收藏集时，也会下载XML文件。
 * 下载包含演绎版的视频时，Brand Portal会创建一个无效的.ZIP文件。
-* 当您在AEM创作实例中创建预设和资源，并将其发布到Brand Portal，然后在下载资源时选择动态演绎版时，无法提取下载的.ZIP文件。
+* 在AEM创作实例中创建预设和资源，然后将其发布到Brand Portal时，您可以在下载资源的同时选择动态演绎版。 但是，您无法解压缩下载的.ZIP文件。 此问题会阻止访问下载的内容。
 * 从Brand Portal上提供的某些文件夹下载视频资源时出现问题。
 * 当您使用电子邮件共享Contribution文件夹的URL时，查看者和编辑者角色在使用痕迹导航访问其父文件夹时面临问题。
 * 来源补充发布报表显示的作业开始时间不正确。
@@ -374,12 +371,12 @@ This release includes the following known issues:
 
 ## 认证平台 {#certified-platforms}
 
-要确定哪些平台经认证可以使用此版本的Brand Portal运行，请参阅[技术要求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的&#x200B;**用于创作用户界面的受支持的浏览器**&#x200B;部分的表中的&#x200B;**对触控优化UI的支持**&#x200B;列。
+要查看哪些平台已针对此Brand Portal版本进行认证，请查看[技术要求](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements)的&#x200B;**用于创作用户界面的受支持的浏览器**&#x200B;部分中的&#x200B;**对触控优化UI的支持**&#x200B;列。
 
 ## 链接 {#links}
 
 * adobe.com上的[Adobe Experience Manager产品页](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal文档](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Assets Brand Portal文档](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## 产品访问和支持（受限制的站点） {#product-access-and-support-restricted-sites}
 

@@ -1,19 +1,16 @@
 ---
 title: 以链接形式共享资产
-seo-title: Share assets as a link
-description: Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户和外部实体（包括合作伙伴和供应商）共享多个资源的链接。 编辑者只能查看和共享与其共享的资产。
-seo-description: Adobe Experience Manager Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
-uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
+description: 了解Adobe Experience Manager Assets Brand Portal管理员如何与授权内部用户和外部实体（包括合作伙伴和供应商）共享多个资源的链接。 编辑者只能查看和共享与其共享的资产。
 contentOwner: bdhar
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 5%
+source-wordcount: '1063'
+ht-degree: 6%
 
 ---
 
@@ -50,9 +47,9 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户
    * 在&#x200B;**[!UICONTROL 主题]**&#x200B;框中，为要共享的资源键入主题。
    * 在&#x200B;**[!UICONTROL 消息]**&#x200B;框中，根据需要键入消息。
    * 在&#x200B;**[!UICONTROL 过期]**&#x200B;字段中，使用日期选取器指定链接的过期日期和时间。 默认情况下，到期日期设置为自您共享链接之日起的7天。
-   * 启用&#x200B;**[!UICONTROL 允许下载原始文件]**&#x200B;复选框，允许收件人下载原始演绎版。
+   * 启用&#x200B;**[!UICONTROL 允许下载原始文件]**&#x200B;复选框，以允许收件人下载原始演绎版。
 
-   通过链接共享的资源在超过&#x200B;**[!UICONTROL 过期]**&#x200B;字段中指定的日期和时间后过期。 有关已过期资源的行为以及基于Brand Portal中用户角色的可允许活动中的更改的信息，请参阅[管理资源的数字权限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
+   通过链接共享的资源在超过&#x200B;**[!UICONTROL 过期]**&#x200B;字段中指定的日期和时间后过期。 有关Brand Portal中过期的资源行为和基于角色的活动更改的详细信息，请参阅[管理资源的数字权限](../using/manage-digital-rights-of-assets.md#asset-expiration)。
 
    >[!NOTE]
    >
@@ -84,7 +81,7 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户
 
    ![下载对话框](assets/download-dialog-box-new.png)
 
-1. 默认情况下，**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会显示一个确认框，用于继续使用IBM Aspera Connect下载。
+1. 默认情况下，**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会显示一个确认框，用于继续使用IBM® Aspera Connect下载。
 
    若要继续使用&#x200B;**[!UICONTROL 快速下载]**，请单击&#x200B;**[!UICONTROL 允许]**。
 
@@ -94,16 +91,16 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户
    >
    >从共享链接下载资产时，将为每个资产创建单独的文件夹。
    >
-   >如果选择了文件夹、收藏集或超过20个资源进行下载，则会跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框，并且用户可访问的所有资源演绎版（不包括动态演绎版）都会下载到包含每个资源的单独文件夹的zip文件夹中。
+   >如果选择了文件夹、收藏集或超过20个资源，则会跳过&#x200B;**[!UICONTROL 下载]**&#x200B;对话框。 此外，所有可访问的资源演绎版（不包括动态资源演绎版）都将下载到一个zip文件夹中，并为每个资源单独设置文件夹。
 
    >[!NOTE]
    >
-   >如果作为链接共享资产的用户未获得管理员的[授权访问原始演绎版](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)，则不会使用共享链接下载原始演绎版。
+   >如果管理员未授权共享资产的用户，则共享链接不会下载原始演绎版。 另请参阅管理员授权的[访问原始演绎版](../using/brand-portal-adding-users.md#manage-group-roles-and-privileges)。
 
 
 >[!NOTE]
 >
->Brand Portal使用链接共享来限制下载大小大于5 GB的文件夹或资源。
+>Brand Portal使用链接共享来限制下载大于5 GB的文件夹或资源。
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -202,7 +199,7 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户
 
 要将以前共享的资产取消作为链接共享，请执行以下操作：
 
-1. 登录Brand Portal时，**[!UICONTROL 文件]**&#x200B;视图默认打开。 要查看您共享为链接的资源，请导航到&#x200B;**[!UICONTROL 共享链接]**&#x200B;视图。
+1. 登录到Brand Portal时，**[!UICONTROL 文件]**&#x200B;视图默认打开。 要查看您共享为链接的资源，请导航到&#x200B;**[!UICONTROL 共享链接]**&#x200B;视图。
 
 1. 从显示的列表中查看您共享的链接。
 

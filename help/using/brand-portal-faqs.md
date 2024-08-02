@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新Experience Man
 
 **问题：升级到Adobe Developer Console后，我无法将贡献文件夹的资源从Brand Portal发布到Experience Manager Assets。 我的创作实例位于Experience Manager Assets 6.5.4。可能的原因是什么？**
 
-**答案：**&#x200B;是，通过Adobe Developer Console将贡献文件夹的资源发布到Experience Manager Assets 6.5.4时出现已知问题。
+**回答：**&#x200B;是，通过Adobe Developer Console将贡献文件夹的资源发布到Experience Manager Assets 6.5.4时出现已知问题。
 
 已在Experience Manager Assets 6.5.5中修复此问题。您可以在Adobe Developer Console上将Experience Manager Assets实例升级到最新的Service Pack并[升级配置](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
