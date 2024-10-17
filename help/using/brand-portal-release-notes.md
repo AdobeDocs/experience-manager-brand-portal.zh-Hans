@@ -6,9 +6,9 @@ contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
+source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 此版本包含以下错误修复：
 
 * 未发送采购导入事件的电子邮件通知。
-* 使用搜索筛选器时，Brand Portal会在搜索筛选器窗口中显示重复的文件夹。
+* 使用搜索筛选器时，[!DNL Brand Portal]在搜索筛选器窗口中显示重复的文件夹。
 * 无法下载包含名称中包含特殊字符的非许可资产的收藏集。
 * 导航到[!UICONTROL 搜索表单编辑器]时，标签未本地化。
 * 标签在链接共享窗口中未本地化。
