@@ -1,14 +1,14 @@
 ---
 title: Experience Manager Assets Brand Portal的新增功能
-description: 了解Experience Manager Assets Brand Portal版本2024.02.0中的新增功能和增强功能。
+description: 了解Experience Manager Assets Brand Portal版本2024.10.0中的新增功能和增强功能。
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 436ade72b12e66f2b2015874c0115ee3cfd709e6
+source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
 workflow-type: tm+mt
-source-wordcount: '6555'
+source-wordcount: '6582'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Experience Manager Assets Brand Portal的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal可帮助您轻松地获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Adobe正在努力改善整个Brand Portal体验。 以下是对新增功能和增强功能的简要介绍。
+
+## 2024.10.0版中的更改内容 {#what-changed-in-October-2024}
+
+Brand Portal 2024.10.0是一个内部版本，其中包括对关键问题的修复。 查看最新的[Brand Portal发行说明](brand-portal-release-notes.md)。
 
 ## 2024.02.0版中的更改内容 {#what-changed-in-February-2024}
 

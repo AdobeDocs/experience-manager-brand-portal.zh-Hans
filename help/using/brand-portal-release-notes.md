@@ -1,38 +1,55 @@
 ---
 title: 发行说明
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2024.02.0版本中的功能、增强功能、修复的关键问题和已知问题。
+description: 深入了解Adobe Experience Manager Assets Brand Portal 2024.10.0版本中的功能、增强功能、修复的关键问题和已知问题。
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 623d78ee5bd82d1cd6c271962e29c6b71192bcfd
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1535'
 ht-degree: 4%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2024.02.0版本中的新增功能、增强功能、修复的关键问题和已知问题。
+深入了解Adobe Experience Manager Assets Brand Portal 2024.10.0版本中的新增功能、增强功能、修复的关键问题和已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2024.02.0 |
-| 日期 | 2024年2月 |
+| 版本 | 2024.10.0 |
+| 日期 | 2024年10 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、控制经过批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资源。
 
-## 2024.02.0的新增功能{#whats-new-in-2024.02.0}
+## 2024.10.0的新增功能{#whats-new-in-2024.10.0}
 
 ### 已修复的关键问题 {#critical-issues-fixed}
 
 #### 错误修复 {#bug-fixes}
+
+此版本包含以下错误修复：
+
+* 未发送采购导入事件的电子邮件通知。
+* 使用搜索筛选器时，Brand Portal会在搜索筛选器窗口中显示重复的文件夹。
+* 无法下载包含名称中包含特殊字符的非许可资产的收藏集。
+* 导航到[!UICONTROL 搜索表单编辑器]时，标签未本地化。
+* 标签在链接共享窗口中未本地化。
+* 无法下载名称中包含特殊字符的视频。
+* 将资产从[!DNL Adobe Experience Manager Assets]发布到Brand Portal并将其取消发布无法正常运行。
+* 无法播放从Brand Portal下载的视频。
+
+## 以前的版本
+
+### 2024 年 2 月版本 {#feb-2024}
+
+**错误修复和增强功能**
 
 此版本包含以下错误修复：
 
@@ -44,8 +61,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、
 * 下载弹出窗口中资源的标题和大小未对齐。
 * 创建报告时，标签未本地化。
 * 在Brand Portal中，支持管理员称为管理员。
-
-## 以前的版本
 
 ### 2023 年 10 月版本 {#oct-2023}
 
