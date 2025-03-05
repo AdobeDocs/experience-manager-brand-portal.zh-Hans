@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1603'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 5%
 **[!UICONTROL 构建表单]**&#x200B;选项卡列出了可在架构表单中使用的项目。 **[!UICONTROL 设置]**&#x200B;选项卡提供您在&#x200B;**[!UICONTROL 构建表单]**&#x200B;选项卡中选择的每个项目的属性。 下表列出了&#x200B;**[!UICONTROL 生成表单]**&#x200B;选项卡中可用的表单项：
 
 | 组件名称 | 描述 |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL 节标题]** | 为常用组件列表添加章节标题。 |
 | **[!UICONTROL 单行文本]** | 添加单行文本属性。 它存储为字符串。 |
 | **[!UICONTROL 多值文本]** | 添加多值文本属性。 它存储为字符串数组。 |
@@ -84,11 +84,12 @@ ht-degree: 5%
 | **[!UICONTROL 下拉列表]** | 添加下拉列表。 |
 | **[!UICONTROL 标准标记]** | 添加标记。 管理员可能需要更改路径值。 例如，`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他们从Experience Manager Assets发布元数据架构表单，其中路径不包括租户信息，例如`/etc/tags/<custom_tag_namespace>`。 |
 | **[!UICONTROL 智能标记]** | 如果您已购买并配置Experience Manager Assets智能标记加载项，则为自动检测到的标记。 |
-| **[!UICONTROL 隐藏字段]** | 添加隐藏字段。 在保存资源时，它将作为POST参数发送。 |
+| **[!UICONTROL 隐藏字段]** | 添加隐藏字段。 保存资产时，此参数将作为POST参数发送。 |
 | **[!UICONTROL 由]**&#x200B;引用的资产 | 添加此组件可查看资产引用的资产列表。 |
 | **[!UICONTROL 资源引用]** | 添加以显示引用资产的资产列表。 |
-| **[!UICONTROL 资产评级]** | 从Experience Manager Assets添加的资产在发布到Brand Portal之前的平均评级。 |
 | **[!UICONTROL 上下文元数据]** | 添加以控制其他元数据选项卡在资源属性页面中的显示。 |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ ht-degree: 5%
 
 — `./jcr:content/metadata/dc:title`：将该值作为属性`dc:title`存储在资产的元数据节点中。
 
-— `./jcr:created`：在资产的节点上显示jcr属性。 如果您在视图属性上配置了这些属性，Adobe建议将它们标记为“禁用编辑”，因为它们是受保护属性。 否则，在保存资产的属性时，会出现“Assets无法修改”错误。
+— `./jcr:created`：在资产的节点上显示jcr属性。 如果您在视图资产上配置了这些资产，Adobe建议您将其标记为“禁用编辑”，因为它们是受保护资产。 否则，在保存资产的属性时，会出现“Assets无法修改”错误。
 
 * **[!UICONTROL 占位符]**：使用此属性向用户提供有关元数据属性的任何相关信息。
 * **[!UICONTROL 必需]**：使用此属性在“属性”页面上将元数据属性标记为必需。
@@ -115,7 +116,7 @@ ht-degree: 5%
 * **[!UICONTROL 描述]**：使用此属性为元数据组件添加简短描述。
 * **[!UICONTROL 删除图标]**：单击此图标可从架构表单中删除组件。
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,9 +130,9 @@ ht-degree: 5%
 
 * 要在架构表单上添加新选项卡，请单击&#x200B;**[!UICONTROL +]**。 默认情况下，新选项卡的名称为“Unnamed-1”。 您可以从&#x200B;**[!UICONTROL 设置]**&#x200B;选项卡修改名称。
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
-* 要删除选项卡，请单击&#x200B;**[!UICONTROL x]**。 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存更改。
+* 要删除选项卡，请单击&#x200B;**[!UICONTROL x]**。 点击&#x200B;**[!UICONTROL 保存]**&#x200B;即可保存更改。
 
 ## 将元数据架构应用到文件夹 {#apply-a-metadata-schema-to-a-folder}
 
