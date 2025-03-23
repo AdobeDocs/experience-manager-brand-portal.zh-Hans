@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 先决条件 {#prerequisites}
 
-* Experience Manager Assetsas a Cloud Service实例，Experience Manager Assets 6.5.2或更高版本。
+* Experience Manager Assets as a Cloud Service实例，Experience Manager Assets 6.5.2或更高版本。
 * 确保已使用Brand Portal配置您的Experience Manager Assets实例。 请参阅[使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
 <!--
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->默认情况下，Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.5.9及更高版本上启用了“资源源”功能。
+>默认情况下，Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.5.9及更高版本上启用了资源源功能。
 >
 >现有配置在早期版本上继续可用。
 
@@ -108,7 +108,7 @@ Experience Manager Assets管理员可以上传包含Experience Manager Assets中
 
 >[!NOTE]
 >
->CSV文件的格式与批量用户导入的Admin Console中支持的格式相同。 电子邮件、名字和姓氏是必填项。
+>CSV文件的格式与Admin Console中支持的用于批量用户导入的格式相同。 电子邮件、名字和姓氏是必填项。
 
 管理员可以在Admin Console中添加新用户。 有关详细信息，请转到[管理用户](brand-portal-adding-users.md)。 在Admin Console中添加用户后，可以将这些用户添加到Brand Portal用户配置文件，然后为其分配访问贡献文件夹的权限。
 
@@ -130,4 +130,4 @@ Experience Manager Assets管理员可以上传包含Experience Manager Assets中
 
 * [配置贡献文件夹并将其发布到Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Publish贡献文件夹到Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [将贡献文件夹发布到Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
