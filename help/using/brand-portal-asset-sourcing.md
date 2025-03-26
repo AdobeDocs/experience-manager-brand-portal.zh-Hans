@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -122,7 +122,6 @@ Experience Manager Assets管理员可以上传包含Experience Manager Assets中
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/upload-user-list2.png)
-
 
 在配置贡献文件夹时，管理员可以通过此用户列表向特定用户提供访问权限。 只有分配到贡献文件夹的用户才有权访问贡献文件夹，并可以将资源从Brand Portal发布到Experience Manager Assets。
 
