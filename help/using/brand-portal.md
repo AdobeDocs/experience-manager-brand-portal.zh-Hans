@@ -5,7 +5,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 4%
@@ -31,11 +31,11 @@ Asset Distribution允许您获取、控制经批准的创意资产，并将这�
 
 >[!NOTE]
 >
->Experience Manager Assetsas a Cloud Service、Experience Manager Assets 6.3及更高版本支持使用Brand Portal配置Experience Manager Assets。
+>Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.3及更高版本支持使用Brand Portal配置Experience Manager Assets。
 
-通过从Cloud Manager激活Experience Manager Assets，可使用Brand Portal自动配置Brand Portalas a Cloud Service。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assetsas a Cloud Service实例相同的IMS组织上激活Brand Portal。
+通过从Cloud Manager激活Experience Manager Assets as a Cloud Service，可自动使用Brand Portal配置Brand Portal。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assets as a Cloud Service实例相同的IMS组织上激活Brand Portal。
 
-但是，Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的，Adobe Developer Console可获取AdobeIdentity Management Services (IMS)令牌以授权Brand Portal租户。
+但是，Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的，Adobe Developer Console可获取Adobe Identity Management Services (IMS)令牌以授权Brand Portal租户。
 
 有关详细信息，请参阅[使用Brand Portal配置Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
@@ -52,7 +52,7 @@ Brand Portal支持以下用户角色：
 
 |  | **浏览** | **搜索** | **下载** | **共享文件夹** | **共享收藏集** | **以链接方式共享资产** | **访问管理工具** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| **来宾用户** | ✓韩亚航空* | ✓韩亚航空* | ✓韩亚航空* | x | x | x | x |
+| **来宾用户** | ✓* | ✓* | ✓* | x | x | x | x |
 | **查看器** | ✓ | ✓ | ✓ | x | x | x | x |
 | **编辑器** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **管理员** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -93,11 +93,11 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 * [搜索资产](brand-portal-searching.md)
 
-* [下载资源](brand-portal-download-assets.md)
+* [下载资产](brand-portal-download-assets.md)
 
 ### 编辑器 {#editor}
 
-具有编辑者角色的用户可以执行查看器可以执行的所有任务。 此外，和编辑器可以查看管理员共享的文件和文件夹。 具有编辑者角色的用户还可以与其他人共享内容（文件、文件夹、收藏集）。
+具有编辑者角色的用户可以执行查看器可以执行的所有任务。 此外，编辑者可以查看管理员共享的文件和文件夹。 具有编辑者角色的用户还可以与其他人共享内容（文件、文件夹、收藏集）。
 
 除了查看器可以执行的任务外，编辑器还可以执行以下附加任务：
 
@@ -146,7 +146,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 ## 请求访问Brand Portal {#request-access-to-brand-portal}
 
-用户可以从登录屏幕请求访问Brand Portal。 这些请求将发送给Brand Portal管理员，管理员通过Adobe[!UICONTROL Admin Console]向用户授予访问权限。 授予访问权限后，用户会收到通知电子邮件。
+用户可以从登录屏幕请求访问Brand Portal。 这些请求将发送给Brand Portal管理员，管理员将通过Adobe [!UICONTROL Admin Console]向用户授予访问权限。 授予访问权限后，用户会收到通知电子邮件。
 
 要请求访问权限，请执行以下操作：
 
@@ -197,13 +197,13 @@ Brand Portal产品管理员在其Brand Portal通知区域并通过其收件箱�
 ![访问请求的通知](assets/bplogin_request_access_7.png)
 
 要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击&#x200B;**[!UICONTROL 授予访问权限]**。
-或者，产品管理员可以按照访问请求电子邮件中提供的链接访问Adobe[!UICONTROL Admin Console]，并将用户添加到相关的产品配置中。
+或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console]，并将用户添加到相关的产品配置。
 
-您被重定向到[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)主页。 使用Adobe[!UICONTROL Admin Console]创建用户，并将其分配给产品配置文件（以前称为产品配置），这些配置文件在Brand Portal中显示为组。 有关在[!UICONTROL Admin Console]中添加用户的详细信息，请参阅[添加用户](brand-portal-adding-users.md#add-a-user)（按照过程中的步骤4-7添加用户）。
+您将被重定向到[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)主页。 使用Adobe [!UICONTROL Admin Console]创建用户并将其分配给产品配置文件（以前称为产品配置），这些配置文件在Brand Portal中显示为组。 有关在[!UICONTROL Admin Console]中添加用户的详细信息，请参阅[添加用户](brand-portal-adding-users.md#add-a-user)（按照过程中的步骤4-7添加用户）。
 
 ## Brand Portal语言 {#brand-portal-language}
 
-您可以从Adobe[!UICONTROL Experience Cloud设置]中更改Brand Portal语言。
+您可以从Adobe [!UICONTROL Brand Portal设置]中更改Experience Cloud语言。
 
 ![访问请求的通知](assets/BPLang.png)
 
