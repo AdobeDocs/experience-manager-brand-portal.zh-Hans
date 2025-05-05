@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## Publish搜索Facet到Brand Portal {#publish-search-facets-to-brand-portal}
 
-搜索表单为Brand Portal上的用户提供[面向搜索](../using/brand-portal-search-facets.md)的功能。 搜索Facet可为Brand Portal上的搜索提供更高的粒度。 在搜索表单中添加的所有[谓词](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets)都可用作搜索筛选器中的搜索Facet。
+搜索表单为Brand Portal上的用户提供[面向搜索](../using/brand-portal-search-facets.md)的功能。 搜索Facet可为Brand Portal上的搜索提供更高的粒度。 在搜索表单中添加的所有[谓词](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/search-facets)都可用作搜索筛选器中的搜索Facet。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ### 在Brand Portal上与用户组共享文件夹 {#sharing-folders-with-user-groups-on-brand-portal}
 
-文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
+文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
 
 同样，有权仅访问文件夹B的用户组（或用户）对文件夹C而不是文件夹A具有相同的访问权限。Adobe建议组织内容，以便将最公开的资源放在子文件夹中，从而允许从子文件夹一直到根文件夹的访问权限受到限制。
 

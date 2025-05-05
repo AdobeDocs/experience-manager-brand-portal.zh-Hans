@@ -16,7 +16,7 @@ ht-degree: 2%
 
 了解如何将标记从Experience Manager Assets发布到Brand Portal。
 
-标记可用于组织资源并提高与其关联的资源的可搜索性。 标记可以视为与资产附加的关键字或标签（元数据），并允许通过搜索快速找到资产。 要了解如何在Experience Manager Assets中为资源分配标记，请参阅[使用标记整理资源](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)。
+标记可用于组织资源并提高与其关联的资源的可搜索性。 标记可以视为与资产附加的关键字或标签（元数据），并允许通过搜索快速找到资产。 要了解如何在Experience Manager Assets中为资源分配标记，请参阅[使用标记整理资源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/organize-assets)。
 
 将标记(与AEM中的资源和收藏集关联)与关联标记中的资产（和收藏集）发布到Brand Portal后，这些标记会自动发布到Brand Portal。 发布的标记有助于使搜索功能查找关联的资源。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
      *（必需）*&#x200B;标记的显示标题。
    * **[!UICONTROL 名称]**
 
-     *（必需）*&#x200B;标记的名称。 如果未指定，则从标题创建有效的节点名称。 请参阅 [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
+     *（必需）*&#x200B;标记的名称。 如果未指定，则从标题创建有效的节点名称。 请参阅 [TagID](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
    * **描述**
 
      *（可选）*&#x200B;标记的说明。
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 1. **将标记附加到资产（或收藏集）**。
 
-   选择一个资产（或收藏集），然后使用该资产的“属性”部分或“管理标记”部分附加所需的标记。 要详细了解如何在AEM Assets中为资源分配标记，请转到[使用标记整理资源](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)。
+   选择一个资产（或收藏集），然后使用该资产的“属性”部分或“管理标记”部分附加所需的标记。 要详细了解如何在AEM Assets中为资源分配标记，请转到[使用标记整理资源](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/managing/organize-assets)。
 
 1. **Publish资源（或收藏集）到Brand Portal**。\
    在将资产（或收藏集）发布到Brand Portal时，附加的标记也在Brand Portal上可用。

@@ -29,7 +29,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新Experience Man
 
 **回答：**&#x200B;是，通过Adobe Developer Console将贡献文件夹的资源发布到Experience Manager Assets 6.5.4时出现已知问题。
 
-已在Experience Manager Assets 6.5.5中修复此问题。您可以在Adobe Developer Console上将Experience Manager Assets实例升级到最新的Service Pack并[升级配置](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
+已在Experience Manager Assets 6.5.5中修复此问题。您可以在Adobe Developer Console上将Experience Manager Assets实例升级到最新的Service Pack并[升级配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
 
 **问题：我在Experience Manager Assets中看不到从Brand Portal发布的contribution文件夹的内容。 可能的原因是什么？**

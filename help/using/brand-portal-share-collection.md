@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
+收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
 
 * **管理员**&#x200B;可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户加入某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
 

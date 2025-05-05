@@ -71,7 +71,7 @@ ht-degree: 3%
 
 在从Brand Portal下载许可资产之前，必须接受许可协议。 当您直接从Brand Portal或通过共享链接下载资源时，即会签署此许可资源协议。 无论是否已过期，所有用户都可以查看受许可证保护的资产。 但是，已过期的许可资产的下载和使用有限。 要了解过期许可资产的行为以及基于用户角色的可允许活动，请参阅过期资产的[使用权限](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
 
-受许可证保护的资产附有[许可协议](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)，可通过在[!DNL Experience Manager Assets]中设置资产的元数据属性来完成此操作。
+受许可证保护的资产附有[许可协议](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/drm)，可通过在[!DNL Experience Manager Assets]中设置资产的元数据属性来完成此操作。
 
 如果资产包含以下（或两者）元数据属性之一，则将该资产视为受保护：
 

@@ -156,7 +156,7 @@ Brand Portal用户可以从Brand Portal界面下载多个资源、包含资源�
      >
      >如果您下载的资源也包含许可资源，则您将被重定向到&#x200B;**[!UICONTROL 版权管理]**&#x200B;页面。 在此页面中，选择资源，单击&#x200B;**[!UICONTROL 同意]**，然后单击&#x200B;**[!UICONTROL 下载]**。 如果您选择不同意，则不会下载许可资产。
      > 
-     >受许可证保护的资源附有[许可协议](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)，可通过在Experience Manager Assets中设置资源的[元数据属性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)来完成此操作。
+     >受许可证保护的资源附有[许可协议](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/drm)，可通过在Experience Manager Assets中设置资源的[元数据属性](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/administer/drm)来完成此操作。
 
 
      ![licensed-asset](assets/licensed-asset-new.png)

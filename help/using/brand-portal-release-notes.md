@@ -391,7 +391,7 @@ This release includes the following known issues:
 ## 链接 {#links}
 
 * adobe.com上的[Adobe Experience Manager产品页](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal文档](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Assets Brand Portal文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/home)
 
 ## 产品访问和支持（受限制的站点） {#product-access-and-support-restricted-sites}
 

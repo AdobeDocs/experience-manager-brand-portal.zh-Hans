@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >Experience Manager Assets 6.5.4中存在已知问题。升级到Adobe Developer Console时，Brand Portal用户无法将contribution文件夹的资源发布到Experience Manager Assets。
 >
->已在Experience Manager Assets 6.5.5中修复此问题。您可以在Adobe Developer Console上将Experience Manager Assets实例升级到最新的Service Pack并[升级配置](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
+>已在Experience Manager Assets 6.5.5中修复此问题。您可以在Adobe Developer Console上将Experience Manager Assets实例升级到最新的Service Pack并[升级配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
 <!--
 
