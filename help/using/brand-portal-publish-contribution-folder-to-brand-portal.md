@@ -52,7 +52,7 @@ Experience Manager Assets管理员和具有创建新文件夹权限的非管理�
 
 1. 单击&#x200B;**[!UICONTROL 创建]**&#x200B;以创建新文件夹。 **[!UICONTROL 创建文件夹]**&#x200B;对话框打开。
 
-1. 输入文件夹的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，然后选择&#x200B;**[!UICONTROL 资产贡献]**复选框。
+1. 输入文件夹的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，然后选择&#x200B;**[!UICONTROL 资产贡献]**&#x200B;复选框。
 Adobe建议使用小写字母而不留任何空格来命名文件夹。
 
 1. 单击&#x200B;**[!UICONTROL 创建]**。您可以看到Experience Manager Assets存储库中列出的贡献文件夹。

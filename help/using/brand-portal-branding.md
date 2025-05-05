@@ -90,10 +90,10 @@ Brand Portal管理员可以对向用户显示的界面进行有限的自定义�
 
    ![](assets/asset-picker-header.png)
 
-1. 要在标题图像中包含某个URL，请在&#x200B;**[!UICONTROL 图像URL]**框中指定该项。 您可以指定外部或内部URL。 内部链接也可以是相对链接，例如，
+1. 要在标题图像中包含某个URL，请在&#x200B;**[!UICONTROL 图像URL]**&#x200B;框中指定该项。 您可以指定外部或内部URL。 内部链接也可以是相对链接，例如，
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`]。
 此链接会将用户定向到tags文件夹。
-要保存更改，请单击顶部工具栏中的**[!UICONTROL 保存]**。
+要保存更改，请单击顶部工具栏中的&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/configure_brandingheaderimageurl.png)
 

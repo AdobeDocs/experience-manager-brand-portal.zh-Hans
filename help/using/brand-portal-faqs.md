@@ -91,7 +91,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新Experience Man
 
 **问题：谁可以创建贡献文件夹？**
 
-**回答：**&#x200B;任何有权在Experience Manager Assets中创建文件夹的Experience Manager Assets用户都可以创建&#x200B;**贡献**&#x200B;文件夹。 要创建&#x200B;**贡献**&#x200B;文件夹，请创建&#x200B;**资产贡献**类型的文件夹。
+**回答：**&#x200B;任何有权在Experience Manager Assets中创建文件夹的Experience Manager Assets用户都可以创建&#x200B;**贡献**&#x200B;文件夹。 要创建&#x200B;**贡献**&#x200B;文件夹，请创建&#x200B;**资产贡献**&#x200B;类型的文件夹。
 此文件夹与活动的Brand Portal用户共享，以便进行贡献。
 
 
@@ -99,7 +99,7 @@ Brand Portal常见问题解答侧重于最终用户在使用最新Experience Man
 **问题：“贡献”文件夹包含什么？**
 
 **答案：** **贡献**&#x200B;文件夹包含两个子文件夹&#x200B;**NEW**&#x200B;和&#x200B;**SHARED**。 最初，NEW文件夹为空，并且SHARED文件夹包含Brand Portal用户的引用内容（可重用资源）。
-Brand Portal用户访问**贡献**&#x200B;文件夹并上传&#x200B;**新建**&#x200B;文件夹中的内容。
+Brand Portal用户访问&#x200B;**贡献**&#x200B;文件夹并上传&#x200B;**新建**&#x200B;文件夹中的内容。
 
 
 

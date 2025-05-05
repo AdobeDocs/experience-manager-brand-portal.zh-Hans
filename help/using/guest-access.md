@@ -38,7 +38,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## 来宾会话持续时间 {#guest-session-duration}
 
 访客用户会话保持活动状态15分钟。
-此过程将**[!UICONTROL Lightbox]**&#x200B;的状态从会话开始时间保留15分钟。 之后，当前来宾会话重新启动，导致Lightbox状态丢失。
+此过程将&#x200B;**[!UICONTROL Lightbox]**&#x200B;的状态从会话开始时间保留15分钟。 之后，当前来宾会话重新启动，导致Lightbox状态丢失。
 
 例如，访客用户在1500小时登录到Brand Portal，并在15:05小时将资源添加到&#x200B;**[!UICONTROL Lightbox]**&#x200B;以供下载。 如果用户未在15:15小时（登录后15分钟内）之前下载&#x200B;**[!UICONTROL Lightbox]**&#x200B;收藏集（或其资产），则用户必须重新启动会话。 **[!UICONTROL Lightbox]**&#x200B;为空，这意味着如果会话丢失，则上传的资源不再可用。
 

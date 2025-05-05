@@ -187,7 +187,7 @@ AEM Assetsas a Cloud Service上现在提供了资源源功能。 默认情况下
 
 以前，资产源仅在AEM Assets上可用（内部部署和托管服务）。
 
-请参阅Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)中的[资源源。
+请参阅Brand Portal[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)中的资源源。
 
 ### 资源下载 {#asset-download-setting}
 
@@ -251,7 +251,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 为每个资源创建单独的文件夹。
 * 下载所选资源及其演绎版。
 
-对于独立的资产、多个资产、包含资产的文件夹、已许可或未许可的资产，以及通过共享链接下载资产时，下载工作流都是一致的。 查看从Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下载资源的[步骤。
+对于独立的资产、多个资产、包含资产的文件夹、已许可或未许可的资产，以及通过共享链接下载资产时，下载工作流都是一致的。 查看从Brand Portal[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下载资源的步骤。
 
 ![download-dialog-box](assets/download-dialog-box.png)
 
@@ -759,7 +759,7 @@ Brand Portal 6.4.1是一个平台升级版本。 它引入了几项新功能和�
 ![](assets/navigatereport.png)
 
 **已修改入口点以访问使用情况报告**
-使用情况报表现已与其他报表合并，现在可以从“资产报表”控制台中查看。 要访问资产报告控制台，请从管理工具面板导航到**创建/管理报告**。
+使用情况报表现已与其他报表合并，现在可以从“资产报表”控制台中查看。 要访问资产报告控制台，请从管理工具面板导航到&#x200B;**创建/管理报告**。
 
 ![](assets/accessassetreport.png)
 

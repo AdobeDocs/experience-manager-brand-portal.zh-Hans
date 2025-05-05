@@ -31,7 +31,7 @@ ht-degree: 2%
 要在AEM中创建标记，请在Brand Portal中发布标记，并将标记与相应的资产（或收藏集）关联，请执行以下步骤：
 
 1. **创建标记**
-使用管理权限登录到AEM Author实例，然后从全局导航访问**[!UICONTROL AEM Tags]**&#x200B;控制台：
+使用管理权限登录到AEM Author实例，然后从全局导航访问&#x200B;**[!UICONTROL AEM Tags]**&#x200B;控制台：
 
    1. 选择&#x200B;**[!UICONTROL 工具]**
 
@@ -43,10 +43,13 @@ ht-degree: 2%
 1. 指定：
 
    * **[!UICONTROL 标题]**
+
      *（必需）*&#x200B;标记的显示标题。
    * **[!UICONTROL 名称]**
+
      *（必需）*&#x200B;标记的名称。 如果未指定，则从标题创建有效的节点名称。 请参阅 [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
    * **描述**
+
      *（可选）*&#x200B;标记的说明。
    * **标记路径**
 标记的JCR路径。
@@ -82,5 +85,5 @@ ht-degree: 2%
 
 1. 保存更改。
 1. 将资源Publish到Brand Portal。
-1. 登录到Brand Portal。 在资产的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中查看&#x200B;**[!UICONTROL 高级]**选项卡。
+1. 登录到Brand Portal。 在资产的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中查看&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡。
 请注意，**[!UICONTROL Search Promote]**&#x200B;关键字也在该资产的属性中可见。

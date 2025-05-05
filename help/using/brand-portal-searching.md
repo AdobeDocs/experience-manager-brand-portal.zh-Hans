@@ -57,7 +57,7 @@ ht-degree: 0%
 Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal中的“筛选器”面板")
 
 **[!UICONTROL 筛选器]**&#x200B;面板包含几个标准Facet，如 — **[!UICONTROL 路径浏览器]**、**[!UICONTROL 文件类型]**、**[!UICONTROL 文件大小]**、**[!UICONTROL 状态]**&#x200B;和&#x200B;**[!UICONTROL 方向]**。
-但是，您可以[添加自定义搜索彩块化](../using/brand-portal-search-facets.md)或从&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中删除特定彩块化。 只需编辑基础搜索表单中的谓词。 查看Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates)上可用的[搜索谓词列表。
+但是，您可以[添加自定义搜索彩块化](../using/brand-portal-search-facets.md)或从&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中删除特定彩块化。 只需编辑基础搜索表单中的谓词。 查看Brand Portal[&#128279;](../using/brand-portal-search-facets.md#list-of-search-predicates)上可用的搜索谓词列表。
 
 要使用可用的[搜索Facet](../using/brand-portal-search-facets.md)将筛选器应用于搜索，请执行以下操作：
 
@@ -65,7 +65,7 @@ Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal�
 
    ![](assets/selectorrail.png)
 
-1. 从左侧的&#x200B;**[!UICONTROL 筛选器]**面板中选择适当的选项以应用相关筛选器。
+1. 从左侧的&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中选择适当的选项以应用相关筛选器。
 例如，使用以下标准过滤器：
 
    * **[!UICONTROL 路径浏览器]**&#x200B;以搜索特定目录中的资产。 路径浏览器的谓词的默认搜索路径为`/content/dam/mac/<tenant-id>/`，可通过编辑默认搜索表单对其进行配置。
@@ -90,7 +90,7 @@ Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal�
      [!UICONTROL 属性谓词]支持以下内容的文本搜索：
 
      **部分短语**
-要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用**[!UICONTROL 部分搜索]**&#x200B;复选框。 通过此方法，您可以搜索所需的资源，即使您未指定资源元数据中使用的确切单词或短语。
+要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框。 通过此方法，您可以搜索所需的资源，即使您未指定资源元数据中使用的确切单词或短语。
 
      >[!NOTE]
      >
@@ -109,7 +109,7 @@ Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal�
          * **&#42;climb&#42;**&#x200B;返回其标题短语中包含字符“climb”的所有资产。
 
      **不区分大小写的文本**
-您可以在属性谓词中允许不区分大小写的搜索。 只需启用“搜索表单”中的**[!UICONTROL 忽略大小写]**&#x200B;复选框。 默认情况下，属性谓词中的文本搜索区分大小写。
+您可以在属性谓词中允许不区分大小写的搜索。 只需启用“搜索表单”中的&#x200B;**[!UICONTROL 忽略大小写]**&#x200B;复选框。 默认情况下，属性谓词中的文本搜索区分大小写。
 
    >[!NOTE]
    >

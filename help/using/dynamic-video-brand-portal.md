@@ -32,7 +32,7 @@ Brand Portal用户可以：
 * [Dynamic Media混合配置](#configure-dm-hybrid-settings)
 如果Experience Manager创作实例以Dynamic Media — 混合模式运行。
 * [Dynamic Media [!DNL Scene7] 配置](#configure-dm-scene7-settings)
-如果Experience Manager创作实例在Dynamic Media - **[!DNL Scene7]**模式下运行。
+如果Experience Manager创作实例在Dynamic Media - **[!DNL Scene7]**&#x200B;模式下运行。
 根据您在用于复制Brand Portal租户的Experience Manager创作实例中设置的配置，设置这些配置中的任意一个。
 
 >[!NOTE]
@@ -104,7 +104,7 @@ Brand Portal存储库不存储视频编码并从&#x200B;**[!DNL Scene7]**&#x200B
 
 * **[!UICONTROL 标题]**
 * **[!UICONTROL 注册ID]**
-* **[!UICONTROL Dynamic Media — 混合模式中的**[!UICONTROL &#x200B;视频服务URL ]**]**
+* **[!UICONTROL Dynamic Media — 混合模式中的**&#x200B;[!UICONTROL &#x200B;视频服务URL &#x200B;]&#x200B;**]**
 * **[!UICONTROL 标题]**
 * 凭据（**[!UICONTROL 电子邮件]**&#x200B;和密码）
 * **[!UICONTROL 地区]**
@@ -112,8 +112,8 @@ Brand Portal存储库不存储视频编码并从&#x200B;**[!DNL Scene7]**&#x200B
 
 ### Dynamic Media Scene7模式的允许列表公共出口IP
 
-如果Dynamic Media **[!UICONTROL Scene7]** — 启用了[安全预览](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) — 用于向Brand Portal提供视频资源，则&#x200B;**[!UICONTROL Scene7]**会为暂存环境或内部应用程序建立专用图像服务器。 对此服务器的任何请求都会检查原始IP地址。 如果传入请求不在批准的IP地址列表中，则会返回失败响应。
-因此，**[!UICONTROL Scene7]**&#x200B;公司管理员通过&#x200B;**[!UICONTROL SPS]** (Scene7 Publishing System) Flash UI为其公司的&#x200B;**[!UICONTROL 安全测试]**环境配置已批准的IP地址列表。 确保将您各自区域（来自以下区域）的出口IP添加到该批准列表。
+如果Dynamic Media **[!UICONTROL Scene7]** — 启用了[安全预览](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) — 用于向Brand Portal提供视频资源，则&#x200B;**[!UICONTROL Scene7]**&#x200B;会为暂存环境或内部应用程序建立专用图像服务器。 对此服务器的任何请求都会检查原始IP地址。 如果传入请求不在批准的IP地址列表中，则会返回失败响应。
+因此，**[!UICONTROL Scene7]**&#x200B;公司管理员通过&#x200B;**[!UICONTROL SPS]** (Scene7 Publishing System) Flash UI为其公司的&#x200B;**[!UICONTROL 安全测试]**&#x200B;环境配置已批准的IP地址列表。 确保将您各自区域（来自以下区域）的出口IP添加到该批准列表。
 若要允许列表这些出口IP中的任何一个，请参阅[准备帐户以进行安全测试服务](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 出口IP如下所示：
 
@@ -155,7 +155,7 @@ Brand Portal存储库不存储视频编码并从&#x200B;**[!DNL Scene7]**&#x200B
 
 2. 从“管理工具”面板中，选择&#x200B;**[!UICONTROL Dynamic Media配置]**&#x200B;拼贴。
 
-   Brand Portal](assets/DMS7-Tile.png)上的![DM [!UICONTROL Scene 7]配置
+   Brand Portal![&#128279;](assets/DMS7-Tile.png)上的DM [!UICONTROL Scene 7]配置
 
    **[!UICONTROL 编辑Dynamic Media配置]**&#x200B;页面打开。
 

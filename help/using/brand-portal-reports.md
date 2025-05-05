@@ -39,7 +39,7 @@ ht-degree: 0%
 
    要查看报表，请单击报表链接。 或者，选择报告，然后单击工具栏中的查看图标。
 
-   **[!UICONTROL 使用情况报表]**&#x200B;显示有关Brand Portal中活动的Brand Portal用户数、所有资源占用的存储空间以及资源总数的信息。 未分配给Admin Console中任何产品配置文件的Brand Portal用户被视为非活动用户，未反映在&#x200B;**[!UICONTROL 使用情况报表]**中。
+   **[!UICONTROL 使用情况报表]**&#x200B;显示有关Brand Portal中活动的Brand Portal用户数、所有资源占用的存储空间以及资源总数的信息。 未分配给Admin Console中任何产品配置文件的Brand Portal用户被视为非活动用户，未反映在&#x200B;**[!UICONTROL 使用情况报表]**&#x200B;中。
 此报表还会显示每个信息量度的允许容量。
 
    ![](assets/usage-report.png)

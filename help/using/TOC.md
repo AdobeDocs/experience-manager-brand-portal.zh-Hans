@@ -28,7 +28,7 @@ ht-degree: 34%
    + [来宾访问Brand Portal](/help/using/guest-access.md)
    + [了解Brand Portal与Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [在Brand Portal上浏览资源](/help/using/browse-assets-brand-portal.md)
-+ 从Experience Manager Assets到Brand Portal {#publish}的Publish
++ 从Experience Manager Assets到Brand Portal的Publish {#publish}
    + [使用 Brand Portal 配置 Experience Manager Assets](/help/using/configure-aem-assets-with-brand-portal.md)
    + [将资产发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
    + [将文件夹发布到 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
@@ -36,7 +36,7 @@ ht-degree: 34%
    + [对并行发布到Brand Portal时出现的问题进行故障诊断](/help/using/troubleshoot-parallel-publishing.md)
    + [Brand Portal的Publish标记](/help/using/brand-portal-publish-tags.md)
    + [Brand Portal的Publish预设、架构和Facet](/help/using/publish-schema-search-facets-presets.md)
-+ Brand Portal {#asset-sourcing-in-brand-portal}中的资源源
++ Brand Portal中的资源源 {#asset-sourcing-in-brand-portal}
    + [资产来源补充概览](/help/using/brand-portal-asset-sourcing.md)
    + [在Experience Manager Assets中配置贡献文件夹](/help/using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Publish贡献文件夹到Experience Manager Assets](/help/using/brand-portal-publish-contribution-folder-to-aem-assets.md)

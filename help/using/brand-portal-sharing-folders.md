@@ -109,7 +109,7 @@ ht-degree: 1%
 
 1. 如果您不希望向用户显示默认名称，请在&#x200B;**[!UICONTROL 文件夹属性]**&#x200B;控制台的&#x200B;**[!UICONTROL 文件夹标题]**&#x200B;字段中指定文件夹标题。
 1. 从&#x200B;**[!UICONTROL 添加用户]**&#x200B;列表中，选择要与其共享文件夹的用户或组，然后单击&#x200B;**[!UICONTROL 添加]**。
-要仅与来宾用户共享文件夹，而不与其他用户共享，请从**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
+要仅与来宾用户共享文件夹，而不与其他用户共享，请从&#x200B;**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
 
    ![](assets/only-anonymous.png)
 
@@ -135,7 +135,7 @@ ht-degree: 1%
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**以确认取消共享。
-单击**[!UICONTROL 保存]**。
+1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**&#x200B;以确认取消共享。
+单击&#x200B;**[!UICONTROL 保存]**。
 
 1. 使用您从共享列表中删除的用户的凭据登录Brand Portal。 该文件夹在Brand Portal界面中不再可供用户使用。
