@@ -45,7 +45,7 @@ Brand Portal 是基于云的 SAAS 产品。它可作为 Adobe Experience Manager
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
 | [Brand Portal 中的资产搜寻](brand-portal-asset-sourcing.md) | 如何在 AEM Assets 中配置资产搜寻，在 Brand Portal 中上传资产，并将贡献文件夹发布回 AEM Assets。 |
-| [ Brand Portal 功能视频](https://experienceleague.adobe.com/?lang=zh-hans&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 通过视频教程了解如何使用 Experience Manager Assets Brand Portal。 |
+| [ Brand Portal 功能视频](https://experienceleague.adobe.com/zh-hans?lang=zh-hans&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 通过视频教程了解如何使用 Experience Manager Assets Brand Portal。 |
 
 ### 有用资源
 
