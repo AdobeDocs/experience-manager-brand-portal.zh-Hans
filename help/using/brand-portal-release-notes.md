@@ -1,211 +1,211 @@
 ---
 title: 发行说明
-description: 深入了解Adobe Experience Manager Assets Brand Portal 2024.10.0版本中的功能、增强功能、修复的关键问题和已知问题。
+description: 深入了解 Adobe Experience Manager Assets Brand Portal 2024.10.0 版本中的功能、增强功能、已修复的关键问题以及已知问题。
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1533'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解Adobe Experience Manager Assets Brand Portal 2024.10.0版本中的新增功能、增强功能、修复的关键问题和已知问题。
+深入了解 Adobe Experience Manager Assets Brand Portal 2024.10.0 版本中的新功能、增强功能、已修复的关键问题以及已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | 版本 | 2024.10.0 |
-| 日期 | 2024年10 |
+| 日期 | 2024 年 10 月 |
 
 ## 概述 {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal可帮助您轻松地获取、控制经过批准的创意资产，并将这些资产安全地分发给跨设备的外部参与方和内部业务用户。 它有助于提高资产共享效率，加快资产上市速度，并降低不合规和未经授权访问的风险。 Brand Portal允许用户随时随地以公司批准的格式浏览、搜索、预览、下载和导出资源。
+Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部商务用户分发这些资产。它有助于提高资产共享的效率，加快资产的上市时间，降低违规和未经授权访问的风险。 Brand Portal 允许用户随时随地以公司认可的格式浏览、搜索、预览、下载和导出资产。
 
-## 2024.10.0的新增功能{#whats-new-in-2024.10.0}
+## 2024.10.0 版本中的新增功能 {#whats-new-in-2024.10.0}
 
-### 已修复的关键问题 {#critical-issues-fixed}
+### 修复了关键问题 {#critical-issues-fixed}
 
 #### 错误修复 {#bug-fixes}
 
 此版本包含以下错误修复：
 
-* 未发送采购导入事件的电子邮件通知。
-* 使用搜索筛选器时，[!DNL Brand Portal]在搜索筛选器窗口中显示重复的文件夹。
-* 无法下载包含名称中包含特殊字符的非许可资产的收藏集。
-* 导航到[!UICONTROL 搜索表单编辑器]时，标签未本地化。
-* 标签在链接共享窗口中未本地化。
-* 无法下载名称中包含特殊字符的视频。
-* 将资产从[!DNL Adobe Experience Manager Assets]发布到Brand Portal并将其取消发布无法正常运行。
-* 无法播放从Brand Portal下载的视频。
+* 与搜寻导入事件相关的电子邮件通知未被发送。
+* 在使用搜索筛选条件时，[!DNL Brand Portal] 在搜索筛选条件窗口中显示重复的文件夹。
+* 下载包含未许可资产且名称中包含特殊字符的收藏集时，无法正常下载。
+* 在导航至[!UICONTROL 搜索表单编辑器]时，标签未进行本地化。
+* 链接分享窗口中的标签未进行本地化。
+* 无法下载名称中带有特殊字符的视频。
+* 从 [!DNL Adobe Experience Manager Assets] 向 Brand Portal 发布和取消发布资产的操作无法正常进行。
+* 无法播放从 Brand Portal 下载的视频。
 
 ## 以前的版本
 
 ### 2024 年 2 月版本 {#feb-2024}
 
-**错误修复和增强功能**
+**错误修复和增强功能** 
 
 此版本包含以下错误修复：
 
-* 无法在土耳其语言环境中下载受DRM保护的数字资产。
-* 无法打开和下载现有报表，这些报表包含具有多行标题的资产。
-* 使用操作栏中的[!UICONTROL 下载]按钮下载资源时，最多可下载1000个资源。
-* 在PSD树中查看时，内容类型资源的名称不正确。
-* 资源详细信息页面上的[!UICONTROL 删除演绎版]选项不起作用。
-* 下载弹出窗口中资源的标题和大小未对齐。
-* 创建报告时，标签未本地化。
-* 在Brand Portal中，支持管理员称为管理员。
+* 在土耳其地区，无法下载受 DRM 保护的数字资产。
+* 无法打开和下载包含多行标题资产的现有报告。
+* 当您使用操作栏中的[!UICONTROL 下载]按钮下载资产时，最多可下载 1000 个资产。
+* 在内容树中查看时，PSD 类型资产的名称不正确。
+* 资产详情页面上的[!UICONTROL 删除演绎版]选项无法使用。
+* 下载弹出窗口中资产标题和大小不一致。
+* 在创建报告时，标签未进行本地化。
+* 在 Brand Portal 中，支持管理员被称作管理员。
 
 ### 2023 年 10 月版本 {#oct-2023}
 
-**错误修复和增强功能**
-此版本包括以下增强功能：
+**错误修复与增强功能**
+此版本包含以下增强功能：
 
-* 浏览[!UICONTROL 收藏集]时的性能改进。
+* 在浏览[!UICONTROL 收藏夹]时，性能得到了提升。
 
-* 改进了使用OmniSearch字段执行部分搜索时的搜索结果。
+* 在使用 OmniSearch 字段进行部分搜索时，搜索结果有所改进。
 
 此版本包含以下错误修复：
 
-* 无法将[!UICONTROL Date]和[!UICONTROL Options]谓词保存到[!UICONTROL 智能收藏集]。
+* 无法将[!UICONTROL 日期]和[!UICONTROL 选项]谓词保存到[!UICONTROL 智能收藏集]中。
 
-* 使用英语以外的区域设置时，[!UICONTROL 日期和时间]格式不一致。
+* 在非英语区域设置下工作时，[!UICONTROL 日期和时间]格式不一致。
 
-* 执行搜索资产时，缺少[!UICONTROL 删除]按钮。
+* 在搜索资产时，缺少[!UICONTROL 删除]按钮。
 
 * 如果[!UICONTROL 标题]字段在[!UICONTROL 链接共享]中包含多字节符号，则无法下载报告。
 
-* 查看PDF类型文档时，标签和工具提示未本地化。
+* 查看 PDF 类型的文档时，标签和工具提示未本地化。
 
 ### 2023 年 8 月版本 {#aug-2023}
 
-**错误修复和增强功能**
-此版本包括以下增强功能：
+**错误修复与增强功能**
+此版本包含以下增强功能：
 
 * 在[!UICONTROL 下载]弹出窗口中加载资产时的性能改进。
-* 现在，当您下载资源或资源的演绎版时，将以其原始文件类型格式而不是zip文件格式下载。
+* 当您下载资产或资产的演绎版时，现在会以原始文件类型格式下载，而不是以 zip 文件格式下载。
 
 此版本包含以下错误修复：
 
-* 长标签或标记无法正确显示在搜索筛选器中。
-* 无法在“下载”对话框中显示长格式副本名称。
+* 长标签或标记在搜索筛选条件中显示不当。
+* 无法在“下载”对话框中显示长演绎版名称。
 * 无法在卡片视图中预览视频资产。
 
 ### 2023 年 5 月版本 {#may-2023}
 
 **错误修复**
-此版本包括对以下关键问题的修复：
+此版本包含对以下关键问题的修复：
 
-* 如果从共享链接下载资产时出错，则错误提示的`Notice`和`Close`标签未本地化。
-* 使用`Filter`窗格访问搜索筛选器时，Brand Portal显示&#x200B;**请求标头字段太大**&#x200B;错误。
+* 如果从共享链接下载资产时发生错误，错误提示中的 `Notice` 和 `Close` 标签未进行本地化。
+* 在使用 `Filter` 窗格访问搜索筛选条件时，Brand Portal 显示&#x200B;**请求标头字段过大**&#x200B;错误。
 
 **已知问题**
 此版本包括以下已知问题：
 
-* 资产源报表内容中的部分本地化。
-* 用户配置文件的某些字段在用户配置文件上不可编辑。
+* 资产搜寻报告内容中的部分本地化。
+* 用户轮廓中的大部分字段都是可编辑的。
 
 ### 2023 年 2 月版本 {#feb-2023}
 
 **错误修复**
 
-此版本包括对以下关键问题的修复：
+此版本包含对以下关键问题的修复：
 
-* 无法在Brand Portal上更新配置文件图片。
-* 内容树窗格无法调整大小。 如果文件名长于内容树的缺省宽度，则无法水平和垂直拖动内容树。 因此，较长的文件名是不可读的。
-* 在搜索表单中使用两次的同一属性谓词的搜索结果不一致。
-* 并非所有语言都本地化了中间登录页面上的文本。
+* 无法在 Brand Portal 上更新轮廓图片。
+* 内容树窗格不可调整大小。如果文件名长度超过了内容树的默认宽度，则无法水平和垂直拖动内容树。因此，较长的文件名不可读。
+* 在搜索表单中两次使用的同一属性谓词，其搜索结果不一致。
+* 中间登录页面上的文本未针对所有语言进行本地化。
 
 **增强功能**
 
 此版本包括以下增强功能：
 
-* 现在提供了新的现代PDF查看器，以改进PDF资源的预览。
-* 您现在可以选择为管理员启用或禁用资产源通知。 导航到[!UICONTROL 常规设置]，然后启用或禁用[!UICONTROL `Notify Administrator of asset contribution`]。
+* 现已推出全新的现代 PDF 查看器，可提供更佳的 PDF 资产预览体验。
+* 您现在可以选择为管理员启用或禁用资产搜寻通知。导航至[!UICONTROL 常规设置]，然后启用或禁用 [!UICONTROL `Notify Administrator of asset contribution`]。
 
-  ![通知管理员资源贡献](assets/notify-admin.png)
+  ![通知管理员进行资产贡献](assets/notify-admin.png)
 
-* 如果禁用了请求访问权限，则未授权用户无法请求访问Brand Portal。
-* 只有为Brand Portal配置的组织才会显示在配置文件选取器列表中。
+* 如果访问请求被禁用，则未经授权的用户无法请求访问 Brand Portal 。
+* 只有为 Brand Portal 配置的组织才会在轮廓选择器列表中可见。
 
 **已知问题**
 
 此版本包括以下已知问题：
 
-* 资产源报表内容中的部分本地化。
-* 用户配置文件的某些字段在用户配置文件上不可编辑。
+* 资产搜寻报告内容中的部分本地化。
+* 用户轮廓中的大部分字段都是可编辑的。
 
 ### 2022 年 10 月版本 {#oct-2022}
 
-**已修复严重问题**
+**修复了关键问题**
 
-此版本包括对以下关键问题的修复：
+此版本包含对以下关键问题的修复：
 
-* 将大型文件从Brand Portal复制到第三方工具时，响应缓慢。
-* 选中呈现版本计数复选框时，用于选择单个呈现版本的复选框将被禁用。
-* 搜索响应缓慢。
+* 从 Brand Portal 向第三方工具复制大文件时，响应速度较慢。
+* 当您选中演绎版复选框时，用于选择单个演绎版的复选框被禁用。
+* 搜索响应时间慢。
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal中的Pulse通知将从2022年12月1日起停止。 您继续收到以下事件的电子邮件通知，而不是Pulse通知：
+>AEM Assets Brand Portal 中的 Pulse 通知将于 2022 年 12 月 1 日起停止。您将继续收到以下事件的电子邮件通知，而不是 Pulse 通知：
 >
->* 通过链接共享资源
+>* 通过链接共享资产
 >* 请求访问工作流
 >* 共享贡献文件夹
->* 启动导出到AEM的过程
->* 已完成导出到AEM
+>* 开始导出至 AEM
+>* 已完成导出至 AEM
 >
 
 ### 2022 年 8 月版本 {#aug-2022}
 
-**已修复严重问题**
+**已修复关键问题**
 
-此版本包括对以下关键问题的修复：
+此版本包含对以下关键问题的修复：
 
-* 当NUI无法在Experience Manager中处理资源时，Brand Portal显示不准确的资源导入状态。
-* 当预览操作失败时，没有通知可传达该失败。
-* 修复了每个资源的`totalUploadedSize`属性不准确的值。
-* 当您单击&#x200B;**下载所有项目**&#x200B;并且某个资源具有大量可用呈现时，Brand Portal将下载无效的.ZIP文件。
-* 某些字符串的翻译在Brand Portal用户界面中被截断。
+* 当 NUI 无法在 Experience Manager 中处理资产时，Brand Portal 显示不准确的资产导入状态。
+* 预览操作失败时，没有告知失败情况的通知。
+* 修正了每项资产的 `totalUploadedSize` 属性的不准确值。
+* 当您点击&#x200B;**下载所有项目**，并且资产有大量可用的演绎版本时，Brand Portal 下载无效的 .ZIP 文件。
+* Brand Portal 用户界面上的一些字符串翻译被截断。
 
 ### 2022 年 5 月版本 {#may-2022}
 
-**新功能**
+**新增功能**
 
-Brand Portal现在每十二小时执行一次自动作业，以删除发布到AEM的所有Brand Portal资源。 因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。
+Brand Portal 现在每十二小时执行一次自动任务，以删除所有已发布到 AEM 的 Brand Portal 资产。因此，您无需手动删除“贡献”文件夹中的资产，即可将文件夹大小保持在阈值限制以下。
 
-**已修复严重问题**
+**修复了关键问题**
 
-此版本包括对以下关键问题的修复：
+此版本包含对以下关键问题的修复：
 
-* 下载包含带有颜色标记的资产的文件夹或收藏集时，也会下载XML文件。
-* 下载包含演绎版的视频时，Brand Portal会创建一个无效的.ZIP文件。
-* 在AEM创作实例中创建预设和资源，然后将其发布到Brand Portal时，您可以在下载资源的同时选择动态演绎版。 但是，您无法解压缩下载的.ZIP文件。 此问题会阻止访问下载的内容。
-* 从Brand Portal上提供的某些文件夹下载视频资源时出现问题。
-* 当您使用电子邮件共享Contribution文件夹的URL时，查看者和编辑者角色在使用痕迹导航访问其父文件夹时面临问题。
-* 来源补充发布报表显示的作业开始时间不正确。
+* 当您下载包含带有颜色标记的资产的文件夹或收藏集时，也会同时下载一个 XML 文件。
+* 当您下载包含演绎版的视频时，Brand Portal 会创建一个无效的 .ZIP 文件。
+* 当您在 AEM Author 环境上创建预设和资产，并将其发布到 Brand Portal 时，您可以在下载资产时选择动态演绎版。但是，您无法提取下载的 .ZIP 文件。此问题导致无法访问下载的内容。
+* 从 Brand Portal 上的某些文件夹下载视频资产时出现问题。
+* 当您使用电子邮件共享贡献文件夹的 URL 时，查看者和编辑者角色在使用痕迹导航访问其父文件夹时会遇到问题。
+* 搜寻发布的报告显示错误的任务开始时间。
 
 ### 2022 年 2 月版本 {#feb-2022}
 
-**新功能**
+**新增功能**
 
-* 来宾用户的会话超时阈值已从2小时减少到15分钟。
-* 已为多页面PDF删除其他&#x200B;**[!UICONTROL 查看页面]**&#x200B;选项，因为用户现在可以从Adobe Document Cloud查看器查看PDF页面。
-* 用户无法搜索、导航或打开文件夹。 用户界面反映错误消息： `Failed to load data`。
-* **[!UICONTROL 呈现版本]**&#x200B;面板未列出发布到Brand Portal的所有资源的静态呈现版本。
-* **[!UICONTROL 演绎版]**&#x200B;面板列出了资源的智能裁剪演绎版，但是，用户无法预览或下载智能裁剪演绎版。
-* 下载对话框列出了所选资源的智能裁剪演绎版，但是，用户无法下载智能裁剪演绎版。
-* 非管理员用户在下载资源时仅获得原始资源演绎版。 未下载系统和自定义呈现版本。
-* 应用搜索筛选器下载资产时，`Download`按钮在下载对话框中处于禁用状态，不允许用户下载资产。
-* 如果启用了`Smart Tags`和（或）`Color Tags`，下载对话框会将`json`文件列为演绎版，并将这些`json`文件下载到存档的zip文件夹中。
-* 匿名用户无法使用共享链接下载资源，因为该链接将重定向到Brand Portal登录页面。
-* 系统未反映活动并发用户数的正确值。
+* 访客用户的会话超时阈值从 2 小时缩短至 15 分钟。
+* 移除了多页 PDF 中额外的&#x200B;**[!UICONTROL 查看页面]**&#x200B;选项，因为用户现在可以通过 Adobe Document Cloud 查看器查看 PDF 页面。
+* 用户无法搜索、导航或打开文件夹。用户界面反映错误消息：`Failed to load data`。
+* **[!UICONTROL 演绎版]**&#x200B;面板未列出发布到 Brand Portal 的资产的所有静态演绎版。
+* **[!UICONTROL 演绎版]**&#x200B;面板列出了资产的智能裁剪演绎版，但用户无法预览或下载这些智能裁剪演绎版。
+* 下载对话框列出了所选资产的智能裁剪演绎版，但用户无法下载这些智能裁剪演绎版。
+* 非管理员用户在下载资产时，仅能获取原始资产演绎版。系统和自定义演绎版不下载。
+* 在应用搜索筛选条件下载资产时，下载对话框中的 `Download` 按钮被禁用，用户无法下载资产。
+* 如果启用 `Smart Tags` 和（或）`Color Tags`，下载对话框将 `json` 文件列为演绎版，并在存档的 zip 文件夹中下载这些 `json` 文件。
+* 匿名用户无法使用共享链接下载资产，因为该链接会重定向至 Brand Portal 登录页面。
+* 系统没有正确反映当前并发用户的数量。
 
 <!--
 ### New Features {#new-features}
@@ -372,7 +372,7 @@ This release includes the following known issues:
 
 ## 语言 {#languages}
 
-提供了以下语言版本的Brand Portal用户界面：
+Brand Portal 用户界面提供以下语言版本：
 
 * 英语
 * 德语
@@ -382,20 +382,20 @@ This release includes the following known issues:
 * 巴西葡萄牙语
 * 日语
 * 简体中文
-* 朝鲜语
+* 韩语
 
 ## 认证平台 {#certified-platforms}
 
-要查看哪些平台已针对此Brand Portal版本进行认证，请查看[技术要求](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements)的&#x200B;**用于创作用户界面的受支持的浏览器**&#x200B;部分中的&#x200B;**对触控优化UI的支持**&#x200B;列。
+要查看哪些平台已获得此 Brand Portal 版本的认证，请查看[技术要求](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements)中&#x200B;**支持创作用户界面的浏览器**&#x200B;部分的&#x200B;**支持触控优化的 UI**&#x200B;列。
 
 ## 链接 {#links}
 
-* adobe.com上的[Adobe Experience Manager产品页](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/home)
+* [adobe.com 上的 Adobe Experience Manager 产品页面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal 文档](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/home)
 
-## 产品访问和支持（受限制的站点） {#product-access-and-support-restricted-sites}
+## 产品访问和支持（受限网站） {#product-access-and-support-restricted-sites}
 
-这些网站仅供客户使用。 如果您是客户并且需要访问权限，请联系您的Adobe客户经理。
+这些网站仅对客户开放。如果您是客户且需要访问权限，请联系您的 Adobe 客户经理。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
