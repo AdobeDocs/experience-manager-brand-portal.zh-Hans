@@ -29,7 +29,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->适用于Experience Manager Assets 6.5及更高版本的&#x200B;******
+>适用于Experience Manager Assets 6.5及更高版本的&#x200B;**&#x200B;**&#x200B;**
 >
 >以前，经典界面使用旧版OAuth网关配置Brand Portal，该网关使用JSON Web令牌(JWT)交换获取IMS令牌进行授权。
 >

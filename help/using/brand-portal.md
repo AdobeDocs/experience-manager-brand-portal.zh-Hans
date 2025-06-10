@@ -20,8 +20,8 @@ ht-degree: 6%
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;侧重于营销人员通过提供资产分发和资产贡献功能，与分布在全球的Brand Portal用户进行有效协作的需求。
 
-Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
-请参阅Brand Portal](brand-portal-asset-sourcing.md)中的[资源源。
+Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**&#x200B;Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
+请参阅Brand Portal[&#128279;](brand-portal-asset-sourcing.md)中的资源源。
 
 通过基于浏览器的门户环境，您可以轻松以批准的格式上传、浏览、搜索、预览和导出资源。
 
