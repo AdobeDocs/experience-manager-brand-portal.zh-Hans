@@ -5,10 +5,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 86585e7e04a19f59f9594409e6d7704f457ab8e2
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 4%
+source-wordcount: '1613'
+ht-degree: 6%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 4%
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;侧重于营销人员通过提供资产分发和资产贡献功能，与分布在全球的Brand Portal用户进行有效协作的需求。
 
-Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**&#x200B;Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
-请参阅Brand Portal[&#128279;](brand-portal-asset-sourcing.md)中的资源源。
+Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
+请参阅Brand Portal](brand-portal-asset-sourcing.md)中的[资源源。
 
 通过基于浏览器的门户环境，您可以轻松以批准的格式上传、浏览、搜索、预览和导出资源。
 
@@ -33,7 +33,13 @@ Asset Distribution允许您获取、控制经批准的创意资产，并将这�
 >
 >Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.3及更高版本支持使用Brand Portal配置Experience Manager Assets。
 
-通过从Cloud Manager激活Experience Manager Assets as a Cloud Service，可自动使用Brand Portal配置Brand Portal。 激活工作流会在后端创建所需的配置，并在与Experience Manager Assets as a Cloud Service实例相同的IMS组织上激活Brand Portal。
+>[!IMPORTANT]
+>
+> * Brand Portal当前正在维护中。
+> * 您可以联系Adobe代表，了解用例的详细信息和使用Cloud Manager激活Brand Portal的特定要求。
+> * Brand Portal不适用于Assets Prime或Assets Ultimate。 但是，现有拥有Assets访问权限的Brand Portal云服务客户在迁移到Assets Ultimate时可以保留它。
+
+<!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
 但是，Experience Manager Assets（内部部署和托管服务）是使用Brand Portal手动配置的，Adobe Developer Console可获取Adobe Identity Management Services (IMS)令牌以授权Brand Portal租户。
 
@@ -105,7 +111,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 * [共享收藏集](brand-portal-share-collection.md)
 
-* [以链接形式共享资产](brand-portal-link-share.md)
+* [以链接方式共享资产](brand-portal-link-share.md)
 
 ### 管理员 {#administrator}
 
@@ -119,7 +125,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 * [管理用户、组和用户角色](brand-portal-adding-users.md)
 * [自定义壁纸、页面标题和电子邮件](brand-portal-branding.md)
-* [使用自定义搜索彩块化](brand-portal-search-facets.md)
+* [使用自定义搜索 Facet](brand-portal-search-facets.md)
 * [使用元数据架构](brand-portal-metadata-schemas.md)
 * [应用图像预设或动态演绎版](brand-portal-image-presets.md)
 * [使用报告](brand-portal-reports.md)
@@ -144,7 +150,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 >
 >要替换旧别名或删除旧别名，需要执行相同的过程。
 
-## 请求访问Brand Portal {#request-access-to-brand-portal}
+## 请求访问 Brand Portal {#request-access-to-brand-portal}
 
 用户可以从登录屏幕请求访问Brand Portal。 这些请求将发送给Brand Portal管理员，管理员将通过Adobe [!UICONTROL Admin Console]向用户授予访问权限。 授予访问权限后，用户会收到通知电子邮件。
 
@@ -215,9 +221,9 @@ Brand Portal产品管理员在其Brand Portal通知区域并通过其收件箱�
 
 1. 在[!UICONTROL Experience Cloud设置]页面上，从[!UICONTROL 语言]下拉菜单中选择一种语言。
 
-## Brand Portal维护通知 {#brand-portal-maintenance-notification}
+## Brand Portal 维护通知 {#brand-portal-maintenance-notification}
 
-在计划Brand Portal停机进行维护之前，在您登录到Brand Portal后会向您显示一条通知作为横幅。 示例通知：
+在计划Brand Portal停机进行维护之前，在您登录到Brand Portal后会向您显示一条通知作为横幅。 通知示例：
 
 ![](assets/bp_maintenance_notification.png)
 

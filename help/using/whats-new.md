@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d93a009d556a2330d000331a69ce7b6a2881f49d
-workflow-type: ht
-source-wordcount: '6576'
-ht-degree: 100%
+source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+workflow-type: tm+mt
+source-wordcount: '6357'
+ht-degree: 99%
 
 ---
 
@@ -163,31 +163,40 @@ Brand Portal 2021.06.0 是一个内部版本，包含对一些关键问题的修
 
 Brand Portal 2021.02.0 通过激活工作流和资产搜寻功能增强 AEM Assets as a Cloud Service。它还改进了资产下载体验，并包含关键问题的修复。它还使管理员能够在租户级别上配置文件夹、收藏集的默认下载行为以及资产批量下载。Brand Portal **[!UICONTROL 使用情况报告]**&#x200B;也进行了修改，以反映活跃的 Brand Portal 用户。
 
-### 在 AEM Assets as a Cloud Service 上激活 Brand Portal {#bp-automation-on-cloud-service}
+>[!IMPORTANT]
+>
+> * Brand Portal当前正在维护中。
+> * 您可以联系Adobe代表，了解用例的详细信息和使用Cloud Manager激活Brand Portal的特定要求。
+> * Brand Portal不适用于Assets Prime或Assets Ultimate。 但是，现有拥有Assets访问权限的Brand Portal云服务客户在迁移到Assets Ultimate时可以保留它。
 
-AEM Assets as a Cloud Service 现在有资格预先配置一个 Brand Portal 实例。Cloud Manager 用户可在 AEM Assets as a Cloud Service 实例上激活 Brand Portal。
+<!--
 
-以前，AEM Assets as a Cloud Service 是使用 Adobe Developer Console 通过 Brand Portal 手动配置的。
+### Activate Brand Portal on AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-Cloud Manager 用户触发激活在后端创建所需配置的工作流，并在与 AEM Assets as a Cloud Service 实例相同的 IMS 组织上激活 Brand Portal。
+AEM Assets as a Cloud Service is now entitled to have a pre-configured Brand Portal instance. The Cloud Manager user can activate Brand Portal on the AEM Assets as a Cloud Service instance.
 
-如要在 AEM Assets as a Cloud Service 实例上激活 Brand Portal：
+Earlier, AEM Assets as a Cloud Service was manually configured with Brand Portal using Adobe Developer Console.
 
-1. 登录 Adobe Cloud Manager，然后导航到&#x200B;**[!UICONTROL 环境]**。
-1. 从列表中（逐个）选择环境。找到与 Brand Portal 关联的环境后，点击&#x200B;**[!UICONTROL 激活 Brand Portal]** 按钮，开始激活工作流。
-1. Brand Portal 租户激活后，状态就会更改为“已激活”。
+The Cloud Manager user triggers the activation workflow that creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the AEM Assets as a Cloud Service instance. 
 
-![查看状态](assets/create-environment5.png)
+To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
-参见[在 AEM Assets as a Cloud Service 上激活 Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal)。
+1. Log in to Adobe Cloud Manager and navigate to **[!UICONTROL Environments]**.
+1. Select the environments (one by one) from the list. Once you find the environment associated with Brand Portal, click on the **[!UICONTROL Activate Brand Portal]** button to begin the activation workflow. 
+1. Once the Brand Portal tenant is activated, the status changes to Activated.
 
-### AEM Assets as a Cloud Service上的资产搜寻功能 {#asset-sourcing-on-cloud-service}
+![View Status](assets/create-environment5.png)
 
-AEM Assets as a Cloud Service 现在提供资产搜寻功能。该功能默认对所有 cloud 服务用户启用。获得许可的 Brand Portal 用户可以将新资产上传到贡献文件夹，然后将贡献文件夹从 Brand Portal 发布到 AEM Assets as a Cloud Service 实例，由此为资产搜寻做出贡献。管理员可以对 Brand Portal 用户的贡献进行审核和批准，然后将其分发给其他用户。
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
-以前，资产搜寻仅在 AEM Assets（ 内部部署版和托管服务版）上可用。
+### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
-参见 [Brand Portal 中的资产搜寻](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)。
+The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. The feature is by default enabled for all the cloud service users. The permitted Brand Portal users can contribute to Asset Sourcing by uploading new assets to the contribution folders and publish the contribution folder from Brand Portal to AEM Assets as a Cloud Service instance. Administrators can review and approve contributions from Brand Portal users before distributing them to other users.     
+
+Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
+
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+-->
 
 ### 资产下载 {#asset-download-setting}
 
@@ -653,14 +662,14 @@ Brand Portal 用户可以应用基于 IBM® Aspera Connect 的快速下载功能
 
 ![](assets/list-view-1.png)
 
-### 查看资产属性的“概览”选项
+### 查看资产属性的“概述”选项
 
-Brand Portal 为非管理员用户（编辑者、查看者、访客用户）提供“概览”选项，以查看所选资产/文件夹的资产属性。“概览”选项在以下位置可见：
+Brand Portal 为非管理员用户（编辑者、查看者、访客用户）提供“概述”选项，以查看所选资产/文件夹的资产属性。“概述”选项在以下位置可见：
 
 1. 在顶部工具栏中，选择资产/文件夹时。
 2. 在下拉菜单中，选择“边栏选择器”。
 
-选中资产/文件夹后，若选择“概览”选项，用户便可查看资产的标题、路径以及创建时间。而在资产详情页面上，选择“概览”选项可以让用户查看资产的元数据。
+选中资产/文件夹后，若选择“概述”选项，用户便可查看资产的标题、路径以及创建时间。而在资产详情页面上，选择“概述”选项可以让用户查看资产的元数据。
 
 ![](assets/overview-option-2.png)
 
