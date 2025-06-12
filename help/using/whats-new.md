@@ -167,7 +167,7 @@ Brand Portal 2021.02.0 通过激活工作流和资产搜寻功能增强 AEM Asse
 >
 > * Brand Portal处于维护模式。 所有新产品创新均可在[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)上找到。
 > * 如果您仍需要激活Brand Portal，请联系Adobe代表，并提供您的用例和其他特定要求的详细信息。
-> * Brand Portal不可用于[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 但是，已经有权访问Brand Portal的现有Assets as a Cloud Service客户在迁移到Assets Ultimate时可以继续使用它。
+> * Brand Portal不可用于[Assets Prime](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 但是，已经有权访问Brand Portal的现有Assets as a Cloud Service客户在迁移到Assets Ultimate时可以继续使用它。
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### 资产下载 {#asset-download-setting}

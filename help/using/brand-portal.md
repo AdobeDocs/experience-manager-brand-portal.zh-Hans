@@ -37,7 +37,7 @@ Asset Distribution允许您获取、控制经批准的创意资产，并将这�
 >
 > * Brand Portal处于维护模式。 所有新产品创新均可在[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)上找到。
 > * 如果您仍需要激活Brand Portal，请联系Adobe代表，并提供您的用例和其他特定要求的详细信息。
-> * Brand Portal不可用于[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 但是，已经有权访问Brand Portal的现有Assets as a Cloud Service客户在迁移到Assets Ultimate时可以继续使用它。
+> * Brand Portal不可用于[Assets Prime](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 但是，已经有权访问Brand Portal的现有Assets as a Cloud Service客户在迁移到Assets Ultimate时可以继续使用它。
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
