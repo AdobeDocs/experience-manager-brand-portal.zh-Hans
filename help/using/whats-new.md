@@ -6,10 +6,10 @@ content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6373'
+ht-degree: 98%
 
 ---
 
@@ -165,9 +165,9 @@ Brand Portal 2021.02.0 通过激活工作流和资产搜寻功能增强 AEM Asse
 
 >[!IMPORTANT]
 >
-> * Brand Portal当前正在维护中。
-> * 您可以联系Adobe代表，了解用例的详细信息和使用Cloud Manager激活Brand Portal的特定要求。
-> * Brand Portal不适用于Assets Prime或Assets Ultimate。 但是，现有拥有Assets访问权限的Brand Portal云服务客户在迁移到Assets Ultimate时可以保留它。
+> * Brand Portal处于维护模式。 所有新产品创新均可在[Content Hub](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)上找到。
+> * 如果您仍需要激活Brand Portal，请联系Adobe代表，并提供您的用例和其他特定要求的详细信息。
+> * Brand Portal不可用于[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 但是，已经有权访问Brand Portal的现有Assets as a Cloud Service客户在迁移到Assets Ultimate时可以继续使用它。
 
 <!--
 
@@ -187,7 +187,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +195,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### 资产下载 {#asset-download-setting}
@@ -245,7 +245,7 @@ Brand Portal 2020.10.0 是一个增强版本，专注于简化资产下载体验
 
 >[!NOTE]
 >
->所有用户现在都默认启用了&#x200B;**[!UICONTROL 快速下载]**，需要在浏览器扩展中安装 IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)，才能从 Brand Portal 下载资产。
+>所有用户现在都默认启用了&#x200B;**[!UICONTROL 快速下载]**，需要在浏览器扩展中安装 IBM® [Aspera Connect 3.9.9](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm~Other%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)，才能从 Brand Portal 下载资产。
 
 <!--
 If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog box appears with all the renditions of the selected assets or folders containing assets in a List View. 
@@ -768,7 +768,7 @@ Brand Portal 6.4.1 是一个平台升级版本。它引入了多项新功能和�
 ![](assets/navigatereport.png)
 
 **更改了使用情况报告的访问入口点**
-使用情况报告现已与其他报告合并，并可通过资产报告控制台进行查看。要进入资产报告控制台，请从管理工具面板导航至&#x200B;**创建/管理报告**。
+使用情况报告现已与其他报告合并，并可通过资产报告控制台进行查看。要进入资产报告控制台，请从管理工具面板导航至**创建/管理报告**。
 
 ![](assets/accessassetreport.png)
 
