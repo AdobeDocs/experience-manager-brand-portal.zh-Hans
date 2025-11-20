@@ -9,9 +9,9 @@ user-guide-description: 使用 Experience Manager Assets Brand Portal，通过�
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
-source-wordcount: '252'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
