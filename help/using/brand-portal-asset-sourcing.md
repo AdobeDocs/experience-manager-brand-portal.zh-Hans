@@ -12,7 +12,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
+source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 11%
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ![Brand Portal资源源](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/32892/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## 先决条件 {#prerequisites}
 
@@ -117,7 +117,7 @@ Experience Manager Assets管理员可以上传包含Experience Manager Assets中
 1. 从[!UICONTROL 工具]面板中，导航到&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal用户]**。
 
 1. 将打开Brand Portal上传参与者窗口。
-从本地计算机中浏览并上传包含活动Brand Portal用户列表的&#x200B;**配置(.csv)文件**。
+从本地计算机中浏览并上传包含活动Brand Portal用户列表的**配置(.csv)文件**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/upload-user-list2.png)
