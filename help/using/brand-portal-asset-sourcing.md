@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ![Brand Portal资源源](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/32892/?captions=chi_hans&quality=12)
 
 ## 先决条件 {#prerequisites}
 
