@@ -1,38 +1,49 @@
 ---
 title: 发行说明
-description: 深入了解 Adobe Experience Manager Assets Brand Portal 2024.10.0 版本中的功能、增强功能、已修复的关键问题以及已知问题。
+description: 洞察 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的功能、增强功能、已修复的关键问题以及已知问题。
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # 发行说明 {#release-notes}
 
-深入了解 Adobe Experience Manager Assets Brand Portal 2024.10.0 版本中的新功能、增强功能、已修复的关键问题以及已知问题。
+洞察 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的新功能、增强功能、已修复的关键问题以及已知问题。
 
 ## 版本信息 {#release-information}
 
 | 产品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2024.10.0 |
-| 日期 | 2024 年 10 月 |
+| 版本 | 2026.01.01 |
+| 日期 | 2026年1月 |
 
 ## 概述 {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部商务用户分发这些资产。它有助于提高资产共享的效率，加快资产的上市时间，降低违规和未经授权访问的风险。 Brand Portal 允许用户随时随地以公司认可的格式浏览、搜索、预览、下载和导出资产。
 
-## 2024.10.0 版本中的新增功能 {#whats-new-in-2024.10.0}
+## 2026.01.01 版本中的新增功能 {#whats-new-in-2026.01.01}
 
 ### 修复了关键问题 {#critical-issues-fixed}
 
-#### 错误修复 {#bug-fixes}
+#### 增强功能 {#enhancements}
+
+此版本包括以下增强功能：
+
+* 在“管理工具”面板>“Dynamic Media配置”中，您现在可以使用&#x200B;**[!UICONTROL 重置]**&#x200B;按钮来清除任何更改、重置密码并将配置恢复为默认状态。
+
+* Brand Portal在发布到AEM之前，会验证源文件夹以确保其中至少包含一个资源，从而帮助防止发布不完整。
+
+## 以前的版本
+
+### 2024 年 10 月版本 {#oct-2024}
+
+**错误修复和增强功能** 
 
 此版本包含以下错误修复：
 
@@ -44,8 +55,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、�
 * 无法下载名称中带有特殊字符的视频。
 * 从 [!DNL Adobe Experience Manager Assets] 向 Brand Portal 发布和取消发布资产的操作无法正常进行。
 * 无法播放从 Brand Portal 下载的视频。
-
-## 以前的版本
 
 ### 2024 年 2 月版本 {#feb-2024}
 

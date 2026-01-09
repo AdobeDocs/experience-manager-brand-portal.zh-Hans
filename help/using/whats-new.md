@@ -1,14 +1,13 @@
 ---
 title: Experience Manager Assets Brand Portal 的新增功能
-description: 了解 Experience Manager Assets Brand Portal 版本 2024.10.0 中的新功能和增强功能。
+description: 了解 Experience Manager Assets Brand Portal 版本 2026.01.01 中的新功能和增强功能。
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
-workflow-type: ht
-source-wordcount: '6373'
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '6400'
 ht-degree: 100%
 
 ---
@@ -16,6 +15,10 @@ ht-degree: 100%
 # Experience Manager Assets Brand Portal 的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部商务用户分发这些资产。它有助于提高资产共享的效率，加快资产的上市时间，降低违规和未经授权访问的风险。Adobe 不断致力于改进整体 Brand Portal 体验。以下是新功能和增强功能的预告。
+
+## 2026.01.01 中更改了哪些内容 {#what-changed-in-January-2026}
+
+Brand Portal 2026.01.01 是一个内部版本，包含对一些关键问题的修复。请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 ## 2024.10.0 中更改了哪些内容 {#what-changed-in-October-2024}
 
@@ -187,7 +190,7 @@ To activate Brand Portal on your AEM Assets as a Cloud Service instance:
 
 ![View Status](assets/create-environment5.png)
 
-See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
+See [activate Brand Portal on AEM Assets as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal).
 
 ### Asset Sourcing on AEM Assets as a Cloud Service {#asset-sourcing-on-cloud-service}
 
@@ -195,7 +198,7 @@ The Asset Sourcing feature is now available on AEM Assets as a Cloud Service. Th
 
 Earlier, Asset Sourcing was only available on AEM Assets (on premise and managed service). 
 
-See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
+See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing).
 -->
 
 ### 资产下载 {#asset-download-setting}
@@ -632,7 +635,7 @@ Brand Portal 用户可以应用基于 IBM® Aspera Connect 的快速下载功能
 
 现已推出用于跟踪用户登录情况的新报告。**用户登录**&#x200B;报告有助于组织审核和监控 Brand Portal 的受委派管理员和其他用户。
 
-该报告记录了从 Brand Portal 6.4.2 部署到报告生成期间，每个用户的显示名称、电子邮件 ID、角色（管理员、查看者、编辑者、访客）、所属组、最后登录时间、活动状态以及登录次数。管理员可以将报告导出为 .csv 格式。与其他报告一样，“用户登录”报告使组织能够密切监控用户与已批准的品牌资源的交互情况，确保符合公司合规部门的监管要求。
+该报告记录了从 Brand Portal 6.4.2 部署到报告生成期间，每个用户的显示名称、电子邮件 ID、用户画像（管理员、查看者、编辑者、访客）、所属组、最后登录时间、活动状态以及登录次数。管理员可以将报告导出为 .csv 格式。与其他报告一样，“用户登录”报告使组织能够密切监控用户与已批准的品牌资源的交互情况，确保符合公司合规部门的监管要求。
 
 ![](assets/user-logins-1.png)
 
