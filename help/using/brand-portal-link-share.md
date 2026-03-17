@@ -1,5 +1,5 @@
 ---
-title: 以链接形式共享资产
+title: 以链接方式共享资产
 description: 了解Adobe Experience Manager Assets Brand Portal管理员如何与授权内部用户和外部实体（包括合作伙伴和供应商）共享多个资源的链接。 编辑者只能查看和共享与其共享的资产。
 contentOwner: bdhar
 content-type: reference
@@ -7,20 +7,21 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 5%
 
 ---
 
-# 以链接形式共享资产 {#share-assets-as-a-link}
+# 以链接方式共享资产 {#share-assets-as-a-link}
 
 Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户和外部实体（包括合作伙伴和供应商）共享多个资源的链接。 编辑者只能查看和共享与其共享的资产。
 
 通过链接共享资源是一种向外部各方提供资源的便捷方法，因为接收者无需登录Brand Portal即可访问资源。
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 有关详细信息，请参阅[管理用户、组和用户角色](../using/brand-portal-adding-users.md#manage-user-roles)。
@@ -81,7 +82,7 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户
 
    ![下载对话框](assets/download-dialog-box-new.png)
 
-1. 默认情况下，**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会显示一个确认框，用于继续使用IBM® Aspera Connect下载。
+1. 默认情况下，**[!UICONTROL 下载设置]**&#x200B;中启用了&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。 因此，会显示一个确认框，用于继续使用® Aspera Connect下载。
 
    若要继续使用&#x200B;**[!UICONTROL 快速下载]**，请单击&#x200B;**[!UICONTROL 允许]**。
 
@@ -131,69 +132,69 @@ Adobe Experience Manager Assets Brand Portal管理员可以与授权内部用户
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ {\f13 } |
+| TIFF | ✓ | ✕ |
 | JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ {\f13 } |
+| BMP | ✓ | ✕ |
 | 纳米晶* | NA | NA |
 | PGM* | NA | NA |
 | PBM* | NA | NA |
 | PPM* | NA | NA |
-| PSD | ✓ | ✕ {\f13 } |
-| EPS | NA | ✕ {\f13 } |
-| DNG | ✓ | ✕ {\f13 } |
-| PICT | ✓ | ✕ {\f13 } |
-| PSB* | ✓ | ✕ {\f13 } |
+| PSD | ✓ | ✕ |
+| EPS | NA | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
 | JPG | ✓ | ✓ |
-| 人工智能 | ✓ | ✕ {\f13 } |
-| DOC | ✕ {\f13 } | ✕ {\f13 } |
-| DOCX | ✕ {\f13 } | ✕ {\f13 } |
-| ODT* | ✕ {\f13 } | ✕ {\f13 } |
-| PDF | ✓ | ✕ {\f13 } |
-| HTML | ✕ {\f13 } | ✕ {\f13 } |
-| RTF | ✕ {\f13 } | ✕ {\f13 } |
-| TXT | ✓ | ✕ {\f13 } |
-| XLS | ✕ {\f13 } | ✕ {\f13 } |
-| XLSX | ✕ {\f13 } | ✕ {\f13 } |
-| ODS | ✕ {\f13 } | ✕ {\f13 } |
-| PPT | ✓ | ✕ {\f13 } |
-| PPTX | ✕ {\f13 } | ✕ {\f13 } |
-| ODP | ✕ {\f13 } | ✕ {\f13 } |
-| INDD | ✓ | ✕ {\f13 } |
-| PS | ✕ {\f13 } | ✕ {\f13 } |
-| QXP | ✕ {\f13 } | ✕ {\f13 } |
-| ePub | ✓ | ✕ {\f13 } |
-| AAC | ✕ {\f13 } | ✕ {\f13 } |
-| MIDI | ✕ {\f13 } | ✕ {\f13 } |
-| 3GP | ✕ {\f13 } | ✕ {\f13 } |
-| MP3 | ✕ {\f13 } | ✕ {\f13 } |
-| MP4 | ✕ {\f13 } | ✕ {\f13 } |
-| OGA | ✕ {\f13 } | ✕ {\f13 } |
-| OGG | ✕ {\f13 } | ✕ {\f13 } |
-| RA | ✕ {\f13 } | ✕ {\f13 } |
-| WAV | ✕ {\f13 } | ✕ {\f13 } |
-| WMA | ✕ {\f13 } | ✕ {\f13 } |
-| DVI | ✕ {\f13 } | ✕ {\f13 } |
-| FLV | ✕ {\f13 } | ✕ {\f13 } |
-| M4V | ✕ {\f13 } | ✕ {\f13 } |
-| MPG | ✕ {\f13 } | ✕ {\f13 } |
-| OGV | ✕ {\f13 } | ✕ {\f13 } |
-| MOV | ✕ {\f13 } | ✕ {\f13 } |
-| WMV | ✕ {\f13 } | ✕ {\f13 } |
-| SWF | ✕ {\f13 } | ✕ {\f13 } |
-| TGZ | NA | ✕ {\f13 } |
-| JAR | ✓ | ✕ {\f13 } |
-| RAR | NA | ✕ {\f13 } |
-| TAR | NA | ✕ {\f13 } |
-| ZIP | ✓ | ✕ {\f13 } |
+| 人工智能 | ✓ | ✕ |
+| DOC | ✕ | ✕ |
+| DOCX | ✕ | ✕ |
+| ODT* | ✕ | ✕ |
+| PDF | ✓ | ✕ |
+| HTML | ✕ | ✕ |
+| RTF | ✕ | ✕ |
+| TXT | ✓ | ✕ |
+| XLS | ✕ | ✕ |
+| XLSX | ✕ | ✕ |
+| ODS | ✕ | ✕ |
+| PPT | ✓ | ✕ |
+| PPTX | ✕ | ✕ |
+| ODP | ✕ | ✕ |
+| INDD | ✓ | ✕ |
+| PS | ✕ | ✕ |
+| QXP | ✕ | ✕ |
+| ePub | ✓ | ✕ |
+| AAC | ✕ | ✕ |
+| MIDI | ✕ | ✕ |
+| 3GP | ✕ | ✕ |
+| MP3 | ✕ | ✕ |
+| MP4 | ✕ | ✕ |
+| OGA | ✕ | ✕ |
+| OGG | ✕ | ✕ |
+| RA | ✕ | ✕ |
+| WAV | ✕ | ✕ |
+| WMA | ✕ | ✕ |
+| DVI | ✕ | ✕ |
+| FLV | ✕ | ✕ |
+| M4V | ✕ | ✕ |
+| MPG | ✕ | ✕ |
+| OGV | ✕ | ✕ |
+| MOV | ✕ | ✕ |
+| WMV | ✕ | ✕ |
+| SWF | ✕ | ✕ |
+| TGZ | NA | ✕ |
+| JAR | ✓ | ✕ |
+| RAR | NA | ✕ |
+| TAR | NA | ✕ |
+| ZIP | ✓ | ✕ |
 
 下面的图例说明了矩阵中使用的符号：
 
 | 符号 | 含义 |
 |---|---|
 | ✓ | 此文件格式支持此功能 |
-| ✕ {\f13 } | 此文件格式不支持此功能 |
+| ✕ | 此文件格式不支持此功能 |
 | NA | 此功能不适用于此文件格式 |
-| &#42; | 此功能需要在AEM创作实例上附加支持此文件格式，但在将资产发布到Brand Portal后，需要在Brand Portal上附加支持 |
+| &#42; | 此功能需要在AEM创作实例上附加支持此文件格式，但在将资源发布到Brand Portal后，需要在Brand Portal上附加支持 |
 
 ## 取消共享作为链接共享的资源 {#unshare-assets-shared-as-a-link}
 

@@ -7,10 +7,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 261c0e84-6b3d-459c-b6b9-a9af106d6943
-source-git-commit: f4add370fd3242f5506e5cc4d921362e2b14141a
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 18%
+source-wordcount: '413'
+ht-degree: 28%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->适用于Experience Manager Assets 6.5及更高版本的&#x200B;**&#x200B;**&#x200B;**
+>适用于Experience Manager Assets 6.5及更高版本的&#x200B;******
 >
 >以前，经典界面使用旧版OAuth网关配置Brand Portal，该网关使用JSON Web令牌(JWT)交换获取IMS令牌进行授权。
 >
