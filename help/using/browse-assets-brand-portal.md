@@ -56,7 +56,7 @@ Brand Portal左上角的边栏选择器下拉菜单显示了用于导航到资�
 * 大小
 * 尺寸
 
-您可以通过单击卡片在层次结构中向下导航（注意避免快速操作），或使用标题[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的痕迹导航再次向上导航。
+您可以通过单击卡片在层次结构中向下导航（注意避免快速操作），或使用标题[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的痕迹导航再次向上导航。
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ Brand Portal左上角的边栏选择器下拉菜单显示了用于导航到资�
 * 显示资源层次结构的文件夹路径
 * 在Brand Portal上发布资源的日期
 
-通过路径列，您可以轻松识别文件夹层次结构中的资源位置。 您可以通过单击资源名称向下导航到层次结构，并使用标题[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的痕迹导航再次导航。
+通过路径列，您可以轻松识别文件夹层次结构中的资源位置。 您可以通过单击资源名称向下导航到层次结构，并使用标题[&#128279;](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的痕迹导航再次导航。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
