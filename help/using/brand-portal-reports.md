@@ -6,10 +6,21 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 0%
+source-wordcount: 1010
+ht-degree: 4%
 
 ---
 
@@ -19,7 +30,7 @@ ht-degree: 0%
 
 报表管理界面非常直观，包括用于访问已保存报表的细粒度选项和控件。 您可以从“资产报表”页面查看、下载或删除报表，其中列出了之前生成的所有报表。
 
-## 查看报表 {#view-reports}
+## 查看报告 {#view-reports}
 
 要查看报告，请执行以下步骤：
 
@@ -35,11 +46,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >使用情况报告是在Brand Portal中生成的默认报告。 无法创建或删除它。 但是，您可以创建、下载和删除下载、过期、Publish、`Link Share`和用户登录报告。
+   >使用情况报告是在Brand Portal中生成的默认报告。 无法创建或删除它。 但是，您可以创建、下载和删除下载、过期、发布、`Link Share`和用户登录报告。
 
    要查看报表，请单击报表链接。 或者，选择报告，然后单击工具栏中的查看图标。
 
-   **[!UICONTROL 使用情况报表]**&#x200B;显示有关Brand Portal中活动的Brand Portal用户数、所有资源占用的存储空间以及资源总数的信息。 未分配给Admin Console中任何产品配置文件的Brand Portal用户被视为非活动用户，未反映在&#x200B;**[!UICONTROL 使用情况报表]**&#x200B;中。
+   **[!UICONTROL 使用情况报表]**&#x200B;显示有关Brand Portal中活动的Brand Portal用户数、所有资源占用的存储空间以及资源总数的信息。 未在 Admin Console 中被分配任何产品配置文件的 Brand Portal 用户将被视为非活跃用户，不会反映在&#x200B;**[!UICONTROL 使用情况报告]**&#x200B;中。
 此报表还会显示每个信息量度的允许容量。
 
    ![](assets/usage-report.png)
@@ -60,13 +71,13 @@ ht-degree: 0%
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]**&#x200B;报告列出了在指定时间段内从Experience Manager Assets发布到Brand Portal的所有资源并提供相关信息。
+   **[!UICONTROL 发布]**&#x200B;报告列出并提供了有关在指定时间段内从Experience Manager Assets发布到Brand Portal的所有资源的信息。
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Publish报表不显示有关内容片段的信息，因为内容片段无法发布到Brand Portal。
+   >发布报表不显示有关内容片段的信息，因为内容片段无法发布到Brand Portal。
 
    **[!UICONTROL 链接共享]**&#x200B;报表列出了特定时间段内通过来自Brand Portal界面的链接共享的所有资源。 该报告会详细描述通过链接共享资产的时间、共享该资产的用户以及链接的过期日期。 它还报告租户和用户的共享链接数量。 链接共享报表中的列不可自定义。
 
@@ -88,7 +99,7 @@ ht-degree: 0%
 * 发布
 * 链接共享
 
-可以自定义下载、过期和Publish报表中的列以供查看。 要生成报表，请执行以下步骤：
+可以自定义下载、过期和发布报表中的列以供查看。 要生成报表，请执行以下步骤：
 
 1. 在顶部的工具栏中，单击Experience Manager徽标以访问管理工具。
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
    ![](assets/crete-report.png)
 
-1. 配置报表详细信息。 指定&#x200B;**[!UICONTROL 下载]**、**[!UICONTROL 过期]**&#x200B;和&#x200B;**[!UICONTROL Publish]**&#x200B;报告的标题、描述、文件夹结构（报告需要在其中运行并生成统计信息）和日期范围。
+1. 配置报表详细信息。 指定&#x200B;**[!UICONTROL 下载]**、**[!UICONTROL 过期]**&#x200B;和&#x200B;**[!UICONTROL 发布]**&#x200B;报告的标题、描述、文件夹结构（报告需要在其中运行并生成统计信息）和日期范围。
 
    ![](assets/create-report-page.png)
 
@@ -113,14 +124,14 @@ ht-degree: 0%
    >
    >生成报告会将标题中的特殊字符`#`和`%`替换为连字符(-)。
 
-1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;配置下载、到期和Publish报告的列。
+1. 单击&#x200B;**[!UICONTROL 下一步]**&#x200B;配置下载、过期和发布报告的列。
 1. 根据需要选中或取消选中相应的复选框。 例如，要在&#x200B;**[!UICONTROL 下载]**&#x200B;报表中查看用户（下载了资产）的名称，请选择&#x200B;**[!UICONTROL 下载者]**。 下图说明了如何在“下载”报表中选择默认列。
 
    ![](assets/createdownloadreport.png)
 
    您还可以向这些报表添加自定义列，以显示更多符合自定义要求的数据。
 
-   要将自定义列添加到下载、Publish或过期报表，请执行以下操作：
+   要将自定义列添加到下载、发布或到期报表，请执行以下操作：
 
    1. 要显示自定义列，请单击[!UICONTROL 自定义列]中的&#x200B;**[!UICONTROL 添加]**。
    1. 在&#x200B;**[!UICONTROL 列名称]**&#x200B;字段中指定该列的名称。
@@ -133,7 +144,7 @@ ht-degree: 0%
 
       要添加更多自定义列，请单击&#x200B;**添加**&#x200B;并重复步骤2和3。
 
-1. 单击&#x200B;**[!UICONTROL 创建]**。此时将显示一条消息，通知已启动报表生成。
+1. 单击&#x200B;**[!UICONTROL 创建]**。 此时将显示一条消息，通知已启动报表生成。
 
 ## 下载报表 {#download-reports}
 

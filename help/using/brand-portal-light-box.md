@@ -6,14 +6,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 role: Admin
 exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/L2E-5TOIkUJ0eC73It7IY9FLcvq9NrFnzw-lFUu6FKc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: 241
+ht-degree: 2%
 
 ---
 
-# 管理Lightbox集合 {#manage-the-lightbox-collection}
+# 管理 Lightbox 收藏集 {#manage-the-lightbox-collection}
 
 **[!UICONTROL Lightbox]**&#x200B;是一种特殊类型的收藏集，可轻松访问资源。 每个用户都有一个在首次登录Brand Portal时自动创建的独占&#x200B;**[!UICONTROL Lightbox]**。 无法删除&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合。
 
@@ -31,7 +37,7 @@ ht-degree: 0%
 
 1. 在&#x200B;**[!UICONTROL 添加到收藏集]**&#x200B;页面上，默认选中&#x200B;**[!UICONTROL Lightbox]**&#x200B;收藏集。
 
-   单击&#x200B;**[!UICONTROL 添加]**。选定的资产已添加到&#x200B;**[!UICONTROL 灯箱]**。
+   单击&#x200B;**[!UICONTROL 添加]**。 选定的资产已添加到&#x200B;**[!UICONTROL 灯箱]**。
 
    ![](assets/add_to_collectionlightbox.png)
 

@@ -12,16 +12,26 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
+TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: 662
+ht-degree: 12%
 
 ---
 
 # 资产搜寻概述 {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing**&#x200B;允许Experience Manager Assets用户（管理员/非管理员用户）使用额外的&#x200B;**Asset Contribution**&#x200B;属性创建新文件夹，确保所创建的新文件夹可供Brand Portal用户提交资源。 这会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建两个名为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**&#x200B;的子文件夹。 管理员通过上传应添加到贡献文件夹的资源类型的简介来定义要求。 他们将一组基线资源上传到&#x200B;**SHARED**&#x200B;文件夹，为Brand Portal用户提供必要的参考信息。 随后，管理员可以向活动Brand Portal用户授予对贡献文件夹的访问权限，然后再将新创建的&#x200B;**贡献**&#x200B;文件夹发布到Brand Portal。 当用户在&#x200B;**NEW**&#x200B;文件夹中添加完内容后，他们可以将贡献文件夹发布回Experience Manager创作环境。 请注意，可能需要几分钟才能完成导入，并在Experience Manager Assets中反映新发布的内容。
+**Asset Sourcing**&#x200B;允许Experience Manager Assets用户（管理员/非管理员用户）使用额外的&#x200B;**Asset Contribution**&#x200B;属性创建新文件夹，确保所创建的新文件夹可供Brand Portal用户提交资源。 这会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建两个名为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**&#x200B;的子文件夹。 管理员通过上传应添加到贡献文件夹的资源类型的简介来定义要求。 他们将一组基线资源上传到&#x200B;**SHARED**&#x200B;文件夹，为Brand Portal用户提供必要的参考信息。 管理员可以在将新创建的&#x200B;**贡献**&#x200B;文件夹发布到 Brand Portal 之前，授予活跃的 Brand Portal 用户访问贡献文件夹的权限。 当用户在&#x200B;**NEW**&#x200B;文件夹中添加完内容后，他们可以将贡献文件夹发布回Experience Manager创作环境。 请注意，可能需要几分钟才能完成导入，并在Experience Manager Assets中反映新发布的内容。
 
 此外，所有现有功能均保持不变。 Brand Portal用户可以从“贡献”文件夹以及其他允许的文件夹中查看、搜索和下载资源。 管理员可以进一步共享贡献文件夹，修改属性并将资产添加到收藏集中。
 
@@ -46,9 +56,9 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Experience Manager Assets 6.5.4中存在已知问题。升级到Adobe Developer Console时，Brand Portal用户无法将contribution文件夹的资源发布到Experience Manager Assets。
+>Experience Manager Assets 6.5.4中存在已知问题。 升级到Adobe Developer Console时，Brand Portal用户无法将contribution文件夹的资源发布到Experience Manager Assets。
 >
->该问题已在 Experience Manager Assets 6.5.5 中得到修复。您可以将您的 Experience Manager Assets 实例升级到最新服务包，并在 Adobe Developer Console 上[升级您的配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
+>已在Experience Manager Assets 6.5.5中修复此问题。 您可以在Adobe Developer Console上将Experience Manager Assets实例升级到最新的Service Pack并[升级配置](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
 <!--
 

@@ -1,19 +1,31 @@
 ---
-title: 使用自定义搜索彩块化
+title: 使用自定义搜索 Facet
 description: 管理员可以将搜索谓词添加到“筛选器”面板以自定义搜索并使搜索功能通用。
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 7%
+source-wordcount: 1363
+ht-degree: 9%
 
 ---
 
-# 使用自定义搜索彩块化 {#use-custom-search-facets}
+# 使用自定义搜索 Facet {#use-custom-search-facets}
 
 管理员可以将搜索谓词添加到[!UICONTROL 筛选器]面板以自定义搜索并使搜索功能通用。
 
@@ -23,7 +35,7 @@ Brand Portal支持[面向已批准品牌资产的细粒度搜索](../using/brand
 
 >[!NOTE]
 >
->Experience Manager Assets允许组织[将自定义搜索表单从AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)发布到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
+>Experience Manager Assets允许组织将自定义搜索表单从AEM Author[&#128279;](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)发布到Brand Portal，而不是在Brand Portal上重新创建相同的表单。
 
 ## 将搜索谓词添加到“筛选器”面板 {#add-a-search-predicate}
 
@@ -60,7 +72,7 @@ Brand Portal支持[面向已批准品牌资产的细粒度搜索](../using/brand
 
    >[!NOTE]
    >
-   >选中&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框时，默认情况下会选中&#x200B;**[!UICONTROL 忽略大小写]**。
+   >选中&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框后，会默认选中&#x200B;**[!UICONTROL 忽略大小写]**。
 
 1. 在&#x200B;**[!UICONTROL 属性名称]**&#x200B;字段中，打开属性选取器并选择执行搜索所依据的属性。 或者，输入属性的名称。 例如，输入 `jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
 
@@ -85,7 +97,7 @@ Brand Portal支持[面向已批准品牌资产的细粒度搜索](../using/brand
 
 | **谓词名称** | **描述** | **属性** |
 |-------|-------|----------|
-| **[!UICONTROL 路径浏览器]** | 在特定位置搜索资产的搜索谓词。 **注意：** *对于已登录的用户，筛选器上的路径浏览器仅显示与该用户共享的文件夹（及其祖先）的内容结构。* <br>管理员用户可以使用路径浏览器导航到任何文件夹中的该文件夹，以搜索该文件夹中的资产。 <br>而非管理员用户则可以通过在路径浏览器中导航到某个文件夹（他们有权访问）来搜索该文件夹中的资产。 | <ul><li>字段标签</li><li>路径</li><li>描述</li></ul> |
+| **[!UICONTROL 路径浏览器]** | 在特定位置搜索资产的搜索谓词。 **注意：** *对于已登录的用户，筛选器上的路径浏览器仅显示与该用户共享的文件夹（及其祖先）的内容结构。* <br> 管理员用户可以使用路径浏览器导航到任何文件夹中的该文件夹，以搜索该文件夹中的资产。<br> 而非管理员用户则可以通过在路径浏览器中导航到文件夹（可供他们访问）中的该文件夹来搜索资产。 | <ul><li>字段标签</li><li>路径</li><li>描述</li></ul> |
 | **[!UICONTROL 属性]** | 基于特定元数据属性搜索资源。 **注意：** *在选择部分搜索时，默认情况下会选择“忽略大小写”*。 | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>部分搜索</li><li>忽略大小写</li><li> 描述</li></ul> |
 | **[!UICONTROL 多值属性]** | 与属性谓词类似，但允许使用多个输入值，各个输入值之间用分隔符（默认为逗号）隔开，这样就会在结果中返回与任何输入值匹配的资产。 | <ul><li>字段标签</li><li>占位符</li><li>属性名称</li><li>分隔符支持</li><li>忽略大小写</li><li>描述</li></ul> |
 | **[!UICONTROL 标记]** | 用于根据标记搜索资产的搜索谓词。 您可以配置Path属性以填充“标记”列表中的各种标记。 管理员可能需要更改路径值，例如[!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]。 如果他们从AEM发布搜索表单，并且路径不包含租户信息（例如，[!UICONTROL `/etc/tags/<custom_tag_namespace>`]），则这是必需的。 | <ul><li>字段标签</li><li>属性名称</li><li>路径</li><li>描述</li></ul> |
@@ -105,7 +117,7 @@ Brand Portal支持[面向已批准品牌资产的细粒度搜索](../using/brand
 
 >[!NOTE]
 >
->* 请勿使用&#x200B;**[!UICONTROL 选项谓词]**、**[!UICONTROL Publish状态谓词]**&#x200B;和&#x200B;**[!UICONTROL 评级谓词]**，因为这些谓词在Brand Portal中不起作用。
+>* 请勿使用&#x200B;**[!UICONTROL 选项谓词]**、**[!UICONTROL 发布状态谓词]**&#x200B;和&#x200B;**[!UICONTROL 评级谓词]**，因为这些谓词在Brand Portal中不起作用。
 >* Brand Portal不支持文件夹类型谓词`(nt:folder type)`，这可能导致性能问题。 如果它存在于已发布的自定义搜索表单中，则可通过编辑搜索表单将其删除。
 
 ## 删除搜索谓词 {#delete-a-search-predicate}
