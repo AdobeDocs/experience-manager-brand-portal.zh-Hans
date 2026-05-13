@@ -5,16 +5,22 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: 1108
+ht-degree: 2%
 
 ---
 
 # 在Brand Portal上共享文件夹 {#share-folders}
 
-由于Assets不支持资源摄取，因此需要从预配置的Experience Manager创作实例将Brand Portal发布到Brand Portal。
+由于Assets不支持资产摄取，因此需要从预配置的Experience Manager创作实例将Brand Portal发布到Brand Portal。
 
 ## Brand Portal中的文件夹共享工作流程 {#folder-sharing-workflow-in-brand-portal}
 
@@ -28,21 +34,21 @@ ht-degree: 1%
 
 ### 在Brand Portal上与用户组共享文件夹 {#sharing-folders-with-user-groups-on-brand-portal}
 
-文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
+文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
 
-同样，有权仅访问文件夹B的用户组（或用户）对文件夹C而不是文件夹A具有相同的访问权限。Adobe建议组织内容，以便将最公开的资源放在子文件夹中，从而允许从子文件夹一直到根文件夹的访问权限受到限制。
+同样，仅有权访问文件夹B的用户组（或用户）对文件夹C而不是文件夹A具有相同的访问权限。Adobe建议组织内容，以便将最公开的资产放在子文件夹中，从而允许将子文件夹的访问权限限制为一直到根文件夹。
 
 ### 公共文件夹发布 {#public-folder-publish}
 
-只有在配置AEM Assets复制期间选择了&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;选项时，非管理员用户（例如编辑者和查看者）才能访问从Brand Portal发布到Brand Portal的资源。
+只有在配置AEM Assets复制期间选择了&#x200B;**[!UICONTROL 公用文件夹发布]**&#x200B;选项时，非管理员用户（例如编辑者和查看者）才能访问从Brand Portal发布到Brand Portal的资源。
 
 ![](assets/assetbpreplication.png)
 
-如果&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;选项已禁用，则管理员需要使用共享功能专门与非管理员用户共享这些资源。
+如果&#x200B;**[!UICONTROL 公用文件夹发布]**&#x200B;选项已禁用，则管理员需要使用共享功能专门与非管理员用户共享这些资源。
 
 >[!NOTE]
 >
->启用&#x200B;**[!UICONTROL 公用文件夹Publish]**&#x200B;的选项在AEM 6.3.2.1及更高版本中可用。
+>从AEM 6.3.2.1开始，启用&#x200B;**[!UICONTROL 公用文件夹发布]**&#x200B;的选项可用。
 
 ## 访问共享文件夹 {#access-to-shared-folders}
 
@@ -57,7 +63,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->默认情况下，在使用AEM Author配置Brand Portal复制时，**[!UICONTROL 公用文件夹Publish]**&#x200B;选项处于禁用状态。 如果启用了选项，则所有用户（非管理员用户）默认情况下都可以访问发布到Brand Portal的文件夹。
+>默认情况下，在使用AEM Author配置Brand Portal复制时，**[!UICONTROL 公用文件夹发布]**&#x200B;选项处于禁用状态。 如果启用了选项，则所有用户（非管理员用户）默认情况下都可以访问发布到Brand Portal的文件夹。
 
 ### 非管理员用户对共享文件夹的访问权限 {#non-admin-user-access-to-shared-folders}
 
@@ -73,7 +79,7 @@ ht-degree: 1%
 
 登录Brand Portal时，非管理员用户会看到文件夹树（从根文件夹开始）以及在其各自的父文件夹内排列的共享文件夹。
 
-这些父文件夹是虚拟文件夹，无法对它们执行任何操作。 您可以使用锁图标来识别这些虚拟文件夹。
+这些父文件夹是虚拟文件夹，无法对它们执行任何操作。 您可以通过锁形图标来识别这些虚拟文件夹。
 
 与共享文件夹不同，在&#x200B;**[!UICONTROL 卡片视图]**&#x200B;中悬停或选择操作任务时不会显示任何操作任务。 在&#x200B;**[!UICONTROL 列视图]**&#x200B;和&#x200B;**[!UICONTROL 列表视图]**&#x200B;中选择虚拟文件夹时显示&#x200B;**[!UICONTROL 概述]**&#x200B;按钮。
 
@@ -109,7 +115,7 @@ ht-degree: 1%
 
 1. 如果您不希望向用户显示默认名称，请在&#x200B;**[!UICONTROL 文件夹属性]**&#x200B;控制台的&#x200B;**[!UICONTROL 文件夹标题]**&#x200B;字段中指定文件夹标题。
 1. 从&#x200B;**[!UICONTROL 添加用户]**&#x200B;列表中，选择要与其共享文件夹的用户或组，然后单击&#x200B;**[!UICONTROL 添加]**。
-要仅与来宾用户共享文件夹，而不与其他用户共享，请从&#x200B;**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
+要仅与来宾用户共享文件夹，而不与其他用户共享，请从**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
 
    ![](assets/only-anonymous.png)
 
@@ -135,7 +141,7 @@ ht-degree: 1%
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**&#x200B;以确认取消共享。
-单击&#x200B;**[!UICONTROL 保存]**。
+1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**以确认取消共享。
+单击**[!UICONTROL 保存]**。
 
 1. 使用您从共享列表中删除的用户的凭据登录Brand Portal。 该文件夹在Brand Portal界面中不再可供用户使用。

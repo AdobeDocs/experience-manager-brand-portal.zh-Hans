@@ -1,19 +1,25 @@
 ---
-title: 来宾访问Brand Portal
+title: 访客访问 Brand Portal
 description: 允许来宾访问，无需身份验证即可轻松载入大量用户。
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
-# 来宾访问Brand Portal {#guest-access-to-brand-portal}
+# 访客访问 Brand Portal {#guest-access-to-brand-portal}
 
 Experience Manager Assets Brand Portal允许Guest访问门户。 来宾用户无需凭据即可进入门户，并且有权访问门户的公共资产（和收藏集）。 来宾会话中的用户可以向Lightbox（专用收藏集）添加资产并下载这些资产，直到其会话持续或来宾用户选择[[!UICONTROL 结束会话]](#exit-guest-session)为止。 访客用户会话保持活动状态15分钟。
 
@@ -38,7 +44,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## 来宾会话持续时间 {#guest-session-duration}
 
 访客用户会话保持活动状态15分钟。
-此过程将&#x200B;**[!UICONTROL Lightbox]**&#x200B;的状态从会话开始时间保留15分钟。 之后，当前来宾会话重新启动，导致Lightbox状态丢失。
+此过程将**[!UICONTROL Lightbox]**&#x200B;的状态从会话开始时间保留15分钟。 之后，当前来宾会话重新启动，导致Lightbox状态丢失。
 
 例如，访客用户在1500小时登录到Brand Portal，并在15:05小时将资源添加到&#x200B;**[!UICONTROL Lightbox]**&#x200B;以供下载。 如果用户未在15:15小时（登录后15分钟内）之前下载&#x200B;**[!UICONTROL Lightbox]**&#x200B;收藏集（或其资产），则用户必须重新启动会话。 **[!UICONTROL Lightbox]**&#x200B;为空，这意味着如果会话丢失，则上传的资源不再可用。
 
@@ -61,13 +67,13 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 如果管理员启用[启用文件夹层次结构](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)，则来宾用户在登录到Brand Portal后，会从父文件夹中的根文件夹和共享文件夹看到文件夹树。
 
-这些父文件夹是虚拟文件夹，无法对它们执行任何操作。 您可以使用锁图标来识别这些虚拟文件夹。
+这些父文件夹是虚拟文件夹，无法对它们执行任何操作。 您可以通过锁形图标来识别这些虚拟文件夹。
 
 与共享文件夹不同，在&#x200B;**[!UICONTROL 卡片视图]**&#x200B;中悬停或选择操作任务时不会显示任何操作任务。 在&#x200B;**[!UICONTROL 列视图]**&#x200B;和&#x200B;**[!UICONTROL 列表视图]**&#x200B;中选择虚拟文件夹时显示&#x200B;**[!UICONTROL 概述]**&#x200B;按钮。
 
 >[!NOTE]
 >
->虚拟文件夹的默认缩略图是第一个共享文件夹的缩略图图像。
+>虚拟文件夹的默认缩略图是第一个共享文件夹的缩略图。
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
