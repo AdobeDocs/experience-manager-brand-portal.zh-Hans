@@ -7,11 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
 TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -44,7 +52,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## 来宾会话持续时间 {#guest-session-duration}
 
 访客用户会话保持活动状态15分钟。
-此过程将**[!UICONTROL Lightbox]**&#x200B;的状态从会话开始时间保留15分钟。 之后，当前来宾会话重新启动，导致Lightbox状态丢失。
+此过程将&#x200B;**[!UICONTROL Lightbox]**&#x200B;的状态从会话开始时间保留15分钟。 之后，当前来宾会话重新启动，导致Lightbox状态丢失。
 
 例如，访客用户在1500小时登录到Brand Portal，并在15:05小时将资源添加到&#x200B;**[!UICONTROL Lightbox]**&#x200B;以供下载。 如果用户未在15:15小时（登录后15分钟内）之前下载&#x200B;**[!UICONTROL Lightbox]**&#x200B;收藏集（或其资产），则用户必须重新启动会话。 **[!UICONTROL Lightbox]**&#x200B;为空，这意味着如果会话丢失，则上传的资源不再可用。
 

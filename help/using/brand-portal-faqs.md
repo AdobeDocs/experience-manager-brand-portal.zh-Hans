@@ -8,10 +8,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
 TQID: https://experienceleague.adobe.com/7CFDihMZL-A0aWNO37Gf4C-3l4YwqHd39lnl-PSI6NA
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1513
@@ -65,7 +70,7 @@ Brand Portal 常见问题解答主要关注最终用户在使用最新版 (6.4.6
 
 **问题：Brand Portal 6.4.5 版本的主要变化是什么？**
 
-**回答：** Experience Manager Assets Brand Portal 6.4.5 允许用户直接从 Brand Portal 上传内容并将贡献文件夹发布回 Experience Manager Assets，而无需管理员权限。 有关详细信息，请参阅[ Brand Portal 中的资产搜寻](brand-portal-asset-sourcing.md)。
+**回答：** Experience Manager Assets Brand Portal 6.4.5 允许用户直接从 Brand Portal 上传内容并将贡献文件夹发布回 Experience Manager Assets，而无需管理员权限。 有关详细信息，请参阅[&#x200B; Brand Portal 中的资产搜寻](brand-portal-asset-sourcing.md)。
 
 
 
@@ -78,7 +83,7 @@ Brand Portal 常见问题解答主要关注最终用户在使用最新版 (6.4.6
 **问题：我什么时候可以迁移到新版本的 Brand Portal？**
 
 **回答：** Brand Portal 6.4.5 于 2019 年 10 月发布至生产环境。 下一个 Brand Portal 版本预计将于 2020 年 3 月发布。
-关于更新和版本变更，Adobe 建议您关注[发行说明](brand-portal-release-notes.md)和[ Brand Portal 新增功能](whats-new.md)。
+关于更新和版本变更，Adobe 建议您关注[发行说明](brand-portal-release-notes.md)和[&#x200B; Brand Portal 新增功能](whats-new.md)。
 
 
 
@@ -96,15 +101,15 @@ Brand Portal 常见问题解答主要关注最终用户在使用最新版 (6.4.6
 
 **问题：谁可以创建贡献文件夹？**
 
-**回答：** 任何拥有在 Experience Manager Assets 中创建文件夹权限的 Experience Manager Assets 用户，都可以创建一个&#x200B;**贡献**&#x200B;文件夹。 要创建一个&#x200B;**贡献**&#x200B;文件夹，请创建一个类型为&#x200B;**资产贡献**的文件夹。
+**回答：** 任何拥有在 Experience Manager Assets 中创建文件夹权限的 Experience Manager Assets 用户，都可以创建一个&#x200B;**贡献**&#x200B;文件夹。 要创建一个&#x200B;**贡献**&#x200B;文件夹，请创建一个类型为&#x200B;**资产贡献**&#x200B;的文件夹。
 此文件夹与活跃的 Brand Portal 用户共享，以便他们进行贡献。
 
 
 
 **问题：贡献文件夹包含什么？**
 
-**回答：** **贡献**&#x200B;文件夹包含两个子文件夹，即&#x200B;**新的**&#x200B;和&#x200B;**共享**文件夹。 最初，新的文件夹为空，而共享文件夹则包含 Brand Portal 用户的引用内容（可重复使用的资产）。
-Brand Portal 用户访问**贡献**&#x200B;文件夹，并在&#x200B;**新的**&#x200B;文件夹中上传内容。
+**回答：** **贡献**&#x200B;文件夹包含两个子文件夹，即&#x200B;**新的**&#x200B;和&#x200B;**共享**&#x200B;文件夹。 最初，新的文件夹为空，而共享文件夹则包含 Brand Portal 用户的引用内容（可重复使用的资产）。
+Brand Portal 用户访问&#x200B;**贡献**&#x200B;文件夹，并在&#x200B;**新的**&#x200B;文件夹中上传内容。
 
 
 
@@ -116,7 +121,7 @@ Brand Portal 用户访问**贡献**&#x200B;文件夹，并在&#x200B;**新的**&
 
 **问题：相对于贡献，资产要求是什么？**
 
-**回答：****贡献**&#x200B;文件夹中的&#x200B;**简介**&#x200B;文档和&#x200B;**共享**&#x200B;文件夹中的引用内容有助于 Brand Portal 用户了解贡献需求和期望。 它们合在一起被称为资产要求。
+**回答：**&#x200B;**贡献**&#x200B;文件夹中的&#x200B;**简介**&#x200B;文档和&#x200B;**共享**&#x200B;文件夹中的引用内容有助于 Brand Portal 用户了解贡献需求和期望。 它们合在一起被称为资产要求。
 
 **问题：我可以将资产上传到任何允许的文件夹吗？**
 

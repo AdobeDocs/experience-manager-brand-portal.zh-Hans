@@ -6,9 +6,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 TQID: https://experienceleague.adobe.com/5U3958LUe-Pw2LMcX9fEDKIYHU6IVQ-J4CeKlmBFuKo
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 639
@@ -35,7 +39,7 @@ ht-degree: 3%
 要在AEM上创建标记，请在Brand Portal上发布标记，并将这些标记与相应的资产（或收藏集）关联，请执行以下步骤：
 
 1. **创建标记**
-使用管理权限登录到AEM创作实例，然后从全局导航访问**[!UICONTROL AEM标记]**&#x200B;控制台：
+使用管理权限登录到AEM创作实例，然后从全局导航访问&#x200B;**[!UICONTROL AEM标记]**&#x200B;控制台：
 
    1. 选择&#x200B;**[!UICONTROL 工具]**
 
@@ -86,5 +90,5 @@ ht-degree: 3%
 
 1. 保存更改。
 1. 将资源发布到Brand Portal。
-1. 登录到Brand Portal。 在资产的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中查看&#x200B;**[!UICONTROL 高级]**选项卡。
+1. 登录到Brand Portal。 在资产的&#x200B;**[!UICONTROL 属性]**&#x200B;部分中查看&#x200B;**[!UICONTROL 高级]**&#x200B;选项卡。
 请注意，**[!UICONTROL Search Promote]**&#x200B;关键字也在该资产的属性中可见。

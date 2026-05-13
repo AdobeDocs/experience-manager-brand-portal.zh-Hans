@@ -3,9 +3,13 @@ title: Adobe Experience Manager Assets Brand Portal 指南
 description: 使用 Experience Manager Assets Brand Portal，通过将获准的品牌和产品资产安全地分发给外部代理、合作伙伴、内部团队和经销商进行下载来满足营销需求。
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
 TQID: https://experienceleague.adobe.com/-IsbLpGrq16MLj74ma34fxV3ac9EKMNBMny7taDO6ZQ
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 439
@@ -49,7 +53,7 @@ Brand Portal 是基于云的 SAAS 产品。 它可作为 Adobe Experience Manage
 | [支持的文件格式](brand-portal-supported-formats.md) | Brand Portal 中支持预览和下载的文件格式。 |
 | [将资产发布到 Brand Portal](brand-portal-sharing-folders.md) | 如何将文件夹、收藏集、链接、预设、架构、Facet 和标记发布到 Brand Portal。 |
 | [Brand Portal 中的资产搜寻](brand-portal-asset-sourcing.md) | 如何在 AEM Assets 中配置资产搜寻，在 Brand Portal 中上传资产，并将贡献文件夹发布回 AEM Assets。 |
-| [ Brand Portal 功能视频](https://experienceleague.adobe.com/?lang=zh-hans&tag=Brand+Portal#recommended/solutions/experience-manager) | 通过视频教程了解如何使用 Experience Manager Assets Brand Portal。 |
+| [&#x200B; Brand Portal 功能视频](https://experienceleague.adobe.com/?lang=zh-hans&tag=Brand+Portal#recommended/solutions/experience-manager) | 通过视频教程了解如何使用 Experience Manager Assets Brand Portal。 |
 
 ### 有用资源
 

@@ -7,10 +7,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -44,7 +50,7 @@ ht-degree: 4%
 
    要查看报表，请单击报表链接。 或者，选择报告，然后单击工具栏中的查看图标。
 
-   **[!UICONTROL 使用情况报表]**&#x200B;显示有关Brand Portal中活动的Brand Portal用户数、所有资源占用的存储空间以及资源总数的信息。 未在 Admin Console 中被分配任何产品配置文件的 Brand Portal 用户将被视为非活跃用户，不会反映在&#x200B;**[!UICONTROL 使用情况报告]**中。
+   **[!UICONTROL 使用情况报表]**&#x200B;显示有关Brand Portal中活动的Brand Portal用户数、所有资源占用的存储空间以及资源总数的信息。 未在 Admin Console 中被分配任何产品配置文件的 Brand Portal 用户将被视为非活跃用户，不会反映在&#x200B;**[!UICONTROL 使用情况报告]**&#x200B;中。
 此报表还会显示每个信息量度的允许容量。
 
    ![](assets/usage-report.png)

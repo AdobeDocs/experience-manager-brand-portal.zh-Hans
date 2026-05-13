@@ -6,11 +6,17 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
 TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1108
@@ -115,7 +121,7 @@ ht-degree: 2%
 
 1. 如果您不希望向用户显示默认名称，请在&#x200B;**[!UICONTROL 文件夹属性]**&#x200B;控制台的&#x200B;**[!UICONTROL 文件夹标题]**&#x200B;字段中指定文件夹标题。
 1. 从&#x200B;**[!UICONTROL 添加用户]**&#x200B;列表中，选择要与其共享文件夹的用户或组，然后单击&#x200B;**[!UICONTROL 添加]**。
-要仅与来宾用户共享文件夹，而不与其他用户共享，请从**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
+要仅与来宾用户共享文件夹，而不与其他用户共享，请从&#x200B;**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
 
    ![](assets/only-anonymous.png)
 
@@ -141,7 +147,7 @@ ht-degree: 2%
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**以确认取消共享。
-单击**[!UICONTROL 保存]**。
+1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**&#x200B;以确认取消共享。
+单击&#x200B;**[!UICONTROL 保存]**。
 
 1. 使用您从共享列表中删除的用户的凭据登录Brand Portal。 该文件夹在Brand Portal界面中不再可供用户使用。

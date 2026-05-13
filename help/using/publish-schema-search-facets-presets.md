@@ -6,10 +6,15 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
 TQID: https://experienceleague.adobe.com/M2TJ3UdBegFbtGRdzdqrPDXMovdtf0BcPoY3FVNoQSw
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9ef
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1131
@@ -117,7 +122,7 @@ ht-degree: 1%
 
 ### 限制 {#limitations}
 
-1. 很少搜索谓词不适用于Brand Portal上的搜索过滤器。 当这些搜索谓词作为搜索表单的一部分从AEM创作实例发布到Brand Portal时，会被过滤掉。 因此，用户可以在Brand Portal的已发布表单中看到较少的谓词。 查看适用于Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates)上的筛选器的[搜索谓词。
+1. 很少搜索谓词不适用于Brand Portal上的搜索过滤器。 当这些搜索谓词作为搜索表单的一部分从AEM创作实例发布到Brand Portal时，会被过滤掉。 因此，用户可以在Brand Portal的已发布表单中看到较少的谓词。 查看适用于Brand Portal[&#128279;](../using/brand-portal-search-facets.md#list-of-search-predicates)上的筛选器的搜索谓词。
 
 1. 对于[!UICONTROL 选项谓词]，如果用户使用任何自定义路径读取AEM Author实例上的选项，则该路径在Brand Portal上不起作用。 这些附加路径和选项未使用搜索表单发布到Brand Portal。 在这种情况下，用户可以在&#x200B;**[!UICONTROL 选项谓词]**&#x200B;内的&#x200B;**[!UICONTROL 添加选项]**&#x200B;中选择&#x200B;**[!UICONTROL 手动]**&#x200B;选项，以便在Brand Portal中手动添加这些选项。
 
