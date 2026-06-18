@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
 ht-degree: 11%
@@ -39,7 +39,7 @@ Adobe Experience Manager Assets Brand Portal通过允许用户同时下载可从
 >
 >如果您不想使用® Aspera Connect并继续正常下载过程，请联系Brand Portal管理员以关闭&#x200B;**[!UICONTROL 快速下载]**&#x200B;设置。
 
-## 配置资源下载 {#configure-download}
+## 配置资源下载
 
 Brand Portal管理员可以为Brand Portal用户配置资源下载和用户组设置。 此功能允许用户从Brand Portal界面访问和下载资源演绎版。
 
@@ -295,7 +295,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 

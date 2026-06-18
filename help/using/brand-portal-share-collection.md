@@ -16,7 +16,7 @@ subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 0%
@@ -79,7 +79,7 @@ ht-degree: 0%
    >
    >用户的角色可管理对收藏集中资源和文件夹的访问。 如果用户无权访问资产，则会与用户共享空集合。 此外，用户的角色可控制可用于收藏集的操作。
 
-## 取消共享收藏集 {#unshare-a-collection}
+## 取消共享收藏集
 
 要取消共享以前共享的收藏集，请执行以下操作：
 
@@ -138,7 +138,7 @@ ht-degree: 0%
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 
