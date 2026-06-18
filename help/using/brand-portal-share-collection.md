@@ -7,16 +7,11 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
 TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 689
 ht-degree: 0%
@@ -29,7 +24,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
+收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
 
 * **管理员**&#x200B;可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户加入某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
 
@@ -79,7 +74,7 @@ ht-degree: 0%
    >
    >用户的角色可管理对收藏集中资源和文件夹的访问。 如果用户无权访问资产，则会与用户共享空集合。 此外，用户的角色可控制可用于收藏集的操作。
 
-## 取消共享收藏集 {#unshare-a-collection}
+## 取消共享收藏集
 
 要取消共享以前共享的收藏集，请执行以下操作：
 
@@ -138,7 +133,7 @@ ht-degree: 0%
    >
    >A user's role governs access to the assets and folders inside a collection. If a user does not have access to assets, an empty collection is shared with the user. Also, a user's role governs the actions available for collections.
 
-## Unshare a collection {#unshare-a-collection}
+## Unshare a collection
 
 To unshare a previously shared collection, do the following:
 
