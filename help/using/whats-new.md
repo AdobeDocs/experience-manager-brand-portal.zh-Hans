@@ -5,46 +5,62 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-TQID: https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0
+TQID: 'https://experienceleague.adobe.com/-mH8aSfC9V8seE8ynUPNeJeE2Jt79S6etcyDlK14jL0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: ae478996-b206-4712-9b0c-dc78a2644453
+    internal-label: Integrations
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
   - id: e17747bc-9b7b-44e6-a443-f54229a02620
+    internal-label: Integrations
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+    internal-label: Smart Tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Optimization
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 6645
+source-wordcount: '6645'
 ht-degree: 97%
-
 ---
-
 # Experience Manager Assets Brand Portal 的新增功能 {#what-s-new-in-aem-assets-brand-portal}
 
-Adobe Experience Manager Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部商务用户分发这些资产。 它有助于提高资产共享的效率，加快资产的上市时间，降低违规和未经授权访问的风险。 Adobe 不断致力于改进整体 Brand Portal 体验。 以下是新功能和增强功能的预告。
+Adobe Experience Manager Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部业务用户分发这些资产。 它有助于提高资产共享的效率，加快资产的上市时间，降低违规和未经授权访问的风险。 Adobe 不断致力于改进整体 Brand Portal 体验。 以下是新功能和增强功能的预告。
 
 ## 2026.01.01 中更改了哪些内容 {#what-changed-in-January-2026}
 
-Brand Portal 2026.01.01 是一个内部版本，包含对一些关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 2026.01.01 是一个内部版本，包含对一些重要问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 ## 2024.10.0 中更改了哪些内容 {#what-changed-in-October-2024}
 
-Brand Portal 2024.10.0 是一个内部版本，包含对一些关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 2024.10.0 是一个内部版本，包含对一些重要问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 ## 2024.02.0 中更改了哪些内容 {#what-changed-in-February-2024}
 
@@ -91,24 +107,24 @@ Brand Portal 现在每十二小时自动运行一次任务，以删除发布到 
 
 ![详细的删除报告](assets/deletion-reports-detailed.png)
 
-此外，Brand Portal 2022.05.0 还包含对关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+此外，Brand Portal 2022.05.0 还包含对重要问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 
 ## 2022.02.0 中更改了哪些内容 {#what-changed-in-Feb-2022}
 
-Brand Portal 2022.02.0 是一个内部版本，包含对一些关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 2022.02.0 是一个内部版本，包含对一些重要问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 ## 2021.10.0 中更改了哪些内容 {#what-changed-in-october-2021}
 
-Brand Portal 2021.10.0 是一个内部版本，包含对一些关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 2021.10.0 是一个内部版本，包含对一些重要问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 ## 2021.08.0 中更改了哪些内容 {#what-changed-in-august-2021}
 
-Brand Portal 2021.08.0 是一个内部版本，引入了企业和团队客户的业务资料，以便组织更好地控制其资产。 现在，用户在新的和迁移的组织中拥有组织特定的权利。 在迁移期间，所有现有的 Adobe ID 帐户都将迁移到 Business ID。
+Brand Portal 2021.08.0 是一个内部版本，引入了面向企业和团队客户的业务轮廓，以便组织更好地控制其资产。 现在，用户在新的和已迁移的组织中拥有特定于组织的授权。 在迁移期间，所有现有的 Adobe ID 帐户都将迁移到 Business ID。
 
-* 迁移后，Business ID 分配给所有新组织和现有组织。
+* 迁移后，所有新组织和现有组织都将获得业务 ID。
 * Business ID 不需要任何特殊设置，例如声明某个域或设置 SSO。
-* 您可以通过任何电子邮件地址添加用户，包括公共电子邮件域，例如 gmail.com 或 outlook.com。
+* 您可以添加具有任何电子邮件地址的用户，包括公共电子邮件域，例如 gmail.com 或 outlook.com。
 
 **对 Brand Portal 用户的影响**
 
@@ -181,12 +197,12 @@ For a new or migrated T2E orgnization, the users will have an organization speci
 
 ## 2021.06.0 中更改了哪些内容 {#what-changed-in-june-2021}
 
-Brand Portal 2021.06.0 是一个内部版本，包含对一些关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 2021.06.0 是一个内部版本，包含对一些重要问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 
 ## 2021.02.0 中更改了哪些内容 {#what-changed-in-feb-2021}
 
-Brand Portal 2021.02.0 通过激活工作流和资产搜寻功能增强 AEM Assets as a Cloud Service。 它还改进了资产下载体验，并包含关键问题的修复。 它还使管理员能够在租户级别上配置文件夹、收藏集的默认下载行为以及资产批量下载。 Brand Portal **[!UICONTROL 使用情况报告]**&#x200B;也进行了修改，以反映活跃的 Brand Portal 用户。
+Brand Portal 2021.02.0 通过激活工作流和资产搜寻功能增强 AEM Assets as a Cloud Service。 它还改进了资产下载体验，并包含重要修复。 它还使管理员能够在租户级别上配置文件夹、收藏集的默认下载行为以及资产批量下载。 Brand Portal **[!UICONTROL 使用情况报告]**&#x200B;也进行了修改，以反映活跃的 Brand Portal 用户。
 
 >[!IMPORTANT]
 >
@@ -225,7 +241,7 @@ See [Asset Sourcing in Brand Portal](https://experienceleague.adobe.com/zh-hans/
 
 ### 资产下载 {#asset-download-setting}
 
-除了现有的&#x200B;**[!UICONTROL 下载设置]**&#x200B;以外，Brand Portal 管理员现在可以配置&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 此设置允许管理员在租户级别上管理文件夹、收藏集的默认下载行为以及批量资产（超过 20 个资产）下载。
+除了现有的&#x200B;**[!UICONTROL 下载设置]**&#x200B;以外，Brand Portal 管理员现在可以配置&#x200B;**[!UICONTROL 资产下载]**&#x200B;设置。 此设置允许管理员在租户级别上管理文件夹、收藏集的默认下载行为以及资产批量下载（超过 20 个资产）。
 
 <!--
 Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog box is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
@@ -264,7 +280,7 @@ Brand Portal 2020.10.0 是一个增强版本，专注于简化资产下载体验
 
 ### 简化的下载体验 {#download-dialog}
 
-以前，**[!UICONTROL 下载]**&#x200B;对话框提供了多个选项，例如为每个资产创建单独的文件夹、通过电子邮件发送资产、选择原始资产等。 这些选项对于非技术用户或新用户来说很容易混淆，尤其是在下载多个资产或文件夹时。 此外，用户无法看到所有资产演绎版，也无法排除某个特定的自定义或动态演绎版。
+以前，**[!UICONTROL 下载]**&#x200B;对话框提供了多个选项，例如为每个资产创建单独的文件夹、通过电子邮件发送资产、选择原始资产等。 这些选项对于非技术用户或新用户来说容易造成困惑，尤其是在下载多个资产或文件夹时。 此外，用户无法看到所有资产演绎版，也无法排除某个特定的自定义或动态演绎版。
 
 新的&#x200B;**[!UICONTROL 下载]**&#x200B;对话框概括了资产选择和筛选过程，使得 Brand Portal 用户在下载资产演绎版时更容易做出有效的决定。 它列出了所有选定的资产及其演绎版，具体取决于[**[!UICONTROL 下载]**](brand-portal-download-assets.md)配置和&#x200B;**[!UICONTROL 下载]**&#x200B;设置。
 
@@ -299,7 +315,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 
 ### 改进的演绎版面板 {#rendition-panel}
 
-以前，只有在&#x200B;**[!UICONTROL 下载]**&#x200B;配置中启用了&#x200B;**[!UICONTROL 自定义演绎版]**&#x200B;或&#x200B;**[!UICONTROL 系统演绎版]**，用户才能在&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板中查看原始资产及其演绎版。 而且，以前没有筛选条件来排除某个不需要的自定义或动态演绎版，因此用户必须下载所有资产演绎版。
+以前，只有在&#x200B;**[!UICONTROL 下载]**&#x200B;配置中启用了&#x200B;**[!UICONTROL 自定义演绎版]**&#x200B;或&#x200B;**[!UICONTROL 系统演绎版]**，用户才能在&#x200B;**[!UICONTROL 演绎版]**&#x200B;面板中查看原始资产及其演绎版。 而且，以前没有筛选条件来排除不需要的特定自定义或动态演绎版，因此用户必须下载所有资产演绎版。
 
 <!--
 Earlier, if any of the custom or system renditions was enabled in the **[!UICONTROL Download]** settings, an additional **[!UICONTROL Download]** dialog box appeared on clicking the **[!UICONTROL Download]** button wherein the user had to manually select the set of renditions (original asset, custom renditions, dynamic renditions) to download.
@@ -326,7 +342,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 在&#x200B;**[!UICONTROL 用户角色]**&#x200B;页面中导航到&#x200B;**[!UICONTROL 组]**&#x200B;选项卡，配置用户组的查看和（或）下载设置。
 
-以前，这些设置仅用于限制群组用户下载原始资产。
+以前，这些设置仅用于限制组中的用户下载原始资产。
 
 **[!UICONTROL 用户角色]**&#x200B;页面中的&#x200B;**[!UICONTROL 群组]**&#x200B;选项卡允许管理员配置查看和下载设置：
 
@@ -353,7 +369,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ## 6.4.7 中更改了哪些内容 {#what-changed-in-647}
 
-Brand Portal 6.4.7 版本引入了文档查看器，增强了下载资产的体验，并包含关键问题的修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 6.4.7 版本引入了文档查看器，增强了下载资产的体验，并包含重要修复。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 <!--
 Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
@@ -399,7 +415,7 @@ Brand Portal 管理员可以启用任意组合来配置资产下载。
 
 ## 6.4.6 中更改了哪些内容 {#what-changed-in-646}
 
-在 Brand Portal 6.4.6 中，AEM Assets 和 Brand Portal 之间的授权渠道发生了变化。 现在，AEM Assets as a Cloud Service、AEM Assets 6.3 及更高版本支持 Brand Portal。 在 AEM Assets 6.3 及更高版本中，Brand Portal 最初是在经典用户界面中使用旧版 OAuth 网关进行配置的。 此网关采用 JWT 令牌交换来获取 IMS 访问令牌以进行授权。 现在，可使用 Brand Portal 通过 Adobe Developer Console 配置 AEM Assets，该控制台会获取一个 IMS 令牌，用于授权您的 Brand Portal 租户。
+在 Brand Portal 6.4.6 中，AEM Assets 和 Brand Portal 之间的授权渠道发生了变化。 现在，Brand Portal 已在 AEM Assets as a Cloud Service、AEM Assets 6.3 及更高版本上受支持。 在 AEM Assets 6.3 及更高版本中，Brand Portal 最初是在经典用户界面中使用旧版 OAuth 网关进行配置的。 此网关采用 JWT 令牌交换来获取 IMS 访问令牌以进行授权。 现在，可使用 Brand Portal 通过 Adobe Developer Console 配置 AEM Assets，该控制台会获取一个 IMS 令牌，用于授权您的 Brand Portal 租户。
 
 <!-- 
 The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
@@ -490,7 +506,7 @@ Brand Portal 用户只能将资产上传到&#x200B;**新的**&#x200B;子文件�
 
 ## 6.4.4 中更改了哪些内容 {#what-changed-in-644}
 
-Brand Portal 6.4.4 版主要增强了文本搜索和常见客户请求。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
+Brand Portal 6.4.4 版主要增强了文本搜索，并满足了客户最常提出的请求。 请参阅最新的 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
 ### 搜索增强功能
 
@@ -630,7 +646,7 @@ Brand Portal 6.4.3 引入了访问 URL 的备用别名、新的文件夹层级�
 该版本简化了下载体验，减少了点击次数和警告提示，具体如下：
 
 * 选择仅下载演绎版（而不下载原始资产）。
-* 在原始演绎版的访问受限时下载资产。
+* 在原始演绎版的访问权限受限时下载资产。
 
 ## 6.4.2 中更改了哪些内容 {#what-changed-in-1}
 
@@ -758,7 +774,7 @@ Brand Portal 6.4.1 是一个平台升级版本。 它引入了多项新功能和
 ![](assets/navbtn.png)
 
 * 在资产详情页面中新增了预览从 AEM 上传的音频文件的功能。
-* 资产属性中新增了相关的资产功能。 从 AEM 在 Brand Portal 上发布的相关资产现在可以保持其关系，这些相关资产的链接可在属性页面上找到。
+* 资产属性中新增了相关资产功能。 从 AEM 发布到 Brand Portal 的相关资产现在会保留其关系，并且可在属性页面上找到这些相关资产的链接。
 * 引入了一种新配置，以限制非管理员用户创建公共收藏集。 组织可以与客户支持团队合作，在特定帐户上配置此功能。
 
 ### 搜索增强功能

@@ -5,26 +5,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+TQID: 'https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1549
-ht-degree: 14%
-
+source-wordcount: '1722'
+ht-degree: 12%
 ---
-
 # Experience Manager Assets Brand Portal概述 {#overview-of-aem-assets-brand-portal}
 
 作为营销人员，您有时需要与渠道合作伙伴和内部业务用户协作，以创建、管理和快速地将相关数字内容交付给客户。 在整个客户历程中及时交付相关内容对于提高需求、转化、参与度和客户忠诚度至关重要。
@@ -33,8 +40,8 @@ ht-degree: 14%
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;侧重于营销人员通过提供资产分发和资产贡献功能，与分布在全球的Brand Portal用户进行有效协作的需求。
 
-Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。在Brand Portal **中，贡献功能称为**&#x200B;Assets源。同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
-请参阅Brand Portal中的[资源源](brand-portal-asset-sourcing.md)。
+Asset Distribution允许您获取、控制经批准的创意资产，并将这些资产安全地分发给跨设备的外部各方和内部业务用户。 但是，通过资产贡献，Brand Portal用户能够将资产上传到Brand Portal并发布到Experience Manager Assets，而无需访问创作环境。 在Brand Portal **中，贡献功能称为**&#x200B;Assets源。 同时，它还改善了Brand Portal在资产分发方面的整体体验以及Brand Portal用户（外部机构/团队）的贡献，加快了资产上市时间，并降低了不合规和未经授权访问的风险。
+请参阅Brand Portal[&#128279;](brand-portal-asset-sourcing.md)中的资源源。
 
 通过基于浏览器的门户环境，您可以轻松以批准的格式上传、浏览、搜索、预览和导出资源。
 
@@ -108,7 +115,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 在[!DNL Admin Console]中定义的Brand Portal用户，其可通过查看者角色访问Brand Portal。 具有此角色的用户可以登录Brand Portal并访问允许的文件夹、收藏集和资源。 用户还可以浏览、预览、下载和导出资源（原始或特定演绎版）、配置帐户设置以及搜索资源。 以下是查看器可以执行的任务列表：
 
-* [浏览资源](browse-assets-brand-portal.md)
+* [浏览资产](browse-assets-brand-portal.md)
 
 * [搜索资产](brand-portal-searching.md)
 
@@ -153,7 +160,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
 
 从Brand Portal 6.4.3开始，组织可以为其Brand Portal租户的每个现有URL拥有一个替代（别名）URL。 别名URL可通过在URL中使用备用前缀来创建。\
 如果租户名称大于32个字符，则需要创建租户别名。
-请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。例如，具有现有域`geomettrix.brand-portal.adobe.com`的组织可以按请求创建`geomettrixinc.brand-portal.adobe.com`。
+请注意，只能自定义Brand Portal URL的前缀，而不能自定义整个URL。 例如，具有现有域`geomettrix.brand-portal.adobe.com`的组织可以按请求创建`geomettrixinc.brand-portal.adobe.com`。
 
 但是，AEM创作实例只能使用租户ID URL [配置](../using/configure-aem-assets-with-brand-portal.md)，而不能使用租户别名（替代）URL。
 
@@ -184,7 +191,7 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
    **方案1**
 
    1. 如果您有[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]，请单击&#x200B;**[!UICONTROL 登录]**。
-[!UICONTROL 登录]页面打开。
+      [!UICONTROL 登录]页面打开。
 
    1. 提供您的[!UICONTROL Adobe ID]凭据，然后单击&#x200B;**[!UICONTROL 登录]**。
 
@@ -195,9 +202,9 @@ Experience Manager Assets Brand Portal允许[来宾访问Brand Portal](#request-
    **方案2**
 
    1. 如果您没有[!UICONTROL Adobe ID]，若要创建一个，请从[!UICONTROL 请求访问]页面中单击&#x200B;**[!UICONTROL 获取Adobe ID]**。
-[!UICONTROL 登录]页面打开。
+      [!UICONTROL 登录]页面打开。
    1. 单击&#x200B;**[!UICONTROL 获取Adobe ID]**。
-[!UICONTROL 注册]页面打开。
+      [!UICONTROL 注册]页面打开。
    1. 输入您的名字和姓氏、电子邮件ID和密码。
    1. 选择&#x200B;**[!UICONTROL 注册]**。
 
@@ -216,7 +223,7 @@ Brand Portal产品管理员在其Brand Portal通知区域并通过其收件箱�
 ![访问请求的通知](assets/bplogin_request_access_7.png)
 
 要授予访问权限，产品管理员需要单击Brand Portal通知区域中的相关通知，然后单击&#x200B;**[!UICONTROL 授予访问权限]**。
-或者，产品管理员也可以按照访问请求电子邮件中提供的链接来访问Adobe [!UICONTROL Admin Console]，并将用户添加到相关的产品配置。
+或者，产品管理员也可以按照访问请求电子邮件中提供的链接访问Adobe [!UICONTROL Admin Console]，并将用户添加到相关的产品配置。
 
 您将被重定向到[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)主页。 使用Adobe [!UICONTROL Admin Console]创建用户并将其分配给产品配置文件（以前称为产品配置），这些配置文件在Brand Portal中显示为组。 有关在[!UICONTROL Admin Console]中添加用户的详细信息，请参阅[添加用户](brand-portal-adding-users.md#add-a-user)（按照过程中的步骤4-7添加用户）。
 

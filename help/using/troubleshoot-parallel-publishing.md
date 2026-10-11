@@ -6,25 +6,31 @@ content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+TQID: 'https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Troubleshooting
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 953
+source-wordcount: '954'
 ht-degree: 6%
-
 ---
-
 # 解决并行发布到 Brand Portal 时出现的问题 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal通过Experience Manager Assets进行配置，以批准从Experience Manager Assets创作实例中无缝摄取（或发布）Brand Assets。 配置[后](../using/configure-aem-assets-with-brand-portal.md)，Experience Manager Author会使用复制代理将一个或多个选定的资源复制到Brand Portal Cloud Service，以供Brand Portal用户批准使用。 Experience Manager 6.2 SP1-CFP5、Experience Manager CFP 6.3.0.2及更高版本使用了多个复制代理以允许高速并行发布。
@@ -77,9 +83,9 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 i. 删除 `/etc/replication/agents.author/mp_replication`
 二、 删除`/etc/cloudservices/mediaportal/<config_name>`
 
-1. 转到localhost:4502/useradmin：\
+1. 转到localhost：4502/useradmin：\
    i. 搜索用户 `mac-<tenantid>replication`
-二、 删除此用户
+   二、 删除此用户
 
 现在，系统已全部清理。 现在，您可以尝试创建云服务配置，并且仍使用现有的JWT应用程序。 无需创建应用程序，只需从新创建的云配置中更新公钥即可。
 

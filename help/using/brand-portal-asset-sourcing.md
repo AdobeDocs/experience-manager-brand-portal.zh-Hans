@@ -12,23 +12,28 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+TQID: 'https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 12%
-
 ---
-
 # 资产搜寻概述 {#overview-asset-sourcing-in-bp}
 
 **Asset Sourcing**&#x200B;允许Experience Manager Assets用户（管理员/非管理员用户）使用额外的&#x200B;**Asset Contribution**&#x200B;属性创建新文件夹，确保所创建的新文件夹可供Brand Portal用户提交资源。 这会自动触发一个工作流，该工作流会在新创建的&#x200B;**Contribution**&#x200B;文件夹中创建两个名为&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**&#x200B;的子文件夹。 管理员通过上传应添加到贡献文件夹的资源类型的简介来定义要求。 他们将一组基线资源上传到&#x200B;**SHARED**&#x200B;文件夹，为Brand Portal用户提供必要的参考信息。 管理员可以在将新创建的&#x200B;**贡献**&#x200B;文件夹发布到 Brand Portal 之前，授予活跃的 Brand Portal 用户访问贡献文件夹的权限。 当用户在&#x200B;**NEW**&#x200B;文件夹中添加完内容后，他们可以将贡献文件夹发布回Experience Manager创作环境。 请注意，可能需要几分钟才能完成导入，并在Experience Manager Assets中反映新发布的内容。

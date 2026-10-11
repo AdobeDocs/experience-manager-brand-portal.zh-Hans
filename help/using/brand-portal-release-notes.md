@@ -1,33 +1,41 @@
 ---
 title: 发行说明
-description: 洞察 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的功能、增强功能、已修复的关键问题以及已知问题。
+description: 了解 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的功能、增强功能、已修复的重要问题以及已知问题。
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+TQID: 'https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+    internal-label: Smart Tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: '1633'
 ht-degree: 93%
-
 ---
-
 # 发行说明 {#release-notes}
 
-洞察 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的新功能、增强功能、已修复的关键问题以及已知问题。
+了解 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的新功能、增强功能、已修复的重要问题以及已知问题。
 
 ## 版本信息 {#release-information}
 
@@ -38,7 +46,7 @@ ht-degree: 93%
 
 ## 概述 {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部商务用户分发这些资产。 它有助于提高资产共享的效率，加快资产的上市时间，降低违规和未经授权访问的风险。 Brand Portal 允许用户随时随地以公司认可的格式浏览、搜索、预览、下载和导出资产。
+Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、控制已批准的创意资产，并在各类设备上安全地向外部各方和内部商业用户分发这些资产。 它有助于提高资产共享的效率，缩短资产上市时间，并降低违规和未经授权访问的风险。 Brand Portal 允许用户随时随地以公司认可的格式浏览、搜索、预览、下载和导出资产。
 
 ## 2026.01.01 版本中的新增功能 {#whats-new-in-2026.01.01}
 
@@ -75,12 +83,12 @@ Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、�
 
 此版本包含以下错误修复：
 
-* 在土耳其地区，无法下载受 DRM 保护的数字资产。
-* 无法打开和下载包含多行标题资产的现有报告。
+* 在土耳其语区域设置中，无法下载受 DRM 保护的数字资产。
+* 无法打开和下载包含标题为多行的资产的现有报告。
 * 当您使用操作栏中的[!UICONTROL 下载]按钮下载资产时，最多可下载 1000 个资产。
 * 在内容树中查看时，PSD 类型资产的名称不正确。
 * 资产详情页面上的[!UICONTROL 删除演绎版]选项无法使用。
-* 下载弹出窗口中资产标题和大小不一致。
+* 下载弹出窗口中资产标题和大小未对齐。
 * 在创建报告时，标签未进行本地化。
 * 在 Brand Portal 中，支持管理员被称作管理员。
 
@@ -91,7 +99,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、�
 
 * 在浏览[!UICONTROL 收藏夹]时，性能得到了提升。
 
-* 在使用 OmniSearch 字段进行部分搜索时，搜索结果有所改进。
+* 在使用全方位搜索字段进行部分搜索时，搜索结果有所改进。
 
 此版本包含以下错误修复：
 
@@ -131,7 +139,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、�
 此版本包括以下已知问题：
 
 * 资产搜寻报告内容中的部分本地化。
-* 用户轮廓中的大部分字段都是可编辑的。
+* 用户轮廓中的少数字段不可编辑。
 
 ### 2023 年 2 月版本 {#feb-2023}
 
@@ -140,7 +148,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、�
 此版本包含对以下关键问题的修复：
 
 * 无法在 Brand Portal 上更新轮廓图片。
-* 内容树窗格不可调整大小。 如果文件名长度超过了内容树的默认宽度，则无法水平和垂直拖动内容树。 因此，较长的文件名不可读。
+* 内容树窗格不可调整大小。 如果文件名长度超过了内容树的默认宽度，则无法同时水平和垂直拖动内容树。 因此，较长的文件名不可读。
 * 在搜索表单中两次使用的同一属性谓词，其搜索结果不一致。
 * 中间登录页面上的文本未针对所有语言进行本地化。
 
@@ -175,7 +183,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 可帮助您轻松获取、�
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal 中的 Pulse 通知将于 2022 年 12 月 1 日起停止。 您将继续收到以下事件的电子邮件通知，而不是 Pulse 通知：
+>AEM Assets Brand Portal 中的 Pulse 通知将于 2022 年 12 月 1 日起停用。 您将继续收到以下事件的电子邮件通知，而不是 Pulse 通知：
 >
 >* 通过链接共享资产
 >* 请求访问工作流
