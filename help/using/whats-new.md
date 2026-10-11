@@ -461,7 +461,7 @@ AEM Assets configuration with Brand Portal on Adobe I/O is supported on:
 
 参见 [Brand Portal 发行说明](brand-portal-release-notes.md)。
 
-请参阅[ Brand Portal 常见问题解答](brand-portal-faqs.md)。
+请参阅[&#x200B; Brand Portal 常见问题解答](brand-portal-faqs.md)。
 
 ## 6.4.5 中更改了哪些内容 {#what-changed-in-645}
 
@@ -670,7 +670,7 @@ Brand Portal 用户可以应用基于 IBM® Aspera Connect 的快速下载功能
 
 为了使组织能够启用基于 IBM® Aspera 的加速下载功能，管理员需在管理工具面板中的[常规设置](brand-portal-general-configuration.md#allow-download-acceleration)中&#x200B;**启用下载加速**&#x200B;选项（默认情况下该选项处于禁用状态）。
 
-如需了解从 Brand Portal 和共享链接更快下载资产文件的先决条件和故障排除步骤，请参阅[ Brand Portal 加速下载指南](../using/accelerated-download.md#main-pars-header)。
+如需了解从 Brand Portal 和共享链接更快下载资产文件的先决条件和故障排除步骤，请参阅[&#x200B; Brand Portal 加速下载指南](../using/accelerated-download.md#main-pars-header)。
 
 ### 用户登录报告
 
@@ -812,7 +812,7 @@ Brand Portal 6.4.1 是一个平台升级版本。 它引入了多项新功能和
 ![](assets/navigatereport.png)
 
 **修改了入口点以访问使用情况报告**
-使用情况报表现已与其他报表合并，现在可以从“资产报表”控制台中查看。 要进入资产报告控制台，请从管理工具面板导航至**创建/管理报告**。
+使用情况报表现已与其他报表合并，现在可以从“资产报表”控制台中查看。 要进入资产报告控制台，请从管理工具面板导航至&#x200B;**创建/管理报告**。
 
 ![](assets/accessassetreport.png)
 
@@ -845,7 +845,7 @@ Brand Portal 6.3.2 包含针对客户首要需求的新增功能和增强功能�
 
 根据用户是否已拥有 Adobe ID 还是需要创建 Adobe ID，用户可以遵循相应的工作流来提交请求。 Brand Portal 产品管理员会在其通知区域收到此类请求，并通过 Adobe Admin Console 授予访问权限。
 
-有关详细信息，请参阅[请求访问 Brand Portal ](../using/brand-portal.md#requestaccesstobrandportal)。
+有关详细信息，请参阅[请求访问 Brand Portal &#x200B;](../using/brand-portal.md#requestaccesstobrandportal)。
 
 ### 资产下载报告的增强功能 {#enhancement-in-the-assets-downloaded-report}
 
@@ -861,7 +861,7 @@ Brand Portal 现在会在即将进行的维护活动前几天显示通知横幅�
 
 ![](assets/bp_maintenance_notification-1.png)
 
-有关详细信息，请参阅[ Brand Portal 维护通知](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/introduction/brand-portal)。
+有关详细信息，请参阅[&#x200B; Brand Portal 维护通知](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/introduction/brand-portal)。
 
 ### 使用链接共享功能共享的许可资产的增强功能 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 
