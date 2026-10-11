@@ -6,30 +6,35 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+TQID: 'https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 0%
-
 ---
-
 # 共享收藏集 {#share-collections}
 
 收藏集表示存储在Adobe Experience Manager Assets Brand Portal中的一组相关资源。 用户可以通过[应用Omnisearch或Facet搜索来创建智能收藏集，以过滤掉相关资源](brand-portal-searching.md)并将其存储在一起，以便轻松访问并进一步与其他Brand Portal用户共享。
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
+收藏集将通过电子邮件作为链接共享。 有权访问共享链接的每个人均可打开收藏集。 但是，可以将共享的电子邮件转发给任何人。 此外，[共享链接](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是临时的，只能在有限的时间内访问。 或者，也可以邀请用户作为收藏集的永久成员。 收藏集具有以下类型的用户：
 
 * **管理员**&#x200B;可以与授权的Brand Portal用户共享或取消共享收藏集。 他们可以邀请其他用户加入某个特定的收藏集，并定义他们在该收藏集中的角色。 此外，管理员可以创建公共收藏集。
 

@@ -5,25 +5,31 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 2%
-
 ---
-
 # 在Brand Portal上共享文件夹 {#share-folders}
 
 由于Assets不支持资产摄取，因此需要从预配置的Experience Manager创作实例将Brand Portal发布到Brand Portal。
@@ -40,7 +46,7 @@ ht-degree: 2%
 
 ### 在Brand Portal上与用户组共享文件夹 {#sharing-folders-with-user-groups-on-brand-portal}
 
-文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/zh-hans/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
+文件夹资产的访问权限取决于其父文件夹的访问权限，而不管子文件夹的设置如何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)控制此行为，子文件夹从其父文件夹继承ACL。 例如，假设文件夹A包含文件夹B，其中包含文件夹C。然后，对文件夹A具有访问权限的用户组（或用户）对文件夹B和文件夹C也具有相同的访问权限。文件夹B是A的子文件夹，文件夹C是B的子文件夹，它继承了ACL。
 
 同样，仅有权访问文件夹B的用户组（或用户）对文件夹C而不是文件夹A具有相同的访问权限。Adobe建议组织内容，以便将最公开的资产放在子文件夹中，从而允许将子文件夹的访问权限限制为一直到根文件夹。
 
@@ -121,7 +127,7 @@ ht-degree: 2%
 
 1. 如果您不希望向用户显示默认名称，请在&#x200B;**[!UICONTROL 文件夹属性]**&#x200B;控制台的&#x200B;**[!UICONTROL 文件夹标题]**&#x200B;字段中指定文件夹标题。
 1. 从&#x200B;**[!UICONTROL 添加用户]**&#x200B;列表中，选择要与其共享文件夹的用户或组，然后单击&#x200B;**[!UICONTROL 添加]**。
-要仅与来宾用户共享文件夹，而不与其他用户共享，请从&#x200B;**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
+要仅与来宾用户共享文件夹，而不与其他用户共享，请从**[!UICONTROL 成员]**&#x200B;下拉列表中选择&#x200B;**[!UICONTROL 匿名用户]**。
 
    ![](assets/only-anonymous.png)
 
@@ -147,7 +153,7 @@ ht-degree: 2%
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**&#x200B;以确认取消共享。
-单击&#x200B;**[!UICONTROL 保存]**。
+1. 在警告消息框中，单击&#x200B;**[!UICONTROL 确认]**以确认取消共享。
+单击**[!UICONTROL 保存]**。
 
 1. 使用您从共享列表中删除的用户的凭据登录Brand Portal。 该文件夹在Brand Portal界面中不再可供用户使用。

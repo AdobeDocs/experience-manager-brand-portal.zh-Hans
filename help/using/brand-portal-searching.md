@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
+source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 # 在 Brand Portal 上搜索资产 {#search-assets-on-brand-portal}
 
 通过Brand Portal搜索功能，您可以使用Omnisearch快速搜索相关资源和使用过滤器的彩块化搜索帮助您进一步缩小搜索范围。 您可以在文件或文件夹级别搜索资产，并将搜索结果另存为智能收藏集。
@@ -70,7 +77,7 @@ ht-degree: 3%
 Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal中的“筛选器”面板")
 
 **[!UICONTROL 筛选器]**&#x200B;面板包含几个标准Facet，如 — **[!UICONTROL 路径浏览器]**、**[!UICONTROL 文件类型]**、**[!UICONTROL 文件大小]**、**[!UICONTROL 状态]**&#x200B;和&#x200B;**[!UICONTROL 方向]**。
-但是，您可以[添加自定义搜索彩块化](../using/brand-portal-search-facets.md)或从&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中删除特定彩块化。 只需编辑基础搜索表单中的谓词。 查看Brand Portal[&#128279;](../using/brand-portal-search-facets.md#list-of-search-predicates)上可用的搜索谓词列表。
+但是，您可以[添加自定义搜索彩块化](../using/brand-portal-search-facets.md)或从&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中删除特定彩块化。 只需编辑基础搜索表单中的谓词。 查看Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates)上可用的[搜索谓词列表。
 
 要使用可用的[搜索Facet](../using/brand-portal-search-facets.md)将筛选器应用于搜索，请执行以下操作：
 
@@ -78,7 +85,7 @@ Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal�
 
    ![](assets/selectorrail.png)
 
-1. 从左侧的&#x200B;**[!UICONTROL 筛选器]**&#x200B;面板中选择适当的选项以应用相关筛选器。
+1. 从左侧的&#x200B;**[!UICONTROL 筛选器]**面板中选择适当的选项以应用相关筛选器。
 例如，使用以下标准过滤器：
 
    * **[!UICONTROL 路径浏览器]**&#x200B;以搜索特定目录中的资产。 路径浏览器的谓词的默认搜索路径为`/content/dam/mac/<tenant-id>/`，可通过编辑默认搜索表单对其进行配置。
@@ -103,7 +110,7 @@ Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal�
      [!UICONTROL 属性谓词]支持以下内容的文本搜索：
 
      **部分短语**
-要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用&#x200B;**[!UICONTROL 部分搜索]**&#x200B;复选框。 通过此方法，您可以搜索所需的资源，即使您未指定资源元数据中使用的确切单词或短语。
+     要允许使用属性谓词中的部分短语进行资产搜索，请在“搜索表单”中启用**[!UICONTROL 部分搜索]**&#x200B;复选框。 通过此方法，您可以搜索所需的资源，即使您未指定资源元数据中使用的确切单词或短语。
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Brand Portal中的![筛选器面板](assets/file-type-search.png "Brand Portal�
      >* `jcr:content/metadata/dc:format`
 
      您可以：
-      * 在“过滤器”面板的Facet中，指定出现在搜索短语中的单词。 例如，如果您搜索术语&#x200B;**climb**（并且属性谓词映射到`dc:title`属性），则返回其标题短语中包含单词&#x200B;**climb**&#x200B;的所有资产。
-      * 指定搜索短语中出现的单词的一部分，并使用通配符(&#42;)填补空白。
-例如，搜索：
-         * **climb&#42;**&#x200B;返回其标题短语中含有以“climb”开头的单词的所有资产。
-         * **&#42;climb**&#x200B;返回标题短语中单词以“climb”结尾的所有资产。
-         * **&#42;climb&#42;**&#x200B;返回其标题短语中包含字符“climb”的所有资产。
+     * 在“过滤器”面板的Facet中，指定出现在搜索短语中的单词。 例如，如果您搜索术语&#x200B;**climb**（并且属性谓词映射到`dc:title`属性），则返回其标题短语中包含单词&#x200B;**climb**&#x200B;的所有资产。
+     * 指定搜索短语中出现的单词的一部分，并使用通配符(&#42;)填补空白。
+       例如，搜索：
+       * **climb&#42;**&#x200B;返回其标题短语中含有以“climb”开头的单词的所有资产。
+       * **&#42;climb**&#x200B;返回标题短语中单词以“climb”结尾的所有资产。
+       * **&#42;climb&#42;**&#x200B;返回其标题短语中包含字符“climb”的所有资产。
 
      **不区分大小写的文本**
-您可以在属性谓词中允许不区分大小写的搜索。 只需启用“搜索表单”中的&#x200B;**[!UICONTROL 忽略大小写]**&#x200B;复选框。 默认情况下，属性谓词中的文本搜索区分大小写。
+     您可以在属性谓词中允许不区分大小写的搜索。 只需启用“搜索表单”中的**[!UICONTROL 忽略大小写]**&#x200B;复选框。 默认情况下，属性谓词中的文本搜索区分大小写。
 
    >[!NOTE]
    >
