@@ -42,7 +42,7 @@ ht-degree: 12%
 
 ![Brand Portal资源源](assets/asset-sourcing.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/32892/?captions=chi_hans&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ## 先决条件 {#prerequisites}
 
@@ -132,7 +132,7 @@ Experience Manager Assets管理员可以上传包含Experience Manager Assets中
 1. 从[!UICONTROL 工具]面板中，导航到&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal用户]**。
 
 1. 将打开Brand Portal上传参与者窗口。
-从本地计算机中浏览并上传包含活动Brand Portal用户列表的&#x200B;**配置(.csv)文件**。
+从本地计算机中浏览并上传包含活动Brand Portal用户列表的**配置(.csv)文件**。
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
    ![](assets/upload-user-list2.png)
